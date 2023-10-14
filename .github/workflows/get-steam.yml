@@ -1,0 +1,34 @@
+name: Fetch Steam Profile
+
+on:
+  push:
+    branches:
+      - main # Set a branch name to trigger deployment
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Steam Fetch
+        id: steam
+        uses: quantum-pi/Action-SteamAPI@v1
+        with:
+          steamid: '76561198069744679'
+          apikey: ${{ secrets.STEAM_API }}
+
+      - name: Write Output
+        run: |
+          echo "${{ steps.steam.outputs.json }}" > static/data.json
+
+          git config --global user.email "no-reply@github.com"
+          git config --global user.name "GitHub Actions"
+          git add static/data.json
+          git commit -m "Update steam profile"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git push
