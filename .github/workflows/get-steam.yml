@@ -17,18 +17,18 @@ jobs:
 
       - name: Steam Fetch
         id: steam
-        uses: quantum-pi/Action-SteamAPI@v1.7.0
+        uses: quantum-pi/Action-SteamAPI@v1.8.0
         with:
           steamid: '76561198069744679'
           apikey: ${{ secrets.STEAM_API }}
 
       - name: Write Output
         run: |
-          echo "${{ steps.steam.outputs.json }}" > static/data.ts
+          echo "${{ steps.steam.outputs.json }}" > src/lib/profile.ts
 
           git config --global user.email "no-reply@github.com"
           git config --global user.name "GitHub Actions"
-          git add static/data.ts
+          git add src/lib/profile.ts
           git commit -m "Update steam profile"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git push
