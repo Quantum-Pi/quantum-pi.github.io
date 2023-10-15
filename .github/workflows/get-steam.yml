@@ -28,7 +28,7 @@ jobs:
 
           git config --global user.email "no-reply@github.com"
           git config --global user.name "GitHub Actions"
-          git add static/data.json
+          git add static/data.ts
           git commit -m "Update steam profile"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git push
