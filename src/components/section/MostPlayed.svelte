@@ -10,9 +10,22 @@
 
 <div class="flex flex-col items-center p-8 text-white">
 	<div class="text-4xl mb-8">Most Played</div>
-	<div class="grid grid-cols-2 lg:grid-cols-3 gap-8">
-		{#each mostPlayed as game}
-			<Game {game} />
+	<div id="game-grid" class="grid gap-8">
+		{#each mostPlayed as game, i}
+			<div style={`grid-area: ${String.fromCharCode(97 + i)}`}>
+				<Game {game} show2Weeks={false} />
+			</div>
 		{/each}
 	</div>
 </div>
+
+<style>
+	#game-grid {
+		grid-template-columns: repeat(6, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+		grid-template-areas:
+			'. . a a . .'
+			'. b b c c .'
+			'd d e e f f';
+	}
+</style>
