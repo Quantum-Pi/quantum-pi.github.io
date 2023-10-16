@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { profile } from '$lib/profile';
 	export let game: (typeof profile.games)[0];
+	export let show2Weeks = true;
 </script>
 
 <a
@@ -19,10 +20,10 @@
 			<div>
 				<div class="h4">Playtime</div>
 				<div class="h5">
-					{#if game.playtime_2weeks}
+					{#if show2Weeks && game.playtime_2weeks}
 						<div class="">2 weeks: {(game.playtime_2weeks / 60).toFixed(1)}h</div>
 					{/if}
-					<div class="">total: {(game.playtime / 60).toFixed(1)}h</div>
+					<div class="">{show2Weeks ? 'total: ' : ''} {(game.playtime / 60).toFixed(1)}h</div>
 				</div>
 			</div>
 			<div>
@@ -35,10 +36,22 @@
 	</div>
 	<hr class="opacity-50" />
 	<footer class="flex items-center space-x-4 p-2">
-		<img
-			src={`http://media.steampowered.com/steamcommunity/public/images/apps/${game.appid}/${game.icon_url}.jpg`}
-			alt={`${game.name} icon`}
-		/>
+		<div class="game-icon">
+			<img
+				src={`http://media.steampowered.com/steamcommunity/public/images/apps/${game.appid}/${game.icon_url}.jpg`}
+				alt={`${game.name} icon`}
+			/>
+		</div>
 		<div>Last played {new Date(game.last_played * 1000).toLocaleDateString('en-US')}</div>
 	</footer>
 </a>
+
+<style>
+	.game-icon {
+		background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+	}
+
+	.game-icon > img {
+		mix-blend-mode: lighten;
+	}
+</style>
