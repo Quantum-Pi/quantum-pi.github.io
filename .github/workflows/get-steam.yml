@@ -2,10 +2,10 @@ name: Fetch Steam Profile
 
 on:
   schedule:
-    - cron: '0 0 * * 1'
+    - cron: '59 23 * * 0,3,5'
 
 jobs:
-  deploy:
+  fetch:
     runs-on: ubuntu-22.04
     permissions:
       contents: write
