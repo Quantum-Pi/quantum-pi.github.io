@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@iconify/json': ^2.2.129
+  '@savvywombat/tailwindcss-grid-areas': ^3.1.0
   '@skeletonlabs/skeleton': ^2.3.0
   '@skeletonlabs/tw-plugin': ^0.2.2
   '@sveltejs/adapter-auto': ^2.0.0
@@ -28,6 +29,7 @@ specifiers:
 
 devDependencies:
   '@iconify/json': 2.2.129
+  '@savvywombat/tailwindcss-grid-areas': 3.1.0_tailwindcss@3.3.3
   '@skeletonlabs/skeleton': 2.3.0_svelte@4.2.1
   '@skeletonlabs/tw-plugin': 0.2.2_tailwindcss@3.3.3
   '@sveltejs/adapter-auto': 2.1.0_@sveltejs+kit@1.25.2
@@ -420,6 +422,16 @@ packages:
 
   /@polka/url/1.0.0-next.23:
     resolution: {integrity: sha512-C16M+IYz0rgRhWZdCmK+h58JMv8vijAA61gmz2rspCSwKwzBebpdcsiUmwrtJRdphuY30i6BSLEOP8ppbNLyLg==}
+    dev: true
+
+  /@savvywombat/tailwindcss-grid-areas/3.1.0_tailwindcss@3.3.3:
+    resolution: {integrity: sha512-CaNoCS7Zr3OeDDhCSXXU7dnqYjehdjNmDy6NdFxkLAyDcxA8YTI3rjPm6X+bTWyYINHXr+RONG3UKWrSv2UYSw==}
+    engines: {node: '>=14.18.2'}
+    peerDependencies:
+      tailwindcss: ^3.0.1
+    dependencies:
+      lodash: 4.17.21
+      tailwindcss: 3.3.3
     dev: true
 
   /@skeletonlabs/skeleton/2.3.0_svelte@4.2.1:
@@ -1603,6 +1615,10 @@ packages:
 
   /lodash.merge/4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
+    dev: true
+
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
     dev: true
 
   /lru-cache/6.0.0:

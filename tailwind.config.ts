@@ -10,12 +10,29 @@ const config = {
 		join(require.resolve('@skeletonlabs/skeleton'), '../**/*.{html,js,svelte,ts}')
 	],
 	theme: {
-		extend: {}
+		extend: {
+			gridTemplateAreas: {
+				'pyramid-lg': ['. . a a . .', '. b b c c .', 'd d e e f f'],
+				'pyramid-md': ['a b', 'c d', 'e f'],
+				'pyramid-sm': ['a', 'b', 'c', 'd', 'e', 'f']
+			},
+			gridTemplateColumns: {
+				'pyramid-lg': 'repeat(6, 1fr)',
+				'pyramid-md': 'repeat(2, 1fr)',
+				'pyramid-sm': 'repeat(1, 1fr)'
+			},
+			gridTemplateRows: {
+				'pyramid-lg': 'repeat(3, 1fr)',
+				'pyramid-md': 'repeat(4, 1fr)',
+				'pyramid-sm': 'repeat(6, 1fr)'
+			}
+		}
 	},
 	plugins: [
 		skeleton({
 			themes: { preset: ['skeleton'] }
-		})
+		}),
+		require('@savvywombat/tailwindcss-grid-areas')
 	]
 } satisfies Config;
 
