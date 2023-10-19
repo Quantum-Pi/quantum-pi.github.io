@@ -6,9 +6,13 @@
 	import BattleNet from 'virtual:icons/fa6-brands/battle-net';
 	import Reddit from 'virtual:icons/fa6-brands/reddit-alien';
 	import YouTube from 'virtual:icons/fa6-brands/youtube';
+
+	const hoursPlayed = (
+		profile.games.reduce((prev, { playtime }) => prev + playtime, 0) / 60
+	).toLocaleString('en-US', { maximumFractionDigits: 1 });
 </script>
 
-<div class="grid grid-cols-2 p-24 text-white">
+<div class="grid grid-cols-1 md:grid-cols-2 p-24 gap-y-4 text-white">
 	<div class="flex flex-col items-center">
 		<img
 			src={`https://avatars.steamstatic.com/${profile.avatar}`}
@@ -16,6 +20,9 @@
 			class="rounded-full w-36 border-black border-4"
 		/>
 		<div class="ml-2 text-5xl">{profile.username}</div>
+		<div class="mt-1">
+			{hoursPlayed} hours played across {profile.games.length} games
+		</div>
 	</div>
 	<div class="flex flex-col justify-center items-center gap-4">
 		<div class="text-xl">Socials:</div>
@@ -39,5 +46,4 @@
 			</a>
 		</div>
 	</div>
-	<div />
 </div>
