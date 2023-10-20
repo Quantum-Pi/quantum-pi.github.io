@@ -20,7 +20,7 @@
 			class="rounded-full w-36 border-black border-4"
 		/>
 		<div class="ml-2 text-5xl">{profile.username}</div>
-		<div class="mt-1">
+		<div class="mt-2 text-center">
 			{hoursPlayed} hours played across {profile.games.length} games
 		</div>
 	</div>
