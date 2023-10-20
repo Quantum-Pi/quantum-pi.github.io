@@ -2,7 +2,20 @@
 	import { profile, type Profile } from '$lib/profile';
 	import Game from '../Game.svelte';
 
-	const perfectGames = profile.games
+	const gamesWithAchievements = profile.games.filter(
+		(game) => game.achievements !== undefined && game.achievements.length > 0
+	);
+
+	console.log(
+		gamesWithAchievements
+			.sort((a, b) => b.playtime - a.playtime)
+			.map((game) => ({
+				...game,
+				achievements: game.achievements?.sort((a, b) => a.percent - b.percent)
+			}))
+	);
+
+	const perfectGames = gamesWithAchievements
 		.filter((game) => game.achievements && game.num_achievements === game.achievements?.length)
 		.sort((a, b) => (b.achievements?.length ?? 0) - (a.achievements?.length ?? 0));
 
