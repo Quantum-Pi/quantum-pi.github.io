@@ -16,7 +16,7 @@ jobs:
 
       - name: Steam Fetch
         id: steam
-        uses: quantum-pi/Action-SteamAPI@v1.9.0
+        uses: quantum-pi/Action-SteamAPI@v2.0.0
         with:
           steamid: '76561198069744679'
           apikey: ${{ secrets.STEAM_API }}
