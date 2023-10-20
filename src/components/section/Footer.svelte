@@ -60,8 +60,9 @@
 			<a
 				class="transition-all hover:text-blue-400"
 				title="Genshin Impact"
-				href="https://act.hoyolab.com/app/community-game-records-sea/index.html?bbs_presentation_style=fullscreen&bbs_auth_required=true&gid=2&user_id=41199855&utm_source=share&utm_medium=link&lang=en-us&bbs_theme=dark&bbs_theme_device=1&utm_campaign=web#/ys"
+				href="https://enka.network/u/605452914/"
 			>
+				<!-- href="https://act.hoyolab.com/app/community-game-records-sea/index.html?bbs_presentation_style=fullscreen&bbs_auth_required=true&gid=2&user_id=41199855&utm_source=share&utm_medium=link&lang=en-us&bbs_theme=dark&bbs_theme_device=1&utm_campaign=web#/ys" -->
 				<Genshin />
 			</a>
 			<a
