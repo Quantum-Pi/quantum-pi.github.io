@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 @layer components {
-    .filter-white {
-        filter: brightness(0) invert(1);
-    }
+	.filter-white {
+		filter: brightness(0) invert(1);
+	}
 
-    .filter-none {
-        filter: none;
-    }
+	.filter-none {
+		filter: none;
+	}
 }
