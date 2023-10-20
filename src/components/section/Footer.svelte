@@ -5,15 +5,20 @@
 	import Discord from 'virtual:icons/fa6-brands/discord';
 	import BattleNet from 'virtual:icons/fa6-brands/battle-net';
 	import Reddit from 'virtual:icons/fa6-brands/reddit-alien';
+	import Twitch from 'virtual:icons/fa6-brands/twitch';
 	import YouTube from 'virtual:icons/fa6-brands/youtube';
+	import Genshin from 'virtual:icons/arcticons/genshin-assistant';
+	import WoW from '../svg/WoW.svelte';
 
 	const hoursPlayed = (
 		profile.games.reduce((prev, { playtime }) => prev + playtime, 0) / 60
 	).toLocaleString('en-US', { maximumFractionDigits: 1 });
 </script>
 
-<div class="grid grid-cols-1 md:grid-cols-2 p-24 gap-y-4 text-white">
-	<div class="flex flex-col items-center">
+<div
+	class="grid grid-areas-footer sm:grid-areas-footer-sm md:grid-areas-footer-md p-24 gap-y-4 gap-x-12 text-white"
+>
+	<div class="grid-in-a flex flex-col items-center">
 		<img
 			src={`https://avatars.steamstatic.com/${profile.avatar}`}
 			alt="pfp"
@@ -24,9 +29,9 @@
 			{hoursPlayed} hours played across {profile.games.length} games
 		</div>
 	</div>
-	<div class="flex flex-col justify-center items-center gap-4">
+	<div class="grid-in-b flex flex-col md:justify-center items-center gap-4">
 		<div class="text-xl">Socials:</div>
-		<div class="grid grid-cols-3 gap-4 text-3xl text-white">
+		<div class="grid grid-cols-3 grid-rows-2 gap-4 text-3xl text-white">
 			<a class="transition-all hover:text-purple-600" href="https://github.com/Quantum-Pi">
 				<GitHub />
 			</a>
@@ -43,6 +48,28 @@
 				href="https://www.youtube.com/channel/UCkSJ8-WQSbrZDNgRyeT6THA"
 			>
 				<YouTube />
+			</a>
+			<a class="transition-all hover:text-purple-600" href="https://www.twitch.tv/quantumpie_">
+				<Twitch />
+			</a>
+		</div>
+	</div>
+	<div class="grid-in-c flex flex-col md:justify-center items-center gap-4">
+		<div class="text-xl">Games:</div>
+		<div class="grid grid-cols-3 grid-rows-2 gap-4 text-3xl text-white">
+			<a
+				class="transition-all hover:text-blue-400"
+				title="Genshin Impact"
+				href="https://act.hoyolab.com/app/community-game-records-sea/index.html?bbs_presentation_style=fullscreen&bbs_auth_required=true&gid=2&user_id=41199855&utm_source=share&utm_medium=link&lang=en-us&bbs_theme=dark&bbs_theme_device=1&utm_campaign=web#/ys"
+			>
+				<Genshin />
+			</a>
+			<a
+				class="transition-all filter-white hover:filter-none"
+				title="World of Warcraft"
+				href="https://worldofwarcraft.blizzard.com/en-us/character/us/illidan/quantumpie"
+			>
+				<WoW />
 			</a>
 		</div>
 	</div>
