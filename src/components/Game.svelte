@@ -2,6 +2,9 @@
 	import type { profile } from '$lib/profile';
 	export let game: (typeof profile.games)[0];
 	export let show2Weeks = true;
+	export let showRareAchievement = false;
+
+	const rareAchievement = game.achievements?.sort((a, b) => a.percent - b.percent)[0];
 </script>
 
 <a
@@ -34,6 +37,23 @@
 			</div>
 		</div>
 	</div>
+	{#if showRareAchievement && rareAchievement}
+		<div class="flex gap-4 justify-center items-center m-2">
+			<img
+				class="w-16 h-16 border-gray-600 border-2"
+				src={`https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/${game.appid}/${rareAchievement.icon}`}
+				alt={`Achievement icon for ${rareAchievement.name}`}
+			/>
+			<div class="flex flex-col justify-center">
+				<div>
+					{rareAchievement.name} ({rareAchievement.percent}%)
+				</div>
+				<div class="text-gray-400 text-sm">
+					{rareAchievement.description}
+				</div>
+			</div>
+		</div>
+	{/if}
 	<hr class="opacity-50" />
 	<footer class="flex items-center space-x-4 p-2">
 		<div class="game-icon">
