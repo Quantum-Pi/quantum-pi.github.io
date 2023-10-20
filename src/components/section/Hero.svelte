@@ -3,7 +3,9 @@
 </script>
 
 <div id="background" />
-<div class="absolute top-0 left-0 w-screen h-screen flex justify-center items-center">
+<div
+	class="absolute top-0 left-0 w-screen h-screen flex justify-center items-center flex-col sm:flex-row"
+>
 	<img
 		src={`https://avatars.steamstatic.com/${profile.avatar}`}
 		alt="pfp"
