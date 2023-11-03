@@ -58,7 +58,7 @@
 	<footer class="flex items-center space-x-4 p-2">
 		<div class="game-icon">
 			<img
-				src={`http://media.steampowered.com/steamcommunity/public/images/apps/${game.appid}/${game.icon_url}.jpg`}
+				src={`https://media.steampowered.com/steamcommunity/public/images/apps/${game.appid}/${game.icon_url}.jpg`}
 				alt={`${game.name} icon`}
 			/>
 		</div>
