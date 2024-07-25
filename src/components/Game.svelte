@@ -1,8 +1,12 @@
 <script lang="ts">
 	import type { profile } from '$lib/profile';
+	import { getGame } from '$lib/cache';
+	import { isEnhancedImage } from '$lib';
 	export let game: (typeof profile.games)[0];
 	export let show2Weeks = true;
 	export let showRareAchievement = false;
+
+	const bannerImg = getGame(game.appid);
 
 	const rareAchievement = game.achievements?.sort((a, b) => a.percent - b.percent)[0];
 </script>
@@ -12,10 +16,11 @@
 	class="card card-hover flex flex-col text-white bg-gray-800"
 >
 	<header>
-		<img
-			src={`https://cdn.cloudflare.steamstatic.com/steam/apps/${game.appid}/header.jpg`}
-			alt={`${game.name} header image`}
-		/>
+		{#if isEnhancedImage(bannerImg)}
+			<enhanced:img src={bannerImg} alt={`${game.name} header image`} />
+		{:else}
+			<img src={bannerImg} alt={`${game.name} header image`} />
+		{/if}
 	</header>
 	<div class="p-4 space-y-4 h-full flex flex-col justify-between">
 		<div class="h3 lg:h4">{game.name}</div>

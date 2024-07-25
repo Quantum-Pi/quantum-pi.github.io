@@ -6,14 +6,14 @@
 		(game) => game.achievements !== undefined && game.achievements.length > 0
 	);
 
-	console.log(
-		gamesWithAchievements
-			.sort((a, b) => b.playtime - a.playtime)
-			.map((game) => ({
-				...game,
-				achievements: game.achievements?.sort((a, b) => a.percent - b.percent)
-			}))
-	);
+	// console.log(
+	// 	gamesWithAchievements
+	// 		.sort((a, b) => b.playtime - a.playtime)
+	// 		.map((game) => ({
+	// 			...game,
+	// 			achievements: game.achievements?.sort((a, b) => a.percent - b.percent)
+	// 		}))
+	// );
 
 	const perfectGames = gamesWithAchievements
 		.filter((game) => game.achievements && game.num_achievements === game.achievements?.length)

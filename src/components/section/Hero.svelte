@@ -1,14 +1,15 @@
 <script lang="ts">
+	import { isEnhancedImage } from '$lib';
+	import { getProfilePicture } from '$lib/cache';
 	import { profile } from '$lib/profile';
-	// import BgImage from '../../assets/bg.png?enhanced';
+
+	const pfp = getProfilePicture(profile.avatar);
 
 	let innerWidth = 0;
 	let innerHeight = 0;
 
 	$: isLandscape = innerWidth >= innerHeight;
 </script>
-
-<!-- <div class="relative"> -->
 
 <svelte:window bind:innerWidth bind:innerHeight />
 
@@ -31,27 +32,11 @@
 	<div
 		class="absolute top-0 left-0 w-full h-screen flex justify-center items-center flex-col sm:flex-row"
 	>
-		<img
-			src={`https://avatars.steamstatic.com/${profile.avatar}`}
-			alt="pfp"
-			class="rounded-full w-52 border-black border-4"
-		/>
+		{#if isEnhancedImage(pfp)}
+			<enhanced:img src={pfp} alt="pfp" class="rounded-full w-52 border-black border-4" />
+		{:else}
+			<img src={pfp} alt="pfp" class="rounded-full w-52 border-black border-4" />
+		{/if}
 		<div class="ml-2 text-6xl text-white">{profile.username}</div>
 	</div>
 </div>
-
-<!-- </div> -->
-
-<style>
-	.background img {
-		position: relative;
-		/* background-image: url(/bg.png);
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat; */
-		/* width: 100vw; */
-		object-fit: cover;
-		width: min(auto, 100vw);
-		height: 102vh;
-	}
-</style>
