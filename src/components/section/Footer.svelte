@@ -68,7 +68,7 @@
 			<a
 				class="transition-all filter-white hover:filter-none"
 				title="World of Warcraft"
-				href="https://worldofwarcraft.blizzard.com/en-us/character/us/illidan/quantumpie"
+				href="https://worldofwarcraft.blizzard.com/en-us/character/us/area-52/quantumpie"
 			>
 				<WoW />
 			</a>
