@@ -32,12 +32,17 @@
 	<div class="grid-in-b flex flex-col md:justify-center items-center gap-4">
 		<div class="text-xl">Socials:</div>
 		<div class="grid grid-cols-3 grid-rows-2 gap-4 text-3xl text-white">
-			<a class="transition-all hover:text-purple-600" href="https://github.com/Quantum-Pi">
+			<a
+				class="transition-all hover:text-purple-600"
+				href="https://github.com/Quantum-Pi"
+				aria-label="View QuantumPie's GitHub"
+			>
 				<GitHub />
 			</a>
 			<a
 				class="transition-all hover:text-blue-900"
 				href="https://steamcommunity.com/id/QuantumPie/"
+				aria-label="View QuantumPie's Steam"
 			>
 				<Steam />
 			</a>
@@ -46,10 +51,15 @@
 			<a
 				class="transition-all hover:text-red-700"
 				href="https://www.youtube.com/channel/UCkSJ8-WQSbrZDNgRyeT6THA"
+				aria-label="View QuantumPie's YouTube"
 			>
 				<YouTube />
 			</a>
-			<a class="transition-all hover:text-purple-600" href="https://www.twitch.tv/quantumpie_">
+			<a
+				class="transition-all hover:text-purple-600"
+				href="https://www.twitch.tv/quantumpie_"
+				aria-label="View QuantumPie's Twitch"
+			>
 				<Twitch />
 			</a>
 		</div>
@@ -61,6 +71,7 @@
 				class="transition-all hover:text-blue-400"
 				title="Genshin Impact"
 				href="https://enka.network/u/605452914/"
+				aria-label="View QuantumPie's Genshin banner"
 			>
 				<!-- href="https://act.hoyolab.com/app/community-game-records-sea/index.html?bbs_presentation_style=fullscreen&bbs_auth_required=true&gid=2&user_id=41199855&utm_source=share&utm_medium=link&lang=en-us&bbs_theme=dark&bbs_theme_device=1&utm_campaign=web#/ys" -->
 				<Genshin />
@@ -69,6 +80,7 @@
 				class="transition-all filter-white hover:filter-none"
 				title="World of Warcraft"
 				href="https://worldofwarcraft.blizzard.com/en-us/character/us/area-52/quantumpie"
+				aria-label="View QuantumPie's WoW main"
 			>
 				<WoW />
 			</a>
