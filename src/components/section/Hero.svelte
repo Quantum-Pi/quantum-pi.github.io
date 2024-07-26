@@ -27,9 +27,9 @@
 		class="absolute top-0 left-0 w-full h-screen flex justify-center items-center flex-col sm:flex-row"
 	>
 		{#if isEnhancedImage(pfp)}
-			<enhanced:img src={pfp} alt="pfp" class="rounded-full w-52 border-black border-4" />
+			<enhanced:img src={pfp} alt="pfp" class="rounded-full w-[184px] border-black border-4" />
 		{:else}
-			<img src={pfp} alt="pfp" class="rounded-full w-52 border-black border-4" />
+			<img src={pfp} alt="pfp" class="rounded-full w-[184px] border-black border-4" />
 		{/if}
 		<div class="ml-2 text-6xl text-white">{profile.username}</div>
 	</div>
