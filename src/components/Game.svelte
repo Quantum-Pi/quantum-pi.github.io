@@ -33,7 +33,7 @@
 				<div class="h4">Playtime</div>
 				<div class="h5">
 					{#if show2Weeks && game.playtime_2weeks}
-						2 weeks: {(game.playtime_2weeks / 60).toFixed(1)}h
+						2 weeks: {(game.playtime_2weeks / 60).toFixed(1)}h <br />
 					{/if}
 					{show2Weeks ? 'total: ' : ''}
 					{(game.playtime / 60).toFixed(1)}h
