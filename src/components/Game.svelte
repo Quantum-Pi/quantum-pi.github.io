@@ -1,8 +1,11 @@
 <script lang="ts">
-	import type { profile } from '$lib/profile';
 	import { getGame } from '$lib/cache';
 	import { isEnhancedImage } from '$lib';
-	export let game: (typeof profile.games)[0];
+	import { recentGames } from '$lib/profile_agg';
+
+	type Game = (typeof recentGames)[0];
+
+	export let game: Game;
 	export let show2Weeks = true;
 	export let showRareAchievement = false;
 
@@ -29,9 +32,10 @@
 				<div class="h4">Playtime</div>
 				<div class="h5">
 					{#if show2Weeks && game.playtime_2weeks}
-						<div class="">2 weeks: {(game.playtime_2weeks / 60).toFixed(1)}h</div>
+						2 weeks: {(game.playtime_2weeks / 60).toFixed(1)}h
 					{/if}
-					<div class="">{show2Weeks ? 'total: ' : ''} {(game.playtime / 60).toFixed(1)}h</div>
+					{show2Weeks ? 'total: ' : ''}
+					{(game.playtime / 60).toFixed(1)}h
 				</div>
 			</div>
 			<div>

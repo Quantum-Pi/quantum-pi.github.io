@@ -1,11 +1,6 @@
 <script lang="ts">
-	import { profile } from '$lib/profile';
+	import { mostPlayed } from '$lib/profile_agg';
 	import Game from '../Game.svelte';
-
-	let mostPlayed = profile.games.sort((a, b) => (b.playtime ?? 0) - (a.playtime ?? 0));
-	if (mostPlayed.length > 6) {
-		mostPlayed = mostPlayed.slice(0, 6);
-	}
 </script>
 
 <div class="flex flex-col items-center p-8 text-white">

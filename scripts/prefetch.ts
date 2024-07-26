@@ -1,4 +1,4 @@
-import { profile } from '../src/lib/profile';
+import { profile } from '../data/profile_raw';
 import axios from 'axios';
 import { createWriteStream, existsSync, writeFileSync } from 'fs';
 
@@ -54,15 +54,6 @@ const profilePicPromises = await Promise.all(profile.friends.map(friend => {
     }
 }));
 
-if (!savedAvatars[profile.avatar]) {
-    const url = `https://avatars.steamstatic.com/${profile.avatar}`;
-    const path = `src/assets/profile_pictures/${profile.avatar}`;
-    profilePics.push({ profile: profile.avatar, path, hash: hash() })
-    if (!existsSync(path)) {
-        await downloadImage(url, path)
-    }
-}
-
 console.log(`Fetched ${gamePromises.filter(path => path != undefined).length} new games`)
 console.log(`Fetched ${profilePicPromises.filter(path => path != undefined).length} new profile pictures`)
 
@@ -80,7 +71,7 @@ const getGame = (appId: number) => {
 }
 export { getGame }`
 
-const profilePicImports = `${profilePics.map(profile => `import ${profile.hash} from '../assets/profile_pictures/${profile.profile}?enhanced&format=webp'`).join('\n')}
+const profilePicImports = `${profilePics.map(profile => `import ${profile.hash} from '../assets/profile_pictures/${profile.profile}?enhanced&format=webp&w=64;128;200'`).join('\n')}
 
 const pfpDict: Record<string, Picture> = {
 ${profilePics.map(profile => `\t"${profile.profile}": ${profile.hash}`).join(',\n')}

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { profile } from '$lib/profile';
+	import { profile } from '$lib/profile_agg';
 	import GitHub from 'virtual:icons/fa6-brands/github';
 	import Steam from 'virtual:icons/fa6-brands/steam';
 	import Discord from 'virtual:icons/fa6-brands/discord';
@@ -10,9 +10,7 @@
 	import Genshin from 'virtual:icons/arcticons/genshin-assistant';
 	import WoW from '../svg/WoW.svelte';
 
-	const hoursPlayed = (
-		profile.games.reduce((prev, { playtime }) => prev + playtime, 0) / 60
-	).toLocaleString('en-US', { maximumFractionDigits: 1 });
+	const hoursPlayed = profile.hoursPlayed.toLocaleString('en-US', { maximumFractionDigits: 1 });
 </script>
 
 <div
@@ -26,7 +24,7 @@
 		/>
 		<div class="ml-2 text-5xl">{profile.username}</div>
 		<div class="mt-2 text-center">
-			{hoursPlayed} hours played across {profile.games.length} games
+			{hoursPlayed} hours played across {profile.gamesOwned} games
 		</div>
 	</div>
 	<div class="grid-in-b flex flex-col md:justify-center items-center gap-4">

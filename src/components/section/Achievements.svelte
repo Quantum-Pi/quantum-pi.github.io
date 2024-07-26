@@ -1,10 +1,6 @@
 <script lang="ts">
-	import { profile, type Profile } from '$lib/profile';
+	import { perfectGames } from '$lib/profile_agg';
 	import Game from '../Game.svelte';
-
-	const gamesWithAchievements = profile.games.filter(
-		(game) => game.achievements !== undefined && game.achievements.length > 0
-	);
 
 	// console.log(
 	// 	gamesWithAchievements
@@ -14,10 +10,6 @@
 	// 			achievements: game.achievements?.sort((a, b) => a.percent - b.percent)
 	// 		}))
 	// );
-
-	const perfectGames = gamesWithAchievements
-		.filter((game) => game.achievements && game.num_achievements === game.achievements?.length)
-		.sort((a, b) => (b.achievements?.length ?? 0) - (a.achievements?.length ?? 0));
 
 	// type Achievement = NonNullable<Profile['games'][0]['achievements']>;
 	// const rarestAchievements = profile.games

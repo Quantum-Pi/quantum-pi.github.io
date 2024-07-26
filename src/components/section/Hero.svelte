@@ -1,33 +1,34 @@
 <script lang="ts">
 	import { isEnhancedImage } from '$lib';
 	import { getProfilePicture } from '$lib/cache';
-	import { profile } from '$lib/profile';
+	import { profile } from '$lib/profile_agg';
+	import HeroDesktop from '../../assets/bg-desktop.png?enhanced&w=2000;1600;1280&blur=1.25&effort=max&fit=cover&format=webp';
+	import HeroMobile from '../../assets/bg-mobile.png?enhanced&w=1600;1280;640&blur=1.25&effort=max&fit=cover&format=webp';
 
 	const pfp = getProfilePicture(profile.avatar);
 
-	let innerWidth = 0;
-	let innerHeight = 0;
+	// let innerWidth = 0;
+	// let innerHeight = 0;
 
-	$: isLandscape = innerWidth >= innerHeight;
+	// $: isLandscape = innerWidth >= innerHeight;
 </script>
 
-<svelte:window bind:innerWidth bind:innerHeight />
+<!-- <svelte:window bind:innerWidth bind:innerHeight /> -->
 
 <div>
 	<div class="background">
-		{#if isLandscape}
-			<enhanced:img
-				src="../../assets/bg-desktop.png?w=2000;1600;1280&blur=1.25&effort=max&fit=cover&format=webp"
-				sizes="(min-width:2560px) 2000px, (min-width:1920px) 1600px, (min-width:1080px) 1280px"
-				alt="Background image"
-			/>
-		{:else}
-			<enhanced:img
-				src="../../assets/bg-mobile.png?w=1600;1280;640&blur=1.25&effort=max&fit=cover&format=webp"
-				sizes="(min-width:1440px) 1600px, (min-width:1080) 1280px, (min-width:750px) 640px"
-				alt="Background image"
-			/>
-		{/if}
+		<enhanced:img
+			src={HeroDesktop}
+			sizes="(min-width:2560px) 2000px, (min-width:1920px) 1600px, (min-width:1080px) 1280px"
+			alt="Background image"
+			class="hidden md:block"
+		/>
+		<enhanced:img
+			src={HeroMobile}
+			sizes="(min-width:1440px) 1600px, (min-width:1080px) 1280px, (min-width:750px) 640px"
+			alt="Background image"
+			class="md:hidden"
+		/>
 	</div>
 	<div
 		class="absolute top-0 left-0 w-full h-screen flex justify-center items-center flex-col sm:flex-row"
