@@ -38,7 +38,6 @@
 <style>
 	.background img {
 		position: relative;
-		background-image: url(/bg.png);
 		object-fit: cover;
 		width: min(auto, 100vw);
 		height: 102vh;
