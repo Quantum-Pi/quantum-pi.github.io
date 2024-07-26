@@ -2,9 +2,9 @@ import { profile } from '../data/profile_raw';
 import axios from 'axios';
 import { createWriteStream, existsSync, writeFileSync } from 'fs';
 
-const pfp = 'https://avatars.steamstatic.com/${profile.avatar}'
-const game = 'https://cdn.cloudflare.steamstatic.com/steam/apps/${game.appid}/header.jpg';
-const friend = 'https://avatars.steamstatic.com/${friend.avatar}';
+/**=====================*\
+|    Helper functions    |
+\=======================*/
 
 async function downloadImage(url: string, path: string) {
     const response = await axios({
@@ -24,24 +24,50 @@ function hash() {
         .replace(/./g, c => "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"[Math.floor(Math.random() * 52)]);
 }
 
+/**=====================*\
+|     Game Resources     |
+\=======================*/
 
-const appIds: { appId: number, path: string, hash: string }[] = [];
+const heroImgs: { appId: number, path: string, hash: string }[] = [];
+const iconImgs: { appId: number, path: string, hash: string }[] = [];
 
 const gamePromises = await Promise.all(profile.games.map(game => {
     if (game.playtime > 0) {
-        const url = `https://cdn.cloudflare.steamstatic.com/steam/apps/${game.appid}/header.jpg`;
-        const path = `src/assets/games/${game.appid}.jpg`;
-        appIds.push({ appId: game.appid, path, hash: hash() })
-        if (!existsSync(path)) {
-            return downloadImage(url, path)
+        const hero_url = `https://cdn.cloudflare.steamstatic.com/steam/apps/${game.appid}/header.jpg`;
+        const hero_path = `src/assets/games/${game.appid}.jpg`;
+        heroImgs.push({ appId: game.appid, path: hero_path, hash: hash() })
+        if (!existsSync(hero_path)) {
+            return downloadImage(hero_url, hero_path)
+        }
+
+        const icon_url = `https://media.steampowered.com/steamcommunity/public/images/apps/${game.appid}/${game.icon_url}.jpg`
+        const icon_path = `src/assets/icons/${game.appid}.jpg`;
+        iconImgs.push({ appId: game.appid, path: icon_path, hash: hash() })
+        if (!existsSync(icon_path)) {
+            return downloadImage(icon_url, icon_path)
         }
     }
 }));
 
+/**=====================*\
+|   Profile Resources    |
+\=======================*/
 
 const savedAvatars: Record<string, number> = {};
 const profilePics: { profile: string, path: string, hash: string }[] = [];
 
+// Download user profile picture
+const url = `https://avatars.steamstatic.com/${profile.avatar}`;
+const path = `src/assets/profile_pictures/${profile.avatar}`;
+if (!savedAvatars[profile.avatar]) {
+    profilePics.push({ profile: profile.avatar, path, hash: hash() })
+}
+savedAvatars[profile.avatar] = 1;
+if (!existsSync(path)) {
+    await downloadImage(url, path)
+}
+
+// Download friend profile pictures
 const profilePicPromises = await Promise.all(profile.friends.map(friend => {
     const url = `https://avatars.steamstatic.com/${friend.avatar}`;
     const path = `src/assets/profile_pictures/${friend.avatar}`;
@@ -54,23 +80,44 @@ const profilePicPromises = await Promise.all(profile.friends.map(friend => {
     }
 }));
 
-console.log(`Fetched ${gamePromises.filter(path => path != undefined).length} new games`)
+/**=====================*\
+|       Data Export      |
+\=======================*/
+
+console.log(`Fetched ${gamePromises.filter(path => path != undefined).length} new game resources`)
 console.log(`Fetched ${profilePicPromises.filter(path => path != undefined).length} new profile pictures`)
 
-const appIdImports = `${appIds.map(game => `import ${game.hash} from '../assets/games/${game.appId}.jpg?enhanced&format=webp'`).join('\n')}
+// ===== Hero Banner Imports =====
+const heroImports = `${heroImgs.map(game => `import ${game.hash} from '../assets/games/${game.appId}.jpg?enhanced&format=webp'`).join('\n')}
 
-const gameDict: Record<string, Picture> = {
-${appIds.map(game => `\t[${game.appId}]: ${game.hash}`).join(',\n')}
+const gameHeroDict: Record<string, Picture> = {
+${heroImgs.map(game => `\t[${game.appId}]: ${game.hash}`).join(',\n')}
 };
 
-const getGame = (appId: number) => {
-	if (gameDict[appId]) {
-		return gameDict[appId]
+const getGameHero = (appId: number) => {
+	if (gameHeroDict[appId]) {
+		return gameHeroDict[appId]
 	}
 	return \`https://cdn.cloudflare.steamstatic.com/steam/apps/\${appId}/header.jpg\`
 }
-export { getGame }`
+export { getGameHero }`
 
+// ===== Game Icon Imports =====
+const iconImports = `${iconImgs.map(game => `import ${game.hash} from '../assets/icons/${game.appId}.jpg?enhanced&format=webp'`).join('\n')}
+
+const gameIconDict: Record<string, Picture> = {
+${iconImgs.map(game => `\t[${game.appId}]: ${game.hash}`).join(',\n')}
+};
+
+const getGameIcon = (appId: number, icon_url: string) => {
+	if (gameIconDict[appId]) {
+		return gameIconDict[appId]
+	}
+	return \`https://media.steampowered.com/steamcommunity/public/images/apps/\${appid}/\${icon_url}.jpg\`
+}
+export { getGameIcon }`
+
+// ===== Profile Picture Imports =====
 const profilePicImports = `${profilePics.map(profile => `import ${profile.hash} from '../assets/profile_pictures/${profile.profile}?enhanced&format=webp&w=64;128;200'`).join('\n')}
 
 const pfpDict: Record<string, Picture> = {
@@ -86,13 +133,13 @@ const getProfilePicture = (profilePic: string) => {
 export { getProfilePicture }`
 
 
-console.log(appIdImports)
 const cache = `/**
 * NOTE: This file is auto-generated by scripts/prefetch.ts
 * DO NOT modify manually
 */
 import type { Picture } from 'vite-imagetools';
-${appIdImports}
+${heroImports}
+${iconImports}
 ${profilePicImports}
 `;
 

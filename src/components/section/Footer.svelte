@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { profile } from '$lib/profile_agg';
+	import { isEnhancedImage } from '$lib/index';
 	import GitHub from 'virtual:icons/fa6-brands/github';
 	import Steam from 'virtual:icons/fa6-brands/steam';
 	import Discord from 'virtual:icons/fa6-brands/discord';
@@ -9,7 +10,9 @@
 	import YouTube from 'virtual:icons/fa6-brands/youtube';
 	import Genshin from 'virtual:icons/arcticons/genshin-assistant';
 	import WoW from '../svg/WoW.svelte';
+	import { getProfilePicture } from '$lib/cache';
 
+	const pfp = getProfilePicture(profile.avatar);
 	const hoursPlayed = profile.hoursPlayed.toLocaleString('en-US', { maximumFractionDigits: 1 });
 </script>
 
@@ -17,11 +20,12 @@
 	class="grid grid-areas-footer sm:grid-areas-footer-sm md:grid-areas-footer-md p-24 gap-y-4 gap-x-12 text-white"
 >
 	<div class="grid-in-a flex flex-col items-center">
-		<img
-			src={`https://avatars.steamstatic.com/${profile.avatar}`}
-			alt="pfp"
-			class="rounded-full w-36 border-black border-4"
-		/>
+		{#if isEnhancedImage(pfp)}
+			<enhanced:img src={pfp} alt="pfp" class="rounded-full w-36 border-black border-4" />
+		{:else}
+			<img src={pfp} alt="pfp" class="rounded-full w-36 border-black border-4" />
+		{/if}
+
 		<div class="ml-2 text-5xl">{profile.username}</div>
 		<div class="mt-2 text-center">
 			{hoursPlayed} hours played across {profile.gamesOwned} games

@@ -6,14 +6,7 @@
 	import HeroMobile from '../../assets/bg-mobile.png?enhanced&w=1600;1280;640&blur=1.25&effort=max&fit=cover&format=webp';
 
 	const pfp = getProfilePicture(profile.avatar);
-
-	// let innerWidth = 0;
-	// let innerHeight = 0;
-
-	// $: isLandscape = innerWidth >= innerHeight;
 </script>
-
-<!-- <svelte:window bind:innerWidth bind:innerHeight /> -->
 
 <div>
 	<div class="background">
@@ -41,3 +34,13 @@
 		<div class="ml-2 text-6xl text-white">{profile.username}</div>
 	</div>
 </div>
+
+<style>
+	.background img {
+		position: relative;
+		background-image: url(/bg.png);
+		object-fit: cover;
+		width: min(auto, 100vw);
+		height: 102vh;
+	}
+</style>

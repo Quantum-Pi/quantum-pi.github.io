@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { getGame } from '$lib/cache';
+	import { getGameHero, getGameIcon } from '$lib/cache';
 	import { isEnhancedImage } from '$lib';
 	import { recentGames } from '$lib/profile_agg';
 
@@ -9,7 +9,8 @@
 	export let show2Weeks = true;
 	export let showRareAchievement = false;
 
-	const bannerImg = getGame(game.appid);
+	const bannerImg = getGameHero(game.appid);
+	const iconImg = getGameIcon(game.appid, game.icon_url);
 
 	const rareAchievement = game.achievements?.sort((a, b) => a.percent - b.percent)[0];
 </script>
@@ -66,10 +67,11 @@
 	<hr class="opacity-50" />
 	<footer class="flex items-center space-x-4 p-2">
 		<div class="game-icon">
-			<img
-				src={`https://media.steampowered.com/steamcommunity/public/images/apps/${game.appid}/${game.icon_url}.jpg`}
-				alt={`${game.name} icon`}
-			/>
+			{#if isEnhancedImage(iconImg)}
+				<enhanced:img src={iconImg} alt={`${game.name} icon`} class="w-[32px]" />
+			{:else}
+				<img src={iconImg} alt={`${game.name} icon`} class="w-[32px]" />
+			{/if}
 		</div>
 		<div>Last played {new Date(game.last_played * 1000).toLocaleDateString('en-US')}</div>
 	</footer>
