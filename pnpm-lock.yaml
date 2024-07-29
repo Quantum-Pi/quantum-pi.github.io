@@ -27,6 +27,7 @@ specifiers:
   tailwindcss: ^3.3.3
   ts-node: ^10.9.2
   tslib: ^2.6.2
+  tsx: ^4.16.2
   typescript: ^5.2.2
   unplugin-icons: ^0.17.0
   vite: ^5.3.4
@@ -59,6 +60,7 @@ devDependencies:
   tailwindcss: 3.3.3_ts-node@10.9.2
   ts-node: 10.9.2_a7kca2xi5yjmipvnc34z3beeum
   tslib: 2.6.2
+  tsx: 4.16.2
   typescript: 5.2.2
   unplugin-icons: 0.17.0
   vite: 5.3.4_@types+node@20.8.5
@@ -1816,6 +1818,12 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
+  /get-tsconfig/4.7.6:
+    resolution: {integrity: sha512-ZAqrLlu18NbDdRaHq+AKXzAmqIUPswPWKUchfytdAjiRFnCe5ojG2bstg6mRiZabkKfCoL/e98pbBELIV/YCeA==}
+    dependencies:
+      resolve-pkg-maps: 1.0.0
+    dev: true
+
   /gh-pages/6.0.0:
     resolution: {integrity: sha512-FXZWJRsvP/fK2HJGY+Di6FRNHvqFF6gOIELaopDjXXgjeOYSNURcuYwEO/6bwuq6koP5Lnkvnr5GViXzuOB89g==}
     engines: {node: '>=10'}
@@ -2596,6 +2604,10 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
+  /resolve-pkg-maps/1.0.0:
+    resolution: {integrity: sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEpngQlqzw==}
+    dev: true
+
   /resolve/1.22.8:
     resolution: {integrity: sha512-oKWePCxqpd6FlLvGV1VU0x7bkPmmCNolxzjMf4NczoDnQcIWrAF+cPtZn5i6n+RfD2d9i0tzpKnG6Yk168yIyw==}
     hasBin: true
@@ -3086,6 +3098,17 @@ packages:
 
   /tslib/2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
+    dev: true
+
+  /tsx/4.16.2:
+    resolution: {integrity: sha512-C1uWweJDgdtX2x600HjaFaucXTilT7tgUZHbOE4+ypskZ1OP8CRCSDkCxG6Vya9EwaFIVagWwpaVAn5wzypaqQ==}
+    engines: {node: '>=18.0.0'}
+    hasBin: true
+    dependencies:
+      esbuild: 0.21.5
+      get-tsconfig: 4.7.6
+    optionalDependencies:
+      fsevents: 2.3.3
     dev: true
 
   /type-check/0.4.0:
