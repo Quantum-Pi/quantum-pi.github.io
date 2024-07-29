@@ -39,7 +39,7 @@
 	.background img {
 		position: relative;
 		object-fit: cover;
-		width: min(auto, 100vw);
+		width: 100vw;
 		height: 102vh;
 	}
 </style>
