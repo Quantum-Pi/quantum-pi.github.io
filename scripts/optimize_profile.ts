@@ -1,24 +1,34 @@
 import { writeFileSync } from 'fs';
 import { profile } from '../data/profile_raw';
 
+const blacklist = [
+    993090, // Lossless scaling
+];
+
+const games = profile.games.filter(game => !blacklist.includes(game.appid));
 
 // Achievements.svelte
-const gamesWithAchievements = profile.games.filter(
-    (game) => game.achievements !== undefined && game.achievements.length > 0
+const gamesWithAchievements = games.filter(
+    (game) =>
+        game.achievements !== undefined &&
+        game.achievements.length > 0
 );
 
 const perfectGames = gamesWithAchievements
-    .filter((game) => game.achievements && game.num_achievements === game.achievements?.length)
+    .filter((game) =>
+        game.achievements &&
+        game.num_achievements === game.achievements?.length
+    )
     .sort((a, b) => (b.achievements?.length ?? 0) - (a.achievements?.length ?? 0));
 
 // MostPlayed
-let mostPlayed = profile.games.sort((a, b) => (b.playtime ?? 0) - (a.playtime ?? 0));
+let mostPlayed = games.sort((a, b) => (b.playtime ?? 0) - (a.playtime ?? 0));
 if (mostPlayed.length > 6) {
     mostPlayed = mostPlayed.slice(0, 6);
 }
 
 // Recent Games
-const recentGames = profile.games
+const recentGames = games
     .filter((game) => game.playtime_2weeks && game.playtime_2weeks > 60)
     .sort((a, b) => (b.playtime_2weeks ?? 0) - (a.playtime_2weeks ?? 0));
 
