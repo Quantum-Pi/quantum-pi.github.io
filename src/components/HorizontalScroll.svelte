@@ -76,13 +76,21 @@
 </script>
 
 <div class={`flex gap-4 items-center ${className}`}>
-	<button class="cursor-pointer text-white hover:text-yellow-300" on:click={inc}>
+	<button
+		class="cursor-pointer text-white hover:text-yellow-300"
+		on:click={inc}
+		title="Scroll Left"
+	>
 		<LeftIcon />
 	</button>
 	<div id="h-scroll-container" class="flex flex-col relative">
 		<slot />
 	</div>
-	<button class="cursor-pointer text-white hover:text-yellow-300" on:click={dec}>
+	<button
+		class="cursor-pointer text-white hover:text-yellow-300"
+		on:click={dec}
+		title="Scroll Right"
+	>
 		<RightIcon />
 	</button>
 </div>

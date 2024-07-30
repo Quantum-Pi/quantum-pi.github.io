@@ -78,13 +78,23 @@
 </script>
 
 <div class={`flex flex-col gap-4 items-center ${className}`}>
-	<button class="cursor-pointer text-white hover:text-yellow-300" on:click={inc}><UpIcon /></button>
+	<button
+		class="cursor-pointer text-white hover:text-yellow-300 text-lg"
+		on:click={inc}
+		title="Scroll Up"
+	>
+		<UpIcon />
+	</button>
 	<div id="scroll-container" class="flex flex-col relative">
 		<slot />
 	</div>
-	<button class="cursor-pointer text-white hover:text-yellow-300" on:click={dec}
-		><DownIcon /></button
+	<button
+		class="cursor-pointer text-white hover:text-yellow-300 text-lg"
+		on:click={dec}
+		title="Scroll Down"
 	>
+		<DownIcon />
+	</button>
 </div>
 
 <style>

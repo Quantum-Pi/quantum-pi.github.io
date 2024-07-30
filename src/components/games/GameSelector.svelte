@@ -21,10 +21,15 @@
 </script>
 
 <div class="text-white text-lg flex gap-8 w-full justify-center mb-4">
-	<button class="cursor-pointer" on:click={() => setMode('ESO')} tabindex="0">
+	<button class="cursor-pointer" on:click={() => setMode('ESO')} tabindex="0" title="ESO Showcase">
 		<Eso --size="48px" --color={mode === 'ESO' ? '#8F865E' : 'white'} />
 	</button>
-	<button class="cursor-pointer" on:click={() => setMode('ER')} tabindex="0">
+	<button
+		class="cursor-pointer"
+		on:click={() => setMode('ER')}
+		tabindex="0"
+		title="Elden Ring Showcase"
+	>
 		<ER --size="48px" --color={mode === 'ER' ? '#ffbc75' : 'white'} />
 	</button>
 </div>

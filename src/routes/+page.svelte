@@ -10,24 +10,25 @@
 </script>
 
 <Hero />
-<div id="content" class="px-8 flex flex-col items-center">
-	<div class="mb-24">
-		<RecentGames />
+<div id="content">
+	<div class="px-8 flex flex-col items-center">
+		<div class="mb-24">
+			<RecentGames />
+		</div>
+		<div class="mb-24">
+			<MostPlayed />
+		</div>
+		<div class="mb-24">
+			<Achievements />
+		</div>
 	</div>
-	<div class="mb-24">
-		<MostPlayed />
-	</div>
-	<div class="mb-24">
-		<Achievements />
-	</div>
-</div>
-<div class="bg-black px-8 flex flex-col items-center">
-	<div class="mb-24 w-full">
+	<div class="bg-black mb-24 w-full">
 		<GameSelector />
-		<!-- <div class="mb-24 mx-[-2rem]"> -->
 	</div>
-	<Friends />
-	<Footer />
+	<div class="bg-black px-8 flex flex-col items-center">
+		<Friends />
+		<Footer />
+	</div>
 </div>
 
 <style>
