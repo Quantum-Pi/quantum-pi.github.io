@@ -1,11 +1,10 @@
 <script lang="ts">
-	import BGDesktop from '../../../assets/bg-eso.png?enhanced&w=2000;1600;1280&blur=3&effort=max&fit=cover&format=webp';
+	import BGDesktop from '../../../assets/bg-eso.png?enhanced&w=3840;2560;1600;1280&blur=3&effort=max&fit=cover&format=webp';
 	import BGMobile from '../../../assets/bg-eso-mobile.png?enhanced&w=1600;1280;640&blur=1.25&effort=max&fit=cover&format=webp';
 	import DungeonAchievements from '../../../assets/eso/eso-dungeon.png?enhanced&w=400&format=webp';
 	import TrialAchievements from '../../../assets/eso/eso-trial.png?enhanced&w=550&format=webp';
 	import VerticalScroll from '../../VerticalScroll.svelte';
 	import { writable } from 'svelte/store';
-	import HorizontalScroll from '../../HorizontalScroll.svelte';
 
 	const iTracker = writable(0);
 
@@ -16,7 +15,7 @@
 	<div class="background">
 		<enhanced:img
 			src={BGDesktop}
-			sizes="(min-width:2560px) 2000px, (min-width:1920px) 1600px, (min-width:1080px) 1280px"
+			sizes="(min-width:2700px) 3840px, (min-width:2100px) 2560px, (min-width:1920px) 1600px, (min-width:1080px) 1280px"
 			alt="Background image"
 			class="hidden md:block"
 		/>
@@ -30,24 +29,6 @@
 	<div
 		class="absolute top-0 left-0 w-full h-screen flex justify-center items-center flex-col sm:flex-row"
 	>
-		<!-- <div>
-			<div class="flex items-center gap-4">
-				<VerticalScroll bind:i={$iTracker}>
-					<enhanced:img src={TrialAchievements} alt="Background image" class="" />
-					<enhanced:img src={DungeonAchievements} alt="Background image" class="" />
-				</VerticalScroll>
-				<iframe
-					width="560"
-					height="315"
-					src="https://www.youtube.com/embed/tZsMJ6sXQgY?si=QYz54yvAuzqfnVtR"
-					title="YouTube video player"
-					frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					referrerpolicy="strict-origin-when-cross-origin"
-					allowfullscreen
-				/>
-			</div>
-		</div> -->
 		<div class="w-[95%] overflow-x-scroll hide-scrollbar">
 			<div class="flex items-center justify-center gap-4 w-max xl:w-full">
 				<VerticalScroll bind:i={$iTracker} maxWidth={560} maxHeight={420}>
@@ -75,24 +56,6 @@
 				</div>
 			</div>
 		</div>
-		<!-- <div class="overflow-y-scroll h-full hide-scrollbar">
-			<div class="flex flex-col items-center gap-4">
-				<HorizontalScroll className="" bind:i={$iTracker}>
-					<enhanced:img src={TrialAchievements} alt="Background image" class="" />
-					<enhanced:img src={DungeonAchievements} alt="Background image" class="" />
-				</HorizontalScroll>
-				<iframe
-					width="560"
-					height="315"
-					src="https://www.youtube.com/embed/tZsMJ6sXQgY?si=QYz54yvAuzqfnVtR"
-					title="YouTube video player"
-					frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					referrerpolicy="strict-origin-when-cross-origin"
-					allowfullscreen
-				/>
-			</div>
-		</div> -->
 	</div>
 </div>
 

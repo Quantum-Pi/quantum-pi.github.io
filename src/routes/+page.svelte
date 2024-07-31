@@ -22,6 +22,8 @@
 			<Achievements />
 		</div>
 	</div>
+</div>
+<div class="bg-black">
 	<div class="bg-black mb-24 w-full">
 		<GameSelector />
 	</div>
@@ -33,6 +35,6 @@
 
 <style>
 	#content {
-		background: linear-gradient(#0b0032, #000000);
+		background: linear-gradient(#040436, #000000);
 	}
 </style>
