@@ -1,5 +1,5 @@
 <script lang="ts">
-	import BGDesktop from '../../../assets/bg-er.png?enhanced&w=3840;2560;1600;1280&blur=3&effort=max&fit=cover&format=webp';
+	import BGDesktop from '../../../assets/bg-er.png?enhanced&w=3840;2560;1800&blur=3&effort=max&fit=cover&format=webp';
 	import BGMobile from '../../../assets/bg-er-mobile.png?enhanced&w=1600;1280;640&blur=1.25&effort=max&fit=cover&format=webp';
 </script>
 
@@ -7,7 +7,7 @@
 	<div class="background">
 		<enhanced:img
 			src={BGDesktop}
-			sizes="(min-width:2700px) 3840px, (min-width:2100px) 2560px, (min-width:1920px) 1600px, (min-width:1080px) 1280px"
+			sizes="(min-width:2700px) 3840px, (min-width:2100px) 2560px, (min-width:768px) 1800px"
 			alt="Background image"
 			class="hidden md:block"
 		/>
