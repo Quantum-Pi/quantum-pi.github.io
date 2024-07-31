@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import UpIcon from '~icons/teenyicons/up-solid';
 	import DownIcon from '~icons/teenyicons/down-solid';
+	import { uuid } from '$lib/uuid';
 
 	export let i: number;
 	export let className: string = '';
@@ -11,10 +12,11 @@
 	let elems: HTMLCollection | undefined = undefined;
 	let n = 0;
 
+	const id = `scroll-container-${uuid()}`;
+	const qid = `#${id}`;
+
 	onMount(() => {
-		elems =
-			document.querySelector('#scroll-container')?.children ??
-			document.createDocumentFragment().children;
+		elems = document.querySelector(qid)?.children ?? document.createDocumentFragment().children;
 		n = elems?.length ?? 0;
 
 		for (let j = 0; j < n; j++) {
@@ -31,11 +33,12 @@
 			}
 		}
 		document
-			.querySelector('#scroll-container')
+			.querySelector(qid)
 			?.setAttribute('style', `height: ${maxHeight}px; width: ${maxWidth}px`);
 
 		document
-			.querySelectorAll('#scroll-container picture')
+			.querySelector(qid)
+			?.children.toArray()
 			.forEach((ele) => ele.classList.add('absolute'));
 	});
 
@@ -85,7 +88,7 @@
 	>
 		<UpIcon />
 	</button>
-	<div id="scroll-container" class="flex flex-col relative">
+	<div {id} class="scroll-container flex flex-col relative">
 		<slot />
 	</div>
 	<button
@@ -98,7 +101,7 @@
 </div>
 
 <style>
-	:global(#scroll-container picture) {
+	:global(.scroll-container > *) {
 		display: flex;
 		width: 100%;
 		height: 100%;
@@ -107,7 +110,7 @@
 		justify-content: center;
 	}
 
-	:global(#scroll-container picture.hidden) {
+	:global(.scroll-container > *.hidden) {
 		display: none;
 	}
 

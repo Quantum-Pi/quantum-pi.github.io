@@ -9,6 +9,10 @@ declare global {
 		// interface PageData {}
 		// interface Platform {}
 	}
+
+	interface HTMLCollection {
+		toArray(): Element[]
+	}
 }
 
-export {};
+export { };

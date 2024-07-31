@@ -7,8 +7,9 @@
 	import { writable } from 'svelte/store';
 
 	const iTracker = writable(0);
+	const iVideo = writable(0);
 
-	iTracker.subscribe((v) => console.log(v));
+	// iTracker.subscribe((v) => console.log(v));
 </script>
 
 <div class="relative">
@@ -43,17 +44,30 @@
 						class="w-[360px] md:w-[400px]"
 					/>
 				</VerticalScroll>
-				<div class="h-[198px] w-[352px] sm:h-[270px] sm:w-[480px] md:h-[315px] md:w-[560px] mr-4">
-					<iframe
-						class="w-full h-full"
-						src="https://www.youtube.com/embed/tZsMJ6sXQgY?si=QYz54yvAuzqfnVtR"
-						title="YouTube video player"
-						frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-						referrerpolicy="strict-origin-when-cross-origin"
-						allowfullscreen
-					/>
-				</div>
+				<VerticalScroll bind:i={$iVideo} maxWidth={560} maxHeight={420}>
+					<div>
+						<iframe
+							class="h-[198px] w-[352px] sm:h-[270px] sm:w-[480px] md:h-[315px] md:w-[560px] mr-4"
+							src="https://www.youtube.com/embed/tZsMJ6sXQgY?si=QYz54yvAuzqfnVtR"
+							title="YouTube video player"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							referrerpolicy="strict-origin-when-cross-origin"
+							allowfullscreen
+						/>
+					</div>
+					<div>
+						<iframe
+							class="h-[198px] w-[352px] sm:h-[270px] sm:w-[480px] md:h-[315px] md:w-[560px] mr-4"
+							src="https://www.youtube.com/embed/qYPWKfWWkh8?si=wc7BqemrdnLbfQvn"
+							title="YouTube video player"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							referrerpolicy="strict-origin-when-cross-origin"
+							allowfullscreen
+						/>
+					</div>
+				</VerticalScroll>
 			</div>
 		</div>
 	</div>
