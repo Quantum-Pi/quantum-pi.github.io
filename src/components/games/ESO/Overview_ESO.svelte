@@ -35,6 +35,17 @@
 					alt="Background image"
 					class="w-[360px] md:w-[400px]"
 				/>
+				<div class="md:col-span-2">
+					<iframe
+						class="h-[198px] w-[352px] sm:h-[270px] sm:w-[480px] md:h-[315px] md:w-[560px] mr-4"
+						src="https://www.youtube.com/embed/q0TVbQts-A0?si=sPy0KfZAMU0gFfuI"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerpolicy="strict-origin-when-cross-origin"
+						allowfullscreen
+					/>
+				</div>
 				<div>
 					<iframe
 						class="h-[198px] w-[352px] sm:h-[270px] sm:w-[480px] md:h-[315px] md:w-[560px] mr-4"
