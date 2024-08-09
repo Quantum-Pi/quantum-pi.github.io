@@ -3,8 +3,8 @@
 	import BGMobile from '../../../assets/bg-er-mobile.png?enhanced&w=1600;1280;640&blur=1.25&effort=max&fit=cover&format=webp';
 </script>
 
-<div class="relative">
-	<div class="background">
+<div>
+	<div class="background sticky top-0 left-0 -z-10">
 		<enhanced:img
 			src={BGDesktop}
 			sizes="(min-width:2700px) 3840px, (min-width:2100px) 2560px, (min-width:768px) 1800px"
@@ -19,9 +19,11 @@
 		/>
 	</div>
 	<div
-		class="absolute top-0 left-0 w-full h-screen flex justify-center items-center flex-col sm:flex-row"
+		class="game-content w-full mt-[-90vh] pb-[10vh] flex justify-center items-center flex-col sm:flex-row"
 	>
-		<div>TODO</div>
+		<div class="w-[95%] h-full">
+			<div>TODO</div>
+		</div>
 	</div>
 </div>
 
