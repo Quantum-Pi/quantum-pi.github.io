@@ -876,7 +876,7 @@ const getGameIcon = (appId: number, icon_url: string) => {
 	if (gameIconDict[appId]) {
 		return gameIconDict[appId]
 	}
-	return `https://media.steampowered.com/steamcommunity/public/images/apps/${appid}/${icon_url}.jpg`
+	return `https://media.steampowered.com/steamcommunity/public/images/apps/${appId}/${icon_url}.jpg`
 }
 export { getGameIcon }
 import QOZdsDCsUpkh from '../assets/profile_pictures/c6066ff51517dd60bf42a0898e7e3b1aca55684e_full.jpg?enhanced&format=webp&w=64;128;200'
@@ -1050,9 +1050,9 @@ const pfpDict: Record<string, Picture> = {
 };
 
 const getProfilePicture = (profilePic: string) => {
-    if (pfpDict[profilePic]) {
+	if (pfpDict[profilePic]) {
 		return pfpDict[profilePic]
 	}
-    return `https://avatars.steamstatic.com/${profilePic}`
+	return `https://avatars.steamstatic.com/${profilePic}`
 }
 export { getProfilePicture }

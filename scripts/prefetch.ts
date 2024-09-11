@@ -113,7 +113,7 @@ const getGameIcon = (appId: number, icon_url: string) => {
 	if (gameIconDict[appId]) {
 		return gameIconDict[appId]
 	}
-	return \`https://media.steampowered.com/steamcommunity/public/images/apps/\${appid}/\${icon_url}.jpg\`
+	return \`https://media.steampowered.com/steamcommunity/public/images/apps/\${appId}/\${icon_url}.jpg\`
 }
 export { getGameIcon }`
 
