@@ -47,9 +47,16 @@ jobs:
         with:
           steamid: '76561198069744679'
           apikey: ${{ secrets.STEAM_API }}
+      - name: Genshin Fetch
+        id: genshin
+        uses: quantum-pi/Action-GenshinAPI@v2.0.0
+        with:
+          uuid: 605452914
+          usage: 'QuantumPie.net Genshin profile display'
       - name: Write Output
         run: |
           echo "${{ steps.steam.outputs.json }}" > data/profile_raw.ts
+          echo "${{ steps.genshin.outputs.json }}" > data/genshin_raw.ts
           pnpm format:profile
           pnpm run prefetch
           pnpm run aggregate
@@ -57,11 +64,12 @@ jobs:
           git config --global user.email "no-reply@github.com"
           git config --global user.name "GitHub Actions"
           git add data/profile_raw.ts
+          git add data/genshin_raw.ts
           git add src/lib/profile_agg.ts
           git add src/lib/cache.ts
           git add src/assets/games/
           git add src/assets/profile_pictures/
-          git commit -m "Update steam profile"
+          git commit -m "Update profile info"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git push
 
