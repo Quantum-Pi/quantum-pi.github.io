@@ -55,17 +55,17 @@ jobs:
           usage: 'QuantumPie.net Genshin profile display'
       - name: Write Output
         run: |
-          echo "${{ steps.steam.outputs.json }}" > data/profile_raw.ts
+          echo "${{ steps.steam.outputs.json }}" > data/steam_raw.ts
           echo "${{ steps.genshin.outputs.json }}" > data/genshin_raw.ts
-          pnpm format:profile
+          pnpm format:data
           pnpm run prefetch
           pnpm run aggregate
 
           git config --global user.email "no-reply@github.com"
           git config --global user.name "GitHub Actions"
-          git add data/profile_raw.ts
+          git add data/steam_raw.ts
           git add data/genshin_raw.ts
-          git add src/lib/profile_agg.ts
+          git add src/lib/steam_agg.ts
           git add src/lib/cache.ts
           git add src/assets/games/
           git add src/assets/profile_pictures/

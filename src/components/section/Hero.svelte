@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { isEnhancedImage } from '$lib';
 	import { getProfilePicture } from '$lib/cache';
-	import { profile } from '$lib/profile_agg';
+	import { profile } from '$lib/steam_agg';
 	import HeroDesktop from '../../assets/bg-desktop.png?enhanced&w=2000;1600;1280&blur=1.25&effort=max&fit=cover&format=webp';
 	import HeroMobile from '../../assets/bg-mobile.png?enhanced&w=1600;1280;640&blur=1.25&effort=max&fit=cover&format=webp';
 

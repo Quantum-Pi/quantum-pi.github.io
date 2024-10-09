@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { isEnhancedImage } from '$lib';
 	import { getProfilePicture } from '$lib/cache';
-	import { friends } from '$lib/profile_agg';
+	import { friends } from '$lib/steam_agg';
 </script>
 
 <div class="w-3/4 flex flex-col items-center">

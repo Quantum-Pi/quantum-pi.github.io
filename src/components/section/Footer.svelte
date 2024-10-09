@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { profile } from '$lib/profile_agg';
+	import { profile } from '$lib/steam_agg';
 	import { isEnhancedImage } from '$lib/index';
 	import GitHub from 'virtual:icons/fa6-brands/github';
 	import Steam from 'virtual:icons/fa6-brands/steam';

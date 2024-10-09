@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { mostPlayed } from '$lib/profile_agg';
+	import { mostPlayed } from '$lib/steam_agg';
 	import Game from '../Game.svelte';
 </script>
 

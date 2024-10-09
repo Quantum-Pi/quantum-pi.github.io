@@ -1,45 +1,37 @@
 import { writeFileSync } from 'fs';
-import { profile } from '../data/profile_raw';
+import { profile } from '../data/steam_raw';
 
 const blacklist = [
-    993090, // Lossless scaling
+	993090 // Lossless scaling
 ];
 
-const games = profile.games.filter(game => !blacklist.includes(game.appid));
+const games = profile.games.filter((game) => !blacklist.includes(game.appid));
 
 // Achievements.svelte
 const gamesWithAchievements = games.filter(
-    (game) =>
-        game.achievements !== undefined &&
-        game.achievements.length > 0
+	(game) => game.achievements !== undefined && game.achievements.length > 0
 );
 
 const perfectGames = gamesWithAchievements
-    .filter((game) =>
-        game.achievements &&
-        game.num_achievements === game.achievements?.length
-    )
-    .sort((a, b) => (b.achievements?.length ?? 0) - (a.achievements?.length ?? 0));
+	.filter((game) => game.achievements && game.num_achievements === game.achievements?.length)
+	.sort((a, b) => (b.achievements?.length ?? 0) - (a.achievements?.length ?? 0));
 
 // MostPlayed
 let mostPlayed = games.sort((a, b) => (b.playtime ?? 0) - (a.playtime ?? 0));
 if (mostPlayed.length > 6) {
-    mostPlayed = mostPlayed.slice(0, 6);
+	mostPlayed = mostPlayed.slice(0, 6);
 }
 
 // Recent Games
 const recentGames = games
-    .filter((game) => game.playtime_2weeks && game.playtime_2weeks > 60)
-    .sort((a, b) => (b.playtime_2weeks ?? 0) - (a.playtime_2weeks ?? 0));
+	.filter((game) => game.playtime_2weeks && game.playtime_2weeks > 60)
+	.sort((a, b) => (b.playtime_2weeks ?? 0) - (a.playtime_2weeks ?? 0));
 
 // Friends
 const friends = profile.friends.sort((a, b) => a.friend_since - b.friend_since);
 
 // Footer
-const hoursPlayed = (
-    profile.games.reduce((prev, { playtime }) => prev + playtime, 0) / 60
-);
-
+const hoursPlayed = profile.games.reduce((prev, { playtime }) => prev + playtime, 0) / 60;
 
 const ts = `
 const profile = {
@@ -57,6 +49,6 @@ const recentGames = ${JSON.stringify(recentGames)};
 const friends = ${JSON.stringify(friends)};
 
 export { profile, perfectGames, mostPlayed, recentGames, friends };
-`
+`;
 
-writeFileSync('src/lib/profile_agg.ts', ts);
+writeFileSync('src/lib/steam_agg.ts', ts);

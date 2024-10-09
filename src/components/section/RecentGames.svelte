@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { recentGames } from '$lib/profile_agg';
+	import { recentGames } from '$lib/steam_agg';
 	import Game from '../Game.svelte';
 </script>
 

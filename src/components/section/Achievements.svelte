@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { perfectGames } from '$lib/profile_agg';
+	import { perfectGames } from '$lib/steam_agg';
 	import Game from '../Game.svelte';
 
 	// console.log(

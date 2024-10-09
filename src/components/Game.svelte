@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { getGameHero, getGameIcon } from '$lib/cache';
 	import { isEnhancedImage } from '$lib';
-	import { recentGames } from '$lib/profile_agg';
+	import { recentGames } from '$lib/steam_agg';
 
 	type Game = (typeof recentGames)[0];
 

@@ -10,10 +10,10 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
-		"format:profile": "prettier --plugin-search-dir ./src/lib/ --write ./data/profile_raw.ts ./data/genshin_raw.ts ./src/lib/profile_agg.ts",
+		"format:data": "prettier --plugin-search-dir ./src/lib/ --write ./data/steam_raw.ts ./data/genshin_raw.ts ./src/lib/steam_agg.ts",
 		"deploy": "pnpm build && pnpx gh-pages -d build -t true",
-		"prefetch": "tsx scripts/prefetch.ts",
-		"aggregate": "tsx scripts/optimize_profile.ts"
+		"prefetch": "tsx scripts/prefetch_steam.ts",
+		"aggregate": "tsx scripts/optimize_steam.ts"
 	},
 	"devDependencies": {
 		"@iconify/json": "^2.2.129",
