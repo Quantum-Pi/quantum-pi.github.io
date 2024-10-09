@@ -1,7 +1,8 @@
 // import { writeFileSync } from 'fs';
 import { genshinProfile } from '../data/genshin_raw';
-import { IGOOD, convertToGOODKey } from 'enka-network-api';
+import { IGOOD } from 'enka-network-api';
 import good from '../data/good.json';
+import { writeFileSync } from 'fs';
 
 // ===== Weapon by character name =====
 type Weapon = Exclude<IGOOD['weapons'], undefined>;
@@ -69,12 +70,63 @@ const rankingMap = genshinProfile.akasha.reduce(
 );
 
 // ===== Final export =====
-
-const characters = good.characters.map((character) => ({
+type GenshinCharacter = {
+	key: string;
+	level: number;
+	constellation: number;
+	ascension: number;
+	talent: {
+		auto: number;
+		skill: number;
+		burst: number;
+	};
+	weapon?: WeaponExport;
+	artifacts?: ArtifactExport[];
+	ranking?: {
+		name: string;
+		details: string;
+		weapon: string;
+		ranking: number;
+		outOf: number;
+	};
+};
+const characters: GenshinCharacter[] = good.characters.map((character) => ({
 	...character,
-	weapon: weaponMap[character.key],
-	artifacts: artifactMap[character.key],
-	ranking: rankingMap[character.key]
+	weapon: weaponMap[character.key] ?? undefined,
+	artifacts: artifactMap[character.key] ?? undefined,
+	ranking: rankingMap[character.key] ?? undefined
 }));
 
-console.log(characters[0]);
+const ts = `
+import type { IGOOD } from 'enka-network-api';
+type Weapon = Exclude<IGOOD['weapons'], undefined>;
+type WeaponExport = Omit<Weapon[0], 'location' | 'lock'>;
+type Artifact = Exclude<IGOOD['artifacts'], undefined>;
+type ArtifactExport = Omit<Artifact[0], 'lock' | 'location'>;
+
+type GenshinCharacter = {
+	key: string;
+	level: number;
+	constellation: number;
+	ascension: number;
+	talent: {
+		auto: number;
+		skill: number;
+		burst: number;
+	};
+	weapon?: WeaponExport;
+	artifacts?: ArtifactExport[];
+	ranking?: {
+		name: string;
+		details: string;
+		weapon: string;
+		ranking: number;
+		outOf: number;
+	};
+};
+const characters: GenshinCharacter[] = ${JSON.stringify(characters)}
+export default characters
+export type { GenshinCharacter }
+`;
+
+writeFileSync('src/lib/genshin_agg.ts', ts);
