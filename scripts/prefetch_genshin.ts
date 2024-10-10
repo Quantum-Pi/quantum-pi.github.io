@@ -5,7 +5,7 @@ import {
 	EnkaClient,
 	CharacterData,
 	WeaponData,
-	// ArtifactData,
+	ArtifactData,
 	convertToGOODKey
 } from 'enka-network-api';
 
@@ -211,6 +211,99 @@ export { getWeaponImage }
 `;
 
 /**=====================*\
+|       Artifacts        |
+\=======================*/
+const artifacts = enka.getAllArtifacts().reduce((prev, curr) => {
+	return {
+		...prev,
+		[convertToGOODKey(curr.set.name.get('en'))]: curr
+	};
+}, {} as Record<string, ArtifactData>);
+
+const artifactImageMap: Record<
+	string,
+	{ artifact: string; file: string; path: string; hash: string; name: string | number }[]
+> = {};
+
+if (genshinProfile.good.artifacts) {
+	for (const a of genshinProfile.good.artifacts) {
+		const artifact = artifacts[a.setKey];
+		const url = artifact.icon.url.replace(/_[1-5].png/, '_$.png');
+
+		console.log(a);
+		console.log(url);
+
+		const artifactImages: (typeof artifactImageMap)[''] = [];
+		await Promise.all(
+			[
+				{ name: 'goblet', url: url.replace('$', '1') },
+				{ name: 'plume', url: url.replace('$', '2') },
+				{ name: 'circlet', url: url.replace('$', '3') },
+				{ name: 'flower', url: url.replace('$', '4') },
+				{ name: 'sands', url: url.replace('$', '5') }
+			].map(({ url, name }) => {
+				// const link = url.split('_');
+				if (!url || url.length == 0) return null;
+				// link[link.length - 1] = '_$.png';
+				const link = url.replace('api.ambr.top', 'gi.yatta.moe');
+				console.log(link);
+				const file = link.split('/').at(-1);
+				if (!file) return null;
+				const path = `src/assets/genshin/artifacts/${a.setKey}/${file}`;
+				artifactImages.push({
+					artifact: a.setKey,
+					file: `${a.setKey}/${file.replace('.png', '')}`,
+					path,
+					name,
+					hash: hash()
+				});
+				if (!existsSync(path)) {
+					mkdirSync(path.split('/').slice(0, -1).join('/'), { recursive: true });
+					return downloadImage(link, path);
+				}
+			})
+		);
+		artifactImageMap[a.setKey] = artifactImages;
+	}
+}
+
+const artifactImports = `${Object.values(artifactImageMap)
+	.reduce((prev, curr) => {
+		prev.push(...curr);
+		return prev;
+	}, [])
+	.map(
+		({ file, hash }) =>
+			`import ${hash} from '../assets/genshin/artifacts/${file}.png?enhanced&format=webp'`
+	)
+	.join('\n')}
+
+type ArtifactImageKey =
+	'goblet' |
+	'plume' |
+	'circlet' |
+	'flower' |
+	'sands';
+
+type Artifact = ${Object.keys(artifactImageMap)
+	.map((str) => `'${str}'`)
+	.join(' | ')};
+
+const artifactImageDict: Record<Artifact, Record<ArtifactImageKey, Picture>> = {
+${Object.entries(artifactImageMap).map(([weapon, attr]) => {
+	return `${weapon}: {
+${attr.map(({ name, hash }) => `\t${name}: ${hash}`).join(',\n')}
+}`;
+})}
+};
+const getArtifactImage = (weapon: Artifact, image: ArtifactImageKey) => {
+	return artifactImageDict[weapon][image]
+};
+
+export { getArtifactImage }
+`;
+
+/**=====================*\
 |     Create Output      |
 \=======================*/
 const cache = `/**
@@ -220,6 +313,7 @@ const cache = `/**
 import type { Picture } from 'vite-imagetools';
 ${characterImports}
 ${weaponImports}
+${artifactImports}
 `;
 
 writeFileSync('src/lib/genshin_cache.ts', cache);
