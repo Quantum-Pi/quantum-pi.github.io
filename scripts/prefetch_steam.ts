@@ -1,33 +1,6 @@
 import { profile } from '../data/steam_raw';
-import axios from 'axios';
-import { createWriteStream, existsSync, writeFileSync } from 'fs';
-
-/**=====================*\
-|    Helper functions    |
-\=======================*/
-
-async function downloadImage(url: string, path: string) {
-	const response = await axios({
-		url,
-		method: 'GET',
-		responseType: 'stream'
-	});
-	return new Promise<string>((resolve, reject) => {
-		response.data
-			.pipe(createWriteStream(path))
-			.on('error', reject)
-			.once('close', () => resolve(path));
-	});
-}
-
-function hash() {
-	return 'x'
-		.repeat(12)
-		.replace(
-			/./g,
-			(c) => 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'[Math.floor(Math.random() * 52)]
-		);
-}
+import { existsSync, writeFileSync } from 'fs';
+import { downloadImage, hash } from './lib';
 
 /**=====================*\
 |     Game Resources     |
