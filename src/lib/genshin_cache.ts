@@ -3,186 +3,186 @@
 * DO NOT modify manually
 */
 import type { Picture } from 'vite-imagetools';
-import LOsfjDPoKaup from '../assets/genshin/characters/Arlecchino/UI_AvatarIcon_Side.png?enhanced&format=webp'
-import KWRGhhgeaZQb from '../assets/genshin/characters/Arlecchino/UI_Talent_S_01.png?enhanced&format=webp'
-import HZsHBOVzFtDy from '../assets/genshin/characters/Arlecchino/UI_Talent_S_02.png?enhanced&format=webp'
-import YrWSKzHdyTmK from '../assets/genshin/characters/Arlecchino/UI_Talent_U_01.png?enhanced&format=webp'
-import oiqdJfKPMsPW from '../assets/genshin/characters/Arlecchino/UI_Talent_S_03.png?enhanced&format=webp'
-import TWsfVskjqTrC from '../assets/genshin/characters/Arlecchino/UI_Talent_U_02.png?enhanced&format=webp'
-import BinSysEdudIe from '../assets/genshin/characters/Arlecchino/UI_Talent_S_04.png?enhanced&format=webp'
-import DCWwUXYmBjZA from '../assets/genshin/characters/Arlecchino/Skill_E_01.png?enhanced&format=webp'
-import pudSjdwNhqXv from '../assets/genshin/characters/Arlecchino/Skill_S_01.png?enhanced&format=webp'
-import jEFlEloEGFuK from '../assets/genshin/characters/Arlecchino/UI_AvatarIcon.png?enhanced&format=webp'
-import WdWCvLQjQViz from '../assets/genshin/characters/Arlecchino/Skill_A_03.png?enhanced&format=webp'
-import vhIhBgLSCCaA from '../assets/genshin/characters/Arlecchino/UI_Gacha_AvatarImg.png?enhanced&format=webp'
-import ZEJHbJJOSrhp from '../assets/genshin/characters/Arlecchino/UI_Talent_S_05.png?enhanced&format=webp'
-import xMpEuzfyIHbf from '../assets/genshin/characters/Arlecchino/UI_Talent_S_06.png?enhanced&format=webp'
-import SfbKnQxhGdNB from '../assets/genshin/characters/Arlecchino/UI_Talent_S_07.png?enhanced&format=webp'
-import zGIIMjOVFDmU from '../assets/genshin/characters/Zhongli/UI_AvatarIcon_Side.png?enhanced&format=webp'
-import OGxYTtdkpXUE from '../assets/genshin/characters/Zhongli/UI_Talent_S_01.png?enhanced&format=webp'
-import wMIKQOkMvNsF from '../assets/genshin/characters/Zhongli/UI_Talent_S_02.png?enhanced&format=webp'
-import GlMLVClPqmHo from '../assets/genshin/characters/Zhongli/UI_Talent_U_01.png?enhanced&format=webp'
-import RYyDBqgPgIxl from '../assets/genshin/characters/Zhongli/UI_Talent_S_03.png?enhanced&format=webp'
-import rGiEMDOjzDly from '../assets/genshin/characters/Zhongli/UI_Talent_U_02.png?enhanced&format=webp'
-import PJvhxHVrnygk from '../assets/genshin/characters/Zhongli/UI_Talent_S_04.png?enhanced&format=webp'
-import hRRfUmFdVBoI from '../assets/genshin/characters/Zhongli/Skill_E_01.png?enhanced&format=webp'
-import YVuqSCgkgCpC from '../assets/genshin/characters/Zhongli/Skill_S_01.png?enhanced&format=webp'
-import ntyMvIiIUkwJ from '../assets/genshin/characters/Zhongli/UI_AvatarIcon.png?enhanced&format=webp'
-import ZqQQJYGROwUI from '../assets/genshin/characters/Zhongli/Skill_A_03.png?enhanced&format=webp'
-import bQJeyslValga from '../assets/genshin/characters/Zhongli/UI_Gacha_AvatarImg.png?enhanced&format=webp'
-import KoBNOcUuDwio from '../assets/genshin/characters/Zhongli/UI_Talent_S_05.png?enhanced&format=webp'
-import yoZleaMSBzAn from '../assets/genshin/characters/Zhongli/UI_Talent_S_06.png?enhanced&format=webp'
-import rnBkxddLxvSI from '../assets/genshin/characters/Zhongli/UI_Talent_Forge_Pole.png?enhanced&format=webp'
-import DgGgqIDiYLlB from '../assets/genshin/characters/Yelan/UI_AvatarIcon_Side.png?enhanced&format=webp'
-import UaRvnkmBSPOX from '../assets/genshin/characters/Yelan/UI_Talent_S_01.png?enhanced&format=webp'
-import MsuSHxMqnOIR from '../assets/genshin/characters/Yelan/UI_Talent_S_02.png?enhanced&format=webp'
-import fPcnWVTQBVai from '../assets/genshin/characters/Yelan/UI_Talent_U_01.png?enhanced&format=webp'
-import PLbEfchAppVv from '../assets/genshin/characters/Yelan/UI_Talent_S_03.png?enhanced&format=webp'
-import yvJfMcWbJmek from '../assets/genshin/characters/Yelan/UI_Talent_U_02.png?enhanced&format=webp'
-import XkBxzyqjHLeS from '../assets/genshin/characters/Yelan/UI_Talent_S_04.png?enhanced&format=webp'
-import OGElSdjziGfE from '../assets/genshin/characters/Yelan/Skill_E_01.png?enhanced&format=webp'
-import kDpGCYvtHRZI from '../assets/genshin/characters/Yelan/Skill_S_01.png?enhanced&format=webp'
-import NuazcskTHsTI from '../assets/genshin/characters/Yelan/UI_AvatarIcon.png?enhanced&format=webp'
-import uHFVqQEGoKUc from '../assets/genshin/characters/Yelan/Skill_A_02.png?enhanced&format=webp'
-import idtCCcnnUoqJ from '../assets/genshin/characters/Yelan/UI_Gacha_AvatarImg.png?enhanced&format=webp'
-import vxExfDtouVAw from '../assets/genshin/characters/Yelan/UI_Talent_S_05.png?enhanced&format=webp'
-import neYIgChKALDA from '../assets/genshin/characters/Yelan/UI_Talent_S_06.png?enhanced&format=webp'
-import ZgfSkZWuFoyN from '../assets/genshin/characters/Yelan/UI_Talent_Expedition_Liyue.png?enhanced&format=webp'
-import wEryqTyFqOgU from '../assets/genshin/characters/Xingqiu/UI_AvatarIcon_Side.png?enhanced&format=webp'
-import MoiDWhAkhDLA from '../assets/genshin/characters/Xingqiu/UI_Talent_S_01.png?enhanced&format=webp'
-import ZMFAXnjourSc from '../assets/genshin/characters/Xingqiu/UI_Talent_S_02.png?enhanced&format=webp'
-import sgnKLzYrviRc from '../assets/genshin/characters/Xingqiu/UI_Talent_U_01.png?enhanced&format=webp'
-import bJNojTZAldvy from '../assets/genshin/characters/Xingqiu/UI_Talent_S_03.png?enhanced&format=webp'
-import XPzNScPjUJyi from '../assets/genshin/characters/Xingqiu/UI_Talent_U_02.png?enhanced&format=webp'
-import sjwyFcwaBjmP from '../assets/genshin/characters/Xingqiu/UI_Talent_S_04.png?enhanced&format=webp'
-import gpwYUDypebYS from '../assets/genshin/characters/Xingqiu/Skill_E_01.png?enhanced&format=webp'
-import kIirBcRMGswF from '../assets/genshin/characters/Xingqiu/Skill_S_01.png?enhanced&format=webp'
-import WcXQHMhaIbBy from '../assets/genshin/characters/Xingqiu/UI_AvatarIcon.png?enhanced&format=webp'
-import QOtbwvrvQobl from '../assets/genshin/characters/Xingqiu/Skill_A_01.png?enhanced&format=webp'
-import XDxiEKdBGaxe from '../assets/genshin/characters/Xingqiu/UI_Gacha_AvatarImg.png?enhanced&format=webp'
-import YoXjfZGubLMi from '../assets/genshin/characters/Xingqiu/UI_Talent_S_05.png?enhanced&format=webp'
-import kUchjpPxNkMC from '../assets/genshin/characters/Xingqiu/UI_Talent_S_06.png?enhanced&format=webp'
-import reDkoIhykIcI from '../assets/genshin/characters/Xingqiu/UI_Talent_Combine_Talent.png?enhanced&format=webp'
-import uDbXBBrIDzCG from '../assets/genshin/characters/Xiao/UI_AvatarIcon_Side.png?enhanced&format=webp'
-import ESSJwQwMDOao from '../assets/genshin/characters/Xiao/UI_Talent_S_01.png?enhanced&format=webp'
-import mlUpgvMMWRaq from '../assets/genshin/characters/Xiao/UI_Talent_S_02.png?enhanced&format=webp'
-import wSGyCztgnZBk from '../assets/genshin/characters/Xiao/UI_Talent_U_01.png?enhanced&format=webp'
-import TJGalxDZIjHP from '../assets/genshin/characters/Xiao/UI_Talent_S_03.png?enhanced&format=webp'
-import FTiJEyprjkpc from '../assets/genshin/characters/Xiao/UI_Talent_U_02.png?enhanced&format=webp'
-import wDvoyEKwOPbP from '../assets/genshin/characters/Xiao/UI_Talent_S_04.png?enhanced&format=webp'
-import zEUQGnSXaPZc from '../assets/genshin/characters/Xiao/Skill_E_01.png?enhanced&format=webp'
-import RsVkdJkgrfjN from '../assets/genshin/characters/Xiao/Skill_S_01.png?enhanced&format=webp'
-import etcGiCcIWFWi from '../assets/genshin/characters/Xiao/UI_AvatarIcon.png?enhanced&format=webp'
-import xfLBaWohaXfx from '../assets/genshin/characters/Xiao/Skill_A_03.png?enhanced&format=webp'
-import gYofgfifJAeA from '../assets/genshin/characters/Xiao/UI_Gacha_AvatarImg.png?enhanced&format=webp'
-import CSDvlUUvPdnR from '../assets/genshin/characters/Xiao/UI_Talent_S_05.png?enhanced&format=webp'
-import tklkKikXBuyZ from '../assets/genshin/characters/Xiao/UI_Talent_S_06.png?enhanced&format=webp'
-import eyzLBwwTpFlM from '../assets/genshin/characters/Xiao/UI_Talent_Explosion_Climb.png?enhanced&format=webp'
-import zNDkGGQSDFvO from '../assets/genshin/characters/Xianyun/UI_AvatarIcon_Side_Liuyun.png?enhanced&format=webp'
-import LGftvgPccNiQ from '../assets/genshin/characters/Xianyun/UI_Talent_S_Liuyun_01.png?enhanced&format=webp'
-import ytSNwjoIXcLB from '../assets/genshin/characters/Xianyun/UI_Talent_S_Liuyun_02.png?enhanced&format=webp'
-import wdORBoAThQsU from '../assets/genshin/characters/Xianyun/UI_Talent_U_Liuyun_02.png?enhanced&format=webp'
-import cdeweQdfvjfP from '../assets/genshin/characters/Xianyun/UI_Talent_S_Liuyun_03.png?enhanced&format=webp'
-import ZdgYJpoeSzqk from '../assets/genshin/characters/Xianyun/UI_Talent_U_Liuyun_01.png?enhanced&format=webp'
-import TnTpvkjysjLd from '../assets/genshin/characters/Xianyun/UI_Talent_S_Liuyun_04.png?enhanced&format=webp'
-import DPDGqYqxNjxh from '../assets/genshin/characters/Xianyun/Skill_E_Liuyun_01.png?enhanced&format=webp'
-import PEGzojiMBsKN from '../assets/genshin/characters/Xianyun/Skill_S_Liuyun_01.png?enhanced&format=webp'
-import RdffmJYCSZRr from '../assets/genshin/characters/Xianyun/UI_AvatarIcon_Liuyun.png?enhanced&format=webp'
-import YMfbzvOmsPtL from '../assets/genshin/characters/Xianyun/Skill_A_Catalyst_MD.png?enhanced&format=webp'
-import NKhHqZrDTbmp from '../assets/genshin/characters/Xianyun/UI_Gacha_AvatarImg_Liuyun.png?enhanced&format=webp'
-import XqDQfdzwoNzS from '../assets/genshin/characters/Xianyun/UI_Talent_S_Liuyun_05.png?enhanced&format=webp'
-import buZPieFXLHIe from '../assets/genshin/characters/Xianyun/UI_Talent_S_Liuyun_06.png?enhanced&format=webp'
-import FqFybkZjvLcY from '../assets/genshin/characters/Xianyun/UI_Talent_S_Liuyun_07.png?enhanced&format=webp'
-import boaizvbjrzas from '../assets/genshin/characters/Faruzan/UI_AvatarIcon_Side.png?enhanced&format=webp'
-import WtoUraGZPCBz from '../assets/genshin/characters/Faruzan/UI_Talent_S_01.png?enhanced&format=webp'
-import ffzVbPcmAEfr from '../assets/genshin/characters/Faruzan/UI_Talent_S_02.png?enhanced&format=webp'
-import WPkexPcNVTgz from '../assets/genshin/characters/Faruzan/UI_Talent_U_01.png?enhanced&format=webp'
-import EfSFQBLnDhyc from '../assets/genshin/characters/Faruzan/UI_Talent_S_03.png?enhanced&format=webp'
-import LxdzjcGaMGoL from '../assets/genshin/characters/Faruzan/UI_Talent_U_02.png?enhanced&format=webp'
-import IpwogSUYoTzf from '../assets/genshin/characters/Faruzan/UI_Talent_S_04.png?enhanced&format=webp'
-import SGDXxzNDliGq from '../assets/genshin/characters/Faruzan/Skill_E_01.png?enhanced&format=webp'
-import KiZbGmowyEkO from '../assets/genshin/characters/Faruzan/Skill_S_01.png?enhanced&format=webp'
-import ePCSztXwWoVY from '../assets/genshin/characters/Faruzan/UI_AvatarIcon.png?enhanced&format=webp'
-import yZOfafZQOZsg from '../assets/genshin/characters/Faruzan/Skill_A_02.png?enhanced&format=webp'
-import EvqbTSOzYlxe from '../assets/genshin/characters/Faruzan/UI_Gacha_AvatarImg.png?enhanced&format=webp'
-import FfeFoWgiAqZN from '../assets/genshin/characters/Faruzan/UI_Talent_S_05.png?enhanced&format=webp'
-import TGHYWQJhSVgv from '../assets/genshin/characters/Faruzan/UI_Talent_S_06.png?enhanced&format=webp'
-import FMwSmHbjJJBS from '../assets/genshin/characters/Faruzan/UI_Talent_S_Cyno_07.png?enhanced&format=webp'
-import WBzECDabacgq from '../assets/genshin/characters/Furina/UI_AvatarIcon_Side.png?enhanced&format=webp'
-import HPKqsQXaxeEK from '../assets/genshin/characters/Furina/UI_Talent_S_01.png?enhanced&format=webp'
-import aHjsxIGDHfDp from '../assets/genshin/characters/Furina/UI_Talent_S_04.png?enhanced&format=webp'
-import MMvrEBoyTFwc from '../assets/genshin/characters/Furina/UI_Talent_U_02.png?enhanced&format=webp'
-import QxyNrWEjnREj from '../assets/genshin/characters/Furina/UI_Talent_S_03.png?enhanced&format=webp'
-import hwixxfmUcWNa from '../assets/genshin/characters/Furina/UI_Talent_U_01.png?enhanced&format=webp'
-import NwzaPWaeJkUF from '../assets/genshin/characters/Furina/UI_Talent_S_02.png?enhanced&format=webp'
-import iEdPJpbBmHnh from '../assets/genshin/characters/Furina/Skill_E_01.png?enhanced&format=webp'
-import vNoVBJANLvpq from '../assets/genshin/characters/Furina/Skill_S_01.png?enhanced&format=webp'
-import EcmEYVCaoryI from '../assets/genshin/characters/Furina/UI_AvatarIcon.png?enhanced&format=webp'
-import idUIWhXvNNhU from '../assets/genshin/characters/Furina/Skill_A_01.png?enhanced&format=webp'
-import vRDaCDBhOrSU from '../assets/genshin/characters/Furina/UI_Gacha_AvatarImg.png?enhanced&format=webp'
-import WxKabDRuWNdG from '../assets/genshin/characters/Furina/UI_Talent_S_05.png?enhanced&format=webp'
-import QguQJaydiCUB from '../assets/genshin/characters/Furina/UI_Talent_S_06.png?enhanced&format=webp'
-import pGKVewehpDSN from '../assets/genshin/characters/Furina/UI_Talent_S_07.png?enhanced&format=webp'
-import TwZNebRTsHEk from '../assets/genshin/characters/Nahida/UI_AvatarIcon_Side.png?enhanced&format=webp'
-import IdmvuqKLpnjK from '../assets/genshin/characters/Nahida/UI_Talent_S_01.png?enhanced&format=webp'
-import xypaejHLOePn from '../assets/genshin/characters/Nahida/UI_Talent_S_02.png?enhanced&format=webp'
-import bFLaxVGDCHpA from '../assets/genshin/characters/Nahida/UI_Talent_U_01.png?enhanced&format=webp'
-import KpZKUKvvKvmf from '../assets/genshin/characters/Nahida/UI_Talent_S_03.png?enhanced&format=webp'
-import fCXPfYsqjTGD from '../assets/genshin/characters/Nahida/UI_Talent_U_02.png?enhanced&format=webp'
-import BoFPJIkorKYS from '../assets/genshin/characters/Nahida/UI_Talent_S_04.png?enhanced&format=webp'
-import aVSaChVOqXFr from '../assets/genshin/characters/Nahida/Skill_E_01.png?enhanced&format=webp'
-import FErDbPADKhMt from '../assets/genshin/characters/Nahida/Skill_S_01.png?enhanced&format=webp'
-import vUrMPrwZAIAe from '../assets/genshin/characters/Nahida/UI_AvatarIcon.png?enhanced&format=webp'
-import ASKbYrrypRBG from '../assets/genshin/characters/Nahida/Skill_A_Catalyst_MD.png?enhanced&format=webp'
-import MkyfzirhokGm from '../assets/genshin/characters/Nahida/UI_Gacha_AvatarImg.png?enhanced&format=webp'
-import aTOTkcAWcDMp from '../assets/genshin/characters/Nahida/UI_Talent_S_05.png?enhanced&format=webp'
-import CvvGSBTaMwRa from '../assets/genshin/characters/Nahida/UI_Talent_S_06.png?enhanced&format=webp'
-import zfYSWHsTmPww from '../assets/genshin/characters/Nahida/UI_Talent_S_07.png?enhanced&format=webp'
-import RTZWHZjfmGuB from '../assets/genshin/characters/RaidenShogun/UI_AvatarIcon_Side_Shougun.png?enhanced&format=webp'
-import gJCxbbeTSnCZ from '../assets/genshin/characters/RaidenShogun/UI_Talent_S_Shougun_01.png?enhanced&format=webp'
-import XLJLVhVsFOuE from '../assets/genshin/characters/RaidenShogun/UI_Talent_S_Shougun_03.png?enhanced&format=webp'
-import oNOaOahJjSbk from '../assets/genshin/characters/RaidenShogun/UI_Talent_U_Shougun_02.png?enhanced&format=webp'
-import jTbDIeQYMWSb from '../assets/genshin/characters/RaidenShogun/UI_Talent_S_Shougun_02.png?enhanced&format=webp'
-import zmmjFIjSZVlB from '../assets/genshin/characters/RaidenShogun/UI_Talent_U_Shougun_01.png?enhanced&format=webp'
-import uBfQRwlhEUbb from '../assets/genshin/characters/RaidenShogun/UI_Talent_S_Shougun_04.png?enhanced&format=webp'
-import DYWERFLwrGNo from '../assets/genshin/characters/RaidenShogun/Skill_E_Shougun_01.png?enhanced&format=webp'
-import tkwgraBmtJEN from '../assets/genshin/characters/RaidenShogun/Skill_S_Shougun_01.png?enhanced&format=webp'
-import gkQsTiVVgLWF from '../assets/genshin/characters/RaidenShogun/UI_AvatarIcon_Shougun.png?enhanced&format=webp'
-import TVnzUDwchmld from '../assets/genshin/characters/RaidenShogun/Skill_A_03.png?enhanced&format=webp'
-import LnlldbeQCggw from '../assets/genshin/characters/RaidenShogun/UI_Gacha_AvatarImg_Shougun.png?enhanced&format=webp'
-import QpdxOqghMxVf from '../assets/genshin/characters/RaidenShogun/UI_Talent_S_Shougun_05.png?enhanced&format=webp'
-import uTKivltaKhOV from '../assets/genshin/characters/RaidenShogun/UI_Talent_S_Shougun_06.png?enhanced&format=webp'
-import paVhPDwfiTPB from '../assets/genshin/characters/RaidenShogun/UI_Talent_S_Shougun_07.png?enhanced&format=webp'
-import ffMzADVXYuCK from '../assets/genshin/characters/KaedeharaKazuha/UI_AvatarIcon_Side_Kazuha.png?enhanced&format=webp'
-import iCHDfflVXOri from '../assets/genshin/characters/KaedeharaKazuha/UI_Talent_S_Kazuha_01.png?enhanced&format=webp'
-import PXDXejgvqzSG from '../assets/genshin/characters/KaedeharaKazuha/UI_Talent_S_Kazuha_02.png?enhanced&format=webp'
-import viQbJcrYiNxA from '../assets/genshin/characters/KaedeharaKazuha/UI_Talent_U_Kazuha_01.png?enhanced&format=webp'
-import QfaDFkoofCjw from '../assets/genshin/characters/KaedeharaKazuha/UI_Talent_S_Kazuha_03.png?enhanced&format=webp'
-import lTCLzYuOpEgT from '../assets/genshin/characters/KaedeharaKazuha/UI_Talent_U_Kazuha_02.png?enhanced&format=webp'
-import ekOTDaGMvfcC from '../assets/genshin/characters/KaedeharaKazuha/UI_Talent_S_Kazuha_04.png?enhanced&format=webp'
-import HOXCAtNtMqbx from '../assets/genshin/characters/KaedeharaKazuha/Skill_E_Kazuha_01.png?enhanced&format=webp'
-import gqUIjOtAsokG from '../assets/genshin/characters/KaedeharaKazuha/Skill_S_Kazuha_01.png?enhanced&format=webp'
-import NikkThXyslaN from '../assets/genshin/characters/KaedeharaKazuha/UI_AvatarIcon_Kazuha.png?enhanced&format=webp'
-import qyRkiiYRcECO from '../assets/genshin/characters/KaedeharaKazuha/Skill_A_01.png?enhanced&format=webp'
-import VAgFpryVXPCd from '../assets/genshin/characters/KaedeharaKazuha/UI_Gacha_AvatarImg_Kazuha.png?enhanced&format=webp'
-import pBjaQjyveCFs from '../assets/genshin/characters/KaedeharaKazuha/UI_Talent_S_Kazuha_05.png?enhanced&format=webp'
-import UbQhgjsYnmLL from '../assets/genshin/characters/KaedeharaKazuha/UI_Talent_S_Kazuha_06.png?enhanced&format=webp'
-import tFtPhEUBuanl from '../assets/genshin/characters/KaedeharaKazuha/UI_Talent_Explosion_Sprint.png?enhanced&format=webp'
-import tWyZSTFsyHiC from '../assets/genshin/characters/HuTao/UI_AvatarIcon_Side_Hutao.png?enhanced&format=webp'
-import MSnfcnxYZhiI from '../assets/genshin/characters/HuTao/UI_Talent_S_Hutao_03.png?enhanced&format=webp'
-import nrHTCvdbMfNj from '../assets/genshin/characters/HuTao/UI_Talent_S_Hutao_01.png?enhanced&format=webp'
-import eylImWwpFKzR from '../assets/genshin/characters/HuTao/UI_Talent_U_Hutao_01.png?enhanced&format=webp'
-import lZnAcgNjdMyx from '../assets/genshin/characters/HuTao/UI_Talent_S_Hutao_02.png?enhanced&format=webp'
-import ElZyWEJkCjvV from '../assets/genshin/characters/HuTao/UI_Talent_U_Hutao_02.png?enhanced&format=webp'
-import yEjvcnibhYni from '../assets/genshin/characters/HuTao/UI_Talent_S_Hutao_04.png?enhanced&format=webp'
-import RVHfPscYQdWG from '../assets/genshin/characters/HuTao/Skill_E_Hutao_01.png?enhanced&format=webp'
-import zwbxBoPkpXkr from '../assets/genshin/characters/HuTao/Skill_S_Hutao_01.png?enhanced&format=webp'
-import DGYeHjqYpzIt from '../assets/genshin/characters/HuTao/UI_AvatarIcon_Hutao.png?enhanced&format=webp'
-import WeVpBDGWcAho from '../assets/genshin/characters/HuTao/Skill_A_03.png?enhanced&format=webp'
-import LwYCFVfexljj from '../assets/genshin/characters/HuTao/UI_Gacha_AvatarImg_Hutao.png?enhanced&format=webp'
-import lgudILxDqwyR from '../assets/genshin/characters/HuTao/UI_Talent_S_Hutao_05.png?enhanced&format=webp'
-import jSKvMHqGMFlx from '../assets/genshin/characters/HuTao/UI_Talent_S_Hutao_06.png?enhanced&format=webp'
-import mRighYSgZeTg from '../assets/genshin/characters/HuTao/UI_Talent_Cook_ExtraFailedItem.png?enhanced&format=webp'
+import IDRyyLleDQeX from '../assets/genshin/characters/Arlecchino/UI_AvatarIcon_Side.png?enhanced&format=webp'
+import jEfZxsNHTjfI from '../assets/genshin/characters/Arlecchino/UI_Talent_S_01.png?enhanced&format=webp'
+import lorRTBMUmEXU from '../assets/genshin/characters/Arlecchino/UI_Talent_S_02.png?enhanced&format=webp'
+import TuLmwRvPAyYh from '../assets/genshin/characters/Arlecchino/UI_Talent_U_01.png?enhanced&format=webp'
+import TCrDKFrFxDIY from '../assets/genshin/characters/Arlecchino/UI_Talent_S_03.png?enhanced&format=webp'
+import KRzcUJyeUUxI from '../assets/genshin/characters/Arlecchino/UI_Talent_U_02.png?enhanced&format=webp'
+import wIzxONHZhQeK from '../assets/genshin/characters/Arlecchino/UI_Talent_S_04.png?enhanced&format=webp'
+import FMZDrYeHuJVO from '../assets/genshin/characters/Arlecchino/Skill_E_01.png?enhanced&format=webp'
+import UmfLDyrFglFK from '../assets/genshin/characters/Arlecchino/Skill_S_01.png?enhanced&format=webp'
+import nRpOwRcMNaIQ from '../assets/genshin/characters/Arlecchino/UI_AvatarIcon.png?enhanced&format=webp'
+import ljgrboKmXsPW from '../assets/genshin/characters/Arlecchino/Skill_A_03.png?enhanced&format=webp'
+import pnUEtUfaGJdW from '../assets/genshin/characters/Arlecchino/UI_Gacha_AvatarImg.png?enhanced&format=webp'
+import DxsHmskyWUEt from '../assets/genshin/characters/Arlecchino/UI_Talent_S_05.png?enhanced&format=webp'
+import aCkwMfAgMqSL from '../assets/genshin/characters/Arlecchino/UI_Talent_S_06.png?enhanced&format=webp'
+import yxLIVmoWhnqB from '../assets/genshin/characters/Arlecchino/UI_Talent_S_07.png?enhanced&format=webp'
+import kyXtJgneZmdP from '../assets/genshin/characters/Zhongli/UI_AvatarIcon_Side.png?enhanced&format=webp'
+import EawZdxPkfhUk from '../assets/genshin/characters/Zhongli/UI_Talent_S_01.png?enhanced&format=webp'
+import zHwqHscdzNwI from '../assets/genshin/characters/Zhongli/UI_Talent_S_02.png?enhanced&format=webp'
+import UieCkjJXCaEA from '../assets/genshin/characters/Zhongli/UI_Talent_U_01.png?enhanced&format=webp'
+import hwvmQUZJdENX from '../assets/genshin/characters/Zhongli/UI_Talent_S_03.png?enhanced&format=webp'
+import hMggRLmsgapY from '../assets/genshin/characters/Zhongli/UI_Talent_U_02.png?enhanced&format=webp'
+import krvXoCfrxRfe from '../assets/genshin/characters/Zhongli/UI_Talent_S_04.png?enhanced&format=webp'
+import aGLwfhZNpsTz from '../assets/genshin/characters/Zhongli/Skill_E_01.png?enhanced&format=webp'
+import IiYZqxLJPxSd from '../assets/genshin/characters/Zhongli/Skill_S_01.png?enhanced&format=webp'
+import xDQrNmZpSEEH from '../assets/genshin/characters/Zhongli/UI_AvatarIcon.png?enhanced&format=webp'
+import QxRwmRrUszGF from '../assets/genshin/characters/Zhongli/Skill_A_03.png?enhanced&format=webp'
+import iaIKirNkQWSz from '../assets/genshin/characters/Zhongli/UI_Gacha_AvatarImg.png?enhanced&format=webp'
+import TvEKyByIFzNP from '../assets/genshin/characters/Zhongli/UI_Talent_S_05.png?enhanced&format=webp'
+import rjYnfaTjnhmt from '../assets/genshin/characters/Zhongli/UI_Talent_S_06.png?enhanced&format=webp'
+import ashoYmMEXmmg from '../assets/genshin/characters/Zhongli/UI_Talent_Forge_Pole.png?enhanced&format=webp'
+import VeyRfLJtFeXo from '../assets/genshin/characters/Yelan/UI_AvatarIcon_Side.png?enhanced&format=webp'
+import qeidtLkujmjJ from '../assets/genshin/characters/Yelan/UI_Talent_S_01.png?enhanced&format=webp'
+import aQtcRlCJGwet from '../assets/genshin/characters/Yelan/UI_Talent_S_02.png?enhanced&format=webp'
+import qzHKPLlMGbOf from '../assets/genshin/characters/Yelan/UI_Talent_U_01.png?enhanced&format=webp'
+import iGqhDBeUbnSV from '../assets/genshin/characters/Yelan/UI_Talent_S_03.png?enhanced&format=webp'
+import fxZIRBfFNkJj from '../assets/genshin/characters/Yelan/UI_Talent_U_02.png?enhanced&format=webp'
+import XgLzwRjrcfGE from '../assets/genshin/characters/Yelan/UI_Talent_S_04.png?enhanced&format=webp'
+import ONadWtvOHAhi from '../assets/genshin/characters/Yelan/Skill_E_01.png?enhanced&format=webp'
+import CdKKSZxrOcbT from '../assets/genshin/characters/Yelan/Skill_S_01.png?enhanced&format=webp'
+import qSoNwlljTzzR from '../assets/genshin/characters/Yelan/UI_AvatarIcon.png?enhanced&format=webp'
+import hqZRgoNFiKjM from '../assets/genshin/characters/Yelan/Skill_A_02.png?enhanced&format=webp'
+import itAbGsuLYBLY from '../assets/genshin/characters/Yelan/UI_Gacha_AvatarImg.png?enhanced&format=webp'
+import hvbXJKPDlmrj from '../assets/genshin/characters/Yelan/UI_Talent_S_05.png?enhanced&format=webp'
+import uNBQSYmYDJrv from '../assets/genshin/characters/Yelan/UI_Talent_S_06.png?enhanced&format=webp'
+import yKakZgeeBqwH from '../assets/genshin/characters/Yelan/UI_Talent_Expedition_Liyue.png?enhanced&format=webp'
+import SBfStbADDHrM from '../assets/genshin/characters/Xingqiu/UI_AvatarIcon_Side.png?enhanced&format=webp'
+import KHgwwoUTkthP from '../assets/genshin/characters/Xingqiu/UI_Talent_S_01.png?enhanced&format=webp'
+import SZNPvRfPiGnb from '../assets/genshin/characters/Xingqiu/UI_Talent_S_02.png?enhanced&format=webp'
+import URjKMRfuGhAA from '../assets/genshin/characters/Xingqiu/UI_Talent_U_01.png?enhanced&format=webp'
+import aiGsNEIryQJr from '../assets/genshin/characters/Xingqiu/UI_Talent_S_03.png?enhanced&format=webp'
+import RUNzAEeSSvaJ from '../assets/genshin/characters/Xingqiu/UI_Talent_U_02.png?enhanced&format=webp'
+import uuLJnHhGhvVS from '../assets/genshin/characters/Xingqiu/UI_Talent_S_04.png?enhanced&format=webp'
+import qrlzahTmnmrb from '../assets/genshin/characters/Xingqiu/Skill_E_01.png?enhanced&format=webp'
+import FJuPnMeovDiZ from '../assets/genshin/characters/Xingqiu/Skill_S_01.png?enhanced&format=webp'
+import kCNWAllleTPv from '../assets/genshin/characters/Xingqiu/UI_AvatarIcon.png?enhanced&format=webp'
+import kXzFFvZpxcaq from '../assets/genshin/characters/Xingqiu/Skill_A_01.png?enhanced&format=webp'
+import lkcLIIopNDMv from '../assets/genshin/characters/Xingqiu/UI_Gacha_AvatarImg.png?enhanced&format=webp'
+import GaRrPkWGCAAh from '../assets/genshin/characters/Xingqiu/UI_Talent_S_05.png?enhanced&format=webp'
+import RNjrTaJOZxxP from '../assets/genshin/characters/Xingqiu/UI_Talent_S_06.png?enhanced&format=webp'
+import FxGETDfzqWDI from '../assets/genshin/characters/Xingqiu/UI_Talent_Combine_Talent.png?enhanced&format=webp'
+import KtYXJIOWhlQY from '../assets/genshin/characters/Xiao/UI_AvatarIcon_Side.png?enhanced&format=webp'
+import nIVOuheLnHlC from '../assets/genshin/characters/Xiao/UI_Talent_S_01.png?enhanced&format=webp'
+import rceryzOtFaek from '../assets/genshin/characters/Xiao/UI_Talent_S_02.png?enhanced&format=webp'
+import KvVkXdAeTJVi from '../assets/genshin/characters/Xiao/UI_Talent_U_01.png?enhanced&format=webp'
+import bLxCJHxnpZoR from '../assets/genshin/characters/Xiao/UI_Talent_S_03.png?enhanced&format=webp'
+import sUPNLfbvtpwo from '../assets/genshin/characters/Xiao/UI_Talent_U_02.png?enhanced&format=webp'
+import pRCKenJYiCab from '../assets/genshin/characters/Xiao/UI_Talent_S_04.png?enhanced&format=webp'
+import DIyZzfFARweP from '../assets/genshin/characters/Xiao/Skill_E_01.png?enhanced&format=webp'
+import zXQtSCzusiBH from '../assets/genshin/characters/Xiao/Skill_S_01.png?enhanced&format=webp'
+import WqFpAyWBltnj from '../assets/genshin/characters/Xiao/UI_AvatarIcon.png?enhanced&format=webp'
+import KQqJAvyPvkAO from '../assets/genshin/characters/Xiao/Skill_A_03.png?enhanced&format=webp'
+import aXFEStUESWqj from '../assets/genshin/characters/Xiao/UI_Gacha_AvatarImg.png?enhanced&format=webp'
+import KtusOyQBWFcl from '../assets/genshin/characters/Xiao/UI_Talent_S_05.png?enhanced&format=webp'
+import MORYpELNDvVf from '../assets/genshin/characters/Xiao/UI_Talent_S_06.png?enhanced&format=webp'
+import EGfVgraOoDMb from '../assets/genshin/characters/Xiao/UI_Talent_Explosion_Climb.png?enhanced&format=webp'
+import AsbhZEZMOxHv from '../assets/genshin/characters/Xianyun/UI_AvatarIcon_Side_Liuyun.png?enhanced&format=webp'
+import FTbiyCBCEgys from '../assets/genshin/characters/Xianyun/UI_Talent_S_Liuyun_01.png?enhanced&format=webp'
+import RUadCEtCdFzp from '../assets/genshin/characters/Xianyun/UI_Talent_S_Liuyun_02.png?enhanced&format=webp'
+import oIJHfmApVwSF from '../assets/genshin/characters/Xianyun/UI_Talent_U_Liuyun_02.png?enhanced&format=webp'
+import LSjrAdlMNfaL from '../assets/genshin/characters/Xianyun/UI_Talent_S_Liuyun_03.png?enhanced&format=webp'
+import YDPMFFzGqpQg from '../assets/genshin/characters/Xianyun/UI_Talent_U_Liuyun_01.png?enhanced&format=webp'
+import whhRsqTxFaIw from '../assets/genshin/characters/Xianyun/UI_Talent_S_Liuyun_04.png?enhanced&format=webp'
+import cNYIQjPNduGK from '../assets/genshin/characters/Xianyun/Skill_E_Liuyun_01.png?enhanced&format=webp'
+import rMsMYmCvsvNx from '../assets/genshin/characters/Xianyun/Skill_S_Liuyun_01.png?enhanced&format=webp'
+import HXaVjJvHiULg from '../assets/genshin/characters/Xianyun/UI_AvatarIcon_Liuyun.png?enhanced&format=webp'
+import zcdCbmuhjhwv from '../assets/genshin/characters/Xianyun/Skill_A_Catalyst_MD.png?enhanced&format=webp'
+import hENugQhXzvBz from '../assets/genshin/characters/Xianyun/UI_Gacha_AvatarImg_Liuyun.png?enhanced&format=webp'
+import XguofjzdIRHd from '../assets/genshin/characters/Xianyun/UI_Talent_S_Liuyun_05.png?enhanced&format=webp'
+import FNaVquEomvLC from '../assets/genshin/characters/Xianyun/UI_Talent_S_Liuyun_06.png?enhanced&format=webp'
+import McZcLscvcZRZ from '../assets/genshin/characters/Xianyun/UI_Talent_S_Liuyun_07.png?enhanced&format=webp'
+import DAKEXiKTbaXw from '../assets/genshin/characters/Faruzan/UI_AvatarIcon_Side.png?enhanced&format=webp'
+import tvMwblIiYktc from '../assets/genshin/characters/Faruzan/UI_Talent_S_01.png?enhanced&format=webp'
+import kzowPVqususU from '../assets/genshin/characters/Faruzan/UI_Talent_S_02.png?enhanced&format=webp'
+import PVwPKubGtqfR from '../assets/genshin/characters/Faruzan/UI_Talent_U_01.png?enhanced&format=webp'
+import JJphZuWgwluq from '../assets/genshin/characters/Faruzan/UI_Talent_S_03.png?enhanced&format=webp'
+import YjnpwZIkhHDg from '../assets/genshin/characters/Faruzan/UI_Talent_U_02.png?enhanced&format=webp'
+import ChOdBFNvDiug from '../assets/genshin/characters/Faruzan/UI_Talent_S_04.png?enhanced&format=webp'
+import CcojWxKpBPdo from '../assets/genshin/characters/Faruzan/Skill_E_01.png?enhanced&format=webp'
+import mRMbFuUuzJTJ from '../assets/genshin/characters/Faruzan/Skill_S_01.png?enhanced&format=webp'
+import ZzVlJuMpjTPd from '../assets/genshin/characters/Faruzan/UI_AvatarIcon.png?enhanced&format=webp'
+import QPTuZUHaDZYO from '../assets/genshin/characters/Faruzan/Skill_A_02.png?enhanced&format=webp'
+import UdXObAjtDWBZ from '../assets/genshin/characters/Faruzan/UI_Gacha_AvatarImg.png?enhanced&format=webp'
+import UNqCeGlCqXyE from '../assets/genshin/characters/Faruzan/UI_Talent_S_05.png?enhanced&format=webp'
+import vyVmJUtkcykd from '../assets/genshin/characters/Faruzan/UI_Talent_S_06.png?enhanced&format=webp'
+import fRylGLxTIqdp from '../assets/genshin/characters/Faruzan/UI_Talent_S_Cyno_07.png?enhanced&format=webp'
+import fvQDlgKxaRlE from '../assets/genshin/characters/Furina/UI_AvatarIcon_Side.png?enhanced&format=webp'
+import igVDkortrBpy from '../assets/genshin/characters/Furina/UI_Talent_S_01.png?enhanced&format=webp'
+import NJuMSbOVIfJv from '../assets/genshin/characters/Furina/UI_Talent_S_04.png?enhanced&format=webp'
+import OnNKMnUvegdo from '../assets/genshin/characters/Furina/UI_Talent_U_02.png?enhanced&format=webp'
+import DQHnqackKDBk from '../assets/genshin/characters/Furina/UI_Talent_S_03.png?enhanced&format=webp'
+import OGZAHsElydSN from '../assets/genshin/characters/Furina/UI_Talent_U_01.png?enhanced&format=webp'
+import COqmLoygMVrO from '../assets/genshin/characters/Furina/UI_Talent_S_02.png?enhanced&format=webp'
+import DJYXLLOHKCcb from '../assets/genshin/characters/Furina/Skill_E_01.png?enhanced&format=webp'
+import RWafQrPyjQAX from '../assets/genshin/characters/Furina/Skill_S_01.png?enhanced&format=webp'
+import vHtRMrljNAuO from '../assets/genshin/characters/Furina/UI_AvatarIcon.png?enhanced&format=webp'
+import dXhetdTYrOxd from '../assets/genshin/characters/Furina/Skill_A_01.png?enhanced&format=webp'
+import ZpFiPEvGdkEI from '../assets/genshin/characters/Furina/UI_Gacha_AvatarImg.png?enhanced&format=webp'
+import fAlCehelSewn from '../assets/genshin/characters/Furina/UI_Talent_S_05.png?enhanced&format=webp'
+import nDLKSpAVPjHM from '../assets/genshin/characters/Furina/UI_Talent_S_06.png?enhanced&format=webp'
+import FffWyeagFasm from '../assets/genshin/characters/Furina/UI_Talent_S_07.png?enhanced&format=webp'
+import XpMdouxUhYuM from '../assets/genshin/characters/Nahida/UI_AvatarIcon_Side.png?enhanced&format=webp'
+import ZCXyhVsLnOZA from '../assets/genshin/characters/Nahida/UI_Talent_S_01.png?enhanced&format=webp'
+import pyIbDtaqNIzU from '../assets/genshin/characters/Nahida/UI_Talent_S_02.png?enhanced&format=webp'
+import NKZyMLDvhQCY from '../assets/genshin/characters/Nahida/UI_Talent_U_01.png?enhanced&format=webp'
+import ZiKZEduXgeKF from '../assets/genshin/characters/Nahida/UI_Talent_S_03.png?enhanced&format=webp'
+import CDrGRLVUFXvg from '../assets/genshin/characters/Nahida/UI_Talent_U_02.png?enhanced&format=webp'
+import lsQlIOvlNHpX from '../assets/genshin/characters/Nahida/UI_Talent_S_04.png?enhanced&format=webp'
+import rvuFaMsqUSVu from '../assets/genshin/characters/Nahida/Skill_E_01.png?enhanced&format=webp'
+import pBjNTcIdZekn from '../assets/genshin/characters/Nahida/Skill_S_01.png?enhanced&format=webp'
+import OkeMRwntsmav from '../assets/genshin/characters/Nahida/UI_AvatarIcon.png?enhanced&format=webp'
+import ICQgJspdgTiQ from '../assets/genshin/characters/Nahida/Skill_A_Catalyst_MD.png?enhanced&format=webp'
+import zJvekmVkhVjh from '../assets/genshin/characters/Nahida/UI_Gacha_AvatarImg.png?enhanced&format=webp'
+import LJYWsecqdyXM from '../assets/genshin/characters/Nahida/UI_Talent_S_05.png?enhanced&format=webp'
+import PpCJMBBNPvoH from '../assets/genshin/characters/Nahida/UI_Talent_S_06.png?enhanced&format=webp'
+import DbyDhrKoTZgV from '../assets/genshin/characters/Nahida/UI_Talent_S_07.png?enhanced&format=webp'
+import eaPKVyeSfRlG from '../assets/genshin/characters/RaidenShogun/UI_AvatarIcon_Side_Shougun.png?enhanced&format=webp'
+import BACbKKSIvTZD from '../assets/genshin/characters/RaidenShogun/UI_Talent_S_Shougun_01.png?enhanced&format=webp'
+import OdQCyacyHUcU from '../assets/genshin/characters/RaidenShogun/UI_Talent_S_Shougun_03.png?enhanced&format=webp'
+import mlGZMehJOIPa from '../assets/genshin/characters/RaidenShogun/UI_Talent_U_Shougun_02.png?enhanced&format=webp'
+import VBTSlkTDMAdN from '../assets/genshin/characters/RaidenShogun/UI_Talent_S_Shougun_02.png?enhanced&format=webp'
+import khjouYyNWJPa from '../assets/genshin/characters/RaidenShogun/UI_Talent_U_Shougun_01.png?enhanced&format=webp'
+import VDaxkEMUkCDp from '../assets/genshin/characters/RaidenShogun/UI_Talent_S_Shougun_04.png?enhanced&format=webp'
+import daeXuYgBtWrg from '../assets/genshin/characters/RaidenShogun/Skill_E_Shougun_01.png?enhanced&format=webp'
+import gllQZtLNThzg from '../assets/genshin/characters/RaidenShogun/Skill_S_Shougun_01.png?enhanced&format=webp'
+import AXraztyaZgci from '../assets/genshin/characters/RaidenShogun/UI_AvatarIcon_Shougun.png?enhanced&format=webp'
+import rmlUFspUFOgW from '../assets/genshin/characters/RaidenShogun/Skill_A_03.png?enhanced&format=webp'
+import JIgEAGbZijWB from '../assets/genshin/characters/RaidenShogun/UI_Gacha_AvatarImg_Shougun.png?enhanced&format=webp'
+import ZRdnNqItNUpo from '../assets/genshin/characters/RaidenShogun/UI_Talent_S_Shougun_05.png?enhanced&format=webp'
+import yDBvIWuyKRTQ from '../assets/genshin/characters/RaidenShogun/UI_Talent_S_Shougun_06.png?enhanced&format=webp'
+import tEGVWiwWmBQO from '../assets/genshin/characters/RaidenShogun/UI_Talent_S_Shougun_07.png?enhanced&format=webp'
+import ywOOACqeKxqW from '../assets/genshin/characters/KaedeharaKazuha/UI_AvatarIcon_Side_Kazuha.png?enhanced&format=webp'
+import MQlMzMQcEefJ from '../assets/genshin/characters/KaedeharaKazuha/UI_Talent_S_Kazuha_01.png?enhanced&format=webp'
+import xBrQSZNRiGAc from '../assets/genshin/characters/KaedeharaKazuha/UI_Talent_S_Kazuha_02.png?enhanced&format=webp'
+import tHSgtsciGhio from '../assets/genshin/characters/KaedeharaKazuha/UI_Talent_U_Kazuha_01.png?enhanced&format=webp'
+import UHEvOiNcWpES from '../assets/genshin/characters/KaedeharaKazuha/UI_Talent_S_Kazuha_03.png?enhanced&format=webp'
+import fZnwFJyWPuRz from '../assets/genshin/characters/KaedeharaKazuha/UI_Talent_U_Kazuha_02.png?enhanced&format=webp'
+import JGRbNvkbRllp from '../assets/genshin/characters/KaedeharaKazuha/UI_Talent_S_Kazuha_04.png?enhanced&format=webp'
+import fVyEeIiOLMRw from '../assets/genshin/characters/KaedeharaKazuha/Skill_E_Kazuha_01.png?enhanced&format=webp'
+import NuOOtKEsqttV from '../assets/genshin/characters/KaedeharaKazuha/Skill_S_Kazuha_01.png?enhanced&format=webp'
+import WFHkBiLRARyU from '../assets/genshin/characters/KaedeharaKazuha/UI_AvatarIcon_Kazuha.png?enhanced&format=webp'
+import SERAMEwHGKCa from '../assets/genshin/characters/KaedeharaKazuha/Skill_A_01.png?enhanced&format=webp'
+import AsWfJqNNIPsX from '../assets/genshin/characters/KaedeharaKazuha/UI_Gacha_AvatarImg_Kazuha.png?enhanced&format=webp'
+import LLbBzBGyHxIR from '../assets/genshin/characters/KaedeharaKazuha/UI_Talent_S_Kazuha_05.png?enhanced&format=webp'
+import WFKdNQfqxfGS from '../assets/genshin/characters/KaedeharaKazuha/UI_Talent_S_Kazuha_06.png?enhanced&format=webp'
+import gMvrlLivQfqc from '../assets/genshin/characters/KaedeharaKazuha/UI_Talent_Explosion_Sprint.png?enhanced&format=webp'
+import XtlFbOUmkbLR from '../assets/genshin/characters/HuTao/UI_AvatarIcon_Side_Hutao.png?enhanced&format=webp'
+import vQmvlUKfyVaL from '../assets/genshin/characters/HuTao/UI_Talent_S_Hutao_03.png?enhanced&format=webp'
+import OjXgWpfjmqcz from '../assets/genshin/characters/HuTao/UI_Talent_S_Hutao_01.png?enhanced&format=webp'
+import MnUOnSgkipZb from '../assets/genshin/characters/HuTao/UI_Talent_U_Hutao_01.png?enhanced&format=webp'
+import CMYGaciWuAUH from '../assets/genshin/characters/HuTao/UI_Talent_S_Hutao_02.png?enhanced&format=webp'
+import eIQVnlxUuCDB from '../assets/genshin/characters/HuTao/UI_Talent_U_Hutao_02.png?enhanced&format=webp'
+import sLgBYoOBNBkb from '../assets/genshin/characters/HuTao/UI_Talent_S_Hutao_04.png?enhanced&format=webp'
+import WIlMBpKgRGxB from '../assets/genshin/characters/HuTao/Skill_E_Hutao_01.png?enhanced&format=webp'
+import XQppvBxfMuaA from '../assets/genshin/characters/HuTao/Skill_S_Hutao_01.png?enhanced&format=webp'
+import FxixGCArsRXw from '../assets/genshin/characters/HuTao/UI_AvatarIcon_Hutao.png?enhanced&format=webp'
+import MoZqpumHWsof from '../assets/genshin/characters/HuTao/Skill_A_03.png?enhanced&format=webp'
+import AoIoTPYxeXhk from '../assets/genshin/characters/HuTao/UI_Gacha_AvatarImg_Hutao.png?enhanced&format=webp'
+import hUbEaBMYdLCm from '../assets/genshin/characters/HuTao/UI_Talent_S_Hutao_05.png?enhanced&format=webp'
+import ZfbAbRUvgpfZ from '../assets/genshin/characters/HuTao/UI_Talent_S_Hutao_06.png?enhanced&format=webp'
+import effKYDQldyEA from '../assets/genshin/characters/HuTao/UI_Talent_Cook_ExtraFailedItem.png?enhanced&format=webp'
 
 type CharacterImageKey =
 	| 'sideIcon'
@@ -205,197 +205,197 @@ type CharacterKey = 'Arlecchino' | 'Zhongli' | 'Yelan' | 'Xingqiu' | 'Xiao' | 'X
 
 const characterImageDict: Record<CharacterKey, Record<CharacterImageKey, Picture>> = {
 Arlecchino: {
-	sideIcon: LOsfjDPoKaup,
-	con_0: KWRGhhgeaZQb,
-	con_1: HZsHBOVzFtDy,
-	con_2: YrWSKzHdyTmK,
-	con_3: oiqdJfKPMsPW,
-	con_4: TWsfVskjqTrC,
-	con_5: BinSysEdudIe,
-	burst: DCWwUXYmBjZA,
-	skill: pudSjdwNhqXv,
-	characterIcon: jEFlEloEGFuK,
-	normal: WdWCvLQjQViz,
-	splashImage: vhIhBgLSCCaA,
-	talent_0: ZEJHbJJOSrhp,
-	talent_1: xMpEuzfyIHbf,
-	talent_2: SfbKnQxhGdNB
+	sideIcon: IDRyyLleDQeX,
+	con_0: jEfZxsNHTjfI,
+	con_1: lorRTBMUmEXU,
+	con_2: TuLmwRvPAyYh,
+	con_3: TCrDKFrFxDIY,
+	con_4: KRzcUJyeUUxI,
+	con_5: wIzxONHZhQeK,
+	burst: FMZDrYeHuJVO,
+	skill: UmfLDyrFglFK,
+	characterIcon: nRpOwRcMNaIQ,
+	normal: ljgrboKmXsPW,
+	splashImage: pnUEtUfaGJdW,
+	talent_0: DxsHmskyWUEt,
+	talent_1: aCkwMfAgMqSL,
+	talent_2: yxLIVmoWhnqB
 },Zhongli: {
-	sideIcon: zGIIMjOVFDmU,
-	con_0: OGxYTtdkpXUE,
-	con_1: wMIKQOkMvNsF,
-	con_2: GlMLVClPqmHo,
-	con_3: RYyDBqgPgIxl,
-	con_4: rGiEMDOjzDly,
-	con_5: PJvhxHVrnygk,
-	burst: hRRfUmFdVBoI,
-	skill: YVuqSCgkgCpC,
-	characterIcon: ntyMvIiIUkwJ,
-	normal: ZqQQJYGROwUI,
-	splashImage: bQJeyslValga,
-	talent_0: KoBNOcUuDwio,
-	talent_1: yoZleaMSBzAn,
-	talent_2: rnBkxddLxvSI
+	sideIcon: kyXtJgneZmdP,
+	con_0: EawZdxPkfhUk,
+	con_1: zHwqHscdzNwI,
+	con_2: UieCkjJXCaEA,
+	con_3: hwvmQUZJdENX,
+	con_4: hMggRLmsgapY,
+	con_5: krvXoCfrxRfe,
+	burst: aGLwfhZNpsTz,
+	skill: IiYZqxLJPxSd,
+	characterIcon: xDQrNmZpSEEH,
+	normal: QxRwmRrUszGF,
+	splashImage: iaIKirNkQWSz,
+	talent_0: TvEKyByIFzNP,
+	talent_1: rjYnfaTjnhmt,
+	talent_2: ashoYmMEXmmg
 },Yelan: {
-	sideIcon: DgGgqIDiYLlB,
-	con_0: UaRvnkmBSPOX,
-	con_1: MsuSHxMqnOIR,
-	con_2: fPcnWVTQBVai,
-	con_3: PLbEfchAppVv,
-	con_4: yvJfMcWbJmek,
-	con_5: XkBxzyqjHLeS,
-	burst: OGElSdjziGfE,
-	skill: kDpGCYvtHRZI,
-	characterIcon: NuazcskTHsTI,
-	normal: uHFVqQEGoKUc,
-	splashImage: idtCCcnnUoqJ,
-	talent_0: vxExfDtouVAw,
-	talent_1: neYIgChKALDA,
-	talent_2: ZgfSkZWuFoyN
+	sideIcon: VeyRfLJtFeXo,
+	con_0: qeidtLkujmjJ,
+	con_1: aQtcRlCJGwet,
+	con_2: qzHKPLlMGbOf,
+	con_3: iGqhDBeUbnSV,
+	con_4: fxZIRBfFNkJj,
+	con_5: XgLzwRjrcfGE,
+	burst: ONadWtvOHAhi,
+	skill: CdKKSZxrOcbT,
+	characterIcon: qSoNwlljTzzR,
+	normal: hqZRgoNFiKjM,
+	splashImage: itAbGsuLYBLY,
+	talent_0: hvbXJKPDlmrj,
+	talent_1: uNBQSYmYDJrv,
+	talent_2: yKakZgeeBqwH
 },Xingqiu: {
-	sideIcon: wEryqTyFqOgU,
-	con_0: MoiDWhAkhDLA,
-	con_1: ZMFAXnjourSc,
-	con_2: sgnKLzYrviRc,
-	con_3: bJNojTZAldvy,
-	con_4: XPzNScPjUJyi,
-	con_5: sjwyFcwaBjmP,
-	burst: gpwYUDypebYS,
-	skill: kIirBcRMGswF,
-	characterIcon: WcXQHMhaIbBy,
-	normal: QOtbwvrvQobl,
-	splashImage: XDxiEKdBGaxe,
-	talent_0: YoXjfZGubLMi,
-	talent_1: kUchjpPxNkMC,
-	talent_2: reDkoIhykIcI
+	sideIcon: SBfStbADDHrM,
+	con_0: KHgwwoUTkthP,
+	con_1: SZNPvRfPiGnb,
+	con_2: URjKMRfuGhAA,
+	con_3: aiGsNEIryQJr,
+	con_4: RUNzAEeSSvaJ,
+	con_5: uuLJnHhGhvVS,
+	burst: qrlzahTmnmrb,
+	skill: FJuPnMeovDiZ,
+	characterIcon: kCNWAllleTPv,
+	normal: kXzFFvZpxcaq,
+	splashImage: lkcLIIopNDMv,
+	talent_0: GaRrPkWGCAAh,
+	talent_1: RNjrTaJOZxxP,
+	talent_2: FxGETDfzqWDI
 },Xiao: {
-	sideIcon: uDbXBBrIDzCG,
-	con_0: ESSJwQwMDOao,
-	con_1: mlUpgvMMWRaq,
-	con_2: wSGyCztgnZBk,
-	con_3: TJGalxDZIjHP,
-	con_4: FTiJEyprjkpc,
-	con_5: wDvoyEKwOPbP,
-	burst: zEUQGnSXaPZc,
-	skill: RsVkdJkgrfjN,
-	characterIcon: etcGiCcIWFWi,
-	normal: xfLBaWohaXfx,
-	splashImage: gYofgfifJAeA,
-	talent_0: CSDvlUUvPdnR,
-	talent_1: tklkKikXBuyZ,
-	talent_2: eyzLBwwTpFlM
+	sideIcon: KtYXJIOWhlQY,
+	con_0: nIVOuheLnHlC,
+	con_1: rceryzOtFaek,
+	con_2: KvVkXdAeTJVi,
+	con_3: bLxCJHxnpZoR,
+	con_4: sUPNLfbvtpwo,
+	con_5: pRCKenJYiCab,
+	burst: DIyZzfFARweP,
+	skill: zXQtSCzusiBH,
+	characterIcon: WqFpAyWBltnj,
+	normal: KQqJAvyPvkAO,
+	splashImage: aXFEStUESWqj,
+	talent_0: KtusOyQBWFcl,
+	talent_1: MORYpELNDvVf,
+	talent_2: EGfVgraOoDMb
 },Xianyun: {
-	sideIcon: zNDkGGQSDFvO,
-	con_0: LGftvgPccNiQ,
-	con_1: ytSNwjoIXcLB,
-	con_2: wdORBoAThQsU,
-	con_3: cdeweQdfvjfP,
-	con_4: ZdgYJpoeSzqk,
-	con_5: TnTpvkjysjLd,
-	burst: DPDGqYqxNjxh,
-	skill: PEGzojiMBsKN,
-	characterIcon: RdffmJYCSZRr,
-	normal: YMfbzvOmsPtL,
-	splashImage: NKhHqZrDTbmp,
-	talent_0: XqDQfdzwoNzS,
-	talent_1: buZPieFXLHIe,
-	talent_2: FqFybkZjvLcY
+	sideIcon: AsbhZEZMOxHv,
+	con_0: FTbiyCBCEgys,
+	con_1: RUadCEtCdFzp,
+	con_2: oIJHfmApVwSF,
+	con_3: LSjrAdlMNfaL,
+	con_4: YDPMFFzGqpQg,
+	con_5: whhRsqTxFaIw,
+	burst: cNYIQjPNduGK,
+	skill: rMsMYmCvsvNx,
+	characterIcon: HXaVjJvHiULg,
+	normal: zcdCbmuhjhwv,
+	splashImage: hENugQhXzvBz,
+	talent_0: XguofjzdIRHd,
+	talent_1: FNaVquEomvLC,
+	talent_2: McZcLscvcZRZ
 },Faruzan: {
-	sideIcon: boaizvbjrzas,
-	con_0: WtoUraGZPCBz,
-	con_1: ffzVbPcmAEfr,
-	con_2: WPkexPcNVTgz,
-	con_3: EfSFQBLnDhyc,
-	con_4: LxdzjcGaMGoL,
-	con_5: IpwogSUYoTzf,
-	burst: SGDXxzNDliGq,
-	skill: KiZbGmowyEkO,
-	characterIcon: ePCSztXwWoVY,
-	normal: yZOfafZQOZsg,
-	splashImage: EvqbTSOzYlxe,
-	talent_0: FfeFoWgiAqZN,
-	talent_1: TGHYWQJhSVgv,
-	talent_2: FMwSmHbjJJBS
+	sideIcon: DAKEXiKTbaXw,
+	con_0: tvMwblIiYktc,
+	con_1: kzowPVqususU,
+	con_2: PVwPKubGtqfR,
+	con_3: JJphZuWgwluq,
+	con_4: YjnpwZIkhHDg,
+	con_5: ChOdBFNvDiug,
+	burst: CcojWxKpBPdo,
+	skill: mRMbFuUuzJTJ,
+	characterIcon: ZzVlJuMpjTPd,
+	normal: QPTuZUHaDZYO,
+	splashImage: UdXObAjtDWBZ,
+	talent_0: UNqCeGlCqXyE,
+	talent_1: vyVmJUtkcykd,
+	talent_2: fRylGLxTIqdp
 },Furina: {
-	sideIcon: WBzECDabacgq,
-	con_0: HPKqsQXaxeEK,
-	con_1: aHjsxIGDHfDp,
-	con_2: MMvrEBoyTFwc,
-	con_3: QxyNrWEjnREj,
-	con_4: hwixxfmUcWNa,
-	con_5: NwzaPWaeJkUF,
-	burst: iEdPJpbBmHnh,
-	skill: vNoVBJANLvpq,
-	characterIcon: EcmEYVCaoryI,
-	normal: idUIWhXvNNhU,
-	splashImage: vRDaCDBhOrSU,
-	talent_0: WxKabDRuWNdG,
-	talent_1: QguQJaydiCUB,
-	talent_2: pGKVewehpDSN
+	sideIcon: fvQDlgKxaRlE,
+	con_0: igVDkortrBpy,
+	con_1: NJuMSbOVIfJv,
+	con_2: OnNKMnUvegdo,
+	con_3: DQHnqackKDBk,
+	con_4: OGZAHsElydSN,
+	con_5: COqmLoygMVrO,
+	burst: DJYXLLOHKCcb,
+	skill: RWafQrPyjQAX,
+	characterIcon: vHtRMrljNAuO,
+	normal: dXhetdTYrOxd,
+	splashImage: ZpFiPEvGdkEI,
+	talent_0: fAlCehelSewn,
+	talent_1: nDLKSpAVPjHM,
+	talent_2: FffWyeagFasm
 },Nahida: {
-	sideIcon: TwZNebRTsHEk,
-	con_0: IdmvuqKLpnjK,
-	con_1: xypaejHLOePn,
-	con_2: bFLaxVGDCHpA,
-	con_3: KpZKUKvvKvmf,
-	con_4: fCXPfYsqjTGD,
-	con_5: BoFPJIkorKYS,
-	burst: aVSaChVOqXFr,
-	skill: FErDbPADKhMt,
-	characterIcon: vUrMPrwZAIAe,
-	normal: ASKbYrrypRBG,
-	splashImage: MkyfzirhokGm,
-	talent_0: aTOTkcAWcDMp,
-	talent_1: CvvGSBTaMwRa,
-	talent_2: zfYSWHsTmPww
+	sideIcon: XpMdouxUhYuM,
+	con_0: ZCXyhVsLnOZA,
+	con_1: pyIbDtaqNIzU,
+	con_2: NKZyMLDvhQCY,
+	con_3: ZiKZEduXgeKF,
+	con_4: CDrGRLVUFXvg,
+	con_5: lsQlIOvlNHpX,
+	burst: rvuFaMsqUSVu,
+	skill: pBjNTcIdZekn,
+	characterIcon: OkeMRwntsmav,
+	normal: ICQgJspdgTiQ,
+	splashImage: zJvekmVkhVjh,
+	talent_0: LJYWsecqdyXM,
+	talent_1: PpCJMBBNPvoH,
+	talent_2: DbyDhrKoTZgV
 },RaidenShogun: {
-	sideIcon: RTZWHZjfmGuB,
-	con_0: gJCxbbeTSnCZ,
-	con_1: XLJLVhVsFOuE,
-	con_2: oNOaOahJjSbk,
-	con_3: jTbDIeQYMWSb,
-	con_4: zmmjFIjSZVlB,
-	con_5: uBfQRwlhEUbb,
-	burst: DYWERFLwrGNo,
-	skill: tkwgraBmtJEN,
-	characterIcon: gkQsTiVVgLWF,
-	normal: TVnzUDwchmld,
-	splashImage: LnlldbeQCggw,
-	talent_0: QpdxOqghMxVf,
-	talent_1: uTKivltaKhOV,
-	talent_2: paVhPDwfiTPB
+	sideIcon: eaPKVyeSfRlG,
+	con_0: BACbKKSIvTZD,
+	con_1: OdQCyacyHUcU,
+	con_2: mlGZMehJOIPa,
+	con_3: VBTSlkTDMAdN,
+	con_4: khjouYyNWJPa,
+	con_5: VDaxkEMUkCDp,
+	burst: daeXuYgBtWrg,
+	skill: gllQZtLNThzg,
+	characterIcon: AXraztyaZgci,
+	normal: rmlUFspUFOgW,
+	splashImage: JIgEAGbZijWB,
+	talent_0: ZRdnNqItNUpo,
+	talent_1: yDBvIWuyKRTQ,
+	talent_2: tEGVWiwWmBQO
 },KaedeharaKazuha: {
-	sideIcon: ffMzADVXYuCK,
-	con_0: iCHDfflVXOri,
-	con_1: PXDXejgvqzSG,
-	con_2: viQbJcrYiNxA,
-	con_3: QfaDFkoofCjw,
-	con_4: lTCLzYuOpEgT,
-	con_5: ekOTDaGMvfcC,
-	burst: HOXCAtNtMqbx,
-	skill: gqUIjOtAsokG,
-	characterIcon: NikkThXyslaN,
-	normal: qyRkiiYRcECO,
-	splashImage: VAgFpryVXPCd,
-	talent_0: pBjaQjyveCFs,
-	talent_1: UbQhgjsYnmLL,
-	talent_2: tFtPhEUBuanl
+	sideIcon: ywOOACqeKxqW,
+	con_0: MQlMzMQcEefJ,
+	con_1: xBrQSZNRiGAc,
+	con_2: tHSgtsciGhio,
+	con_3: UHEvOiNcWpES,
+	con_4: fZnwFJyWPuRz,
+	con_5: JGRbNvkbRllp,
+	burst: fVyEeIiOLMRw,
+	skill: NuOOtKEsqttV,
+	characterIcon: WFHkBiLRARyU,
+	normal: SERAMEwHGKCa,
+	splashImage: AsWfJqNNIPsX,
+	talent_0: LLbBzBGyHxIR,
+	talent_1: WFKdNQfqxfGS,
+	talent_2: gMvrlLivQfqc
 },HuTao: {
-	sideIcon: tWyZSTFsyHiC,
-	con_0: MSnfcnxYZhiI,
-	con_1: nrHTCvdbMfNj,
-	con_2: eylImWwpFKzR,
-	con_3: lZnAcgNjdMyx,
-	con_4: ElZyWEJkCjvV,
-	con_5: yEjvcnibhYni,
-	burst: RVHfPscYQdWG,
-	skill: zwbxBoPkpXkr,
-	characterIcon: DGYeHjqYpzIt,
-	normal: WeVpBDGWcAho,
-	splashImage: LwYCFVfexljj,
-	talent_0: lgudILxDqwyR,
-	talent_1: jSKvMHqGMFlx,
-	talent_2: mRighYSgZeTg
+	sideIcon: XtlFbOUmkbLR,
+	con_0: vQmvlUKfyVaL,
+	con_1: OjXgWpfjmqcz,
+	con_2: MnUOnSgkipZb,
+	con_3: CMYGaciWuAUH,
+	con_4: eIQVnlxUuCDB,
+	con_5: sLgBYoOBNBkb,
+	burst: WIlMBpKgRGxB,
+	skill: XQppvBxfMuaA,
+	characterIcon: FxixGCArsRXw,
+	normal: MoZqpumHWsof,
+	splashImage: AoIoTPYxeXhk,
+	talent_0: hUbEaBMYdLCm,
+	talent_1: ZfbAbRUvgpfZ,
+	talent_2: effKYDQldyEA
 }
 };
 const getCharacterImage = (character: CharacterKey, image: CharacterImageKey) => {
@@ -403,4 +403,98 @@ const getCharacterImage = (character: CharacterKey, image: CharacterImageKey) =>
 };
 
 export { getCharacterImage }
+
+import WACzihjCITNd from '../assets/genshin/weapons/StaffOfHoma/UI_EquipIcon_Pole_Homa.png?enhanced&format=webp'
+import cKcigHeqKYkH from '../assets/genshin/weapons/StaffOfHoma/UI_EquipIcon_Pole_Homa_Awaken.png?enhanced&format=webp'
+import fmjACCyHfmkc from '../assets/genshin/weapons/StaffOfHoma/UI_Gacha_EquipIcon_Pole_Homa.png?enhanced&format=webp'
+import vQSQpXSssxQv from '../assets/genshin/weapons/BlackTassel/UI_EquipIcon_Pole_Noire.png?enhanced&format=webp'
+import qhunoTrDrtcj from '../assets/genshin/weapons/BlackTassel/UI_EquipIcon_Pole_Noire_Awaken.png?enhanced&format=webp'
+import QSTCKonTFqJi from '../assets/genshin/weapons/BlackTassel/UI_Gacha_EquipIcon_Pole_Noire.png?enhanced&format=webp'
+import MJfUNvWUYFuY from '../assets/genshin/weapons/AquaSimulacra/UI_EquipIcon_Bow_Kirin.png?enhanced&format=webp'
+import ZhfUeSTppCHT from '../assets/genshin/weapons/AquaSimulacra/UI_EquipIcon_Bow_Kirin_Awaken.png?enhanced&format=webp'
+import raKwtHOTzUNv from '../assets/genshin/weapons/AquaSimulacra/UI_Gacha_EquipIcon_Bow_Kirin.png?enhanced&format=webp'
+import RhhExCMXekmt from '../assets/genshin/weapons/SkywardBlade/UI_EquipIcon_Sword_Dvalin.png?enhanced&format=webp'
+import FOdMAwJFmgNZ from '../assets/genshin/weapons/SkywardBlade/UI_EquipIcon_Sword_Dvalin_Awaken.png?enhanced&format=webp'
+import DYmtxJChYKrm from '../assets/genshin/weapons/SkywardBlade/UI_Gacha_EquipIcon_Sword_Dvalin.png?enhanced&format=webp'
+import xKrCyjTZeGkF from '../assets/genshin/weapons/OathswornEye/UI_EquipIcon_Catalyst_Jyanome.png?enhanced&format=webp'
+import GdaERDbdLgNk from '../assets/genshin/weapons/OathswornEye/UI_EquipIcon_Catalyst_Jyanome_Awaken.png?enhanced&format=webp'
+import zinlkXaTrLAj from '../assets/genshin/weapons/OathswornEye/UI_Gacha_EquipIcon_Catalyst_Jyanome.png?enhanced&format=webp'
+import FdvuOZUjNHun from '../assets/genshin/weapons/FavoniusWarbow/UI_EquipIcon_Bow_Zephyrus.png?enhanced&format=webp'
+import vTePxwNeDVjH from '../assets/genshin/weapons/FavoniusWarbow/UI_EquipIcon_Bow_Zephyrus_Awaken.png?enhanced&format=webp'
+import LZQTSfswBGjJ from '../assets/genshin/weapons/FavoniusWarbow/UI_Gacha_EquipIcon_Bow_Zephyrus.png?enhanced&format=webp'
+import WSrdzTdfODGN from '../assets/genshin/weapons/FleuveCendreFerryman/UI_EquipIcon_Sword_Machination.png?enhanced&format=webp'
+import fxjwOptiCCIe from '../assets/genshin/weapons/FleuveCendreFerryman/UI_EquipIcon_Sword_Machination_Awaken.png?enhanced&format=webp'
+import lMvVUdrAtNTC from '../assets/genshin/weapons/FleuveCendreFerryman/UI_Gacha_EquipIcon_Sword_Machination.png?enhanced&format=webp'
+import rYlacKxdbKmR from '../assets/genshin/weapons/SacrificialFragments/UI_EquipIcon_Catalyst_Fossil.png?enhanced&format=webp'
+import WCabviBeLyAB from '../assets/genshin/weapons/SacrificialFragments/UI_EquipIcon_Catalyst_Fossil_Awaken.png?enhanced&format=webp'
+import jSIMEtNZBcQJ from '../assets/genshin/weapons/SacrificialFragments/UI_Gacha_EquipIcon_Catalyst_Fossil.png?enhanced&format=webp'
+import bPQfCXdFynnD from '../assets/genshin/weapons/DragonsBane/UI_EquipIcon_Pole_Stardust.png?enhanced&format=webp'
+import VDIIZMxphyol from '../assets/genshin/weapons/DragonsBane/UI_EquipIcon_Pole_Stardust_Awaken.png?enhanced&format=webp'
+import UoYZNYXlQshI from '../assets/genshin/weapons/DragonsBane/UI_Gacha_EquipIcon_Pole_Stardust.png?enhanced&format=webp'
+import gMEsKgVvWZFm from '../assets/genshin/weapons/FavoniusSword/UI_EquipIcon_Sword_Zephyrus.png?enhanced&format=webp'
+import IzQzKkioJPvF from '../assets/genshin/weapons/FavoniusSword/UI_EquipIcon_Sword_Zephyrus_Awaken.png?enhanced&format=webp'
+import ddtesrxaJnzz from '../assets/genshin/weapons/FavoniusSword/UI_Gacha_EquipIcon_Sword_Zephyrus.png?enhanced&format=webp'
+import wHVnvVpkmpMN from '../assets/genshin/weapons/CalamityQueller/UI_EquipIcon_Pole_Santika.png?enhanced&format=webp'
+import TTVkPZWrXWWc from '../assets/genshin/weapons/CalamityQueller/UI_EquipIcon_Pole_Santika_Awaken.png?enhanced&format=webp'
+import cdHEUiiQxQHd from '../assets/genshin/weapons/CalamityQueller/UI_Gacha_EquipIcon_Pole_Santika.png?enhanced&format=webp'
+
+type WeaponImageKey =
+	'baseIocn' |
+	'awakenIcon' |
+	'splashImage';
+
+type WeaponKey = 'StaffOfHoma' | 'BlackTassel' | 'AquaSimulacra' | 'SkywardBlade' | 'OathswornEye' | 'FavoniusWarbow' | 'FleuveCendreFerryman' | 'SacrificialFragments' | 'DragonsBane' | 'FavoniusSword' | 'CalamityQueller';
+
+const weaponImageDict: Record<WeaponKey, Record<WeaponImageKey, Picture>> = {
+StaffOfHoma: {
+	baseIocn: WACzihjCITNd,
+	awakenIcon: cKcigHeqKYkH,
+	splashImage: fmjACCyHfmkc
+},BlackTassel: {
+	baseIocn: vQSQpXSssxQv,
+	awakenIcon: qhunoTrDrtcj,
+	splashImage: QSTCKonTFqJi
+},AquaSimulacra: {
+	baseIocn: MJfUNvWUYFuY,
+	awakenIcon: ZhfUeSTppCHT,
+	splashImage: raKwtHOTzUNv
+},SkywardBlade: {
+	baseIocn: RhhExCMXekmt,
+	awakenIcon: FOdMAwJFmgNZ,
+	splashImage: DYmtxJChYKrm
+},OathswornEye: {
+	baseIocn: xKrCyjTZeGkF,
+	awakenIcon: GdaERDbdLgNk,
+	splashImage: zinlkXaTrLAj
+},FavoniusWarbow: {
+	baseIocn: FdvuOZUjNHun,
+	awakenIcon: vTePxwNeDVjH,
+	splashImage: LZQTSfswBGjJ
+},FleuveCendreFerryman: {
+	baseIocn: WSrdzTdfODGN,
+	awakenIcon: fxjwOptiCCIe,
+	splashImage: lMvVUdrAtNTC
+},SacrificialFragments: {
+	baseIocn: rYlacKxdbKmR,
+	awakenIcon: WCabviBeLyAB,
+	splashImage: jSIMEtNZBcQJ
+},DragonsBane: {
+	baseIocn: bPQfCXdFynnD,
+	awakenIcon: VDIIZMxphyol,
+	splashImage: UoYZNYXlQshI
+},FavoniusSword: {
+	baseIocn: gMEsKgVvWZFm,
+	awakenIcon: IzQzKkioJPvF,
+	splashImage: ddtesrxaJnzz
+},CalamityQueller: {
+	baseIocn: wHVnvVpkmpMN,
+	awakenIcon: TTVkPZWrXWWc,
+	splashImage: cdHEUiiQxQHd
+}
+};
+const getWeaponImage = (weapon: WeaponKey, image: WeaponImageKey) => {
+	return weaponImageDict[weapon][image]
+};
+
+export { getWeaponImage }
 
