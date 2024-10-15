@@ -3,7 +3,24 @@ type Weapon = Exclude<IGOOD['weapons'], undefined>;
 type WeaponExport = Omit<Weapon[0], 'location' | 'lock'>;
 type Artifact = Exclude<IGOOD['artifacts'], undefined>;
 type ArtifactExport = Omit<Artifact[0], 'lock' | 'location'>;
-
+type BuildStatKey =
+	| 'critRate'
+	| 'critDamage'
+	| 'energyRecharge'
+	| 'healingBonus'
+	| 'incomingHealingBonus'
+	| 'elementalMastery'
+	| 'physicalDamageBonus'
+	| 'geoDamageBonus'
+	| 'cryoDamageBonus'
+	| 'pyroDamageBonus'
+	| 'anemoDamageBonus'
+	| 'hydroDamageBonus'
+	| 'dendroDamageBonus'
+	| 'electroDamageBonus'
+	| 'maxHp'
+	| 'atk'
+	| 'def';
 type GenshinCharacter = {
 	key: string;
 	level: number;
@@ -22,6 +39,8 @@ type GenshinCharacter = {
 		weapon: string;
 		ranking: number;
 		outOf: number;
+		stats: Record<BuildStatKey, number>;
+		element: string;
 	};
 };
 const characters: GenshinCharacter[] = [
@@ -104,8 +123,28 @@ const characters: GenshinCharacter[] = [
 			details:
 				"Frontloaded average DMG for c6r5 Aqua Yelan Combo: 2x E + 2x BTB + 3x C2 + 5x C6 + 24x Q. Team: c0r5 fs Kazuha @ 1000 EM vv hydro swirl + Zhongli shield up + c4 Mona burst up. Yelan's A4 set to 10s, C4 2 stacks, 18% HP from A1. 4p Nymph's Dream is set to 3 stacks.",
 			weapon: 'Aqua Simulacra',
-			ranking: 16761,
-			outOf: 442022
+			ranking: 17124,
+			outOf: 450228,
+			stats: {
+				critRate: 0.7591000105271485,
+				critDamage: 2.578648140562549,
+				energyRecharge: 1.40720002902843,
+				healingBonus: 0,
+				incomingHealingBonus: 0,
+				elementalMastery: 0,
+				physicalDamageBonus: 0,
+				geoDamageBonus: 0,
+				cryoDamageBonus: 0,
+				pyroDamageBonus: 0,
+				anemoDamageBonus: 0,
+				hydroDamageBonus: 0.4660000409016754,
+				dendroDamageBonus: 0,
+				electroDamageBonus: 0,
+				maxHp: 32107.7734375502,
+				atk: 1183.8574219252,
+				def: 722.3638916517625
+			},
+			element: 'Hydro'
 		}
 	},
 	{
@@ -187,8 +226,28 @@ const characters: GenshinCharacter[] = [
 			details:
 				"C0 Clorinde + C6 Fischl + 4p Noblesse C6 Chevreuse @ 40k HP + 4p Cinder C6 Thoma. Leaderboard ranks DPS based on 16s rotation using QEE 5N3E combo. Clorinde's A1 and A4 at full uptime for simplicity. Chevreuse's C6 stacks: QEE:0, N3E:1, N3E: 2, N3E:3, N3E:3, N3E: 3. 4pc Harmonic Whimsy stacks Q:1, EE:2, 5N3:3. Finale of the Deep's passive does not affect the burst. ",
 			weapon: 'Finale of the Deep',
-			ranking: 36740,
-			outOf: 137475
+			ranking: 38962,
+			outOf: 144018,
+			stats: {
+				critRate: 0.48310033144360964,
+				critDamage: 1.875700331348242,
+				energyRecharge: 1.0000003344,
+				healingBonus: 0,
+				incomingHealingBonus: 0,
+				elementalMastery: 0,
+				physicalDamageBonus: 0,
+				geoDamageBonus: 0,
+				cryoDamageBonus: 0,
+				pyroDamageBonus: 0,
+				anemoDamageBonus: 0,
+				hydroDamageBonus: 0,
+				dendroDamageBonus: 0,
+				electroDamageBonus: 0.46600032510167544,
+				maxHp: 18452.0976565844,
+				atk: 2303.85888705315,
+				def: 1125.301514006275
+			},
+			element: 'Electro'
 		}
 	},
 	{
@@ -270,8 +329,28 @@ const characters: GenshinCharacter[] = [
 			details:
 				"Combo that includes A4/VHA/PJWS/CQ stacking, Bennett, Noblesse and Elegy uptimes, 2E and 11HP with collision damage. 4p Noblese Aquila C6 Bennett, 4p ToTM Elegy C6 Faruzan, Zhongli. Faruzan's A4 is disabled for a bit of simplicity (it's also pretty weak anyways)",
 			weapon: 'Staff of Homa',
-			ranking: 83896,
-			outOf: 353269
+			ranking: 85099,
+			outOf: 359042,
+			stats: {
+				critRate: 0.45980065795910646,
+				critDamage: 2.389536556930664,
+				energyRecharge: 1.058300671310547,
+				healingBonus: 0,
+				incomingHealingBonus: 0,
+				elementalMastery: 69.94000309440625,
+				physicalDamageBonus: 0,
+				geoDamageBonus: 0,
+				cryoDamageBonus: 0,
+				pyroDamageBonus: 0,
+				anemoDamageBonus: 0.46600064370167543,
+				hydroDamageBonus: 0,
+				dendroDamageBonus: 0,
+				electroDamageBonus: 0,
+				maxHp: 22057.781250653,
+				atk: 2167.821625653,
+				def: 1060.7581793639374
+			},
+			element: 'Anemo'
 		}
 	},
 	{
@@ -353,8 +432,28 @@ const characters: GenshinCharacter[] = [
 			details:
 				'Soumetsu Cutting average DMG, Ayaka c0r5, TTDS Mona c0r5, Kazuha c0r1, c6r5 Diona. TTDS, 4p ToTM and 4p Noblesse active. Enemy is frozen',
 			weapon: 'Amenoma Kageuchi',
-			ranking: 183487,
-			outOf: 532891
+			ranking: 185519,
+			outOf: 539830,
+			stats: {
+				critRate: 0.33390098992764283,
+				critDamage: 2.1431009787696533,
+				energyRecharge: 1.0583009738105469,
+				healingBonus: 0,
+				incomingHealingBonus: 0,
+				elementalMastery: 39.62999820891797,
+				physicalDamageBonus: 0,
+				geoDamageBonus: 0,
+				cryoDamageBonus: 0.6160009521621399,
+				pyroDamageBonus: 0,
+				anemoDamageBonus: 0,
+				hydroDamageBonus: 0,
+				dendroDamageBonus: 0,
+				electroDamageBonus: 0,
+				maxHp: 22285.1640634555,
+				atk: 2181.781495096125,
+				def: 1105.27587986175
+			},
+			element: 'Cryo'
 		}
 	},
 	{
@@ -436,8 +535,28 @@ const characters: GenshinCharacter[] = [
 			details:
 				'Average DMG for 11N1CD + Q combo. elegy instructor amber c0r1. kazuha c2r1 @ 1000EM(1420). 4p SR burst uptime 1/3, other sets: 2/3. ',
 			weapon: 'Ballad of the Fjords',
-			ranking: 115227,
-			outOf: 513420
+			ranking: 116863,
+			outOf: 520565,
+			stats: {
+				critRate: 0.6293008483833862,
+				critDamage: 1.7543009675926757,
+				energyRecharge: 1.097100869554956,
+				healingBonus: 0,
+				incomingHealingBonus: 0,
+				elementalMastery: 34.970002070803126,
+				physicalDamageBonus: 0,
+				geoDamageBonus: 0.1200008501,
+				cryoDamageBonus: 0.1200008501,
+				pyroDamageBonus: 0.7360008467621398,
+				anemoDamageBonus: 0.1200008501,
+				hydroDamageBonus: 0.1200008501,
+				dendroDamageBonus: 0.1200008501,
+				electroDamageBonus: 0.1200008501,
+				maxHp: 31640.8730477251,
+				atk: 1420.9364022172874,
+				def: 981.719483271975
+			},
+			element: 'Pyro'
 		}
 	},
 	{
@@ -594,8 +713,28 @@ const characters: GenshinCharacter[] = [
 			details:
 				"1 rQ (vape) + 1 E + N2C * 6 + mSlash * 4. c0r1 Kazuha + c6r1 Xiangling + c6r1 Bennett. Most buffs expire after 3N2C. Shimenawa's burst damage is halved.",
 			weapon: 'Aqua Simulacra',
-			ranking: 17852,
-			outOf: 152986
+			ranking: 18063,
+			outOf: 155080,
+			stats: {
+				critRate: 0.6526007483678894,
+				critDamage: 1.4556007812696534,
+				energyRecharge: 1.110100788899048,
+				healingBonus: 0,
+				incomingHealingBonus: 0,
+				elementalMastery: 107.22999648553906,
+				physicalDamageBonus: 0,
+				geoDamageBonus: 0,
+				cryoDamageBonus: 0,
+				pyroDamageBonus: 0,
+				anemoDamageBonus: 0,
+				hydroDamageBonus: 0.9040007422643738,
+				dendroDamageBonus: 0,
+				electroDamageBonus: 0,
+				maxHp: 20299.890625758,
+				atk: 769.9595954845626,
+				def: 1012.9014900158126
+			},
+			element: 'Hydro'
 		}
 	},
 	{
@@ -676,8 +815,28 @@ const characters: GenshinCharacter[] = [
 			name: 'Shieldbot, Max HP',
 			details: '---',
 			weapon: 'Black Tassel',
-			ranking: 46542,
-			outOf: 549083
+			ranking: 47512,
+			outOf: 557744,
+			stats: {
+				critRate: 0.11220032094261322,
+				critDamage: 0.5000003141,
+				energyRecharge: 1.148900346143457,
+				healingBonus: 0,
+				incomingHealingBonus: 0,
+				elementalMastery: 135.21000702796718,
+				physicalDamageBonus: 0,
+				geoDamageBonus: 0.2880003017022339,
+				cryoDamageBonus: 0,
+				pyroDamageBonus: 0,
+				anemoDamageBonus: 0,
+				hydroDamageBonus: 0,
+				dendroDamageBonus: 0,
+				electroDamageBonus: 0,
+				maxHp: 55159.7734378141,
+				atk: 991.6034549039438,
+				def: 1141.1004641812874
+			},
+			element: 'Geo'
 		}
 	},
 	{
@@ -834,8 +993,28 @@ const characters: GenshinCharacter[] = [
 			details:
 				'Assumes Favonius Sword R5 (EM / 1000 + ER / 500) * 5000 + (vv ? 2000 : 0) + (CR > 15% ? (CR * 1500) : 0)',
 			weapon: 'Favonius Sword',
-			ranking: 377438,
-			outOf: 736816
+			ranking: 386301,
+			outOf: 754514,
+			stats: {
+				critRate: 0.05000098244505806,
+				critDamage: 0.7176009696837036,
+				energyRecharge: 2.0399327558394043,
+				healingBonus: 0,
+				incomingHealingBonus: 0,
+				elementalMastery: 770.280030278575,
+				physicalDamageBonus: 0,
+				geoDamageBonus: 0,
+				cryoDamageBonus: 0,
+				pyroDamageBonus: 0,
+				anemoDamageBonus: 0.1500009876604645,
+				hydroDamageBonus: 0,
+				dendroDamageBonus: 0,
+				electroDamageBonus: 0,
+				maxHp: 23476.1328134817,
+				atk: 1214.641358403575,
+				def: 984.1942758840438
+			},
+			element: 'Anemo'
 		}
 	},
 	{
@@ -917,8 +1096,28 @@ const characters: GenshinCharacter[] = [
 			details:
 				"c0 Raiden, c2 Furina, c0 Yelan, c0 4p VV Jean. Combo: Q 3N5. Furina's Fanfare at 400 stacks. Yelan's A4 at 8s seconds. ",
 			weapon: 'Staff of the Scarlet Sands',
-			ranking: 750369,
-			outOf: 863213
+			ranking: 765933,
+			outOf: 881960,
+			stats: {
+				critRate: 0.3572009371098236,
+				critDamage: 0.6943009362992004,
+				energyRecharge: 1.7669008837517457,
+				healingBonus: 0,
+				incomingHealingBonus: 0,
+				elementalMastery: 946.261963831025,
+				physicalDamageBonus: 0,
+				geoDamageBonus: 0,
+				cryoDamageBonus: 0,
+				pyroDamageBonus: 0,
+				anemoDamageBonus: 0,
+				hydroDamageBonus: 0,
+				dendroDamageBonus: 0,
+				electroDamageBonus: 0.30676091774069825,
+				maxHp: 18213.8046884404,
+				atk: 1397.4862069950875,
+				def: 1034.8646249638375
+			},
+			element: 'Electro'
 		}
 	},
 	{
@@ -1000,8 +1199,28 @@ const characters: GenshinCharacter[] = [
 			details:
 				'Off-field Tri-Karma Purification (non-spread) avg DMG. Example team: Nahida + Xingqiu + Kuki + non-dendro flex.',
 			weapon: 'A Thousand Floating Dreams',
-			ranking: 368566,
-			outOf: 692401
+			ranking: 374327,
+			outOf: 703622,
+			stats: {
+				critRate: 0.32990065611908875,
+				critDamage: 0.8497006336600585,
+				energyRecharge: 1.2590007225425048,
+				healingBonus: 0,
+				incomingHealingBonus: 0,
+				elementalMastery: 988.4519659916313,
+				physicalDamageBonus: 0,
+				geoDamageBonus: 0,
+				cryoDamageBonus: 0,
+				pyroDamageBonus: 0,
+				anemoDamageBonus: 0,
+				hydroDamageBonus: 0,
+				dendroDamageBonus: 0.15000066556046449,
+				electroDamageBonus: 0,
+				maxHp: 17215.0781256596,
+				atk: 1141.32568425335,
+				def: 885.8529669681938
+			},
+			element: 'Dendro'
 		}
 	},
 	{
@@ -1083,8 +1302,28 @@ const characters: GenshinCharacter[] = [
 			details:
 				'Average DMG for Mademoiselle Crabaletta in a double hydro team. Number of characters who offered HP: 4. Fanfare stacks count: 200. Weapon stacks maxed when applicable. ',
 			weapon: 'Fleuve Cendre Ferryman',
-			ranking: 169591,
-			outOf: 382949
+			ranking: 174066,
+			outOf: 392830,
+			stats: {
+				critRate: 0.6191005025322632,
+				critDamage: 1.2382004771645263,
+				energyRecharge: 1.7509005580361083,
+				healingBonus: 0,
+				incomingHealingBonus: 0,
+				elementalMastery: 144.52999930719687,
+				physicalDamageBonus: 0,
+				geoDamageBonus: 0,
+				cryoDamageBonus: 0,
+				pyroDamageBonus: 0,
+				anemoDamageBonus: 0,
+				hydroDamageBonus: 0,
+				dendroDamageBonus: 0,
+				electroDamageBonus: 0,
+				maxHp: 39560.1718755279,
+				atk: 1170.37646537165,
+				def: 797.3916631255563
+			},
+			element: 'Hydro'
 		}
 	},
 	{
@@ -1315,8 +1554,28 @@ const characters: GenshinCharacter[] = [
 			name: 'Sword Rain, Avg DMG',
 			details: "4p Nymph's Dream is set to very optimistic 3 stacks.",
 			weapon: 'Sacrificial Sword',
-			ranking: 37724,
-			outOf: 127957
+			ranking: 38389,
+			outOf: 130340,
+			stats: {
+				critRate: 0.5760006185091125,
+				critDamage: 1.277100669912158,
+				energyRecharge: 2.1916805382288085,
+				healingBonus: 0,
+				incomingHealingBonus: 0,
+				elementalMastery: 58.279999362996875,
+				physicalDamageBonus: 0,
+				geoDamageBonus: 0,
+				cryoDamageBonus: 0,
+				pyroDamageBonus: 0,
+				anemoDamageBonus: 0,
+				hydroDamageBonus: 0.6660005922830688,
+				dendroDamageBonus: 0,
+				electroDamageBonus: 0,
+				maxHp: 19101.3789068337,
+				atk: 1585.6243902321376,
+				def: 948.60205136495
+			},
+			element: 'Hydro'
 		}
 	},
 	{
@@ -1473,8 +1732,28 @@ const characters: GenshinCharacter[] = [
 			details:
 				"Combo: E Q 3CA. C1 Tighnari + C0R1 Deepwood Nahida + electro flex + electro flex. Tighnari's A1 buffs only CAs. Enemy has pre-existing Quicken aura. Nahida's A1 buff is maxed and lasts entire combo. ",
 			weapon: 'Skyward Harp',
-			ranking: 14597,
-			outOf: 46380
+			ranking: 15001,
+			outOf: 47828,
+			stats: {
+				critRate: 0.9328683812452149,
+				critDamage: 1.113800426228125,
+				energyRecharge: 1.3433003623319457,
+				healingBonus: 0,
+				incomingHealingBonus: 0,
+				elementalMastery: 299.1400150258375,
+				physicalDamageBonus: 0,
+				geoDamageBonus: 0,
+				cryoDamageBonus: 0,
+				pyroDamageBonus: 0,
+				anemoDamageBonus: 0,
+				hydroDamageBonus: 0,
+				dendroDamageBonus: 0.7540003259015869,
+				electroDamageBonus: 0,
+				maxHp: 16635.6171878774,
+				atk: 1479.093506236775,
+				def: 708.6028446156813
+			},
+			element: 'Dendro'
 		}
 	},
 	{
@@ -1556,8 +1835,28 @@ const characters: GenshinCharacter[] = [
 			details:
 				"(((E_DMG / 5500) + (E_HEAL / 5000) + (ER / 150)) * 5000) + SET_BONUS. +6500 ToTM, +6000 OHC, +6000 Deepwood, +5000 Noblesse, +4000 Maiden. Please keep in mind custom 'balance formulas' are completely feelscrafted unlike proper avg dmg formulas.",
 			weapon: 'Everlasting Moonglow',
-			ranking: 92963,
-			outOf: 252616
+			ranking: 94124,
+			outOf: 256184,
+			stats: {
+				critRate: -0.8644990685717224,
+				critDamage: 0.616600894616449,
+				energyRecharge: 1.3433009025319458,
+				healingBonus: 0.6090008851750732,
+				incomingHealingBonus: 0,
+				elementalMastery: 18.650000536130275,
+				physicalDamageBonus: 0,
+				geoDamageBonus: 0,
+				cryoDamageBonus: 0,
+				pyroDamageBonus: 0,
+				anemoDamageBonus: 0,
+				hydroDamageBonus: 0.28800090520223387,
+				dendroDamageBonus: 0,
+				electroDamageBonus: 0,
+				maxHp: 38976.4765634176,
+				atk: 1038.03076263635,
+				def: 870.200928651975
+			},
+			element: 'Hydro'
 		}
 	},
 	{
@@ -1770,8 +2069,28 @@ const characters: GenshinCharacter[] = [
 			name: 'Hyper Mono Geo NA combo, Avg DMG',
 			details: 'N1 + N2 + N3 + N4. Team: Noelle C6, Gorou C6, Yunjin C6, Zhongli C0',
 			weapon: 'Serpent Spine',
-			ranking: 1993,
-			outOf: 20730
+			ranking: 2019,
+			outOf: 21134,
+			stats: {
+				critRate: 0.7417400555316711,
+				critDamage: 1.7826999501888061,
+				energyRecharge: 1.3628000096980835,
+				healingBonus: 0,
+				incomingHealingBonus: 0,
+				elementalMastery: 39.62999726101797,
+				physicalDamageBonus: 0,
+				geoDamageBonus: 0.46599999830167543,
+				cryoDamageBonus: 0,
+				pyroDamageBonus: 0,
+				anemoDamageBonus: 0,
+				hydroDamageBonus: 0,
+				dendroDamageBonus: 0,
+				electroDamageBonus: 0,
+				maxHp: 18158.8632812576,
+				atk: 1023.0875244216625,
+				def: 1645.2703857497875
+			},
+			element: 'Geo'
 		}
 	},
 	{
@@ -2052,8 +2371,28 @@ const characters: GenshinCharacter[] = [
 			details:
 				'4x Oz hits. no buffs, talent level 13. One Oz hit does not benefit from the Thundersoother (75% uptime)',
 			weapon: 'The Stringless',
-			ranking: 59741,
-			outOf: 212847
+			ranking: 61149,
+			outOf: 217048,
+			stats: {
+				critRate: 0.5866006794266785,
+				critDamage: 0.9662006678872193,
+				energyRecharge: 1.42740066674281,
+				healingBonus: 0,
+				incomingHealingBonus: 0,
+				elementalMastery: 235.32400580075313,
+				physicalDamageBonus: 0,
+				geoDamageBonus: 0,
+				cryoDamageBonus: 0,
+				pyroDamageBonus: 0,
+				anemoDamageBonus: 0,
+				hydroDamageBonus: 0,
+				dendroDamageBonus: 0,
+				electroDamageBonus: 0.46600066450167543,
+				maxHp: 14418.5957037988,
+				atk: 1826.9306647363,
+				def: 629.0607306542687
+			},
+			element: 'Electro'
 		}
 	},
 	{
@@ -2751,8 +3090,28 @@ const characters: GenshinCharacter[] = [
 			details:
 				'C0 Arlecchino + C6 Chevreuse @ 40k HP + Electro Flex + C6R1 Aquila Bennett @ 4p Noblesse. Combo: E .. CA 5N3. Majority of potential buffs such as 4p Shimenawa / 4p HoD / 4p CW wear off before 5N3 starts due to long setup. Chevreuse stacks for CA 5N3: 0/1/1/1/2/2/2/3/3/3/... Arlecchino is below 50% HP. BoL value after using CA: 130%. 4p Whimsy stacks for CA 5N3: 1/1/2/3/... ',
 			weapon: 'Staff of Homa',
-			ranking: 40870,
-			outOf: 341528
+			ranking: 43369,
+			outOf: 353331,
+			stats: {
+				critRate: 0.7109001296784363,
+				critDamage: 2.136036278608032,
+				energyRecharge: 1.1231001633431397,
+				healingBonus: 0,
+				incomingHealingBonus: 0,
+				elementalMastery: 0,
+				physicalDamageBonus: 0,
+				geoDamageBonus: 0,
+				cryoDamageBonus: 0,
+				pyroDamageBonus: 0.46600011170167543,
+				anemoDamageBonus: 0,
+				hydroDamageBonus: 0,
+				dendroDamageBonus: 0,
+				electroDamageBonus: 0,
+				maxHp: 22415.771484496,
+				atk: 2287.569580199125,
+				def: 969.4547730702187
+			},
+			element: 'Pyro'
 		}
 	},
 	{

@@ -1,5 +1,5 @@
 // import { writeFileSync } from 'fs';
-import { genshinProfile } from '../data/genshin_raw';
+import { BuildStatKey, genshinProfile } from '../data/genshin_raw';
 import { IGOOD } from 'enka-network-api';
 import good from '../data/good.json';
 import { writeFileSync } from 'fs';
@@ -47,14 +47,16 @@ const artifactMap = (good.artifacts as Artifact).reduce(
 
 // ===== Ranking by character name =====
 const rankingMap = genshinProfile.akasha.reduce(
-	(prev, { calculations, name }) => ({
+	(prev, { calculations, name, stats, element }) => ({
 		...prev,
 		[name.replace(' ', '')]: {
 			name: calculations.name,
 			details: calculations.details,
 			weapon: calculations.weapon,
 			ranking: calculations.ranking,
-			outOf: calculations.outOf
+			outOf: calculations.outOf,
+			stats,
+			element
 		}
 	}),
 	{} as Record<
@@ -65,6 +67,8 @@ const rankingMap = genshinProfile.akasha.reduce(
 			weapon: string;
 			ranking: number;
 			outOf: number;
+			stats: Record<BuildStatKey, number>;
+			element: string;
 		} | null
 	>
 );
@@ -88,6 +92,8 @@ type GenshinCharacter = {
 		weapon: string;
 		ranking: number;
 		outOf: number;
+		element: string;
+		stats: Record<BuildStatKey, number>;
 	};
 };
 const characters: GenshinCharacter[] = good.characters.map((character) => ({
@@ -103,7 +109,24 @@ type Weapon = Exclude<IGOOD['weapons'], undefined>;
 type WeaponExport = Omit<Weapon[0], 'location' | 'lock'>;
 type Artifact = Exclude<IGOOD['artifacts'], undefined>;
 type ArtifactExport = Omit<Artifact[0], 'lock' | 'location'>;
-
+type BuildStatKey =
+	| 'critRate'
+	| 'critDamage'
+	| 'energyRecharge'
+	| 'healingBonus'
+	| 'incomingHealingBonus'
+	| 'elementalMastery'
+	| 'physicalDamageBonus'
+	| 'geoDamageBonus'
+	| 'cryoDamageBonus'
+	| 'pyroDamageBonus'
+	| 'anemoDamageBonus'
+	| 'hydroDamageBonus'
+	| 'dendroDamageBonus'
+	| 'electroDamageBonus'
+	| 'maxHp'
+	| 'atk'
+	| 'def';
 type GenshinCharacter = {
 	key: string;
 	level: number;
@@ -122,6 +145,8 @@ type GenshinCharacter = {
 		weapon: string;
 		ranking: number;
 		outOf: number;
+		stats: Record<BuildStatKey, number>;
+		element: string;
 	};
 };
 const characters: GenshinCharacter[] = ${JSON.stringify(characters)}
