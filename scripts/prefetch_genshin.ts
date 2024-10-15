@@ -109,22 +109,23 @@ type CharacterImageKey =
 	| 'talent_1'
 	| 'talent_2';
 
-type CharacterKey = ${Object.keys(characterImgMap)
+type CharacterCacheKey = ${Object.keys(characterImgMap)
 	.map((str) => `'${str}'`)
 	.join(' | ')};
 
-const characterImageDict: Record<CharacterKey, Record<CharacterImageKey, Picture>> = {
+const characterImageDict: Record<CharacterCacheKey, Record<CharacterImageKey, Picture>> = {
 ${Object.entries(characterImgMap).map(([character, attr]) => {
 	return `${character}: {
 ${attr.map(({ name, hash }) => `\t${name}: ${hash}`).join(',\n')}
 }`;
 })}
 };
-const getCharacterImage = (character: CharacterKey, image: CharacterImageKey) => {
+const getCharacterImage = (character: CharacterCacheKey, image: CharacterImageKey) => {
 	return characterImageDict[character][image]
 };
 
 export { getCharacterImage }
+export type { CharacterCacheKey }
 `;
 
 /**=====================*\
@@ -192,22 +193,24 @@ type WeaponImageKey =
 	'awakenIcon' |
 	'splashImage';
 
-type WeaponKey = ${Object.keys(weaponImgMap)
+type WeaponCacheKey = ${Object.keys(weaponImgMap)
 	.map((str) => `'${str}'`)
 	.join(' | ')};
 
-const weaponImageDict: Record<WeaponKey, Record<WeaponImageKey, Picture>> = {
+const weaponImageDict: Record<WeaponCacheKey, Record<WeaponImageKey, Picture>> = {
 ${Object.entries(weaponImgMap).map(([weapon, attr]) => {
 	return `${weapon}: {
 ${attr.map(({ name, hash }) => `\t${name}: ${hash}`).join(',\n')}
 }`;
 })}
 };
-const getWeaponImage = (weapon: WeaponKey, image: WeaponImageKey) => {
+const getWeaponImage = (weapon: WeaponCacheKey, image: WeaponImageKey) => {
 	return weaponImageDict[weapon][image]
 };
 
 export { getWeaponImage }
+export type { WeaponCacheKey }
+
 `;
 
 /**=====================*\
@@ -285,22 +288,23 @@ type ArtifactImageKey =
 	'flower' |
 	'sands';
 
-type Artifact = ${Object.keys(artifactImageMap)
+type ArtifactCacheKey = ${Object.keys(artifactImageMap)
 	.map((str) => `'${str}'`)
 	.join(' | ')};
 
-const artifactImageDict: Record<Artifact, Record<ArtifactImageKey, Picture>> = {
+const artifactImageDict: Record<ArtifactCacheKey, Record<ArtifactImageKey, Picture>> = {
 ${Object.entries(artifactImageMap).map(([weapon, attr]) => {
 	return `${weapon}: {
 ${attr.map(({ name, hash }) => `\t${name}: ${hash}`).join(',\n')}
 }`;
 })}
 };
-const getArtifactImage = (weapon: Artifact, image: ArtifactImageKey) => {
+const getArtifactImage = (weapon: ArtifactCacheKey, image: ArtifactImageKey) => {
 	return artifactImageDict[weapon][image]
 };
 
 export { getArtifactImage }
+export type { ArtifactCacheKey }
 `;
 
 /**=====================*\
