@@ -7,11 +7,14 @@
 	import MostPlayed from '../components/section/MostPlayed.svelte';
 	import RecentGames from '../components/section/RecentGames.svelte';
 	import GameSelector from '../components/games/GameSelector.svelte';
+	import CharacterCard from '../components/genshin/CharacterCard/CharacterCard.svelte';
+	import genshinData from '$lib/genshin_agg';
 </script>
 
 <Hero />
 <div id="content">
 	<div class="px-8 flex flex-col items-center">
+		<CharacterCard character={genshinData[0]}/>
 		<div class="mb-24">
 			<RecentGames />
 		</div>

@@ -15,7 +15,7 @@
 	).toFixed(1);
 </script>
 
-<div class="w-1/3 h-full relative">
+<div class="w-1/3 h-full relative z-10">
 	<div class="absolute z-10 pl-4 pt-4 text-white flex flex-col">
 		<span>{character.key}</span>
 		<span>Lv. {character.level}</span>
@@ -60,7 +60,7 @@
 			alt={`con 0 icon`}
 		/>
 	</div>
-	<div class="flex flex-col gap-y-4 absolute z-10 right-0 bottom-[55%] translate-y-full">
+	<div class="flex flex-col gap-y-4 absolute z-10 right-[5%] bottom-[56%] translate-y-full">
 		<div style:--level={character.talent.auto}>
 			<enhanced:img
 				class="skill level w-6"
@@ -95,63 +95,66 @@
 	/>
 </div>
 
-<style>
+<style lang="scss">
 	.skill {
 		background: rgba(0, 0, 0, 0.5);
 		border-radius: 50%;
 		position: relative;
+
+		&.locked {
+			filter: brightness(50%);
+			box-shadow: 0px 0px 1px 1px var(--element);
+		}
+
+		&.unlocked {
+			box-shadow: 0px 0px 3px 2px var(--element);
+		}
+
+		&.level {
+			box-shadow: 0px 0px 1px 0.5px rgba(255, 255, 255, 0.9);
+		}
 	}
 
-	.skill.locked {
-		filter: brightness(50%);
-		box-shadow: 0px 0px 1px 1px rgba(45, 178, 255, 1);
+	picture {
+		&:has(> .skill.locked) {
+			position: relative;
+
+			&::before {
+				content: '';
+				background: url(lock.svg);
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 24px;
+				height: 24px;
+				filter: invert(100%);
+				transform: scale(0.4);
+				z-index: 10;
+			}
+		}
 	}
 
-	picture:has(> .skill.locked) {
-		position: relative;
-	}
-
-	picture:has(> .skill.locked)::before {
-		content: '';
-		background: url(lock.svg);
-		display: block;
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 24px;
-		height: 24px;
-		filter: invert(100%);
-		transform: scale(0.4);
-		z-index: 10;
-	}
-
-	.skill.unlocked {
-		box-shadow: 0px 0px 3px 2px rgba(45, 178, 255, 0.9);
-	}
-
-	.skill.level {
-		box-shadow: 0px 0px 1px 0.5px rgba(255, 255, 255, 0.9);
-	}
-
-	div:has(> picture .skill.level)::before {
-		counter-reset: variable var(--level);
-		content: counter(variable);
-		display: block;
-		height: 12px;
-		font-size: 12px;
-		line-height: 11px;
-		position: absolute;
-		color: white;
-		background-color: rgba(0, 0, 0, 0.9);
-		border-radius: 25%;
-		padding: 0px 2px;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, 75%);
-		z-index: 10;
-	}
 	div:has(> picture .skill.level) {
 		position: relative;
+
+		&::before {
+			counter-reset: variable var(--level);
+			content: counter(variable);
+			display: block;
+			height: 12px;
+			font-size: 12px;
+			line-height: 11px;
+			position: absolute;
+			color: white;
+			background-color: rgba(0, 0, 0, 0.9);
+			border-radius: 25%;
+			padding: 0px 2px;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, 75%);
+			z-index: 10;
+		}
 	}
 
 	picture:has(> #splash) {

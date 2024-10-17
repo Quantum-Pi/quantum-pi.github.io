@@ -1,0 +1,88 @@
+@font-face {
+	font-family: 'icomoon';
+	src: url('/webfonts/stats.eot?dsl84y');
+	src: url('/webfonts/stats.eot?dsl84y#iefix') format('embedded-opentype'),
+		url('/webfonts/stats.ttf?dsl84y') format('truetype'),
+		url('/webfonts/stats.woff?dsl84y') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+
+[class^='icon-'],
+[class*=' icon-'] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+// healingBonus: 0,
+// incomingHealingBonus: 0,
+
+.icon-anemoDamageBonus:before {
+	content: '\e900';
+}
+.icon-atk:before {
+	content: '\e901';
+}
+// .icon-atk_:before {
+// 	content: '\e902';
+// }
+.icon-critDamage:before {
+	content: '\e903';
+}
+.icon-critRate:before {
+	content: '\e905';
+}
+.icon-cryoDamageBonus:before {
+	content: '\e906';
+}
+.icon-def:before {
+	content: '\e907';
+}
+// .icon-def_:before {
+// 	content: '\e908';
+// }
+.icon-dendroDamageBonus:before {
+	content: '\e909';
+}
+.icon-electroDamageBonus:before {
+	content: '\e90a';
+}
+.icon-elementalMastery:before {
+	content: '\e90b';
+}
+.icon-energyRecharge:before {
+	content: '\e90c';
+}
+.icon-geoDamageBonus:before {
+	content: '\e90e';
+}
+.icon-healingBonus:before {
+	content: '\e90f';
+}
+.icon-maxHp:before {
+	content: '\e910';
+}
+// .icon-hp_:before {
+// 	content: '\e912';
+// }
+.icon-hydroDamageBonus:before {
+	content: '\e915';
+}
+.icon-physicalDamageBonus:before {
+	content: '\e916';
+}
+.icon-pyroDamageBonus:before {
+	content: '\e917';
+}

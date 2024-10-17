@@ -21,6 +21,19 @@ type BuildStatKey =
 	| 'maxHp'
 	| 'atk'
 	| 'def';
+
+type Element = 'Hydro' | 'Pyro' | 'Geo' | 'Cryo' | 'Dendro' | 'Electro' | 'Anemo';
+
+const elementToBuildStatKey: Record<Element, BuildStatKey> = {
+	Anemo: 'anemoDamageBonus',
+	Cryo: 'cryoDamageBonus',
+	Dendro: 'dendroDamageBonus',
+	Electro: 'electroDamageBonus',
+	Geo: 'geoDamageBonus',
+	Hydro: 'hydroDamageBonus',
+	Pyro: 'pyroDamageBonus'
+};
+
 type GenshinCharacter = {
 	key: string;
 	level: number;
@@ -40,7 +53,7 @@ type GenshinCharacter = {
 		ranking: number;
 		outOf: number;
 		stats: Record<BuildStatKey, number>;
-		element: string;
+		element: Element;
 	};
 };
 const characters: GenshinCharacter[] = [
@@ -3139,4 +3152,5 @@ const characters: GenshinCharacter[] = [
 	}
 ];
 export default characters;
-export type { GenshinCharacter };
+export { elementToBuildStatKey };
+export type { GenshinCharacter, BuildStatKey, Element };

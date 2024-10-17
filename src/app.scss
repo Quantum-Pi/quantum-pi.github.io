@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import './scss/variables';
+@import './scss/stats';
+
 @layer components {
 	.filter-white {
 		filter: brightness(0) invert(1);

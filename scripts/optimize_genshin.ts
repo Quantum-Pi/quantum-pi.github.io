@@ -109,6 +109,7 @@ type Weapon = Exclude<IGOOD['weapons'], undefined>;
 type WeaponExport = Omit<Weapon[0], 'location' | 'lock'>;
 type Artifact = Exclude<IGOOD['artifacts'], undefined>;
 type ArtifactExport = Omit<Artifact[0], 'lock' | 'location'>;
+type Element = 'Hydro' | 'Pyro' | 'Geo' | 'Cryo' | 'Dendro' | 'Electro' | 'Anemo';
 type BuildStatKey =
 	| 'critRate'
 	| 'critDamage'
@@ -146,12 +147,22 @@ type GenshinCharacter = {
 		ranking: number;
 		outOf: number;
 		stats: Record<BuildStatKey, number>;
-		element: string;
+		element: Element;
 	};
 };
+const elementToBuildStatKey: Record<Element, BuildStatKey> = {
+	Anemo: 'anemoDamageBonus',
+	Cryo: 'cryoDamageBonus',
+	Dendro: 'dendroDamageBonus',
+	Electro: 'electroDamageBonus',
+	Geo: 'geoDamageBonus',
+	Hydro: 'hydroDamageBonus',
+	Pyro: 'pyroDamageBonus'
+}
 const characters: GenshinCharacter[] = ${JSON.stringify(characters)}
 export default characters
-export type { GenshinCharacter }
+export { elementToBuildStatKey }
+export type { GenshinCharacter, BuildStatKey, Element }
 `;
 
 writeFileSync('src/lib/genshin_agg.ts', ts);

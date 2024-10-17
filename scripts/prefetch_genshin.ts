@@ -315,6 +315,27 @@ const cache = `/**
 * DO NOT modify manually
 */
 import type { Picture } from 'vite-imagetools';
+import type { Element } from './genshin_agg';
+
+import AnemoBG from '../assets/genshin/misc/Anemo-bg.jpg?enhanced&format=webp';
+import DendroBG from '../assets/genshin/misc/Dendro-bg.jpg?enhanced&format=webp';
+import ElectroBG from '../assets/genshin/misc/Electro-bg.jpg?enhanced&format=webp';
+import GeoBG from '../assets/genshin/misc/Geo-bg.jpg?enhanced&format=webp';
+import CryoBG from '../assets/genshin/misc/Cryo-bg.jpg?enhanced&format=webp';
+import PyroBG from '../assets/genshin/misc/Pyro-bg.jpg?enhanced&format=webp';
+import HydroBG from '../assets/genshin/misc/Hydro-bg.jpg?enhanced&format=webp';
+
+const elementBGs: Record<Element, Picture> = {
+	Anemo: AnemoBG,
+	Cryo: CryoBG,
+	Dendro: DendroBG,
+	Electro: ElectroBG,
+	Geo: GeoBG,
+	Hydro: HydroBG,
+	Pyro: PyroBG
+};
+export { elementBGs };
+
 ${characterImports}
 ${weaponImports}
 ${artifactImports}
