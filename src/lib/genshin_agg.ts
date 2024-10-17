@@ -3,6 +3,7 @@ type Weapon = Exclude<IGOOD['weapons'], undefined>;
 type WeaponExport = Omit<Weapon[0], 'location' | 'lock'>;
 type Artifact = Exclude<IGOOD['artifacts'], undefined>;
 type ArtifactExport = Omit<Artifact[0], 'lock' | 'location'>;
+type Element = 'Hydro' | 'Pyro' | 'Geo' | 'Cryo' | 'Dendro' | 'Electro' | 'Anemo';
 type BuildStatKey =
 	| 'critRate'
 	| 'critDamage'
@@ -21,19 +22,6 @@ type BuildStatKey =
 	| 'maxHp'
 	| 'atk'
 	| 'def';
-
-type Element = 'Hydro' | 'Pyro' | 'Geo' | 'Cryo' | 'Dendro' | 'Electro' | 'Anemo';
-
-const elementToBuildStatKey: Record<Element, BuildStatKey> = {
-	Anemo: 'anemoDamageBonus',
-	Cryo: 'cryoDamageBonus',
-	Dendro: 'dendroDamageBonus',
-	Electro: 'electroDamageBonus',
-	Geo: 'geoDamageBonus',
-	Hydro: 'hydroDamageBonus',
-	Pyro: 'pyroDamageBonus'
-};
-
 type GenshinCharacter = {
 	key: string;
 	level: number;
@@ -50,11 +38,21 @@ type GenshinCharacter = {
 		name: string;
 		details: string;
 		weapon: string;
+		weaponStars: number;
 		ranking: number;
 		outOf: number;
 		stats: Record<BuildStatKey, number>;
 		element: Element;
 	};
+};
+const elementToBuildStatKey: Record<Element, BuildStatKey> = {
+	Anemo: 'anemoDamageBonus',
+	Cryo: 'cryoDamageBonus',
+	Dendro: 'dendroDamageBonus',
+	Electro: 'electroDamageBonus',
+	Geo: 'geoDamageBonus',
+	Hydro: 'hydroDamageBonus',
+	Pyro: 'pyroDamageBonus'
 };
 const characters: GenshinCharacter[] = [
 	{
@@ -136,8 +134,9 @@ const characters: GenshinCharacter[] = [
 			details:
 				"Frontloaded average DMG for c6r5 Aqua Yelan Combo: 2x E + 2x BTB + 3x C2 + 5x C6 + 24x Q. Team: c0r5 fs Kazuha @ 1000 EM vv hydro swirl + Zhongli shield up + c4 Mona burst up. Yelan's A4 set to 10s, C4 2 stacks, 18% HP from A1. 4p Nymph's Dream is set to 3 stacks.",
 			weapon: 'Aqua Simulacra',
-			ranking: 17124,
-			outOf: 450228,
+			weaponStars: 5,
+			ranking: 17189,
+			outOf: 453111,
 			stats: {
 				critRate: 0.7591000105271485,
 				critDamage: 2.578648140562549,
@@ -239,8 +238,9 @@ const characters: GenshinCharacter[] = [
 			details:
 				"C0 Clorinde + C6 Fischl + 4p Noblesse C6 Chevreuse @ 40k HP + 4p Cinder C6 Thoma. Leaderboard ranks DPS based on 16s rotation using QEE 5N3E combo. Clorinde's A1 and A4 at full uptime for simplicity. Chevreuse's C6 stacks: QEE:0, N3E:1, N3E: 2, N3E:3, N3E:3, N3E: 3. 4pc Harmonic Whimsy stacks Q:1, EE:2, 5N3:3. Finale of the Deep's passive does not affect the burst. ",
 			weapon: 'Finale of the Deep',
-			ranking: 38962,
-			outOf: 144018,
+			weaponStars: 4,
+			ranking: 39666,
+			outOf: 146252,
 			stats: {
 				critRate: 0.48310033144360964,
 				critDamage: 1.875700331348242,
@@ -342,8 +342,9 @@ const characters: GenshinCharacter[] = [
 			details:
 				"Combo that includes A4/VHA/PJWS/CQ stacking, Bennett, Noblesse and Elegy uptimes, 2E and 11HP with collision damage. 4p Noblese Aquila C6 Bennett, 4p ToTM Elegy C6 Faruzan, Zhongli. Faruzan's A4 is disabled for a bit of simplicity (it's also pretty weak anyways)",
 			weapon: 'Staff of Homa',
-			ranking: 85099,
-			outOf: 359042,
+			weaponStars: 5,
+			ranking: 85539,
+			outOf: 361207,
 			stats: {
 				critRate: 0.45980065795910646,
 				critDamage: 2.389536556930664,
@@ -445,8 +446,9 @@ const characters: GenshinCharacter[] = [
 			details:
 				'Soumetsu Cutting average DMG, Ayaka c0r5, TTDS Mona c0r5, Kazuha c0r1, c6r5 Diona. TTDS, 4p ToTM and 4p Noblesse active. Enemy is frozen',
 			weapon: 'Amenoma Kageuchi',
-			ranking: 185519,
-			outOf: 539830,
+			weaponStars: 4,
+			ranking: 186215,
+			outOf: 542371,
 			stats: {
 				critRate: 0.33390098992764283,
 				critDamage: 2.1431009787696533,
@@ -548,8 +550,9 @@ const characters: GenshinCharacter[] = [
 			details:
 				'Average DMG for 11N1CD + Q combo. elegy instructor amber c0r1. kazuha c2r1 @ 1000EM(1420). 4p SR burst uptime 1/3, other sets: 2/3. ',
 			weapon: 'Ballad of the Fjords',
-			ranking: 116863,
-			outOf: 520565,
+			weaponStars: 5,
+			ranking: 117368,
+			outOf: 523222,
 			stats: {
 				critRate: 0.6293008483833862,
 				critDamage: 1.7543009675926757,
@@ -726,8 +729,9 @@ const characters: GenshinCharacter[] = [
 			details:
 				"1 rQ (vape) + 1 E + N2C * 6 + mSlash * 4. c0r1 Kazuha + c6r1 Xiangling + c6r1 Bennett. Most buffs expire after 3N2C. Shimenawa's burst damage is halved.",
 			weapon: 'Aqua Simulacra',
-			ranking: 18063,
-			outOf: 155080,
+			weaponStars: 1,
+			ranking: 18116,
+			outOf: 155919,
 			stats: {
 				critRate: 0.6526007483678894,
 				critDamage: 1.4556007812696534,
@@ -828,8 +832,9 @@ const characters: GenshinCharacter[] = [
 			name: 'Shieldbot, Max HP',
 			details: '---',
 			weapon: 'Black Tassel',
-			ranking: 47512,
-			outOf: 557744,
+			weaponStars: 3,
+			ranking: 47802,
+			outOf: 560796,
 			stats: {
 				critRate: 0.11220032094261322,
 				critDamage: 0.5000003141,
@@ -1006,8 +1011,9 @@ const characters: GenshinCharacter[] = [
 			details:
 				'Assumes Favonius Sword R5 (EM / 1000 + ER / 500) * 5000 + (vv ? 2000 : 0) + (CR > 15% ? (CR * 1500) : 0)',
 			weapon: 'Favonius Sword',
-			ranking: 386301,
-			outOf: 754514,
+			weaponStars: 4,
+			ranking: 389502,
+			outOf: 760896,
 			stats: {
 				critRate: 0.05000098244505806,
 				critDamage: 0.7176009696837036,
@@ -1109,8 +1115,9 @@ const characters: GenshinCharacter[] = [
 			details:
 				"c0 Raiden, c2 Furina, c0 Yelan, c0 4p VV Jean. Combo: Q 3N5. Furina's Fanfare at 400 stacks. Yelan's A4 at 8s seconds. ",
 			weapon: 'Staff of the Scarlet Sands',
-			ranking: 765933,
-			outOf: 881960,
+			weaponStars: 4,
+			ranking: 771197,
+			outOf: 888377,
 			stats: {
 				critRate: 0.3572009371098236,
 				critDamage: 0.6943009362992004,
@@ -1212,8 +1219,9 @@ const characters: GenshinCharacter[] = [
 			details:
 				'Off-field Tri-Karma Purification (non-spread) avg DMG. Example team: Nahida + Xingqiu + Kuki + non-dendro flex.',
 			weapon: 'A Thousand Floating Dreams',
-			ranking: 374327,
-			outOf: 703622,
+			weaponStars: 4,
+			ranking: 376336,
+			outOf: 707549,
 			stats: {
 				critRate: 0.32990065611908875,
 				critDamage: 0.8497006336600585,
@@ -1315,8 +1323,9 @@ const characters: GenshinCharacter[] = [
 			details:
 				'Average DMG for Mademoiselle Crabaletta in a double hydro team. Number of characters who offered HP: 4. Fanfare stacks count: 200. Weapon stacks maxed when applicable. ',
 			weapon: 'Fleuve Cendre Ferryman',
-			ranking: 174066,
-			outOf: 392830,
+			weaponStars: 4,
+			ranking: 175573,
+			outOf: 396189,
 			stats: {
 				critRate: 0.6191005025322632,
 				critDamage: 1.2382004771645263,
@@ -1567,8 +1576,9 @@ const characters: GenshinCharacter[] = [
 			name: 'Sword Rain, Avg DMG',
 			details: "4p Nymph's Dream is set to very optimistic 3 stacks.",
 			weapon: 'Sacrificial Sword',
-			ranking: 38389,
-			outOf: 130340,
+			weaponStars: 5,
+			ranking: 38641,
+			outOf: 131191,
 			stats: {
 				critRate: 0.5760006185091125,
 				critDamage: 1.277100669912158,
@@ -1745,8 +1755,9 @@ const characters: GenshinCharacter[] = [
 			details:
 				"Combo: E Q 3CA. C1 Tighnari + C0R1 Deepwood Nahida + electro flex + electro flex. Tighnari's A1 buffs only CAs. Enemy has pre-existing Quicken aura. Nahida's A1 buff is maxed and lasts entire combo. ",
 			weapon: 'Skyward Harp',
-			ranking: 15001,
-			outOf: 47828,
+			weaponStars: 5,
+			ranking: 15118,
+			outOf: 48370,
 			stats: {
 				critRate: 0.9328683812452149,
 				critDamage: 1.113800426228125,
@@ -1848,8 +1859,9 @@ const characters: GenshinCharacter[] = [
 			details:
 				"(((E_DMG / 5500) + (E_HEAL / 5000) + (ER / 150)) * 5000) + SET_BONUS. +6500 ToTM, +6000 OHC, +6000 Deepwood, +5000 Noblesse, +4000 Maiden. Please keep in mind custom 'balance formulas' are completely feelscrafted unlike proper avg dmg formulas.",
 			weapon: 'Everlasting Moonglow',
-			ranking: 94124,
-			outOf: 256184,
+			weaponStars: 3,
+			ranking: 94503,
+			outOf: 257489,
 			stats: {
 				critRate: -0.8644990685717224,
 				critDamage: 0.616600894616449,
@@ -2082,8 +2094,9 @@ const characters: GenshinCharacter[] = [
 			name: 'Hyper Mono Geo NA combo, Avg DMG',
 			details: 'N1 + N2 + N3 + N4. Team: Noelle C6, Gorou C6, Yunjin C6, Zhongli C0',
 			weapon: 'Serpent Spine',
-			ranking: 2019,
-			outOf: 21134,
+			weaponStars: 4,
+			ranking: 2027,
+			outOf: 21281,
 			stats: {
 				critRate: 0.7417400555316711,
 				critDamage: 1.7826999501888061,
@@ -2384,8 +2397,9 @@ const characters: GenshinCharacter[] = [
 			details:
 				'4x Oz hits. no buffs, talent level 13. One Oz hit does not benefit from the Thundersoother (75% uptime)',
 			weapon: 'The Stringless',
-			ranking: 61149,
-			outOf: 217048,
+			weaponStars: 4,
+			ranking: 61614,
+			outOf: 218384,
 			stats: {
 				critRate: 0.5866006794266785,
 				critDamage: 0.9662006678872193,
@@ -3103,8 +3117,9 @@ const characters: GenshinCharacter[] = [
 			details:
 				'C0 Arlecchino + C6 Chevreuse @ 40k HP + Electro Flex + C6R1 Aquila Bennett @ 4p Noblesse. Combo: E .. CA 5N3. Majority of potential buffs such as 4p Shimenawa / 4p HoD / 4p CW wear off before 5N3 starts due to long setup. Chevreuse stacks for CA 5N3: 0/1/1/1/2/2/2/3/3/3/... Arlecchino is below 50% HP. BoL value after using CA: 130%. 4p Whimsy stacks for CA 5N3: 1/1/2/3/... ',
 			weapon: 'Staff of Homa',
-			ranking: 43369,
-			outOf: 353331,
+			weaponStars: 5,
+			ranking: 44047,
+			outOf: 357519,
 			stats: {
 				critRate: 0.7109001296784363,
 				critDamage: 2.136036278608032,

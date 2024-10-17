@@ -44,7 +44,7 @@
 
 <div class="w-1/3 h-full relative text-white z-10">
 	<div class="flex">
-		<div style:--weapon-rarity={character.weapon?.ascension} class="weapon-img">
+		<div style:--weapon-rarity={character.ranking?.weaponStars} class="weapon-img">
 			<enhanced:img
 				class={`w-16`}
 				src={getWeaponImage(weapon, 'baseIocn')}
@@ -69,7 +69,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="grid grid-cols-2 mx-2">
+	<div class="grid grid-cols-2 mx-2 mt-2">
 		<Stat name="Max HP" icon="icon-maxHp" value={stats?.maxHp.toFixed(0)} />
 		<Stat name="ATK" icon="icon-atk" value={stats?.atk.toFixed(0)} />
 		<Stat name="DEF" icon="icon-def" value={stats?.def.toFixed(0)} />
@@ -95,15 +95,16 @@
 <style lang="scss">
 	.weapon-img::after {
 		content: '';
+		--star-width: 9px;
+		--width: calc(var(--star-width) * var(--weapon-rarity));
 		background-image: url(star.svg);
-		background-repeat: 5;
 		display: block;
 		position: absolute;
-		top: 0;
-		left: 0;
-		width: calc(24px * var(--weapon-rarity));
-		height: 24px;
-		transform: scale(0.4);
+		top: 64px;
+		left: 32px;
+		width: var(--width);
+		height: var(--star-width);
+		transform: translate(-50%, -50%);
 		z-index: 10;
 	}
 </style>

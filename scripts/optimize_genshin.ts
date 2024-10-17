@@ -47,12 +47,13 @@ const artifactMap = (good.artifacts as Artifact).reduce(
 
 // ===== Ranking by character name =====
 const rankingMap = genshinProfile.akasha.reduce(
-	(prev, { calculations, name, stats, element }) => ({
+	(prev, { calculations, name, stats, element, weapon: { stars } }) => ({
 		...prev,
 		[name.replace(' ', '')]: {
 			name: calculations.name,
 			details: calculations.details,
 			weapon: calculations.weapon,
+			weaponStars: stars,
 			ranking: calculations.ranking,
 			outOf: calculations.outOf,
 			stats,
@@ -65,6 +66,7 @@ const rankingMap = genshinProfile.akasha.reduce(
 			name: string;
 			details: string;
 			weapon: string;
+			weaponStars: number;
 			ranking: number;
 			outOf: number;
 			stats: Record<BuildStatKey, number>;
@@ -144,6 +146,7 @@ type GenshinCharacter = {
 		name: string;
 		details: string;
 		weapon: string;
+		weaponStars: number;
 		ranking: number;
 		outOf: number;
 		stats: Record<BuildStatKey, number>;
