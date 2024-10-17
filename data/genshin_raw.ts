@@ -49,6 +49,7 @@ export interface MiniAkashaSystemStat {
 	weapon: {
 		weaponStats: Partial<Record<StatKey, number>>;
 		name: string;
+		stars: number;
 		icon: string;
 	};
 	character: Partial<Record<StatKey, number>>;
@@ -91,11 +92,12 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'Soumetsu Cutting average DMG, Ayaka c0r5, TTDS Mona c0r5, Kazuha c0r1, c6r5 Diona. TTDS, 4p ToTM and 4p Noblesse active. Enemy is frozen',
 				weapon: 'Amenoma Kageuchi',
-				ranking: 186004,
-				outOf: 541667
+				ranking: 186215,
+				outOf: 542371
 			},
 			weapon: {
 				weaponStats: { atk: 454, atk_: 55.1 },
+				stars: 4,
 				name: 'Amenoma Kageuchi',
 				icon: 'https://enka.network/ui/UI_EquipIcon_Sword_Bakufu_Awaken.png'
 			},
@@ -135,11 +137,12 @@ export const genshinProfile: GenshinProfile = {
 				name: 'Sword Rain, Avg DMG',
 				details: "4p Nymph's Dream is set to very optimistic 3 stacks.",
 				weapon: 'Sacrificial Sword',
-				ranking: 38574,
-				outOf: 130948
+				ranking: 38641,
+				outOf: 131191
 			},
 			weapon: {
 				weaponStats: { atk: 608, enerRech_: 55.1 },
+				stars: 5,
 				name: 'Skyward Blade',
 				icon: 'https://enka.network/ui/UI_EquipIcon_Sword_Dvalin_Awaken.png'
 			},
@@ -182,11 +185,12 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"Combo that includes A4/VHA/PJWS/CQ stacking, Bennett, Noblesse and Elegy uptimes, 2E and 11HP with collision damage. 4p Noblese Aquila C6 Bennett, 4p ToTM Elegy C6 Faruzan, Zhongli. Faruzan's A4 is disabled for a bit of simplicity (it's also pretty weak anyways)",
 				weapon: 'Staff of Homa',
-				ranking: 85428,
-				outOf: 360606
+				ranking: 85539,
+				outOf: 361207
 			},
 			weapon: {
 				weaponStats: { atk: 608, critDMG_: 66.2 },
+				stars: 5,
 				name: 'Staff of Homa',
 				icon: 'https://enka.network/ui/UI_EquipIcon_Pole_Homa_Awaken.png'
 			},
@@ -226,11 +230,12 @@ export const genshinProfile: GenshinProfile = {
 				name: 'Shieldbot, Max HP',
 				details: '---',
 				weapon: 'Black Tassel',
-				ranking: 47714,
-				outOf: 559933
+				ranking: 47802,
+				outOf: 560796
 			},
 			weapon: {
 				weaponStats: { atk: 354, hp_: 46.9 },
+				stars: 3,
 				name: 'Black Tassel',
 				icon: 'https://enka.network/ui/UI_EquipIcon_Pole_Noire_Awaken.png'
 			},
@@ -272,11 +277,12 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'4x Oz hits. no buffs, talent level 13. One Oz hit does not benefit from the Thundersoother (75% uptime)',
 				weapon: 'The Stringless',
-				ranking: 61475,
-				outOf: 218033
+				ranking: 61614,
+				outOf: 218384
 			},
 			weapon: {
 				weaponStats: { atk: 510, eleMas: 165 },
+				stars: 4,
 				name: 'The Stringless',
 				icon: 'https://enka.network/ui/UI_EquipIcon_Bow_Troupe_Awaken.png'
 			},
@@ -318,11 +324,12 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"1 rQ (vape) + 1 E + N2C * 6 + mSlash * 4. c0r1 Kazuha + c6r1 Xiangling + c6r1 Bennett. Most buffs expire after 3N2C. Shimenawa's burst damage is halved.",
 				weapon: 'Aqua Simulacra',
-				ranking: 18086,
-				outOf: 155672
+				ranking: 18116,
+				outOf: 155919
 			},
 			weapon: {
 				weaponStats: { atk: 23 },
+				stars: 1,
 				name: "Hunter's Bow",
 				icon: 'https://enka.network/ui/UI_EquipIcon_Bow_Hunters_Awaken.png'
 			},
@@ -363,11 +370,12 @@ export const genshinProfile: GenshinProfile = {
 				name: 'Hyper Mono Geo NA combo, Avg DMG',
 				details: 'N1 + N2 + N3 + N4. Team: Noelle C6, Gorou C6, Yunjin C6, Zhongli C0',
 				weapon: 'Serpent Spine',
-				ranking: 2026,
-				outOf: 21250
+				ranking: 2027,
+				outOf: 21281
 			},
 			weapon: {
 				weaponStats: { atk: 510, critRate_: 27.6 },
+				stars: 4,
 				name: 'Serpent Spine',
 				icon: 'https://enka.network/ui/UI_EquipIcon_Claymore_Kione_Awaken.png'
 			},
@@ -409,11 +417,12 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'Average DMG for 11N1CD + Q combo. elegy instructor amber c0r1. kazuha c2r1 @ 1000EM(1420). 4p SR burst uptime 1/3, other sets: 2/3. ',
 				weapon: 'Ballad of the Fjords',
-				ranking: 117225,
-				outOf: 522495
+				ranking: 117368,
+				outOf: 523222
 			},
 			weapon: {
 				weaponStats: { atk: 741, atk_: 16.5 },
+				stars: 5,
 				name: 'Calamity Queller',
 				icon: 'https://enka.network/ui/UI_EquipIcon_Pole_Santika_Awaken.png'
 			},
@@ -454,11 +463,12 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'Assumes Favonius Sword R5 (EM / 1000 + ER / 500) * 5000 + (vv ? 2000 : 0) + (CR > 15% ? (CR * 1500) : 0)',
 				weapon: 'Favonius Sword',
-				ranking: 388626,
-				outOf: 759180
+				ranking: 389502,
+				outOf: 760896
 			},
 			weapon: {
 				weaponStats: { atk: 454, enerRech_: 61.3 },
+				stars: 4,
 				name: 'Favonius Sword',
 				icon: 'https://enka.network/ui/UI_EquipIcon_Sword_Zephyrus_Awaken.png'
 			},
@@ -500,11 +510,12 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"c0 Raiden, c2 Furina, c0 Yelan, c0 4p VV Jean. Combo: Q 3N5. Furina's Fanfare at 400 stacks. Yelan's A4 at 8s seconds. ",
 				weapon: 'Staff of the Scarlet Sands',
-				ranking: 769710,
-				outOf: 886546
+				ranking: 771197,
+				outOf: 888377
 			},
 			weapon: {
 				weaponStats: { atk: 454, eleMas: 221 },
+				stars: 4,
 				name: "Dragon's Bane",
 				icon: 'https://enka.network/ui/UI_EquipIcon_Pole_Stardust_Awaken.png'
 			},
@@ -546,11 +557,12 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"(((E_DMG / 5500) + (E_HEAL / 5000) + (ER / 150)) * 5000) + SET_BONUS. +6500 ToTM, +6000 OHC, +6000 Deepwood, +5000 Noblesse, +4000 Maiden. Please keep in mind custom 'balance formulas' are completely feelscrafted unlike proper avg dmg formulas.",
 				weapon: 'Everlasting Moonglow',
-				ranking: 94393,
-				outOf: 257119
+				ranking: 94503,
+				outOf: 257489
 			},
 			weapon: {
 				weaponStats: { atk: 401, hp_: 35.2 },
+				stars: 3,
 				name: 'Thrilling Tales of Dragon Slayers',
 				icon: 'https://enka.network/ui/UI_EquipIcon_Catalyst_Pulpfic_Awaken.png'
 			},
@@ -593,11 +605,12 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"Frontloaded average DMG for c6r5 Aqua Yelan Combo: 2x E + 2x BTB + 3x C2 + 5x C6 + 24x Q. Team: c0r5 fs Kazuha @ 1000 EM vv hydro swirl + Zhongli shield up + c4 Mona burst up. Yelan's A4 set to 10s, C4 2 stacks, 18% HP from A1. 4p Nymph's Dream is set to 3 stacks.",
 				weapon: 'Aqua Simulacra',
-				ranking: 17167,
-				outOf: 452308
+				ranking: 17189,
+				outOf: 453111
 			},
 			weapon: {
 				weaponStats: { atk: 542, critDMG_: 88.2 },
+				stars: 5,
 				name: 'Aqua Simulacra',
 				icon: 'https://enka.network/ui/UI_EquipIcon_Bow_Kirin_Awaken.png'
 			},
@@ -638,11 +651,12 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"Combo: E Q 3CA. C1 Tighnari + C0R1 Deepwood Nahida + electro flex + electro flex. Tighnari's A1 buffs only CAs. Enemy has pre-existing Quicken aura. Nahida's A1 buff is maxed and lasts entire combo. ",
 				weapon: 'Skyward Harp',
-				ranking: 15079,
-				outOf: 48199
+				ranking: 15118,
+				outOf: 48370
 			},
 			weapon: {
 				weaponStats: { atk: 608, critRate_: 33.1 },
+				stars: 5,
 				name: 'Polar Star',
 				icon: 'https://enka.network/ui/UI_EquipIcon_Bow_Worldbane_Awaken.png'
 			},
@@ -684,11 +698,12 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'Off-field Tri-Karma Purification (non-spread) avg DMG. Example team: Nahida + Xingqiu + Kuki + non-dendro flex.',
 				weapon: 'A Thousand Floating Dreams',
-				ranking: 375764,
-				outOf: 706444
+				ranking: 376336,
+				outOf: 707549
 			},
 			weapon: {
 				weaponStats: { atk: 454, eleMas: 221 },
+				stars: 4,
 				name: 'Sacrificial Fragments',
 				icon: 'https://enka.network/ui/UI_EquipIcon_Catalyst_Fossil_Awaken.png'
 			},
@@ -730,11 +745,12 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'Average DMG for Mademoiselle Crabaletta in a double hydro team. Number of characters who offered HP: 4. Fanfare stacks count: 200. Weapon stacks maxed when applicable. ',
 				weapon: 'Fleuve Cendre Ferryman',
-				ranking: 175140,
-				outOf: 395225
+				ranking: 175573,
+				outOf: 396189
 			},
 			weapon: {
 				weaponStats: { atk: 510, enerRech_: 45.9 },
+				stars: 4,
 				name: 'Fleuve Cendre Ferryman',
 				icon: 'https://enka.network/ui/UI_EquipIcon_Sword_Machination_Awaken.png'
 			},
@@ -775,11 +791,12 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'C0 Arlecchino + C6 Chevreuse @ 40k HP + Electro Flex + C6R1 Aquila Bennett @ 4p Noblesse. Combo: E .. CA 5N3. Majority of potential buffs such as 4p Shimenawa / 4p HoD / 4p CW wear off before 5N3 starts due to long setup. Chevreuse stacks for CA 5N3: 0/1/1/1/2/2/2/3/3/3/... Arlecchino is below 50% HP. BoL value after using CA: 130%. 4p Whimsy stacks for CA 5N3: 1/1/2/3/... ',
 				weapon: 'Staff of Homa',
-				ranking: 43848,
-				outOf: 356375
+				ranking: 44047,
+				outOf: 357519
 			},
 			weapon: {
 				weaponStats: { atk: 608, critDMG_: 66.2 },
+				stars: 5,
 				name: 'Staff of Homa',
 				icon: 'https://enka.network/ui/UI_EquipIcon_Pole_Homa_Awaken.png'
 			},
@@ -820,11 +837,12 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"C0 Clorinde + C6 Fischl + 4p Noblesse C6 Chevreuse @ 40k HP + 4p Cinder C6 Thoma. Leaderboard ranks DPS based on 16s rotation using QEE 5N3E combo. Clorinde's A1 and A4 at full uptime for simplicity. Chevreuse's C6 stacks: QEE:0, N3E:1, N3E: 2, N3E:3, N3E:3, N3E: 3. 4pc Harmonic Whimsy stacks Q:1, EE:2, 5N3:3. Finale of the Deep's passive does not affect the burst. ",
 				weapon: 'Finale of the Deep',
-				ranking: 39470,
-				outOf: 145616
+				ranking: 39666,
+				outOf: 146252
 			},
 			weapon: {
 				weaponStats: { atk: 565, atk_: 27.6 },
+				stars: 4,
 				name: 'Finale of the Deep',
 				icon: 'https://enka.network/ui/UI_EquipIcon_Sword_Vorpal_Awaken.png'
 			},
@@ -1379,7 +1397,7 @@ export const genshinProfile: GenshinProfile = {
 				]
 			},
 			{
-				setKey: 'GoldenTroupe',
+				setKey: 'TenacityOfTheMillelith',
 				slotKey: 'flower',
 				level: 20,
 				rarity: 5,
@@ -1387,9 +1405,9 @@ export const genshinProfile: GenshinProfile = {
 				location: 'Faruzan',
 				lock: false,
 				substats: [
-					{ key: 'atk', value: 53 },
-					{ key: 'critDMG_', value: 7 },
-					{ key: 'enerRech_', value: 9.1 },
+					{ key: 'enerRech_', value: 9.7 },
+					{ key: 'atk', value: 35 },
+					{ key: 'eleMas', value: 16 },
 					{ key: 'critRate_', value: 10.1 }
 				]
 			},
@@ -1409,7 +1427,7 @@ export const genshinProfile: GenshinProfile = {
 				]
 			},
 			{
-				setKey: 'TenacityOfTheMillelith',
+				setKey: 'FragmentOfHarmonicWhimsy',
 				slotKey: 'sands',
 				level: 20,
 				rarity: 5,
@@ -1417,10 +1435,10 @@ export const genshinProfile: GenshinProfile = {
 				location: 'Faruzan',
 				lock: false,
 				substats: [
-					{ key: 'critRate_', value: 6.6 },
-					{ key: 'def', value: 16 },
-					{ key: 'atk', value: 27 },
-					{ key: 'hp', value: 837 }
+					{ key: 'critRate_', value: 15.9 },
+					{ key: 'def', value: 39 },
+					{ key: 'atk_', value: 4.1 },
+					{ key: 'def_', value: 5.8 }
 				]
 			},
 			{
@@ -1905,9 +1923,9 @@ export const genshinProfile: GenshinProfile = {
 			},
 			{
 				key: 'FavoniusSword',
-				level: 90,
-				ascension: 6,
-				refinement: 5,
+				level: 1,
+				ascension: 0,
+				refinement: 3,
 				location: 'KaedeharaKazuha',
 				lock: false
 			},
