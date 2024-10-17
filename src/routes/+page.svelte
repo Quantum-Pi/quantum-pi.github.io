@@ -14,7 +14,7 @@
 <Hero />
 <div id="content">
 	<div class="px-8 flex flex-col items-center">
-		<CharacterCard character={genshinData[0]}/>
+		<!-- <CharacterCard character={genshinData[0]}/> -->
 		<div class="mb-24">
 			<RecentGames />
 		</div>
