@@ -68,6 +68,9 @@
 				sizes="(min-width: 128px) 128px"
 				alt={`con 0 icon`}
 			/>
+			<div class="level-bubble">
+				{character.talent.auto}
+			</div>
 		</div>
 		<div style:--level={character.talent.skill + (character.constellation >= 3 ? 3 : 0)}>
 			<enhanced:img
@@ -76,6 +79,9 @@
 				sizes="(min-width: 128px) 128px"
 				alt={`con 0 icon`}
 			/>
+			<div class="level-bubble">
+				{character.talent.skill + (character.constellation >= 3 ? 3 : 0)}
+			</div>
 		</div>
 		<div style:--level={character.talent.burst + (character.constellation >= 5 ? 3 : 0)}>
 			<enhanced:img
@@ -84,6 +90,9 @@
 				sizes="(min-width: 128px) 128px"
 				alt={`con 0 icon`}
 			/>
+			<div class="level-bubble">
+				{character.talent.burst + (character.constellation >= 5 ? 3 : 0)}
+			</div>
 		</div>
 	</div>
 	<enhanced:img
@@ -115,6 +124,22 @@
 		}
 	}
 
+	.level-bubble {
+		color: white;
+		display: flex;
+		position: absolute;
+		color: white;
+		background-color: rgba(0, 0, 0, 0.7);
+		border-radius: 40%;
+		padding: 0px 2px;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, 50%);
+		z-index: 10;
+		font-size: 8px;
+		line-height: normal;
+	}
+
 	picture {
 		&:has(> .skill.locked) {
 			position: relative;
@@ -137,24 +162,6 @@
 
 	div:has(> picture .skill.level) {
 		position: relative;
-
-		&::before {
-			counter-reset: variable var(--level);
-			content: counter(variable);
-			display: block;
-			height: 12px;
-			font-size: 12px;
-			line-height: 11px;
-			position: absolute;
-			color: white;
-			background-color: rgba(0, 0, 0, 0.9);
-			border-radius: 25%;
-			padding: 0px 2px;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, 75%);
-			z-index: 10;
-		}
 	}
 
 	picture:has(> #splash) {
