@@ -1,4 +1,5 @@
 import { genshinProfile } from '../data/genshin_raw';
+import good from '../data/good.json';
 import { existsSync, mkdirSync, writeFileSync } from 'fs';
 import { downloadImage, hash } from './lib';
 import {
@@ -6,7 +7,8 @@ import {
 	CharacterData,
 	WeaponData,
 	ArtifactData,
-	convertToGOODKey
+	convertToGOODKey,
+	IArtifact
 } from 'enka-network-api';
 
 const enka = new EnkaClient({ userAgent: 'quantumpie.net Genshin icon caching' });
@@ -27,9 +29,17 @@ const characterImgMap: Record<
 > = {};
 
 if (genshinProfile.good.characters) {
-	for (const c of genshinProfile.good.characters) {
-		const character = characters[c.key];
+	const mergedCharacters = genshinProfile.good.characters;
+	const charKeys = mergedCharacters.map((c) => c.key);
+	for (const c of good.characters) {
+		if (!charKeys.includes(c.key)) {
+			mergedCharacters.push(c);
+		}
+	}
+	for (const c of mergedCharacters) {
+		if (c.key.includes('Traveler')) continue;
 
+		const character = characters[c.key];
 		const characterImgs: (typeof characterImgMap)[''] = [];
 		let talent_i = 0;
 		await Promise.all(
@@ -144,7 +154,14 @@ const weaponImgMap: Record<
 > = {};
 
 if (genshinProfile.good.weapons) {
-	for (const w of genshinProfile.good.weapons) {
+	const mergedWeapons = genshinProfile.good.weapons;
+	const weaponKeys = mergedWeapons.map((c) => c.key);
+	for (const w of good.weapons) {
+		if (!weaponKeys.includes(w.key)) {
+			mergedWeapons.push(w);
+		}
+	}
+	for (const w of mergedWeapons) {
 		const weapon = weapons[w.key];
 
 		const weaponImgs: (typeof weaponImgMap)[''] = [];
@@ -229,12 +246,16 @@ const artifactImageMap: Record<
 > = {};
 
 if (genshinProfile.good.artifacts) {
-	for (const a of genshinProfile.good.artifacts) {
+	const mergedArtifacts = genshinProfile.good.artifacts;
+	const artifactKeys = mergedArtifacts.map((c) => c.setKey);
+	for (const a of good.artifacts) {
+		if (!artifactKeys.includes(a.setKey)) {
+			mergedArtifacts.push(a as IArtifact);
+		}
+	}
+	for (const a of mergedArtifacts) {
 		const artifact = artifacts[a.setKey];
 		const url = artifact.icon.url.replace(/_[1-5].png/, '_$.png');
-
-		console.log(a);
-		console.log(url);
 
 		const artifactImages: (typeof artifactImageMap)[''] = [];
 		await Promise.all(
@@ -249,7 +270,7 @@ if (genshinProfile.good.artifacts) {
 				if (!url || url.length == 0) return null;
 				// link[link.length - 1] = '_$.png';
 				const link = url.replace('api.ambr.top', 'gi.yatta.moe');
-				console.log(link);
+				// console.log(link);
 				const file = link.split('/').at(-1);
 				if (!file) return null;
 				const path = `src/assets/genshin/artifacts/${a.setKey}/${file}`;
