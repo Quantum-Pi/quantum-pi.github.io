@@ -98,19 +98,26 @@ type GenshinCharacter = {
 		stats: Record<BuildStatKey, number>;
 	};
 };
-const characters: GenshinCharacter[] = good.characters.map((character) => ({
-	...character,
-	weapon: weaponMap[character.key] ?? undefined,
-	artifacts: artifactMap[character.key] ?? undefined,
-	ranking: rankingMap[character.key] ?? undefined
-}));
+const characters: GenshinCharacter[] = good.characters
+	.map((character) => ({
+		...character,
+		weapon: weaponMap[character.key] ?? undefined,
+		artifacts: artifactMap[character.key] ?? undefined,
+		ranking: rankingMap[character.key] ?? undefined
+	}))
+	.filter((character) => !character.key.includes('Traveler')); // TODO: point of failure if new character has Traveler in name
 
 const ts = `
 import type { IGOOD } from 'enka-network-api';
+import type { ArtifactCacheKey, CharacterCacheKey, WeaponCacheKey } from './genshin_cache';
 type Weapon = Exclude<IGOOD['weapons'], undefined>;
-type WeaponExport = Omit<Weapon[0], 'location' | 'lock'>;
+type WeaponExport = Omit<Weapon[0], 'location' | 'lock' | 'key'> & {
+	key: WeaponCacheKey;
+};
 type Artifact = Exclude<IGOOD['artifacts'], undefined>;
-type ArtifactExport = Omit<Artifact[0], 'lock' | 'location'>;
+type ArtifactExport = Omit<Artifact[0], 'lock' | 'location' | 'setKey'> & {
+	setKey: ArtifactCacheKey;
+};
 type Element = 'Hydro' | 'Pyro' | 'Geo' | 'Cryo' | 'Dendro' | 'Electro' | 'Anemo';
 type BuildStatKey =
 	| 'critRate'
@@ -131,7 +138,7 @@ type BuildStatKey =
 	| 'atk'
 	| 'def';
 type GenshinCharacter = {
-	key: string;
+	key: CharacterCacheKey
 	level: number;
 	constellation: number;
 	ascension: number;

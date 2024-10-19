@@ -1,8 +1,10 @@
 <script lang="ts">
 	import type { GenshinCharacter } from '$lib/genshin_agg';
 	import { getCharacterImage, type CharacterCacheKey } from '$lib/genshin_cache';
+	import type { CharacterResource } from './CharacterCard.svelte';
 
 	export let character: GenshinCharacter;
+	export let resources: CharacterResource['character'];
 	export let name = character.key as CharacterCacheKey;
 
 	getCharacterImage(name, 'burst');
@@ -25,37 +27,37 @@
 	<div class="flex flex-col gap-y-3 absolute z-10 pl-4 pb-4 top-full -translate-y-full">
 		<enhanced:img
 			class={`skill ${getConClass(1)} w-6`}
-			src={getCharacterImage(name, 'con_0')}
+			src={resources.con_0}
 			sizes="(min-width: 128px) 128px"
 			alt={`con 0 icon`}
 		/>
 		<enhanced:img
 			class={`skill ${getConClass(2)} w-6`}
-			src={getCharacterImage(name, 'con_1')}
+			src={resources.con_1}
 			sizes="(min-width: 128px) 128px"
 			alt={`con 0 icon`}
 		/>
 		<enhanced:img
 			class={`skill ${getConClass(3)} w-6`}
-			src={getCharacterImage(name, 'con_2')}
+			src={resources.con_2}
 			sizes="(min-width: 128px) 128px"
 			alt={`con 0 icon`}
 		/>
 		<enhanced:img
 			class={`skill ${getConClass(4)} w-6`}
-			src={getCharacterImage(name, 'con_3')}
+			src={resources.con_3}
 			sizes="(min-width: 128px) 128px"
 			alt={`con 0 icon`}
 		/>
 		<enhanced:img
 			class={`skill ${getConClass(5)} w-6`}
-			src={getCharacterImage(name, 'con_4')}
+			src={resources.con_4}
 			sizes="(min-width: 128px) 128px"
 			alt={`con 0 icon`}
 		/>
 		<enhanced:img
 			class={`skill ${getConClass(6)} w-6`}
-			src={getCharacterImage(name, 'con_5')}
+			src={resources.con_5}
 			sizes="(min-width: 128px) 128px"
 			alt={`con 0 icon`}
 		/>
@@ -64,7 +66,7 @@
 		<div style:--level={character.talent.auto}>
 			<enhanced:img
 				class="skill level w-6"
-				src={getCharacterImage(name, 'normal')}
+				src={resources.normal}
 				sizes="(min-width: 128px) 128px"
 				alt={`con 0 icon`}
 			/>
@@ -75,7 +77,7 @@
 		<div style:--level={character.talent.skill + (character.constellation >= 3 ? 3 : 0)}>
 			<enhanced:img
 				class="skill level w-6"
-				src={getCharacterImage(name, 'skill')}
+				src={resources.skill}
 				sizes="(min-width: 128px) 128px"
 				alt={`con 0 icon`}
 			/>
@@ -86,7 +88,7 @@
 		<div style:--level={character.talent.burst + (character.constellation >= 5 ? 3 : 0)}>
 			<enhanced:img
 				class="skill level w-6"
-				src={getCharacterImage(name, 'burst')}
+				src={resources.burst}
 				sizes="(min-width: 128px) 128px"
 				alt={`con 0 icon`}
 			/>
@@ -98,7 +100,7 @@
 	<enhanced:img
 		id="splash"
 		class="w-full h-full absolute object-cover scale-150"
-		src={getCharacterImage(name, 'splashImage')}
+		src={resources.splashImage}
 		sizes="(min-width: 600px) 600px"
 		alt={`con 0 icon`}
 	/>

@@ -1,8 +1,13 @@
 import type { IGOOD } from 'enka-network-api';
+import type { ArtifactCacheKey, CharacterCacheKey, WeaponCacheKey } from './genshin_cache';
 type Weapon = Exclude<IGOOD['weapons'], undefined>;
-type WeaponExport = Omit<Weapon[0], 'location' | 'lock'>;
+type WeaponExport = Omit<Weapon[0], 'location' | 'lock' | 'key'> & {
+	key: WeaponCacheKey;
+};
 type Artifact = Exclude<IGOOD['artifacts'], undefined>;
-type ArtifactExport = Omit<Artifact[0], 'lock' | 'location'>;
+type ArtifactExport = Omit<Artifact[0], 'lock' | 'location' | 'setKey'> & {
+	setKey: ArtifactCacheKey;
+};
 type Element = 'Hydro' | 'Pyro' | 'Geo' | 'Cryo' | 'Dendro' | 'Electro' | 'Anemo';
 type BuildStatKey =
 	| 'critRate'
@@ -23,7 +28,7 @@ type BuildStatKey =
 	| 'atk'
 	| 'def';
 type GenshinCharacter = {
-	key: string;
+	key: CharacterCacheKey;
 	level: number;
 	constellation: number;
 	ascension: number;
@@ -54,6 +59,7 @@ const elementToBuildStatKey: Record<Element, BuildStatKey> = {
 	Hydro: 'hydroDamageBonus',
 	Pyro: 'pyroDamageBonus'
 };
+
 const characters: GenshinCharacter[] = [
 	{
 		key: 'Yelan',
@@ -2690,14 +2696,6 @@ const characters: GenshinCharacter[] = [
 		ascension: 4,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		weapon: { key: 'HuntersBow', level: 1, ascension: 0, refinement: 1 }
-	},
-	{
-		key: 'TravelerDendro',
-		level: 70,
-		constellation: 6,
-		ascension: 5,
-		talent: { auto: 1, skill: 1, burst: 1 },
-		weapon: { key: 'DullBlade', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
 		key: 'Barbara',

@@ -91,18 +91,7 @@ if (genshinProfile.good.characters) {
 	}
 }
 
-const characterImports = `${Object.values(characterImgMap)
-	.reduce((prev, curr) => {
-		prev.push(...curr);
-		return prev;
-	}, [])
-	.map(
-		({ file, hash }) =>
-			`import ${hash} from '../assets/genshin/characters/${file}.png?enhanced&format=webp'`
-	)
-	.join('\n')}
-
-type CharacterImageKey =
+const characterImports = `type CharacterImageKey =
 	| 'sideIcon'
 	| 'con_0'
 	| 'con_1'
@@ -123,15 +112,20 @@ type CharacterCacheKey = ${Object.keys(characterImgMap)
 	.map((str) => `'${str}'`)
 	.join(' | ')};
 
-const characterImageDict: Record<CharacterCacheKey, Record<CharacterImageKey, Picture> & { talent_3?: Picture }> = {
+const characterImageDict: Record<CharacterCacheKey, Record<CharacterImageKey, () => Promise<Picture>> & { talent_3?: () => Promise<Picture> }> = {
 ${Object.entries(characterImgMap).map(([character, attr]) => {
 	return `${character}: {
-${attr.map(({ name, hash }) => `\t${name}: ${hash}`).join(',\n')}
+${attr
+	.map(
+		({ name, file }) =>
+			`\t${name}: async () => (await import('../assets/genshin/characters/${file}.png?enhanced&format=webp')).default`
+	)
+	.join(',\n')}
 }`;
 })}
 };
-const getCharacterImage = (character: CharacterCacheKey, image: CharacterImageKey) => {
-	return characterImageDict[character][image]
+const getCharacterImage = async (character: CharacterCacheKey, image: CharacterImageKey) => {
+	return await characterImageDict[character][image]()
 };
 
 export { getCharacterImage }
@@ -194,18 +188,7 @@ if (genshinProfile.good.weapons) {
 	}
 }
 
-const weaponImports = `${Object.values(weaponImgMap)
-	.reduce((prev, curr) => {
-		prev.push(...curr);
-		return prev;
-	}, [])
-	.map(
-		({ file, hash }) =>
-			`import ${hash} from '../assets/genshin/weapons/${file}.png?enhanced&format=webp'`
-	)
-	.join('\n')}
-
-type WeaponImageKey =
+const weaponImports = `type WeaponImageKey =
 	'baseIocn' |
 	'awakenIcon' |
 	'splashImage';
@@ -214,15 +197,21 @@ type WeaponCacheKey = ${Object.keys(weaponImgMap)
 	.map((str) => `'${str}'`)
 	.join(' | ')};
 
-const weaponImageDict: Record<WeaponCacheKey, Record<WeaponImageKey, Picture>> = {
+const weaponImageDict: Record<WeaponCacheKey, Record<WeaponImageKey, () => Promise<Picture>>> = {
 ${Object.entries(weaponImgMap).map(([weapon, attr]) => {
 	return `${weapon}: {
-${attr.map(({ name, hash }) => `\t${name}: ${hash}`).join(',\n')}
+${attr
+	.map(
+		({ name, file }) =>
+			`\t${name}: async () => (await import('../assets/genshin/weapons/${file}.png?enhanced&format=webp')).default`
+	)
+	.join(',\n')}
 }`;
 })}
+
 };
-const getWeaponImage = (weapon: WeaponCacheKey, image: WeaponImageKey) => {
-	return weaponImageDict[weapon][image]
+const getWeaponImage = async (weapon: WeaponCacheKey, image: WeaponImageKey) => {
+	return await weaponImageDict[weapon][image]()
 };
 
 export { getWeaponImage }
@@ -291,18 +280,7 @@ if (genshinProfile.good.artifacts) {
 	}
 }
 
-const artifactImports = `${Object.values(artifactImageMap)
-	.reduce((prev, curr) => {
-		prev.push(...curr);
-		return prev;
-	}, [])
-	.map(
-		({ file, hash }) =>
-			`import ${hash} from '../assets/genshin/artifacts/${file}.png?enhanced&format=webp'`
-	)
-	.join('\n')}
-
-type ArtifactImageKey =
+const artifactImports = `type ArtifactImageKey =
 	'goblet' |
 	'plume' |
 	'circlet' |
@@ -313,15 +291,20 @@ type ArtifactCacheKey = ${Object.keys(artifactImageMap)
 	.map((str) => `'${str}'`)
 	.join(' | ')};
 
-const artifactImageDict: Record<ArtifactCacheKey, Record<ArtifactImageKey, Picture>> = {
+const artifactImageDict: Record<ArtifactCacheKey, Record<ArtifactImageKey, () => Promise<Picture>>> = {
 ${Object.entries(artifactImageMap).map(([weapon, attr]) => {
 	return `${weapon}: {
-${attr.map(({ name, hash }) => `\t${name}: ${hash}`).join(',\n')}
+${attr
+	.map(
+		({ name, file }) =>
+			`\t${name}: async () => (await import('../assets/genshin/artifacts/${file}.png?enhanced&format=webp')).default`
+	)
+	.join(',\n')}
 }`;
 })}
 };
-const getArtifactImage = (weapon: ArtifactCacheKey, image: ArtifactImageKey) => {
-	return artifactImageDict[weapon][image]
+const getArtifactImage = async (weapon: ArtifactCacheKey, image: ArtifactImageKey) => {
+	return await artifactImageDict[weapon][image]()
 };
 
 export { getArtifactImage }

@@ -1,9 +1,11 @@
 <script lang="ts">
 	import { elementToBuildStatKey, type GenshinCharacter } from '$lib/genshin_agg';
 	import { getWeaponImage, type CharacterCacheKey, type WeaponCacheKey } from '$lib/genshin_cache';
+	import type { CharacterResource } from './CharacterCard.svelte';
 	import Stat from './Stat.svelte';
 
 	export let character: GenshinCharacter;
+	export let resources: CharacterResource['weapon'];
 
 	const weapon = character.weapon?.key as WeaponCacheKey;
 	const stats = character.ranking?.stats;
@@ -44,30 +46,32 @@
 
 <div class="w-1/3 h-full relative text-white z-10">
 	<div class="flex">
-		<div style:--weapon-rarity={character.ranking?.weaponStars} class="weapon-img">
-			<enhanced:img
-				class={`w-16`}
-				src={getWeaponImage(weapon, 'baseIocn')}
-				sizes="(min-width: 128px) 128px"
-				alt={`con 0 icon`}
-			/>
-		</div>
-		<div class="flex flex-col justify-center ml-2">
-			<div>
-				{weapon.split(/(?=[A-Z])/).join(' ')}
+		{#if resources}
+			<div style:--weapon-rarity={character.ranking?.weaponStars} class="weapon-img">
+				<enhanced:img
+					class={`w-16`}
+					src={resources.baseIcon}
+					sizes="(min-width: 128px) 128px"
+					alt={`con 0 icon`}
+				/>
 			</div>
-			<div>
-				<span>
-					R{character.weapon?.refinement}
-				</span>
-				&nbsp;
-				<span>
-					Lv. {character.weapon?.level}<span class="text-gray-500"
-						>/{getAscensionLevel(character.weapon?.ascension ?? 0)}</span
-					>
-				</span>
+			<div class="flex flex-col justify-center ml-2">
+				<div>
+					{weapon.split(/(?=[A-Z])/).join(' ')}
+				</div>
+				<div>
+					<span>
+						R{character.weapon?.refinement}
+					</span>
+					&nbsp;
+					<span>
+						Lv. {character.weapon?.level}<span class="text-gray-500"
+							>/{getAscensionLevel(character.weapon?.ascension ?? 0)}</span
+						>
+					</span>
+				</div>
 			</div>
-		</div>
+		{/if}
 	</div>
 	<div class="grid grid-cols-2 mx-2 mt-2">
 		<Stat name="Max HP" icon="icon-maxHp" value={stats?.maxHp.toFixed(0)} />
