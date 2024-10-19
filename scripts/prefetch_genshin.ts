@@ -123,7 +123,7 @@ type CharacterCacheKey = ${Object.keys(characterImgMap)
 	.map((str) => `'${str}'`)
 	.join(' | ')};
 
-const characterImageDict: Record<CharacterCacheKey, Record<CharacterImageKey, Picture>> = {
+const characterImageDict: Record<CharacterCacheKey, Record<CharacterImageKey, Picture> & { talent_3?: Picture }> = {
 ${Object.entries(characterImgMap).map(([character, attr]) => {
 	return `${character}: {
 ${attr.map(({ name, hash }) => `\t${name}: ${hash}`).join(',\n')}
