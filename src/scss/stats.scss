@@ -26,63 +26,77 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-// healingBonus: 0,
-// incomingHealingBonus: 0,
 
-.icon-anemoDamageBonus:before {
+
+
+.icon-anemoDamageBonus:before,
+.icon-anemo_dmg_:before {
 	content: '\e900';
 }
 .icon-atk:before {
 	content: '\e901';
 }
-// .icon-atk_:before {
-// 	content: '\e902';
-// }
-.icon-critDamage:before {
+.icon-atk_:before {
+	content: '\e902';
+}
+.icon-critDamage:before,
+.icon-critDMG_:before {
 	content: '\e903';
 }
-.icon-critRate:before {
+.icon-critRate:before,
+.icon-critRate_:before {
 	content: '\e905';
 }
-.icon-cryoDamageBonus:before {
+.icon-cryoDamageBonus:before,
+.icon-cryo_dmg_:before {
 	content: '\e906';
 }
 .icon-def:before {
 	content: '\e907';
 }
-// .icon-def_:before {
-// 	content: '\e908';
-// }
-.icon-dendroDamageBonus:before {
+.icon-def_:before {
+	content: '\e908';
+}
+.icon-dendroDamageBonus:before,
+.icon-dendro_dmg_:before {
 	content: '\e909';
 }
-.icon-electroDamageBonus:before {
+.icon-electroDamageBonus:before,
+.icon-electro_dmg_:before {
 	content: '\e90a';
 }
-.icon-elementalMastery:before {
+.icon-elementalMastery:before,
+.icon-eleMas:before {
 	content: '\e90b';
 }
-.icon-energyRecharge:before {
+.icon-energyRecharge:before,
+.icon-enerRech_:before {
 	content: '\e90c';
 }
-.icon-geoDamageBonus:before {
+.icon-geoDamageBonus:before,
+.icon-geo_dmg_:before {
 	content: '\e90e';
 }
-.icon-healingBonus:before {
+.icon-healingBonus:before,
+.icon-heal_:before {
 	content: '\e90f';
 }
-.icon-maxHp:before {
+.icon-maxHp:before,
+.icon-hp:before {
 	content: '\e910';
 }
-// .icon-hp_:before {
-// 	content: '\e912';
-// }
-.icon-hydroDamageBonus:before {
+.icon-hp_:before {
+	content: '\e912';
+}
+.icon-hydroDamageBonus:before,
+.icon-hydro_dmg_:before {
 	content: '\e915';
 }
-.icon-physicalDamageBonus:before {
+.icon-physicalDamageBonus:before,
+.icon-physical_dmg_:before {
 	content: '\e916';
 }
-.icon-pyroDamageBonus:before {
+.icon-pyroDamageBonus:before,
+.icon-pyro_dmg_:before {
 	content: '\e917';
 }
