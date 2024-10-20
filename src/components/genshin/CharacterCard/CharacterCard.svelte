@@ -83,7 +83,7 @@
 	style:--element={`var(--${character.ranking?.element ?? 'Pyro'})`}
 	class="character-card w-screen overflow-y-scroll"
 >
-	<div class="flex relative w-[1234px] h-[440px]">
+	<div class="flex relative w-[975px] h-[406px]">
 		{#await getResources() then resources}
 			<Character {character} resources={resources.character} />
 			<WeaponStats {character} resources={resources.weapon} />
@@ -91,7 +91,7 @@
 		{/await}
 		<div class="bg absolute top-0 left-0 z-0 gradient">
 			<enhanced:img
-				class="h-[440px]"
+				class="h-[406px]"
 				src={elementBGs[character.ranking?.element ?? 'Hydro']}
 				sizes="(min-width: 1280px) 1280px"
 				alt={`Elemental background`}
