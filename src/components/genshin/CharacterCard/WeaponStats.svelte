@@ -73,7 +73,7 @@
 			</div>
 		{/if}
 	</div>
-	<div class="grid grid-cols-2 mx-2 mt-2">
+	<div class="stats grid grid-cols-2 mx-2 mt-2">
 		<Stat name="Max HP" icon="icon-maxHp" value={stats?.maxHp.toFixed(0)} />
 		<Stat name="ATK" icon="icon-atk" value={stats?.atk.toFixed(0)} />
 		<Stat name="DEF" icon="icon-def" value={stats?.def.toFixed(0)} />
@@ -110,5 +110,9 @@
 		height: var(--star-width);
 		transform: translate(-50%, -50%);
 		z-index: 10;
+	}
+
+	.stats {
+		height: calc(100% - 128px);
 	}
 </style>

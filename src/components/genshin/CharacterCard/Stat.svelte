@@ -16,5 +16,5 @@
 			<span class="path1" /><span class="path2" />
 		</i>{name}</span
 	>
-	<span>{value}</span>
+	<span class="ml-3">{value}</span>
 {/if}

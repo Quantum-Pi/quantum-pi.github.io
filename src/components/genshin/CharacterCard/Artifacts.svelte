@@ -16,7 +16,7 @@
 	{#each artifacts as artifact}
 		<div class="artifact flex text-white w-[293px] h-[70px] rounded-sm">
 			<!-- TODO: may not be defined -->
-			<div class="relative overflow-hidden">
+			<div class="h-[70px] min-w-[70px] relative overflow-hidden">
 				<enhanced:img
 					class="artifact-img h-full w-[70px] scale-[1.75]"
 					src={resources[artifact.slotKey]}
