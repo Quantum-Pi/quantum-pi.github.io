@@ -37,7 +37,6 @@ export type BuildStatKey =
 export interface MiniAkashaSystemStat {
 	name: string;
 	icon: string;
-	element: string;
 	stats: Record<BuildStatKey, number>;
 	calculations: {
 		short: string;
@@ -99,8 +98,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'Soumetsu Cutting average DMG, Ayaka c0r5, TTDS Mona c0r5, Kazuha c0r1, c6r5 Diona. TTDS, 4p ToTM and 4p Noblesse active. Enemy is frozen',
 				weapon: 'Amenoma Kageuchi',
-				ranking: 188185,
-				outOf: 549264
+				ranking: 188189,
+				outOf: 549282
 			},
 			weapon: {
 				weaponStats: { atk: 454, atk_: 55.1 },
@@ -144,7 +143,7 @@ export const genshinProfile: GenshinProfile = {
 				details: "4p Nymph's Dream is set to very optimistic 3 stacks.",
 				weapon: 'Sacrificial Sword',
 				ranking: 39304,
-				outOf: 133503
+				outOf: 133517
 			},
 			weapon: {
 				weaponStats: { atk: 608, enerRech_: 55.1 },
@@ -190,8 +189,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"Combo that includes A4/VHA/PJWS/CQ stacking, Bennett, Noblesse and Elegy uptimes, 2E and 11HP with collision damage. 4p Noblese Aquila C6 Bennett, 4p ToTM Elegy C6 Faruzan, Zhongli. Faruzan's A4 is disabled for a bit of simplicity (it's also pretty weak anyways)",
 				weapon: 'Staff of Homa',
-				ranking: 33083,
-				outOf: 367035
+				ranking: 33082,
+				outOf: 367049
 			},
 			weapon: {
 				weaponStats: { atk: 608, critDMG_: 66.2 },
@@ -235,7 +234,7 @@ export const genshinProfile: GenshinProfile = {
 				details: '---',
 				weapon: 'Black Tassel',
 				ranking: 48666,
-				outOf: 569301
+				outOf: 569325
 			},
 			weapon: {
 				weaponStats: { atk: 354, hp_: 46.9 },
@@ -280,8 +279,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'4x Oz hits. no buffs, talent level 13. One Oz hit does not benefit from the Thundersoother (75% uptime). Polar Star at 3 stacks.',
 				weapon: 'Polar Star',
-				ranking: 29201,
-				outOf: 222119
+				ranking: 29205,
+				outOf: 222129
 			},
 			weapon: {
 				weaponStats: { atk: 608, critRate_: 33.1 },
@@ -327,7 +326,7 @@ export const genshinProfile: GenshinProfile = {
 					"1 rQ (vape) + 1 E + N2C * 6 + mSlash * 4. c0r1 Kazuha + c6r1 Xiangling + c6r1 Bennett. Most buffs expire after 3N2C. Shimenawa's burst damage is halved.",
 				weapon: 'Aqua Simulacra',
 				ranking: 18369,
-				outOf: 158073
+				outOf: 158080
 			},
 			weapon: {
 				weaponStats: { atk: 23 },
@@ -371,8 +370,8 @@ export const genshinProfile: GenshinProfile = {
 				name: 'Hyper Mono Geo NA combo, Avg DMG',
 				details: 'N1 + N2 + N3 + N4. Team: Noelle C6, Gorou C6, Yunjin C6, Zhongli C0',
 				weapon: 'Serpent Spine',
-				ranking: 2050,
-				outOf: 21654
+				ranking: 2051,
+				outOf: 21655
 			},
 			weapon: {
 				weaponStats: { atk: 510, critRate_: 27.6 },
@@ -417,8 +416,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'Average DMG for 11N1CD + Q combo. elegy instructor amber c0r1. kazuha c2r1 @ 1000EM(1420). 4p SR burst uptime 1/3, other sets: 2/3. ',
 				weapon: 'Ballad of the Fjords',
-				ranking: 118761,
-				outOf: 530273
+				ranking: 118762,
+				outOf: 530290
 			},
 			weapon: {
 				weaponStats: { atk: 741, atk_: 16.5 },
@@ -462,8 +461,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'Assumes Favonius Sword R5 (EM / 1000 + ER / 500) * 5000 + (vv ? 2000 : 0) + (CR > 15% ? (CR * 1500) : 0)',
 				weapon: 'Favonius Sword',
-				ranking: 397689,
-				outOf: 777482
+				ranking: 397709,
+				outOf: 777520
 			},
 			weapon: {
 				weaponStats: { atk: 41, enerRech_: 13.3 },
@@ -508,8 +507,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"c0 Raiden, c2 Furina, c0 Yelan, c0 4p VV Jean. Combo: Q 3N5. Furina's Fanfare at 400 stacks. Yelan's A4 at 8s seconds. ",
 				weapon: 'Staff of the Scarlet Sands',
-				ranking: 785346,
-				outOf: 905362
+				ranking: 785382,
+				outOf: 905409
 			},
 			weapon: {
 				weaponStats: { atk: 454, eleMas: 221 },
@@ -554,8 +553,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"(((E_DMG / 5500) + (E_HEAL / 5000) + (ER / 150)) * 5000) + SET_BONUS. +6500 ToTM, +6000 OHC, +6000 Deepwood, +5000 Noblesse, +4000 Maiden. Please keep in mind custom 'balance formulas' are completely feelscrafted unlike proper avg dmg formulas.",
 				weapon: 'Everlasting Moonglow',
-				ranking: 95567,
-				outOf: 260915
+				ranking: 95574,
+				outOf: 260928
 			},
 			weapon: {
 				weaponStats: { atk: 401, hp_: 35.2 },
@@ -601,8 +600,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"Frontloaded average DMG for c6r5 Aqua Yelan Combo: 2x E + 2x BTB + 3x C2 + 5x C6 + 24x Q. Team: c0r5 fs Kazuha @ 1000 EM vv hydro swirl + Zhongli shield up + c4 Mona burst up. Yelan's A4 set to 10s, C4 2 stacks, 18% HP from A1. 4p Nymph's Dream is set to 3 stacks.",
 				weapon: 'Aqua Simulacra',
-				ranking: 17401,
-				outOf: 461060
+				ranking: 17403,
+				outOf: 461076
 			},
 			weapon: {
 				weaponStats: { atk: 542, critDMG_: 88.2 },
@@ -647,7 +646,7 @@ export const genshinProfile: GenshinProfile = {
 					"Combo: E Q 3CA. C1 Tighnari + C0R1 Deepwood Nahida + electro flex + electro flex. Tighnari's A1 buffs only CAs. Enemy has pre-existing Quicken aura. Nahida's A1 buff is maxed and lasts entire combo. ",
 				weapon: 'Skyward Harp',
 				ranking: 15513,
-				outOf: 49701
+				outOf: 49706
 			},
 			weapon: {
 				weaponStats: { atk: 608, critRate_: 33.1 },
@@ -692,8 +691,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'Off-field Tri-Karma Purification (non-spread) avg DMG. Example team: Nahida + Xingqiu + Kuki + non-dendro flex.',
 				weapon: 'A Thousand Floating Dreams',
-				ranking: 381944,
-				outOf: 718427
+				ranking: 381960,
+				outOf: 718461
 			},
 			weapon: {
 				weaponStats: { atk: 454, eleMas: 221 },
@@ -738,8 +737,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'Average DMG for Mademoiselle Crabaletta in a double hydro team. Number of characters who offered HP: 4. Fanfare stacks count: 200. Weapon stacks maxed when applicable. ',
 				weapon: 'Fleuve Cendre Ferryman',
-				ranking: 101455,
-				outOf: 405950
+				ranking: 101463,
+				outOf: 405973
 			},
 			weapon: {
 				weaponStats: { atk: 510, enerRech_: 45.9 },
@@ -784,7 +783,7 @@ export const genshinProfile: GenshinProfile = {
 					'C0 Arlecchino + C6 Chevreuse @ 40k HP + Electro Flex + C6R1 Aquila Bennett @ 4p Noblesse. Combo: E .. CA 5N3. Majority of potential buffs such as 4p Shimenawa / 4p HoD / 4p CW wear off before 5N3 starts due to long setup. Chevreuse stacks for CA 5N3: 0/1/1/1/2/2/2/3/3/3/... Arlecchino is below 50% HP. BoL value after using CA: 130%. 4p Whimsy stacks for CA 5N3: 1/1/2/3/... ',
 				weapon: 'Staff of Homa',
 				ranking: 45990,
-				outOf: 368985
+				outOf: 369009
 			},
 			weapon: {
 				weaponStats: { atk: 608, critDMG_: 66.2 },
@@ -828,8 +827,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"C0 Clorinde + C6 Fischl + 4p Noblesse C6 Chevreuse @ 40k HP + 4p Cinder C6 Thoma. Leaderboard ranks DPS based on 16s rotation using QEE 5N3E combo. Clorinde's A1 and A4 at full uptime for simplicity. Chevreuse's C6 stacks: QEE:0, N3E:1, N3E: 2, N3E:3, N3E:3, N3E: 3. 4pc Harmonic Whimsy stacks Q:1, EE:2, 5N3:3. Finale of the Deep's passive does not affect the burst. ",
 				weapon: 'Finale of the Deep',
-				ranking: 41468,
-				outOf: 152091
+				ranking: 41467,
+				outOf: 152106
 			},
 			weapon: {
 				weaponStats: { atk: 565, atk_: 27.6 },
@@ -1931,7 +1930,7 @@ export const genshinProfile: GenshinProfile = {
 		]
 	},
 	characters: {
-		'Kamisato Ayaka': { element: 'Cryo', stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		KamisatoAyaka: { element: 'Cryo', stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
 		Jean: { element: 'Anemo', stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
 		Traveler: { element: 'Dendro', stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
 		Lisa: { element: 'Electro', stars: 4, weaponType: 'WEAPON_CATALYST' },
@@ -1962,27 +1961,27 @@ export const genshinProfile: GenshinProfile = {
 		Sucrose: { element: 'Anemo', stars: 4, weaponType: 'WEAPON_CATALYST' },
 		Xinyan: { element: 'Pyro', stars: 4, weaponType: 'WEAPON_CLAYMORE' },
 		Rosaria: { element: 'Cryo', stars: 4, weaponType: 'WEAPON_POLE' },
-		'Hu Tao': { element: 'Pyro', stars: 5, weaponType: 'WEAPON_POLE' },
-		'Kaedehara Kazuha': { element: 'Anemo', stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		HuTao: { element: 'Pyro', stars: 5, weaponType: 'WEAPON_POLE' },
+		KaedeharaKazuha: { element: 'Anemo', stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
 		Yanfei: { element: 'Pyro', stars: 4, weaponType: 'WEAPON_CATALYST' },
 		Yoimiya: { element: 'Pyro', stars: 5, weaponType: 'WEAPON_BOW' },
 		Thoma: { element: 'Pyro', stars: 4, weaponType: 'WEAPON_POLE' },
 		Eula: { element: 'Cryo', stars: 5, weaponType: 'WEAPON_CLAYMORE' },
-		'Raiden Shogun': { element: 'Electro', stars: 5, weaponType: 'WEAPON_POLE' },
+		RaidenShogun: { element: 'Electro', stars: 5, weaponType: 'WEAPON_POLE' },
 		Sayu: { element: 'Anemo', stars: 4, weaponType: 'WEAPON_CLAYMORE' },
-		'Sangonomiya Kokomi': { element: 'Hydro', stars: 5, weaponType: 'WEAPON_CATALYST' },
+		SangonomiyaKokomi: { element: 'Hydro', stars: 5, weaponType: 'WEAPON_CATALYST' },
 		Gorou: { element: 'Geo', stars: 4, weaponType: 'WEAPON_BOW' },
-		'Kujou Sara': { element: 'Electro', stars: 4, weaponType: 'WEAPON_BOW' },
-		'Arataki Itto': { element: 'Geo', stars: 5, weaponType: 'WEAPON_CLAYMORE' },
-		'Yae Miko': { element: 'Electro', stars: 5, weaponType: 'WEAPON_CATALYST' },
-		'Shikanoin Heizou': { element: 'Anemo', stars: 4, weaponType: 'WEAPON_CATALYST' },
+		KujouSara: { element: 'Electro', stars: 4, weaponType: 'WEAPON_BOW' },
+		AratakiItto: { element: 'Geo', stars: 5, weaponType: 'WEAPON_CLAYMORE' },
+		YaeMiko: { element: 'Electro', stars: 5, weaponType: 'WEAPON_CATALYST' },
+		ShikanoinHeizou: { element: 'Anemo', stars: 4, weaponType: 'WEAPON_CATALYST' },
 		Yelan: { element: 'Hydro', stars: 5, weaponType: 'WEAPON_BOW' },
 		Kirara: { element: 'Dendro', stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
 		Aloy: { element: 'Cryo', stars: 5, weaponType: 'WEAPON_BOW' },
 		Shenhe: { element: 'Cryo', stars: 5, weaponType: 'WEAPON_POLE' },
-		'Yun Jin': { element: 'Geo', stars: 4, weaponType: 'WEAPON_POLE' },
-		'Kuki Shinobu': { element: 'Electro', stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
-		'Kamisato Ayato': { element: 'Hydro', stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		YunJin: { element: 'Geo', stars: 4, weaponType: 'WEAPON_POLE' },
+		KukiShinobu: { element: 'Electro', stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		KamisatoAyato: { element: 'Hydro', stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
 		Collei: { element: 'Dendro', stars: 4, weaponType: 'WEAPON_BOW' },
 		Dori: { element: 'Electro', stars: 4, weaponType: 'WEAPON_CLAYMORE' },
 		Tighnari: { element: 'Dendro', stars: 5, weaponType: 'WEAPON_BOW' },
@@ -2020,6 +2019,6 @@ export const genshinProfile: GenshinProfile = {
 		Kinich: { element: 'Dendro', stars: 5, weaponType: 'WEAPON_CLAYMORE' },
 		Mualani: { element: 'Hydro', stars: 5, weaponType: 'WEAPON_CATALYST' },
 		Xilonen: { element: 'Geo', stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
-		'Mavuika (Trial)': { element: 'Pyro', stars: 5, weaponType: 'WEAPON_CLAYMORE' }
+		'Mavuika(Trial)': { element: 'Pyro', stars: 5, weaponType: 'WEAPON_CLAYMORE' }
 	}
 };
