@@ -18,7 +18,7 @@
 </script>
 
 <div class="w-1/3 h-full relative z-10">
-	<div class="absolute z-10 pl-4 pt-4 text-white flex flex-col">
+	<div class="info absolute z-10 pl-4 pt-3 text-white flex flex-col">
 		<span>{character.key}</span>
 		<span>Lv. {character.level}</span>
 		<span>Fr. TODO</span>
@@ -101,12 +101,15 @@
 		id="splash"
 		class="w-full h-full absolute object-cover scale-150"
 		src={resources.splashImage}
-		sizes="(min-width: 600px) 600px"
+		sizes="(min-width: 1024px) 1024px"
 		alt={`con 0 icon`}
 	/>
 </div>
 
 <style lang="scss">
+	.info {
+		row-gap: calc(16px * calc(var(--scale) - 1));
+	}
 	.skill {
 		background: rgba(0, 0, 0, 0.5);
 		border-radius: 50%;

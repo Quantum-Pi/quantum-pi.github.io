@@ -81,9 +81,9 @@
 
 <div
 	style:--element={`var(--${character.ranking?.element ?? 'Pyro'})`}
-	class="character-card w-screen overflow-y-scroll"
+	class="character-card flex justify-center"
 >
-	<div class="flex relative w-[975px] h-[406px]">
+	<div style:--width={'975px'} style:--height={'406px'} style:--scale={'1'} class="flex relative">
 		{#await getResources() then resources}
 			<Character {character} resources={resources.character} />
 			<WeaponStats {character} resources={resources.weapon} />
@@ -91,7 +91,6 @@
 		{/await}
 		<div class="bg absolute top-0 left-0 z-0 gradient">
 			<enhanced:img
-				class="h-[406px]"
 				src={elementBGs[character.ranking?.element ?? 'Hydro']}
 				sizes="(min-width: 1280px) 1280px"
 				alt={`Elemental background`}
@@ -101,6 +100,31 @@
 </div>
 
 <style lang="scss">
+	// @media (min-width: 1700px) {
+	// 	.character-card > div {
+	// 		width: calc(975px * 1.25);
+	// 		height: calc(406px * 1.25);
+	// 		// transform: scale(1.25);
+	// 	}
+	// }
+
+	// @media (min-width: 1920px) {
+	// 	.character-card {
+	// 		transform: scale(0.95);
+	// 	}
+	// }
+
+	// @media (min-width: 2070px) {
+	// 	.character-card {
+	// 		transform: scale(1);
+	// 	}
+	// }
+
+	.bg img {
+		height: calc(var(--scale) * var(--height));
+		width: 100%;
+	}
+
 	.bg::before {
 		content: '';
 		position: absolute;
@@ -114,5 +138,9 @@
 	.character-card div {
 		border: 1px solid var(--element);
 		text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+		width: calc(var(--scale) * var(--width));
+		height: calc(var(--scale) * var(--height));
+		font-size: calc(16px * var(--scale));
+		// line-height: 1.2;
 	}
 </style>

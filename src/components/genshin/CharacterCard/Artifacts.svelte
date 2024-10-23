@@ -12,11 +12,14 @@
 	// const img = getArtifactImage(key, artifact.slotKey);
 </script>
 
-<div class="w-1/3 h-full flex flex-col gap-y-2 justify-center relative z-10">
+<div
+	style:--artifact-height={'calc(70px * var(--scale))'}
+	class="w-1/3 h-full flex flex-col gap-y-2 justify-center relative z-10"
+>
 	{#each artifacts as artifact}
-		<div class="artifact flex text-white w-[293px] h-[70px] rounded-sm">
+		<div class="artifact flex text-white ounded-sm">
 			<!-- TODO: may not be defined -->
-			<div class="h-[70px] min-w-[70px] relative overflow-hidden">
+			<div class="artifact-ms relative overflow-hidden">
 				<enhanced:img
 					class="artifact-img h-full w-[70px] scale-[1.75]"
 					src={resources[artifact.slotKey]}
@@ -24,9 +27,9 @@
 					alt={`Elemental background`}
 				/>
 				<div
-					class="absolute z-10 flex flex-col gap-y-[2px] justify-center items-end right-0 top-0 h-full"
+					class="artifact-ms__info absolute z-10 flex flex-col gap-y-[2px] justify-center items-end right-0 top-0 h-full"
 				>
-					<i class={`icon-${artifact.mainStatKey} text-end text-sm`} style="">
+					<i class={`icon-${artifact.mainStatKey} text-end`} style="">
 						<span class="path1" /><span class="path2" />
 					</i>
 					<div>
@@ -58,9 +61,9 @@
 	{/each}
 </div>
 
-<style>
+<style lang="scss">
 	.rarity {
-		--star-width: 7px;
+		--star-width: calc(7px * var(--scale));
 		--width: calc(var(--star-width) * var(--rarity));
 		background-image: url(star.svg);
 		width: var(--width);
@@ -68,16 +71,34 @@
 	}
 	.artifact {
 		background: rgba(0, 0, 0, 0.5);
+		width: calc(293px * var(--scale));
+		height: var(--artifact-height);
+	}
+
+	.artifact-ms {
+		min-width: var(--artifact-height);
+		height: var(--artifact-height);
+
+		&__info {
+			row-gap: calc(16px * calc(var(--scale) - 1));
+
+			& i {
+				font-size: calc(14px * calc(var(--scale) / 1.15));
+				line-height: calc(20px * calc(var(--scale) / 2));
+			}
+		}
 	}
 
 	.level-bubble {
 		background: rgba(0, 0, 0, 0.6);
-		font-size: 10px;
-		line-height: 14px;
+		font-size: calc(10px * calc(var(--scale) / 1.25));
+		line-height: calc(14px * calc(var(--scale) / 1.25));
 	}
 
 	.artifact-img {
 		mask-image: linear-gradient(90deg, white 0%, white 15%, transparent 100%);
 		transform: scale(1.75) translateX(-10%);
+		width: var(--artifact-height);
+		height: var(--artifact-height);
 	}
 </style>

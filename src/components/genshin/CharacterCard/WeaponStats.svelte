@@ -44,12 +44,11 @@
 	const toPercent = (v: number) => `${(v * 100).toFixed(1)}%`;
 </script>
 
-<div class="w-1/3 h-full relative text-white z-10">
-	<div class="flex">
+<div style:--img-size={'calc(64px * var(--scale))'} class="w-1/3 h-full relative text-white z-10">
+	<div class="flex mt-3">
 		{#if resources}
 			<div style:--weapon-rarity={character.ranking?.weaponStars} class="weapon-img">
 				<enhanced:img
-					class={`w-16`}
 					src={resources.baseIcon}
 					sizes="(min-width: 128px) 128px"
 					alt={`con 0 icon`}
@@ -97,15 +96,19 @@
 </div>
 
 <style lang="scss">
+	.weapon-img {
+		width: var(--img-size);
+		position: relative;
+	}
 	.weapon-img::after {
 		content: '';
-		--star-width: 9px;
+		--star-width: calc(9px * var(--scale));
 		--width: calc(var(--star-width) * var(--weapon-rarity));
 		background-image: url(star.svg);
 		display: block;
 		position: absolute;
-		top: 64px;
-		left: 32px;
+		top: var(--img-size);
+		left: calc(32px * var(--scale));
 		width: var(--width);
 		height: var(--star-width);
 		transform: translate(-50%, -50%);
@@ -113,6 +116,6 @@
 	}
 
 	.stats {
-		height: calc(100% - 128px);
+		height: calc(100% - calc(128px * var(--scale)));
 	}
 </style>
