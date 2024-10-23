@@ -4,7 +4,8 @@ import {
 	ArtifactData,
 	ArtifactSet,
 	WeaponData,
-	StatKey
+	StatKey,
+	WeaponType
 } from 'enka-network-api';
 import Akasha from 'akasha-system.js';
 export interface EnkaData {
@@ -55,10 +56,17 @@ export interface MiniAkashaSystemStat {
 	character: Partial<Record<StatKey, number>>;
 }
 
+export interface CharacterRecord {
+	element?: string;
+	stars: number;
+	weaponType: WeaponType;
+}
+
 export type AkashaSystemStats = Awaited<ReturnType<Akasha['getCalculationsForUser']>>['data'];
 export interface GenshinProfile {
 	akasha: MiniAkashaSystemStat[];
 	good: IGOOD;
+	characters: Record<string, CharacterRecord>;
 }
 
 export const genshinProfile: GenshinProfile = {
@@ -85,15 +93,14 @@ export const genshinProfile: GenshinProfile = {
 				atk: 2181.781495096125,
 				def: 1105.27587986175
 			},
-			element: 'Cryo',
 			calculations: {
 				short: 'BURST',
 				name: 'Burst DMG vs Frozen, Mona variant, Avg DMG',
 				details:
 					'Soumetsu Cutting average DMG, Ayaka c0r5, TTDS Mona c0r5, Kazuha c0r1, c6r5 Diona. TTDS, 4p ToTM and 4p Noblesse active. Enemy is frozen',
 				weapon: 'Amenoma Kageuchi',
-				ranking: 187332,
-				outOf: 546454
+				ranking: 188185,
+				outOf: 549264
 			},
 			weapon: {
 				weaponStats: { atk: 454, atk_: 55.1 },
@@ -113,32 +120,31 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Xingqiu',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Xingqiu.png',
 			stats: {
-				critRate: 0.5760006185091125,
-				critDamage: 1.277100669912158,
-				energyRecharge: 2.1916805382288085,
+				critRate: 0.5760009615091125,
+				critDamage: 1.2771010129121583,
+				energyRecharge: 2.1916808812288084,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 58.279999362996875,
+				elementalMastery: 58.27999970599687,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
 				pyroDamageBonus: 0,
 				anemoDamageBonus: 0,
-				hydroDamageBonus: 0.6660005922830688,
+				hydroDamageBonus: 0.6660009352830688,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 19101.3789068337,
-				atk: 1585.6243902321376,
-				def: 948.60205136495
+				maxHp: 19101.3789071767,
+				atk: 1585.6243905751376,
+				def: 948.60205170795
 			},
-			element: 'Hydro',
 			calculations: {
 				short: 'BURST',
 				name: 'Sword Rain, Avg DMG',
 				details: "4p Nymph's Dream is set to very optimistic 3 stacks.",
 				weapon: 'Sacrificial Sword',
-				ranking: 39027,
-				outOf: 132491
+				ranking: 39304,
+				outOf: 133503
 			},
 			weapon: {
 				weaponStats: { atk: 608, enerRech_: 55.1 },
@@ -160,33 +166,32 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Xiao',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Xiao.png',
 			stats: {
-				critRate: 0.45980065795910646,
-				critDamage: 2.389536556930664,
-				energyRecharge: 1.058300671310547,
+				critRate: 0.4909007421682068,
+				critDamage: 2.5916367045591064,
+				energyRecharge: 1.0583007804105469,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 69.94000309440625,
+				elementalMastery: 48.95999984657266,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
 				pyroDamageBonus: 0,
-				anemoDamageBonus: 0.46600064370167543,
+				anemoDamageBonus: 0.4660007528016754,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 22057.781250653,
-				atk: 2167.821625653,
-				def: 1060.7581793639374
+				maxHp: 20881.2656257621,
+				atk: 2183.8916784964754,
+				def: 1098.4959724417874
 			},
-			element: 'Anemo',
 			calculations: {
 				short: 'HYPER',
 				name: 'Hyper Xiao, Avg DMG',
 				details:
 					"Combo that includes A4/VHA/PJWS/CQ stacking, Bennett, Noblesse and Elegy uptimes, 2E and 11HP with collision damage. 4p Noblese Aquila C6 Bennett, 4p ToTM Elegy C6 Faruzan, Zhongli. Faruzan's A4 is disabled for a bit of simplicity (it's also pretty weak anyways)",
 				weapon: 'Staff of Homa',
-				ranking: 86255,
-				outOf: 364667
+				ranking: 33083,
+				outOf: 367035
 			},
 			weapon: {
 				weaponStats: { atk: 608, critDMG_: 66.2 },
@@ -206,32 +211,31 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Zhongli',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Zhongli.png',
 			stats: {
-				critRate: 0.11220032094261322,
-				critDamage: 0.5000003141,
-				energyRecharge: 1.148900346143457,
+				critRate: 0.11220080344261323,
+				critDamage: 0.5000007966,
+				energyRecharge: 1.148900828643457,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 135.21000702796718,
+				elementalMastery: 135.2100075104672,
 				physicalDamageBonus: 0,
-				geoDamageBonus: 0.2880003017022339,
+				geoDamageBonus: 0.2880007842022339,
 				cryoDamageBonus: 0,
 				pyroDamageBonus: 0,
 				anemoDamageBonus: 0,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 55159.7734378141,
-				atk: 991.6034549039438,
-				def: 1141.1004641812874
+				maxHp: 55159.7734382966,
+				atk: 991.6034553864438,
+				def: 1141.1004646637875
 			},
-			element: 'Geo',
 			calculations: {
 				short: 'MAX HP',
 				name: 'Shieldbot, Max HP',
 				details: '---',
 				weapon: 'Black Tassel',
-				ranking: 48336,
-				outOf: 565825
+				ranking: 48666,
+				outOf: 569301
 			},
 			weapon: {
 				weaponStats: { atk: 354, hp_: 46.9 },
@@ -252,12 +256,12 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Fischl',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Fischl.png',
 			stats: {
-				critRate: 0.5866006794266785,
-				critDamage: 0.9662006678872193,
-				energyRecharge: 1.42740066674281,
+				critRate: 0.9756687331958557,
+				critDamage: 1.2537007380290772,
+				energyRecharge: 1.2720007944865968,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 235.32400580075313,
+				elementalMastery: 60.61000133045156,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
@@ -265,26 +269,25 @@ export const genshinProfile: GenshinProfile = {
 				anemoDamageBonus: 0,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
-				electroDamageBonus: 0.46600066450167543,
-				maxHp: 14418.5957037988,
-				atk: 1826.9306647363,
-				def: 629.0607306542687
+				electroDamageBonus: 0.46600071080167543,
+				maxHp: 13332.9003913451,
+				atk: 1991.3085944701,
+				def: 741.86084056385
 			},
-			element: 'Electro',
 			calculations: {
 				short: 'OZ',
 				name: 'Raw Oz Avg DMG',
 				details:
-					'4x Oz hits. no buffs, talent level 13. One Oz hit does not benefit from the Thundersoother (75% uptime)',
-				weapon: 'The Stringless',
-				ranking: 62298,
-				outOf: 220485
+					'4x Oz hits. no buffs, talent level 13. One Oz hit does not benefit from the Thundersoother (75% uptime). Polar Star at 3 stacks.',
+				weapon: 'Polar Star',
+				ranking: 29201,
+				outOf: 222119
 			},
 			weapon: {
-				weaponStats: { atk: 510, eleMas: 165 },
-				stars: 4,
-				name: 'The Stringless',
-				icon: 'https://enka.network/ui/UI_EquipIcon_Bow_Troupe_Awaken.png'
+				weaponStats: { atk: 608, critRate_: 33.1 },
+				stars: 5,
+				name: 'Polar Star',
+				icon: 'https://enka.network/ui/UI_EquipIcon_Bow_Worldbane_Awaken.png'
 			},
 			character: {
 				hp: 9189.3029266,
@@ -317,15 +320,14 @@ export const genshinProfile: GenshinProfile = {
 				atk: 769.9595954845626,
 				def: 1012.9014900158126
 			},
-			element: 'Hydro',
 			calculations: {
 				short: 'COMBO',
 				name: 'Childe International, Avg DMG',
 				details:
 					"1 rQ (vape) + 1 E + N2C * 6 + mSlash * 4. c0r1 Kazuha + c6r1 Xiangling + c6r1 Bennett. Most buffs expire after 3N2C. Shimenawa's burst damage is halved.",
 				weapon: 'Aqua Simulacra',
-				ranking: 18279,
-				outOf: 157248
+				ranking: 18369,
+				outOf: 158073
 			},
 			weapon: {
 				weaponStats: { atk: 23 },
@@ -364,14 +366,13 @@ export const genshinProfile: GenshinProfile = {
 				atk: 1023.0875244216625,
 				def: 1645.2703857497875
 			},
-			element: 'Geo',
 			calculations: {
 				short: 'HYPER',
 				name: 'Hyper Mono Geo NA combo, Avg DMG',
 				details: 'N1 + N2 + N3 + N4. Team: Noelle C6, Gorou C6, Yunjin C6, Zhongli C0',
 				weapon: 'Serpent Spine',
-				ranking: 2032,
-				outOf: 21485
+				ranking: 2050,
+				outOf: 21654
 			},
 			weapon: {
 				weaponStats: { atk: 510, critRate_: 27.6 },
@@ -392,33 +393,32 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Hu Tao',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Hutao.png',
 			stats: {
-				critRate: 0.6293008483833862,
-				critDamage: 1.7543009675926757,
-				energyRecharge: 1.097100869554956,
+				critRate: 0.6293003265833862,
+				critDamage: 1.7543004457926759,
+				energyRecharge: 1.0971003477549561,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 34.970002070803126,
+				elementalMastery: 34.97000154900312,
 				physicalDamageBonus: 0,
-				geoDamageBonus: 0.1200008501,
-				cryoDamageBonus: 0.1200008501,
-				pyroDamageBonus: 0.7360008467621398,
-				anemoDamageBonus: 0.1200008501,
-				hydroDamageBonus: 0.1200008501,
-				dendroDamageBonus: 0.1200008501,
-				electroDamageBonus: 0.1200008501,
-				maxHp: 31640.8730477251,
-				atk: 1420.9364022172874,
-				def: 981.719483271975
+				geoDamageBonus: 0.1200003283,
+				cryoDamageBonus: 0.1200003283,
+				pyroDamageBonus: 0.7360003249621399,
+				anemoDamageBonus: 0.1200003283,
+				hydroDamageBonus: 0.1200003283,
+				dendroDamageBonus: 0.1200003283,
+				electroDamageBonus: 0.1200003283,
+				maxHp: 31640.8730472033,
+				atk: 1420.9364016954876,
+				def: 981.719482750175
 			},
-			element: 'Pyro',
 			calculations: {
 				short: 'HYPER',
 				name: 'VV Swirl Hyper Tao Combo, Avg DMG',
 				details:
 					'Average DMG for 11N1CD + Q combo. elegy instructor amber c0r1. kazuha c2r1 @ 1000EM(1420). 4p SR burst uptime 1/3, other sets: 2/3. ',
 				weapon: 'Ballad of the Fjords',
-				ranking: 118192,
-				outOf: 527410
+				ranking: 118761,
+				outOf: 530273
 			},
 			weapon: {
 				weaponStats: { atk: 741, atk_: 16.5 },
@@ -438,36 +438,35 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Kaedehara Kazuha',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Kazuha.png',
 			stats: {
-				critRate: 0.05000098244505806,
-				critDamage: 0.7176009696837036,
-				energyRecharge: 2.0399327558394043,
+				critRate: 0.05000095514505806,
+				critDamage: 0.7176009423837036,
+				energyRecharge: 1.5607340343102782,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 770.280030278575,
+				elementalMastery: 770.280030251275,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
 				pyroDamageBonus: 0,
-				anemoDamageBonus: 0.1500009876604645,
+				anemoDamageBonus: 0.15000096036046448,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 23476.1328134817,
-				atk: 1214.641358403575,
-				def: 984.1942758840438
+				maxHp: 23476.1328134544,
+				atk: 767.6204233176812,
+				def: 984.1942758567437
 			},
-			element: 'Anemo',
 			calculations: {
 				short: 'EM+ER+CR',
 				name: 'EM + ER (+ CR) balance formula',
 				details:
 					'Assumes Favonius Sword R5 (EM / 1000 + ER / 500) * 5000 + (vv ? 2000 : 0) + (CR > 15% ? (CR * 1500) : 0)',
 				weapon: 'Favonius Sword',
-				ranking: 394255,
-				outOf: 770501
+				ranking: 397689,
+				outOf: 777482
 			},
 			weapon: {
-				weaponStats: { atk: 454, enerRech_: 61.3 },
+				weaponStats: { atk: 41, enerRech_: 13.3 },
 				stars: 4,
 				name: 'Favonius Sword',
 				icon: 'https://enka.network/ui/UI_EquipIcon_Sword_Zephyrus_Awaken.png'
@@ -485,12 +484,12 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Raiden Shogun',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Shougun.png',
 			stats: {
-				critRate: 0.3572009371098236,
-				critDamage: 0.6943009362992004,
-				energyRecharge: 1.7669008837517457,
+				critRate: 0.3572009568098236,
+				critDamage: 0.6943009559992004,
+				energyRecharge: 1.7669009034517456,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 946.261963831025,
+				elementalMastery: 946.261963850725,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
@@ -498,20 +497,19 @@ export const genshinProfile: GenshinProfile = {
 				anemoDamageBonus: 0,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
-				electroDamageBonus: 0.30676091774069825,
-				maxHp: 18213.8046884404,
-				atk: 1397.4862069950875,
-				def: 1034.8646249638375
+				electroDamageBonus: 0.30676093744069827,
+				maxHp: 18213.8046884601,
+				atk: 1397.4862070147874,
+				def: 1034.8646249835374
 			},
-			element: 'Electro',
 			calculations: {
 				short: 'TASER',
 				name: 'Double Hydro Burst, Avg DMG',
 				details:
 					"c0 Raiden, c2 Furina, c0 Yelan, c0 4p VV Jean. Combo: Q 3N5. Furina's Fanfare at 400 stacks. Yelan's A4 at 8s seconds. ",
 				weapon: 'Staff of the Scarlet Sands',
-				ranking: 779503,
-				outOf: 898272
+				ranking: 785346,
+				outOf: 905362
 			},
 			weapon: {
 				weaponStats: { atk: 454, eleMas: 221 },
@@ -550,15 +548,14 @@ export const genshinProfile: GenshinProfile = {
 				atk: 1038.03076263635,
 				def: 870.200928651975
 			},
-			element: 'Hydro',
 			calculations: {
 				short: 'HEAL+ER',
 				name: 'Heal + ER balance formula',
 				details:
 					"(((E_DMG / 5500) + (E_HEAL / 5000) + (ER / 150)) * 5000) + SET_BONUS. +6500 ToTM, +6000 OHC, +6000 Deepwood, +5000 Noblesse, +4000 Maiden. Please keep in mind custom 'balance formulas' are completely feelscrafted unlike proper avg dmg formulas.",
 				weapon: 'Everlasting Moonglow',
-				ranking: 95148,
-				outOf: 259548
+				ranking: 95567,
+				outOf: 260915
 			},
 			weapon: {
 				weaponStats: { atk: 401, hp_: 35.2 },
@@ -580,9 +577,9 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Yelan',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Yelan.png',
 			stats: {
-				critRate: 0.7591000105271485,
-				critDamage: 2.578648140562549,
-				energyRecharge: 1.40720002902843,
+				critRate: 0.7591000630271484,
+				critDamage: 2.578648193062549,
+				energyRecharge: 1.4072000815284302,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
 				elementalMastery: 0,
@@ -591,22 +588,21 @@ export const genshinProfile: GenshinProfile = {
 				cryoDamageBonus: 0,
 				pyroDamageBonus: 0,
 				anemoDamageBonus: 0,
-				hydroDamageBonus: 0.4660000409016754,
+				hydroDamageBonus: 0.4660000934016754,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 32107.7734375502,
-				atk: 1183.8574219252,
-				def: 722.3638916517625
+				maxHp: 32107.7734376027,
+				atk: 1183.8574219777,
+				def: 722.3638917042625
 			},
-			element: 'Hydro',
 			calculations: {
 				short: 'C6 COMBO',
 				name: 'C6 Combo with C4 Mona, Avg DMG',
 				details:
 					"Frontloaded average DMG for c6r5 Aqua Yelan Combo: 2x E + 2x BTB + 3x C2 + 5x C6 + 24x Q. Team: c0r5 fs Kazuha @ 1000 EM vv hydro swirl + Zhongli shield up + c4 Mona burst up. Yelan's A4 set to 10s, C4 2 stacks, 18% HP from A1. 4p Nymph's Dream is set to 3 stacks.",
 				weapon: 'Aqua Simulacra',
-				ranking: 17323,
-				outOf: 457870
+				ranking: 17401,
+				outOf: 461060
 			},
 			weapon: {
 				weaponStats: { atk: 542, critDMG_: 88.2 },
@@ -644,15 +640,14 @@ export const genshinProfile: GenshinProfile = {
 				atk: 1479.093506236775,
 				def: 708.6028446156813
 			},
-			element: 'Dendro',
 			calculations: {
 				short: 'SPREAD',
 				name: 'Quicken/Spread Team Combo, Avg DMG',
 				details:
 					"Combo: E Q 3CA. C1 Tighnari + C0R1 Deepwood Nahida + electro flex + electro flex. Tighnari's A1 buffs only CAs. Enemy has pre-existing Quicken aura. Nahida's A1 buff is maxed and lasts entire combo. ",
 				weapon: 'Skyward Harp',
-				ranking: 15344,
-				outOf: 49152
+				ranking: 15513,
+				outOf: 49701
 			},
 			weapon: {
 				weaponStats: { atk: 608, critRate_: 33.1 },
@@ -673,33 +668,32 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Nahida',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Nahida.png',
 			stats: {
-				critRate: 0.32990065611908875,
-				critDamage: 0.8497006336600585,
-				energyRecharge: 1.2590007225425048,
+				critRate: 0.32990047821908874,
+				critDamage: 0.8497004557600586,
+				energyRecharge: 1.259000544642505,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 988.4519659916313,
+				elementalMastery: 988.4519658137312,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
 				pyroDamageBonus: 0,
 				anemoDamageBonus: 0,
 				hydroDamageBonus: 0,
-				dendroDamageBonus: 0.15000066556046449,
+				dendroDamageBonus: 0.15000048766046448,
 				electroDamageBonus: 0,
-				maxHp: 17215.0781256596,
-				atk: 1141.32568425335,
-				def: 885.8529669681938
+				maxHp: 17215.0781254817,
+				atk: 1141.32568407545,
+				def: 885.8529667902937
 			},
-			element: 'Dendro',
 			calculations: {
 				short: 'OFF-FIELD',
 				name: 'Off-field Tri-Karma Purification',
 				details:
 					'Off-field Tri-Karma Purification (non-spread) avg DMG. Example team: Nahida + Xingqiu + Kuki + non-dendro flex.',
 				weapon: 'A Thousand Floating Dreams',
-				ranking: 379640,
-				outOf: 714006
+				ranking: 381944,
+				outOf: 718427
 			},
 			weapon: {
 				weaponStats: { atk: 454, eleMas: 221 },
@@ -720,12 +714,12 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Furina',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Furina.png',
 			stats: {
-				critRate: 0.6191005025322632,
-				critDamage: 1.2382004771645263,
-				energyRecharge: 1.7509005580361083,
+				critRate: 0.7202001166888061,
+				critDamage: 1.3159001422472778,
+				energyRecharge: 1.7249001813479248,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 144.52999930719687,
+				elementalMastery: 39.62999742751797,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
@@ -734,19 +728,18 @@ export const genshinProfile: GenshinProfile = {
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 39560.1718755279,
-				atk: 1170.37646537165,
-				def: 797.3916631255563
+				maxHp: 38907.7500001741,
+				atk: 1222.8964845491,
+				def: 797.3916627717563
 			},
-			element: 'Hydro',
 			calculations: {
 				short: 'SKILL',
 				name: 'Mademoiselle Crabaletta, Avg DMG',
 				details:
 					'Average DMG for Mademoiselle Crabaletta in a double hydro team. Number of characters who offered HP: 4. Fanfare stacks count: 200. Weapon stacks maxed when applicable. ',
 				weapon: 'Fleuve Cendre Ferryman',
-				ranking: 178285,
-				outOf: 402002
+				ranking: 101455,
+				outOf: 405950
 			},
 			weapon: {
 				weaponStats: { atk: 510, enerRech_: 45.9 },
@@ -766,33 +759,32 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Arlecchino',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Arlecchino.png',
 			stats: {
-				critRate: 0.7109001296784363,
-				critDamage: 2.136036278608032,
-				energyRecharge: 1.1231001633431397,
+				critRate: 0.7109004966784362,
+				critDamage: 2.136036645608032,
+				energyRecharge: 1.1231005303431396,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
 				elementalMastery: 0,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
-				pyroDamageBonus: 0.46600011170167543,
+				pyroDamageBonus: 0.46600047870167544,
 				anemoDamageBonus: 0,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 22415.771484496,
-				atk: 2287.569580199125,
-				def: 969.4547730702187
+				maxHp: 22415.771484863,
+				atk: 2287.569580566125,
+				def: 969.4547734372187
 			},
-			element: 'Pyro',
 			calculations: {
 				short: 'OVERLOAD',
 				name: 'Overload Combo, Avg DMG',
 				details:
 					'C0 Arlecchino + C6 Chevreuse @ 40k HP + Electro Flex + C6R1 Aquila Bennett @ 4p Noblesse. Combo: E .. CA 5N3. Majority of potential buffs such as 4p Shimenawa / 4p HoD / 4p CW wear off before 5N3 starts due to long setup. Chevreuse stacks for CA 5N3: 0/1/1/1/2/2/2/3/3/3/... Arlecchino is below 50% HP. BoL value after using CA: 130%. 4p Whimsy stacks for CA 5N3: 1/1/2/3/... ',
 				weapon: 'Staff of Homa',
-				ranking: 45140,
-				outOf: 364343
+				ranking: 45990,
+				outOf: 368985
 			},
 			weapon: {
 				weaponStats: { atk: 608, critDMG_: 66.2 },
@@ -830,15 +822,14 @@ export const genshinProfile: GenshinProfile = {
 				atk: 2303.85888705315,
 				def: 1125.301514006275
 			},
-			element: 'Electro',
 			calculations: {
 				short: 'OVERLOAD',
 				name: 'Overload Combo, DPS',
 				details:
 					"C0 Clorinde + C6 Fischl + 4p Noblesse C6 Chevreuse @ 40k HP + 4p Cinder C6 Thoma. Leaderboard ranks DPS based on 16s rotation using QEE 5N3E combo. Clorinde's A1 and A4 at full uptime for simplicity. Chevreuse's C6 stacks: QEE:0, N3E:1, N3E: 2, N3E:3, N3E:3, N3E: 3. 4pc Harmonic Whimsy stacks Q:1, EE:2, 5N3:3. Finale of the Deep's passive does not affect the burst. ",
 				weapon: 'Finale of the Deep',
-				ranking: 40677,
-				outOf: 149673
+				ranking: 41468,
+				outOf: 152091
 			},
 			weapon: {
 				weaponStats: { atk: 565, atk_: 27.6 },
@@ -924,11 +915,11 @@ export const genshinProfile: GenshinProfile = {
 				talent: { auto: 6, skill: 10, burst: 8 }
 			},
 			{
-				key: 'RaidenShogun',
-				level: 90,
+				key: 'Clorinde',
+				level: 80,
 				constellation: 0,
 				ascension: 6,
-				talent: { auto: 1, skill: 9, burst: 8 }
+				talent: { auto: 1, skill: 9, burst: 7 }
 			},
 			{
 				key: 'KaedeharaKazuha',
@@ -1480,10 +1471,10 @@ export const genshinProfile: GenshinProfile = {
 				location: 'Furina',
 				lock: false,
 				substats: [
-					{ key: 'hp_', value: 12.2 },
-					{ key: 'eleMas', value: 40 },
-					{ key: 'enerRech_', value: 5.2 },
-					{ key: 'critDMG_', value: 12.4 }
+					{ key: 'atk', value: 53 },
+					{ key: 'critDMG_', value: 7 },
+					{ key: 'enerRech_', value: 9.1 },
+					{ key: 'critRate_', value: 10.1 }
 				]
 			},
 			{
@@ -1495,10 +1486,10 @@ export const genshinProfile: GenshinProfile = {
 				location: 'Furina',
 				lock: false,
 				substats: [
-					{ key: 'enerRech_', value: 17.5 },
-					{ key: 'hp_', value: 5.8 },
-					{ key: 'critDMG_', value: 6.2 },
-					{ key: 'eleMas', value: 65 }
+					{ key: 'critDMG_', value: 19.4 },
+					{ key: 'hp_', value: 10.5 },
+					{ key: 'enerRech_', value: 11 },
+					{ key: 'hp', value: 508 }
 				]
 			},
 			{
@@ -1622,78 +1613,78 @@ export const genshinProfile: GenshinProfile = {
 				]
 			},
 			{
-				setKey: 'GildedDreams',
+				setKey: 'FragmentOfHarmonicWhimsy',
 				slotKey: 'flower',
 				level: 20,
 				rarity: 5,
 				mainStatKey: 'hp',
-				location: 'RaidenShogun',
+				location: 'Clorinde',
 				lock: false,
 				substats: [
-					{ key: 'critRate_', value: 11.7 },
-					{ key: 'eleMas', value: 40 },
-					{ key: 'atk_', value: 13.4 },
-					{ key: 'critDMG_', value: 7 }
+					{ key: 'critDMG_', value: 25.6 },
+					{ key: 'def_', value: 7.3 },
+					{ key: 'critRate_', value: 7.8 },
+					{ key: 'atk', value: 18 }
 				]
 			},
 			{
-				setKey: 'GildedDreams',
+				setKey: 'FragmentOfHarmonicWhimsy',
 				slotKey: 'plume',
 				level: 20,
 				rarity: 5,
 				mainStatKey: 'atk',
-				location: 'RaidenShogun',
+				location: 'Clorinde',
 				lock: false,
 				substats: [
-					{ key: 'def_', value: 13.9 },
-					{ key: 'enerRech_', value: 17.5 },
-					{ key: 'eleMas', value: 47 },
-					{ key: 'def', value: 19 }
+					{ key: 'hp', value: 538 },
+					{ key: 'def_', value: 13.1 },
+					{ key: 'critRate_', value: 6.2 },
+					{ key: 'critDMG_', value: 21 }
 				]
 			},
 			{
-				setKey: 'GildedDreams',
+				setKey: 'FragmentOfHarmonicWhimsy',
 				slotKey: 'sands',
 				level: 20,
 				rarity: 5,
-				mainStatKey: 'eleMas',
-				location: 'RaidenShogun',
+				mainStatKey: 'atk_',
+				location: 'Clorinde',
 				lock: false,
 				substats: [
-					{ key: 'critRate_', value: 7 },
-					{ key: 'atk_', value: 5.8 },
-					{ key: 'enerRech_', value: 16.2 },
-					{ key: 'atk', value: 27 }
+					{ key: 'def_', value: 24.8 },
+					{ key: 'critRate_', value: 2.7 },
+					{ key: 'critDMG_', value: 15.5 },
+					{ key: 'hp_', value: 4.1 }
 				]
 			},
 			{
-				setKey: 'GildedDreams',
+				setKey: 'MarechausseeHunter',
 				slotKey: 'goblet',
 				level: 20,
 				rarity: 5,
-				mainStatKey: 'eleMas',
-				location: 'RaidenShogun',
+				mainStatKey: 'electro_dmg_',
+				location: 'Clorinde',
 				lock: false,
 				substats: [
-					{ key: 'critRate_', value: 6.2 },
-					{ key: 'enerRech_', value: 11 },
-					{ key: 'def_', value: 7.3 },
-					{ key: 'atk_', value: 14.6 }
+					{ key: 'critDMG_', value: 13.2 },
+					{ key: 'critRate_', value: 3.9 },
+					{ key: 'atk_', value: 25.7 },
+					{ key: 'hp', value: 299 }
 				]
 			},
 			{
-				setKey: 'ShimenawasReminiscence',
+				setKey: 'FragmentOfHarmonicWhimsy',
 				slotKey: 'circlet',
 				level: 20,
 				rarity: 5,
-				mainStatKey: 'eleMas',
-				location: 'RaidenShogun',
+				mainStatKey: 'critDMG_',
+				location: 'Clorinde',
 				lock: false,
 				substats: [
-					{ key: 'def', value: 60 },
-					{ key: 'critRate_', value: 5.8 },
-					{ key: 'critDMG_', value: 12.4 },
-					{ key: 'hp_', value: 4.1 }
+					{ key: 'def', value: 67 },
+					{ key: 'hp', value: 299 },
+					{ key: 'atk', value: 62 },
+					{ key: 'critRate_', value: 3.5 }
 				]
 			},
 			{
@@ -1914,11 +1905,11 @@ export const genshinProfile: GenshinProfile = {
 				lock: false
 			},
 			{
-				key: 'DragonsBane',
+				key: 'FinaleOfTheDeep',
 				level: 90,
 				ascension: 6,
-				refinement: 5,
-				location: 'RaidenShogun',
+				refinement: 4,
+				location: 'Clorinde',
 				lock: false
 			},
 			{
@@ -1938,5 +1929,97 @@ export const genshinProfile: GenshinProfile = {
 				lock: false
 			}
 		]
+	},
+	characters: {
+		'Kamisato Ayaka': { element: 'Cryo', stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		Jean: { element: 'Anemo', stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		Traveler: { element: 'Dendro', stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		Lisa: { element: 'Electro', stars: 4, weaponType: 'WEAPON_CATALYST' },
+		Barbara: { element: 'Hydro', stars: 4, weaponType: 'WEAPON_CATALYST' },
+		Kaeya: { element: 'Cryo', stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		Diluc: { element: 'Pyro', stars: 5, weaponType: 'WEAPON_CLAYMORE' },
+		Razor: { element: 'Electro', stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		Amber: { element: 'Pyro', stars: 4, weaponType: 'WEAPON_BOW' },
+		Venti: { element: 'Anemo', stars: 5, weaponType: 'WEAPON_BOW' },
+		Xiangling: { element: 'Pyro', stars: 4, weaponType: 'WEAPON_POLE' },
+		Beidou: { element: 'Electro', stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		Xingqiu: { element: 'Hydro', stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		Xiao: { element: 'Anemo', stars: 5, weaponType: 'WEAPON_POLE' },
+		Ningguang: { element: 'Geo', stars: 4, weaponType: 'WEAPON_CATALYST' },
+		Klee: { element: 'Pyro', stars: 5, weaponType: 'WEAPON_CATALYST' },
+		Zhongli: { element: 'Geo', stars: 5, weaponType: 'WEAPON_POLE' },
+		Fischl: { element: 'Electro', stars: 4, weaponType: 'WEAPON_BOW' },
+		Bennett: { element: 'Pyro', stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		Tartaglia: { element: 'Hydro', stars: 5, weaponType: 'WEAPON_BOW' },
+		Noelle: { element: 'Geo', stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		Qiqi: { element: 'Cryo', stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		Chongyun: { element: 'Cryo', stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		Ganyu: { element: 'Cryo', stars: 5, weaponType: 'WEAPON_BOW' },
+		Albedo: { element: 'Geo', stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		Diona: { element: 'Cryo', stars: 4, weaponType: 'WEAPON_BOW' },
+		Mona: { element: 'Hydro', stars: 5, weaponType: 'WEAPON_CATALYST' },
+		Keqing: { element: 'Electro', stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		Sucrose: { element: 'Anemo', stars: 4, weaponType: 'WEAPON_CATALYST' },
+		Xinyan: { element: 'Pyro', stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		Rosaria: { element: 'Cryo', stars: 4, weaponType: 'WEAPON_POLE' },
+		'Hu Tao': { element: 'Pyro', stars: 5, weaponType: 'WEAPON_POLE' },
+		'Kaedehara Kazuha': { element: 'Anemo', stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		Yanfei: { element: 'Pyro', stars: 4, weaponType: 'WEAPON_CATALYST' },
+		Yoimiya: { element: 'Pyro', stars: 5, weaponType: 'WEAPON_BOW' },
+		Thoma: { element: 'Pyro', stars: 4, weaponType: 'WEAPON_POLE' },
+		Eula: { element: 'Cryo', stars: 5, weaponType: 'WEAPON_CLAYMORE' },
+		'Raiden Shogun': { element: 'Electro', stars: 5, weaponType: 'WEAPON_POLE' },
+		Sayu: { element: 'Anemo', stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		'Sangonomiya Kokomi': { element: 'Hydro', stars: 5, weaponType: 'WEAPON_CATALYST' },
+		Gorou: { element: 'Geo', stars: 4, weaponType: 'WEAPON_BOW' },
+		'Kujou Sara': { element: 'Electro', stars: 4, weaponType: 'WEAPON_BOW' },
+		'Arataki Itto': { element: 'Geo', stars: 5, weaponType: 'WEAPON_CLAYMORE' },
+		'Yae Miko': { element: 'Electro', stars: 5, weaponType: 'WEAPON_CATALYST' },
+		'Shikanoin Heizou': { element: 'Anemo', stars: 4, weaponType: 'WEAPON_CATALYST' },
+		Yelan: { element: 'Hydro', stars: 5, weaponType: 'WEAPON_BOW' },
+		Kirara: { element: 'Dendro', stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		Aloy: { element: 'Cryo', stars: 5, weaponType: 'WEAPON_BOW' },
+		Shenhe: { element: 'Cryo', stars: 5, weaponType: 'WEAPON_POLE' },
+		'Yun Jin': { element: 'Geo', stars: 4, weaponType: 'WEAPON_POLE' },
+		'Kuki Shinobu': { element: 'Electro', stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		'Kamisato Ayato': { element: 'Hydro', stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		Collei: { element: 'Dendro', stars: 4, weaponType: 'WEAPON_BOW' },
+		Dori: { element: 'Electro', stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		Tighnari: { element: 'Dendro', stars: 5, weaponType: 'WEAPON_BOW' },
+		Nilou: { element: 'Hydro', stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		Cyno: { element: 'Electro', stars: 5, weaponType: 'WEAPON_POLE' },
+		Candace: { element: 'Hydro', stars: 4, weaponType: 'WEAPON_POLE' },
+		Nahida: { element: 'Dendro', stars: 5, weaponType: 'WEAPON_CATALYST' },
+		Layla: { element: 'Cryo', stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		Wanderer: { element: 'Anemo', stars: 5, weaponType: 'WEAPON_CATALYST' },
+		Faruzan: { element: 'Anemo', stars: 4, weaponType: 'WEAPON_BOW' },
+		Yaoyao: { element: 'Dendro', stars: 4, weaponType: 'WEAPON_POLE' },
+		Alhaitham: { element: 'Dendro', stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		Dehya: { element: 'Pyro', stars: 5, weaponType: 'WEAPON_CLAYMORE' },
+		Mika: { element: 'Cryo', stars: 4, weaponType: 'WEAPON_POLE' },
+		Kaveh: { element: 'Dendro', stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		Baizhu: { element: 'Dendro', stars: 5, weaponType: 'WEAPON_CATALYST' },
+		Lynette: { element: 'Anemo', stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		Lyney: { element: 'Pyro', stars: 5, weaponType: 'WEAPON_BOW' },
+		Freminet: { element: 'Cryo', stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		Wriothesley: { element: 'Cryo', stars: 5, weaponType: 'WEAPON_CATALYST' },
+		Neuvillette: { element: 'Hydro', stars: 5, weaponType: 'WEAPON_CATALYST' },
+		Charlotte: { element: 'Cryo', stars: 4, weaponType: 'WEAPON_CATALYST' },
+		Furina: { element: 'Hydro', stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		Chevreuse: { element: 'Pyro', stars: 4, weaponType: 'WEAPON_POLE' },
+		Navia: { element: 'Geo', stars: 5, weaponType: 'WEAPON_CLAYMORE' },
+		Gaming: { element: 'Pyro', stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		Xianyun: { element: 'Anemo', stars: 5, weaponType: 'WEAPON_CATALYST' },
+		Chiori: { element: 'Geo', stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		Sigewinne: { element: 'Hydro', stars: 5, weaponType: 'WEAPON_BOW' },
+		Arlecchino: { element: 'Pyro', stars: 5, weaponType: 'WEAPON_POLE' },
+		Sethos: { element: 'Electro', stars: 4, weaponType: 'WEAPON_BOW' },
+		Clorinde: { element: 'Electro', stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		Emilie: { element: 'Dendro', stars: 5, weaponType: 'WEAPON_POLE' },
+		Kachina: { element: 'Geo', stars: 4, weaponType: 'WEAPON_POLE' },
+		Kinich: { element: 'Dendro', stars: 5, weaponType: 'WEAPON_CLAYMORE' },
+		Mualani: { element: 'Hydro', stars: 5, weaponType: 'WEAPON_CATALYST' },
+		Xilonen: { element: 'Geo', stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		'Mavuika (Trial)': { element: 'Pyro', stars: 5, weaponType: 'WEAPON_CLAYMORE' }
 	}
 };
