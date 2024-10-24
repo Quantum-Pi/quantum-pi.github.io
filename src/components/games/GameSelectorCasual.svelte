@@ -1,11 +1,11 @@
 <script lang="ts">
-	import EldenRing from './ER/Overview_ER.svelte';
+	import Stardew from './SDV/Overview_SDV.svelte';
 	import Genshin from './Genshin/Overview_Genshin.svelte';
-	import ER from '../svg/ER.svelte';
-	import Eso from '../svg/ESO.svelte';
+	import SDVIcon from '../svg/SDV.svelte';
+	import GenshinIcon from '../svg/GI.svelte';
 	import { onMount, afterUpdate, beforeUpdate } from 'svelte';
 
-	type Mode = 'GI' | 'ER';
+	type Mode = 'GI' | 'SDV';
 
 	let previous: Mode | '' = '';
 	let mode: Mode = 'GI';
@@ -56,15 +56,20 @@
 
 <div class="text-white text-lg flex gap-8 w-full justify-center mb-4">
 	<button class="cursor-pointer" on:click={() => setMode('GI')} tabindex="0" title="GI Showcase">
-		<Eso --size="48px" --color={mode === 'GI' ? '#8F865E' : 'white'} />
+		<GenshinIcon
+			--size="48px"
+			--color={mode === 'GI'
+				? 'linear-gradient(145deg, rgb(255, 0, 212) 0%, rgb(255, 255, 255) 50%, rgb(0, 247, 255) 100%)'
+				: 'white'}
+		/>
 	</button>
 	<button
 		class="cursor-pointer"
-		on:click={() => setMode('ER')}
+		on:click={() => setMode('SDV')}
 		tabindex="0"
 		title="Elden Ring Showcase"
 	>
-		<ER --size="48px" --color={mode === 'ER' ? '#ffbc75' : 'white'} />
+		<SDVIcon --size="48px" --color={mode === 'SDV' ? '#ffbc75' : 'white'} />
 	</button>
 </div>
 
@@ -77,11 +82,11 @@
 		<Genshin />
 	</div>
 	<div
-		class={`absolute min-h-screen ${isActive('ER')} ${isHidden('ER')} ${isFadeIn('ER')} ${isFadeOut(
-			'ER'
-		)}`}
+		class={`absolute min-h-screen ${isActive('SDV')} ${isHidden('SDV')} ${isFadeIn(
+			'SDV'
+		)} ${isFadeOut('SDV')}`}
 	>
-		<EldenRing />
+		<Stardew />
 	</div>
 </div>
 
