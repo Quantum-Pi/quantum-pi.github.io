@@ -12,7 +12,7 @@
 
 {#await getResources() then resources}
 	<div style:--element={`var(--${character?.element ?? 'Pyro'}_Dark)`} class="text-white text-xs">
-		<div class="mini-character w-[72px] relative">
+		<div class="mini-character w-[72px] relative rounded-t-sm">
 			<enhanced:img
 				class="w-[72px]"
 				src={resources.icon}
@@ -30,7 +30,7 @@
 				L{character.level}
 			</div> -->
 		</div>
-		<div class="stats w-[72px] flex justify-between relative">
+		<div class="stats w-[72px] flex justify-between relative rounded-b-sm px-[1.5px]">
 			<span>L{character.level}</span>
 			<span>{character.talent.auto}/{character.talent.skill}/{character.talent.burst}</span>
 		</div>
@@ -40,6 +40,10 @@
 <style lang="scss">
 	.mini-character {
 		background: var(--element);
+
+		& picture {
+			filter: drop-shadow(3px 3px 3px #222);
+		}
 	}
 
 	.stats {
@@ -55,6 +59,8 @@
 		width: 100%;
 		height: 100%;
 		z-index: -10;
+		border-bottom-left-radius: 0.125rem;
+		border-bottom-right-radius: 0.125rem;
 	}
 
 	.constellation {
