@@ -81,9 +81,9 @@
 
 <div
 	style:--element={`var(--${character.element ?? 'Pyro'})`}
-	class="character-card flex justify-center"
+	class="character-card flex justify-start md:justify-center overflow-x-scroll overflow-y-hidden"
 >
-	<div style:--width={'975px'} style:--height={'406px'} style:--scale={'1'} class="flex relative">
+	<div style:--width={'975px'} style:--height={'406px'} class="flex relative">
 		{#await getResources() then resources}
 			<Character {character} resources={resources.character} />
 			<WeaponStats {character} resources={resources.weapon} />
@@ -100,19 +100,45 @@
 </div>
 
 <style lang="scss">
-	@media (min-width: 1700px) {
+	@media (min-width: 0px) {
+		// sm
 		.character-card > div {
-			// transform: scale(1.25);
+			--scale: 0.8;
 		}
 	}
 
-	@media (min-width: 1920px) {
-		.character-card {
+	@media (min-width: 640px) {
+		// sm
+		.character-card > div {
+			--scale: 0.9;
 		}
 	}
 
-	@media (min-width: 2070px) {
-		.character-card {
+	@media (min-width: 768px) {
+		// md
+		.character-card > div {
+			--scale: 0.785;
+		}
+	}
+
+	@media (min-width: 1024px) {
+		// lg
+		.character-card > div {
+			--scale: 1;
+		}
+	}
+
+	@media (min-width: 1280px) {
+		// xl
+		.character-card > div {
+			--scale: 1;
+		}
+	}
+
+	@media (min-width: 1536px) {
+		// 2xl
+		.character-card > div {
+			--scale: 1;
 		}
 	}
 
@@ -134,7 +160,7 @@
 	.character-card div {
 		border: 1px solid var(--element);
 		text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
-		width: calc(var(--scale) * var(--width));
+		min-width: calc(var(--scale) * var(--width));
 		height: calc(var(--scale) * var(--height));
 		font-size: calc(16px * var(--scale));
 		// line-height: 1.2;

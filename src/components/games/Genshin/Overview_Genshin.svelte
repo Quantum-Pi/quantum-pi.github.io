@@ -37,12 +37,14 @@
 		/>
 	</div>
 	<div class=" w-full mt-[-90vh] pb-[10vh] flex justify-center items-center flex-col">
-		<div class="w-fit h-full grid gap-6 grid-cols-7 mb-8">
+		<div
+			class="w-fit h-full grid gap-6 grid-cols-4 sm:grid-cols-6 md:grid-cols-7 lg:grid-cols-9 xl:grid-cols-10 mb-8"
+		>
 			{#each characters.sort(sortMiniCharacter) as c}
 				<MiniCharacter character={c} />
 			{/each}
 		</div>
-		<div class="character-grid w-[95%] h-full grid gap-y-8 grid-cols-1">
+		<div class="character-grid w-[90%] sm:w-[95%] h-full grid gap-y-8 grid-cols-1">
 			{#each characters as c}
 				{#if c.key === 'Yelan' || c.key === 'Arlecchino' || c.key === 'Xiao'}
 					<CharacterCard character={c} />

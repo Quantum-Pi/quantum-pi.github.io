@@ -14,7 +14,7 @@
 
 <div
 	style:--artifact-height={'calc(70px * var(--scale))'}
-	class="w-1/3 h-full flex flex-col gap-y-2 justify-center relative z-10"
+	class="w-1/3 h-full flex flex-col gap-y-1 md:gap-y-2 justify-center relative z-10"
 >
 	{#each artifacts as artifact}
 		<div class="artifact flex text-white ounded-sm">
