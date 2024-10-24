@@ -1,0 +1,1 @@
+const e={sources:{webp:""+new URL("../assets/UI_EquipIcon_Pole_Everfrost_Awaken.DrQOPII0.webp",import.meta.url).href+" 128w, "+new URL("../assets/UI_EquipIcon_Pole_Everfrost_Awaken.BPnMh8QA.webp",import.meta.url).href+" 256w"},img:{src:""+new URL("../assets/UI_EquipIcon_Pole_Everfrost_Awaken.BPnMh8QA.webp",import.meta.url).href,w:256,h:256}};export{e as default};

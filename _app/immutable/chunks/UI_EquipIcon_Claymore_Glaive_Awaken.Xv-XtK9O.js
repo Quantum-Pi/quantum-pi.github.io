@@ -1,0 +1,1 @@
+const e={sources:{webp:""+new URL("../assets/UI_EquipIcon_Claymore_Glaive_Awaken.Ciet_WRj.webp",import.meta.url).href+" 128w, "+new URL("../assets/UI_EquipIcon_Claymore_Glaive_Awaken.C6ouKzv0.webp",import.meta.url).href+" 256w"},img:{src:""+new URL("../assets/UI_EquipIcon_Claymore_Glaive_Awaken.C6ouKzv0.webp",import.meta.url).href,w:256,h:256}};export{e as default};

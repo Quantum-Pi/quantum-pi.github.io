@@ -1,0 +1,1 @@
+const e={sources:{webp:""+new URL("../assets/UI_EquipIcon_Pole_Stardust_Awaken.DqCo1-sd.webp",import.meta.url).href+" 128w, "+new URL("../assets/UI_EquipIcon_Pole_Stardust_Awaken.DQG1Rxxa.webp",import.meta.url).href+" 256w"},img:{src:""+new URL("../assets/UI_EquipIcon_Pole_Stardust_Awaken.DQG1Rxxa.webp",import.meta.url).href,w:256,h:256}};export{e as default};

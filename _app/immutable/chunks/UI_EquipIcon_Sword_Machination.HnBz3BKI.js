@@ -1,0 +1,1 @@
+const e={sources:{webp:""+new URL("../assets/UI_EquipIcon_Sword_Machination.b1aUm94c.webp",import.meta.url).href+" 128w, "+new URL("../assets/UI_EquipIcon_Sword_Machination.D3kb8P2V.webp",import.meta.url).href+" 256w"},img:{src:""+new URL("../assets/UI_EquipIcon_Sword_Machination.D3kb8P2V.webp",import.meta.url).href,w:256,h:256}};export{e as default};

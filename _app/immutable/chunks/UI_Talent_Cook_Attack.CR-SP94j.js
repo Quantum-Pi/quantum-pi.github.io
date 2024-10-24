@@ -1,0 +1,1 @@
+const t={sources:{webp:""+new URL("../assets/UI_Talent_Cook_Attack.89qjp1bF.webp",import.meta.url).href+" 50w, "+new URL("../assets/UI_Talent_Cook_Attack.Bs3OTE5c.webp",import.meta.url).href+" 100w"},img:{src:""+new URL("../assets/UI_Talent_Cook_Attack.Bs3OTE5c.webp",import.meta.url).href,w:100,h:100}};export{t as default};

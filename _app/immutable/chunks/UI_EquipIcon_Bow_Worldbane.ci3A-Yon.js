@@ -1,0 +1,1 @@
+const e={sources:{webp:""+new URL("../assets/UI_EquipIcon_Bow_Worldbane.B4IDJLad.webp",import.meta.url).href+" 128w, "+new URL("../assets/UI_EquipIcon_Bow_Worldbane.dmVtv8-j.webp",import.meta.url).href+" 256w"},img:{src:""+new URL("../assets/UI_EquipIcon_Bow_Worldbane.dmVtv8-j.webp",import.meta.url).href,w:256,h:256}};export{e as default};

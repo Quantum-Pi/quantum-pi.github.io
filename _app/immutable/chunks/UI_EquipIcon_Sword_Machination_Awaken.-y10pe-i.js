@@ -1,0 +1,1 @@
+const e={sources:{webp:""+new URL("../assets/UI_EquipIcon_Sword_Machination_Awaken.BxqL61lA.webp",import.meta.url).href+" 128w, "+new URL("../assets/UI_EquipIcon_Sword_Machination_Awaken.Crbx6TcV.webp",import.meta.url).href+" 256w"},img:{src:""+new URL("../assets/UI_EquipIcon_Sword_Machination_Awaken.Crbx6TcV.webp",import.meta.url).href,w:256,h:256}};export{e as default};

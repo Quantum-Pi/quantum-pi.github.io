@@ -1,0 +1,1 @@
+const e={sources:{webp:""+new URL("../assets/Skill_S_Shougun_01.h6E-SAjG.webp",import.meta.url).href+" 50w, "+new URL("../assets/Skill_S_Shougun_01.Ce_ud3FY.webp",import.meta.url).href+" 100w"},img:{src:""+new URL("../assets/Skill_S_Shougun_01.Ce_ud3FY.webp",import.meta.url).href,w:100,h:100}};export{e as default};

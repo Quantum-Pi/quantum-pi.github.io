@@ -1,0 +1,1 @@
+const e={sources:{webp:""+new URL("../assets/UI_AvatarIcon_Linette.Pz2S0WI0.webp",import.meta.url).href+" 128w, "+new URL("../assets/UI_AvatarIcon_Linette.UV_jOMSx.webp",import.meta.url).href+" 256w"},img:{src:""+new URL("../assets/UI_AvatarIcon_Linette.UV_jOMSx.webp",import.meta.url).href,w:256,h:256}};export{e as default};

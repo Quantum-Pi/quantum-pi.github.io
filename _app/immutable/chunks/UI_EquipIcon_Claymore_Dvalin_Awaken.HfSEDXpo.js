@@ -1,0 +1,1 @@
+const e={sources:{webp:""+new URL("../assets/UI_EquipIcon_Claymore_Dvalin_Awaken.Dcut5o5H.webp",import.meta.url).href+" 128w, "+new URL("../assets/UI_EquipIcon_Claymore_Dvalin_Awaken.ed_Ixhl6.webp",import.meta.url).href+" 256w"},img:{src:""+new URL("../assets/UI_EquipIcon_Claymore_Dvalin_Awaken.ed_Ixhl6.webp",import.meta.url).href,w:256,h:256}};export{e as default};

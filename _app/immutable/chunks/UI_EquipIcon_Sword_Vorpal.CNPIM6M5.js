@@ -1,0 +1,1 @@
+const r={sources:{webp:""+new URL("../assets/UI_EquipIcon_Sword_Vorpal.BZCQ_5jJ.webp",import.meta.url).href+" 128w, "+new URL("../assets/UI_EquipIcon_Sword_Vorpal.DcENlPH_.webp",import.meta.url).href+" 256w"},img:{src:""+new URL("../assets/UI_EquipIcon_Sword_Vorpal.DcENlPH_.webp",import.meta.url).href,w:256,h:256}};export{r as default};
