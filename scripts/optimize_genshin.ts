@@ -80,6 +80,7 @@ type GenshinCharacter = {
 	constellation: number;
 	ascension: number;
 	element?: string;
+	stars: number;
 	talent: {
 		auto: number;
 		skill: number;
@@ -98,9 +99,11 @@ type GenshinCharacter = {
 };
 const characters: GenshinCharacter[] = good.characters
 	.map((character) => {
+		const characterData = genshinProfile.characters[character.key];
 		return {
 			...character,
-			element: genshinProfile.characters[character.key]?.element,
+			element: characterData?.element,
+			stars: characterData?.stars,
 			weapon: weaponMap[character.key] ?? undefined,
 			artifacts: artifactMap[character.key] ?? undefined,
 			ranking: rankingMap[character.key] ?? undefined
@@ -144,6 +147,7 @@ type GenshinCharacter = {
 	constellation: number;
 	ascension: number;
 	element?: Element;
+	stars: number;
 	talent: {
 		auto: number;
 		skill: number;

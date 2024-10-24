@@ -33,6 +33,7 @@ type GenshinCharacter = {
 	constellation: number;
 	ascension: number;
 	element?: Element;
+	stars: number;
 	talent: {
 		auto: number;
 		skill: number;
@@ -67,6 +68,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 6,
 		talent: { auto: 10, skill: 10, burst: 10 },
 		element: 'Hydro',
+		stars: 5,
 		weapon: { key: 'AquaSimulacra', level: 90, ascension: 6, refinement: 1 },
 		artifacts: [
 			{
@@ -171,6 +173,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 6,
 		talent: { auto: 1, skill: 9, burst: 7 },
 		element: 'Electro',
+		stars: 5,
 		weapon: { key: 'FinaleOfTheDeep', level: 90, ascension: 6, refinement: 3 },
 		artifacts: [
 			{
@@ -275,6 +278,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 6,
 		talent: { auto: 10, skill: 8, burst: 10 },
 		element: 'Anemo',
+		stars: 5,
 		weapon: { key: 'StaffOfHoma', level: 90, ascension: 6, refinement: 1 },
 		artifacts: [
 			{
@@ -379,6 +383,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 6,
 		talent: { auto: 10, skill: 8, burst: 10 },
 		element: 'Cryo',
+		stars: 5,
 		weapon: { key: 'AmenomaKageuchi', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -483,6 +488,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 6,
 		talent: { auto: 10, skill: 10, burst: 8 },
 		element: 'Pyro',
+		stars: 5,
 		weapon: { key: 'CalamityQueller', level: 90, ascension: 6, refinement: 1 },
 		artifacts: [
 			{
@@ -587,6 +593,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 5,
 		talent: { auto: 1, skill: 4, burst: 7 },
 		element: 'Anemo',
+		stars: 5,
 		weapon: { key: 'Cloudforged', level: 60, ascension: 3, refinement: 5 },
 		artifacts: [
 			{
@@ -663,6 +670,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 6,
 		talent: { auto: 8, skill: 10, burst: 9 },
 		element: 'Hydro',
+		stars: 5,
 		weapon: { key: 'HuntersBow', level: 1, ascension: 0, refinement: 1 },
 		artifacts: [
 			{
@@ -767,6 +775,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 6,
 		talent: { auto: 1, skill: 9, burst: 7 },
 		element: 'Geo',
+		stars: 5,
 		weapon: { key: 'BlackTassel', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -870,6 +879,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 6,
 		talent: { auto: 1, skill: 6, burst: 9 },
 		element: 'Anemo',
+		stars: 5,
 		weapon: { key: 'OathswornEye', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -946,6 +956,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 6,
 		talent: { auto: 7, skill: 9, burst: 9 },
 		element: 'Anemo',
+		stars: 5,
 		weapon: { key: 'FavoniusSword', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -1050,6 +1061,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 6,
 		talent: { auto: 1, skill: 9, burst: 8 },
 		element: 'Electro',
+		stars: 5,
 		weapon: { key: 'DragonsBane', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -1154,6 +1166,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 6,
 		talent: { auto: 6, skill: 10, burst: 8 },
 		element: 'Dendro',
+		stars: 5,
 		weapon: { key: 'SacrificialFragments', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -1258,6 +1271,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 6,
 		talent: { auto: 1, skill: 10, burst: 10 },
 		element: 'Hydro',
+		stars: 5,
 		weapon: { key: 'FleuveCendreFerryman', level: 90, ascension: 6, refinement: 3 },
 		artifacts: [
 			{
@@ -1362,6 +1376,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 6,
 		talent: { auto: 1, skill: 6, burst: 10 },
 		element: 'Anemo',
+		stars: 4,
 		weapon: { key: 'FavoniusWarbow', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -1438,6 +1453,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 6,
 		talent: { auto: 1, skill: 2, burst: 10 },
 		element: 'Pyro',
+		stars: 4,
 		weapon: { key: 'AquilaFavonia', level: 90, ascension: 6, refinement: 1 },
 		artifacts: [
 			{
@@ -1514,6 +1530,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 6,
 		talent: { auto: 1, skill: 7, burst: 10 },
 		element: 'Hydro',
+		stars: 4,
 		weapon: { key: 'SkywardBlade', level: 90, ascension: 6, refinement: 1 },
 		artifacts: [
 			{
@@ -1617,6 +1634,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 6,
 		talent: { auto: 8, skill: 7, burst: 6 },
 		element: 'Anemo',
+		stars: 5,
 		weapon: { key: 'SolarPearl', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -1693,6 +1711,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 6,
 		talent: { auto: 9, skill: 1, burst: 8 },
 		element: 'Dendro',
+		stars: 5,
 		weapon: { key: 'PolarStar', level: 90, ascension: 6, refinement: 1 },
 		artifacts: [
 			{
@@ -1797,6 +1816,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 6,
 		talent: { auto: 7, skill: 9, burst: 8 },
 		element: 'Hydro',
+		stars: 5,
 		weapon: { key: 'ThrillingTalesOfDragonSlayers', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -1901,6 +1921,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 6,
 		talent: { auto: 9, skill: 7, burst: 7 },
 		element: 'Pyro',
+		stars: 5,
 		weapon: { key: 'TheBell', level: 40, ascension: 1, refinement: 5 },
 		artifacts: [
 			{
@@ -1977,6 +1998,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 5,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Geo',
+		stars: 4,
 		weapon: { key: 'FootprintOfTheRainbow', level: 60, ascension: 3, refinement: 1 }
 	},
 	{
@@ -1986,6 +2008,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 5,
 		talent: { auto: 1, skill: 6, burst: 6 },
 		element: 'Geo',
+		stars: 4,
 		weapon: { key: 'FavoniusWarbow', level: 70, ascension: 4, refinement: 5 },
 		artifacts: [
 			{
@@ -2036,6 +2059,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 5,
 		talent: { auto: 8, skill: 5, burst: 7 },
 		element: 'Geo',
+		stars: 4,
 		weapon: { key: 'SerpentSpine', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -2139,6 +2163,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 5,
 		talent: { auto: 6, skill: 8, burst: 6 },
 		element: 'Anemo',
+		stars: 4,
 		weapon: { key: 'TheWidsith', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -2202,6 +2227,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 5,
 		talent: { auto: 2, skill: 4, burst: 7 },
 		element: 'Anemo',
+		stars: 4,
 		weapon: { key: 'FavoniusGreatsword', level: 70, ascension: 4, refinement: 5 },
 		artifacts: [
 			{
@@ -2278,6 +2304,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 5,
 		talent: { auto: 1, skill: 7, burst: 8 },
 		element: 'Cryo',
+		stars: 4,
 		weapon: { key: 'TheViridescentHunt', level: 90, ascension: 6, refinement: 1 },
 		artifacts: [
 			{
@@ -2341,6 +2368,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 6,
 		talent: { auto: 1, skill: 10, burst: 5 },
 		element: 'Electro',
+		stars: 4,
 		weapon: { key: 'TheStringless', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -2445,6 +2473,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 5,
 		talent: { auto: 1, skill: 6, burst: 4 },
 		element: 'Electro',
+		stars: 4,
 		weapon: { key: 'ToukabouShigure', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -2482,6 +2511,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 5,
 		talent: { auto: 1, skill: 1, burst: 8 },
 		element: 'Electro',
+		stars: 4,
 		weapon: { key: 'LuxuriousSeaLord', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -2558,6 +2588,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 6,
 		talent: { auto: 3, skill: 6, burst: 10 },
 		element: 'Pyro',
+		stars: 4,
 		weapon: { key: 'TheCatch', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -2634,6 +2665,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 5,
 		talent: { auto: 1, skill: 1, burst: 8 },
 		element: 'Pyro',
+		stars: 4,
 		weapon: { key: 'SkywardSpine', level: 90, ascension: 6, refinement: 1 },
 		artifacts: [
 			{
@@ -2710,6 +2742,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 4,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Cryo',
+		stars: 5,
 		weapon: { key: 'HuntersBow', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2719,6 +2752,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 5,
 		talent: { auto: 5, skill: 8, burst: 4 },
 		element: 'Hydro',
+		stars: 4,
 		weapon: { key: 'ApprenticesNotes', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2728,6 +2762,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 4,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Pyro',
+		stars: 4,
 		weapon: { key: 'FadingTwilight', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -2791,6 +2826,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 3,
 		talent: { auto: 1, skill: 3, burst: 3 },
 		element: 'Anemo',
+		stars: 4,
 		weapon: { key: 'ThrillingTalesOfDragonSlayers', level: 1, ascension: 0, refinement: 5 },
 		artifacts: [
 			{
@@ -2828,6 +2864,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 2,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Electro',
+		stars: 4,
 		weapon: { key: 'WasterGreatsword', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2837,6 +2874,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 2,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Pyro',
+		stars: 4,
 		weapon: { key: 'WasterGreatsword', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2846,6 +2884,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 2,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Cryo',
+		stars: 4,
 		weapon: { key: 'DullBlade', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2855,6 +2894,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Anemo',
+		stars: 5,
 		weapon: { key: 'DullBlade', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2864,6 +2904,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Hydro',
+		stars: 5,
 		weapon: { key: 'ApprenticesNotes', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2873,6 +2914,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Geo',
+		stars: 4,
 		weapon: { key: 'FavoniusLance', level: 1, ascension: 0, refinement: 4 }
 	},
 	{
@@ -2882,6 +2924,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Geo',
+		stars: 4,
 		weapon: { key: 'ApprenticesNotes', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2891,6 +2934,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Pyro',
+		stars: 4,
 		weapon: { key: 'FavoniusCodex', level: 40, ascension: 1, refinement: 5 },
 		artifacts: [
 			{
@@ -2926,6 +2970,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Electro',
+		stars: 4,
 		weapon: { key: 'ApprenticesNotes', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2935,6 +2980,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Cryo',
+		stars: 5,
 		weapon: { key: 'DullBlade', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2944,6 +2990,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Electro',
+		stars: 5,
 		weapon: { key: 'BlackcliffLongsword', level: 90, ascension: 6, refinement: 1 }
 	},
 	{
@@ -2953,6 +3000,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Cryo',
+		stars: 4,
 		weapon: { key: 'SacrificialGreatsword', level: 1, ascension: 0, refinement: 5 }
 	},
 	{
@@ -2962,6 +3010,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Electro',
+		stars: 4,
 		weapon: { key: 'HuntersBow', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2971,6 +3020,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Dendro',
+		stars: 4,
 		weapon: { key: 'BalladOfTheFjords', level: 1, ascension: 0, refinement: 5 },
 		artifacts: [
 			{
@@ -2995,6 +3045,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Dendro',
+		stars: 4,
 		weapon: { key: 'HuntersBow', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -3004,6 +3055,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Hydro',
+		stars: 4,
 		weapon: { key: 'BeginnersProtector', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -3013,6 +3065,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Pyro',
+		stars: 4,
 		weapon: { key: 'WasterGreatsword', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -3022,6 +3075,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 0,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Anemo',
+		stars: 4,
 		weapon: { key: 'DullBlade', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -3031,6 +3085,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 0,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Cryo',
+		stars: 4,
 		weapon: { key: 'ApprenticesNotes', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -3040,6 +3095,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 0,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Cryo',
+		stars: 4,
 		weapon: { key: 'BeginnersProtector', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -3049,6 +3105,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 0,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Cryo',
+		stars: 4,
 		weapon: { key: 'DullBlade', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -3058,6 +3115,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 0,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Cryo',
+		stars: 4,
 		weapon: { key: 'BeginnersProtector', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -3067,6 +3125,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 0,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Electro',
+		stars: 4,
 		weapon: { key: 'HuntersBow', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -3076,6 +3135,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 0,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Electro',
+		stars: 4,
 		weapon: { key: 'WasterGreatsword', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -3085,6 +3145,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 6,
 		talent: { auto: 10, skill: 6, burst: 6 },
 		element: 'Pyro',
+		stars: 5,
 		weapon: { key: 'StaffOfHoma', level: 90, ascension: 6, refinement: 1 },
 		artifacts: [
 			{
@@ -3189,6 +3250,7 @@ const characters: GenshinCharacter[] = [
 		ascension: 6,
 		talent: { auto: 1, skill: 6, burst: 1 },
 		element: 'Dendro',
+		stars: 4,
 		weapon: { key: 'CinnabarSpindle', level: 20, ascension: 0, refinement: 5 },
 		artifacts: [
 			{
