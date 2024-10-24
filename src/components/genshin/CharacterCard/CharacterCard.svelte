@@ -80,7 +80,7 @@
 </script>
 
 <div
-	style:--element={`var(--${character.ranking?.element ?? 'Pyro'})`}
+	style:--element={`var(--${character.element ?? 'Pyro'})`}
 	class="character-card flex justify-center"
 >
 	<div style:--width={'975px'} style:--height={'406px'} style:--scale={'1'} class="flex relative">
@@ -91,7 +91,7 @@
 		{/await}
 		<div class="bg absolute top-0 left-0 z-0 gradient">
 			<enhanced:img
-				src={elementBGs[character.ranking?.element ?? 'Hydro']}
+				src={elementBGs[character.element ?? 'Hydro']}
 				sizes="(min-width: 1280px) 1280px"
 				alt={`Elemental background`}
 			/>
@@ -100,25 +100,21 @@
 </div>
 
 <style lang="scss">
-	// @media (min-width: 1700px) {
-	// 	.character-card > div {
-	// 		width: calc(975px * 1.25);
-	// 		height: calc(406px * 1.25);
-	// 		// transform: scale(1.25);
-	// 	}
-	// }
+	@media (min-width: 1700px) {
+		.character-card > div {
+			// transform: scale(1.25);
+		}
+	}
 
-	// @media (min-width: 1920px) {
-	// 	.character-card {
-	// 		transform: scale(0.95);
-	// 	}
-	// }
+	@media (min-width: 1920px) {
+		.character-card {
+		}
+	}
 
-	// @media (min-width: 2070px) {
-	// 	.character-card {
-	// 		transform: scale(1);
-	// 	}
-	// }
+	@media (min-width: 2070px) {
+		.character-card {
+		}
+	}
 
 	.bg img {
 		height: calc(var(--scale) * var(--height));

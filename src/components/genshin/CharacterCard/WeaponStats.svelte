@@ -15,7 +15,7 @@
 
 	const getElementalBonusPercent = () => {
 		// TODO fix undefined to remove coalese
-		const element = character.ranking?.element ?? 'Anemo';
+		const element = character.element ?? 'Anemo';
 		const statKey = elementToBuildStatKey[element];
 		if (stats) {
 			const elemBonus = {
