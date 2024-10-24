@@ -153,7 +153,7 @@
 
 			&::before {
 				content: '';
-				background: url(lock.svg);
+				background: url(/lock.svg);
 				display: block;
 				position: absolute;
 				top: 0;
