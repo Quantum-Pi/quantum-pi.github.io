@@ -16,6 +16,14 @@
 		--Pyro: #{app.$pyro};
 		--Hydro: #{app.$hydro};
 		--Anemo: #{app.$anemo};
+
+		--Cryo_Dark: #{app.$cryo-dark};
+		--Electro_Dark: #{app.$electro-dark};
+		--Geo_Dark: #{app.$geo-dark};
+		--Dendro_Dark: #{app.$dendro-dark};
+		--Pyro_Dark: #{app.$pyro-dark};
+		--Hydro_Dark: #{app.$hydro-dark};
+		--Anemo_Dark: #{app.$anemo-dark};
 		// --Cryo: linear-gradient(180deg, #{app.$cryo-dark} 50%, #{app.$cryo} 100%);
 		// --Electro: linear-gradient(180deg, #{app.$electro-dark} 50%, #{app.$electro} 100%);
 		// --Geo: linear-gradient(180deg, #{app.$geo-dark} 50%, #{app.$geo} 100%);

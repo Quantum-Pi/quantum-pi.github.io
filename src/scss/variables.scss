@@ -1,17 +1,19 @@
+@use 'sass:color';
+
 $anemo: #80ffe6;
-// $anemo-dark: darken($anemo, 50%);
+$anemo-dark: color.scale($anemo, $lightness: -60%);
 $cryo: #55ddff;
-// $cryo-dark: darken($cryo, 25%);
+$cryo-dark: color.scale($cryo, $lightness: -50%);
 $dendro: #a5c83b;
-// $dendro-dark: darken($dendro, 10%);
+$dendro-dark: color.scale($dendro, $lightness: -20%);
 $electro: #b380ff;
-// $electro-dark: darken($electro, 10%);
+$electro-dark: color.scale($electro, $lightness: -20%);
 $geo: #fc0;
-// $geo-dark: darken($geo, 10%);
+$geo-dark: color.scale($geo, $lightness: -20%);
 $hydro: #3e99ff;
-// $hydro-dark: darken($hydro, 25%);
+$hydro-dark: color.scale($hydro, $lightness: -35%);
 $pyro: #f95;
-// $pyro-dark: darken($pyro, 25%);
+$pyro-dark: color.scale($pyro, $lightness: -45%);
 
 $common: #fff;
 $uncommon: #1eff00;
