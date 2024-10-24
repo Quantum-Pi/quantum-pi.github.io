@@ -47,7 +47,7 @@ const artifactMap = (good.artifacts as Artifact).reduce(
 
 // ===== Ranking by character name =====
 const rankingMap = genshinProfile.akasha.reduce(
-	(prev, { calculations, name, stats, element, weapon: { stars } }) => ({
+	(prev, { calculations, name, stats, weapon: { stars } }) => ({
 		...prev,
 		[name.replace(' ', '')]: {
 			name: calculations.name,
@@ -56,8 +56,7 @@ const rankingMap = genshinProfile.akasha.reduce(
 			weaponStars: stars,
 			ranking: calculations.ranking,
 			outOf: calculations.outOf,
-			stats,
-			element
+			stats
 		}
 	}),
 	{} as Record<
@@ -70,7 +69,6 @@ const rankingMap = genshinProfile.akasha.reduce(
 			ranking: number;
 			outOf: number;
 			stats: Record<BuildStatKey, number>;
-			element: string;
 		} | null
 	>
 );
@@ -81,6 +79,7 @@ type GenshinCharacter = {
 	level: number;
 	constellation: number;
 	ascension: number;
+	element?: string;
 	talent: {
 		auto: number;
 		skill: number;
@@ -94,17 +93,19 @@ type GenshinCharacter = {
 		weapon: string;
 		ranking: number;
 		outOf: number;
-		element: string;
 		stats: Record<BuildStatKey, number>;
 	};
 };
 const characters: GenshinCharacter[] = good.characters
-	.map((character) => ({
-		...character,
-		weapon: weaponMap[character.key] ?? undefined,
-		artifacts: artifactMap[character.key] ?? undefined,
-		ranking: rankingMap[character.key] ?? undefined
-	}))
+	.map((character) => {
+		return {
+			...character,
+			element: genshinProfile.characters[character.key]?.element,
+			weapon: weaponMap[character.key] ?? undefined,
+			artifacts: artifactMap[character.key] ?? undefined,
+			ranking: rankingMap[character.key] ?? undefined
+		};
+	})
 	.filter((character) => !character.key.includes('Traveler')); // TODO: point of failure if new character has Traveler in name
 
 const ts = `
@@ -142,6 +143,7 @@ type GenshinCharacter = {
 	level: number;
 	constellation: number;
 	ascension: number;
+	element?: Element;
 	talent: {
 		auto: number;
 		skill: number;
@@ -157,7 +159,6 @@ type GenshinCharacter = {
 		ranking: number;
 		outOf: number;
 		stats: Record<BuildStatKey, number>;
-		element: Element;
 	};
 };
 const elementToBuildStatKey: Record<Element, BuildStatKey> = {

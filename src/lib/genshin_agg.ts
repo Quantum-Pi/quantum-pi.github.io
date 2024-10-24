@@ -32,6 +32,7 @@ type GenshinCharacter = {
 	level: number;
 	constellation: number;
 	ascension: number;
+	element?: Element;
 	talent: {
 		auto: number;
 		skill: number;
@@ -47,7 +48,6 @@ type GenshinCharacter = {
 		ranking: number;
 		outOf: number;
 		stats: Record<BuildStatKey, number>;
-		element: Element;
 	};
 };
 const elementToBuildStatKey: Record<Element, BuildStatKey> = {
@@ -59,7 +59,6 @@ const elementToBuildStatKey: Record<Element, BuildStatKey> = {
 	Hydro: 'hydroDamageBonus',
 	Pyro: 'pyroDamageBonus'
 };
-
 const characters: GenshinCharacter[] = [
 	{
 		key: 'Yelan',
@@ -67,6 +66,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 6,
 		ascension: 6,
 		talent: { auto: 10, skill: 10, burst: 10 },
+		element: 'Hydro',
 		weapon: { key: 'AquaSimulacra', level: 90, ascension: 6, refinement: 1 },
 		artifacts: [
 			{
@@ -141,12 +141,12 @@ const characters: GenshinCharacter[] = [
 				"Frontloaded average DMG for c6r5 Aqua Yelan Combo: 2x E + 2x BTB + 3x C2 + 5x C6 + 24x Q. Team: c0r5 fs Kazuha @ 1000 EM vv hydro swirl + Zhongli shield up + c4 Mona burst up. Yelan's A4 set to 10s, C4 2 stacks, 18% HP from A1. 4p Nymph's Dream is set to 3 stacks.",
 			weapon: 'Aqua Simulacra',
 			weaponStars: 5,
-			ranking: 17189,
-			outOf: 453111,
+			ranking: 17409,
+			outOf: 461224,
 			stats: {
-				critRate: 0.7591000105271485,
-				critDamage: 2.578648140562549,
-				energyRecharge: 1.40720002902843,
+				critRate: 0.7591000630271484,
+				critDamage: 2.578648193062549,
+				energyRecharge: 1.4072000815284302,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
 				elementalMastery: 0,
@@ -155,14 +155,13 @@ const characters: GenshinCharacter[] = [
 				cryoDamageBonus: 0,
 				pyroDamageBonus: 0,
 				anemoDamageBonus: 0,
-				hydroDamageBonus: 0.4660000409016754,
+				hydroDamageBonus: 0.4660000934016754,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 32107.7734375502,
-				atk: 1183.8574219252,
-				def: 722.3638916517625
-			},
-			element: 'Hydro'
+				maxHp: 32107.7734376027,
+				atk: 1183.8574219777,
+				def: 722.3638917042625
+			}
 		}
 	},
 	{
@@ -171,6 +170,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 0,
 		ascension: 6,
 		talent: { auto: 1, skill: 9, burst: 7 },
+		element: 'Electro',
 		weapon: { key: 'FinaleOfTheDeep', level: 90, ascension: 6, refinement: 3 },
 		artifacts: [
 			{
@@ -245,8 +245,8 @@ const characters: GenshinCharacter[] = [
 				"C0 Clorinde + C6 Fischl + 4p Noblesse C6 Chevreuse @ 40k HP + 4p Cinder C6 Thoma. Leaderboard ranks DPS based on 16s rotation using QEE 5N3E combo. Clorinde's A1 and A4 at full uptime for simplicity. Chevreuse's C6 stacks: QEE:0, N3E:1, N3E: 2, N3E:3, N3E:3, N3E: 3. 4pc Harmonic Whimsy stacks Q:1, EE:2, 5N3:3. Finale of the Deep's passive does not affect the burst. ",
 			weapon: 'Finale of the Deep',
 			weaponStars: 4,
-			ranking: 39666,
-			outOf: 146252,
+			ranking: 41507,
+			outOf: 152224,
 			stats: {
 				critRate: 0.48310033144360964,
 				critDamage: 1.875700331348242,
@@ -265,8 +265,7 @@ const characters: GenshinCharacter[] = [
 				maxHp: 18452.0976565844,
 				atk: 2303.85888705315,
 				def: 1125.301514006275
-			},
-			element: 'Electro'
+			}
 		}
 	},
 	{
@@ -275,6 +274,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 0,
 		ascension: 6,
 		talent: { auto: 10, skill: 8, burst: 10 },
+		element: 'Anemo',
 		weapon: { key: 'StaffOfHoma', level: 90, ascension: 6, refinement: 1 },
 		artifacts: [
 			{
@@ -349,28 +349,27 @@ const characters: GenshinCharacter[] = [
 				"Combo that includes A4/VHA/PJWS/CQ stacking, Bennett, Noblesse and Elegy uptimes, 2E and 11HP with collision damage. 4p Noblese Aquila C6 Bennett, 4p ToTM Elegy C6 Faruzan, Zhongli. Faruzan's A4 is disabled for a bit of simplicity (it's also pretty weak anyways)",
 			weapon: 'Staff of Homa',
 			weaponStars: 5,
-			ranking: 85539,
-			outOf: 361207,
+			ranking: 33098,
+			outOf: 367177,
 			stats: {
-				critRate: 0.45980065795910646,
-				critDamage: 2.389536556930664,
-				energyRecharge: 1.058300671310547,
+				critRate: 0.4909007421682068,
+				critDamage: 2.5916367045591064,
+				energyRecharge: 1.0583007804105469,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 69.94000309440625,
+				elementalMastery: 48.95999984657266,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
 				pyroDamageBonus: 0,
-				anemoDamageBonus: 0.46600064370167543,
+				anemoDamageBonus: 0.4660007528016754,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 22057.781250653,
-				atk: 2167.821625653,
-				def: 1060.7581793639374
-			},
-			element: 'Anemo'
+				maxHp: 20881.2656257621,
+				atk: 2183.8916784964754,
+				def: 1098.4959724417874
+			}
 		}
 	},
 	{
@@ -379,6 +378,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 0,
 		ascension: 6,
 		talent: { auto: 10, skill: 8, burst: 10 },
+		element: 'Cryo',
 		weapon: { key: 'AmenomaKageuchi', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -453,8 +453,8 @@ const characters: GenshinCharacter[] = [
 				'Soumetsu Cutting average DMG, Ayaka c0r5, TTDS Mona c0r5, Kazuha c0r1, c6r5 Diona. TTDS, 4p ToTM and 4p Noblesse active. Enemy is frozen',
 			weapon: 'Amenoma Kageuchi',
 			weaponStars: 4,
-			ranking: 186215,
-			outOf: 542371,
+			ranking: 188227,
+			outOf: 549421,
 			stats: {
 				critRate: 0.33390098992764283,
 				critDamage: 2.1431009787696533,
@@ -473,8 +473,7 @@ const characters: GenshinCharacter[] = [
 				maxHp: 22285.1640634555,
 				atk: 2181.781495096125,
 				def: 1105.27587986175
-			},
-			element: 'Cryo'
+			}
 		}
 	},
 	{
@@ -483,6 +482,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 1,
 		ascension: 6,
 		talent: { auto: 10, skill: 10, burst: 8 },
+		element: 'Pyro',
 		weapon: { key: 'CalamityQueller', level: 90, ascension: 6, refinement: 1 },
 		artifacts: [
 			{
@@ -557,28 +557,27 @@ const characters: GenshinCharacter[] = [
 				'Average DMG for 11N1CD + Q combo. elegy instructor amber c0r1. kazuha c2r1 @ 1000EM(1420). 4p SR burst uptime 1/3, other sets: 2/3. ',
 			weapon: 'Ballad of the Fjords',
 			weaponStars: 5,
-			ranking: 117368,
-			outOf: 523222,
+			ranking: 118793,
+			outOf: 530437,
 			stats: {
-				critRate: 0.6293008483833862,
-				critDamage: 1.7543009675926757,
-				energyRecharge: 1.097100869554956,
+				critRate: 0.6293003265833862,
+				critDamage: 1.7543004457926759,
+				energyRecharge: 1.0971003477549561,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 34.970002070803126,
+				elementalMastery: 34.97000154900312,
 				physicalDamageBonus: 0,
-				geoDamageBonus: 0.1200008501,
-				cryoDamageBonus: 0.1200008501,
-				pyroDamageBonus: 0.7360008467621398,
-				anemoDamageBonus: 0.1200008501,
-				hydroDamageBonus: 0.1200008501,
-				dendroDamageBonus: 0.1200008501,
-				electroDamageBonus: 0.1200008501,
-				maxHp: 31640.8730477251,
-				atk: 1420.9364022172874,
-				def: 981.719483271975
-			},
-			element: 'Pyro'
+				geoDamageBonus: 0.1200003283,
+				cryoDamageBonus: 0.1200003283,
+				pyroDamageBonus: 0.7360003249621399,
+				anemoDamageBonus: 0.1200003283,
+				hydroDamageBonus: 0.1200003283,
+				dendroDamageBonus: 0.1200003283,
+				electroDamageBonus: 0.1200003283,
+				maxHp: 31640.8730472033,
+				atk: 1420.9364016954876,
+				def: 981.719482750175
+			}
 		}
 	},
 	{
@@ -587,6 +586,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 0,
 		ascension: 5,
 		talent: { auto: 1, skill: 4, burst: 7 },
+		element: 'Anemo',
 		weapon: { key: 'Cloudforged', level: 60, ascension: 3, refinement: 5 },
 		artifacts: [
 			{
@@ -662,6 +662,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 0,
 		ascension: 6,
 		talent: { auto: 8, skill: 10, burst: 9 },
+		element: 'Hydro',
 		weapon: { key: 'HuntersBow', level: 1, ascension: 0, refinement: 1 },
 		artifacts: [
 			{
@@ -736,8 +737,8 @@ const characters: GenshinCharacter[] = [
 				"1 rQ (vape) + 1 E + N2C * 6 + mSlash * 4. c0r1 Kazuha + c6r1 Xiangling + c6r1 Bennett. Most buffs expire after 3N2C. Shimenawa's burst damage is halved.",
 			weapon: 'Aqua Simulacra',
 			weaponStars: 1,
-			ranking: 18116,
-			outOf: 155919,
+			ranking: 18380,
+			outOf: 158121,
 			stats: {
 				critRate: 0.6526007483678894,
 				critDamage: 1.4556007812696534,
@@ -756,8 +757,7 @@ const characters: GenshinCharacter[] = [
 				maxHp: 20299.890625758,
 				atk: 769.9595954845626,
 				def: 1012.9014900158126
-			},
-			element: 'Hydro'
+			}
 		}
 	},
 	{
@@ -766,6 +766,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 0,
 		ascension: 6,
 		talent: { auto: 1, skill: 9, burst: 7 },
+		element: 'Geo',
 		weapon: { key: 'BlackTassel', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -839,28 +840,27 @@ const characters: GenshinCharacter[] = [
 			details: '---',
 			weapon: 'Black Tassel',
 			weaponStars: 3,
-			ranking: 47802,
-			outOf: 560796,
+			ranking: 48684,
+			outOf: 569504,
 			stats: {
-				critRate: 0.11220032094261322,
-				critDamage: 0.5000003141,
-				energyRecharge: 1.148900346143457,
+				critRate: 0.11220080344261323,
+				critDamage: 0.5000007966,
+				energyRecharge: 1.148900828643457,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 135.21000702796718,
+				elementalMastery: 135.2100075104672,
 				physicalDamageBonus: 0,
-				geoDamageBonus: 0.2880003017022339,
+				geoDamageBonus: 0.2880007842022339,
 				cryoDamageBonus: 0,
 				pyroDamageBonus: 0,
 				anemoDamageBonus: 0,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 55159.7734378141,
-				atk: 991.6034549039438,
-				def: 1141.1004641812874
-			},
-			element: 'Geo'
+				maxHp: 55159.7734382966,
+				atk: 991.6034553864438,
+				def: 1141.1004646637875
+			}
 		}
 	},
 	{
@@ -869,6 +869,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 0,
 		ascension: 6,
 		talent: { auto: 1, skill: 6, burst: 9 },
+		element: 'Anemo',
 		weapon: { key: 'OathswornEye', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -944,6 +945,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 0,
 		ascension: 6,
 		talent: { auto: 7, skill: 9, burst: 9 },
+		element: 'Anemo',
 		weapon: { key: 'FavoniusSword', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -1018,28 +1020,27 @@ const characters: GenshinCharacter[] = [
 				'Assumes Favonius Sword R5 (EM / 1000 + ER / 500) * 5000 + (vv ? 2000 : 0) + (CR > 15% ? (CR * 1500) : 0)',
 			weapon: 'Favonius Sword',
 			weaponStars: 4,
-			ranking: 389502,
-			outOf: 760896,
+			ranking: 397877,
+			outOf: 777849,
 			stats: {
-				critRate: 0.05000098244505806,
-				critDamage: 0.7176009696837036,
-				energyRecharge: 2.0399327558394043,
+				critRate: 0.05000095514505806,
+				critDamage: 0.7176009423837036,
+				energyRecharge: 1.5607340343102782,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 770.280030278575,
+				elementalMastery: 770.280030251275,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
 				pyroDamageBonus: 0,
-				anemoDamageBonus: 0.1500009876604645,
+				anemoDamageBonus: 0.15000096036046448,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 23476.1328134817,
-				atk: 1214.641358403575,
-				def: 984.1942758840438
-			},
-			element: 'Anemo'
+				maxHp: 23476.1328134544,
+				atk: 767.6204233176812,
+				def: 984.1942758567437
+			}
 		}
 	},
 	{
@@ -1048,6 +1049,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 0,
 		ascension: 6,
 		talent: { auto: 1, skill: 9, burst: 8 },
+		element: 'Electro',
 		weapon: { key: 'DragonsBane', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -1122,15 +1124,15 @@ const characters: GenshinCharacter[] = [
 				"c0 Raiden, c2 Furina, c0 Yelan, c0 4p VV Jean. Combo: Q 3N5. Furina's Fanfare at 400 stacks. Yelan's A4 at 8s seconds. ",
 			weapon: 'Staff of the Scarlet Sands',
 			weaponStars: 4,
-			ranking: 771197,
-			outOf: 888377,
+			ranking: 785670,
+			outOf: 905764,
 			stats: {
-				critRate: 0.3572009371098236,
-				critDamage: 0.6943009362992004,
-				energyRecharge: 1.7669008837517457,
+				critRate: 0.3572009568098236,
+				critDamage: 0.6943009559992004,
+				energyRecharge: 1.7669009034517456,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 946.261963831025,
+				elementalMastery: 946.261963850725,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
@@ -1138,12 +1140,11 @@ const characters: GenshinCharacter[] = [
 				anemoDamageBonus: 0,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
-				electroDamageBonus: 0.30676091774069825,
-				maxHp: 18213.8046884404,
-				atk: 1397.4862069950875,
-				def: 1034.8646249638375
-			},
-			element: 'Electro'
+				electroDamageBonus: 0.30676093744069827,
+				maxHp: 18213.8046884601,
+				atk: 1397.4862070147874,
+				def: 1034.8646249835374
+			}
 		}
 	},
 	{
@@ -1152,6 +1153,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 0,
 		ascension: 6,
 		talent: { auto: 6, skill: 10, burst: 8 },
+		element: 'Dendro',
 		weapon: { key: 'SacrificialFragments', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -1226,28 +1228,27 @@ const characters: GenshinCharacter[] = [
 				'Off-field Tri-Karma Purification (non-spread) avg DMG. Example team: Nahida + Xingqiu + Kuki + non-dendro flex.',
 			weapon: 'A Thousand Floating Dreams',
 			weaponStars: 4,
-			ranking: 376336,
-			outOf: 707549,
+			ranking: 382074,
+			outOf: 718694,
 			stats: {
-				critRate: 0.32990065611908875,
-				critDamage: 0.8497006336600585,
-				energyRecharge: 1.2590007225425048,
+				critRate: 0.32990047821908874,
+				critDamage: 0.8497004557600586,
+				energyRecharge: 1.259000544642505,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 988.4519659916313,
+				elementalMastery: 988.4519658137312,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
 				pyroDamageBonus: 0,
 				anemoDamageBonus: 0,
 				hydroDamageBonus: 0,
-				dendroDamageBonus: 0.15000066556046449,
+				dendroDamageBonus: 0.15000048766046448,
 				electroDamageBonus: 0,
-				maxHp: 17215.0781256596,
-				atk: 1141.32568425335,
-				def: 885.8529669681938
-			},
-			element: 'Dendro'
+				maxHp: 17215.0781254817,
+				atk: 1141.32568407545,
+				def: 885.8529667902937
+			}
 		}
 	},
 	{
@@ -1256,6 +1257,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 1,
 		ascension: 6,
 		talent: { auto: 1, skill: 10, burst: 10 },
+		element: 'Hydro',
 		weapon: { key: 'FleuveCendreFerryman', level: 90, ascension: 6, refinement: 3 },
 		artifacts: [
 			{
@@ -1330,15 +1332,15 @@ const characters: GenshinCharacter[] = [
 				'Average DMG for Mademoiselle Crabaletta in a double hydro team. Number of characters who offered HP: 4. Fanfare stacks count: 200. Weapon stacks maxed when applicable. ',
 			weapon: 'Fleuve Cendre Ferryman',
 			weaponStars: 4,
-			ranking: 175573,
-			outOf: 396189,
+			ranking: 101527,
+			outOf: 406193,
 			stats: {
-				critRate: 0.6191005025322632,
-				critDamage: 1.2382004771645263,
-				energyRecharge: 1.7509005580361083,
+				critRate: 0.7202001166888061,
+				critDamage: 1.3159001422472778,
+				energyRecharge: 1.7249001813479248,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 144.52999930719687,
+				elementalMastery: 39.62999742751797,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
@@ -1347,11 +1349,10 @@ const characters: GenshinCharacter[] = [
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 39560.1718755279,
-				atk: 1170.37646537165,
-				def: 797.3916631255563
-			},
-			element: 'Hydro'
+				maxHp: 38907.7500001741,
+				atk: 1222.8964845491,
+				def: 797.3916627717563
+			}
 		}
 	},
 	{
@@ -1360,6 +1361,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 6,
 		ascension: 6,
 		talent: { auto: 1, skill: 6, burst: 10 },
+		element: 'Anemo',
 		weapon: { key: 'FavoniusWarbow', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -1435,6 +1437,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 5,
 		ascension: 6,
 		talent: { auto: 1, skill: 2, burst: 10 },
+		element: 'Pyro',
 		weapon: { key: 'AquilaFavonia', level: 90, ascension: 6, refinement: 1 },
 		artifacts: [
 			{
@@ -1510,6 +1513,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 6,
 		ascension: 6,
 		talent: { auto: 1, skill: 7, burst: 10 },
+		element: 'Hydro',
 		weapon: { key: 'SkywardBlade', level: 90, ascension: 6, refinement: 1 },
 		artifacts: [
 			{
@@ -1583,28 +1587,27 @@ const characters: GenshinCharacter[] = [
 			details: "4p Nymph's Dream is set to very optimistic 3 stacks.",
 			weapon: 'Sacrificial Sword',
 			weaponStars: 5,
-			ranking: 38641,
-			outOf: 131191,
+			ranking: 39319,
+			outOf: 133571,
 			stats: {
-				critRate: 0.5760006185091125,
-				critDamage: 1.277100669912158,
-				energyRecharge: 2.1916805382288085,
+				critRate: 0.5760009615091125,
+				critDamage: 1.2771010129121583,
+				energyRecharge: 2.1916808812288084,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 58.279999362996875,
+				elementalMastery: 58.27999970599687,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
 				pyroDamageBonus: 0,
 				anemoDamageBonus: 0,
-				hydroDamageBonus: 0.6660005922830688,
+				hydroDamageBonus: 0.6660009352830688,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 19101.3789068337,
-				atk: 1585.6243902321376,
-				def: 948.60205136495
-			},
-			element: 'Hydro'
+				maxHp: 19101.3789071767,
+				atk: 1585.6243905751376,
+				def: 948.60205170795
+			}
 		}
 	},
 	{
@@ -1613,6 +1616,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 0,
 		ascension: 6,
 		talent: { auto: 8, skill: 7, burst: 6 },
+		element: 'Anemo',
 		weapon: { key: 'SolarPearl', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -1688,6 +1692,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 3,
 		ascension: 6,
 		talent: { auto: 9, skill: 1, burst: 8 },
+		element: 'Dendro',
 		weapon: { key: 'PolarStar', level: 90, ascension: 6, refinement: 1 },
 		artifacts: [
 			{
@@ -1762,8 +1767,8 @@ const characters: GenshinCharacter[] = [
 				"Combo: E Q 3CA. C1 Tighnari + C0R1 Deepwood Nahida + electro flex + electro flex. Tighnari's A1 buffs only CAs. Enemy has pre-existing Quicken aura. Nahida's A1 buff is maxed and lasts entire combo. ",
 			weapon: 'Skyward Harp',
 			weaponStars: 5,
-			ranking: 15118,
-			outOf: 48370,
+			ranking: 15520,
+			outOf: 49727,
 			stats: {
 				critRate: 0.9328683812452149,
 				critDamage: 1.113800426228125,
@@ -1782,8 +1787,7 @@ const characters: GenshinCharacter[] = [
 				maxHp: 16635.6171878774,
 				atk: 1479.093506236775,
 				def: 708.6028446156813
-			},
-			element: 'Dendro'
+			}
 		}
 	},
 	{
@@ -1792,6 +1796,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 0,
 		ascension: 6,
 		talent: { auto: 7, skill: 9, burst: 8 },
+		element: 'Hydro',
 		weapon: { key: 'ThrillingTalesOfDragonSlayers', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -1866,8 +1871,8 @@ const characters: GenshinCharacter[] = [
 				"(((E_DMG / 5500) + (E_HEAL / 5000) + (ER / 150)) * 5000) + SET_BONUS. +6500 ToTM, +6000 OHC, +6000 Deepwood, +5000 Noblesse, +4000 Maiden. Please keep in mind custom 'balance formulas' are completely feelscrafted unlike proper avg dmg formulas.",
 			weapon: 'Everlasting Moonglow',
 			weaponStars: 3,
-			ranking: 94503,
-			outOf: 257489,
+			ranking: 95596,
+			outOf: 260997,
 			stats: {
 				critRate: -0.8644990685717224,
 				critDamage: 0.616600894616449,
@@ -1886,8 +1891,7 @@ const characters: GenshinCharacter[] = [
 				maxHp: 38976.4765634176,
 				atk: 1038.03076263635,
 				def: 870.200928651975
-			},
-			element: 'Hydro'
+			}
 		}
 	},
 	{
@@ -1896,6 +1900,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 4,
 		ascension: 6,
 		talent: { auto: 9, skill: 7, burst: 7 },
+		element: 'Pyro',
 		weapon: { key: 'TheBell', level: 40, ascension: 1, refinement: 5 },
 		artifacts: [
 			{
@@ -1971,6 +1976,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 0,
 		ascension: 5,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Geo',
 		weapon: { key: 'FootprintOfTheRainbow', level: 60, ascension: 3, refinement: 1 }
 	},
 	{
@@ -1979,6 +1985,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 6,
 		ascension: 5,
 		talent: { auto: 1, skill: 6, burst: 6 },
+		element: 'Geo',
 		weapon: { key: 'FavoniusWarbow', level: 70, ascension: 4, refinement: 5 },
 		artifacts: [
 			{
@@ -2028,6 +2035,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 6,
 		ascension: 5,
 		talent: { auto: 8, skill: 5, burst: 7 },
+		element: 'Geo',
 		weapon: { key: 'SerpentSpine', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -2101,8 +2109,8 @@ const characters: GenshinCharacter[] = [
 			details: 'N1 + N2 + N3 + N4. Team: Noelle C6, Gorou C6, Yunjin C6, Zhongli C0',
 			weapon: 'Serpent Spine',
 			weaponStars: 4,
-			ranking: 2027,
-			outOf: 21281,
+			ranking: 2050,
+			outOf: 21664,
 			stats: {
 				critRate: 0.7417400555316711,
 				critDamage: 1.7826999501888061,
@@ -2121,8 +2129,7 @@ const characters: GenshinCharacter[] = [
 				maxHp: 18158.8632812576,
 				atk: 1023.0875244216625,
 				def: 1645.2703857497875
-			},
-			element: 'Geo'
+			}
 		}
 	},
 	{
@@ -2131,6 +2138,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 4,
 		ascension: 5,
 		talent: { auto: 6, skill: 8, burst: 6 },
+		element: 'Anemo',
 		weapon: { key: 'TheWidsith', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -2193,6 +2201,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 6,
 		ascension: 5,
 		talent: { auto: 2, skill: 4, burst: 7 },
+		element: 'Anemo',
 		weapon: { key: 'FavoniusGreatsword', level: 70, ascension: 4, refinement: 5 },
 		artifacts: [
 			{
@@ -2268,6 +2277,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 6,
 		ascension: 5,
 		talent: { auto: 1, skill: 7, burst: 8 },
+		element: 'Cryo',
 		weapon: { key: 'TheViridescentHunt', level: 90, ascension: 6, refinement: 1 },
 		artifacts: [
 			{
@@ -2330,6 +2340,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 6,
 		ascension: 6,
 		talent: { auto: 1, skill: 10, burst: 5 },
+		element: 'Electro',
 		weapon: { key: 'TheStringless', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -2401,18 +2412,18 @@ const characters: GenshinCharacter[] = [
 		ranking: {
 			name: 'Raw Oz Avg DMG',
 			details:
-				'4x Oz hits. no buffs, talent level 13. One Oz hit does not benefit from the Thundersoother (75% uptime)',
-			weapon: 'The Stringless',
-			weaponStars: 4,
-			ranking: 61614,
-			outOf: 218384,
+				'4x Oz hits. no buffs, talent level 13. One Oz hit does not benefit from the Thundersoother (75% uptime). Polar Star at 3 stacks.',
+			weapon: 'Polar Star',
+			weaponStars: 5,
+			ranking: 29227,
+			outOf: 222226,
 			stats: {
-				critRate: 0.5866006794266785,
-				critDamage: 0.9662006678872193,
-				energyRecharge: 1.42740066674281,
+				critRate: 0.9756687331958557,
+				critDamage: 1.2537007380290772,
+				energyRecharge: 1.2720007944865968,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 235.32400580075313,
+				elementalMastery: 60.61000133045156,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
@@ -2420,12 +2431,11 @@ const characters: GenshinCharacter[] = [
 				anemoDamageBonus: 0,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
-				electroDamageBonus: 0.46600066450167543,
-				maxHp: 14418.5957037988,
-				atk: 1826.9306647363,
-				def: 629.0607306542687
-			},
-			element: 'Electro'
+				electroDamageBonus: 0.46600071080167543,
+				maxHp: 13332.9003913451,
+				atk: 1991.3085944701,
+				def: 741.86084056385
+			}
 		}
 	},
 	{
@@ -2434,6 +2444,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 1,
 		ascension: 5,
 		talent: { auto: 1, skill: 6, burst: 4 },
+		element: 'Electro',
 		weapon: { key: 'ToukabouShigure', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -2470,6 +2481,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 6,
 		ascension: 5,
 		talent: { auto: 1, skill: 1, burst: 8 },
+		element: 'Electro',
 		weapon: { key: 'LuxuriousSeaLord', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -2545,6 +2557,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 6,
 		ascension: 6,
 		talent: { auto: 3, skill: 6, burst: 10 },
+		element: 'Pyro',
 		weapon: { key: 'TheCatch', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -2620,6 +2633,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 6,
 		ascension: 5,
 		talent: { auto: 1, skill: 1, burst: 8 },
+		element: 'Pyro',
 		weapon: { key: 'SkywardSpine', level: 90, ascension: 6, refinement: 1 },
 		artifacts: [
 			{
@@ -2695,6 +2709,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 0,
 		ascension: 4,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Cryo',
 		weapon: { key: 'HuntersBow', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2703,6 +2718,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 6,
 		ascension: 5,
 		talent: { auto: 5, skill: 8, burst: 4 },
+		element: 'Hydro',
 		weapon: { key: 'ApprenticesNotes', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2711,6 +2727,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 6,
 		ascension: 4,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Pyro',
 		weapon: { key: 'FadingTwilight', level: 90, ascension: 6, refinement: 5 },
 		artifacts: [
 			{
@@ -2773,6 +2790,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 6,
 		ascension: 3,
 		talent: { auto: 1, skill: 3, burst: 3 },
+		element: 'Anemo',
 		weapon: { key: 'ThrillingTalesOfDragonSlayers', level: 1, ascension: 0, refinement: 5 },
 		artifacts: [
 			{
@@ -2809,6 +2827,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 6,
 		ascension: 2,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Electro',
 		weapon: { key: 'WasterGreatsword', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2817,6 +2836,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 4,
 		ascension: 2,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Pyro',
 		weapon: { key: 'WasterGreatsword', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2825,6 +2845,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 5,
 		ascension: 2,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Cryo',
 		weapon: { key: 'DullBlade', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2833,6 +2854,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 2,
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Anemo',
 		weapon: { key: 'DullBlade', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2841,6 +2863,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 1,
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Hydro',
 		weapon: { key: 'ApprenticesNotes', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2849,6 +2872,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 2,
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Geo',
 		weapon: { key: 'FavoniusLance', level: 1, ascension: 0, refinement: 4 }
 	},
 	{
@@ -2857,6 +2881,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 6,
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Geo',
 		weapon: { key: 'ApprenticesNotes', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2865,6 +2890,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 4,
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Pyro',
 		weapon: { key: 'FavoniusCodex', level: 40, ascension: 1, refinement: 5 },
 		artifacts: [
 			{
@@ -2899,6 +2925,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 4,
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Electro',
 		weapon: { key: 'ApprenticesNotes', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2907,6 +2934,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 3,
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Cryo',
 		weapon: { key: 'DullBlade', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2915,6 +2943,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 1,
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Electro',
 		weapon: { key: 'BlackcliffLongsword', level: 90, ascension: 6, refinement: 1 }
 	},
 	{
@@ -2923,6 +2952,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 6,
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Cryo',
 		weapon: { key: 'SacrificialGreatsword', level: 1, ascension: 0, refinement: 5 }
 	},
 	{
@@ -2931,6 +2961,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 3,
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Electro',
 		weapon: { key: 'HuntersBow', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2939,6 +2970,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 0,
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Dendro',
 		weapon: { key: 'BalladOfTheFjords', level: 1, ascension: 0, refinement: 5 },
 		artifacts: [
 			{
@@ -2962,6 +2994,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 4,
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Dendro',
 		weapon: { key: 'HuntersBow', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2970,6 +3003,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 1,
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Hydro',
 		weapon: { key: 'BeginnersProtector', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2978,6 +3012,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 6,
 		ascension: 1,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Pyro',
 		weapon: { key: 'WasterGreatsword', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2986,6 +3021,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 6,
 		ascension: 0,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Anemo',
 		weapon: { key: 'DullBlade', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -2994,6 +3030,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 1,
 		ascension: 0,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Cryo',
 		weapon: { key: 'ApprenticesNotes', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -3002,6 +3039,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 0,
 		ascension: 0,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Cryo',
 		weapon: { key: 'BeginnersProtector', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -3010,6 +3048,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 1,
 		ascension: 0,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Cryo',
 		weapon: { key: 'DullBlade', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -3018,6 +3057,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 6,
 		ascension: 0,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Cryo',
 		weapon: { key: 'BeginnersProtector', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -3026,6 +3066,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 0,
 		ascension: 0,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Electro',
 		weapon: { key: 'HuntersBow', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -3034,6 +3075,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 3,
 		ascension: 0,
 		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Electro',
 		weapon: { key: 'WasterGreatsword', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
@@ -3042,6 +3084,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 1,
 		ascension: 6,
 		talent: { auto: 10, skill: 6, burst: 6 },
+		element: 'Pyro',
 		weapon: { key: 'StaffOfHoma', level: 90, ascension: 6, refinement: 1 },
 		artifacts: [
 			{
@@ -3116,28 +3159,27 @@ const characters: GenshinCharacter[] = [
 				'C0 Arlecchino + C6 Chevreuse @ 40k HP + Electro Flex + C6R1 Aquila Bennett @ 4p Noblesse. Combo: E .. CA 5N3. Majority of potential buffs such as 4p Shimenawa / 4p HoD / 4p CW wear off before 5N3 starts due to long setup. Chevreuse stacks for CA 5N3: 0/1/1/1/2/2/2/3/3/3/... Arlecchino is below 50% HP. BoL value after using CA: 130%. 4p Whimsy stacks for CA 5N3: 1/1/2/3/... ',
 			weapon: 'Staff of Homa',
 			weaponStars: 5,
-			ranking: 44047,
-			outOf: 357519,
+			ranking: 46026,
+			outOf: 369252,
 			stats: {
-				critRate: 0.7109001296784363,
-				critDamage: 2.136036278608032,
-				energyRecharge: 1.1231001633431397,
+				critRate: 0.7109004966784362,
+				critDamage: 2.136036645608032,
+				energyRecharge: 1.1231005303431396,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
 				elementalMastery: 0,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
-				pyroDamageBonus: 0.46600011170167543,
+				pyroDamageBonus: 0.46600047870167544,
 				anemoDamageBonus: 0,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 22415.771484496,
-				atk: 2287.569580199125,
-				def: 969.4547730702187
-			},
-			element: 'Pyro'
+				maxHp: 22415.771484863,
+				atk: 2287.569580566125,
+				def: 969.4547734372187
+			}
 		}
 	},
 	{
@@ -3146,6 +3188,7 @@ const characters: GenshinCharacter[] = [
 		constellation: 0,
 		ascension: 6,
 		talent: { auto: 1, skill: 6, burst: 1 },
+		element: 'Dendro',
 		weapon: { key: 'CinnabarSpindle', level: 20, ascension: 0, refinement: 5 },
 		artifacts: [
 			{
