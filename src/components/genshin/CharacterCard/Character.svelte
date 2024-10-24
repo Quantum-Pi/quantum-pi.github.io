@@ -26,37 +26,37 @@
 	</div>
 	<div class="flex flex-col gap-y-3 absolute z-10 pl-4 pb-4 top-full -translate-y-full">
 		<enhanced:img
-			class={`skill ${getConClass(1)} w-6`}
+			class={`skill ${getConClass(1)}`}
 			src={resources.con_0}
 			sizes="(min-width: 128px) 128px"
 			alt={`con 0 icon`}
 		/>
 		<enhanced:img
-			class={`skill ${getConClass(2)} w-6`}
+			class={`skill ${getConClass(2)}`}
 			src={resources.con_1}
 			sizes="(min-width: 128px) 128px"
 			alt={`con 0 icon`}
 		/>
 		<enhanced:img
-			class={`skill ${getConClass(3)} w-6`}
+			class={`skill ${getConClass(3)}`}
 			src={resources.con_2}
 			sizes="(min-width: 128px) 128px"
 			alt={`con 0 icon`}
 		/>
 		<enhanced:img
-			class={`skill ${getConClass(4)} w-6`}
+			class={`skill ${getConClass(4)}`}
 			src={resources.con_3}
 			sizes="(min-width: 128px) 128px"
 			alt={`con 0 icon`}
 		/>
 		<enhanced:img
-			class={`skill ${getConClass(5)} w-6`}
+			class={`skill ${getConClass(5)}`}
 			src={resources.con_4}
 			sizes="(min-width: 128px) 128px"
 			alt={`con 0 icon`}
 		/>
 		<enhanced:img
-			class={`skill ${getConClass(6)} w-6`}
+			class={`skill ${getConClass(6)}`}
 			src={resources.con_5}
 			sizes="(min-width: 128px) 128px"
 			alt={`con 0 icon`}
@@ -114,6 +114,8 @@
 		background: rgba(0, 0, 0, 0.5);
 		border-radius: 50%;
 		position: relative;
+		width: calc(24px * var(--scale));
+		height: calc(24px * var(--scale));
 
 		&.locked {
 			filter: brightness(50%);
@@ -156,8 +158,8 @@
 				position: absolute;
 				top: 0;
 				left: 0;
-				width: 24px;
-				height: 24px;
+				width: calc(24px * var(--scale));
+				height: calc(24px * var(--scale));
 				filter: invert(100%);
 				transform: scale(0.4);
 				z-index: 10;
