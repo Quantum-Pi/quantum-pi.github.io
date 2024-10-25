@@ -61,11 +61,17 @@ export interface CharacterRecord {
 	weaponType: WeaponType;
 }
 
+export interface WeaponRecord {
+	stars: number;
+	weaponType: WeaponType;
+}
+
 export type AkashaSystemStats = Awaited<ReturnType<Akasha['getCalculationsForUser']>>['data'];
 export interface GenshinProfile {
 	akasha: MiniAkashaSystemStat[];
 	good: IGOOD;
 	characters: Record<string, CharacterRecord>;
+	weapons: Record<string, WeaponRecord>;
 }
 
 export const genshinProfile: GenshinProfile = {
@@ -98,8 +104,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'Soumetsu Cutting average DMG, Ayaka c0r5, TTDS Mona c0r5, Kazuha c0r1, c6r5 Diona. TTDS, 4p ToTM and 4p Noblesse active. Enemy is frozen',
 				weapon: 'Amenoma Kageuchi',
-				ranking: 188227,
-				outOf: 549421
+				ranking: 188583,
+				outOf: 550703
 			},
 			weapon: {
 				weaponStats: { atk: 454, atk_: 55.1 },
@@ -119,31 +125,31 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Xingqiu',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Xingqiu.png',
 			stats: {
-				critRate: 0.5760009615091125,
-				critDamage: 1.2771010129121583,
-				energyRecharge: 2.1916808812288084,
+				critRate: 0.5760007594091126,
+				critDamage: 1.2771008108121582,
+				energyRecharge: 2.1916806791288086,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 58.27999970599687,
+				elementalMastery: 58.279999503896875,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
 				pyroDamageBonus: 0,
 				anemoDamageBonus: 0,
-				hydroDamageBonus: 0.6660009352830688,
+				hydroDamageBonus: 0.6660007331830688,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 19101.3789071767,
-				atk: 1585.6243905751376,
-				def: 948.60205170795
+				maxHp: 19101.3789069746,
+				atk: 1585.6243903730376,
+				def: 948.60205150585
 			},
 			calculations: {
 				short: 'BURST',
 				name: 'Sword Rain, Avg DMG',
 				details: "4p Nymph's Dream is set to very optimistic 3 stacks.",
 				weapon: 'Sacrificial Sword',
-				ranking: 39319,
-				outOf: 133571
+				ranking: 39451,
+				outOf: 134035
 			},
 			weapon: {
 				weaponStats: { atk: 608, enerRech_: 55.1 },
@@ -165,23 +171,23 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Xiao',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Xiao.png',
 			stats: {
-				critRate: 0.4909007421682068,
-				critDamage: 2.5916367045591064,
-				energyRecharge: 1.0583007804105469,
+				critRate: 0.4909008253682068,
+				critDamage: 2.5916367877591067,
+				energyRecharge: 1.0583008636105469,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 48.95999984657266,
+				elementalMastery: 48.95999992977266,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
 				pyroDamageBonus: 0,
-				anemoDamageBonus: 0.4660007528016754,
+				anemoDamageBonus: 0.4660008360016754,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 20881.2656257621,
-				atk: 2183.8916784964754,
-				def: 1098.4959724417874
+				maxHp: 20881.2656258453,
+				atk: 2183.891678579675,
+				def: 1098.4959725249876
 			},
 			calculations: {
 				short: 'HYPER',
@@ -189,8 +195,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"Combo that includes A4/VHA/PJWS/CQ stacking, Bennett, Noblesse and Elegy uptimes, 2E and 11HP with collision damage. 4p Noblese Aquila C6 Bennett, 4p ToTM Elegy C6 Faruzan, Zhongli. Faruzan's A4 is disabled for a bit of simplicity (it's also pretty weak anyways)",
 				weapon: 'Staff of Homa',
-				ranking: 33098,
-				outOf: 367177
+				ranking: 33209,
+				outOf: 368251
 			},
 			weapon: {
 				weaponStats: { atk: 608, critDMG_: 66.2 },
@@ -210,31 +216,31 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Zhongli',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Zhongli.png',
 			stats: {
-				critRate: 0.11220080344261323,
-				critDamage: 0.5000007966,
-				energyRecharge: 1.148900828643457,
+				critRate: 0.11220100144261322,
+				critDamage: 0.5000009946,
+				energyRecharge: 1.148901026643457,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 135.2100075104672,
+				elementalMastery: 135.21000770846717,
 				physicalDamageBonus: 0,
-				geoDamageBonus: 0.2880007842022339,
+				geoDamageBonus: 0.2880009822022339,
 				cryoDamageBonus: 0,
 				pyroDamageBonus: 0,
 				anemoDamageBonus: 0,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 55159.7734382966,
-				atk: 991.6034553864438,
-				def: 1141.1004646637875
+				maxHp: 55159.7734384946,
+				atk: 991.6034555844437,
+				def: 1141.1004648617875
 			},
 			calculations: {
 				short: 'MAX HP',
 				name: 'Shieldbot, Max HP',
 				details: '---',
 				weapon: 'Black Tassel',
-				ranking: 48684,
-				outOf: 569504
+				ranking: 48860,
+				outOf: 571113
 			},
 			weapon: {
 				weaponStats: { atk: 354, hp_: 46.9 },
@@ -279,8 +285,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'4x Oz hits. no buffs, talent level 13. One Oz hit does not benefit from the Thundersoother (75% uptime). Polar Star at 3 stacks.',
 				weapon: 'Polar Star',
-				ranking: 29227,
-				outOf: 222226
+				ranking: 29332,
+				outOf: 222984
 			},
 			weapon: {
 				weaponStats: { atk: 608, critRate_: 33.1 },
@@ -325,8 +331,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"1 rQ (vape) + 1 E + N2C * 6 + mSlash * 4. c0r1 Kazuha + c6r1 Xiangling + c6r1 Bennett. Most buffs expire after 3N2C. Shimenawa's burst damage is halved.",
 				weapon: 'Aqua Simulacra',
-				ranking: 18380,
-				outOf: 158121
+				ranking: 18417,
+				outOf: 158514
 			},
 			weapon: {
 				weaponStats: { atk: 23 },
@@ -370,8 +376,8 @@ export const genshinProfile: GenshinProfile = {
 				name: 'Hyper Mono Geo NA combo, Avg DMG',
 				details: 'N1 + N2 + N3 + N4. Team: Noelle C6, Gorou C6, Yunjin C6, Zhongli C0',
 				weapon: 'Serpent Spine',
-				ranking: 2050,
-				outOf: 21664
+				ranking: 2058,
+				outOf: 21744
 			},
 			weapon: {
 				weaponStats: { atk: 510, critRate_: 27.6 },
@@ -392,23 +398,23 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Hu Tao',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Hutao.png',
 			stats: {
-				critRate: 0.6293003265833862,
-				critDamage: 1.7543004457926759,
-				energyRecharge: 1.0971003477549561,
+				critRate: 0.6293007762833862,
+				critDamage: 1.7543008954926758,
+				energyRecharge: 1.097100797454956,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 34.97000154900312,
+				elementalMastery: 34.970001998703125,
 				physicalDamageBonus: 0,
-				geoDamageBonus: 0.1200003283,
-				cryoDamageBonus: 0.1200003283,
-				pyroDamageBonus: 0.7360003249621399,
-				anemoDamageBonus: 0.1200003283,
-				hydroDamageBonus: 0.1200003283,
-				dendroDamageBonus: 0.1200003283,
-				electroDamageBonus: 0.1200003283,
-				maxHp: 31640.8730472033,
-				atk: 1420.9364016954876,
-				def: 981.719482750175
+				geoDamageBonus: 0.120000778,
+				cryoDamageBonus: 0.120000778,
+				pyroDamageBonus: 0.7360007746621399,
+				anemoDamageBonus: 0.120000778,
+				hydroDamageBonus: 0.120000778,
+				dendroDamageBonus: 0.120000778,
+				electroDamageBonus: 0.120000778,
+				maxHp: 31640.873047653,
+				atk: 1420.9364021451875,
+				def: 981.719483199875
 			},
 			calculations: {
 				short: 'HYPER',
@@ -416,8 +422,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'Average DMG for 11N1CD + Q combo. elegy instructor amber c0r1. kazuha c2r1 @ 1000EM(1420). 4p SR burst uptime 1/3, other sets: 2/3. ',
 				weapon: 'Ballad of the Fjords',
-				ranking: 118793,
-				outOf: 530437
+				ranking: 119085,
+				outOf: 531773
 			},
 			weapon: {
 				weaponStats: { atk: 741, atk_: 16.5 },
@@ -437,23 +443,23 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Kaedehara Kazuha',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Kazuha.png',
 			stats: {
-				critRate: 0.05000095514505806,
-				critDamage: 0.7176009423837036,
-				energyRecharge: 1.5607340343102782,
+				critRate: 0.05000000314505806,
+				critDamage: 0.7175999903837036,
+				energyRecharge: 1.5607330823102783,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 770.280030251275,
+				elementalMastery: 770.280029299275,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
 				pyroDamageBonus: 0,
-				anemoDamageBonus: 0.15000096036046448,
+				anemoDamageBonus: 0.15000000836046448,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 23476.1328134544,
-				atk: 767.6204233176812,
-				def: 984.1942758567437
+				maxHp: 23476.1328125024,
+				atk: 767.6204223656813,
+				def: 984.1942749047438
 			},
 			calculations: {
 				short: 'EM+ER+CR',
@@ -461,8 +467,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'Assumes Favonius Sword R5 (EM / 1000 + ER / 500) * 5000 + (vv ? 2000 : 0) + (CR > 15% ? (CR * 1500) : 0)',
 				weapon: 'Favonius Sword',
-				ranking: 397877,
-				outOf: 777849
+				ranking: 399450,
+				outOf: 781043
 			},
 			weapon: {
 				weaponStats: { atk: 41, enerRech_: 13.3 },
@@ -507,8 +513,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"c0 Raiden, c2 Furina, c0 Yelan, c0 4p VV Jean. Combo: Q 3N5. Furina's Fanfare at 400 stacks. Yelan's A4 at 8s seconds. ",
 				weapon: 'Staff of the Scarlet Sands',
-				ranking: 785670,
-				outOf: 905764
+				ranking: 788339,
+				outOf: 908978
 			},
 			weapon: {
 				weaponStats: { atk: 454, eleMas: 221 },
@@ -553,8 +559,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"(((E_DMG / 5500) + (E_HEAL / 5000) + (ER / 150)) * 5000) + SET_BONUS. +6500 ToTM, +6000 OHC, +6000 Deepwood, +5000 Noblesse, +4000 Maiden. Please keep in mind custom 'balance formulas' are completely feelscrafted unlike proper avg dmg formulas.",
 				weapon: 'Everlasting Moonglow',
-				ranking: 95596,
-				outOf: 260997
+				ranking: 95754,
+				outOf: 261591
 			},
 			weapon: {
 				weaponStats: { atk: 401, hp_: 35.2 },
@@ -576,9 +582,9 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Yelan',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Yelan.png',
 			stats: {
-				critRate: 0.7591000630271484,
-				critDamage: 2.578648193062549,
-				energyRecharge: 1.4072000815284302,
+				critRate: 0.7591005099271484,
+				critDamage: 2.578648639962549,
+				energyRecharge: 1.4072005284284301,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
 				elementalMastery: 0,
@@ -587,12 +593,12 @@ export const genshinProfile: GenshinProfile = {
 				cryoDamageBonus: 0,
 				pyroDamageBonus: 0,
 				anemoDamageBonus: 0,
-				hydroDamageBonus: 0.4660000934016754,
+				hydroDamageBonus: 0.4660005403016754,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 32107.7734376027,
-				atk: 1183.8574219777,
-				def: 722.3638917042625
+				maxHp: 32107.7734380496,
+				atk: 1183.8574224246,
+				def: 722.3638921511625
 			},
 			calculations: {
 				short: 'C6 COMBO',
@@ -600,8 +606,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"Frontloaded average DMG for c6r5 Aqua Yelan Combo: 2x E + 2x BTB + 3x C2 + 5x C6 + 24x Q. Team: c0r5 fs Kazuha @ 1000 EM vv hydro swirl + Zhongli shield up + c4 Mona burst up. Yelan's A4 set to 10s, C4 2 stacks, 18% HP from A1. 4p Nymph's Dream is set to 3 stacks.",
 				weapon: 'Aqua Simulacra',
-				ranking: 17409,
-				outOf: 461224
+				ranking: 17448,
+				outOf: 462795
 			},
 			weapon: {
 				weaponStats: { atk: 542, critDMG_: 88.2 },
@@ -645,8 +651,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"Combo: E Q 3CA. C1 Tighnari + C0R1 Deepwood Nahida + electro flex + electro flex. Tighnari's A1 buffs only CAs. Enemy has pre-existing Quicken aura. Nahida's A1 buff is maxed and lasts entire combo. ",
 				weapon: 'Skyward Harp',
-				ranking: 15520,
-				outOf: 49727
+				ranking: 15566,
+				outOf: 49958
 			},
 			weapon: {
 				weaponStats: { atk: 608, critRate_: 33.1 },
@@ -667,23 +673,23 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Nahida',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Nahida.png',
 			stats: {
-				critRate: 0.32990047821908874,
-				critDamage: 0.8497004557600586,
-				energyRecharge: 1.259000544642505,
+				critRate: 0.32990088561908876,
+				critDamage: 0.8497008631600586,
+				energyRecharge: 1.259000952042505,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 988.4519658137312,
+				elementalMastery: 988.4519662211312,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
 				pyroDamageBonus: 0,
 				anemoDamageBonus: 0,
 				hydroDamageBonus: 0,
-				dendroDamageBonus: 0.15000048766046448,
+				dendroDamageBonus: 0.1500008950604645,
 				electroDamageBonus: 0,
-				maxHp: 17215.0781254817,
-				atk: 1141.32568407545,
-				def: 885.8529667902937
+				maxHp: 17215.0781258891,
+				atk: 1141.32568448285,
+				def: 885.8529671976937
 			},
 			calculations: {
 				short: 'OFF-FIELD',
@@ -691,8 +697,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'Off-field Tri-Karma Purification (non-spread) avg DMG. Example team: Nahida + Xingqiu + Kuki + non-dendro flex.',
 				weapon: 'A Thousand Floating Dreams',
-				ranking: 382074,
-				outOf: 718694
+				ranking: 383181,
+				outOf: 720804
 			},
 			weapon: {
 				weaponStats: { atk: 454, eleMas: 221 },
@@ -713,12 +719,12 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Furina',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Furina.png',
 			stats: {
-				critRate: 0.7202001166888061,
-				critDamage: 1.3159001422472778,
-				energyRecharge: 1.7249001813479248,
+				critRate: 0.720200436093451,
+				critDamage: 1.3159005212565673,
+				energyRecharge: 1.7249004411479247,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 39.62999742751797,
+				elementalMastery: 39.62999768731797,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
@@ -727,9 +733,9 @@ export const genshinProfile: GenshinProfile = {
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 38907.7500001741,
-				atk: 1222.8964845491,
-				def: 797.3916627717563
+				maxHp: 38907.7500004339,
+				atk: 1222.8964848089,
+				def: 797.3916630315563
 			},
 			calculations: {
 				short: 'SKILL',
@@ -737,8 +743,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'Average DMG for Mademoiselle Crabaletta in a double hydro team. Number of characters who offered HP: 4. Fanfare stacks count: 200. Weapon stacks maxed when applicable. ',
 				weapon: 'Fleuve Cendre Ferryman',
-				ranking: 101527,
-				outOf: 406193
+				ranking: 102049,
+				outOf: 408091
 			},
 			weapon: {
 				weaponStats: { atk: 510, enerRech_: 45.9 },
@@ -758,23 +764,23 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Arlecchino',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Arlecchino.png',
 			stats: {
-				critRate: 0.7109004966784362,
-				critDamage: 2.136036645608032,
-				energyRecharge: 1.1231005303431396,
+				critRate: 0.7070004405661376,
+				critDamage: 2.3613364162131103,
+				energyRecharge: 1.051800435988501,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
 				elementalMastery: 0,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
-				pyroDamageBonus: 0.46600047870167544,
+				pyroDamageBonus: 0.4660004141016754,
 				anemoDamageBonus: 0,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 22415.771484863,
-				atk: 2287.569580566125,
-				def: 969.4547734372187
+				maxHp: 20951.8808597984,
+				atk: 2285.588435970275,
+				def: 1025.0147709312125
 			},
 			calculations: {
 				short: 'OVERLOAD',
@@ -782,8 +788,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'C0 Arlecchino + C6 Chevreuse @ 40k HP + Electro Flex + C6R1 Aquila Bennett @ 4p Noblesse. Combo: E .. CA 5N3. Majority of potential buffs such as 4p Shimenawa / 4p HoD / 4p CW wear off before 5N3 starts due to long setup. Chevreuse stacks for CA 5N3: 0/1/1/1/2/2/2/3/3/3/... Arlecchino is below 50% HP. BoL value after using CA: 130%. 4p Whimsy stacks for CA 5N3: 1/1/2/3/... ',
 				weapon: 'Staff of Homa',
-				ranking: 46026,
-				outOf: 369252
+				ranking: 16920,
+				outOf: 371406
 			},
 			weapon: {
 				weaponStats: { atk: 608, critDMG_: 66.2 },
@@ -803,9 +809,9 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Clorinde',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Clorinde.png',
 			stats: {
-				critRate: 0.48310033144360964,
-				critDamage: 1.875700331348242,
-				energyRecharge: 1.0000003344,
+				critRate: 0.4831003828436096,
+				critDamage: 1.8757003827482421,
+				energyRecharge: 1.0000003858,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
 				elementalMastery: 0,
@@ -816,10 +822,10 @@ export const genshinProfile: GenshinProfile = {
 				anemoDamageBonus: 0,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
-				electroDamageBonus: 0.46600032510167544,
-				maxHp: 18452.0976565844,
-				atk: 2303.85888705315,
-				def: 1125.301514006275
+				electroDamageBonus: 0.4660003765016754,
+				maxHp: 18452.0976566358,
+				atk: 2303.85888710455,
+				def: 1125.301514057675
 			},
 			calculations: {
 				short: 'OVERLOAD',
@@ -827,8 +833,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"C0 Clorinde + C6 Fischl + 4p Noblesse C6 Chevreuse @ 40k HP + 4p Cinder C6 Thoma. Leaderboard ranks DPS based on 16s rotation using QEE 5N3E combo. Clorinde's A1 and A4 at full uptime for simplicity. Chevreuse's C6 stacks: QEE:0, N3E:1, N3E: 2, N3E:3, N3E:3, N3E: 3. 4pc Harmonic Whimsy stacks Q:1, EE:2, 5N3:3. Finale of the Deep's passive does not affect the burst. ",
 				weapon: 'Finale of the Deep',
-				ranking: 41507,
-				outOf: 152224
+				ranking: 41837,
+				outOf: 153319
 			},
 			weapon: {
 				weaponStats: { atk: 565, atk_: 27.6 },
@@ -982,7 +988,7 @@ export const genshinProfile: GenshinProfile = {
 				]
 			},
 			{
-				setKey: 'GladiatorsFinale',
+				setKey: 'FragmentOfHarmonicWhimsy',
 				slotKey: 'goblet',
 				level: 20,
 				rarity: 5,
@@ -990,14 +996,14 @@ export const genshinProfile: GenshinProfile = {
 				location: 'Arlecchino',
 				lock: false,
 				substats: [
-					{ key: 'atk', value: 37 },
-					{ key: 'hp', value: 538 },
-					{ key: 'critRate_', value: 10.1 },
-					{ key: 'critDMG_', value: 7.8 }
+					{ key: 'critRate_', value: 9.7 },
+					{ key: 'critDMG_', value: 15.5 },
+					{ key: 'atk', value: 18 },
+					{ key: 'def', value: 42 }
 				]
 			},
 			{
-				setKey: 'FragmentOfHarmonicWhimsy',
+				setKey: 'EmblemOfSeveredFate',
 				slotKey: 'circlet',
 				level: 20,
 				rarity: 5,
@@ -1005,10 +1011,10 @@ export const genshinProfile: GenshinProfile = {
 				location: 'Arlecchino',
 				lock: false,
 				substats: [
-					{ key: 'enerRech_', value: 12.3 },
-					{ key: 'critDMG_', value: 5.4 },
-					{ key: 'hp', value: 926 },
-					{ key: 'def', value: 21 }
+					{ key: 'def', value: 35 },
+					{ key: 'enerRech_', value: 5.2 },
+					{ key: 'critDMG_', value: 20.2 },
+					{ key: 'atk', value: 29 }
 				]
 			},
 			{
@@ -2020,5 +2026,205 @@ export const genshinProfile: GenshinProfile = {
 		Mualani: { element: 'Hydro', stars: 5, weaponType: 'WEAPON_CATALYST' },
 		Xilonen: { element: 'Geo', stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
 		'Mavuika(Trial)': { element: 'Pyro', stars: 5, weaponType: 'WEAPON_CLAYMORE' }
+	},
+	weapons: {
+		DullBlade: { stars: 1, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		SilverSword: { stars: 2, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		CoolSteel: { stars: 3, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		HarbingerOfDawn: { stars: 3, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		TravelersHandySword: { stars: 3, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		DarkIronSword: { stars: 3, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		FilletBlade: { stars: 3, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		SkyriderSword: { stars: 3, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		FavoniusSword: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		TheFlute: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		SacrificialSword: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		RoyalLongsword: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		LionsRoar: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		PrototypeRancour: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		IronSting: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		BlackcliffLongsword: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		TheBlackSword: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		TheAlleyFlash: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		SwordOfDescension: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		FesteringDesire: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		AmenomaKageuchi: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		CinnabarSpindle: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		KagotsurubeIsshin: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		SapwoodBlade: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		XiphosMoonlight: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		ToukabouShigure: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		WolfFang: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		FinaleOfTheDeep: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		FleuveCendreFerryman: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		TheDockhandsAssistant: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		SwordOfNarzissenkreuz: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		SturdyBone: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		FluteOfEzpitzal: { stars: 4, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		AquilaFavonia: { stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		SkywardBlade: { stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		FreedomSworn: { stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		SummitShaper: { stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		PrimordialJadeCutter: { stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		MistsplitterReforged: { stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		HaranGeppakuFutsu: { stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		KeyOfKhajNisut: { stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		LightOfFoliarIncision: { stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		SplendorOfTranquilWaters: { stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		UrakuMisugiri: { stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		Absolution: { stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		PeakPatrolSong: { stars: 5, weaponType: 'WEAPON_SWORD_ONE_HAND' },
+		WasterGreatsword: { stars: 1, weaponType: 'WEAPON_CLAYMORE' },
+		OldMercsPal: { stars: 2, weaponType: 'WEAPON_CLAYMORE' },
+		FerrousShadow: { stars: 3, weaponType: 'WEAPON_CLAYMORE' },
+		BloodtaintedGreatsword: { stars: 3, weaponType: 'WEAPON_CLAYMORE' },
+		WhiteIronGreatsword: { stars: 3, weaponType: 'WEAPON_CLAYMORE' },
+		DebateClub: { stars: 3, weaponType: 'WEAPON_CLAYMORE' },
+		SkyriderGreatsword: { stars: 3, weaponType: 'WEAPON_CLAYMORE' },
+		FavoniusGreatsword: { stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		TheBell: { stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		SacrificialGreatsword: { stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		RoyalGreatsword: { stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		Rainslasher: { stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		PrototypeArchaic: { stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		Whiteblind: { stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		BlackcliffSlasher: { stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		SerpentSpine: { stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		LithicBlade: { stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		SnowTombedStarsilver: { stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		LuxuriousSeaLord: { stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		KatsuragikiriNagamasa: { stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		MakhairaAquamarine: { stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		Akuoumaru: { stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		ForestRegalia: { stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		MailedFlower: { stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		TalkingStick: { stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		TidalShadow: { stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		UltimateOverlordsMegaMagicSword: { stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		PortablePowerSaw: { stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		FruitfulHook: { stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		EarthShaker: { stars: 4, weaponType: 'WEAPON_CLAYMORE' },
+		SkywardPride: { stars: 5, weaponType: 'WEAPON_CLAYMORE' },
+		WolfsGravestone: { stars: 5, weaponType: 'WEAPON_CLAYMORE' },
+		SongOfBrokenPines: { stars: 5, weaponType: 'WEAPON_CLAYMORE' },
+		TheUnforged: { stars: 5, weaponType: 'WEAPON_CLAYMORE' },
+		RedhornStonethresher: { stars: 5, weaponType: 'WEAPON_CLAYMORE' },
+		BeaconOfTheReedSea: { stars: 5, weaponType: 'WEAPON_CLAYMORE' },
+		Verdict: { stars: 5, weaponType: 'WEAPON_CLAYMORE' },
+		FangOfTheMountainKing: { stars: 5, weaponType: 'WEAPON_CLAYMORE' },
+		BeginnersProtector: { stars: 1, weaponType: 'WEAPON_POLE' },
+		IronPoint: { stars: 2, weaponType: 'WEAPON_POLE' },
+		WhiteTassel: { stars: 3, weaponType: 'WEAPON_POLE' },
+		Halberd: { stars: 3, weaponType: 'WEAPON_POLE' },
+		BlackTassel: { stars: 3, weaponType: 'WEAPON_POLE' },
+		DragonsBane: { stars: 4, weaponType: 'WEAPON_POLE' },
+		PrototypeStarglitter: { stars: 4, weaponType: 'WEAPON_POLE' },
+		CrescentPike: { stars: 4, weaponType: 'WEAPON_POLE' },
+		BlackcliffPole: { stars: 4, weaponType: 'WEAPON_POLE' },
+		Deathmatch: { stars: 4, weaponType: 'WEAPON_POLE' },
+		LithicSpear: { stars: 4, weaponType: 'WEAPON_POLE' },
+		FavoniusLance: { stars: 4, weaponType: 'WEAPON_POLE' },
+		RoyalSpear: { stars: 4, weaponType: 'WEAPON_POLE' },
+		DragonspineSpear: { stars: 4, weaponType: 'WEAPON_POLE' },
+		KitainCrossSpear: { stars: 4, weaponType: 'WEAPON_POLE' },
+		TheCatch: { stars: 4, weaponType: 'WEAPON_POLE' },
+		WavebreakersFin: { stars: 4, weaponType: 'WEAPON_POLE' },
+		Moonpiercer: { stars: 4, weaponType: 'WEAPON_POLE' },
+		MissiveWindspear: { stars: 4, weaponType: 'WEAPON_POLE' },
+		BalladOfTheFjords: { stars: 4, weaponType: 'WEAPON_POLE' },
+		RightfulReward: { stars: 4, weaponType: 'WEAPON_POLE' },
+		DialoguesOfTheDesertSages: { stars: 4, weaponType: 'WEAPON_POLE' },
+		ProspectorsDrill: { stars: 4, weaponType: 'WEAPON_POLE' },
+		MountainBracingBolt: { stars: 4, weaponType: 'WEAPON_POLE' },
+		FootprintOfTheRainbow: { stars: 4, weaponType: 'WEAPON_POLE' },
+		StaffOfHoma: { stars: 5, weaponType: 'WEAPON_POLE' },
+		SkywardSpine: { stars: 5, weaponType: 'WEAPON_POLE' },
+		VortexVanquisher: { stars: 5, weaponType: 'WEAPON_POLE' },
+		PrimordialJadeWingedSpear: { stars: 5, weaponType: 'WEAPON_POLE' },
+		CalamityQueller: { stars: 5, weaponType: 'WEAPON_POLE' },
+		EngulfingLightning: { stars: 5, weaponType: 'WEAPON_POLE' },
+		StaffOfTheScarletSands: { stars: 5, weaponType: 'WEAPON_POLE' },
+		CrimsonMoonsSemblance: { stars: 5, weaponType: 'WEAPON_POLE' },
+		LumidouceElegy: { stars: 5, weaponType: 'WEAPON_POLE' },
+		ApprenticesNotes: { stars: 1, weaponType: 'WEAPON_CATALYST' },
+		PocketGrimoire: { stars: 2, weaponType: 'WEAPON_CATALYST' },
+		MagicGuide: { stars: 3, weaponType: 'WEAPON_CATALYST' },
+		ThrillingTalesOfDragonSlayers: { stars: 3, weaponType: 'WEAPON_CATALYST' },
+		OtherworldlyStory: { stars: 3, weaponType: 'WEAPON_CATALYST' },
+		EmeraldOrb: { stars: 3, weaponType: 'WEAPON_CATALYST' },
+		TwinNephrite: { stars: 3, weaponType: 'WEAPON_CATALYST' },
+		FavoniusCodex: { stars: 4, weaponType: 'WEAPON_CATALYST' },
+		TheWidsith: { stars: 4, weaponType: 'WEAPON_CATALYST' },
+		SacrificialFragments: { stars: 4, weaponType: 'WEAPON_CATALYST' },
+		RoyalGrimoire: { stars: 4, weaponType: 'WEAPON_CATALYST' },
+		SolarPearl: { stars: 4, weaponType: 'WEAPON_CATALYST' },
+		PrototypeAmber: { stars: 4, weaponType: 'WEAPON_CATALYST' },
+		MappaMare: { stars: 4, weaponType: 'WEAPON_CATALYST' },
+		BlackcliffAgate: { stars: 4, weaponType: 'WEAPON_CATALYST' },
+		EyeOfPerception: { stars: 4, weaponType: 'WEAPON_CATALYST' },
+		WineAndSong: { stars: 4, weaponType: 'WEAPON_CATALYST' },
+		Frostbearer: { stars: 4, weaponType: 'WEAPON_CATALYST' },
+		DodocoTales: { stars: 4, weaponType: 'WEAPON_CATALYST' },
+		HakushinRing: { stars: 4, weaponType: 'WEAPON_CATALYST' },
+		OathswornEye: { stars: 4, weaponType: 'WEAPON_CATALYST' },
+		WanderingEvenstar: { stars: 4, weaponType: 'WEAPON_CATALYST' },
+		FruitOfFulfillment: { stars: 4, weaponType: 'WEAPON_CATALYST' },
+		SacrificialJade: { stars: 4, weaponType: 'WEAPON_CATALYST' },
+		FlowingPurity: { stars: 4, weaponType: 'WEAPON_CATALYST' },
+		BalladOfTheBoundlessBlue: { stars: 4, weaponType: 'WEAPON_CATALYST' },
+		AshGravenDrinkingHorn: { stars: 4, weaponType: 'WEAPON_CATALYST' },
+		RingOfYaxche: { stars: 4, weaponType: 'WEAPON_CATALYST' },
+		SkywardAtlas: { stars: 5, weaponType: 'WEAPON_CATALYST' },
+		LostPrayerToTheSacredWinds: { stars: 5, weaponType: 'WEAPON_CATALYST' },
+		MemoryOfDust: { stars: 5, weaponType: 'WEAPON_CATALYST' },
+		JadefallsSplendor: { stars: 5, weaponType: 'WEAPON_CATALYST' },
+		EverlastingMoonglow: { stars: 5, weaponType: 'WEAPON_CATALYST' },
+		KagurasVerity: { stars: 5, weaponType: 'WEAPON_CATALYST' },
+		AThousandFloatingDreams: { stars: 5, weaponType: 'WEAPON_CATALYST' },
+		TulaytullahsRemembrance: { stars: 5, weaponType: 'WEAPON_CATALYST' },
+		CashflowSupervision: { stars: 5, weaponType: 'WEAPON_CATALYST' },
+		TomeOfTheEternalFlow: { stars: 5, weaponType: 'WEAPON_CATALYST' },
+		CranesEchoingCall: { stars: 5, weaponType: 'WEAPON_CATALYST' },
+		SurfsUp: { stars: 5, weaponType: 'WEAPON_CATALYST' },
+		HuntersBow: { stars: 1, weaponType: 'WEAPON_BOW' },
+		SeasonedHuntersBow: { stars: 2, weaponType: 'WEAPON_BOW' },
+		RavenBow: { stars: 3, weaponType: 'WEAPON_BOW' },
+		SharpshootersOath: { stars: 3, weaponType: 'WEAPON_BOW' },
+		RecurveBow: { stars: 3, weaponType: 'WEAPON_BOW' },
+		Slingshot: { stars: 3, weaponType: 'WEAPON_BOW' },
+		Messenger: { stars: 3, weaponType: 'WEAPON_BOW' },
+		FavoniusWarbow: { stars: 4, weaponType: 'WEAPON_BOW' },
+		TheStringless: { stars: 4, weaponType: 'WEAPON_BOW' },
+		SacrificialBow: { stars: 4, weaponType: 'WEAPON_BOW' },
+		RoyalBow: { stars: 4, weaponType: 'WEAPON_BOW' },
+		Rust: { stars: 4, weaponType: 'WEAPON_BOW' },
+		PrototypeCrescent: { stars: 4, weaponType: 'WEAPON_BOW' },
+		CompoundBow: { stars: 4, weaponType: 'WEAPON_BOW' },
+		BlackcliffWarbow: { stars: 4, weaponType: 'WEAPON_BOW' },
+		TheViridescentHunt: { stars: 4, weaponType: 'WEAPON_BOW' },
+		AlleyHunter: { stars: 4, weaponType: 'WEAPON_BOW' },
+		FadingTwilight: { stars: 4, weaponType: 'WEAPON_BOW' },
+		MitternachtsWaltz: { stars: 4, weaponType: 'WEAPON_BOW' },
+		WindblumeOde: { stars: 4, weaponType: 'WEAPON_BOW' },
+		Hamayumi: { stars: 4, weaponType: 'WEAPON_BOW' },
+		Predator: { stars: 4, weaponType: 'WEAPON_BOW' },
+		MouunsMoon: { stars: 4, weaponType: 'WEAPON_BOW' },
+		KingsSquire: { stars: 4, weaponType: 'WEAPON_BOW' },
+		EndOfTheLine: { stars: 4, weaponType: 'WEAPON_BOW' },
+		IbisPiercer: { stars: 4, weaponType: 'WEAPON_BOW' },
+		ScionOfTheBlazingSun: { stars: 4, weaponType: 'WEAPON_BOW' },
+		SongOfStillness: { stars: 4, weaponType: 'WEAPON_BOW' },
+		Cloudforged: { stars: 4, weaponType: 'WEAPON_BOW' },
+		RangeGauge: { stars: 4, weaponType: 'WEAPON_BOW' },
+		ChainBreaker: { stars: 4, weaponType: 'WEAPON_BOW' },
+		SkywardHarp: { stars: 5, weaponType: 'WEAPON_BOW' },
+		AmosBow: { stars: 5, weaponType: 'WEAPON_BOW' },
+		ElegyForTheEnd: { stars: 5, weaponType: 'WEAPON_BOW' },
+		PolarStar: { stars: 5, weaponType: 'WEAPON_BOW' },
+		AquaSimulacra: { stars: 5, weaponType: 'WEAPON_BOW' },
+		ThunderingPulse: { stars: 5, weaponType: 'WEAPON_BOW' },
+		HuntersPath: { stars: 5, weaponType: 'WEAPON_BOW' },
+		TheFirstGreatMagic: { stars: 5, weaponType: 'WEAPON_BOW' },
+		SilvershowerHeartstrings: { stars: 5, weaponType: 'WEAPON_BOW' }
 	}
 };
