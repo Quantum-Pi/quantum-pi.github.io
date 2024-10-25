@@ -37,5 +37,6 @@
 		--rare: #{app.$rare};
 		--epic: #{app.$epic};
 		--legendary: #{app.$legendary};
+		--mythic: #{app.$mythic};
 	}
 </style>
