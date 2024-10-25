@@ -2,11 +2,12 @@
 	import BGDesktop from '../../../assets/bg-genshin.jpg?enhanced&w=3840;2560;1800&blur=3&effort=max&fit=cover&format=webp';
 	import BGMobile from '../../../assets/bg-eso-mobile.png?enhanced&w=1600;1280;640&blur=1.25&effort=max&fit=cover&format=webp';
 
-	import characters, { weapons } from '$lib/genshin_agg';
+	import characters, { artifacts, weapons } from '$lib/genshin_agg';
 	import CharacterCard from './CharacterCard/CharacterCard.svelte';
 	import MiniCharacter from './MiniCharacter.svelte';
 	import type { GenshinCharacter, GenshinWeapon } from '$lib/genshin_agg';
 	import MiniWeapon from './MiniWeapon.svelte';
+	import MiniArtifact from './MiniArtifact.svelte';
 
 	const sortMiniCharacter = (a: GenshinCharacter, b: GenshinCharacter) => {
 		// 1) Rarity
@@ -76,6 +77,13 @@
 				{#if c.key === 'Yelan' || c.key === 'Arlecchino' || c.key === 'Xiao' || c.key === 'Noelle'}
 					<CharacterCard character={c} />
 				{/if}
+			{/each}
+		</div>
+		<div
+			class="w-fit h-full grid gap-6 grid-cols-3 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-9 mt-8"
+		>
+			{#each artifacts as a}
+				<MiniArtifact artifact={a} />
 			{/each}
 		</div>
 	</div>
