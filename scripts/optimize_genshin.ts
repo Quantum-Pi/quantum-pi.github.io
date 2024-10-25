@@ -111,6 +111,18 @@ const characters: GenshinCharacter[] = good.characters
 	})
 	.filter((character) => !character.key.includes('Traveler')); // TODO: point of failure if new character has Traveler in name
 
+const weapons = good.weapons.map((weapon) => {
+	const weaponData = genshinProfile.weapons[weapon.key];
+	return {
+		key: weapon.key,
+		level: weapon.level,
+		refinement: weapon.refinement,
+		ascension: weapon.ascension,
+		location: weapon.location === '' ? undefined : weapon.location,
+		stars: weaponData.stars
+	};
+});
+
 const ts = `
 import type { IGOOD } from 'enka-network-api';
 import type { ArtifactCacheKey, CharacterCacheKey, WeaponCacheKey } from './genshin_cache';
@@ -165,6 +177,15 @@ type GenshinCharacter = {
 		stats: Record<BuildStatKey, number>;
 	};
 };
+
+export type GenshinWeapon = {
+	key: WeaponCacheKey;
+	stars: number;
+	level: number;
+	refinement: number;
+	ascension: number;
+	location?: string;
+}
 const elementToBuildStatKey: Record<Element, BuildStatKey> = {
 	Anemo: 'anemoDamageBonus',
 	Cryo: 'cryoDamageBonus',
@@ -175,8 +196,9 @@ const elementToBuildStatKey: Record<Element, BuildStatKey> = {
 	Pyro: 'pyroDamageBonus'
 }
 const characters: GenshinCharacter[] = ${JSON.stringify(characters)}
+const weapons: GenshinWeapon[] = ${JSON.stringify(weapons)}
 export default characters
-export { elementToBuildStatKey }
+export { elementToBuildStatKey, weapons }
 export type { GenshinCharacter, BuildStatKey, Element }
 `;
 
