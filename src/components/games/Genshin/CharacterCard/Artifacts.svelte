@@ -8,8 +8,6 @@
 	export let resources: CharacterResource['artifact'];
 
 	const artifacts = character.artifacts ?? [];
-	// const key = artifact.setKey as ArtifactCacheKey;
-	// const img = getArtifactImage(key, artifact.slotKey);
 </script>
 
 <div
@@ -65,7 +63,7 @@
 	.rarity {
 		--star-width: calc(7px * var(--scale));
 		--width: calc(var(--star-width) * var(--rarity));
-		background-image: url(star.svg);
+		background-image: url(/star.svg);
 		width: var(--width);
 		height: var(--star-width);
 	}

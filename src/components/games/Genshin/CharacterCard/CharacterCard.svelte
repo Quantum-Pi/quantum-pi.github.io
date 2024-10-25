@@ -37,8 +37,8 @@
 	} from '$lib/genshin_cache';
 	import type { Picture } from 'vite-imagetools';
 	import Artifacts from './Artifacts.svelte';
-	import Character from './Character.svelte';
-	import WeaponStats from './WeaponStats.svelte';
+	import Character from './Character/Character.svelte';
+	import WeaponStats from './Stats/WeaponStats.svelte';
 	import type { SlotKey } from 'enka-network-api';
 
 	export let character: GenshinCharacter;

@@ -3,8 +3,8 @@
 	import BGMobile from '../../../assets/bg-eso-mobile.png?enhanced&w=1600;1280;640&blur=1.25&effort=max&fit=cover&format=webp';
 
 	import characters from '$lib/genshin_agg';
-	import CharacterCard from '../../genshin/CharacterCard/CharacterCard.svelte';
-	import MiniCharacter from '../../genshin/MiniCharacter.svelte';
+	import CharacterCard from './CharacterCard/CharacterCard.svelte';
+	import MiniCharacter from './MiniCharacter.svelte';
 	import type { GenshinCharacter } from '$lib/genshin_agg';
 
 	const sortMiniCharacter = (a: GenshinCharacter, b: GenshinCharacter) => {

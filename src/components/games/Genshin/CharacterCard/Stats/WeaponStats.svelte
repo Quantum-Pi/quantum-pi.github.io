@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { elementToBuildStatKey, type GenshinCharacter } from '$lib/genshin_agg';
 	import { getWeaponImage, type CharacterCacheKey, type WeaponCacheKey } from '$lib/genshin_cache';
-	import type { CharacterResource } from './CharacterCard.svelte';
+	import type { CharacterResource } from '../CharacterCard.svelte';
 	import Stat from './Stat.svelte';
 
 	export let character: GenshinCharacter;
@@ -104,7 +104,7 @@
 		content: '';
 		--star-width: calc(9px * var(--scale));
 		--width: calc(var(--star-width) * var(--weapon-rarity));
-		background-image: url(star.svg);
+		background-image: url(/star.svg);
 		display: block;
 		position: absolute;
 		top: var(--img-size);
