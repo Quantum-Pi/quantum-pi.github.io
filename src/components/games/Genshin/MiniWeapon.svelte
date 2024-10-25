@@ -1,14 +1,13 @@
 <script lang="ts">
-	import type { GenshinCharacter, GenshinWeapon } from '$lib/genshin_agg';
-	import { getCharacterImage, getWeaponImage, type CharacterCacheKey } from '$lib/genshin_cache';
-	import type { CharacterResource } from './CharacterCard/CharacterCard.svelte';
+	import type { GenshinWeapon } from '$lib/genshin_agg';
+	import { getCharacterImage, getWeaponImage } from '$lib/genshin_cache';
 
 	export let weapon: GenshinWeapon;
 
 	const getResources = async () => ({
 		icon: await getWeaponImage(weapon.key, weapon.refinement >= 5 ? 'awakenIcon' : 'baseIocn'),
 		characterIcon: weapon.location
-			? await getCharacterImage(weapon.location as CharacterCacheKey, 'characterIcon')
+			? await getCharacterImage(weapon.location, 'characterIcon')
 			: undefined
 	});
 </script>

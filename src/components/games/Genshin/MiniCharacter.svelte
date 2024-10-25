@@ -1,7 +1,6 @@
 <script lang="ts">
 	import type { GenshinCharacter } from '$lib/genshin_agg';
 	import { getCharacterImage } from '$lib/genshin_cache';
-	import type { CharacterResource } from './CharacterCard/CharacterCard.svelte';
 
 	export let character: GenshinCharacter;
 
@@ -68,6 +67,7 @@
 		width: 21px;
 		height: 21px;
 	}
+
 	.level {
 		background: rgba(0, 0, 0, 0.8);
 		width: 21px;
