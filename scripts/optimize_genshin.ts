@@ -1,8 +1,10 @@
 // import { writeFileSync } from 'fs';
 import { BuildStatKey, genshinProfile } from '../data/genshin_raw';
-import { IGOOD } from 'enka-network-api';
-import good from '../data/good.json';
+import { IGOOD, ISubstat, SlotKey, StatKey } from 'enka-network-api';
+import goodJSON from '../data/good.json';
 import { writeFileSync } from 'fs';
+
+const good: IGOOD = goodJSON as IGOOD;
 
 // ===== Weapon by character name =====
 type Weapon = Exclude<IGOOD['weapons'], undefined>;
@@ -97,34 +99,85 @@ type GenshinCharacter = {
 		stats: Record<BuildStatKey, number>;
 	};
 };
-const characters: GenshinCharacter[] = good.characters
-	.map((character) => {
-		const characterData = genshinProfile.characters[character.key];
-		return {
-			...character,
-			element: characterData?.element,
-			stars: characterData?.stars,
-			weapon: weaponMap[character.key] ?? undefined,
-			artifacts: artifactMap[character.key] ?? undefined,
-			ranking: rankingMap[character.key] ?? undefined
-		};
-	})
-	.filter((character) => !character.key.includes('Traveler')); // TODO: point of failure if new character has Traveler in name
+const characters: GenshinCharacter[] =
+	good.characters
+		?.map((character) => {
+			const characterData = genshinProfile.characters[character.key];
+			return {
+				...character,
+				element: characterData?.element,
+				stars: characterData?.stars,
+				weapon: weaponMap[character.key] ?? undefined,
+				artifacts: artifactMap[character.key] ?? undefined,
+				ranking: rankingMap[character.key] ?? undefined
+			};
+		})
+		.filter((character) => !character.key.includes('Traveler')) ?? []; // TODO: point of failure if new character has Traveler in name
 
-const weapons = good.weapons.map((weapon) => {
-	const weaponData = genshinProfile.weapons[weapon.key];
-	return {
-		key: weapon.key,
-		level: weapon.level,
-		refinement: weapon.refinement,
-		ascension: weapon.ascension,
-		location: weapon.location === '' ? undefined : weapon.location,
-		stars: weaponData.stars
-	};
-});
+type GenshinWeapon = {
+	key: string;
+	stars: number;
+	level: number;
+	refinement: number;
+	ascension: number;
+	location?: string;
+};
+
+const weapons: GenshinWeapon[] =
+	good.weapons?.map((weapon) => {
+		const weaponData = genshinProfile.weapons[weapon.key];
+		return {
+			key: weapon.key,
+			level: weapon.level,
+			refinement: weapon.refinement,
+			ascension: weapon.ascension,
+			location:
+				weapon.location === '' || weapon.location.startsWith('Traveler')
+					? undefined
+					: weapon.location,
+			stars: weaponData.stars
+		};
+	}) ?? [];
+
+type GenshinArtifact = {
+	mainStatKey: StatKey;
+	substats: ISubstat[];
+	setKey: string;
+	slotKey: SlotKey;
+	cv: number;
+	location?: string;
+};
+const artifacts: GenshinArtifact[] =
+	good.artifacts
+		?.filter((artifact) => {
+			const cr = artifact.substats.find((ss) => ss.key === 'critRate_')?.value ?? 0;
+			const cd = artifact.substats.find((ss) => ss.key === 'critDMG_')?.value ?? 0;
+			const cv = cd + 2 * cr;
+
+			const isYellow = artifact.rarity === 5;
+			const isMax = artifact.level === 20;
+			const isHighCV = cv > 30;
+			return isYellow && isMax && isHighCV;
+		})
+		.map(({ mainStatKey, substats, setKey, slotKey, location }) => ({
+			mainStatKey,
+			substats: substats.sort(
+				(a, b) => (b.key.startsWith('crit') ? 1 : 0) - (a.key.startsWith('crit') ? 1 : 0)
+			),
+			setKey,
+			slotKey,
+			location: location === '' || location.startsWith('Traveler') ? undefined : location,
+			cv: parseFloat(
+				(
+					(substats.find((ss) => ss.key === 'critDMG_')?.value ?? 0) +
+					2 * (substats.find((ss) => ss.key === 'critRate_')?.value ?? 0)
+				).toFixed(2)
+			)
+		}))
+		.sort((a, b) => b.cv - a.cv) ?? [];
 
 const ts = `
-import type { IGOOD } from 'enka-network-api';
+import type { IGOOD, StatKey, ISubstat, SlotKey } from 'enka-network-api';
 import type { ArtifactCacheKey, CharacterCacheKey, WeaponCacheKey } from './genshin_cache';
 type Weapon = Exclude<IGOOD['weapons'], undefined>;
 type WeaponExport = Omit<Weapon[0], 'location' | 'lock' | 'key'> & {
@@ -153,6 +206,7 @@ type BuildStatKey =
 	| 'maxHp'
 	| 'atk'
 	| 'def';
+
 type GenshinCharacter = {
 	key: CharacterCacheKey
 	level: number;
@@ -184,8 +238,18 @@ export type GenshinWeapon = {
 	level: number;
 	refinement: number;
 	ascension: number;
-	location?: string;
+	location?: CharacterCacheKey;
 }
+
+export type GenshinArtifact = {
+	setKey: ArtifactCacheKey;
+	mainStatKey: StatKey;
+	substats: ISubstat[];
+	slotKey: SlotKey;
+	cv: number;
+	location?: CharacterCacheKey;
+};
+
 const elementToBuildStatKey: Record<Element, BuildStatKey> = {
 	Anemo: 'anemoDamageBonus',
 	Cryo: 'cryoDamageBonus',
@@ -195,10 +259,12 @@ const elementToBuildStatKey: Record<Element, BuildStatKey> = {
 	Hydro: 'hydroDamageBonus',
 	Pyro: 'pyroDamageBonus'
 }
+
 const characters: GenshinCharacter[] = ${JSON.stringify(characters)}
 const weapons: GenshinWeapon[] = ${JSON.stringify(weapons)}
+const artifacts: GenshinArtifact[] = ${JSON.stringify(artifacts)}
 export default characters
-export { elementToBuildStatKey, weapons }
+export { elementToBuildStatKey, weapons, artifacts }
 export type { GenshinCharacter, BuildStatKey, Element }
 `;
 

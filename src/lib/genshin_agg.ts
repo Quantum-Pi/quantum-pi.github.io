@@ -1,4 +1,4 @@
-import type { IGOOD } from 'enka-network-api';
+import type { IGOOD, StatKey, ISubstat, SlotKey } from 'enka-network-api';
 import type { ArtifactCacheKey, CharacterCacheKey, WeaponCacheKey } from './genshin_cache';
 type Weapon = Exclude<IGOOD['weapons'], undefined>;
 type WeaponExport = Omit<Weapon[0], 'location' | 'lock' | 'key'> & {
@@ -27,6 +27,7 @@ type BuildStatKey =
 	| 'maxHp'
 	| 'atk'
 	| 'def';
+
 type GenshinCharacter = {
 	key: CharacterCacheKey;
 	level: number;
@@ -58,8 +59,18 @@ export type GenshinWeapon = {
 	level: number;
 	refinement: number;
 	ascension: number;
-	location?: string;
+	location?: CharacterCacheKey;
 };
+
+export type GenshinArtifact = {
+	setKey: ArtifactCacheKey;
+	mainStatKey: StatKey;
+	substats: ISubstat[];
+	slotKey: SlotKey;
+	cv: number;
+	location?: CharacterCacheKey;
+};
+
 const elementToBuildStatKey: Record<Element, BuildStatKey> = {
 	Anemo: 'anemoDamageBonus',
 	Cryo: 'cryoDamageBonus',
@@ -69,6 +80,7 @@ const elementToBuildStatKey: Record<Element, BuildStatKey> = {
 	Hydro: 'hydroDamageBonus',
 	Pyro: 'pyroDamageBonus'
 };
+
 const characters: GenshinCharacter[] = [
 	{
 		key: 'Yelan',
@@ -88,8 +100,8 @@ const characters: GenshinCharacter[] = [
 				mainStatKey: 'hp',
 				substats: [
 					{ key: 'critDMG_', value: 20.2 },
-					{ key: 'def_', value: 7.3 },
 					{ key: 'critRate_', value: 10.9 },
+					{ key: 'def_', value: 7.3 },
 					{ key: 'def', value: 23 }
 				]
 			},
@@ -100,10 +112,10 @@ const characters: GenshinCharacter[] = [
 				rarity: 5,
 				mainStatKey: 'atk',
 				substats: [
-					{ key: 'hp_', value: 9.9 },
 					{ key: 'critDMG_', value: 19.4 },
-					{ key: 'enerRech_', value: 11 },
-					{ key: 'critRate_', value: 6.2 }
+					{ key: 'critRate_', value: 6.2 },
+					{ key: 'hp_', value: 9.9 },
+					{ key: 'enerRech_', value: 11 }
 				]
 			},
 			{
@@ -126,8 +138,8 @@ const characters: GenshinCharacter[] = [
 				rarity: 5,
 				mainStatKey: 'hydro_dmg_',
 				substats: [
-					{ key: 'def_', value: 5.1 },
 					{ key: 'critDMG_', value: 31.1 },
+					{ key: 'def_', value: 5.1 },
 					{ key: 'hp_', value: 4.1 },
 					{ key: 'enerRech_', value: 9.7 }
 				]
@@ -193,8 +205,8 @@ const characters: GenshinCharacter[] = [
 				mainStatKey: 'hp',
 				substats: [
 					{ key: 'critDMG_', value: 25.6 },
-					{ key: 'def_', value: 7.3 },
 					{ key: 'critRate_', value: 7.8 },
+					{ key: 'def_', value: 7.3 },
 					{ key: 'atk', value: 18 }
 				]
 			},
@@ -205,10 +217,10 @@ const characters: GenshinCharacter[] = [
 				rarity: 5,
 				mainStatKey: 'atk',
 				substats: [
-					{ key: 'hp', value: 538 },
-					{ key: 'def_', value: 13.1 },
 					{ key: 'critRate_', value: 6.2 },
-					{ key: 'critDMG_', value: 21 }
+					{ key: 'critDMG_', value: 21 },
+					{ key: 'hp', value: 538 },
+					{ key: 'def_', value: 13.1 }
 				]
 			},
 			{
@@ -311,9 +323,9 @@ const characters: GenshinCharacter[] = [
 				mainStatKey: 'atk',
 				substats: [
 					{ key: 'critDMG_', value: 22.5 },
+					{ key: 'critRate_', value: 7 },
 					{ key: 'def_', value: 13.1 },
-					{ key: 'enerRech_', value: 5.8 },
-					{ key: 'critRate_', value: 7 }
+					{ key: 'enerRech_', value: 5.8 }
 				]
 			},
 			{
@@ -546,10 +558,10 @@ const characters: GenshinCharacter[] = [
 				rarity: 5,
 				mainStatKey: 'hp_',
 				substats: [
-					{ key: 'eleMas', value: 16 },
 					{ key: 'critRate_', value: 7 },
-					{ key: 'def_', value: 10.2 },
-					{ key: 'critDMG_', value: 19.4 }
+					{ key: 'critDMG_', value: 19.4 },
+					{ key: 'eleMas', value: 16 },
+					{ key: 'def_', value: 10.2 }
 				]
 			},
 			{
@@ -703,8 +715,8 @@ const characters: GenshinCharacter[] = [
 				mainStatKey: 'hp',
 				substats: [
 					{ key: 'critRate_', value: 7 },
-					{ key: 'enerRech_', value: 11 },
 					{ key: 'critDMG_', value: 21 },
+					{ key: 'enerRech_', value: 11 },
 					{ key: 'eleMas', value: 42 }
 				]
 			},
@@ -715,10 +727,10 @@ const characters: GenshinCharacter[] = [
 				rarity: 5,
 				mainStatKey: 'atk',
 				substats: [
-					{ key: 'hp_', value: 4.7 },
 					{ key: 'critDMG_', value: 18.7 },
-					{ key: 'eleMas', value: 23 },
-					{ key: 'critRate_', value: 12.8 }
+					{ key: 'critRate_', value: 12.8 },
+					{ key: 'hp_', value: 4.7 },
+					{ key: 'eleMas', value: 23 }
 				]
 			},
 			{
@@ -1081,9 +1093,9 @@ const characters: GenshinCharacter[] = [
 				mainStatKey: 'hp',
 				substats: [
 					{ key: 'critRate_', value: 11.7 },
+					{ key: 'critDMG_', value: 7 },
 					{ key: 'eleMas', value: 40 },
-					{ key: 'atk_', value: 13.4 },
-					{ key: 'critDMG_', value: 7 }
+					{ key: 'atk_', value: 13.4 }
 				]
 			},
 			{
@@ -1185,9 +1197,9 @@ const characters: GenshinCharacter[] = [
 				rarity: 5,
 				mainStatKey: 'eleMas',
 				substats: [
-					{ key: 'enerRech_', value: 5.2 },
 					{ key: 'critDMG_', value: 21.8 },
 					{ key: 'critRate_', value: 9.7 },
+					{ key: 'enerRech_', value: 5.2 },
 					{ key: 'def', value: 23 }
 				]
 			},
@@ -1550,9 +1562,9 @@ const characters: GenshinCharacter[] = [
 				mainStatKey: 'hp',
 				substats: [
 					{ key: 'critDMG_', value: 19.4 },
+					{ key: 'critRate_', value: 5.8 },
 					{ key: 'enerRech_', value: 5.8 },
-					{ key: 'atk', value: 35 },
-					{ key: 'critRate_', value: 5.8 }
+					{ key: 'atk', value: 35 }
 				]
 			},
 			{
@@ -1730,10 +1742,10 @@ const characters: GenshinCharacter[] = [
 				rarity: 5,
 				mainStatKey: 'hp',
 				substats: [
-					{ key: 'atk', value: 16 },
-					{ key: 'atk_', value: 4.1 },
 					{ key: 'critRate_', value: 10.5 },
-					{ key: 'critDMG_', value: 28.7 }
+					{ key: 'critDMG_', value: 28.7 },
+					{ key: 'atk', value: 16 },
+					{ key: 'atk_', value: 4.1 }
 				]
 			},
 			{
@@ -1783,8 +1795,8 @@ const characters: GenshinCharacter[] = [
 				mainStatKey: 'dendro_dmg_',
 				substats: [
 					{ key: 'critDMG_', value: 6.2 },
-					{ key: 'hp_', value: 10.5 },
 					{ key: 'critRate_', value: 13.6 },
+					{ key: 'hp_', value: 10.5 },
 					{ key: 'atk', value: 16 }
 				]
 			}
@@ -2092,9 +2104,9 @@ const characters: GenshinCharacter[] = [
 				mainStatKey: 'hp',
 				substats: [
 					{ key: 'critDMG_', value: 14 },
+					{ key: 'critRate_', value: 10.5 },
 					{ key: 'def', value: 32 },
-					{ key: 'hp_', value: 9.9 },
-					{ key: 'critRate_', value: 10.5 }
+					{ key: 'hp_', value: 9.9 }
 				]
 			},
 			{
@@ -2104,10 +2116,10 @@ const characters: GenshinCharacter[] = [
 				rarity: 5,
 				mainStatKey: 'atk',
 				substats: [
-					{ key: 'def', value: 37 },
-					{ key: 'enerRech_', value: 12.3 },
 					{ key: 'critRate_', value: 9.3 },
-					{ key: 'critDMG_', value: 12.4 }
+					{ key: 'critDMG_', value: 12.4 },
+					{ key: 'def', value: 37 },
+					{ key: 'enerRech_', value: 12.3 }
 				]
 			},
 			{
@@ -2182,10 +2194,10 @@ const characters: GenshinCharacter[] = [
 				rarity: 5,
 				mainStatKey: 'atk_',
 				substats: [
+					{ key: 'critDMG_', value: 36.5 },
 					{ key: 'atk', value: 14 },
 					{ key: 'hp_', value: 9.9 },
-					{ key: 'def', value: 19 },
-					{ key: 'critDMG_', value: 36.5 }
+					{ key: 'def', value: 19 }
 				]
 			},
 			{
@@ -2492,10 +2504,10 @@ const characters: GenshinCharacter[] = [
 				rarity: 5,
 				mainStatKey: 'hp_',
 				substats: [
-					{ key: 'hp', value: 747 },
-					{ key: 'eleMas', value: 16 },
 					{ key: 'critRate_', value: 3.1 },
-					{ key: 'critDMG_', value: 24.1 }
+					{ key: 'critDMG_', value: 24.1 },
+					{ key: 'hp', value: 747 },
+					{ key: 'eleMas', value: 16 }
 				]
 			},
 			{
@@ -2620,9 +2632,9 @@ const characters: GenshinCharacter[] = [
 				rarity: 5,
 				mainStatKey: 'enerRech_',
 				substats: [
-					{ key: 'def', value: 19 },
 					{ key: 'critDMG_', value: 33.4 },
 					{ key: 'critRate_', value: 7.8 },
+					{ key: 'def', value: 19 },
 					{ key: 'hp', value: 269 }
 				]
 			},
@@ -3165,9 +3177,9 @@ const characters: GenshinCharacter[] = [
 				mainStatKey: 'hp',
 				substats: [
 					{ key: 'critRate_', value: 16.3 },
+					{ key: 'critDMG_', value: 5.4 },
 					{ key: 'def_', value: 6.6 },
-					{ key: 'atk', value: 14 },
-					{ key: 'critDMG_', value: 5.4 }
+					{ key: 'atk', value: 14 }
 				]
 			},
 			{
@@ -3190,10 +3202,10 @@ const characters: GenshinCharacter[] = [
 				rarity: 5,
 				mainStatKey: 'atk_',
 				substats: [
-					{ key: 'hp', value: 448 },
 					{ key: 'critDMG_', value: 21 },
-					{ key: 'def_', value: 11.7 },
-					{ key: 'critRate_', value: 5.8 }
+					{ key: 'critRate_', value: 5.8 },
+					{ key: 'hp', value: 448 },
+					{ key: 'def_', value: 11.7 }
 				]
 			},
 			{
@@ -3269,10 +3281,10 @@ const characters: GenshinCharacter[] = [
 				rarity: 5,
 				mainStatKey: 'hp_',
 				substats: [
-					{ key: 'def_', value: 12.4 },
-					{ key: 'hp', value: 299 },
 					{ key: 'critRate_', value: 6.2 },
-					{ key: 'critDMG_', value: 18.7 }
+					{ key: 'critDMG_', value: 18.7 },
+					{ key: 'def_', value: 12.4 },
+					{ key: 'hp', value: 299 }
 				]
 			}
 		]
@@ -3374,14 +3386,7 @@ const weapons: GenshinWeapon[] = [
 		stars: 4
 	},
 	{ key: 'PrototypeRancour', level: 90, refinement: 1, ascension: 6, stars: 4 },
-	{
-		key: 'SacrificialSword',
-		level: 90,
-		refinement: 5,
-		ascension: 6,
-		location: 'Traveler',
-		stars: 4
-	},
+	{ key: 'SacrificialSword', level: 90, refinement: 5, ascension: 6, stars: 4 },
 	{
 		key: 'FavoniusSword',
 		level: 90,
@@ -3504,7 +3509,7 @@ const weapons: GenshinWeapon[] = [
 	{ key: 'CoolSteel', level: 1, refinement: 1, ascension: 0, stars: 3 },
 	{ key: 'HuntersBow', level: 1, refinement: 1, ascension: 0, location: 'Tartaglia', stars: 1 },
 	{ key: 'HuntersBow', level: 1, refinement: 1, ascension: 0, location: 'Aloy', stars: 1 },
-	{ key: 'DullBlade', level: 1, refinement: 1, ascension: 0, location: 'TravelerDendro', stars: 1 },
+	{ key: 'DullBlade', level: 1, refinement: 1, ascension: 0, stars: 1 },
 	{ key: 'ApprenticesNotes', level: 1, refinement: 1, ascension: 0, location: 'Barbara', stars: 1 },
 	{ key: 'WasterGreatsword', level: 1, refinement: 1, ascension: 0, location: 'Razor', stars: 1 },
 	{ key: 'WasterGreatsword', level: 1, refinement: 1, ascension: 0, location: 'Gaming', stars: 1 },
@@ -3554,6 +3559,538 @@ const weapons: GenshinWeapon[] = [
 	{ key: 'HuntersBow', level: 1, refinement: 1, ascension: 0, location: 'Sethos', stars: 1 },
 	{ key: 'WasterGreatsword', level: 1, refinement: 1, ascension: 0, location: 'Dori', stars: 1 }
 ];
+const artifacts: GenshinArtifact[] = [
+	{
+		mainStatKey: 'hp',
+		substats: [
+			{ key: 'critRate_', value: 10.5 },
+			{ key: 'critDMG_', value: 28.7 },
+			{ key: 'atk', value: 16 },
+			{ key: 'atk_', value: 4.1 }
+		],
+		setKey: 'WanderersTroupe',
+		slotKey: 'flower',
+		location: 'Tighnari',
+		cv: 49.7
+	},
+	{
+		mainStatKey: 'enerRech_',
+		substats: [
+			{ key: 'critDMG_', value: 33.4 },
+			{ key: 'critRate_', value: 7.8 },
+			{ key: 'def', value: 19 },
+			{ key: 'hp', value: 269 }
+		],
+		setKey: 'EmblemOfSeveredFate',
+		slotKey: 'sands',
+		location: 'Xiangling',
+		cv: 49
+	},
+	{
+		mainStatKey: 'atk',
+		substats: [
+			{ key: 'critDMG_', value: 18.7 },
+			{ key: 'critRate_', value: 12.8 },
+			{ key: 'hp_', value: 4.7 },
+			{ key: 'eleMas', value: 23 }
+		],
+		setKey: 'HeartOfDepth',
+		slotKey: 'plume',
+		location: 'Tartaglia',
+		cv: 44.3
+	},
+	{
+		mainStatKey: 'hp',
+		substats: [
+			{ key: 'critDMG_', value: 20.2 },
+			{ key: 'critRate_', value: 10.9 },
+			{ key: 'def_', value: 7.3 },
+			{ key: 'def', value: 23 }
+		],
+		setKey: 'EmblemOfSeveredFate',
+		slotKey: 'flower',
+		location: 'Yelan',
+		cv: 42
+	},
+	{
+		mainStatKey: 'hp',
+		substats: [
+			{ key: 'critDMG_', value: 25.6 },
+			{ key: 'critRate_', value: 7.8 },
+			{ key: 'def_', value: 7.3 },
+			{ key: 'atk', value: 18 }
+		],
+		setKey: 'FragmentOfHarmonicWhimsy',
+		slotKey: 'flower',
+		location: 'Clorinde',
+		cv: 41.2
+	},
+	{
+		mainStatKey: 'eleMas',
+		substats: [
+			{ key: 'critDMG_', value: 21.8 },
+			{ key: 'critRate_', value: 9.7 },
+			{ key: 'enerRech_', value: 5.2 },
+			{ key: 'def', value: 23 }
+		],
+		setKey: 'GildedDreams',
+		slotKey: 'sands',
+		location: 'Nahida',
+		cv: 41.2
+	},
+	{
+		mainStatKey: 'hp',
+		substats: [
+			{ key: 'critRate_', value: 3.9 },
+			{ key: 'critDMG_', value: 33.4 },
+			{ key: 'atk', value: 16 },
+			{ key: 'eleMas', value: 40 }
+		],
+		setKey: 'GladiatorsFinale',
+		slotKey: 'flower',
+		location: 'Diluc',
+		cv: 41.2
+	},
+	{
+		mainStatKey: 'hp',
+		substats: [
+			{ key: 'critDMG_', value: 19.4 },
+			{ key: 'critRate_', value: 10.1 },
+			{ key: 'atk', value: 19 },
+			{ key: 'def', value: 19 }
+		],
+		setKey: 'HeartOfDepth',
+		slotKey: 'flower',
+		cv: 39.6
+	},
+	{
+		mainStatKey: 'atk',
+		substats: [
+			{ key: 'critRate_', value: 6.2 },
+			{ key: 'critDMG_', value: 27.2 },
+			{ key: 'eleMas', value: 19 },
+			{ key: 'enerRech_', value: 11 }
+		],
+		setKey: 'ViridescentVenerer',
+		slotKey: 'plume',
+		cv: 39.6
+	},
+	{
+		mainStatKey: 'atk',
+		substats: [
+			{ key: 'critRate_', value: 7 },
+			{ key: 'critDMG_', value: 24.1 },
+			{ key: 'atk_', value: 4.7 },
+			{ key: 'enerRech_', value: 10.4 }
+		],
+		setKey: 'ViridescentVenerer',
+		slotKey: 'plume',
+		cv: 38.1
+	},
+	{
+		mainStatKey: 'hp',
+		substats: [
+			{ key: 'critRate_', value: 16.3 },
+			{ key: 'critDMG_', value: 5.4 },
+			{ key: 'def_', value: 6.6 },
+			{ key: 'atk', value: 14 }
+		],
+		setKey: 'FragmentOfHarmonicWhimsy',
+		slotKey: 'flower',
+		location: 'Arlecchino',
+		cv: 38
+	},
+	{
+		mainStatKey: 'atk',
+		substats: [
+			{ key: 'critDMG_', value: 17.9 },
+			{ key: 'critRate_', value: 9.7 },
+			{ key: 'def', value: 23 },
+			{ key: 'def_', value: 5.1 }
+		],
+		setKey: 'EmblemOfSeveredFate',
+		slotKey: 'plume',
+		cv: 37.3
+	},
+	{
+		mainStatKey: 'atk',
+		substats: [
+			{ key: 'critRate_', value: 8.9 },
+			{ key: 'critDMG_', value: 19.4 },
+			{ key: 'def', value: 23 },
+			{ key: 'def_', value: 5.1 }
+		],
+		setKey: 'ThunderingFury',
+		slotKey: 'plume',
+		cv: 37.2
+	},
+	{
+		mainStatKey: 'atk',
+		substats: [
+			{ key: 'critDMG_', value: 22.5 },
+			{ key: 'critRate_', value: 7 },
+			{ key: 'def_', value: 13.1 },
+			{ key: 'enerRech_', value: 5.8 }
+		],
+		setKey: 'MarechausseeHunter',
+		slotKey: 'plume',
+		location: 'Xiao',
+		cv: 36.5
+	},
+	{
+		mainStatKey: 'atk_',
+		substats: [
+			{ key: 'critDMG_', value: 36.5 },
+			{ key: 'atk', value: 14 },
+			{ key: 'hp_', value: 9.9 },
+			{ key: 'def', value: 19 }
+		],
+		setKey: 'ViridescentVenerer',
+		slotKey: 'circlet',
+		location: 'ShikanoinHeizou',
+		cv: 36.5
+	},
+	{
+		mainStatKey: 'hp',
+		substats: [
+			{ key: 'critRate_', value: 7.4 },
+			{ key: 'critDMG_', value: 21 },
+			{ key: 'def', value: 37 },
+			{ key: 'eleMas', value: 19 }
+		],
+		setKey: 'FragmentOfHarmonicWhimsy',
+		slotKey: 'flower',
+		cv: 35.8
+	},
+	{
+		mainStatKey: 'atk',
+		substats: [
+			{ key: 'critRate_', value: 11.3 },
+			{ key: 'critDMG_', value: 13.2 },
+			{ key: 'enerRech_', value: 10.4 },
+			{ key: 'hp_', value: 9.9 }
+		],
+		setKey: 'VermillionHereafter',
+		slotKey: 'plume',
+		cv: 35.8
+	},
+	{
+		mainStatKey: 'hp',
+		substats: [
+			{ key: 'critRate_', value: 14 },
+			{ key: 'critDMG_', value: 7 },
+			{ key: 'def', value: 46 },
+			{ key: 'def_', value: 12.4 }
+		],
+		setKey: 'VermillionHereafter',
+		slotKey: 'flower',
+		cv: 35
+	},
+	{
+		mainStatKey: 'hp',
+		substats: [
+			{ key: 'critDMG_', value: 14 },
+			{ key: 'critRate_', value: 10.5 },
+			{ key: 'def', value: 32 },
+			{ key: 'hp_', value: 9.9 }
+		],
+		setKey: 'HuskOfOpulentDreams',
+		slotKey: 'flower',
+		location: 'Noelle',
+		cv: 35
+	},
+	{
+		mainStatKey: 'hp',
+		substats: [
+			{ key: 'critRate_', value: 7 },
+			{ key: 'critDMG_', value: 21 },
+			{ key: 'enerRech_', value: 11 },
+			{ key: 'eleMas', value: 42 }
+		],
+		setKey: 'HeartOfDepth',
+		slotKey: 'flower',
+		location: 'Tartaglia',
+		cv: 35
+	},
+	{
+		mainStatKey: 'atk_',
+		substats: [
+			{ key: 'critDMG_', value: 10.9 },
+			{ key: 'critRate_', value: 11.7 },
+			{ key: 'hp_', value: 4.7 },
+			{ key: 'enerRech_', value: 12.3 }
+		],
+		setKey: 'CrimsonWitchOfFlames',
+		slotKey: 'sands',
+		cv: 34.3
+	},
+	{
+		mainStatKey: 'atk_',
+		substats: [
+			{ key: 'critDMG_', value: 21 },
+			{ key: 'critRate_', value: 6.6 },
+			{ key: 'eleMas', value: 19 },
+			{ key: 'def', value: 42 }
+		],
+		setKey: 'GladiatorsFinale',
+		slotKey: 'sands',
+		cv: 34.2
+	},
+	{
+		mainStatKey: 'atk',
+		substats: [
+			{ key: 'critRate_', value: 6.2 },
+			{ key: 'critDMG_', value: 21 },
+			{ key: 'hp', value: 538 },
+			{ key: 'def_', value: 13.1 }
+		],
+		setKey: 'FragmentOfHarmonicWhimsy',
+		slotKey: 'plume',
+		location: 'Clorinde',
+		cv: 33.4
+	},
+	{
+		mainStatKey: 'hp_',
+		substats: [
+			{ key: 'critRate_', value: 7 },
+			{ key: 'critDMG_', value: 19.4 },
+			{ key: 'eleMas', value: 16 },
+			{ key: 'def_', value: 10.2 }
+		],
+		setKey: 'CrimsonWitchOfFlames',
+		slotKey: 'sands',
+		location: 'HuTao',
+		cv: 33.4
+	},
+	{
+		mainStatKey: 'dendro_dmg_',
+		substats: [
+			{ key: 'critDMG_', value: 6.2 },
+			{ key: 'critRate_', value: 13.6 },
+			{ key: 'hp_', value: 10.5 },
+			{ key: 'atk', value: 16 }
+		],
+		setKey: 'ViridescentVenerer',
+		slotKey: 'goblet',
+		location: 'Tighnari',
+		cv: 33.4
+	},
+	{
+		mainStatKey: 'atk_',
+		substats: [
+			{ key: 'critDMG_', value: 21 },
+			{ key: 'critRate_', value: 5.8 },
+			{ key: 'hp', value: 448 },
+			{ key: 'def_', value: 11.7 }
+		],
+		setKey: 'FragmentOfHarmonicWhimsy',
+		slotKey: 'sands',
+		location: 'Arlecchino',
+		cv: 32.6
+	},
+	{
+		mainStatKey: 'atk',
+		substats: [
+			{ key: 'critRate_', value: 2.7 },
+			{ key: 'critDMG_', value: 27.2 },
+			{ key: 'def', value: 32 },
+			{ key: 'hp', value: 508 }
+		],
+		setKey: 'ThunderingFury',
+		slotKey: 'plume',
+		cv: 32.6
+	},
+	{
+		mainStatKey: 'atk',
+		substats: [
+			{ key: 'critDMG_', value: 19.4 },
+			{ key: 'critRate_', value: 6.6 },
+			{ key: 'eleMas', value: 21 },
+			{ key: 'hp_', value: 9.9 }
+		],
+		setKey: 'GladiatorsFinale',
+		slotKey: 'plume',
+		cv: 32.6
+	},
+	{
+		mainStatKey: 'hp',
+		substats: [
+			{ key: 'critRate_', value: 8.6 },
+			{ key: 'critDMG_', value: 14.8 },
+			{ key: 'hp_', value: 9.9 },
+			{ key: 'eleMas', value: 21 }
+		],
+		setKey: 'GoldenTroupe',
+		slotKey: 'flower',
+		cv: 32
+	},
+	{
+		mainStatKey: 'atk',
+		substats: [
+			{ key: 'critDMG_', value: 19.4 },
+			{ key: 'critRate_', value: 6.2 },
+			{ key: 'hp_', value: 9.9 },
+			{ key: 'enerRech_', value: 11 }
+		],
+		setKey: 'EmblemOfSeveredFate',
+		slotKey: 'plume',
+		location: 'Yelan',
+		cv: 31.8
+	},
+	{
+		mainStatKey: 'atk',
+		substats: [
+			{ key: 'critDMG_', value: 19.4 },
+			{ key: 'critRate_', value: 6.2 },
+			{ key: 'atk_', value: 14.6 },
+			{ key: 'def_', value: 5.1 }
+		],
+		setKey: 'EmblemOfSeveredFate',
+		slotKey: 'plume',
+		location: 'Xiangling',
+		cv: 31.8
+	},
+	{
+		mainStatKey: 'atk',
+		substats: [
+			{ key: 'critRate_', value: 8.9 },
+			{ key: 'critDMG_', value: 14 },
+			{ key: 'atk_', value: 4.1 },
+			{ key: 'hp_', value: 9.3 }
+		],
+		setKey: 'EmblemOfSeveredFate',
+		slotKey: 'plume',
+		cv: 31.8
+	},
+	{
+		mainStatKey: 'atk_',
+		substats: [
+			{ key: 'critRate_', value: 5.4 },
+			{ key: 'critDMG_', value: 21 },
+			{ key: 'enerRech_', value: 5.8 },
+			{ key: 'hp_', value: 14 }
+		],
+		setKey: 'EmblemOfSeveredFate',
+		slotKey: 'sands',
+		cv: 31.8
+	},
+	{
+		mainStatKey: 'atk_',
+		substats: [
+			{ key: 'critRate_', value: 6.2 },
+			{ key: 'critDMG_', value: 19.4 },
+			{ key: 'def_', value: 11.7 },
+			{ key: 'eleMas', value: 42 }
+		],
+		setKey: 'HeartOfDepth',
+		slotKey: 'sands',
+		location: 'Tartaglia',
+		cv: 31.8
+	},
+	{
+		mainStatKey: 'hydro_dmg_',
+		substats: [
+			{ key: 'critDMG_', value: 31.1 },
+			{ key: 'def_', value: 5.1 },
+			{ key: 'hp_', value: 4.1 },
+			{ key: 'enerRech_', value: 9.7 }
+		],
+		setKey: 'EmblemOfSeveredFate',
+		slotKey: 'goblet',
+		location: 'Yelan',
+		cv: 31.1
+	},
+	{
+		mainStatKey: 'hp_',
+		substats: [
+			{ key: 'critRate_', value: 6.2 },
+			{ key: 'critDMG_', value: 18.7 },
+			{ key: 'def_', value: 12.4 },
+			{ key: 'hp', value: 299 }
+		],
+		setKey: 'ShimenawasReminiscence',
+		slotKey: 'sands',
+		location: 'Kirara',
+		cv: 31.1
+	},
+	{
+		mainStatKey: 'atk',
+		substats: [
+			{ key: 'critRate_', value: 9.3 },
+			{ key: 'critDMG_', value: 12.4 },
+			{ key: 'def', value: 37 },
+			{ key: 'enerRech_', value: 12.3 }
+		],
+		setKey: 'HuskOfOpulentDreams',
+		slotKey: 'plume',
+		location: 'Noelle',
+		cv: 31
+	},
+	{
+		mainStatKey: 'hp',
+		substats: [
+			{ key: 'critDMG_', value: 19.4 },
+			{ key: 'critRate_', value: 5.8 },
+			{ key: 'enerRech_', value: 5.8 },
+			{ key: 'atk', value: 35 }
+		],
+		setKey: 'EmblemOfSeveredFate',
+		slotKey: 'flower',
+		location: 'Xingqiu',
+		cv: 31
+	},
+	{
+		mainStatKey: 'hp',
+		substats: [
+			{ key: 'critRate_', value: 5.8 },
+			{ key: 'critDMG_', value: 19.4 },
+			{ key: 'atk', value: 39 },
+			{ key: 'enerRech_', value: 4.5 }
+		],
+		setKey: 'CrimsonWitchOfFlames',
+		slotKey: 'flower',
+		location: 'HuTao',
+		cv: 31
+	},
+	{
+		mainStatKey: 'hp',
+		substats: [
+			{ key: 'critRate_', value: 11.7 },
+			{ key: 'critDMG_', value: 7 },
+			{ key: 'eleMas', value: 40 },
+			{ key: 'atk_', value: 13.4 }
+		],
+		setKey: 'GildedDreams',
+		slotKey: 'flower',
+		location: 'RaidenShogun',
+		cv: 30.4
+	},
+	{
+		mainStatKey: 'hp',
+		substats: [
+			{ key: 'critRate_', value: 11.3 },
+			{ key: 'critDMG_', value: 7.8 },
+			{ key: 'atk', value: 31 },
+			{ key: 'atk_', value: 8.7 }
+		],
+		setKey: 'ShimenawasReminiscence',
+		slotKey: 'flower',
+		cv: 30.4
+	},
+	{
+		mainStatKey: 'hp_',
+		substats: [
+			{ key: 'critRate_', value: 3.1 },
+			{ key: 'critDMG_', value: 24.1 },
+			{ key: 'hp', value: 747 },
+			{ key: 'eleMas', value: 16 }
+		],
+		setKey: 'GildedDreams',
+		slotKey: 'sands',
+		location: 'KukiShinobu',
+		cv: 30.3
+	}
+];
 export default characters;
-export { elementToBuildStatKey, weapons };
+export { elementToBuildStatKey, weapons, artifacts };
 export type { GenshinCharacter, BuildStatKey, Element };
