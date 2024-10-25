@@ -20,21 +20,25 @@
 		<span>Top {ranking}%</span>
 	</div>
 	<div class="flex flex-col gap-y-3 absolute z-10 pl-4 pb-4 top-full -translate-y-full">
-		<Skill info={{ type: 'constellation', image: resources.con_0, constellation: 1 }} />
-		<Skill info={{ type: 'constellation', image: resources.con_1, constellation: 2 }} />
-		<Skill info={{ type: 'constellation', image: resources.con_2, constellation: 3 }} />
-		<Skill info={{ type: 'constellation', image: resources.con_3, constellation: 4 }} />
-		<Skill info={{ type: 'constellation', image: resources.con_4, constellation: 5 }} />
-		<Skill info={{ type: 'constellation', image: resources.con_5, constellation: 6 }} />
+		<Skill info={{ type: 'constellation', image: resources.con_0, constellation: 1 }} {character} />
+		<Skill info={{ type: 'constellation', image: resources.con_1, constellation: 2 }} {character} />
+		<Skill info={{ type: 'constellation', image: resources.con_2, constellation: 3 }} {character} />
+		<Skill info={{ type: 'constellation', image: resources.con_3, constellation: 4 }} {character} />
+		<Skill info={{ type: 'constellation', image: resources.con_4, constellation: 5 }} {character} />
+		<Skill info={{ type: 'constellation', image: resources.con_5, constellation: 6 }} {character} />
 	</div>
 	<div class="flex flex-col gap-y-4 absolute z-10 right-[5%] bottom-[56%] translate-y-full">
-		<Skill info={{ type: 'talent', image: resources.normal, level: character.talent.auto }} />
+		<Skill
+			info={{ type: 'talent', image: resources.normal, level: character.talent.auto }}
+			{character}
+		/>
 		<Skill
 			info={{
 				type: 'talent',
 				image: resources.skill,
 				level: character.talent.skill + (character.constellation >= 3 ? 3 : 0)
 			}}
+			{character}
 		/>
 		<Skill
 			info={{
@@ -42,6 +46,7 @@
 				image: resources.burst,
 				level: character.talent.burst + (character.constellation >= 5 ? 3 : 0)
 			}}
+			{character}
 		/>
 	</div>
 	<enhanced:img

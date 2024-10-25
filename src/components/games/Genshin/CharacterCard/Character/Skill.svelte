@@ -1,4 +1,5 @@
 <script context="module" lang="ts">
+	import type { GenshinCharacter } from '$lib/genshin_agg';
 	import type { Picture } from 'vite-imagetools';
 
 	type Info =
@@ -16,8 +17,14 @@
 
 <script lang="ts">
 	export let info: Info;
+	export let character: GenshinCharacter;
 
-	const getConClass = (con: number) => (con <= 4 ? 'unlocked' : 'locked');
+	const getConClass = (con: number) =>
+		info.type === 'constellation'
+			? con <= character.constellation
+				? 'unlocked'
+				: 'locked'
+			: 'locked';
 </script>
 
 {#if info.type === 'constellation'}
