@@ -43,7 +43,7 @@ export interface Profile {
 export const profile: Profile = {
 	steamid: '76561198069744679',
 	avatar: 'c6066ff51517dd60bf42a0898e7e3b1aca55684e_full.jpg',
-	lastlogoff: 1730072269,
+	lastlogoff: 1730329397,
 	username: 'QuantumPie',
 	level: 103,
 	badges: [
@@ -51,7 +51,7 @@ export const profile: Profile = {
 			badgeid: 13,
 			completion_time: 1729963424,
 			level: 517,
-			scarcity: 1126583,
+			scarcity: 1128405,
 			communityid: null,
 			appid: null
 		},
@@ -59,7 +59,7 @@ export const profile: Profile = {
 			badgeid: 66,
 			completion_time: 1702954709,
 			level: 1,
-			scarcity: 37264126,
+			scarcity: 37307573,
 			communityid: null,
 			appid: null
 		},
@@ -67,7 +67,7 @@ export const profile: Profile = {
 			badgeid: 64,
 			completion_time: 1672366387,
 			level: 1,
-			scarcity: 76534389,
+			scarcity: 76551321,
 			communityid: null,
 			appid: null
 		},
@@ -91,7 +91,7 @@ export const profile: Profile = {
 			badgeid: 61,
 			completion_time: 1656370297,
 			level: 10,
-			scarcity: 4479841,
+			scarcity: 4479842,
 			communityid: null,
 			appid: null
 		},
@@ -131,7 +131,7 @@ export const profile: Profile = {
 			badgeid: 48,
 			completion_time: 1597765178,
 			level: 11,
-			scarcity: 1525333,
+			scarcity: 1530413,
 			communityid: null,
 			appid: null
 		},
@@ -139,7 +139,7 @@ export const profile: Profile = {
 			badgeid: 49,
 			completion_time: 1593310635,
 			level: 3,
-			scarcity: 6924835,
+			scarcity: 6947571,
 			communityid: null,
 			appid: null
 		},
@@ -155,7 +155,7 @@ export const profile: Profile = {
 			badgeid: 44,
 			completion_time: 1577914506,
 			level: 7,
-			scarcity: 252828,
+			scarcity: 252829,
 			communityid: null,
 			appid: null
 		},
@@ -163,7 +163,7 @@ export const profile: Profile = {
 			badgeid: 45,
 			completion_time: 1577913536,
 			level: 1,
-			scarcity: 463047,
+			scarcity: 463048,
 			communityid: null,
 			appid: null
 		},
@@ -187,7 +187,7 @@ export const profile: Profile = {
 			badgeid: 40,
 			completion_time: 1561484160,
 			level: 1,
-			scarcity: 5548463,
+			scarcity: 5548464,
 			communityid: null,
 			appid: null
 		},
@@ -251,7 +251,7 @@ export const profile: Profile = {
 			badgeid: 2,
 			completion_time: 1451001418,
 			level: 3,
-			scarcity: 10435126,
+			scarcity: 10442250,
 			communityid: null,
 			appid: null
 		},
@@ -283,7 +283,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1345507569,
 			level: 12,
-			scarcity: 40802763,
+			scarcity: 40875591,
 			communityid: null,
 			appid: null
 		},
@@ -291,7 +291,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1387835606,
 			level: 3,
-			scarcity: 192589,
+			scarcity: 192591,
 			communityid: null,
 			appid: null
 		},
@@ -299,7 +299,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1374335777,
 			level: 1,
-			scarcity: 1305003,
+			scarcity: 1307107,
 			communityid: null,
 			appid: null
 		},
@@ -307,7 +307,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1374342713,
 			level: 1,
-			scarcity: 1091102,
+			scarcity: 1091596,
 			communityid: null,
 			appid: null
 		},
@@ -315,7 +315,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1374458357,
 			level: 1,
-			scarcity: 653451,
+			scarcity: 654007,
 			communityid: null,
 			appid: null
 		},
@@ -323,7 +323,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1394846885,
 			level: 3,
-			scarcity: 206228,
+			scarcity: 206310,
 			communityid: null,
 			appid: null
 		},
@@ -331,7 +331,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1395028100,
 			level: 3,
-			scarcity: 458710,
+			scarcity: 459235,
 			communityid: null,
 			appid: null
 		},
@@ -339,7 +339,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1395027753,
 			level: 2,
-			scarcity: 605395,
+			scarcity: 605967,
 			communityid: null,
 			appid: null
 		},
@@ -355,7 +355,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1395027504,
 			level: 5,
-			scarcity: 7400407,
+			scarcity: 7416528,
 			communityid: null,
 			appid: null
 		},
@@ -363,7 +363,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1394853459,
 			level: 1,
-			scarcity: 319212,
+			scarcity: 319297,
 			communityid: null,
 			appid: null
 		},
@@ -371,7 +371,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1394971135,
 			level: 2,
-			scarcity: 563044,
+			scarcity: 564196,
 			communityid: null,
 			appid: null
 		},
@@ -387,7 +387,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1404081614,
 			level: 3,
-			scarcity: 240646,
+			scarcity: 240647,
 			communityid: null,
 			appid: null
 		},
@@ -395,7 +395,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1404083788,
 			level: 1,
-			scarcity: 51144,
+			scarcity: 51153,
 			communityid: null,
 			appid: null
 		},
@@ -403,7 +403,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1430866031,
 			level: 2,
-			scarcity: 106016,
+			scarcity: 106089,
 			communityid: null,
 			appid: null
 		},
@@ -411,7 +411,7 @@ export const profile: Profile = {
 			badgeid: 17,
 			completion_time: 1419968288,
 			level: 3,
-			scarcity: 136205,
+			scarcity: 136206,
 			communityid: null,
 			appid: null
 		},
@@ -427,7 +427,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1430865926,
 			level: 1,
-			scarcity: 265019,
+			scarcity: 265196,
 			communityid: null,
 			appid: null
 		},
@@ -435,7 +435,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1432605063,
 			level: 2,
-			scarcity: 29845,
+			scarcity: 29862,
 			communityid: null,
 			appid: null
 		},
@@ -443,7 +443,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1430866262,
 			level: 1,
-			scarcity: 178525,
+			scarcity: 178605,
 			communityid: null,
 			appid: null
 		},
@@ -451,7 +451,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1431434387,
 			level: 1,
-			scarcity: 485729,
+			scarcity: 486403,
 			communityid: null,
 			appid: null
 		},
@@ -459,7 +459,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1431434473,
 			level: 1,
-			scarcity: 532250,
+			scarcity: 532389,
 			communityid: null,
 			appid: null
 		},
@@ -467,7 +467,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1431434779,
 			level: 1,
-			scarcity: 388994,
+			scarcity: 389151,
 			communityid: null,
 			appid: null
 		},
@@ -475,7 +475,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1431551655,
 			level: 1,
-			scarcity: 457762,
+			scarcity: 457864,
 			communityid: null,
 			appid: null
 		},
@@ -483,7 +483,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1431551778,
 			level: 1,
-			scarcity: 65706,
+			scarcity: 65708,
 			communityid: null,
 			appid: null
 		},
@@ -491,7 +491,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1431551923,
 			level: 1,
-			scarcity: 215463,
+			scarcity: 215639,
 			communityid: null,
 			appid: null
 		},
@@ -499,7 +499,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1431552218,
 			level: 1,
-			scarcity: 48350,
+			scarcity: 48353,
 			communityid: null,
 			appid: null
 		},
@@ -507,7 +507,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1432605608,
 			level: 4,
-			scarcity: 25067,
+			scarcity: 25068,
 			communityid: null,
 			appid: null
 		},
@@ -531,7 +531,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1451410769,
 			level: 1,
-			scarcity: 227465,
+			scarcity: 227710,
 			communityid: null,
 			appid: null
 		},
@@ -539,7 +539,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1451878357,
 			level: 1,
-			scarcity: 840,
+			scarcity: 844,
 			communityid: null,
 			appid: null
 		},
@@ -555,7 +555,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1469740523,
 			level: 1,
-			scarcity: 1882871,
+			scarcity: 1884115,
 			communityid: null,
 			appid: null
 		},
@@ -563,7 +563,7 @@ export const profile: Profile = {
 			badgeid: 10,
 			completion_time: 1485572177,
 			level: 4,
-			scarcity: 231219,
+			scarcity: 231220,
 			communityid: null,
 			appid: null
 		},
@@ -571,7 +571,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1499693573,
 			level: 1,
-			scarcity: 1322796,
+			scarcity: 1322806,
 			communityid: null,
 			appid: null
 		},
@@ -587,7 +587,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1514753127,
 			level: 1,
-			scarcity: 48477,
+			scarcity: 48521,
 			communityid: null,
 			appid: null
 		},
@@ -595,7 +595,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1514753187,
 			level: 1,
-			scarcity: 294007,
+			scarcity: 294142,
 			communityid: null,
 			appid: null
 		},
@@ -603,7 +603,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1514753249,
 			level: 1,
-			scarcity: 732980,
+			scarcity: 735607,
 			communityid: null,
 			appid: null
 		},
@@ -619,7 +619,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1530796949,
 			level: 1,
-			scarcity: 971222,
+			scarcity: 973282,
 			communityid: null,
 			appid: null
 		},
@@ -627,7 +627,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1530892722,
 			level: 5,
-			scarcity: 26134,
+			scarcity: 26135,
 			communityid: null,
 			appid: null
 		},
@@ -635,7 +635,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1530893181,
 			level: 5,
-			scarcity: 21729,
+			scarcity: 21730,
 			communityid: null,
 			appid: null
 		},
@@ -651,7 +651,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1531268864,
 			level: 1,
-			scarcity: 123474,
+			scarcity: 123640,
 			communityid: null,
 			appid: null
 		},
@@ -659,7 +659,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1545346586,
 			level: 1,
-			scarcity: 1735029,
+			scarcity: 1735067,
 			communityid: null,
 			appid: null
 		},
@@ -683,7 +683,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1593191509,
 			level: 1,
-			scarcity: 640576,
+			scarcity: 640596,
 			communityid: null,
 			appid: null
 		},
@@ -699,7 +699,7 @@ export const profile: Profile = {
 			badgeid: 2,
 			completion_time: 1610775297,
 			level: 2,
-			scarcity: 467890,
+			scarcity: 467896,
 			communityid: null,
 			appid: null
 		},
@@ -707,7 +707,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1711459019,
 			level: 2,
-			scarcity: 497401,
+			scarcity: 498441,
 			communityid: null,
 			appid: null
 		},
@@ -715,7 +715,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1610775388,
 			level: 1,
-			scarcity: 110334,
+			scarcity: 110542,
 			communityid: null,
 			appid: null
 		},
@@ -731,7 +731,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1637792972,
 			level: 2,
-			scarcity: 237107,
+			scarcity: 237114,
 			communityid: null,
 			appid: null
 		},
@@ -747,7 +747,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1641369098,
 			level: 2,
-			scarcity: 415176,
+			scarcity: 415184,
 			communityid: null,
 			appid: null
 		},
@@ -755,7 +755,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1657192576,
 			level: 1,
-			scarcity: 623462,
+			scarcity: 623512,
 			communityid: null,
 			appid: null
 		},
@@ -771,7 +771,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1672366838,
 			level: 1,
-			scarcity: 1967936,
+			scarcity: 1968175,
 			communityid: null,
 			appid: null
 		},
@@ -779,7 +779,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1688796286,
 			level: 1,
-			scarcity: 798315,
+			scarcity: 798450,
 			communityid: null,
 			appid: null
 		},
@@ -795,7 +795,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1719697047,
 			level: 10,
-			scarcity: 112848,
+			scarcity: 118365,
 			communityid: null,
 			appid: null
 		},
@@ -803,7 +803,7 @@ export const profile: Profile = {
 			badgeid: 1,
 			completion_time: 1720494334,
 			level: 1,
-			scarcity: 759577,
+			scarcity: 759964,
 			communityid: null,
 			appid: null
 		}
@@ -1172,7 +1172,7 @@ export const profile: Profile = {
 					unlocktime: 1434994300,
 					name: 'A RIDE DENIED',
 					description: 'Kill a Jockey within 2 seconds of it jumping on a Survivor.',
-					percent: 65.3,
+					percent: 65.2,
 					icon: 'b65a6518c0680448e996e2190d1ed6b00ad14935.jpg',
 					icongray: '95bb3011848b129b4b7483017a970700a0a22bd1.jpg',
 					hidden: 0
@@ -1183,7 +1183,7 @@ export const profile: Profile = {
 					unlocktime: 1389054585,
 					name: 'BACK IN THE SADDLE',
 					description: 'As the Jockey, ride the Survivors twice in a single life.',
-					percent: 15,
+					percent: 14.9,
 					icon: '3a038d4447457dee981281742d1e1c5dfa29b16d.jpg',
 					icongray: '429faf4b747738e71b46e0d352e9683dad019f33.jpg',
 					hidden: 0
@@ -1194,7 +1194,7 @@ export const profile: Profile = {
 					unlocktime: 1434995116,
 					name: 'GHOST OF CHRISTMAS PRESENT',
 					description: 'Spread cheer by helping a free holiday player survive a campaign.',
-					percent: 11.3,
+					percent: 11.2,
 					icon: '8c808b4d4f3b4abcabe4db393acf962f58243cbe.jpg',
 					icongray: '51ce55eee8954b91bb30f6a26ae4512908c574ea.jpg',
 					hidden: 0
@@ -1459,7 +1459,7 @@ export const profile: Profile = {
 					unlocktime: 1458086610,
 					name: 'Engineer',
 					description: 'Build a Wonder.',
-					percent: 77.2,
+					percent: 77.1,
 					icon: '5306f464edf003c3bd45c372b18376dc8db2d932.jpg',
 					icongray: 'd4d05d99f1fd628ab359edbcd447017b5c7743c9.jpg',
 					hidden: 0
@@ -1964,7 +1964,7 @@ export const profile: Profile = {
 					unlocktime: 1436193778,
 					name: 'Stop! Hammer Time!',
 					description: 'Obtain your first hammer via crafting or otherwise.',
-					percent: 68.3,
+					percent: 68.2,
 					icon: '4760436e9973519098bb2cc419339d24e56af139.jpg',
 					icongray: '43638a5dcbe4106165c36e688048ac4b48ec19d6.jpg',
 					hidden: 0
@@ -2542,7 +2542,7 @@ export const profile: Profile = {
 					unlocktime: 1436205802,
 					name: 'Fashion Statement',
 					description: 'Equip armor or vanity clothing in all three social slots.',
-					percent: 49.9,
+					percent: 50,
 					icon: 'a21ac001c8eb0eece9a498b094d5c1f8e121727a.jpg',
 					icongray: '2d91a2f8a502afe5bbf5f0ab7de1a1263dad1f38.jpg',
 					hidden: 0
@@ -2959,7 +2959,7 @@ export const profile: Profile = {
 					unlocktime: 1472313290,
 					name: 'Taster',
 					description: 'Drink one potion.',
-					percent: 55.2,
+					percent: 55.1,
 					icon: '9a0c75c708597628bf3a9352893cefa332e5053b.jpg',
 					icongray: '6c7277d18426aed76e834696fb1719e8636b0e37.jpg',
 					hidden: 0
@@ -3245,7 +3245,7 @@ export const profile: Profile = {
 					unlocktime: 1373882778,
 					name: 'Adventures in Babysitting',
 					description: 'Complete chapter 2 of episode 1.',
-					percent: 79.2,
+					percent: 79.1,
 					icon: '00379081fdb82d6eecc69de9f8ac26c5048e9824.jpg',
 					icongray: 'bb94f23a351d4b3611e5bd97bb6d8f9cf60bf268.jpg',
 					hidden: 0
@@ -3256,7 +3256,7 @@ export const profile: Profile = {
 					unlocktime: 1373883059,
 					name: 'In Your Charge',
 					description: 'Complete chapter 3 of episode 1.',
-					percent: 77.9,
+					percent: 77.8,
 					icon: 'b71da17e702ab0d1c621a4a086f432ee6813d070.jpg',
 					icongray: '50e660445fbb8ce012cff6287f3c6dfd7e46d505.jpg',
 					hidden: 0
@@ -3267,7 +3267,7 @@ export const profile: Profile = {
 					unlocktime: 1373979782,
 					name: 'Rock and a Hard Place',
 					description: 'Complete chapter 4 of episode 1.',
-					percent: 73.1,
+					percent: 72.9,
 					icon: 'd1d077e0498139e93275e382a151931e6748fd8a.jpg',
 					icongray: 'c3132a30460e3275f5d2bfd3362be83be21fe571.jpg',
 					hidden: 0
@@ -3353,98 +3353,7 @@ export const profile: Profile = {
 			name: 'Batman: Arkham City GOTY',
 			playtime: 245,
 			last_played: 1419354198,
-			icon_url: '746ecf3ce44b2525eb7ad643e76a3b60913d2662',
-			achievements: [
-				{
-					apiname: 'NEW_ACHIEVEMENT_1_0',
-					achieved: 1,
-					unlocktime: 1419095851,
-					name: "I'm Batman",
-					description: 'Become the Bat',
-					percent: 83.6,
-					icon: 'efc307b02eea6b95eaf8ae871dc11f0dd910642a.jpg',
-					icongray: 'f8b63c56cfc0b0fbf68e374f193613b71c1f9c70.jpg',
-					hidden: 0
-				},
-				{
-					apiname: 'NEW_ACHIEVEMENT_1_1',
-					achieved: 1,
-					unlocktime: 1419096785,
-					name: 'Acid Bath',
-					description: 'Save the damsel, but is she in distress?',
-					percent: 80.7,
-					icon: '02bf71b70557ecf464a9aee850554767ee5ad400.jpg',
-					icongray: 'f7e90f2b84574dfcd8026fd62e072a72868d2075.jpg',
-					hidden: 0
-				},
-				{
-					apiname: 'NEW_ACHIEVEMENT_1_2',
-					achieved: 1,
-					unlocktime: 1419097504,
-					name: 'Savior',
-					description: 'Save the medical volunteers',
-					percent: 75.4,
-					icon: '9d5aae0ffa5416de7b622544cd9931993981ac04.jpg',
-					icongray: '704639983aae5655a534bbb1b72ea5290911e061.jpg',
-					hidden: 0
-				},
-				{
-					apiname: 'NEW_ACHIEVEMENT_1_3',
-					achieved: 1,
-					unlocktime: 1419099042,
-					name: 'Chimney Sweep',
-					description: 'There is only one way in',
-					percent: 70,
-					icon: '178c1b48e3c65495d8c7abb7523226ba6d8a260d.jpg',
-					icongray: '119d6dd0415005a2b8d8dbdd42d32e62c2e7b80e.jpg',
-					hidden: 0
-				},
-				{
-					apiname: 'NEW_ACHIEVEMENT_1_4',
-					achieved: 1,
-					unlocktime: 1419100740,
-					name: 'One-Armed Bandit',
-					description: 'Hammer the point home',
-					percent: 64.7,
-					icon: '7364645de67b926cfc9e33eb94fb0cf7ed77a5c3.jpg',
-					icongray: '6ae055d4d3f2530cdb1d47214510c86eab73ee13.jpg',
-					hidden: 0
-				},
-				{
-					apiname: 'NEW_ACHIEVEMENT_1_5',
-					achieved: 1,
-					unlocktime: 1419264261,
-					name: 'Communication Breakdown',
-					description: 'Clear the airwaves',
-					percent: 53.7,
-					icon: 'f17ad4a93ac85e4dc099c7f786b29154643febb2.jpg',
-					icongray: 'e3d28d1fe042220e35b631c2b95783a00355f9a0.jpg',
-					hidden: 0
-				},
-				{
-					apiname: 'NEW_ACHIEVEMENT_1_6',
-					achieved: 1,
-					unlocktime: 1419265050,
-					name: 'Gladiator',
-					description: 'Last man standing',
-					percent: 52.1,
-					icon: '1795fa8fc4ec2ebf48013787e34ad0c6e2576662.jpg',
-					icongray: '84316da6bb9d1c6e859f8c8ea6186e743e87fa0e.jpg',
-					hidden: 0
-				},
-				{
-					apiname: 'NEW_ACHIEVEMENT_2_19',
-					achieved: 1,
-					unlocktime: 1419214636,
-					name: 'Arkham City Sirens',
-					description: 'Drop in on an old friend',
-					percent: 62.6,
-					icon: 'ebb2ecc5dfae3cc603619e61b057ba7de5088122.jpg',
-					icongray: 'a91744764df22f6f45979d3c43a87b28a00a04f1.jpg',
-					hidden: 0
-				}
-			],
-			num_achievements: 64
+			icon_url: '746ecf3ce44b2525eb7ad643e76a3b60913d2662'
 		},
 		{
 			appid: 212680,
@@ -3620,7 +3529,7 @@ export const profile: Profile = {
 					unlocktime: 1401996080,
 					name: 'Bombs Away',
 					description: '',
-					percent: 33.6,
+					percent: 33.7,
 					icon: 'c7ee1edfcae789a7c008825916a25a2e1a650677.jpg',
 					icongray: '80524a6db84dac795850de75eb7929c055af7dc6.jpg',
 					hidden: 1
@@ -4048,7 +3957,7 @@ export const profile: Profile = {
 					unlocktime: 1397092514,
 					name: 'Gib Aficionado',
 					description: 'Explode 1,000 enemies',
-					percent: 57.4,
+					percent: 57.3,
 					icon: 'b55a90a324c07bbb6a05474d32a37b10d5529971.jpg',
 					icongray: 'ff3c0316296d1eab523a545383df795299fabf1b.jpg',
 					hidden: 0
@@ -4059,7 +3968,7 @@ export const profile: Profile = {
 					unlocktime: 1403564621,
 					name: 'Apprentice Baiter',
 					description: 'Fish 10 times',
-					percent: 60.1,
+					percent: 60,
 					icon: 'c843875223c56ab9022be015cdd9cc97dafeb89f.jpg',
 					icongray: '291d7bcc359adaab4e7af1b26af75f3a7b54f4d7.jpg',
 					hidden: 0
@@ -4202,7 +4111,7 @@ export const profile: Profile = {
 					unlocktime: 1391418555,
 					name: 'Quaffer',
 					description: 'Use 50 potions',
-					percent: 61.9,
+					percent: 61.8,
 					icon: '3e0c1aaae12e156fb361fa0c2cedc5dc2f48382d.jpg',
 					icongray: 'b93c5d682777ae063a0c3e438a0adde43efaf67d.jpg',
 					hidden: 0
@@ -4224,7 +4133,7 @@ export const profile: Profile = {
 					name: 'Specter',
 					description:
 						'After escaping prison, complete a mission without alerting anyone, and kill less than 5 people',
-					percent: 24.7,
+					percent: 24.8,
 					icon: '19d3ad365f03746f875e9f76225c41c7d3f6ae53.jpg',
 					icongray: '0d83b511e2a4db1b25c773b8005f8c04a706844d.jpg',
 					hidden: 0
@@ -4817,7 +4726,7 @@ export const profile: Profile = {
 					unlocktime: 1398810219,
 					name: 'Bow Mastery I',
 					description: 'Reach Rank 10 with any two Bow weapons.',
-					percent: 15.8,
+					percent: 15.9,
 					icon: '63395ab9d800f14ef3709988f24b380c274a7ba8.jpg',
 					icongray: '1153bce25e5c4c310f55ce41b882fe02e3b8f937.jpg',
 					hidden: 0
@@ -4828,7 +4737,7 @@ export const profile: Profile = {
 					unlocktime: 1399147522,
 					name: 'Bow Mastery II',
 					description: 'Reach Rank 20 with any two Bow weapons.',
-					percent: 13.5,
+					percent: 13.6,
 					icon: 'aa04d030bb85252f7673ead612c06a7871a1835a.jpg',
 					icongray: '7968405d24c1be2336a7148a6c08da88d42bd969.jpg',
 					hidden: 0
@@ -4916,7 +4825,7 @@ export const profile: Profile = {
 					unlocktime: 1460679597,
 					name: 'Brawler Proficiency I',
 					description: 'Reach Rank 10 with any Gauntlets or Hand-to-Hand weapon.',
-					percent: 12.1,
+					percent: 12.2,
 					icon: 'fc9611384cca181cca6a6d5dbe821743875ac6fa.jpg',
 					icongray: '6061b814a645ebcebf74bfd0231166ff3ef35a7b.jpg',
 					hidden: 0
@@ -4982,7 +4891,7 @@ export const profile: Profile = {
 					unlocktime: 1397693418,
 					name: 'Tailor Made',
 					description: 'Customize the color of a Warframe.',
-					percent: 31.6,
+					percent: 31.7,
 					icon: 'de5f13111fb15b2e18675602170628cc0862a9b7.jpg',
 					icongray: '686e476507ebb2f59de07b194af22e1e4df1d185.jpg',
 					hidden: 0
@@ -5004,7 +4913,7 @@ export const profile: Profile = {
 					unlocktime: 1525623093,
 					name: 'Dagger Mastery II',
 					description: 'Reach Rank 20 with any three Dagger or Dual Daggers weapons.',
-					percent: 9.8,
+					percent: 9.9,
 					icon: 'ca7858ad8ed22e97b6e755a21a238db9ab062697.jpg',
 					icongray: 'a49e7a13cf9c8191888be4cf8cfbeacfaba82a45.jpg',
 					hidden: 0
@@ -5048,7 +4957,7 @@ export const profile: Profile = {
 					unlocktime: 1461790205,
 					name: 'Dagger Proficiency III',
 					description: 'Reach Rank 30 with any Dagger or Dual Daggers weapon.',
-					percent: 12.2,
+					percent: 12.3,
 					icon: '81640c367f65bcb2e3ffd4713202ab76d9df358a.jpg',
 					icongray: 'e5c0719bab4aebb1983f66eb4c156eaa7fce564c.jpg',
 					hidden: 0
@@ -5070,7 +4979,7 @@ export const profile: Profile = {
 					unlocktime: 1397693418,
 					name: 'Nestegg',
 					description: 'Earn 10,000 Credits.',
-					percent: 45.3,
+					percent: 45.4,
 					icon: 'eb100688bff0270ab51577d5f5bdbd17d687e992.jpg',
 					icongray: '8fd80ada476f4fbc782db2899949f58959f0c314.jpg',
 					hidden: 0
@@ -5147,7 +5056,7 @@ export const profile: Profile = {
 					unlocktime: 1398529142,
 					name: 'Greater Than the Sum',
 					description: 'Fuse mods together to create a more powerful mod.',
-					percent: 35.3,
+					percent: 35.4,
 					icon: '932bbf45f47b8f62815c8cb1bab0be08fb3c4572.jpg',
 					icongray: '6ed751bd9578523f7df0a219b1f339b185f558ff.jpg',
 					hidden: 0
@@ -5194,7 +5103,7 @@ export const profile: Profile = {
 					unlocktime: 1459986846,
 					name: 'Heavy Weapon Proficiency I',
 					description: 'Reach Rank 10 with any Heavy Axe, Heavy Hammer, or Heavy Sword weapon.',
-					percent: 15.3,
+					percent: 15.4,
 					icon: '609e6b706ff25a65c072a5618f53a1767a093a15.jpg',
 					icongray: 'e165899a6f6d553aa273a0fc3a275320bc61a359.jpg',
 					hidden: 0
@@ -5315,7 +5224,7 @@ export const profile: Profile = {
 					unlocktime: 1397773074,
 					name: 'Pistol Proficiency I',
 					description: 'Reach Rank 10 with any Pistol or Akimbo Pistols weapon.',
-					percent: 28.9,
+					percent: 29,
 					icon: '20cee7215d5d422dbec873e4ff08296d391c1e5f.jpg',
 					icongray: '07ef25cfd053974f901b6062ab80f4712b0381fb.jpg',
 					hidden: 0
@@ -5370,7 +5279,7 @@ export const profile: Profile = {
 					unlocktime: 1460296446,
 					name: 'Pride of The Lotus',
 					description: 'Play for 100 hours.',
-					percent: 12.7,
+					percent: 12.8,
 					icon: '9af5c698ab34ed7650ae86b74fd6e7d811288dda.jpg',
 					icongray: 'ae136faa0f52a70631c1f5914d7a20d4018417ae.jpg',
 					hidden: 0
@@ -5381,7 +5290,7 @@ export const profile: Profile = {
 					unlocktime: 1397684008,
 					name: 'Initiate',
 					description: 'Achieve the rank of Initiate.',
-					percent: 39.4,
+					percent: 39.5,
 					icon: '5696dd384e9386b601425a9415130a71fc8f59ac.jpg',
 					icongray: 'c4e2d3366a6e58ee17b0e3414f45c101f74f2ed7.jpg',
 					hidden: 0
@@ -5392,7 +5301,7 @@ export const profile: Profile = {
 					unlocktime: 1398113431,
 					name: 'Silver Initiate',
 					description: 'Achieve the rank of Silver Initiate.',
-					percent: 27.7,
+					percent: 27.8,
 					icon: 'ffa4d2f0a2609f81174e29e2df438e952bff8dd8.jpg',
 					icongray: '05da5b280021b8f8bb247e9af5067c58443bacc5.jpg',
 					hidden: 0
@@ -5403,7 +5312,7 @@ export const profile: Profile = {
 					unlocktime: 1398214183,
 					name: 'Gold Initiate',
 					description: 'Achieve the rank of Gold Initiate.',
-					percent: 22.4,
+					percent: 22.5,
 					icon: 'da619d561c76e3cc8c12481d6fcbd282ed72ea66.jpg',
 					icongray: '1c9a09b4278199d3786d6334b53b9c6736f264d1.jpg',
 					hidden: 0
@@ -5425,7 +5334,7 @@ export const profile: Profile = {
 					unlocktime: 1459997005,
 					name: 'Silver Novice',
 					description: 'Achieve the rank of Silver Novice.',
-					percent: 16,
+					percent: 16.1,
 					icon: 'b7e1d5adf78fad96993cf32ad821dd7ba7afa67a.jpg',
 					icongray: 'd83fcd3be717ad44b77678a3af5124a360414bf2.jpg',
 					hidden: 0
@@ -5458,7 +5367,7 @@ export const profile: Profile = {
 					unlocktime: 1461105744,
 					name: 'Silver Disciple',
 					description: 'Achieve the rank of Silver Disciple.',
-					percent: 11.6,
+					percent: 11.7,
 					icon: '7cda12acfc2f472e7c4575bdf158fa39c9117fe2.jpg',
 					icongray: 'ff649645aeee3220aefc9451bfc11540d2201332.jpg',
 					hidden: 0
@@ -5491,7 +5400,7 @@ export const profile: Profile = {
 					unlocktime: 1462580874,
 					name: 'Silver Seeker',
 					description: 'Achieve the rank of Silver Seeker.',
-					percent: 9.2,
+					percent: 9.3,
 					icon: '7e4786fe01c4a70609312bf51b29d859fa1ca383.jpg',
 					icongray: 'b60b8eb6f2978c5f6b0d797b51f2d857a14be0e9.jpg',
 					hidden: 0
@@ -5513,7 +5422,7 @@ export const profile: Profile = {
 					unlocktime: 1503699066,
 					name: 'Hunter',
 					description: 'Achieve the rank of Hunter.',
-					percent: 8,
+					percent: 8.1,
 					icon: '6d36e43e2b15da3583f364a413b17003d280c521.jpg',
 					icongray: 'ed2d0854e1787eb2ffa67350b7f250df3dc490ce.jpg',
 					hidden: 0
@@ -5579,7 +5488,7 @@ export const profile: Profile = {
 					unlocktime: 1553100808,
 					name: 'Tiger',
 					description: 'Achieve the rank of Tiger.',
-					percent: 4.5,
+					percent: 4.6,
 					icon: '1b71ccabf84e0739e17c5af50b9d89071d6cdea7.jpg',
 					icongray: '8d29f616aa6ba73ab228da3da271e1c26ef68e5d.jpg',
 					hidden: 0
@@ -5656,7 +5565,7 @@ export const profile: Profile = {
 					unlocktime: 1524918649,
 					name: 'Pole Weapon Mastery I',
 					description: 'Reach Rank 10 with any three Scythe, Polearm or Staff weapons.',
-					percent: 13.7,
+					percent: 13.8,
 					icon: 'eb1abe88c9ac575b0d0016a5ba89b9be0af7a25d.jpg',
 					icongray: 'cffcf094bf45553238669d9d0dd00eca276bc770.jpg',
 					hidden: 0
@@ -5667,7 +5576,7 @@ export const profile: Profile = {
 					unlocktime: 1524919474,
 					name: 'Pole Weapon Mastery II',
 					description: 'Reach Rank 20 with any three Scythe, Polearm or Staff weapons.',
-					percent: 12.4,
+					percent: 12.5,
 					icon: 'e03351ee438745d6707295762affe2fae50db96f.jpg',
 					icongray: 'e173c5174c199072a7e9d18ee0722f3e73561f69.jpg',
 					hidden: 0
@@ -5711,7 +5620,7 @@ export const profile: Profile = {
 					unlocktime: 1482529234,
 					name: 'Pole Weapon Proficiency III',
 					description: 'Reach Rank 30 with any Scythe, Polearm or Staff weapon.',
-					percent: 16.1,
+					percent: 16.2,
 					icon: '2f47d6624aa6571ace30d45658ef24d908c8fb3a.jpg',
 					icongray: '41d59e9fee431b746c66ade0385fe84f0a5d1281.jpg',
 					hidden: 0
@@ -5843,7 +5752,7 @@ export const profile: Profile = {
 					unlocktime: 1400110104,
 					name: 'Merchant',
 					description: "Sell 10,000 credits' worth of items.",
-					percent: 19.6,
+					percent: 19.7,
 					icon: '05da323c7c119b2253c6ba61f874392afcdd260a.jpg',
 					icongray: '257b8cfac673e18fc0b3791b03935b6101753f29.jpg',
 					hidden: 0
@@ -5854,7 +5763,7 @@ export const profile: Profile = {
 					unlocktime: 1460823406,
 					name: 'Sentinel Mastery I',
 					description: 'Reach Rank 10 with any three Sentinels.',
-					percent: 13.9,
+					percent: 14,
 					icon: 'dbcc392166638734e2dcafab7ae80e2d1719f196.jpg',
 					icongray: '7655432b0ef8a17048f936796ca17e7b00310973.jpg',
 					hidden: 0
@@ -5909,7 +5818,7 @@ export const profile: Profile = {
 					unlocktime: 1398628175,
 					name: 'Sentinel Proficiency III',
 					description: 'Reach Rank 30 with any Sentinel.',
-					percent: 17.8,
+					percent: 17.9,
 					icon: '03b019d04d9abb10af9d1cd04eeddd8fbe3c2806.jpg',
 					icongray: 'd9be9104e6bb5d897065b1c502f22af2f304c0c9.jpg',
 					hidden: 0
@@ -5931,7 +5840,7 @@ export const profile: Profile = {
 					unlocktime: 1460416115,
 					name: 'Shotgun Mastery II',
 					description: 'Reach Rank 20 with any two Shotgun weapons.',
-					percent: 12.4,
+					percent: 12.5,
 					icon: '7f1e01416eefcb8589871b58b798908347ed855d.jpg',
 					icongray: '0c82e6db08a6f551468b581eddd4914548d917c7.jpg',
 					hidden: 0
@@ -5953,7 +5862,7 @@ export const profile: Profile = {
 					unlocktime: 1460415234,
 					name: 'Shotgun Proficiency I',
 					description: 'Reach Rank 10 with any Shotgun weapon.',
-					percent: 15.8,
+					percent: 15.9,
 					icon: '713c5c0374867ac7cd61ede0593cd72b48d2588a.jpg',
 					icongray: '50257e0e5bf6d56ba3f978a5dbefdb01f6f06401.jpg',
 					hidden: 0
@@ -5987,7 +5896,7 @@ export const profile: Profile = {
 					name: 'Shuriken Mastery I',
 					description:
 						'Reach Rank 10 with any three Boomerang, Throwing Discs or Throwing Daggers weapon.',
-					percent: 11.4,
+					percent: 11.5,
 					icon: '79c7bb4a92f8c010b562a43aaba6dcd98598a1e4.jpg',
 					icongray: 'dfbf331557205f72409a650d06fc2782701926df.jpg',
 					hidden: 0
@@ -6069,7 +5978,7 @@ export const profile: Profile = {
 					unlocktime: 1397866943,
 					name: 'Special Agent',
 					description: 'Solve 10 Ciphers.',
-					percent: 49.2,
+					percent: 49.3,
 					icon: 'd8882c2a0acd8ea3ffc11cd7441044f67344f054.jpg',
 					icongray: 'd8380dd94482c256d53b1bd766ddffd3cb5ccfb7.jpg',
 					hidden: 0
@@ -6113,7 +6022,7 @@ export const profile: Profile = {
 					unlocktime: 1397685942,
 					name: 'No Longer a Rookie',
 					description: 'Reach Rank 2 with any Warframe.',
-					percent: 56,
+					percent: 56.1,
 					icon: 'b406c9177163bcd1a371f288785f93d43e24f247.jpg',
 					icongray: '45de05674395bb6d5ee366aaebbdf591d9657b0a.jpg',
 					hidden: 0
@@ -6146,7 +6055,7 @@ export const profile: Profile = {
 					unlocktime: 1502643802,
 					name: 'Combat Specialist',
 					description: 'Complete 3 Sorties.',
-					percent: 8,
+					percent: 8.1,
 					icon: '8d600c33b680dcbe9bf0939ebc65d87e80c62a8d.jpg',
 					icongray: '1c6c0ab68d03b54fd6bc87c7d8af0b93176015f7.jpg',
 					hidden: 0
@@ -6169,7 +6078,7 @@ export const profile: Profile = {
 					unlocktime: 1502551018,
 					name: 'Dark Sectors',
 					description: 'Complete 5 missions for a Clan that then wins a contested Dark Sector.',
-					percent: 14.7,
+					percent: 14.8,
 					icon: '57b5ef259eb78b39871df9beaf8eeccdb9db826d.jpg',
 					icongray: '298a99d97fd857117c2bd4731cc867aab825be06.jpg',
 					hidden: 0
@@ -6180,7 +6089,7 @@ export const profile: Profile = {
 					unlocktime: 1502551018,
 					name: 'Egg Timer',
 					description: 'Begin Genetic Lab Incubation for a Kubrow.',
-					percent: 16.7,
+					percent: 16.8,
 					icon: '7fd6b7f58665d3a22ac6b72ba053f9ff63674192.jpg',
 					icongray: '78f9131b7995d4846f54c5ecf9a1575e5d6c4272.jpg',
 					hidden: 0
@@ -6213,7 +6122,7 @@ export const profile: Profile = {
 					unlocktime: 1502551018,
 					name: 'Into the Void',
 					description: 'Complete 10 Void Fissure missions.',
-					percent: 13.1,
+					percent: 13.2,
 					icon: '24b2b6baa8e667b85ba61ac0435bbc73d6776981.jpg',
 					icongray: '9dc775e6997dec71bcf69f36f1cab04f59701caa.jpg',
 					hidden: 0
@@ -6257,7 +6166,7 @@ export const profile: Profile = {
 					unlocktime: 1502551018,
 					name: 'No Witnesses',
 					description: 'Successfully perform 100 stealth kills.',
-					percent: 21.9,
+					percent: 22,
 					icon: 'e7d489a1e5e61ccce42604173945aafb60f9ee49.jpg',
 					icongray: '0bb2c976eea2fb55251ff03a2a0080dcdefdefce.jpg',
 					hidden: 0
@@ -6268,7 +6177,7 @@ export const profile: Profile = {
 					unlocktime: 1502551018,
 					name: 'Polarize This',
 					description: 'Polarize a Weapon, Companion, or Warframe.',
-					percent: 10.5,
+					percent: 10.6,
 					icon: 'f00ef21029f81476f95fa8790564b06db093b373.jpg',
 					icongray: 'a55c65a13dc78e1e9fb562f56ffbfbeb26f62d75.jpg',
 					hidden: 0
@@ -6279,7 +6188,7 @@ export const profile: Profile = {
 					unlocktime: 1502551018,
 					name: 'Polarize That',
 					description: 'Reach Rank 30 with a polarized Weapon, Companion, or Warframe.',
-					percent: 10.3,
+					percent: 10.4,
 					icon: 'cc89bc9eb97db0cd8ae019d63a3faf5d3d74802c.jpg',
 					icongray: '9f17a5761ce19ecf05d7ff038d65699fe6647165.jpg',
 					hidden: 0
@@ -6290,7 +6199,7 @@ export const profile: Profile = {
 					unlocktime: 1502551018,
 					name: 'Ride the Wave',
 					description: 'Complete 20 waves of Defense and successfully extract.',
-					percent: 13.5,
+					percent: 13.6,
 					icon: 'a27f458853dc9fb7143493f6afa437b30fdc762e.jpg',
 					icongray: 'd35fa9076516f15a3995bcde764b94fbcf9b393d.jpg',
 					hidden: 0
@@ -6301,7 +6210,7 @@ export const profile: Profile = {
 					unlocktime: 1502551018,
 					name: 'Saviour of Mercury',
 					description: 'Kill the boss in the Mercury region and get to extraction.',
-					percent: 14.1,
+					percent: 14.2,
 					icon: '308ab944494379d3b94c09921346bec6ebcd9561.jpg',
 					icongray: '24ce8fbf64944314feef0f977be7b080046382f6.jpg',
 					hidden: 0
@@ -6312,7 +6221,7 @@ export const profile: Profile = {
 					unlocktime: 1502551018,
 					name: 'Saviour of Venus',
 					description: 'Kill the boss in the Venus region and get to extraction.',
-					percent: 21.5,
+					percent: 21.6,
 					icon: '1bdffd6f1983461ac8a243d69e8730362f63c9eb.jpg',
 					icongray: '0513f13bdc53594e0cd070bb652359d0f6652a9d.jpg',
 					hidden: 0
@@ -6323,7 +6232,7 @@ export const profile: Profile = {
 					unlocktime: 1502551018,
 					name: 'Saviour of Uranus',
 					description: 'Kill the boss in the Uranus region and get to extraction.',
-					percent: 11.5,
+					percent: 11.6,
 					icon: '21fcf2529c2387640512e5ec72de66957d1fd158.jpg',
 					icongray: '80312bad7fcf21bad90e500c86a0b4c9fc2cc22f.jpg',
 					hidden: 0
@@ -6356,7 +6265,7 @@ export const profile: Profile = {
 					unlocktime: 1502551018,
 					name: 'Tenno and Hooch',
 					description: 'Complete any 10 missions with a Kubrow equipped.',
-					percent: 12.7,
+					percent: 12.8,
 					icon: 'fe0ddec6d9666eb46aac4fbd8b906234ab0c85be.jpg',
 					icongray: 'fcf5d57710b7fe3b209b8048e56e847ba52811f3.jpg',
 					hidden: 0
@@ -6412,7 +6321,7 @@ export const profile: Profile = {
 					unlocktime: 1502551017,
 					name: 'The War Within',
 					description: "Complete 'The War Within' quest.",
-					percent: 10.9,
+					percent: 11,
 					icon: '9a2bcab59c2384e5c4a84c370c81fa224e95e687.jpg',
 					icongray: 'd633d923ffdc0d3a9d3950241875aad82fdf230a.jpg',
 					hidden: 0
@@ -6434,7 +6343,7 @@ export const profile: Profile = {
 					unlocktime: 1502551018,
 					name: 'What a Nightmare',
 					description: 'Complete 10 Nightmare missions.',
-					percent: 7.1,
+					percent: 7.2,
 					icon: '64f4a6a5081c719110a69a6edff62870e5bc83b3.jpg',
 					icongray: 'fdf50df4521d3cbc2359ee22cdfb51a2ca5fe144.jpg',
 					hidden: 0
@@ -6446,7 +6355,7 @@ export const profile: Profile = {
 					name: 'Without a Hitch',
 					description:
 						'Complete a Hijack mission without allowing the payload to travel backwards.',
-					percent: 11.9,
+					percent: 12,
 					icon: '6db75026c099e7d03052683b3b2409a7936b3604.jpg',
 					icongray: 'aed82d4d5f41857d8d56ca060cebe0f14ef5a11c.jpg',
 					hidden: 0
@@ -6469,7 +6378,7 @@ export const profile: Profile = {
 					unlocktime: 1537487342,
 					name: 'Forged in Fire',
 					description: 'Craft your first Zaw.',
-					percent: 4.1,
+					percent: 4.2,
 					icon: 'f66ee53192a5487567bac8efcffaa6934cc50ca3.jpg',
 					icongray: '2ab5dc347fc950bea60729dfac9fa482a5524dfb.jpg',
 					hidden: 0
@@ -6480,7 +6389,7 @@ export const profile: Profile = {
 					unlocktime: 1508506602,
 					name: 'Champion of the People',
 					description: 'Complete 10 bounties given by Ostron townspeople.',
-					percent: 8.6,
+					percent: 8.7,
 					icon: '88b4b13770420f4e8f0ab95df648c499dbca8060.jpg',
 					icongray: 'b2860b15c23accf9054eba6e433da4035b33b211.jpg',
 					hidden: 0
@@ -6513,7 +6422,7 @@ export const profile: Profile = {
 					unlocktime: 1508279424,
 					name: 'Master Angler',
 					description: 'Catch 10 fish.',
-					percent: 11.5,
+					percent: 11.6,
 					icon: '334d675efca3974becde0c5d4956f421f3795b75.jpg',
 					icongray: '58eaa774ddbdf53840bba8b1240e15cdc03a2b16.jpg',
 					hidden: 0
@@ -6579,7 +6488,7 @@ export const profile: Profile = {
 					unlocktime: 1507857729,
 					name: "Saya's Vigil",
 					description: "Complete 'Saya's Vigil' quest.",
-					percent: 16.9,
+					percent: 17,
 					icon: '27f7717d31a48364567b674194f7234c65009210.jpg',
 					icongray: 'e1fdded226085cacc34d0736c09276cd6068b24f.jpg',
 					hidden: 0
@@ -6645,7 +6554,7 @@ export const profile: Profile = {
 					unlocktime: 1541852421,
 					name: 'Hang Tenno',
 					description: 'Make a 50 meter jump on a K-Drive',
-					percent: 12.3,
+					percent: 12.4,
 					icon: 'fabe3ac4f1b0fc6ab0b04ed0d7e4c1f55d07947b.jpg',
 					icongray: 'a67a8657940a7dc8b4b8daf8406905e17c57a9d7.jpg',
 					hidden: 0
@@ -6700,7 +6609,7 @@ export const profile: Profile = {
 					unlocktime: 1710465311,
 					name: 'Some Assembly Required',
 					description: 'Collect and assemble all Railjack components',
-					percent: 6.9,
+					percent: 7,
 					icon: '1cd01fffae1c70c58ed8860544c1adc1ef91b3d2.jpg',
 					icongray: 'ab15e5f88b328c4cd1ed788fa51204425a498385.jpg',
 					hidden: 0
@@ -6711,7 +6620,7 @@ export const profile: Profile = {
 					unlocktime: 1710725568,
 					name: 'From out of the Sun',
 					description: 'Shoot down 100 enemies while in a Railjack',
-					percent: 5.3,
+					percent: 5.4,
 					icon: '47548f8bba795176dd23b2f78efd98774ce96065.jpg',
 					icongray: '76582d7ac5db1696515ffa2910891cd85c744ea9.jpg',
 					hidden: 0
@@ -6996,7 +6905,7 @@ export const profile: Profile = {
 					unlocktime: 1397777198,
 					name: "Now We're Getting Serious ",
 					description: 'Fully mod and completely upgrade any weapon. ',
-					percent: 23.4,
+					percent: 23.5,
 					icon: '3ebfcf6160f19e8df8fb14ade3b64170a3f1ea96.jpg',
 					icongray: 'dd9153906486640cca9d93546170e835db8bb3f1.jpg',
 					hidden: 0
@@ -8104,7 +8013,7 @@ export const profile: Profile = {
 					unlocktime: 1437161759,
 					name: 'F in Chemistry',
 					description: 'On day 1 of the Rats job or the Cook Off job, blow up the lab. ',
-					percent: 29.7,
+					percent: 29.6,
 					icon: '2b6c1eea57aa735244c2eb03218cd7094b93df1d.jpg',
 					icongray: '3d69becfb0c87facaba17e8b9667bd9625b6e41c.jpg',
 					hidden: 0
@@ -8724,7 +8633,7 @@ export const profile: Profile = {
 					name: 'The Collector',
 					description:
 						"Kill 100 cops using only weapons from the AK or CAR weapon families. Unlocks the 'Keymod Rail', the 'Crabs Rail' and the 'Modern Barrel' for the AK weapon family.",
-					percent: 50.4,
+					percent: 50.5,
 					icon: '5bae29565d0ea02ed4c5c1000524b974334f8dfe.jpg',
 					icongray: '67285cdb0beeb169a1abb0519af209b5de200ef6.jpg',
 					hidden: 0
@@ -9335,7 +9244,7 @@ export const profile: Profile = {
 					unlocktime: 1509831920,
 					name: 'Cash or Credit',
 					description: 'Complete the Four Stores job on the Normal difficulty or above. ',
-					percent: 20.6,
+					percent: 20.7,
 					icon: 'f5ea4061c22efd8b7bed4cf522636dcfb2274392.jpg',
 					icongray: 'b17a038b290d59e9cc72f3fdfdca711ad215d123.jpg',
 					hidden: 0
@@ -9423,7 +9332,7 @@ export const profile: Profile = {
 					unlocktime: 1509831920,
 					name: 'No Return Policy',
 					description: 'Complete the Mallcrasher job on the Normal difficulty or above. ',
-					percent: 20.2,
+					percent: 20.3,
 					icon: 'c3c63df985bc341f1f7d551831b39f6b775a68e4.jpg',
 					icongray: '2435a6b15094145b299b41059605bc3bcf69867f.jpg',
 					hidden: 0
@@ -9996,7 +9905,7 @@ export const profile: Profile = {
 					unlocktime: 1509831920,
 					name: 'Harvest & Not So Trustee',
 					description: 'Complete the Bank Heist: Cash job on the Hard difficulty or above. ',
-					percent: 19.9,
+					percent: 20,
 					icon: '1c5f94e4aaab7463e18640b81696f9c9264a7234.jpg',
 					icongray: '1cbda95718c1081da1100f701ca5d2641e923dcc.jpg',
 					hidden: 0
@@ -10811,7 +10720,7 @@ export const profile: Profile = {
 					unlocktime: 1469247464,
 					name: 'First-Timer',
 					description: 'Score your first Goal',
-					percent: 90.9,
+					percent: 90.8,
 					icon: '2a870e59a1101ebf87c0e8aef9f95a6d900fa454.jpg',
 					icongray: '2731202a276a80c0335e26fa59976284389e4c1b.jpg',
 					hidden: 0
@@ -11316,7 +11225,7 @@ export const profile: Profile = {
 					unlocktime: 1558391880,
 					name: 'No Soup for You',
 					description: 'Rescue Ulgrim in the Burrwitch Outskirts.',
-					percent: 47.8,
+					percent: 47.9,
 					icon: 'b93ecfa1c4690ff7ee2492f493a1a7260d1ae06a.jpg',
 					icongray: '94f0586732cbbceb1aa6dcc3835a61e47f38fef5.jpg',
 					hidden: 0
@@ -11803,7 +11712,7 @@ export const profile: Profile = {
 					unlocktime: 1560260935,
 					name: 'Defensive Stance',
 					description: 'Construct a Defensive Structure.',
-					percent: 8.9,
+					percent: 9,
 					icon: 'd200d19693db12c8ecbea5384957f54063c41f57.jpg',
 					icongray: '94f0586732cbbceb1aa6dcc3835a61e47f38fef5.jpg',
 					hidden: 0
@@ -12124,7 +12033,7 @@ export const profile: Profile = {
 					unlocktime: 1636828467,
 					name: 'Hero of the People',
 					description: 'Reach Revered reputation with the Malmouth Resistance.',
-					percent: 6.5,
+					percent: 6.6,
 					icon: '288d4bfb5ab2a452c26316e9f08b41841b329909.jpg',
 					icongray: '46904d8724856afd6143c8b9343f72c4a1751046.jpg',
 					hidden: 0
@@ -12323,7 +12232,7 @@ export const profile: Profile = {
 					unlocktime: 1559484135,
 					name: 'The Master of Necromancy',
 					description: '',
-					percent: 11.3,
+					percent: 11.4,
 					icon: 'a52fd0edcf2208e59ad0ff4d1c8e5cc99965ff8a.jpg',
 					icongray: '46904d8724856afd6143c8b9343f72c4a1751046.jpg',
 					hidden: 1
@@ -12378,7 +12287,7 @@ export const profile: Profile = {
 					unlocktime: 1559488228,
 					name: 'The Gryphon Sovereign',
 					description: 'Slay Azaleon, the Gryphon Sovereign at the Sunward Spire.',
-					percent: 10.9,
+					percent: 11,
 					icon: '45ec4b2cb26cae5dea8de15e97ec554dfaf30692.jpg',
 					icongray: '46904d8724856afd6143c8b9343f72c4a1751046.jpg',
 					hidden: 0
@@ -12633,7 +12542,7 @@ export const profile: Profile = {
 					unlocktime: 1559591304,
 					name: 'Korvan Explorer',
 					description: 'Open 30 One-Shot Chests.',
-					percent: 8.1,
+					percent: 8.2,
 					icon: '14e230c1f9003b13ddff38ee58d2aa72921a29c9.jpg',
 					icongray: '46904d8724856afd6143c8b9343f72c4a1751046.jpg',
 					hidden: 0
@@ -12973,7 +12882,7 @@ export const profile: Profile = {
 					unlocktime: 1538949355,
 					name: 'Extinction Event Avoided',
 					description: '',
-					percent: 36.6,
+					percent: 36.7,
 					icon: '1c59192a1e1ce720cd3dc77a1ea4e663f1f5516f.jpg',
 					icongray: '680214ffd7727865ea404b897aecbc0f667a9377.jpg',
 					hidden: 1
@@ -13083,7 +12992,7 @@ export const profile: Profile = {
 					unlocktime: 1517090292,
 					name: 'Personal Propulsion',
 					description: '',
-					percent: 53,
+					percent: 53.1,
 					icon: '86ebd72e1995e5e028d3349210a0a7edd35eb74a.jpg',
 					icongray: '680214ffd7727865ea404b897aecbc0f667a9377.jpg',
 					hidden: 1
@@ -13105,7 +13014,7 @@ export const profile: Profile = {
 					unlocktime: 1539894950,
 					name: 'Ordered the Prawn',
 					description: '',
-					percent: 32.9,
+					percent: 33,
 					icon: '404e5925552ad55132869fd9793e573afb3966a8.jpg',
 					icongray: '680214ffd7727865ea404b897aecbc0f667a9377.jpg',
 					hidden: 1
@@ -13740,7 +13649,7 @@ export const profile: Profile = {
 					unlocktime: 1490052258,
 					name: 'The Loyal',
 					description: '',
-					percent: 14.8,
+					percent: 14.9,
 					icon: '7b3df62ea1c6951fb6a806fda366bf9e6a808822.jpg',
 					icongray: 'd3292d5ed49d8f4c02737fdf2343fbc742176059.jpg',
 					hidden: 1
@@ -13850,7 +13759,7 @@ export const profile: Profile = {
 					unlocktime: 1490050492,
 					name: 'Villain',
 					description: '',
-					percent: 26.1,
+					percent: 26.2,
 					icon: 'e4697a62b514411dbac947f3d73881073665c717.jpg',
 					icongray: 'd3292d5ed49d8f4c02737fdf2343fbc742176059.jpg',
 					hidden: 1
@@ -13953,7 +13862,7 @@ export const profile: Profile = {
 					unlocktime: 1718326699,
 					name: 'A Day at the Fair',
 					description: 'Defeat every boss in Inkwell Isle II',
-					percent: 31,
+					percent: 31.1,
 					icon: '98e1a4ed96b1f9c90e7ceaa2809c71d6f2d98573.jpg',
 					icongray: 'ff2ce90c67c0d574096bf2f5eaa19ca25b2193db.jpg',
 					hidden: 0
@@ -15573,7 +15482,7 @@ export const profile: Profile = {
 					unlocktime: 1419872504,
 					name: 'The Bright Master',
 					description: '',
-					percent: 72.6,
+					percent: 72.5,
 					icon: '636eac241f4891ed7ede019fd50082d6a86ffd6d.jpg',
 					icongray: '3f59740075ea9fdd57e58dcfbe373f3bfe7021e9.jpg',
 					hidden: 1
@@ -15584,7 +15493,7 @@ export const profile: Profile = {
 					unlocktime: 1421108369,
 					name: 'To Rule them All',
 					description: '',
-					percent: 54.4,
+					percent: 54.2,
 					icon: '5b9e66491c370868c25c517d04bf9d2a7ae93ca4.jpg',
 					icongray: '22089b1b1b928baa3a27897d01ced6a6b6dcb5c9.jpg',
 					hidden: 1
@@ -15595,7 +15504,7 @@ export const profile: Profile = {
 					unlocktime: 1419876399,
 					name: 'Ratbag the Great and Powerful',
 					description: '',
-					percent: 57.7,
+					percent: 57.6,
 					icon: 'd3501b04734d5333b25b9380991bb594322a4dff.jpg',
 					icongray: '6bd474567c9e4e0a42da5ae8a15283bd4658b4b5.jpg',
 					hidden: 1
@@ -15638,7 +15547,7 @@ export const profile: Profile = {
 					unlocktime: 1451761734,
 					name: 'On my way',
 					description: "Complete 'Back On Track' in Practice mode",
-					percent: 49.7,
+					percent: 49.6,
 					icon: '3db1d64381bba1fdf732afae1bd5126b36319d7c.jpg',
 					icongray: '724d0ee630113ba2203321163332384fe2f83231.jpg',
 					hidden: 0
@@ -15759,7 +15668,7 @@ export const profile: Profile = {
 					unlocktime: 1452033380,
 					name: 'Jumper!',
 					description: "Complete 'Jumper' in Normal mode",
-					percent: 49.1,
+					percent: 49.2,
 					icon: '2ef36d5caad933ecad035f641c746a2cb55cab3d.jpg',
 					icongray: 'e29d9d79b82c17db0ecef29a990487e45bff19b6.jpg',
 					hidden: 0
@@ -16007,7 +15916,7 @@ export const profile: Profile = {
 					unlocktime: 1451149845,
 					name: 'Awake',
 					description: 'Complete the first mission',
-					percent: 89.1,
+					percent: 89.2,
 					icon: '997b5ff0b9b91d1c2ae1dc743eec5460a41f2dbf.jpg',
 					icongray: 'f793484aa935b2a62916612cfd6b1dc4ac075880.jpg',
 					hidden: 0
@@ -16095,7 +16004,7 @@ export const profile: Profile = {
 					unlocktime: 1451253307,
 					name: 'Back Off',
 					description: 'Cause the Alien to retreat by using the flamethrower',
-					percent: 30,
+					percent: 30.1,
 					icon: '02c89cc311e88f4885f272f6eef005c36b0c3700.jpg',
 					icongray: '4efa24eed12bcfbff47c7791c464fffcfdc7245e.jpg',
 					hidden: 0
@@ -16149,7 +16058,7 @@ export const profile: Profile = {
 					unlocktime: 1420131760,
 					name: 'ILLUMINATED',
 					description: '',
-					percent: 47.7,
+					percent: 47.6,
 					icon: '79e16611e0a3d5c3ca7e616353b999d188cc12d6.jpg',
 					icongray: 'c472037157bc126ee80f65f79b86de79f2b73591.jpg',
 					hidden: 1
@@ -16775,7 +16684,7 @@ export const profile: Profile = {
 					unlocktime: 1434064599,
 					name: "Monstro's Tooth",
 					description: '',
-					percent: 86.1,
+					percent: 86.2,
 					icon: '6a9014a7962096578041f80d1c3a2b5bea1a1533.jpg',
 					icongray: 'fc5c40f3429120652211c9e95570752ba5810f22.jpg',
 					hidden: 1
@@ -16830,7 +16739,7 @@ export const profile: Profile = {
 					unlocktime: 1434386541,
 					name: 'Everything is Terrible!!!',
 					description: 'The game just got harder!',
-					percent: 50.4,
+					percent: 50.5,
 					icon: 'ff9835c94f32c67602b45e62d58a3bc81582e003.jpg',
 					icongray: 'fc5c40f3429120652211c9e95570752ba5810f22.jpg',
 					hidden: 0
@@ -17116,7 +17025,7 @@ export const profile: Profile = {
 					unlocktime: 1447009116,
 					name: 'Blank Card',
 					description: '',
-					percent: 30.2,
+					percent: 30.3,
 					icon: '70d7d64f145b4afeb4fc867fb7a207c12ade35a5.jpg',
 					icongray: 'fc5c40f3429120652211c9e95570752ba5810f22.jpg',
 					hidden: 1
@@ -17171,7 +17080,7 @@ export const profile: Profile = {
 					unlocktime: 1434206953,
 					name: "There's Options",
 					description: '',
-					percent: 56.9,
+					percent: 57,
 					icon: '1c92620430a9c60e23a5af7ceb6abb65496b73de.jpg',
 					icongray: 'fc5c40f3429120652211c9e95570752ba5810f22.jpg',
 					hidden: 1
@@ -17413,7 +17322,7 @@ export const profile: Profile = {
 					unlocktime: 1447007313,
 					name: 'Cute Baby',
 					description: '',
-					percent: 30.3,
+					percent: 30.4,
 					icon: '367e3162d635c06371d14a793fc1a72757cc62db.jpg',
 					icongray: 'fc5c40f3429120652211c9e95570752ba5810f22.jpg',
 					hidden: 1
@@ -17567,7 +17476,7 @@ export const profile: Profile = {
 					unlocktime: 1446912721,
 					name: 'XXXXXXXXL',
 					description: 'Unlocked Challenge #21.',
-					percent: 56.4,
+					percent: 56.5,
 					icon: '2699055e6489ae9610e497b22c995a107b4bfdca.jpg',
 					icongray: '6f8cc8a781f797aaf5095fd9c0b8b20dc83b3976.jpg',
 					hidden: 0
@@ -17644,7 +17553,7 @@ export const profile: Profile = {
 					unlocktime: 1446927939,
 					name: 'Generosity',
 					description: '',
-					percent: 21.2,
+					percent: 21.3,
 					icon: 'eee50ec2ccb1a53cab844021f104629cc294aa1f.jpg',
 					icongray: '6f8cc8a781f797aaf5095fd9c0b8b20dc83b3976.jpg',
 					hidden: 1
@@ -17762,7 +17671,7 @@ export const profile: Profile = {
 					unlocktime: 1444497748,
 					name: 'Flash!',
 					description: 'Take optional photo #10 in Episode 3: Chaos Theory',
-					percent: 21.1,
+					percent: 21,
 					icon: 'b85c7dec6032c9328237c6ace62b6b28547c6dc4.jpg',
 					icongray: 'e22fe9f718a0d2827f9f35b518911b8339f0ccd2.jpg',
 					hidden: 0
@@ -17773,7 +17682,7 @@ export const profile: Profile = {
 					unlocktime: 1444512494,
 					name: 'Dark Room',
 					description: 'Finish Episode 4: Dark Room',
-					percent: 25.6,
+					percent: 25.5,
 					icon: '222d03444cc4f674cb5906610a0fe5666b30c0c3.jpg',
 					icongray: '19fda58e1ed6614608622d58cf0dd02e78f61f7c.jpg',
 					hidden: 0
@@ -17880,7 +17789,7 @@ export const profile: Profile = {
 					unlocktime: 1495591283,
 					name: 'FANTASTIC!',
 					description: 'Unlock all the Fans',
-					percent: 61.7,
+					percent: 61.6,
 					icon: '0aba26815cd7739c990494f634801e8cfa66d594.jpg',
 					icongray: '69a289bdb27a1ade57a2d9fe4435c9ce0053f112.jpg',
 					hidden: 0
@@ -18074,7 +17983,7 @@ export const profile: Profile = {
 					unlocktime: 1522016987,
 					name: 'Rex Rider',
 					description: 'You rode on the back of a T-Rex!',
-					percent: 29.3,
+					percent: 29.4,
 					icon: '247d075cfe51f7b8770dcf095f3a46093b933311.jpg',
 					icongray: 'eef17af756386d6d8571fc213d3ddde28322286e.jpg',
 					hidden: 0
@@ -18085,7 +17994,7 @@ export const profile: Profile = {
 					unlocktime: 1522169169,
 					name: 'Lowest Depth',
 					description: "You've reached the bottom of the ARK's oceans!",
-					percent: 13.4,
+					percent: 13.5,
 					icon: 'a863a8888759e6bb6e6a898e2b51439c96b6595e.jpg',
 					icongray: '37fb46f57247bd2dcd87d56fd4b324cb03a395cb.jpg',
 					hidden: 0
@@ -18268,7 +18177,7 @@ export const profile: Profile = {
 					unlocktime: 1477445573,
 					name: 'Lucky Ducky',
 					description: 'Buy 777 or more of each Moon investment. Jackpot!',
-					percent: 7.1,
+					percent: 7.2,
 					icon: '6d2202126a18320c908ce51b77266a16425fbee0.jpg',
 					icongray: '6fef1c652edd8fd8eab1cc5c4103be3c750d618c.jpg',
 					hidden: 0
@@ -18479,7 +18388,7 @@ export const profile: Profile = {
 					unlocktime: 1567462250,
 					name: 'Climbing the Social Ladder',
 					description: 'Have a Citizen educated to level 3 from 0',
-					percent: 40.3,
+					percent: 40.2,
 					icon: '86574b48e2ce53c6b6f9010bf83c04bc7e8918d1.jpg',
 					icongray: 'ae7d06a8b7119c8813522621fdacd881912e7068.jpg',
 					hidden: 0
@@ -18715,7 +18624,7 @@ export const profile: Profile = {
 					unlocktime: 1432398328,
 					name: 'Pimp My Sidearm',
 					description: 'Fully mod a weapon.',
-					percent: 43.8,
+					percent: 43.9,
 					icon: '1ae6d3bd27ba653fd047642bcc46815e8acc5434.jpg',
 					icongray: 'c59db01ade48464efabe0ed81a21c7b78af08f03.jpg',
 					hidden: 0
@@ -19223,7 +19132,7 @@ export const profile: Profile = {
 					unlocktime: 1453565523,
 					name: 'Bounty: Rashon, the Duke',
 					description: 'Defeat Rashon, the Duke',
-					percent: 21.6,
+					percent: 21.7,
 					icon: '3b866c2896e4162caebe72b8aa88591405a363f9.jpg',
 					icongray: '850b57dc161dc80a4d3eed02d0490ae1a5b09ee7.jpg',
 					hidden: 0
@@ -19322,7 +19231,7 @@ export const profile: Profile = {
 					unlocktime: 1453569931,
 					name: 'Zone Connoisseur',
 					description: 'Beat Zone 2,000',
-					percent: 13.9,
+					percent: 14,
 					icon: '20962bf67043b622cb2860c21644c14d766ce21c.jpg',
 					icongray: '6b83e290ab151546f5fd9ec346e8b743d7c5e5c0.jpg',
 					hidden: 0
@@ -19476,7 +19385,7 @@ export const profile: Profile = {
 					unlocktime: 1432577982,
 					name: 'Guide',
 					description: 'Level up heroes 100 times',
-					percent: 83.5,
+					percent: 83.6,
 					icon: '09b9fad7b47088de3cd9a43167943f3b558df841.jpg',
 					icongray: '82d5de4b63d6009367064dbd40412c19778a66f2.jpg',
 					hidden: 0
@@ -19641,7 +19550,7 @@ export const profile: Profile = {
 					unlocktime: 1453568802,
 					name: 'Benevolent',
 					description: 'Get 100 hero upgrades',
-					percent: 55.1,
+					percent: 55.2,
 					icon: '74bc63253c730517f10730d76a5b693fc3f0760d.jpg',
 					icongray: 'adebd6058cd8c935a64039f9fe5c114d857d43c7.jpg',
 					hidden: 0
@@ -19740,7 +19649,7 @@ export const profile: Profile = {
 					unlocktime: 1652914725,
 					name: 'Charmed',
 					description: 'Acquire your first Charm',
-					percent: 75.9,
+					percent: 75.8,
 					icon: '6d15e62c48ba57d23e72b8f24fb775a44223cb8f.jpg',
 					icongray: '8342f6c2630943b056978593315dfb8676e5bbd9.jpg',
 					hidden: 0
@@ -19751,7 +19660,7 @@ export const profile: Profile = {
 					unlocktime: 1653515990,
 					name: 'Enchanted',
 					description: "Acquire half of Hallownest's Charms",
-					percent: 38.3,
+					percent: 38.2,
 					icon: '70ff5ba41548568aad51c3bd0d4a53d5c17399ed.jpg',
 					icongray: '16cab0ef2c0b0acac9779a6cd9776158faa77a8a.jpg',
 					hidden: 0
@@ -19762,7 +19671,7 @@ export const profile: Profile = {
 					unlocktime: 1654377412,
 					name: 'Blessed',
 					description: "Acquire all Charms and receive Salubra's blessing",
-					percent: 19.4,
+					percent: 19.3,
 					icon: 'd53ad10288be837b8aab693b8fcc6549960460f1.jpg',
 					icongray: 'a577316f7ae64c8cfdd0568209a915a9fad0f8ad.jpg',
 					hidden: 0
@@ -19773,7 +19682,7 @@ export const profile: Profile = {
 					unlocktime: 1653255568,
 					name: 'Protected',
 					description: 'Acquire 4 Mask Shards',
-					percent: 46,
+					percent: 45.9,
 					icon: '2461c5d7f6595602443a0bf0da24f48795873671.jpg',
 					icongray: '4764a78f55fbf49a82f479414a1198d182bcb43d.jpg',
 					hidden: 0
@@ -19795,7 +19704,7 @@ export const profile: Profile = {
 					unlocktime: 1653516026,
 					name: 'Soulful',
 					description: 'Acquire 3 Vessel Fragments',
-					percent: 42,
+					percent: 41.8,
 					icon: '4913c263116ee38deb0a17c724e04cda290210e0.jpg',
 					icongray: '83ad82ce253a66e89e6ee51eb37db2fd0f781e10.jpg',
 					hidden: 0
@@ -19806,7 +19715,7 @@ export const profile: Profile = {
 					unlocktime: 1654378845,
 					name: 'Worldsoul',
 					description: 'Acquire all Vessel Fragments',
-					percent: 24,
+					percent: 23.9,
 					icon: '9093ee5b02a988b32deedd9fe89b72c733ba0bf6.jpg',
 					icongray: '7830df3185b0252edd0e4830da6dcc008b162541.jpg',
 					hidden: 0
@@ -19817,7 +19726,7 @@ export const profile: Profile = {
 					unlocktime: 1652916470,
 					name: 'Falsehood',
 					description: 'Defeat the False Knight',
-					percent: 70.1,
+					percent: 70,
 					icon: 'ef1f6b825646067c63f5703d1c7ba38b52d94259.jpg',
 					icongray: 'e92b8a9b1382393740a658d9ece0bcad21d0bb03.jpg',
 					hidden: 0
@@ -19828,7 +19737,7 @@ export const profile: Profile = {
 					unlocktime: 1654287094,
 					name: 'Strength',
 					description: '',
-					percent: 25.1,
+					percent: 25,
 					icon: '4d81411b14d5537f01df55ace0b63494875de2fc.jpg',
 					icongray: '9f449ef6aacd0ef2423439931ef68466cd762456.jpg',
 					hidden: 1
@@ -19839,7 +19748,7 @@ export const profile: Profile = {
 					unlocktime: 1652927597,
 					name: 'Test of Resolve',
 					description: 'Defeat Hornet in Greenpath',
-					percent: 61.3,
+					percent: 61.2,
 					icon: '341793aae218e6b14c571ee2daf55b87cf11a784.jpg',
 					icongray: '80ba52f035a3418b241c62c1eae7c924ec5705e8.jpg',
 					hidden: 0
@@ -19850,7 +19759,7 @@ export const profile: Profile = {
 					unlocktime: 1653613829,
 					name: 'Proof of Resolve',
 					description: '',
-					percent: 36.7,
+					percent: 36.6,
 					icon: '55742641984670952a75a1b80f3380bc85a8fcce.jpg',
 					icongray: 'ce3e486770249d317f47c8277de5e7047d175cb0.jpg',
 					hidden: 1
@@ -19861,7 +19770,7 @@ export const profile: Profile = {
 					unlocktime: 1653241171,
 					name: 'Illumination',
 					description: 'Defeat the Soul Master',
-					percent: 45,
+					percent: 44.9,
 					icon: '2d3e4c6217b6d911d8a211f3ab4f3f37e49a584c.jpg',
 					icongray: '4f4fedac5e0f99fe9ac8d849296fbe6a202cdb5e.jpg',
 					hidden: 0
@@ -19872,7 +19781,7 @@ export const profile: Profile = {
 					unlocktime: 1653445681,
 					name: 'Release',
 					description: 'Defeat the Broken Vessel',
-					percent: 39.9,
+					percent: 39.8,
 					icon: 'fe4da7f785348feab3845233c0050d660b23c9d7.jpg',
 					icongray: 'b252c4bde96e9b00acc82780dd4aa32b26a5253b.jpg',
 					hidden: 0
@@ -19883,7 +19792,7 @@ export const profile: Profile = {
 					unlocktime: 1654289082,
 					name: 'Peace',
 					description: '',
-					percent: 28.9,
+					percent: 28.8,
 					icon: 'c1d1c0d98374a06efa17e183ef3121ac6c8cc156.jpg',
 					icongray: '1eb53b3fb180df87b48b07a5898aeb8b872b49d4.jpg',
 					hidden: 1
@@ -19894,7 +19803,7 @@ export const profile: Profile = {
 					unlocktime: 1653352835,
 					name: 'Honour',
 					description: 'Defeat the Dung Defender',
-					percent: 40.8,
+					percent: 40.7,
 					icon: '7505670c8e4283da41ce575341bc35f72ff2639b.jpg',
 					icongray: 'c98d546145ff3a8b0eed20ca5426b94d714127bd.jpg',
 					hidden: 0
@@ -19905,7 +19814,7 @@ export const profile: Profile = {
 					unlocktime: 1653741162,
 					name: 'Respect',
 					description: 'Defeat the Mantis Lords',
-					percent: 44.5,
+					percent: 44.3,
 					icon: '1a695a0e9bf011f800f3a52e4a04a02776011765.jpg',
 					icongray: '1720e3ef2802441c9f6f3d4b3ae62ba05109ec1c.jpg',
 					hidden: 0
@@ -19927,7 +19836,7 @@ export const profile: Profile = {
 					unlocktime: 1654441057,
 					name: 'Rivalry',
 					description: '',
-					percent: 27.7,
+					percent: 27.6,
 					icon: 'e8a35f548dcdeb1753fdc880a2df6de8fe245c8e.jpg',
 					icongray: '00938958cda9497220f141c415a7ca7bdcdd27e7.jpg',
 					hidden: 1
@@ -19938,7 +19847,7 @@ export const profile: Profile = {
 					unlocktime: 1653740977,
 					name: 'Attunement',
 					description: 'Collect 600 Essence',
-					percent: 36.4,
+					percent: 36.3,
 					icon: 'a0864e337fe427586613b09e8799109deccdbcf4.jpg',
 					icongray: '8415033a505e66a207bc4c34229154e8c860d73c.jpg',
 					hidden: 0
@@ -19949,7 +19858,7 @@ export const profile: Profile = {
 					unlocktime: 1654289303,
 					name: 'Awakening',
 					description: 'Collect 1800 Essence and awaken the Dream Nail',
-					percent: 28.5,
+					percent: 28.4,
 					icon: 'e8f543149d1ccfe831740ad989260d15e57a4de0.jpg',
 					icongray: 'd1f3d14cf7b0b0cf8a7bb4a71a43f5c950fd982c.jpg',
 					hidden: 0
@@ -19971,7 +19880,7 @@ export const profile: Profile = {
 					unlocktime: 1653606450,
 					name: 'Grubfriend',
 					description: 'Rescue half of the imprisoned grubs',
-					percent: 36.8,
+					percent: 36.7,
 					icon: '7d3e6f275570f47e11c53342e989bc70152789cf.jpg',
 					icongray: '585f5c9dc4d8fc9a7ba24c808e184837fa1c28c4.jpg',
 					hidden: 0
@@ -19982,7 +19891,7 @@ export const profile: Profile = {
 					unlocktime: 1654371694,
 					name: 'Metamorphosis',
 					description: 'Rescue all of the imprisoned grubs',
-					percent: 25,
+					percent: 24.9,
 					icon: '378ed9b1dcccd43bfbf39295b17caad3fb398c64.jpg',
 					icongray: 'a1a99a2d1308a47ea46df2eff56301584d070246.jpg',
 					hidden: 0
@@ -20004,7 +19913,7 @@ export const profile: Profile = {
 					unlocktime: 1654378127,
 					name: 'Witness',
 					description: '',
-					percent: 23.5,
+					percent: 23.4,
 					icon: 'b2de92ce9fadeae94fc2b25f116a95ff575047d2.jpg',
 					icongray: 'bebc7daebbce3dd0cef06f83e0b4ae69975062cc.jpg',
 					hidden: 1
@@ -20026,7 +19935,7 @@ export const profile: Profile = {
 					unlocktime: 1654045020,
 					name: 'Execution',
 					description: 'Defeat the Traitor Lord',
-					percent: 31.6,
+					percent: 31.5,
 					icon: 'e7205c4c78fefef7894a6731d1a188e992011ec8.jpg',
 					icongray: '9204e1e5c4d80aa514583957e57d9ae86ebd0976.jpg',
 					hidden: 0
@@ -20037,7 +19946,7 @@ export const profile: Profile = {
 					unlocktime: 1653142867,
 					name: 'Connection',
 					description: "Open half of Hallownest's Stag Stations",
-					percent: 47.4,
+					percent: 47.3,
 					icon: 'dad457a73d6612846c24053b76d41a2415ace552.jpg',
 					icongray: '6d16598ac798eef2f915b7a9a2619be365c768b5.jpg',
 					hidden: 0
@@ -20048,7 +19957,7 @@ export const profile: Profile = {
 					unlocktime: 1654222502,
 					name: 'Hope',
 					description: "Open all of Hallownest's Stag Stations and discover the Stag Nest",
-					percent: 31.7,
+					percent: 31.6,
 					icon: '96d2673f15230fb83dd61384eb05458f1e0475bc.jpg',
 					icongray: '502e5ea328ab9c1e226544bd85a5771c12f2d723.jpg',
 					hidden: 0
@@ -20059,7 +19968,7 @@ export const profile: Profile = {
 					unlocktime: 1653694019,
 					name: 'Teacher',
 					description: 'Destroy Monomon the Teacher',
-					percent: 35.8,
+					percent: 35.7,
 					icon: 'f35cd67af303aa5d609cd1183e9eb29295b302b7.jpg',
 					icongray: '5a85ae25f9102058a0ac5bf541d08a510b466764.jpg',
 					hidden: 0
@@ -20070,7 +19979,7 @@ export const profile: Profile = {
 					unlocktime: 1653952675,
 					name: 'Watcher',
 					description: 'Destroy Lurien the Watcher',
-					percent: 35.5,
+					percent: 35.3,
 					icon: '4e6e4ddce73c59559901d5bc7c86481d36a45988.jpg',
 					icongray: '9a7f425e2757c29513ef86473b76fa093c9e7c0e.jpg',
 					hidden: 0
@@ -20081,7 +19990,7 @@ export const profile: Profile = {
 					unlocktime: 1654221928,
 					name: 'Beast',
 					description: 'Destroy Herrah the Beast',
-					percent: 36.9,
+					percent: 36.8,
 					icon: '460d5ab4af6dc0ff8c053c42649fa856949f01b4.jpg',
 					icongray: '4fe01dcb8d9665de684eb7f8bda003ebfa938e82.jpg',
 					hidden: 0
@@ -20092,7 +20001,7 @@ export const profile: Profile = {
 					unlocktime: 1653953459,
 					name: 'Cartographer',
 					description: 'Acquire a map of each area',
-					percent: 34.7,
+					percent: 34.6,
 					icon: '7e671e6e88cbe98b9dce57281980fea84a70de9b.jpg',
 					icongray: '9db745f7f05c507991e224f2ca73e8d4af36a114.jpg',
 					hidden: 0
@@ -20103,7 +20012,7 @@ export const profile: Profile = {
 					unlocktime: 1653523816,
 					name: 'Warrior',
 					description: 'Complete the Trial of the Warrior',
-					percent: 35.9,
+					percent: 35.8,
 					icon: '11d67c16467ae72066c2a3d33388325c65e9f7f7.jpg',
 					icongray: '9f9fca30082bf6d65e8beb8cf5eb9955c0ed0bbf.jpg',
 					hidden: 0
@@ -20114,7 +20023,7 @@ export const profile: Profile = {
 					unlocktime: 1654123543,
 					name: 'Conqueror',
 					description: 'Complete the Trial of the Conqueror',
-					percent: 32.8,
+					percent: 32.7,
 					icon: '1e6a0d37618ba408e9c6ee4e77585ba1b69ee2c1.jpg',
 					icongray: '4dce442376a62900d7064dbb04f66125678d0a99.jpg',
 					hidden: 0
@@ -20136,7 +20045,7 @@ export const profile: Profile = {
 					unlocktime: 1654290571,
 					name: 'The Hollow Knight',
 					description: '',
-					percent: 22.1,
+					percent: 22,
 					icon: '39db59cf079011e52d49a621de9c540652f9d2d4.jpg',
 					icongray: 'f62b5c62df1ccfcf68b18da288ee220e6bc34b2b.jpg',
 					hidden: 1
@@ -20158,7 +20067,7 @@ export const profile: Profile = {
 					unlocktime: 1654380106,
 					name: 'Dream No More',
 					description: '',
-					percent: 18.2,
+					percent: 18.1,
 					icon: '8236b05d402215e4cd497af18248d19210d8fbea.jpg',
 					icongray: 'a43f645a3916af81765b548b85fe19e826ba4c42.jpg',
 					hidden: 1
@@ -20169,7 +20078,7 @@ export const profile: Profile = {
 					unlocktime: 1654293653,
 					name: 'Void',
 					description: '',
-					percent: 24.3,
+					percent: 24.2,
 					icon: '7695d5ad3fbe1c09af8feb887cd887846ec115b8.jpg',
 					icongray: 'e11d971b5f2c1e977fd5679ad15cbf40b2cb2a4a.jpg',
 					hidden: 1
@@ -20202,7 +20111,7 @@ export const profile: Profile = {
 					unlocktime: 1654380270,
 					name: 'Completion',
 					description: 'Achieve 100% game completion and finish the game',
-					percent: 17.6,
+					percent: 17.5,
 					icon: '1f0cab3df919fd1d48aaacd2db3a4d10334bae1d.jpg',
 					icongray: 'eba8bd5fc8e2d0b968bc2eb80433b8112a0d337c.jpg',
 					hidden: 0
@@ -20235,7 +20144,7 @@ export const profile: Profile = {
 					unlocktime: 1654288073,
 					name: 'Mortality',
 					description: '',
-					percent: 22.6,
+					percent: 22.5,
 					icon: 'a26f0ff5d81835545c86d358c49a1a15bf74a299.jpg',
 					icongray: 'f922c5de7ecfb30d3f7287e5fc472d669ec67fb8.jpg',
 					hidden: 1
@@ -20246,7 +20155,7 @@ export const profile: Profile = {
 					unlocktime: 1654441352,
 					name: 'Dark Romance',
 					description: '',
-					percent: 20.5,
+					percent: 20.4,
 					icon: '8c26d557c3582c7784f338523316f56068e4426d.jpg',
 					icongray: 'e9699d861ee64eb0b3bfd57f2571896be5db12b4.jpg',
 					hidden: 1
@@ -20301,7 +20210,7 @@ export const profile: Profile = {
 					unlocktime: 1690985057,
 					name: 'Focus',
 					description: '',
-					percent: 10.8,
+					percent: 10.7,
 					icon: '382c7998e9b0b60a850d8bdf4c7f4a515a8b3481.jpg',
 					icongray: '',
 					hidden: 1
@@ -20416,7 +20325,7 @@ export const profile: Profile = {
 					unlocktime: 1447525295,
 					name: 'Dangerous Minds',
 					description: '',
-					percent: 36.9,
+					percent: 36.8,
 					icon: 'f9cbca05b4b82d3b4cb50f9eefdb3727b501e2ec.jpg',
 					icongray: 'aa6d57e71e287621d0cdfa3357430a94154fb1e7.jpg',
 					hidden: 1
@@ -20559,7 +20468,7 @@ export const profile: Profile = {
 					unlocktime: 1464705645,
 					name: 'Gun-For-Hire',
 					description: '',
-					percent: 31.1,
+					percent: 31,
 					icon: '74072a7dcd1cb072d9d7ed6e77d79efec90d35ba.jpg',
 					icongray: 'e14c6ff0f8245358e7746192d7adb5d69f90e9ef.jpg',
 					hidden: 1
@@ -20581,7 +20490,7 @@ export const profile: Profile = {
 					unlocktime: 1447527807,
 					name: "What's Yours Is Mine",
 					description: '',
-					percent: 35.4,
+					percent: 35.3,
 					icon: 'd7075b5a23c02109a7e7df21e9d96e52ecdfa0e4.jpg',
 					icongray: '1f058e80bc26333014f072f4f26070d7b53f128b.jpg',
 					hidden: 1
@@ -20713,7 +20622,7 @@ export const profile: Profile = {
 					unlocktime: 1448060344,
 					name: 'Homerun!',
 					description: '',
-					percent: 6,
+					percent: 5.9,
 					icon: '57fa7aa0402d1f7cef999aa09292d47876abba8c.jpg',
 					icongray: 'ad40092fc725be3b88c4b5894eba743cbc477d6f.jpg',
 					hidden: 1
@@ -20779,7 +20688,7 @@ export const profile: Profile = {
 					unlocktime: 1447806826,
 					name: 'Prepared for the Future',
 					description: '',
-					percent: 19.4,
+					percent: 19.3,
 					icon: 'b4bf36dabecd59110d9bfe6fbb5d97e7ef0a27d1.jpg',
 					icongray: 'ad0b76ebabec6f3b9f4b32031b8feb760fb6e955.jpg',
 					hidden: 1
@@ -20801,7 +20710,7 @@ export const profile: Profile = {
 					unlocktime: 1464705645,
 					name: 'Headhunting',
 					description: '',
-					percent: 14.3,
+					percent: 14.2,
 					icon: '07d8db904648a40cc327cf6f5a609e095bc3a921.jpg',
 					icongray: 'd3dde2ccaf18f804ea687d585c324b308337fa5e.jpg',
 					hidden: 1
@@ -20900,7 +20809,7 @@ export const profile: Profile = {
 					unlocktime: 1465257484,
 					name: 'New England Vacationer',
 					description: '',
-					percent: 9.2,
+					percent: 9.1,
 					icon: '0d8d3a5806f34ed9f3acd447c440e591252792c5.jpg',
 					icongray: 'e804f0281cc0d4159813818a4bd25ae7563994a7.jpg',
 					hidden: 1
@@ -21190,9 +21099,9 @@ export const profile: Profile = {
 		{
 			appid: 393380,
 			name: 'Squad',
-			playtime: 1401,
-			playtime_2weeks: 131,
-			last_played: 1729904147,
+			playtime: 1495,
+			playtime_2weeks: 225,
+			last_played: 1730335153,
 			icon_url: 'eb66a8cb52165274c84cae6526205065d13119d5'
 		},
 		{
@@ -21254,7 +21163,7 @@ export const profile: Profile = {
 			appid: 413150,
 			name: 'Stardew Valley',
 			playtime: 11297,
-			playtime_2weeks: 1579,
+			playtime_2weeks: 1199,
 			last_played: 1730064195,
 			icon_url: '35d1377200084a4034238c05b0c8930451e2fb40',
 			achievements: [
@@ -21264,7 +21173,7 @@ export const profile: Profile = {
 					unlocktime: 1457230599,
 					name: 'Greenhorn',
 					description: 'Earn 15,000g',
-					percent: 63.5,
+					percent: 63.6,
 					icon: 'dac82a85ceb1493bb2155d41890b4a6099f5eaa5.jpg',
 					icongray: '6177e17de19eea95ad1af0503f32d6ef74ceacee.jpg',
 					hidden: 0
@@ -21275,7 +21184,7 @@ export const profile: Profile = {
 					unlocktime: 1457317361,
 					name: 'Cowpoke',
 					description: 'Earn 50,000g',
-					percent: 55.7,
+					percent: 55.8,
 					icon: '2a5c84271214a05435ea1c7a60bacc1cbbc5fa5a.jpg',
 					icongray: '07bdd379cb15b8732e156a38b1207bc72c6e9212.jpg',
 					hidden: 0
@@ -21286,7 +21195,7 @@ export const profile: Profile = {
 					unlocktime: 1458000100,
 					name: 'Homesteader',
 					description: 'Earn 250,000g',
-					percent: 43.4,
+					percent: 43.6,
 					icon: 'b81de530e1de874a4add0b690d372df3ffc44ea2.jpg',
 					icongray: '54b8d609ae49a3bfc55ba518622f7eeb155863df.jpg',
 					hidden: 0
@@ -21297,7 +21206,7 @@ export const profile: Profile = {
 					unlocktime: 1728258111,
 					name: 'Millionaire',
 					description: 'Earn 1,000,000g',
-					percent: 29.8,
+					percent: 29.9,
 					icon: 'f96dbf78eebf05e027d1ca2fb25296a7db8f2036.jpg',
 					icongray: '836d9237fd8fea1556e1697a6186a50c5be26d02.jpg',
 					hidden: 0
@@ -21330,7 +21239,7 @@ export const profile: Profile = {
 					unlocktime: 1457885721,
 					name: 'A New Friend',
 					description: 'Reach a 5-heart friend level with someone.',
-					percent: 40.8,
+					percent: 40.9,
 					icon: '73b81a2c4c59bfdf3d87bab03cb2932b4953fe18.jpg',
 					icongray: 'e6a1ebbf79099f54f0abd7f36f45c639e7a70238.jpg',
 					hidden: 0
@@ -21341,7 +21250,7 @@ export const profile: Profile = {
 					unlocktime: 1458178146,
 					name: 'Best Friends',
 					description: 'Reach a 10-heart friend level with someone.',
-					percent: 32,
+					percent: 32.1,
 					icon: 'da975460e6ca17e1cf397d598d4eb9c65502f786.jpg',
 					icongray: 'ecc68d32d9c812da5bc43676d4c3315113682f95.jpg',
 					hidden: 0
@@ -21363,7 +21272,7 @@ export const profile: Profile = {
 					unlocktime: 1480080632,
 					name: 'Cliques',
 					description: 'Reach a 5-heart friend level with 4 people.',
-					percent: 27.8,
+					percent: 27.9,
 					icon: 'dafe0ceff688bebb1c8554cbfa478e9826eb7074.jpg',
 					icongray: 'c0e16fe2b61793bfd49d7e2af4b7d1b0593b1b31.jpg',
 					hidden: 0
@@ -21374,7 +21283,7 @@ export const profile: Profile = {
 					unlocktime: 1480464189,
 					name: 'Networking',
 					description: 'Reach a 5-heart friend level with 10 people.',
-					percent: 21.2,
+					percent: 21.3,
 					icon: '8d54a60fa7642a6f48eeccc39821bce1cfc0a55d.jpg',
 					icongray: 'cc4fe12baec1205c2ca85cf72b34c1dae156ac4b.jpg',
 					hidden: 0
@@ -21385,7 +21294,7 @@ export const profile: Profile = {
 					unlocktime: 1480781673,
 					name: 'Popular',
 					description: 'Reach a 5-heart friend level with 20 people.',
-					percent: 15.2,
+					percent: 15.3,
 					icon: 'e594c58534bf0d583e853db55bbef754c6ce80d4.jpg',
 					icongray: 'c7d3735930b02f361f1392fb036bd5bc6c54deca.jpg',
 					hidden: 0
@@ -21429,7 +21338,7 @@ export const profile: Profile = {
 					unlocktime: 1457840888,
 					name: 'Moving Up',
 					description: 'Upgrade your house.',
-					percent: 43.6,
+					percent: 43.7,
 					icon: '67f2c064873468b80c57218f0992c15f7d2fe83e.jpg',
 					icongray: '7c1023f2d0451e46774d3fe48061add05595739c.jpg',
 					hidden: 0
@@ -21440,7 +21349,7 @@ export const profile: Profile = {
 					unlocktime: 1458179018,
 					name: 'Living Large',
 					description: 'Upgrade your house to the maximum size.',
-					percent: 26,
+					percent: 26.1,
 					icon: '62714a3e361e1def16aac1dcd1e482dcf2fc3ce0.jpg',
 					icongray: '68b279f8824f4dd6ef2b757e166fd182fecd8766.jpg',
 					hidden: 0
@@ -21451,7 +21360,7 @@ export const profile: Profile = {
 					unlocktime: 1462038060,
 					name: 'D.I.Y.',
 					description: 'Craft 15 different items.',
-					percent: 37.7,
+					percent: 37.8,
 					icon: '354c8650487d1359012892dd35ac23c7d83f4266.jpg',
 					icongray: 'a5d807e92ba144baf132f396e7b147971c3a450f.jpg',
 					hidden: 0
@@ -21462,7 +21371,7 @@ export const profile: Profile = {
 					unlocktime: 1728168606,
 					name: 'Artisan',
 					description: 'Craft 30 different items.',
-					percent: 21.1,
+					percent: 21.2,
 					icon: 'b20a49e94c49ef54d009da987d56b0f9b74447ae.jpg',
 					icongray: '7f64b911651503b56dab7043f6c080d1a2039a4a.jpg',
 					hidden: 0
@@ -21495,7 +21404,7 @@ export const profile: Profile = {
 					unlocktime: 1457889716,
 					name: "Ol' Mariner",
 					description: 'Catch 24 different fish.',
-					percent: 42,
+					percent: 42.1,
 					icon: '2400541f7661159b571cf767db7af4bd1125341a.jpg',
 					icongray: 'f7dadfcf2c688a119d43243db3e2dfa21dd28b76.jpg',
 					hidden: 0
@@ -21517,7 +21426,7 @@ export const profile: Profile = {
 					unlocktime: 1457890102,
 					name: 'Mother Catch',
 					description: 'Catch 100 fish.',
-					percent: 49.1,
+					percent: 49.2,
 					icon: 'cdc37596680321cfc1f5aef5f6c02e8384d07d62.jpg',
 					icongray: '776e36d4bf17ce2e2c2ccda48ced77f47a1b5e20.jpg',
 					hidden: 0
@@ -21528,7 +21437,7 @@ export const profile: Profile = {
 					unlocktime: 1457899415,
 					name: 'Treasure Trove',
 					description: 'Donate 40 different items to the museum.',
-					percent: 44.3,
+					percent: 44.4,
 					icon: '2c8433424f9e87d55b64b1ddbdcef1ea75d36d4c.jpg',
 					icongray: '199dcfdec8d8225fec5b81a1427449ed340ee7e0.jpg',
 					hidden: 0
@@ -21539,7 +21448,7 @@ export const profile: Profile = {
 					unlocktime: 1727619117,
 					name: 'Gofer',
 					description: "Complete 10 'Help Wanted' requests.",
-					percent: 30.2,
+					percent: 30.3,
 					icon: 'ac76efc80def3d8a94b0deb8afa50acd635acb0d.jpg',
 					icongray: '22972e08a13cc9b0314b10fd1342dbd8dd35560f.jpg',
 					hidden: 0
@@ -21572,7 +21481,7 @@ export const profile: Profile = {
 					unlocktime: 1457399504,
 					name: 'Monoculture',
 					description: 'Ship 300 of one crop.',
-					percent: 33.2,
+					percent: 33.3,
 					icon: '204eb62019fa81c54d4dafa83c05c8e16fe7fde1.jpg',
 					icongray: 'b56991cd861dca1a1258e95fe2f6d64d09f07406.jpg',
 					hidden: 0
@@ -21605,7 +21514,7 @@ export const profile: Profile = {
 					unlocktime: 1457912228,
 					name: 'The Bottom',
 					description: 'Reach the lowest level of the mines.',
-					percent: 42.5,
+					percent: 42.6,
 					icon: 'd013c91bc0788fd047be29bf04447c4ada43b57c.jpg',
 					icongray: '2d12730539cce0e1635d6242090d22e38284c27d.jpg',
 					hidden: 0
@@ -21616,7 +21525,7 @@ export const profile: Profile = {
 					unlocktime: 1480782490,
 					name: 'Local Legend',
 					description: 'Restore the Pelican Town Community Center.',
-					percent: 20.3,
+					percent: 20.4,
 					icon: 'fdd74e80dbb3a7f2581461ab160ffd34ad000990.jpg',
 					icongray: '99762b3e8daf20af33885418de1cc3018a8d604f.jpg',
 					hidden: 0
@@ -21628,7 +21537,7 @@ export const profile: Profile = {
 					name: 'Joja Co. Member Of The Year',
 					description:
 						'Become a Joja Co. member and purchase all the community development perks. ',
-					percent: 4.9,
+					percent: 5,
 					icon: '2e7140faedb46bc0b0794b5b38bade8ff4debd8f.jpg',
 					icongray: 'b41bc0882f0236ecdd87662886e49f9494050b62.jpg',
 					hidden: 0
@@ -21661,7 +21570,7 @@ export const profile: Profile = {
 					unlocktime: 1729961301,
 					name: 'Full House',
 					description: 'Get married and have two kids.',
-					percent: 7.1,
+					percent: 7.2,
 					icon: '00f51abad272ecd908b31265cbc38bcfd66d0ea5.jpg',
 					icongray: '1328cb6f21ce5cf7169b5f294d28a4a95628b2a9.jpg',
 					hidden: 0
@@ -21672,7 +21581,7 @@ export const profile: Profile = {
 					unlocktime: 1458000101,
 					name: 'Singular Talent',
 					description: 'Reach level 10 in a skill.',
-					percent: 39.8,
+					percent: 40,
 					icon: '1ec2b88c7f5e482edfc962a649360b40c38a4401.jpg',
 					icongray: '0633bdab9800ec8f3458167f9da582bc708ff4f0.jpg',
 					hidden: 0
@@ -21683,7 +21592,7 @@ export const profile: Profile = {
 					unlocktime: 1728139308,
 					name: 'Master Of The Five Ways',
 					description: 'Reach level 10 in every skill.',
-					percent: 14.6,
+					percent: 14.7,
 					icon: '2e8c31c242d2da8d4e0938696c7f65ea7a5af934.jpg',
 					icongray: '231ecc847d7f0c44aaeae1b1b61d37eaf828e5b9.jpg',
 					hidden: 0
@@ -21716,7 +21625,7 @@ export const profile: Profile = {
 					unlocktime: 1728659174,
 					name: 'Two Thumbs Up',
 					description: 'See a movie.',
-					percent: 4.9,
+					percent: 5,
 					icon: 'c4e52cbeaed5567f23837b9555a26c68f6054a39.jpg',
 					icongray: '3b9aae19f5db70dfa7cbb62abde536aef99bc292.jpg',
 					hidden: 0
@@ -21727,7 +21636,7 @@ export const profile: Profile = {
 					unlocktime: 1727913499,
 					name: 'Blue Ribbon',
 					description: 'Get 1st place in the Stardew Valley Fair competition.',
-					percent: 10.5,
+					percent: 10.7,
 					icon: '250df742936beb7f08190873ff251edcc7ce5cfd.jpg',
 					icongray: 'c45129de14398f237e563d5046c6a073b98c6703.jpg',
 					hidden: 0
@@ -21738,7 +21647,7 @@ export const profile: Profile = {
 					unlocktime: 1728435137,
 					name: 'An Unforgettable Soup',
 					description: 'Delight the Governor.',
-					percent: 7.2,
+					percent: 7.3,
 					icon: '544ed7db7ee3328cd09404329cb25926794e4830.jpg',
 					icongray: '03b5c5c7b37d4cda4fcb5baf7b00fcab75704981.jpg',
 					hidden: 0
@@ -21771,7 +21680,7 @@ export const profile: Profile = {
 					unlocktime: 1729036299,
 					name: 'Infinite Power',
 					description: 'Obtain the most powerful weapon.',
-					percent: 4,
+					percent: 4.1,
 					icon: '324468db74bf9d9c6eb566ea8575e9717cc56cf8.jpg',
 					icongray: '922119740c6eea944a13b0ba1a0f07cea866bebf.jpg',
 					hidden: 0
@@ -21793,7 +21702,7 @@ export const profile: Profile = {
 					unlocktime: 1728268189,
 					name: 'A Distant Shore',
 					description: 'Reach Ginger Island.',
-					percent: 9.8,
+					percent: 10,
 					icon: 'c27841b3907d4cb18d12509f473964760a30b702.jpg',
 					icongray: '000073da0abf4060659523641c1a6422fffec4ab.jpg',
 					hidden: 0
@@ -21856,7 +21765,7 @@ export const profile: Profile = {
 					unlocktime: 1466984899,
 					name: 'Getting it in Gear',
 					description: 'Earn at least 3 Gears in a Challenge.',
-					percent: 48.5,
+					percent: 48.4,
 					icon: '06a25c4ca3176889b2425394d95d7c12224eed65.jpg',
 					icongray: '4e66d02e9ee5c02f0b4bfc62f9d6be7e999f812c.jpg',
 					hidden: 0
@@ -21867,7 +21776,7 @@ export const profile: Profile = {
 					unlocktime: 1467055266,
 					name: "You've Got Gear",
 					description: 'Earn 5 Gears in a Challenge.',
-					percent: 35.3,
+					percent: 35.2,
 					icon: 'dfc65614b7b3768b9eb99899ed77beb29c3d947e.jpg',
 					icongray: '7463a101cff3d9dbee46d0ea8df497a17fc2d21b.jpg',
 					hidden: 0
@@ -22004,7 +21913,7 @@ export const profile: Profile = {
 					unlocktime: 1470757519,
 					name: 'Fear of Faith',
 					description: 'Rescue the ACE Chemical workers.',
-					percent: 59.1,
+					percent: 59,
 					icon: 'f46989554817f9192dd9d6c5fe689b41ee8c73f9.jpg',
 					icongray: 'dfee87da6b3ea1d44611ca1b5b4ff3a6bd7e929e.jpg',
 					hidden: 0
@@ -22026,7 +21935,7 @@ export const profile: Profile = {
 					unlocktime: 1470838587,
 					name: "No Man's Land",
 					description: 'Restore power to the bridges of Gotham City.',
-					percent: 53.2,
+					percent: 53.1,
 					icon: '51f60487b111e8f530389853aca4cb255c8d2ffe.jpg',
 					icongray: '727b997b9ca9f64aa3ebcb3b55487b9ce435f7f3.jpg',
 					hidden: 0
@@ -22048,7 +21957,7 @@ export const profile: Profile = {
 					unlocktime: 1471014876,
 					name: 'Riddler on the Rampage',
 					description: 'Obtain a key by completing the fourth Riddler trial.',
-					percent: 34,
+					percent: 33.9,
 					icon: '77cca871e474833b32ea1a2b3ca59ac7df8d4117.jpg',
 					icongray: '1fddd95a8c3ec7d49e81b2530fee48d30dedad72.jpg',
 					hidden: 0
@@ -22059,7 +21968,7 @@ export const profile: Profile = {
 					unlocktime: 1470926718,
 					name: 'The Cat and the Bat',
 					description: 'Obtain a key by completing the third Riddler trial.',
-					percent: 36.2,
+					percent: 36.1,
 					icon: '75cd8c8f169bd03da0e9e1f1f9ca355379e48bd0.jpg',
 					icongray: '4e0d590971011a7f551b63dc81e9457d17beae51.jpg',
 					hidden: 0
@@ -22070,7 +21979,7 @@ export const profile: Profile = {
 					unlocktime: 1471015305,
 					name: 'The Burning Question',
 					description: 'Obtain a key by completing the fifth Riddler trial.',
-					percent: 32.8,
+					percent: 32.7,
 					icon: 'c90171c595b16278ecbbf2831c02e4a2b7ca7e8b.jpg',
 					icongray: '639084b12fe85786cfe7a8f923fa695d3a966b63.jpg',
 					hidden: 0
@@ -22144,7 +22053,7 @@ export const profile: Profile = {
 					unlocktime: 1466085827,
 					name: 'One-Sided Conversation',
 					description: 'Stealth kill an enemy while he is having a conversation',
-					percent: 80.6,
+					percent: 80.7,
 					icon: 'e72255f733a5f96c047f0a4f48235cac61264b67.jpg',
 					icongray: '0dcdd38b2af2c0acb1563f82d88e19bebef634f8.jpg',
 					hidden: 0
@@ -22482,7 +22391,7 @@ export const profile: Profile = {
 					unlocktime: 1466268962,
 					name: 'My left or your left?',
 					description: '',
-					percent: 68.5,
+					percent: 68.4,
 					icon: 'e306b2c97ef9947e0db8a9d9e09f2fa42b0bc4cd.jpg',
 					icongray: 'cb32497d79aa1ba940e3f7b6ce4deddc3c3d547c.jpg',
 					hidden: 1
@@ -22493,7 +22402,7 @@ export const profile: Profile = {
 					unlocktime: 1503280282,
 					name: 'Snake in the grass',
 					description: '',
-					percent: 49.4,
+					percent: 49.3,
 					icon: '2cd23c546a48408f46700869c3709f71e00c3e7e.jpg',
 					icongray: '39de337d9543f303d12e23afa6d02d4562a54d6a.jpg',
 					hidden: 1
@@ -22504,7 +22413,7 @@ export const profile: Profile = {
 					unlocktime: 1503282582,
 					name: 'Sightseeing',
 					description: '',
-					percent: 47.3,
+					percent: 47.2,
 					icon: 'c73ee92bcbd48bb399b11b0ff4e07cb7d1527b7f.jpg',
 					icongray: 'd3cd20af102234fd35912b7c5f9563ec6fbf5154.jpg',
 					hidden: 1
@@ -22515,7 +22424,7 @@ export const profile: Profile = {
 					unlocktime: 1503440801,
 					name: 'Making Faces',
 					description: '',
-					percent: 43.4,
+					percent: 43.3,
 					icon: '546fdbcb8f2c424929e13984403e320654a0abc0.jpg',
 					icongray: '307c7803b788a032e026dc1e1594746da2fde908.jpg',
 					hidden: 1
@@ -22526,7 +22435,7 @@ export const profile: Profile = {
 					unlocktime: 1503443240,
 					name: 'Tied loose end',
 					description: '',
-					percent: 41.4,
+					percent: 41.2,
 					icon: 'e468c1d34e374d9e62c7d58368b00299c9c5c8a2.jpg',
 					icongray: '8396442ce09de6abb3fd193d533714d22393c4b7.jpg',
 					hidden: 1
@@ -22537,7 +22446,7 @@ export const profile: Profile = {
 					unlocktime: 1503445679,
 					name: 'Now You Can Come In',
 					description: '',
-					percent: 39.1,
+					percent: 38.9,
 					icon: 'fbac7bc9a23e0ade236223ac57951a09fe491d1c.jpg',
 					icongray: 'eee568a294ed67793df158523454034219bc3fea.jpg',
 					hidden: 1
@@ -22548,7 +22457,7 @@ export const profile: Profile = {
 					unlocktime: 1503445679,
 					name: 'Vertigo',
 					description: '',
-					percent: 39.7,
+					percent: 39.5,
 					icon: 'afe7c704ed8f4b6e4a2488df4f1acf50d094b6b2.jpg',
 					icongray: 'c06aaf70fafcfa2b7d537e6d42e0b2ab1795215c.jpg',
 					hidden: 1
@@ -22559,7 +22468,7 @@ export const profile: Profile = {
 					unlocktime: 1503753752,
 					name: 'Bittersweet',
 					description: '',
-					percent: 35.8,
+					percent: 35.7,
 					icon: 'aeeb939f0b1ad0143b743b57248b8f4573835644.jpg',
 					icongray: '235fbbabc9489c7a0beb0c08166c0ef47cf65346.jpg',
 					hidden: 1
@@ -22570,7 +22479,7 @@ export const profile: Profile = {
 					unlocktime: 1503276962,
 					name: 'Bolter Hunting',
 					description: 'Catch 5 Bolters',
-					percent: 15.6,
+					percent: 15.5,
 					icon: '77bd44de8501a899ab1c6c66a632e79e3c6f7fd8.jpg',
 					icongray: 'fa4cda6b1ba28e654e0426a940e59ecb0961b868.jpg',
 					hidden: 0
@@ -22581,7 +22490,7 @@ export const profile: Profile = {
 					unlocktime: 1466708446,
 					name: 'Trade Company',
 					description: 'Sell items worth 10,000 dollars',
-					percent: 51.4,
+					percent: 51.3,
 					icon: 'a06780625281f2f40d49a694bdcc1c097cb2190a.jpg',
 					icongray: 'c58abbb539a32d20abf1723eb6efccb8971974ba.jpg',
 					hidden: 0
@@ -22592,7 +22501,7 @@ export const profile: Profile = {
 					unlocktime: 1466708122,
 					name: 'Pheidippides',
 					description: 'Run (move or sprint) at least 42,195 m',
-					percent: 53.9,
+					percent: 53.7,
 					icon: '83aecae59619aec89250db7aae9514c8d23efbb7.jpg',
 					icongray: '58ddf5fc63ffefa78fc13e7e111029433ec39443.jpg',
 					hidden: 0
@@ -22603,7 +22512,7 @@ export const profile: Profile = {
 					unlocktime: 1503105380,
 					name: 'Mount Everest',
 					description: 'Climb at least 8848 meters on various objects.',
-					percent: 30.9,
+					percent: 30.8,
 					icon: '8366f4420e3b1b9a5e5936c9f071b8ee9f4e929f.jpg',
 					icongray: 'e831c78dde485445b2e00ffe00a0ad26d7190da2.jpg',
 					hidden: 0
@@ -22614,7 +22523,7 @@ export const profile: Profile = {
 					unlocktime: 1466089085,
 					name: 'Is It Really Necessary?',
 					description: 'Kill your first Infected',
-					percent: 94.3,
+					percent: 94.2,
 					icon: '78a9e6c3cfc3555cd0bbf2c854b929c2248f848c.jpg',
 					icongray: '3b86d83aca56ef4ba21735e041b494b06d082543.jpg',
 					hidden: 0
@@ -22625,7 +22534,7 @@ export const profile: Profile = {
 					unlocktime: 1502581774,
 					name: 'Everybody Dance Now',
 					description: 'Simultaneously shock 5 monsters with electricity',
-					percent: 25.1,
+					percent: 25,
 					icon: '6fa8e1c08146fdbb003ce11d62c0903774e9eb8e.jpg',
 					icongray: 'c1716444d48c3273b37285604d35ceb18c3cdbad.jpg',
 					hidden: 0
@@ -22636,7 +22545,7 @@ export const profile: Profile = {
 					unlocktime: 1466208006,
 					name: "Can't Touch This",
 					description: 'Kill 20 enemies in a row without taking damage.',
-					percent: 55.9,
+					percent: 55.8,
 					icon: '61929ce58f3dd49762a2634b5c0d6d0134919a50.jpg',
 					icongray: '406f30acf8cbc591dcb9f458e1ee0d32db2ad026.jpg',
 					hidden: 0
@@ -22647,7 +22556,7 @@ export const profile: Profile = {
 					unlocktime: 1476408911,
 					name: 'Mouths Wide Open',
 					description: 'Kill a Volatile',
-					percent: 56.8,
+					percent: 56.7,
 					icon: '1564196c35195293a30544237cf6937016861ea5.jpg',
 					icongray: '0cf0b66637ef7945d7cdde31d18fd792b3e66e3b.jpg',
 					hidden: 0
@@ -22658,7 +22567,7 @@ export const profile: Profile = {
 					unlocktime: 1503361070,
 					name: 'Hush, Hush Now',
 					description: 'Quiet a Screamer',
-					percent: 42.9,
+					percent: 42.8,
 					icon: '0ca8cd42d0c1fde03397f8203205392aa708a544.jpg',
 					icongray: '65b0f9966d9d5749507305b288b0a410148a466b.jpg',
 					hidden: 0
@@ -22669,7 +22578,7 @@ export const profile: Profile = {
 					unlocktime: 1466535285,
 					name: 'BBQ',
 					description: 'Stick a burning zombie on spikes',
-					percent: 22.6,
+					percent: 22.5,
 					icon: '08ff68c17f764d97c4df52119352aeeeccb55b03.jpg',
 					icongray: '09c81ee5b93906d2d08a0ac97c5fa04c8377073e.jpg',
 					hidden: 0
@@ -22680,7 +22589,7 @@ export const profile: Profile = {
 					unlocktime: 1503181110,
 					name: 'Harran Shooting Club',
 					description: 'Kill 50 enemies with shooting weapons',
-					percent: 53.8,
+					percent: 53.7,
 					icon: 'a41024975b3b0b32776f1c3e81eae9edf8f1426e.jpg',
 					icongray: 'cde49321ae3af4638285694163e1dd41b23b0208.jpg',
 					hidden: 0
@@ -22691,7 +22600,7 @@ export const profile: Profile = {
 					unlocktime: 1503279779,
 					name: 'High Flyer',
 					description: 'Kill 25 enemies using Ground Pound or Drop Attack',
-					percent: 16.9,
+					percent: 16.8,
 					icon: 'b01697638d3aac4f893fce7b5d3de8642764a4af.jpg',
 					icongray: '8d83efb47dd8e36b1732af91e57aae1772c68454.jpg',
 					hidden: 0
@@ -22702,7 +22611,7 @@ export const profile: Profile = {
 					unlocktime: 1476408834,
 					name: 'Prom Night',
 					description: 'Survive night pursuit of level two or higher',
-					percent: 62.8,
+					percent: 62.7,
 					icon: 'c383f50ef4072985f46fbdf852a75d8f7ce065b0.jpg',
 					icongray: 'c778e7274c1c917783ee8c7d7a6f2dcc8fcaf169.jpg',
 					hidden: 0
@@ -22724,7 +22633,7 @@ export const profile: Profile = {
 					unlocktime: 1466186516,
 					name: 'Open Sesame',
 					description: 'Perform 10 successful Lockpicks',
-					percent: 60.9,
+					percent: 60.8,
 					icon: '5b5af9429325158d676e63642ea34efde522877d.jpg',
 					icongray: 'ee6701244e130632599c74bc749cfdbda65a7ab3.jpg',
 					hidden: 0
@@ -22735,7 +22644,7 @@ export const profile: Profile = {
 					unlocktime: 1503360199,
 					name: 'Everybody Knows Kyle',
 					description: 'Reach Survivor Rank lvl 12',
-					percent: 48.1,
+					percent: 48,
 					icon: '1c1b919b3fa1531bffdc9448bf36773c90ef8914.jpg',
 					icongray: '3baff7a004607abd2f6ea361a4e98633d8f64bb3.jpg',
 					hidden: 0
@@ -22746,7 +22655,7 @@ export const profile: Profile = {
 					unlocktime: 1503756138,
 					name: 'The Legend of Harran',
 					description: 'Reach Survivor Rank lvl 18',
-					percent: 33.5,
+					percent: 33.4,
 					icon: '5d6f11eec59a52a7fc803f19de1d38daddb2c0f5.jpg',
 					icongray: '1e85ec9d4b04a3ffb94daf3dffd501ca071a2ffd.jpg',
 					hidden: 0
@@ -22757,7 +22666,7 @@ export const profile: Profile = {
 					unlocktime: 1466622504,
 					name: 'Agile',
 					description: 'Reach Agility Prof. Lvl 10',
-					percent: 50,
+					percent: 49.8,
 					icon: 'fc65417b5f5c7a23e65e7a6cc7109dc1f4942f95.jpg',
 					icongray: '5222673ac38fe5d854594a3fbd0711df7536bcd4.jpg',
 					hidden: 0
@@ -22768,7 +22677,7 @@ export const profile: Profile = {
 					unlocktime: 1502580966,
 					name: 'Strong',
 					description: 'Reach Power Prof. Lvl 10',
-					percent: 55.5,
+					percent: 55.3,
 					icon: '497c25fe80690b8401c98bd4f37b19376c70607d.jpg',
 					icongray: '831019ba6bfd999de0fbe8ddeb5c98aa76bf682c.jpg',
 					hidden: 0
@@ -22779,7 +22688,7 @@ export const profile: Profile = {
 					unlocktime: 1466266439,
 					name: "I've Got Your Back",
 					description: 'Complete 1 quest in a co-op game',
-					percent: 54.4,
+					percent: 54.3,
 					icon: 'd2f99aee353e15153d5dfa49c7bf6b5c93213646.jpg',
 					icongray: '5b5330191402fc04827dae91ba20bfbe533d57d6.jpg',
 					hidden: 0
@@ -22801,7 +22710,7 @@ export const profile: Profile = {
 					unlocktime: 1503754090,
 					name: 'Afraid to get wet?',
 					description: 'Dive into the Countryside.',
-					percent: 27.1,
+					percent: 26.9,
 					icon: 'd7a817843bca2a1a8d8a242b267bfc569b09be44.jpg',
 					icongray: '4f2f35f486b8b81c92894aecbfccc67c911cb4e5.jpg',
 					hidden: 0
@@ -22812,7 +22721,7 @@ export const profile: Profile = {
 					unlocktime: 1503756138,
 					name: 'I was waiting for you for so long',
 					description: 'Become a Faceless.',
-					percent: 17.3,
+					percent: 17.2,
 					icon: '283a75db162ef80b977221be8dcd4af622f02e56.jpg',
 					icongray: '5159457d02838ce5b16a1e37e1b862d48489ee56.jpg',
 					hidden: 0
@@ -22866,7 +22775,7 @@ export const profile: Profile = {
 					unlocktime: 1551800621,
 					name: 'Getting the hang of it',
 					description: 'Use 25 different wallpapers from the Workshop.',
-					percent: 69.8,
+					percent: 69.7,
 					icon: '4f48b4262e14e6b25f09d7df1e00392b8c65d0f2.jpg',
 					icongray: '54f4eea940cd7bf3fdf89b219d72067322c1306c.jpg',
 					hidden: 0
@@ -22877,7 +22786,7 @@ export const profile: Profile = {
 					unlocktime: 1652294534,
 					name: 'Hard to pick just one',
 					description: 'Use 50 different wallpapers from the Workshop.',
-					percent: 56.2,
+					percent: 56.1,
 					icon: '09f51531c6243518225293fcdc81c8894ba7def6.jpg',
 					icongray: '9649e1a766570230f9bee944bce6f2eb4df50969.jpg',
 					hidden: 0
@@ -22931,7 +22840,7 @@ export const profile: Profile = {
 					unlocktime: 1527287777,
 					name: 'Micro downsizing',
 					description: 'Hit 200 times!',
-					percent: 63.9,
+					percent: 64,
 					icon: 'fb2f1bda65c2b20e216ab5ba0697b685fca0bbc6.jpg',
 					icongray: 'cea93ebdb0e4f418059c9a280f94cf27f421c885.jpg',
 					hidden: 0
@@ -23145,7 +23054,7 @@ export const profile: Profile = {
 					unlocktime: 1661039005,
 					name: 'Lord of Cinder: Lothric, Younger Prince',
 					description: '',
-					percent: 41.6,
+					percent: 41.7,
 					icon: 'c94a1880f38845669c1ef64a9d546f5b51506694.jpg',
 					icongray: '95b9965cf8d17e9f3fd545095263132fcc6d1ec9.jpg',
 					hidden: 1
@@ -23288,7 +23197,7 @@ export const profile: Profile = {
 					unlocktime: 1661867050,
 					name: 'Covenant: Blade of the Darkmoon',
 					description: '',
-					percent: 31.6,
+					percent: 31.7,
 					icon: '4a88851281da37d5de0fc3108d54603bd0a5658b.jpg',
 					icongray: '95b9965cf8d17e9f3fd545095263132fcc6d1ec9.jpg',
 					hidden: 1
@@ -23354,7 +23263,7 @@ export const profile: Profile = {
 					unlocktime: 1660659602,
 					name: 'Archdragon Peak',
 					description: '',
-					percent: 39.8,
+					percent: 39.9,
 					icon: 'b9927d4771bab101369019bfc88b682736c2687b.jpg',
 					icongray: '95b9965cf8d17e9f3fd545095263132fcc6d1ec9.jpg',
 					hidden: 1
@@ -23387,7 +23296,7 @@ export const profile: Profile = {
 					unlocktime: 1660255464,
 					name: 'Curse-rotted Greatwood',
 					description: '',
-					percent: 60.4,
+					percent: 60.5,
 					icon: '2f63f292019ee49123c5193eb445ac749feb81d1.jpg',
 					icongray: '95b9965cf8d17e9f3fd545095263132fcc6d1ec9.jpg',
 					hidden: 1
@@ -23475,7 +23384,7 @@ export const profile: Profile = {
 					unlocktime: 1660580692,
 					name: 'Oceiros, the Consumed King',
 					description: '',
-					percent: 43.1,
+					percent: 43.2,
 					icon: '8c0bbbdeb487448b04db54a6493cbb2c409629da.jpg',
 					icongray: '95b9965cf8d17e9f3fd545095263132fcc6d1ec9.jpg',
 					hidden: 1
@@ -23541,9 +23450,9 @@ export const profile: Profile = {
 		{
 			appid: 275850,
 			name: "No Man's Sky",
-			playtime: 11411,
-			playtime_2weeks: 64,
-			last_played: 1729732682,
+			playtime: 11492,
+			playtime_2weeks: 145,
+			last_played: 1730336914,
 			icon_url: 'fccb20f309ac5ae05b3cb4576a8a3357edf86f2e',
 			achievements: [
 				{
@@ -23563,7 +23472,7 @@ export const profile: Profile = {
 					unlocktime: 1471658826,
 					name: 'The Stars, Like Dust',
 					description: "Attain 'Trailblazer' status in Space Exploration",
-					percent: 45.5,
+					percent: 45.4,
 					icon: 'e0150cea4966e9e1fd258d8bce049351301197e4.jpg',
 					icongray: '4096cf7b50855353a6070830fb31510b2b268718.jpg',
 					hidden: 0
@@ -23574,7 +23483,7 @@ export const profile: Profile = {
 					unlocktime: 1471291882,
 					name: 'Foundation',
 					description: 'Attain Entrepreneur status in Most Units Accrued',
-					percent: 62.6,
+					percent: 62.5,
 					icon: '19042a7f38333541ae531f9696e5565222f0a107.jpg',
 					icongray: 'eb69d4b2aea0c1a80eb254f240bd7983e666a269.jpg',
 					hidden: 0
@@ -23585,7 +23494,7 @@ export const profile: Profile = {
 					unlocktime: 1471292005,
 					name: 'Babel-17',
 					description: 'Attain Confused status in Words Collected',
-					percent: 57.1,
+					percent: 57,
 					icon: 'a95f991caace28102b096b311220c37c2db845b6.jpg',
 					icongray: 'd1acf02f54b4be4b4d702d0803c358042f0f1663.jpg',
 					hidden: 0
@@ -23596,7 +23505,7 @@ export const profile: Profile = {
 					unlocktime: 1471283241,
 					name: 'Contact',
 					description: 'Attain Known status in Alien Colonist Encounters',
-					percent: 56.5,
+					percent: 56.4,
 					icon: 'e6914dde493d614f8ddcf0dc2da8ebdff1e6840f.jpg',
 					icongray: 'a5b4731e78ce2002418037559e9898de1f36c86c.jpg',
 					hidden: 0
@@ -23607,7 +23516,7 @@ export const profile: Profile = {
 					unlocktime: 1471566353,
 					name: 'Use of Weapons',
 					description: 'Attain Novice status in Ships Destroyed',
-					percent: 52.5,
+					percent: 52.4,
 					icon: 'a113fa5a9fdc43a4bfc3c8e9eefed7dd3d83d512.jpg',
 					icongray: '3438f2a4df449d1e9479de8fc18c7b06547eb5e4.jpg',
 					hidden: 0
@@ -23629,7 +23538,7 @@ export const profile: Profile = {
 					unlocktime: 1471566570,
 					name: 'The Space Merchants',
 					description: 'Attain Trader status in Most Units Accrued',
-					percent: 51.4,
+					percent: 51.3,
 					icon: 'a7db82f9cf031d2c8650699620a141a8ec047aad.jpg',
 					icongray: 'eb69d4b2aea0c1a80eb254f240bd7983e666a269.jpg',
 					hidden: 0
@@ -23640,7 +23549,7 @@ export const profile: Profile = {
 					unlocktime: 1471566984,
 					name: 'The Languages of Pao',
 					description: 'Attain Interpreter status in Words Collected',
-					percent: 37,
+					percent: 36.8,
 					icon: '6fa137c0196416513b602dcab218dcd645bdc5ad.jpg',
 					icongray: 'd1acf02f54b4be4b4d702d0803c358042f0f1663.jpg',
 					hidden: 0
@@ -23651,7 +23560,7 @@ export const profile: Profile = {
 					unlocktime: 1534026181,
 					name: 'Who Goes There?',
 					description: 'Attain Diplomat status in Alien Colonist Encounters',
-					percent: 33.1,
+					percent: 33,
 					icon: '60469c813cb1163b667273072733d6b01a77cd5b.jpg',
 					icongray: 'a5b4731e78ce2002418037559e9898de1f36c86c.jpg',
 					hidden: 0
@@ -23662,7 +23571,7 @@ export const profile: Profile = {
 					unlocktime: 1540657380,
 					name: 'Pattern for Conquest',
 					description: 'Attain Notorious status in Ships Destroyed',
-					percent: 28.9,
+					percent: 28.8,
 					icon: '1f1f1ab0eec5bb66088eb3fe5e3152ecae54cf88.jpg',
 					icongray: '3438f2a4df449d1e9479de8fc18c7b06547eb5e4.jpg',
 					hidden: 0
@@ -23684,7 +23593,7 @@ export const profile: Profile = {
 					unlocktime: 1471570901,
 					name: 'Symphony For A Lost Traveler',
 					description: 'Attain Nomad status in On-foot Exploration',
-					percent: 49.7,
+					percent: 49.6,
 					icon: '074c86480501f3b8e6df1356a76f69d6bdd59714.jpg',
 					icongray: '1462168952dea039a1e8a8005d628d238aff7035.jpg',
 					hidden: 0
@@ -23717,7 +23626,7 @@ export const profile: Profile = {
 					unlocktime: 1534126819,
 					name: 'What Mad Universe',
 					description: 'Attain Ambassador status in Alien Colonist Encounters',
-					percent: 23.6,
+					percent: 23.5,
 					icon: 'a42180c0978f839cb27545b9c05559975d217af5.jpg',
 					icongray: 'a5b4731e78ce2002418037559e9898de1f36c86c.jpg',
 					hidden: 0
@@ -23728,7 +23637,7 @@ export const profile: Profile = {
 					unlocktime: 1654899554,
 					name: 'The Forever War',
 					description: 'Attain Legend status in Ships Destroyed',
-					percent: 21.9,
+					percent: 21.8,
 					icon: 'dc5ddaf982342455a426f0496624d864751c9105.jpg',
 					icongray: '3438f2a4df449d1e9479de8fc18c7b06547eb5e4.jpg',
 					hidden: 0
@@ -23739,7 +23648,7 @@ export const profile: Profile = {
 					unlocktime: 1534165351,
 					name: 'Have Spacesuit - Will Travel',
 					description: 'Attain Adventurer status in On-foot Exploration',
-					percent: 32.1,
+					percent: 32,
 					icon: 'f47ab90c7901b9cffdd7cf42a68f9d32841f815b.jpg',
 					icongray: '1462168952dea039a1e8a8005d628d238aff7035.jpg',
 					hidden: 0
@@ -23750,7 +23659,7 @@ export const profile: Profile = {
 					unlocktime: 1503020821,
 					name: 'Cradle',
 					description: 'Claim a Base or Buy a Freighter',
-					percent: 72.9,
+					percent: 72.8,
 					icon: '3afe76084baa3dd92aae0b65a571debc294c7496.jpg',
 					icongray: '7ac131700041e87e46f1b0422648a94a81495f69.jpg',
 					hidden: 0
@@ -23761,7 +23670,7 @@ export const profile: Profile = {
 					unlocktime: 1534258185,
 					name: 'Navigators',
 					description: 'Build an Exocraft',
-					percent: 30.1,
+					percent: 30,
 					icon: '1974ae21eb7c029066e2f551e7776509a8d7f49d.jpg',
 					icongray: '81fe59885f65d9bfa2609d02799ed1a9f3841dbe.jpg',
 					hidden: 0
@@ -23772,7 +23681,7 @@ export const profile: Profile = {
 					unlocktime: 1543369595,
 					name: 'Reunion',
 					description: "Visit another Player's Base",
-					percent: 16.4,
+					percent: 16.5,
 					icon: '39681b3ee235013da1fbbe02cef1ff588f81c996.jpg',
 					icongray: '7460a96a4f8991c556327a5c6dceeba8ecbafb9d.jpg',
 					hidden: 0
@@ -23864,7 +23773,7 @@ export const profile: Profile = {
 					unlocktime: 1510712452,
 					name: 'Labyrinthine Mind',
 					description: '',
-					percent: 53.2,
+					percent: 53.1,
 					icon: 'db120f24438f05d7f08cc0c1ca9595d42ca2f138.jpg',
 					icongray: '9b82b80de1286264936f8ff45ef8e98c738aea70.jpg',
 					hidden: 1
@@ -23919,7 +23828,7 @@ export const profile: Profile = {
 					unlocktime: 1510586256,
 					name: 'Morbid Theft',
 					description: 'Steal a corpse for Mindy Blanchard',
-					percent: 51.9,
+					percent: 51.8,
 					icon: '14e202f83122803e5d5378e140450cb3ad3f3004.jpg',
 					icongray: 'a00ee030fb05dc32332fd17ed7a88cc8acbda551.jpg',
 					hidden: 0
@@ -23941,7 +23850,7 @@ export const profile: Profile = {
 					unlocktime: 1511018169,
 					name: 'Howlers til the End',
 					description: 'Side with the Howlers in the Dust District',
-					percent: 13.5,
+					percent: 13.4,
 					icon: 'a3871688409e7ce2af248de55f711d9fbc517746.jpg',
 					icongray: '27e9ed66292c476efa498d5772c56e865d3ba87e.jpg',
 					hidden: 0
@@ -24340,7 +24249,7 @@ export const profile: Profile = {
 					unlocktime: 1709509391,
 					name: 'Make It Count',
 					description: 'Down an animal with your last round of ammunition',
-					percent: 43.8,
+					percent: 43.9,
 					icon: 'd442bfc0ad4621af142efbccb8aa819b23136c02.jpg',
 					icongray: '701adf38786a71bd8d20d5eecc91f90c15db4714.jpg',
 					hidden: 0
@@ -24416,7 +24325,7 @@ export const profile: Profile = {
 					unlocktime: 1550286732,
 					name: 'Warlording Over Others',
 					description: 'Win a regular game at Warlord difficulty or harder',
-					percent: 31.9,
+					percent: 31.8,
 					icon: 'd356d0e71850a067f609fa37b5f612947a82bc5c.jpg',
 					icongray: 'c29e93fd82f9033ea2029b866c5bc29f1813d649.jpg',
 					hidden: 0
@@ -24451,7 +24360,7 @@ export const profile: Profile = {
 					name: 'Buying Your Blue Jeans and Listening to Your Pop Music',
 					description:
 						'Win a regular game with a Culture victory on any difficulty with any leader',
-					percent: 19.3,
+					percent: 19.2,
 					icon: 'ca6c8eac932db838f35c412fd9497023b656a78f.jpg',
 					icongray: 'c29e93fd82f9033ea2029b866c5bc29f1813d649.jpg',
 					hidden: 0
@@ -24506,7 +24415,7 @@ export const profile: Profile = {
 					unlocktime: 1550286732,
 					name: 'Tectonic Shift',
 					description: 'Win a regular game on the Continents Map',
-					percent: 24.9,
+					percent: 24.8,
 					icon: '54e8694823f4845b8fe65b37cab149356c754f9b.jpg',
 					icongray: 'c29e93fd82f9033ea2029b866c5bc29f1813d649.jpg',
 					hidden: 0
@@ -24550,7 +24459,7 @@ export const profile: Profile = {
 					unlocktime: 1550266007,
 					name: 'If You Build It, They Will Come',
 					description: 'Have 6 Improvements at one time.',
-					percent: 75.4,
+					percent: 75.3,
 					icon: '6858293f2952c7fb17a94667b0d823e67445dc4c.jpg',
 					icongray: 'c29e93fd82f9033ea2029b866c5bc29f1813d649.jpg',
 					hidden: 0
@@ -24583,7 +24492,7 @@ export const profile: Profile = {
 					unlocktime: 1550415596,
 					name: 'Investment Banking',
 					description: 'Have an enemy city under siege at the start of the turn',
-					percent: 50,
+					percent: 49.9,
 					icon: '935f88274ea854681fcc417344d87184f93ee7a3.jpg',
 					icongray: 'c29e93fd82f9033ea2029b866c5bc29f1813d649.jpg',
 					hidden: 0
@@ -24783,7 +24692,7 @@ export const profile: Profile = {
 					unlocktime: 1551316967,
 					name: 'Real Estate Disclosures Required',
 					description: 'Have a district be pillaged by 3 different random events',
-					percent: 35.1,
+					percent: 35.2,
 					icon: 'e5f331b3255865afefba481bdc641db743976a8e.jpg',
 					icongray: 'ada80efbafc9f08d01ce9c6a160dfdcfbf8dade7.jpg',
 					hidden: 0
@@ -24848,7 +24757,7 @@ export const profile: Profile = {
 					unlocktime: 1659210878,
 					name: 'On the Trail of the Enemy',
 					description: '',
-					percent: 60.1,
+					percent: 60,
 					icon: 'a546200a5d746c4a651fb6eb0541f910fa85248a.jpg',
 					icongray: '868808855638d6deed8d1623a7e8cf8a1782d49c.jpg',
 					hidden: 1
@@ -24870,7 +24779,7 @@ export const profile: Profile = {
 					unlocktime: 1659293421,
 					name: 'Get Outta My House!',
 					description: '',
-					percent: 55.7,
+					percent: 55.6,
 					icon: 'bec1ac858a9067afe59d68497cbf865444427b30.jpg',
 					icongray: '7c2fcf385486c4c2e6cb60977421f27f92576cf2.jpg',
 					hidden: 1
@@ -25252,7 +25161,7 @@ export const profile: Profile = {
 					unlocktime: 1679202373,
 					name: 'Now We Have  A BET-C',
 					description: 'Defeat and fix a BET-C.',
-					percent: 41.2,
+					percent: 41.1,
 					icon: '90b4fd1458178157dca690f49a700c217b732d9c.jpg',
 					icongray: 'faf096df4e64bb1b785f97dbdd0987b95ed24c41.jpg',
 					hidden: 0
@@ -25363,7 +25272,7 @@ export const profile: Profile = {
 					unlocktime: 1678987914,
 					name: 'Stepping It Up',
 					description: 'Survive a Hazard Level 3 mission from start to finish.',
-					percent: 58.5,
+					percent: 58.4,
 					icon: '0252a2f3d3c3e4156a1d4ce2af2826bc2e30e350.jpg',
 					icongray: 'faf096df4e64bb1b785f97dbdd0987b95ed24c41.jpg',
 					hidden: 0
@@ -25375,7 +25284,7 @@ export const profile: Profile = {
 					name: 'Consistent Performance',
 					description:
 						'Successfully complete three Hazard Level 3 missions from start to finish in a row.',
-					percent: 44.7,
+					percent: 44.6,
 					icon: 'ad33ceb49602c125e039c563df6db1ab39c5b64d.jpg',
 					icongray: 'faf096df4e64bb1b785f97dbdd0987b95ed24c41.jpg',
 					hidden: 0
@@ -25433,7 +25342,7 @@ export const profile: Profile = {
 					name: 'Mutated Scavenger',
 					description:
 						'Successfully complete 20 missions tagged with Warnings from start to finish.',
-					percent: 18.6,
+					percent: 18.5,
 					icon: '72f5499186bc1ec21de0f354b438b61abe2ef672.jpg',
 					icongray: 'faf096df4e64bb1b785f97dbdd0987b95ed24c41.jpg',
 					hidden: 0
@@ -25489,7 +25398,7 @@ export const profile: Profile = {
 					unlocktime: 1679023136,
 					name: "Feelin' Perky",
 					description: 'Unlock 10 Perk Nodes.',
-					percent: 47.5,
+					percent: 47.4,
 					icon: 'dd33d56ceddeaf948f0fee3df08a4d1399e2cd27.jpg',
 					icongray: 'faf096df4e64bb1b785f97dbdd0987b95ed24c41.jpg',
 					hidden: 0
@@ -25555,7 +25464,7 @@ export const profile: Profile = {
 					unlocktime: 1679345330,
 					name: 'Total Makeover',
 					description: 'Customize each accessory slot of a character.',
-					percent: 16.8,
+					percent: 16.7,
 					icon: '2a557edee3320934949a33ddb1e44634e7861985.jpg',
 					icongray: 'faf096df4e64bb1b785f97dbdd0987b95ed24c41.jpg',
 					hidden: 0
@@ -25749,7 +25658,7 @@ export const profile: Profile = {
 					unlocktime: 1712960378,
 					name: 'Extractamundo!',
 					description: '',
-					percent: 70.1,
+					percent: 70.2,
 					icon: 'ba57b6fe7d9868be18620432a6fe5ba97d0a75b7.jpg',
 					icongray: 'b524fefaf9e6d478086476fd2f82a2b6daeb3773.jpg',
 					hidden: 1
@@ -25760,7 +25669,7 @@ export const profile: Profile = {
 					unlocktime: 1713151588,
 					name: "Samples are a diver's best friend",
 					description: 'Extract at least 15 rare samples from a mission as a team.',
-					percent: 50.1,
+					percent: 50.2,
 					icon: 'af906e4e0222f9d263ca0635657ded5344587902.jpg',
 					icongray: '376f5fc85c4e1a29d89ee363419c48b522623974.jpg',
 					hidden: 0
@@ -25793,7 +25702,7 @@ export const profile: Profile = {
 					unlocktime: 1714622119,
 					name: 'The taller they are...',
 					description: 'Defeat a Bile Titan.',
-					percent: 64,
+					percent: 64.1,
 					icon: '0e8e179496f071323789167ae58805111b393a69.jpg',
 					icongray: '476e86e6315f57ab6c69198e39e491b4aeb8db04.jpg',
 					hidden: 0
@@ -25804,7 +25713,7 @@ export const profile: Profile = {
 					unlocktime: 1712959549,
 					name: "They don't call it Tacticool for nothin'",
 					description: 'Complete 10 tactical objectives.',
-					percent: 71.3,
+					percent: 71.4,
 					icon: '47859c34abda98b3192e432a91415286e2d4c94e.jpg',
 					icongray: '28a420ec92180c3090259b2031b8502548befc44.jpg',
 					hidden: 0
@@ -25826,7 +25735,7 @@ export const profile: Profile = {
 					unlocktime: 1713049532,
 					name: 'Hot Potato!',
 					description: 'Throw back a live grenade.',
-					percent: 36.3,
+					percent: 36.4,
 					icon: 'c057febe46bd7e08cc8c3e5d6e179b0f98892b5a.jpg',
 					icongray: '1ac927e64626e058208d6fbba065a960ef31e7c6.jpg',
 					hidden: 0
@@ -25870,7 +25779,7 @@ export const profile: Profile = {
 					unlocktime: 1713407041,
 					name: 'Patriot',
 					description: 'Play at least 50 missions.',
-					percent: 52.5,
+					percent: 52.6,
 					icon: 'aecd896f5eb87f8f640da8a0fe3fea482e583c36.jpg',
 					icongray: '4d4d73731f79cf0a13c472d2ee0039b85b0d4882.jpg',
 					hidden: 0
@@ -25936,7 +25845,7 @@ export const profile: Profile = {
 					unlocktime: 1713032357,
 					name: 'Science is done by quantity',
 					description: 'Extract with at least 15 common samples.',
-					percent: 39.7,
+					percent: 39.8,
 					icon: '1809d535f9c747f47a93d25d3905909b30efb6d3.jpg',
 					icongray: 'd04d9aad798f669d2ac2fded925bd2ad82a22e31.jpg',
 					hidden: 0
@@ -26016,7 +25925,7 @@ export const profile: Profile = {
 					unlocktime: 1530366362,
 					name: 'Dealmaker',
 					description: 'Sell 100 items.',
-					percent: 44.9,
+					percent: 44.8,
 					icon: '95567a08e9d8a36bf7f0f18a425ac57e80b24e73.jpg',
 					icongray: '718975a0856fec5755d598470fea566cd9ce3623.jpg',
 					hidden: 0
@@ -26197,7 +26106,7 @@ export const profile: Profile = {
 					unlocktime: 1624751179,
 					name: 'My fish is fresh!',
 					description: 'Reach the Stilt Village for the first time.',
-					percent: 71.2,
+					percent: 71.3,
 					icon: '6340544ea022c62372f0a889bc0ec5abe46bd94d.jpg',
 					icongray: '1e55acac110614058565cb8a4ba3aa2eaf1a2e3f.jpg',
 					hidden: 0
@@ -26252,7 +26161,7 @@ export const profile: Profile = {
 					unlocktime: 1689602490,
 					name: 'Is there something in your eye?',
 					description: "You beat 'Conjunctivius'!",
-					percent: 39.8,
+					percent: 39.9,
 					icon: '4cb400b0bf054143ee448dab50eb3cf587de5e9d.jpg',
 					icongray: '6340a59cfb0e05e481a41480a8608f13075add7a.jpg',
 					hidden: 0
@@ -26318,7 +26227,7 @@ export const profile: Profile = {
 					unlocktime: 1627775539,
 					name: "See, that wasn't so hard now, was it?",
 					description: 'Successfully complete a Challenge Rift.',
-					percent: 49.6,
+					percent: 49.7,
 					icon: '35b87d295d5d5557bc2082896c825660f3b46ede.jpg',
 					icongray: 'ea0817cdd85cc0073171c037b9abd9a11afa4a24.jpg',
 					hidden: 0
@@ -26340,7 +26249,7 @@ export const profile: Profile = {
 					unlocktime: 1625967697,
 					name: 'Faster than light!',
 					description: 'You finished a daily challenge. Well done!',
-					percent: 25.7,
+					percent: 25.8,
 					icon: '0b491a238635f66a0c312eaf0ce7f3041f527ef0.jpg',
 					icongray: '2b509e86c6d57794d29805c48f1297d0fac1788e.jpg',
 					hidden: 0
@@ -26395,7 +26304,7 @@ export const profile: Profile = {
 					unlocktime: 1689602626,
 					name: 'Fortune and glory, kid. Fortune and Glory...',
 					description: 'Reach the Slumbering Sanctuary for the first time!',
-					percent: 39.6,
+					percent: 39.7,
 					icon: 'f7a72350ff0c8262f9d00ab75d6aa10b5a653ef4.jpg',
 					icongray: '138f68eaaa669c8ed70327ed35de32d42d598b4c.jpg',
 					hidden: 0
@@ -26450,7 +26359,7 @@ export const profile: Profile = {
 					unlocktime: 1624730807,
 					name: 'Please leave your shoes at the entrance.',
 					description: 'Reach the Castle for the first time.',
-					percent: 55.1,
+					percent: 55.2,
 					icon: 'aa8169dd24866c088886fcac2d76ae1c88744a53.jpg',
 					icongray: 'f4a8bf6d2c2cfc2db6ad906e4f0fd33280d1fea4.jpg',
 					hidden: 0
@@ -26483,7 +26392,7 @@ export const profile: Profile = {
 					unlocktime: 1632791013,
 					name: "I've got my eyes on you...",
 					description: '',
-					percent: 22,
+					percent: 22.1,
 					icon: '4f843ae65f7e1f60911d768171bbd7011622f5af.jpg',
 					icongray: '148cca47c899b7f2056b199769965c70fab278d3.jpg',
 					hidden: 1
@@ -26494,7 +26403,7 @@ export const profile: Profile = {
 					unlocktime: 1624821815,
 					name: 'Bound for Hell',
 					description: '',
-					percent: 21.9,
+					percent: 22,
 					icon: '1ba2e08ce6b5676794eaf64d9ea822789e2acca8.jpg',
 					icongray: 'ad428601d7ceb2648e9239a0937cb0fd076a460f.jpg',
 					hidden: 1
@@ -26571,7 +26480,7 @@ export const profile: Profile = {
 					unlocktime: 1624757033,
 					name: 'Trapped Trapper',
 					description: 'Trap an enemy using the Fractured Shrines environment!',
-					percent: 23,
+					percent: 23.1,
 					icon: '1aec079643aa1358a797645b946607ca73bbbea1.jpg',
 					icongray: 'e47967a73148cbbf85ab7f149baf58f77c356c45.jpg',
 					hidden: 0
@@ -26582,7 +26491,7 @@ export const profile: Profile = {
 					unlocktime: 1689405690,
 					name: 'Oh how fast they grow!',
 					description: 'Get the Leghugger to evolve',
-					percent: 15.7,
+					percent: 15.8,
 					icon: '05a9742a3958d845b7c4fdcfd0bc5f19d8948c77.jpg',
 					icongray: '7d5eab0a395c1ea4bc27e0bddc96bbc9e09a242b.jpg',
 					hidden: 0
@@ -26593,7 +26502,7 @@ export const profile: Profile = {
 					unlocktime: 1689290578,
 					name: 'The Bank always wins in the end',
 					description: 'Reach the Bank for the first time.',
-					percent: 30.3,
+					percent: 30.4,
 					icon: 'b18aab2ef7358bdec73fa59e334bcd3c55a7f995.jpg',
 					icongray: '5b0c340bbed5706e7c4cf98f64a3d370594f3953.jpg',
 					hidden: 0
@@ -26831,7 +26740,7 @@ export const profile: Profile = {
 					unlocktime: 1630723954,
 					name: 'Rapidfire',
 					description: 'Reach +200% attack speed.',
-					percent: 48.7,
+					percent: 48.6,
 					icon: 'c8701a660f57525f02d15e72054f9d29149ecd9c.jpg',
 					icongray: '320b4df5abb9d267e1b824197ad59a00610038ab.jpg',
 					hidden: 0
@@ -26842,7 +26751,7 @@ export const profile: Profile = {
 					unlocktime: 1630729489,
 					name: '...To Be Left Alone',
 					description: 'Stabilize the Cell in the Void Fields.',
-					percent: 43.8,
+					percent: 43.7,
 					icon: '6d3e9332cd1574e2ab74dce7305aaca8a86f8e7f.jpg',
 					icongray: '320b4df5abb9d267e1b824197ad59a00610038ab.jpg',
 					hidden: 0
@@ -26853,7 +26762,7 @@ export const profile: Profile = {
 					unlocktime: 1630724329,
 					name: 'Cleanup Duty',
 					description: 'Destroy 20 flying rocks in Sky Meadow.',
-					percent: 49.7,
+					percent: 49.5,
 					icon: '6322d79583c84913206c76296c6cf7603295e20e.jpg',
 					icongray: '6f5533c8ddc7add290bc7312898e6c6bd38c0ee7.jpg',
 					hidden: 0
@@ -26864,7 +26773,7 @@ export const profile: Profile = {
 					unlocktime: 1630774054,
 					name: 'Engineering Perfection',
 					description: 'Complete 30 stages.',
-					percent: 59.3,
+					percent: 59.2,
 					icon: 'ac44fb971c0fb5f0c599a8eadca7e2b921d96d67.jpg',
 					icongray: '320b4df5abb9d267e1b824197ad59a00610038ab.jpg',
 					hidden: 0
@@ -26875,7 +26784,7 @@ export const profile: Profile = {
 					unlocktime: 1630731824,
 					name: 'Washed Away',
 					description: 'Beat the game.',
-					percent: 52.6,
+					percent: 52.5,
 					icon: 'beaee2922ea9dfee361c7f2559783be605adf348.jpg',
 					icongray: '320b4df5abb9d267e1b824197ad59a00610038ab.jpg',
 					hidden: 0
@@ -26886,7 +26795,7 @@ export const profile: Profile = {
 					unlocktime: 1630723130,
 					name: 'Ascendant',
 					description: 'Defeat the Teleporter bosses after activating 2 Shrines of the Mountain.',
-					percent: 51.8,
+					percent: 51.7,
 					icon: '465283ef2ed9ed9af8e9aa9f6632d95cfa2b6ee7.jpg',
 					icongray: '320b4df5abb9d267e1b824197ad59a00610038ab.jpg',
 					hidden: 0
@@ -26919,7 +26828,7 @@ export const profile: Profile = {
 					unlocktime: 1630723676,
 					name: 'Naturopath',
 					description: 'Without healing, reach and complete the 3rd Teleporter event.',
-					percent: 38.8,
+					percent: 38.7,
 					icon: 'df2f1a888e9f21cfcfc6dca382019ededb045999.jpg',
 					icongray: '320b4df5abb9d267e1b824197ad59a00610038ab.jpg',
 					hidden: 0
@@ -26930,7 +26839,7 @@ export const profile: Profile = {
 					unlocktime: 1630800946,
 					name: 'True Respite',
 					description: 'Obliterate yourself at the Obelisk..',
-					percent: 49.2,
+					percent: 49.1,
 					icon: 'cf3d330460ae75272e4d4a3a2a6781b69feee177.jpg',
 					icongray: '320b4df5abb9d267e1b824197ad59a00610038ab.jpg',
 					hidden: 0
@@ -26942,7 +26851,7 @@ export const profile: Profile = {
 					name: 'Acrid: Easy Prey',
 					description:
 						'As Acrid, land the killing blow on 50 total enemies that have 1 hit point left.',
-					percent: 24.9,
+					percent: 24.8,
 					icon: '8e4c06833f22e1a41617d72a360411acd416c5f6.jpg',
 					icongray: '6f5533c8ddc7add290bc7312898e6c6bd38c0ee7.jpg',
 					hidden: 0
@@ -26953,7 +26862,7 @@ export const profile: Profile = {
 					unlocktime: 1630802695,
 					name: 'Acrid: Pandemic',
 					description: 'As Acrid, inflict Poison 1000 total times.',
-					percent: 16.5,
+					percent: 16.4,
 					icon: 'e083f291d5677a2426f639d5cec6a8fe0ee9d333.jpg',
 					icongray: '320b4df5abb9d267e1b824197ad59a00610038ab.jpg',
 					hidden: 0
@@ -26975,7 +26884,7 @@ export const profile: Profile = {
 					unlocktime: 1630803112,
 					name: 'I Love Dying!',
 					description: 'Die 20 times.',
-					percent: 54.5,
+					percent: 54.4,
 					icon: '9a137ed56f0a0900543818cc957189864358e672.jpg',
 					icongray: '320b4df5abb9d267e1b824197ad59a00610038ab.jpg',
 					hidden: 0
@@ -26986,7 +26895,7 @@ export const profile: Profile = {
 					unlocktime: 1630706221,
 					name: 'Experimenting',
 					description: 'Pick up 5 different types of Equipment.',
-					percent: 72.8,
+					percent: 72.7,
 					icon: '06c3c0d8aa11e1d7f9d9899b1260a4669b6d4b15.jpg',
 					icongray: '320b4df5abb9d267e1b824197ad59a00610038ab.jpg',
 					hidden: 0
@@ -27008,7 +26917,7 @@ export const profile: Profile = {
 					unlocktime: 1630706221,
 					name: "'Is This Bugged?'",
 					description: 'Fail the Shrine of Chance 3 times in a row.',
-					percent: 66.1,
+					percent: 66,
 					icon: '559b14d867e71caafd1596f107fade513abbd6d9.jpg',
 					icongray: '320b4df5abb9d267e1b824197ad59a00610038ab.jpg',
 					hidden: 0
@@ -27019,7 +26928,7 @@ export const profile: Profile = {
 					unlocktime: 1630805606,
 					name: '[REDACTED]',
 					description: 'Open the Timed Security Chest on Rallypoint Delta.',
-					percent: 28,
+					percent: 27.9,
 					icon: '3f2fd490ac6a4136f24a83d639971489efab9c1f.jpg',
 					icongray: '320b4df5abb9d267e1b824197ad59a00610038ab.jpg',
 					hidden: 0
@@ -27030,7 +26939,7 @@ export const profile: Profile = {
 					unlocktime: 1630730946,
 					name: 'Macho',
 					description: 'Deal 5000 damage in one shot.',
-					percent: 65.4,
+					percent: 65.3,
 					icon: '94e4e841aec702f5286bb37699e9b6122c5db0b0.jpg',
 					icongray: '320b4df5abb9d267e1b824197ad59a00610038ab.jpg',
 					hidden: 0
@@ -27041,7 +26950,7 @@ export const profile: Profile = {
 					unlocktime: 1630725223,
 					name: 'Blockade Breaker',
 					description: 'Kill 15 boss monsters in a single run.',
-					percent: 62.8,
+					percent: 62.7,
 					icon: '30502a9b687d6d1dc0a821ab2d52da2d7daaff69.jpg',
 					icongray: '320b4df5abb9d267e1b824197ad59a00610038ab.jpg',
 					hidden: 0
@@ -27074,7 +26983,7 @@ export const profile: Profile = {
 					unlocktime: 1630799810,
 					name: 'Cut Down',
 					description: 'Defeat 500 elite monsters.',
-					percent: 50.2,
+					percent: 50.1,
 					icon: '55052157013cda249a48f19e7af4dd5e4f7bfd7a.jpg',
 					icongray: '6f5533c8ddc7add290bc7312898e6c6bd38c0ee7.jpg',
 					hidden: 0
@@ -27085,7 +26994,7 @@ export const profile: Profile = {
 					unlocktime: 1630797603,
 					name: 'Slaughter',
 					description: 'Defeat 3000 enemies.',
-					percent: 55.8,
+					percent: 55.7,
 					icon: '14337f17195d82dc1f6b73d808c4ba84a335e41c.jpg',
 					icongray: '320b4df5abb9d267e1b824197ad59a00610038ab.jpg',
 					hidden: 0
@@ -27096,7 +27005,7 @@ export const profile: Profile = {
 					unlocktime: 1630730684,
 					name: 'Bookworm',
 					description: 'Collect 10 Monster or Environment Logs.',
-					percent: 64.1,
+					percent: 64,
 					icon: 'b8f57141c6077fc6f64040e80e723f8259abd977.jpg',
 					icongray: '320b4df5abb9d267e1b824197ad59a00610038ab.jpg',
 					hidden: 0
@@ -27107,7 +27016,7 @@ export const profile: Profile = {
 					unlocktime: 1630731026,
 					name: 'Deja Vu?',
 					description: 'Loop back to the first stage.',
-					percent: 63.3,
+					percent: 63.2,
 					icon: '87c4d6f8671ec049d5a914566245befa8eef9922.jpg',
 					icongray: '6f5533c8ddc7add290bc7312898e6c6bd38c0ee7.jpg',
 					hidden: 0
@@ -27118,7 +27027,7 @@ export const profile: Profile = {
 					unlocktime: 1630724309,
 					name: 'Multikill!',
 					description: 'Kill 15 enemies simultaneously.',
-					percent: 58.7,
+					percent: 58.6,
 					icon: '0bd8f40a8c2bbb258ebc3922a8cce679f80bc9fe.jpg',
 					icongray: '320b4df5abb9d267e1b824197ad59a00610038ab.jpg',
 					hidden: 0
@@ -27152,7 +27061,7 @@ export const profile: Profile = {
 					name: 'Never Back Down',
 					description:
 						'In 4 consecutive stages dont leave the teleporter radius until it is fully charged.',
-					percent: 43.7,
+					percent: 43.6,
 					icon: 'b1015a4625a318ac72c45d860de59109a9b2c429.jpg',
 					icongray: '320b4df5abb9d267e1b824197ad59a00610038ab.jpg',
 					hidden: 0
@@ -27163,7 +27072,7 @@ export const profile: Profile = {
 					unlocktime: 1630772799,
 					name: 'Trial of Honor',
 					description: 'Complete the Trial of Honor.',
-					percent: 38.3,
+					percent: 38.2,
 					icon: 'eeb345c941ac01feb967f3af632e35dcfe4dc773.jpg',
 					icongray: '320b4df5abb9d267e1b824197ad59a00610038ab.jpg',
 					hidden: 0
@@ -27174,7 +27083,7 @@ export const profile: Profile = {
 					unlocktime: 1630725675,
 					name: 'Verified',
 					description: 'Complete the first Teleporter event 5 times.',
-					percent: 67.8,
+					percent: 67.7,
 					icon: '32df421f7ee3e8b6deb1ff809e634c19a969097c.jpg',
 					icongray: '320b4df5abb9d267e1b824197ad59a00610038ab.jpg',
 					hidden: 0
@@ -27185,7 +27094,7 @@ export const profile: Profile = {
 					unlocktime: 1630724190,
 					name: 'The Lone Survivor',
 					description: 'Stay alive for 30 consecutive minutes.',
-					percent: 76.7,
+					percent: 76.6,
 					icon: '89180d19216b000ec48a72c41369c43fe75bbe45.jpg',
 					icongray: '320b4df5abb9d267e1b824197ad59a00610038ab.jpg',
 					hidden: 0
@@ -27196,7 +27105,7 @@ export const profile: Profile = {
 					unlocktime: 1630724963,
 					name: 'Funded!',
 					description: 'Collect $30,480 total gold.',
-					percent: 73.4,
+					percent: 73.3,
 					icon: '7219275cb5e7f38ad04b011e1490c89ef1e201bb.jpg',
 					icongray: '320b4df5abb9d267e1b824197ad59a00610038ab.jpg',
 					hidden: 0
@@ -27207,7 +27116,7 @@ export const profile: Profile = {
 					unlocktime: 1630772287,
 					name: 'Cosmic Explorer',
 					description: 'Discover and enter three unique portals.',
-					percent: 54.9,
+					percent: 54.8,
 					icon: '3cc127e3fa2063f2ea6ee2be289228916cb0e041.jpg',
 					icongray: '320b4df5abb9d267e1b824197ad59a00610038ab.jpg',
 					hidden: 0
@@ -27302,7 +27211,7 @@ export const profile: Profile = {
 					unlocktime: 1563022865,
 					name: 'Blue',
 					description: '',
-					percent: 54.6,
+					percent: 54.7,
 					icon: '7bd4e670a6f403d8507b10948f47b059bc950ab1.jpg',
 					icongray: '842f7e7b010b9137fa4034cf28d19c62461c680c.jpg',
 					hidden: 1
@@ -27437,7 +27346,7 @@ export const profile: Profile = {
 					unlocktime: 1515800421,
 					name: 'The Sea',
 					description: '',
-					percent: 48.5,
+					percent: 48.6,
 					icon: '542ff03f56ae825ad833fe7a3c91244fe0d177e1.jpg',
 					icongray: '6156d976f70291a37736c42c60a82e520dc48da2.jpg',
 					hidden: 1
@@ -27459,7 +27368,7 @@ export const profile: Profile = {
 					unlocktime: 1515883284,
 					name: 'The Hyena',
 					description: '',
-					percent: 45.8,
+					percent: 45.9,
 					icon: '56de7a006ade1a4c795665fc6fab57fd066e9c43.jpg',
 					icongray: '54e1f168b0704a33cf02f9f753a0e46ca5ae3a5e.jpg',
 					hidden: 1
@@ -27470,7 +27379,7 @@ export const profile: Profile = {
 					unlocktime: 1516567798,
 					name: 'The Crocodile',
 					description: '',
-					percent: 37.7,
+					percent: 37.8,
 					icon: '2a5ae9aa74fad48cbcddcb2d3f8394646e54717e.jpg',
 					icongray: 'ff087058fe1c04ca989604f6a16439bf4b6434ca.jpg',
 					hidden: 1
@@ -27481,7 +27390,7 @@ export const profile: Profile = {
 					unlocktime: 1515978383,
 					name: 'The Lizard',
 					description: '',
-					percent: 43.1,
+					percent: 43.2,
 					icon: 'a44622c2d98b5fdb6846766e5a9ef7fd0e450add.jpg',
 					icongray: 'eced54f104e94376c0e65144eff6a6f68dedad93.jpg',
 					hidden: 1
@@ -27503,7 +27412,7 @@ export const profile: Profile = {
 					unlocktime: 1515976768,
 					name: 'Wake Up!',
 					description: '',
-					percent: 44.2,
+					percent: 44.3,
 					icon: '1bf7740ce348eb23701dc8d387a827391f10d28f.jpg',
 					icongray: 'a9186985af45f1e4af6fdb23eac85c9bcd592a91.jpg',
 					hidden: 1
@@ -27625,7 +27534,7 @@ export const profile: Profile = {
 					unlocktime: 1514741738,
 					name: 'Raider of the Lost Tomb',
 					description: 'Complete a tomb.',
-					percent: 67.4,
+					percent: 67.5,
 					icon: '4ba29bc6000f680c5ed4135b23af383eba8b92bc.jpg',
 					icongray: '5808545c2096d5870cd25db0d3943977edb71825.jpg',
 					hidden: 0
@@ -27636,7 +27545,7 @@ export const profile: Profile = {
 					unlocktime: 1515025101,
 					name: 'Free as a Bird',
 					description: '',
-					percent: 43.3,
+					percent: 43.4,
 					icon: 'e5eec2abf19b829d5ee69e709e10ff1a543d1670.jpg',
 					icongray: 'f4de622bc74736f04538edfdfffc31dea3a43cca.jpg',
 					hidden: 1
@@ -27691,7 +27600,7 @@ export const profile: Profile = {
 					unlocktime: 1515717706,
 					name: 'You still need 8880...',
 					description: 'Reach level 20.',
-					percent: 50.3,
+					percent: 50.4,
 					icon: 'fd085844f7493806b115932992dc7101eb701fce.jpg',
 					icongray: '35076c2a3ce90c19346b4a65f7780f64850cc808.jpg',
 					hidden: 0
@@ -27745,7 +27654,7 @@ export const profile: Profile = {
 					unlocktime: 1708923629,
 					name: 'I',
 					description: 'Reach Prestige I',
-					percent: 23.9,
+					percent: 24.2,
 					icon: 'e287eb3f199bee75d03623a08a7400d071338773.jpg',
 					icongray: 'e2fb117d1d7c25296c6e2fcabe86bdc53dc0abdc.jpg',
 					hidden: 0
@@ -27756,7 +27665,7 @@ export const profile: Profile = {
 					unlocktime: 1708923553,
 					name: 'Work Experience',
 					description: '',
-					percent: 39,
+					percent: 39.6,
 					icon: 'ed2d08f4f65a4c66d9af48a925c1b2a0be04e3b7.jpg',
 					icongray: 'dbd4143e8ee7b3adfb1470473c42c739703c33c9.jpg',
 					hidden: 1
@@ -28009,7 +27918,7 @@ export const profile: Profile = {
 					unlocktime: 1621736894,
 					name: 'Fly Swatter',
 					description: "Shoot and knock back Marguerite while she's leaping at you.",
-					percent: 15.9,
+					percent: 16,
 					icon: '3102ea217cf372ee036925d520bcbcf2df86f840.jpg',
 					icongray: '1447f383ac93b3064de2cb3a68ab90cd32628be1.jpg',
 					hidden: 0
@@ -28127,7 +28036,7 @@ export const profile: Profile = {
 					unlocktime: 1545878342,
 					name: 'Past Mistakes',
 					description: '',
-					percent: 66.6,
+					percent: 66.7,
 					icon: '8e2a784eadfac62a89ae808c18466f49deb619f1.jpg',
 					icongray: '6725f07920fff23a1ff6f2b1c0138258931f31e1.jpg',
 					hidden: 1
@@ -28171,7 +28080,7 @@ export const profile: Profile = {
 					unlocktime: 1548638011,
 					name: 'Democracy Falls',
 					description: '',
-					percent: 43.7,
+					percent: 43.8,
 					icon: '9a47412ae5495838d4237bf9ae7a7277f9d5fb06.jpg',
 					icongray: '5c6213b564494c578ffea174bb9ae7499474db3d.jpg',
 					hidden: 1
@@ -28182,7 +28091,7 @@ export const profile: Profile = {
 					unlocktime: 1549225899,
 					name: 'Legend in the Making',
 					description: '',
-					percent: 34.9,
+					percent: 35,
 					icon: 'ab2bd901b6a1ca19f9b3392e66222276effaa0a7.jpg',
 					icongray: '3df83373f0c5dce5c37e5506a9339f6ea4324cfc.jpg',
 					hidden: 1
@@ -28204,7 +28113,7 @@ export const profile: Profile = {
 					unlocktime: 1549506149,
 					name: "Odyssey's End",
 					description: '',
-					percent: 33.7,
+					percent: 33.8,
 					icon: 'd338a222e00dcb456eb6d9d94f3bda859b2a821d.jpg',
 					icongray: '253e267b567331d4645993d1c3aace627b7d0221.jpg',
 					hidden: 1
@@ -28226,7 +28135,7 @@ export const profile: Profile = {
 					unlocktime: 1545868876,
 					name: 'You Work for Me Now',
 					description: 'Recruit and assign a Legendary NPC for your ship.',
-					percent: 62.6,
+					percent: 62.7,
 					icon: '6f7ed0b89648438f12519277c6e44063d4395795.jpg',
 					icongray: '5057916f2d0df964bd5aed51b13017f649a68ea9.jpg',
 					hidden: 0
@@ -28259,7 +28168,7 @@ export const profile: Profile = {
 					unlocktime: 1547844579,
 					name: 'Are You Not Entertained?',
 					description: 'Become Champion of the Arena.',
-					percent: 31.1,
+					percent: 31.2,
 					icon: '0a1d8d8735a89c1ef1258eed64bca31f2b491264.jpg',
 					icongray: '5cb6de08bb07cd48f0ebe13815fda9b1db3a4164.jpg',
 					hidden: 0
@@ -28281,7 +28190,7 @@ export const profile: Profile = {
 					unlocktime: 1547907183,
 					name: 'Godly Power',
 					description: 'Acquire a Tier 3 active Ability.',
-					percent: 38.4,
+					percent: 38.5,
 					icon: '2ea21bcd712d3a0434e48d80f928f1f8268eee0b.jpg',
 					icongray: '045dc9836d8df137eff48a535d7ec6286dc8abb7.jpg',
 					hidden: 0
@@ -28314,7 +28223,7 @@ export const profile: Profile = {
 					unlocktime: 1549842311,
 					name: 'The Cult Unmasked',
 					description: '',
-					percent: 25.2,
+					percent: 25.3,
 					icon: 'cc619ac9660c750e0ccd53bc7407f8a81d616f82.jpg',
 					icongray: '18cee0eff66ae09549d3771b5bec763da58eb261.jpg',
 					hidden: 1
@@ -28347,7 +28256,7 @@ export const profile: Profile = {
 					unlocktime: 1548553821,
 					name: 'Eye on the Prize',
 					description: '',
-					percent: 31.7,
+					percent: 31.8,
 					icon: 'eb9029ded7346b44c478af07b2a4dd46f79ab9d1.jpg',
 					icongray: '296734ab9de033dfcecb3b2b7015b9fb5af9f498.jpg',
 					hidden: 1
@@ -28358,7 +28267,7 @@ export const profile: Profile = {
 					unlocktime: 1548794372,
 					name: 'Riddle Me This',
 					description: '',
-					percent: 34.2,
+					percent: 34.3,
 					icon: 'b8d6fc8988fcfce8ffa4c1d0ac921db70f93bfab.jpg',
 					icongray: '6ff8ce254a182d1006efb23d317599ddc0a3c159.jpg',
 					hidden: 1
@@ -28380,7 +28289,7 @@ export const profile: Profile = {
 					unlocktime: 1546739275,
 					name: 'The Argonauts',
 					description: 'Fully crew the Adrestia with Legendary Lieutenants.',
-					percent: 36.3,
+					percent: 36.4,
 					icon: '4db379c844901bd89c54d79ba003d4a824e3ae09.jpg',
 					icongray: '1124bc5bf85685c6352e7abf2152d9f749ebcfae.jpg',
 					hidden: 0
@@ -28391,7 +28300,7 @@ export const profile: Profile = {
 					unlocktime: 1548943331,
 					name: 'Master of the Hunt',
 					description: '',
-					percent: 24.2,
+					percent: 24.3,
 					icon: '6226f64a39255371a16d244e02246efd7c17adae.jpg',
 					icongray: '6bf17bad1520340ae210267b4180ad3a6642fd05.jpg',
 					hidden: 1
@@ -28435,7 +28344,7 @@ export const profile: Profile = {
 					unlocktime: 1545869385,
 					name: 'Harder, Better, Faster, Stronger',
 					description: 'Upgrade the Adrestia for the first time.',
-					percent: 65.3,
+					percent: 65.4,
 					icon: '64504d3bf8e96402090be580b39b325a72062ad2.jpg',
 					icongray: 'a6447070a3320a13b3f5cc460e1525f2709986e3.jpg',
 					hidden: 0
@@ -28457,7 +28366,7 @@ export const profile: Profile = {
 					unlocktime: 1545876656,
 					name: "Aphrodite's Embrace",
 					description: 'Spend the night with another character.',
-					percent: 59.7,
+					percent: 59.8,
 					icon: 'ecf8966eefe2db4f36d16bc3d0388f80426f8f21.jpg',
 					icongray: '7aaf05b9593c92cc3cb54b0a16ef425a9b13ed14.jpg',
 					hidden: 0
@@ -28468,7 +28377,7 @@ export const profile: Profile = {
 					unlocktime: 1548589488,
 					name: 'One Head Down',
 					description: '',
-					percent: 39.3,
+					percent: 39.4,
 					icon: 'b874d44d8d5110a27c6cb9395b76fa359f077008.jpg',
 					icongray: '7cdda8a3b12d33f4a6ccb428f4c0a98e6aca180f.jpg',
 					hidden: 1
@@ -28479,7 +28388,7 @@ export const profile: Profile = {
 					unlocktime: 1548727205,
 					name: 'Birthright',
 					description: '',
-					percent: 37.9,
+					percent: 38,
 					icon: '8ec2ee7f6150bb5682349c93af1b4a23f46f3d01.jpg',
 					icongray: '38d84d6ac45ca048ff510cf2cc88be2909fd65c7.jpg',
 					hidden: 1
@@ -28601,7 +28510,7 @@ export const profile: Profile = {
 					unlocktime: 1547782942,
 					name: 'Lightning Rod',
 					description: 'Defeat Steropes the Lightning Bringer.',
-					percent: 31.3,
+					percent: 31.4,
 					icon: 'f5e662bd1a7901719af9e4e06938c44719957839.jpg',
 					icongray: 'a6f6186407e572cefcd5b8d28c1d1ce8027cd225.jpg',
 					hidden: 0
@@ -28612,7 +28521,7 @@ export const profile: Profile = {
 					unlocktime: 1548791197,
 					name: 'Volcanic Sunscreen',
 					description: 'Defeat Arges, the Bright One',
-					percent: 23.3,
+					percent: 23.4,
 					icon: '1da03f12cf661ec9023f7daf327d79ea2092b6b3.jpg',
 					icongray: '0f80f4dfd32dd338c752a5e693741e534bc9b0f4.jpg',
 					hidden: 0
@@ -28645,7 +28554,7 @@ export const profile: Profile = {
 					unlocktime: 1563982856,
 					name: 'Without a trace',
 					description: 'Kill 10 enemies using the Death Veil ability',
-					percent: 23.6,
+					percent: 23.7,
 					icon: '26d652d16c115377cf5462ea82c33b8114e9b0fe.jpg',
 					icongray: 'f914958587b3eef2252c977b6614d60d3fadfb2d.jpg',
 					hidden: 0
@@ -28667,7 +28576,7 @@ export const profile: Profile = {
 					unlocktime: 1564148702,
 					name: 'Breaking the Limit',
 					description: 'Land a Rush Assassinate that chains 4 times with the Blade of the Lion',
-					percent: 5.7,
+					percent: 5.8,
 					icon: '9013a7cfdf7e36bbe10a22e646455428c6dbf850.jpg',
 					icongray: 'c3d5f1aad370a46a29e00cf19f74dbb3864246c6.jpg',
 					hidden: 0
@@ -28755,7 +28664,7 @@ export const profile: Profile = {
 					unlocktime: 1564432612,
 					name: 'Every Story Has an Ending',
 					description: 'Complete Every Story Has an Ending',
-					percent: 13.9,
+					percent: 14,
 					icon: '2a5c89bd79773f088dc53faef91afa84093138e9.jpg',
 					icongray: '17278d156cd8b2fb51f6cc3bae09e619c0ae8024.jpg',
 					hidden: 0
@@ -29222,7 +29131,7 @@ export const profile: Profile = {
 					unlocktime: 1633387283,
 					name: 'Death I: Now, What Have We Learned?',
 					description: '',
-					percent: 83.1,
+					percent: 83.2,
 					icon: '58da4b9a2848ea57890d0280aafa74af3eb06f45.jpg',
 					icongray: 'a28ac17f4445b600d0d11e6b6bc6e20263d55e81.jpg',
 					hidden: 1
@@ -29233,7 +29142,7 @@ export const profile: Profile = {
 					unlocktime: 1633556882,
 					name: 'Smelter I: Learning To Stand The Heat',
 					description: 'Refine 300 items in Smelters.',
-					percent: 58.1,
+					percent: 58.2,
 					icon: '1f4d5ffcf3100ed84306acf630caddc4f51c0b69.jpg',
 					icongray: 'a8c63231c4a548404f96e4d76efdcadb65b67ffe.jpg',
 					hidden: 0
@@ -29288,7 +29197,7 @@ export const profile: Profile = {
 					unlocktime: 1633550640,
 					name: 'Covenant Initiate: It Starts',
 					description: 'Join the Covenant.',
-					percent: 20,
+					percent: 20.1,
 					icon: 'a42b135e4ec095c54107d88ac6be9c980bb00c0f.jpg',
 					icongray: 'a8c63231c4a548404f96e4d76efdcadb65b67ffe.jpg',
 					hidden: 0
@@ -29299,7 +29208,7 @@ export const profile: Profile = {
 					unlocktime: 1633807186,
 					name: 'Marauder Soldier: Recognized Prowess',
 					description: 'Join the Marauders.',
-					percent: 32.7,
+					percent: 32.8,
 					icon: '2e255ec64d507da6f9466390cb2a41c8a6ba58eb.jpg',
 					icongray: 'a28ac17f4445b600d0d11e6b6bc6e20263d55e81.jpg',
 					hidden: 0
@@ -29413,7 +29322,7 @@ export const profile: Profile = {
 					unlocktime: 1608316000,
 					name: 'The Wheel of Fortune',
 					description: '',
-					percent: 56.5,
+					percent: 56.4,
 					icon: '61c7ccea74b66ef3f5d51c078d900d930346e74a.jpg',
 					icongray: '961e51e8bd9e1ec292687055b6d1a4486b0e124d.jpg',
 					hidden: 1
@@ -29435,7 +29344,7 @@ export const profile: Profile = {
 					unlocktime: 1610394235,
 					name: 'To Protect and Serve',
 					description: '',
-					percent: 28,
+					percent: 27.9,
 					icon: 'a51caf46e315b285be58a7d6cf7013a7b0c44a41.jpg',
 					icongray: '35a05a2c50d604f54724d65b7fdf6f9ee71fe88c.jpg',
 					hidden: 1
@@ -29558,7 +29467,7 @@ export const profile: Profile = {
 					unlocktime: 1608058185,
 					name: "Stanislavski's Method",
 					description: "Use a dialogue option related to V's life path 10 times.",
-					percent: 53.8,
+					percent: 53.7,
 					icon: '943a38cb96238b7b020672cf360d9e763dcf6feb.jpg',
 					icongray: '961e51e8bd9e1ec292687055b6d1a4486b0e124d.jpg',
 					hidden: 0
@@ -29604,7 +29513,7 @@ export const profile: Profile = {
 					name: 'V for Vendetta',
 					description:
 						'After reviving with Second Heart, kill or incapacitate the enemy who killed you within 5 seconds.',
-					percent: 20.7,
+					percent: 20.6,
 					icon: '5d34ce9108d8ac3018a1de3a2a485956bb7a9109.jpg',
 					icongray: '961e51e8bd9e1ec292687055b6d1a4486b0e124d.jpg',
 					hidden: 0
@@ -29615,7 +29524,7 @@ export const profile: Profile = {
 					unlocktime: 1608060945,
 					name: 'True Soldier',
 					description: 'Kill or incapacitate 300 enemies using ranged weapons.',
-					percent: 47.1,
+					percent: 47,
 					icon: '2f63e6b9c0774f8f63b9f053ba9ec145e90c678c.jpg',
 					icongray: '961e51e8bd9e1ec292687055b6d1a4486b0e124d.jpg',
 					hidden: 0
@@ -29903,7 +29812,7 @@ export const profile: Profile = {
 					unlocktime: 1624834862,
 					name: 'Stealth killed 10 machines',
 					description: 'Performed a stealth kill on 10 machines.',
-					percent: 62.1,
+					percent: 62.2,
 					icon: '5d65440e26762aacc11dd98ff61691061120921a.jpg',
 					icongray: '854cef56d36c74a725bcf96d1d60990dbfa07693.jpg',
 					hidden: 0
@@ -29959,7 +29868,7 @@ export const profile: Profile = {
 					unlocktime: 1625345802,
 					name: '7 types of machine overridden',
 					description: '',
-					percent: 27.4,
+					percent: 27.5,
 					icon: 'be1cd82b540a778a0468625b2b09f066107e87db.jpg',
 					icongray: '71c5fcf36891be9b014957ae01fa61b63be6b2fa.jpg',
 					hidden: 1
@@ -29992,7 +29901,7 @@ export const profile: Profile = {
 					unlocktime: 1626718705,
 					name: 'All Acquisition machines killed',
 					description: '',
-					percent: 26.1,
+					percent: 26.2,
 					icon: '99b6c36db80353a0a96cb9e68ef4e895e2d9d841.jpg',
 					icongray: '0460b8c98570444d965214dfe667fd19202413c3.jpg',
 					hidden: 1
@@ -30014,7 +29923,7 @@ export const profile: Profile = {
 					unlocktime: 1625347439,
 					name: 'All Combat machines killed',
 					description: '',
-					percent: 32.1,
+					percent: 32.2,
 					icon: '3535c6875b56f7b92dade9600f14a04bad312ac9.jpg',
 					icongray: 'fbaadb1b7716d76a9c7cf582a1a4da5f538f46a1.jpg',
 					hidden: 1
@@ -30124,7 +30033,7 @@ export const profile: Profile = {
 					unlocktime: 1625330070,
 					name: 'All Suns at one Ground',
 					description: '',
-					percent: 31.3,
+					percent: 31.4,
 					icon: '301cf72015beba18a1a49107c2b34caae971e23e.jpg',
 					icongray: '996cb1f018d7f52f03a6104967932ab7a31ce203.jpg',
 					hidden: 1
@@ -30223,7 +30132,7 @@ export const profile: Profile = {
 					unlocktime: 1627139960,
 					name: 'All machines catalogued',
 					description: '',
-					percent: 21.2,
+					percent: 21.3,
 					icon: '976135a764088a7b1216e14c4c27da64ccb7735d.jpg',
 					icongray: '627efacd3fbfba861c8f49987bcae9cabf6cf2da.jpg',
 					hidden: 1
@@ -30256,7 +30165,7 @@ export const profile: Profile = {
 					unlocktime: 1625408926,
 					name: 'First Banuk Figure found',
 					description: '',
-					percent: 25.7,
+					percent: 25.8,
 					icon: 'b277b09e77e4918810fa9a513c4cc510131d81f5.jpg',
 					icongray: '714dc36f64eec2399e10ce092d5330df3673ff2d.jpg',
 					hidden: 1
@@ -30289,7 +30198,7 @@ export const profile: Profile = {
 					unlocktime: 1627136832,
 					name: 'All Metal Flowers found',
 					description: '',
-					percent: 11.4,
+					percent: 11.5,
 					icon: '85d8a080a0d1f9ee0706b14974fdd3dff9648712.jpg',
 					icongray: '4e30137becad0b0c4ad99028589a0521f84b9808.jpg',
 					hidden: 1
@@ -30410,7 +30319,7 @@ export const profile: Profile = {
 					unlocktime: 1625845798,
 					name: 'Broke the siege of All-Mother',
 					description: '',
-					percent: 32.5,
+					percent: 32.6,
 					icon: 'ad28ab8b0678fe602b13884144c3da9d254f12c6.jpg',
 					icongray: '4d99c9d2b71ffc79f5e59c28fa91da9ebcf05a7f.jpg',
 					hidden: 1
@@ -30443,7 +30352,7 @@ export const profile: Profile = {
 					unlocktime: 1627164431,
 					name: 'Ended the war machine threat',
 					description: '',
-					percent: 29.4,
+					percent: 29.5,
 					icon: '611f678eae006a37b60ff9929a2f5a1cd59470e1.jpg',
 					icongray: '44c75d16cc7507ab0dab0172867b78bf87b9fa31.jpg',
 					hidden: 1
@@ -30564,7 +30473,7 @@ export const profile: Profile = {
 					unlocktime: 1626020523,
 					name: 'Fully Improved Weapons',
 					description: '',
-					percent: 13.8,
+					percent: 13.9,
 					icon: '33e27108b703ca5d85fc78690ec871bb6324f4e2.jpg',
 					icongray: '8da5c101ebe9b68f23d26981921fdcce3030d547.jpg',
 					hidden: 1
@@ -31172,9 +31081,9 @@ export const profile: Profile = {
 		{
 			appid: 1174180,
 			name: 'Red Dead Redemption 2',
-			playtime: 616,
-			playtime_2weeks: 186,
-			last_played: 1729478596,
+			playtime: 656,
+			playtime_2weeks: 226,
+			last_played: 1730259981,
 			icon_url: '5106abd9c1187a97f23295a0ba9470c94804ec6c',
 			achievements: [
 				{
@@ -31194,7 +31103,7 @@ export const profile: Profile = {
 					unlocktime: 1716770956,
 					name: 'Just a Scratch',
 					description: '',
-					percent: 85.7,
+					percent: 85.8,
 					icon: '1d0bdc25d376a74b0ee37355ee32f9eb308dd90c.jpg',
 					icongray: '568f85f53b033f055842013c775ed57d813e3c8f.jpg',
 					hidden: 1
@@ -31976,7 +31885,7 @@ export const profile: Profile = {
 					unlocktime: 1634689656,
 					name: 'Into the Deep',
 					description: '',
-					percent: 60.9,
+					percent: 61,
 					icon: '808120f8494bc41c0af898a39b4bb3b6abab5cce.jpg',
 					icongray: '0e081a4e6395c9ed7b3609a932be794d7be6e519.jpg',
 					hidden: 1
@@ -32020,7 +31929,7 @@ export const profile: Profile = {
 					unlocktime: 1635211117,
 					name: 'The Sapphire Star',
 					description: '',
-					percent: 45.4,
+					percent: 45.5,
 					icon: '1122a5179d2959b60b701493af25f7c67bf70253.jpg',
 					icongray: '599373a44af0f8bdb72c8b13ced48cb712c2d9b9.jpg',
 					hidden: 1
@@ -32031,7 +31940,7 @@ export const profile: Profile = {
 					unlocktime: 1635460008,
 					name: 'The Hunters Life for Me',
 					description: 'Complete 50 optional quests.',
-					percent: 36,
+					percent: 36.1,
 					icon: '9b08e865ae4eef6d4d0257a5f4be3116784ca961.jpg',
 					icongray: '7efcac2138aa7b582d3965b3079861a84c6c1f48.jpg',
 					hidden: 0
@@ -32042,7 +31951,7 @@ export const profile: Profile = {
 					unlocktime: 1634353716,
 					name: 'An Inquisitive Mind',
 					description: 'Complete your first investigation.',
-					percent: 53.2,
+					percent: 53.3,
 					icon: '23f855de051d3ae04c9fd22c9b27914ff6ba9dc1.jpg',
 					icongray: '8aa456e843a330c94b4a6efda6ee646ed0f178b0.jpg',
 					hidden: 0
@@ -32108,7 +32017,7 @@ export const profile: Profile = {
 					unlocktime: 1637547394,
 					name: 'Commissioned Work',
 					description: 'Obtain 100,000 research points.',
-					percent: 33.6,
+					percent: 33.7,
 					icon: 'bda0ee33c3d69de4a0540aa60377d117d8578f35.jpg',
 					icongray: 'fe84a73021810b88f879a392b20dfc4909ce0263.jpg',
 					hidden: 0
@@ -32141,7 +32050,7 @@ export const profile: Profile = {
 					unlocktime: 1637028762,
 					name: 'Power is Everything',
 					description: 'Obtain five highly rare weapons.',
-					percent: 33.4,
+					percent: 33.5,
 					icon: '1ca581c61c6c8e04a214df8c49735e52a0154e31.jpg',
 					icongray: '8e66f852333e6c593ff05dfeb35e46ec240da46e.jpg',
 					hidden: 0
@@ -32185,7 +32094,7 @@ export const profile: Profile = {
 					unlocktime: 1635394685,
 					name: 'Temper Temper',
 					description: '',
-					percent: 38.1,
+					percent: 38.2,
 					icon: '0c524255f8bd3c3af4b77b3ab7c6042e439957cd.jpg',
 					icongray: 'e50b6a0ba2a1a6c3114acca32049519f13948685.jpg',
 					hidden: 1
@@ -32197,7 +32106,7 @@ export const profile: Profile = {
 					name: 'Miniature Crown',
 					description:
 						'Record your first miniature crown for monsters that appear from low or high rank.',
-					percent: 41.1,
+					percent: 41.2,
 					icon: 'e4c73c7e29668074e719b8ba8b51a87071e8352b.jpg',
 					icongray: '5135d6ea3b06f26c9ac74b1f96c0ad3fae288d81.jpg',
 					hidden: 0
@@ -32297,7 +32206,7 @@ export const profile: Profile = {
 					unlocktime: 1635391031,
 					name: 'Time to Get Serious',
 					description: '',
-					percent: 35.8,
+					percent: 35.9,
 					icon: '135c2614efd1af0c1f844271e459064f7fdb24a7.jpg',
 					icongray: 'e95c6f9619425ab8f463db9495aff6b96918ba53.jpg',
 					hidden: 1
@@ -32319,7 +32228,7 @@ export const profile: Profile = {
 					unlocktime: 1636427099,
 					name: 'Indomitable Spirit',
 					description: '',
-					percent: 31.4,
+					percent: 31.5,
 					icon: '2cb2a603a0c7df9484010be08e567c0f4abae205.jpg',
 					icongray: 'd4f9f67a8bde4c56b67e01249e8f0729962292d9.jpg',
 					hidden: 1
@@ -32330,7 +32239,7 @@ export const profile: Profile = {
 					unlocktime: 1636689811,
 					name: 'The Old Everwyrm',
 					description: '',
-					percent: 29.9,
+					percent: 30,
 					icon: '625d283bb632e64bc10915a5070d954c8691fe4e.jpg',
 					icongray: 'cda13554252055efd3115f0527c8b6a4259699d5.jpg',
 					hidden: 1
@@ -32341,7 +32250,7 @@ export const profile: Profile = {
 					unlocktime: 1638154639,
 					name: 'An End and a Beginning',
 					description: '',
-					percent: 27.5,
+					percent: 27.6,
 					icon: 'b75a17f18556fece132107768740df532ebc607d.jpg',
 					icongray: 'c5fc305e66b6c100f145690a9f5c5e1827c7d1d0.jpg',
 					hidden: 1
@@ -32352,7 +32261,7 @@ export const profile: Profile = {
 					unlocktime: 1638155191,
 					name: 'To the Land of Discoveries',
 					description: '',
-					percent: 27.7,
+					percent: 27.8,
 					icon: 'ee873f109437b926ad48aad29221002e65aa4c4e.jpg',
 					icongray: '27ee8f8c78681594ff097e872c2947a844a79eb9.jpg',
 					hidden: 1
@@ -32374,7 +32283,7 @@ export const profile: Profile = {
 					unlocktime: 1634350359,
 					name: 'Clutch Claw Neophyte',
 					description: 'Study the ways of the clutch claw.',
-					percent: 30.8,
+					percent: 30.9,
 					icon: '44a5de531256977e656e95ccbb02d2ed5ecd2174.jpg',
 					icongray: '91e48cc88b274bd411dfbfa2d0f9f666a08454a9.jpg',
 					hidden: 0
@@ -32385,7 +32294,7 @@ export const profile: Profile = {
 					unlocktime: 1638670990,
 					name: 'Unwavering Defense',
 					description: 'Obtain five extremely rare pieces of armor.',
-					percent: 24.3,
+					percent: 24.4,
 					icon: '06b9befc86ee7aa2b7ebb089c93016c06f89cf15.jpg',
 					icongray: '13d1a98cf42068a4d6ba075370a567c37638eb74.jpg',
 					hidden: 0
@@ -32396,7 +32305,7 @@ export const profile: Profile = {
 					unlocktime: 1640055370,
 					name: 'Devastating Offense',
 					description: 'Obtain five extremely rare weapons.',
-					percent: 20.8,
+					percent: 20.9,
 					icon: 'd06fbb2242fc1dd58ff52ba111b6f66de06ce59e.jpg',
 					icongray: '772d7d304a512a6edc9f4337396f932187928bde.jpg',
 					hidden: 0
@@ -32407,7 +32316,7 @@ export const profile: Profile = {
 					unlocktime: 1635094417,
 					name: 'Personal Treasure',
 					description: '',
-					percent: 34.6,
+					percent: 34.7,
 					icon: '2942a56e55e3163f37238466f64161935aac1514.jpg',
 					icongray: '24d6a548b49c3736c752da409fc0aa2f7dccf7d7.jpg',
 					hidden: 1
@@ -32429,7 +32338,7 @@ export const profile: Profile = {
 					unlocktime: 1635562105,
 					name: 'Experienced Rider',
 					description: 'Use Raider Ride many times.',
-					percent: 25,
+					percent: 25.1,
 					icon: 'acdcc3490dc8fdc4b6ace2f70e6005dd72de9c3e.jpg',
 					icongray: 'b8c50715e4941a267ac14fcaa400f8b7f45b59b1.jpg',
 					hidden: 0
@@ -32451,7 +32360,7 @@ export const profile: Profile = {
 					unlocktime: 1635296360,
 					name: 'Eager Engineer',
 					description: 'Help the Steamworks 20 times.',
-					percent: 32.1,
+					percent: 32.2,
 					icon: '6a269b2af84f65d472e98f16c2178c09d03b2845.jpg',
 					icongray: '4948093f4a512083dfa47e12d38920601ff97b42.jpg',
 					hidden: 0
@@ -32462,7 +32371,7 @@ export const profile: Profile = {
 					unlocktime: 1635296505,
 					name: 'Skilled Steamworker',
 					description: 'Send the Steamworks into overdrive.',
-					percent: 30.4,
+					percent: 30.5,
 					icon: 'bd2419ab7062c76742c4f620651cd43e2c834302.jpg',
 					icongray: '227004d1fd859a36c81a1f33db68451bdf7e191a.jpg',
 					hidden: 0
@@ -32512,7 +32421,7 @@ export const profile: Profile = {
 					unlocktime: 1720832167,
 					name: 'Counter-sniper',
 					description: 'Using a bolt action rifle, kill an enemy Scout in multiplayer',
-					percent: 54.9,
+					percent: 54.8,
 					icon: '8e5b120dc41bfe0806cf62899a3827760a8dd843.jpg',
 					icongray: '3811b646f9e04d0fb27e027f48109d71c4b4c6ff.jpg',
 					hidden: 0
@@ -32825,7 +32734,7 @@ export const profile: Profile = {
 					unlocktime: 1666044878,
 					name: 'Dragonlord Placidusax',
 					description: '',
-					percent: 30.5,
+					percent: 30.6,
 					icon: '8f4f24760a906b21cf2ed65fa5fbcd2039c2f1ff.jpg',
 					icongray: '172885dcb6a82300de9f34e8833afdf7d7cd24e1.jpg',
 					hidden: 1
@@ -33023,7 +32932,7 @@ export const profile: Profile = {
 					unlocktime: 1664498082,
 					name: 'Mohg, the Omen',
 					description: '',
-					percent: 35.6,
+					percent: 35.7,
 					icon: '1e69cda29e26389f87aef965ee21619aa92d859b.jpg',
 					icongray: '172885dcb6a82300de9f34e8833afdf7d7cd24e1.jpg',
 					hidden: 1
@@ -33219,7 +33128,7 @@ export const profile: Profile = {
 					unlocktime: 1719678019,
 					name: 'Happy C.A.M.P.er',
 					description: 'Build a C.A.M.P.',
-					percent: 63.6,
+					percent: 63.3,
 					icon: 'bd4cecd1a536b06dc846f3956b0fbeda1e9f850d.jpg',
 					icongray: '7f752307f42537a40a89f0c2a86cf1652b08e4f0.jpg',
 					hidden: 0
@@ -33241,7 +33150,7 @@ export const profile: Profile = {
 					unlocktime: 1719676869,
 					name: 'A Real Challenger',
 					description: 'Complete 20 Challenges',
-					percent: 68.9,
+					percent: 68.7,
 					icon: '2548733c04a3ad9b8c3f5206cc90ecc29ed0a45d.jpg',
 					icongray: 'b51d6852f2523feb5936321698b7f7e0cc6878e3.jpg',
 					hidden: 0
@@ -33252,7 +33161,7 @@ export const profile: Profile = {
 					unlocktime: 1719677098,
 					name: 'Junker Funk',
 					description: 'Gather 200 Pieces of Junk',
-					percent: 71.5,
+					percent: 71.3,
 					icon: '6d0649a69b6e49182b4401a187c4866fd97f9843.jpg',
 					icongray: '9779817ec6db2e9213fbc6d76686201a1ea22620.jpg',
 					hidden: 0
@@ -33274,7 +33183,7 @@ export const profile: Profile = {
 					unlocktime: 1719675340,
 					name: 'Wild West Virginian',
 					description: 'Reach Level 10',
-					percent: 52,
+					percent: 52.1,
 					icon: '5300e30a44c868d58f9f4b6a791cd47dfb3e045f.jpg',
 					icongray: 'bd15ae272efeadc9cd878c37d951b50bb69d3bf9.jpg',
 					hidden: 0
@@ -33285,7 +33194,7 @@ export const profile: Profile = {
 					unlocktime: 1726437632,
 					name: 'Appalachian Trailblazer',
 					description: 'Reach Level 25',
-					percent: 30,
+					percent: 29.8,
 					icon: '69a017c72e1d74e33a816467f5f8ef98acea3e81.jpg',
 					icongray: '482d4a716a6451771fa6a4bd83ed4d53b6f56d6e.jpg',
 					hidden: 0
@@ -33296,7 +33205,7 @@ export const profile: Profile = {
 					unlocktime: 1726623564,
 					name: 'Wayward Child',
 					description: "Complete 'The Elusive Crane'",
-					percent: 28.3,
+					percent: 28,
 					icon: 'c9d2fcbccd45b84ac28e7abf28e8024cec36db44.jpg',
 					icongray: 'd13ba218c8c2f2f92962a2048a37132f2c1bcaf2.jpg',
 					hidden: 0
@@ -33307,7 +33216,7 @@ export const profile: Profile = {
 					unlocktime: 1719766140,
 					name: 'Overdue Reunions',
 					description: 'Find the Overseer',
-					percent: 35.1,
+					percent: 34.8,
 					icon: '092f6c9f2420cf3d4da112e0c3cf747f7a98e20e.jpg',
 					icongray: '37f336465a069a3c68aaee21f59fc25d9026c9f0.jpg',
 					hidden: 0
@@ -33536,7 +33445,7 @@ export const profile: Profile = {
 					unlocktime: 1631574791,
 					name: 'Timeless bakery',
 					description: 'Bake 1 quadrillion cookies in one ascension.',
-					percent: 51.5,
+					percent: 51.6,
 					icon: 'bf734312cfaa5caea17b44068676502e47a9b9f5.jpg',
 					icongray: 'a77712e22d50dedef0d765e91ca07b6f87e01d9c.jpg',
 					hidden: 0
@@ -34097,7 +34006,7 @@ export const profile: Profile = {
 					unlocktime: 1632177458,
 					name: 'Dimensional shift',
 					description: 'Have 100 portals.',
-					percent: 41.4,
+					percent: 41.5,
 					icon: 'e7962647584008b9c4426d6e669f47dee3b4e558.jpg',
 					icongray: 'ab114712e204af74b222f3f76e4f2d692c947b9b.jpg',
 					hidden: 0
@@ -34119,7 +34028,7 @@ export const profile: Profile = {
 					unlocktime: 1632171745,
 					name: 'Alternate timeline',
 					description: 'Have 50 time machines.',
-					percent: 42.7,
+					percent: 42.8,
 					icon: '5a7d8594b44c4ec45911b27f1fe33191b5a83b53.jpg',
 					icongray: '21a6d77236fcd8376035f4e5543b8b45305cca05.jpg',
 					hidden: 0
@@ -34130,7 +34039,7 @@ export const profile: Profile = {
 					unlocktime: 1632192979,
 					name: 'Rewriting history',
 					description: 'Have 100 time machines.',
-					percent: 40.8,
+					percent: 40.9,
 					icon: '14b3ffeabcd3b19cba590c1548d90a4630775f1d.jpg',
 					icongray: '227e3ba3f886daaee30fa84547ff66a99d31113d.jpg',
 					hidden: 0
@@ -34330,7 +34239,7 @@ export const profile: Profile = {
 					unlocktime: 1631570872,
 					name: 'Engineer',
 					description: 'Own 1,000 buildings.',
-					percent: 51.6,
+					percent: 51.7,
 					icon: '880b6c21a490ea19b278ee2499bcd91d3a1df33f.jpg',
 					icongray: '3baed1e5b227f1066bbcfe7c3b93742876ee6709.jpg',
 					hidden: 0
@@ -34385,7 +34294,7 @@ export const profile: Profile = {
 					unlocktime: 1632235806,
 					name: 'It does matter!',
 					description: 'Have 100 antimatter condensers.',
-					percent: 40.3,
+					percent: 40.4,
 					icon: '2a7fbd89fe8929d892f17450f1d21367e60979ee.jpg',
 					icongray: 'ce9c6089436a31719cff40b787745153d23a775a.jpg',
 					hidden: 0
@@ -34649,7 +34558,7 @@ export const profile: Profile = {
 					unlocktime: 1632414145,
 					name: 'Molecular maestro',
 					description: 'Have 150 antimatter condensers.',
-					percent: 39.1,
+					percent: 39.2,
 					icon: '7e2f9b3d295122fdbf799bfcc58a258973207dad.jpg',
 					icongray: '3211616d7c57d133448e0849557b786d1f8ace02.jpg',
 					hidden: 0
@@ -34682,7 +34591,7 @@ export const profile: Profile = {
 					unlocktime: 1632270174,
 					name: 'Blinding flash',
 					description: 'Have 100 prisms.',
-					percent: 39.9,
+					percent: 40,
 					icon: '3222a04e87e6f4e67b5225cd801801f312b50bec.jpg',
 					icongray: '98d03dc3ffe5bf77d180ab7b0b6b30dab9400ede.jpg',
 					hidden: 0
@@ -34869,7 +34778,7 @@ export const profile: Profile = {
 					unlocktime: 1632277767,
 					name: 'Spacetime jigamaroo',
 					description: 'Make 100 sextillion cookies just from time machines.',
-					percent: 38.8,
+					percent: 38.9,
 					icon: 'ee3ee39c475cf048e08db11c4104eef1a9766c3c.jpg',
 					icongray: 'be0b979179950d3e4ab412ad307565e8abd9baa6.jpg',
 					hidden: 0
@@ -34902,7 +34811,7 @@ export const profile: Profile = {
 					unlocktime: 1631586754,
 					name: 'Clickageddon',
 					description: 'Make 10 trillion cookies from clicking.',
-					percent: 55.3,
+					percent: 55.4,
 					icon: '405dcf8571a9ba2313d9734933a3a0950b80383e.jpg',
 					icongray: 'd5724518d9fec16fdeef63cef9ffae54253f01d8.jpg',
 					hidden: 0
@@ -35001,7 +34910,7 @@ export const profile: Profile = {
 					unlocktime: 1632271359,
 					name: 'The secrets of the universe',
 					description: 'Have 200 alchemy labs.',
-					percent: 39.2,
+					percent: 39.3,
 					icon: 'f937a22884552e17efd2fb9c2063eda20bfd7092.jpg',
 					icongray: '9c6111b7171e6322e959c114f647d9ddd178bb81.jpg',
 					hidden: 0
@@ -35012,7 +34921,7 @@ export const profile: Profile = {
 					unlocktime: 1632352028,
 					name: 'Realm of the Mad God',
 					description: 'Have 200 portals.',
-					percent: 39,
+					percent: 39.1,
 					icon: '4a3e735d16c4a3a4dbeef577d46b26aecb42cd8d.jpg',
 					icongray: '5637ea1153e3869450afa6af1a40740d41011851.jpg',
 					hidden: 0
@@ -35045,7 +34954,7 @@ export const profile: Profile = {
 					unlocktime: 1632414153,
 					name: 'Rise and shine',
 					description: 'Have 200 prisms.',
-					percent: 38.5,
+					percent: 38.6,
 					icon: '10ecc4fb7fd6907c58858dad3f99cf2bde33e47e.jpg',
 					icongray: 'be536620158c6088b17cf0e58d2fabd1ce097939.jpg',
 					hidden: 0
@@ -35397,7 +35306,7 @@ export const profile: Profile = {
 					unlocktime: 1632407844,
 					name: 'Quarry on',
 					description: 'Make 10 sextillion cookies just from mines.',
-					percent: 38.2,
+					percent: 38.3,
 					icon: '0e614e66451f05f9bdae10184b23533bda528a68.jpg',
 					icongray: '4c59fe7120cfa70f439b5378d79b60ff964ed28f.jpg',
 					hidden: 0
@@ -35485,7 +35394,7 @@ export const profile: Profile = {
 					unlocktime: 1632522518,
 					name: 'Be kind, rewind',
 					description: 'Make 1 nonillion cookies just from time machines.',
-					percent: 37.6,
+					percent: 37.7,
 					icon: '8ae9f885210a3b9ccca3e6fb7ee05777eaaf98d1.jpg',
 					icongray: 'f0e9a2d61f84b2bdb6c29cd3309c927e26ba0013.jpg',
 					hidden: 0
@@ -35661,7 +35570,7 @@ export const profile: Profile = {
 					unlocktime: 1632414183,
 					name: 'A place lost in time',
 					description: 'Have 250 portals.',
-					percent: 38.4,
+					percent: 38.5,
 					icon: '9fe63ca88feaa90eafbb1361aeba2ba8a569ed74.jpg',
 					icongray: 'b56035736934ec3736966d1237348faab0722530.jpg',
 					hidden: 0
@@ -35771,7 +35680,7 @@ export const profile: Profile = {
 					unlocktime: 1632522197,
 					name: "We're gonna need a bigger bakery",
 					description: 'Bake 1 decillion cookies in one ascension.',
-					percent: 38.1,
+					percent: 38.2,
 					icon: 'e6ee829c9c46d9a9cb695cfa0839d45cc608fa9a.jpg',
 					icongray: 'b4dd27b903c1d6d3888d6dd1dba21618464d2c44.jpg',
 					hidden: 0
@@ -35815,7 +35724,7 @@ export const profile: Profile = {
 					unlocktime: 1631838461,
 					name: 'When this baby hits 36 quadrillion cookies per hour',
 					description: 'Bake 10 trillion cookies per second.',
-					percent: 43.3,
+					percent: 43.4,
 					icon: 'bf2eac0d4d6152cee4841df22db8cfb1171b5b56.jpg',
 					icongray: '63ebd84c671a8579a9dce31864bb7e196f40e2de.jpg',
 					hidden: 0
@@ -35859,7 +35768,7 @@ export const profile: Profile = {
 					unlocktime: 1632269419,
 					name: 'Turbopuns',
 					description: 'Bake 1 quintillion cookies per second.',
-					percent: 39.8,
+					percent: 39.9,
 					icon: '1574940ba494d5cc968b09328b6ec9358e0548fa.jpg',
 					icongray: '72f22a31bfc707c4748049da7bd0bd3a8a5b0d3c.jpg',
 					hidden: 0
@@ -35881,7 +35790,7 @@ export const profile: Profile = {
 					unlocktime: 1632270485,
 					name: "And yet you're still hungry",
 					description: 'Bake 100 quintillion cookies per second.',
-					percent: 39.3,
+					percent: 39.4,
 					icon: 'ee15ef6152a7cdc24816967c82f21cf72a6f9ff8.jpg',
 					icongray: '6edc007682a653d503a85277bbe4be502ef53133.jpg',
 					hidden: 0
@@ -35903,7 +35812,7 @@ export const profile: Profile = {
 					unlocktime: 1632272873,
 					name: "There's really no hard limit to how long these achievement names can be and to be quite honest I'm rather curious to see how far we can go. Adolphus W. Green (18441917) started as the Principal of the Groton School in 1864. By 1865, he became second assistant librarian at the New York Mercantile Library; from 1867 to 1869, he was promoted to full librarian. From 1869 to 1873, he worked for Evarts, Southmayd & Choate, a law firm co-founded by William M. Evarts, Charles Ferdinand Southmayd and Joseph Hodges Choate. He was admitted to the New York State Bar Association in 1873. Anyway, how's your day been?",
 					description: 'Bake 10 sextillion cookies per second.',
-					percent: 38.9,
+					percent: 39,
 					icon: 'a83ac054b110ec4e0404248373ca4d6493824116.jpg',
 					icongray: '569b91bdcbbe411baacf725e19567fa8fa031c2c.jpg',
 					hidden: 0
@@ -36068,7 +35977,7 @@ export const profile: Profile = {
 					unlocktime: 1632414193,
 					name: "And now for my next trick, I'll need a volunteer from the audience",
 					description: 'Have 300 wizard towers.',
-					percent: 38.5,
+					percent: 38.6,
 					icon: '681b51156502ce3b54c1d4af828b10a701eb9d64.jpg',
 					icongray: 'd15f0ced901f8eb0b2d3dfc6bca3051bcc4e7f82.jpg',
 					hidden: 0
@@ -36123,7 +36032,7 @@ export const profile: Profile = {
 					unlocktime: 1632522238,
 					name: 'Scientists baffled everywhere',
 					description: 'Have 300 antimatter condensers.',
-					percent: 37.7,
+					percent: 37.8,
 					icon: 'b53f0dd1fdd43778c35296e34e21c4122fe42c7a.jpg',
 					icongray: 'd967f7b84edd69d8c9574c2283398c18ca6b83d1.jpg',
 					hidden: 0
@@ -36310,7 +36219,7 @@ export const profile: Profile = {
 					unlocktime: 1632780417,
 					name: "The dreams in which I'm baking are the best I've ever had",
 					description: 'Bake 100 undecillion cookies in one ascension.',
-					percent: 37.3,
+					percent: 37.4,
 					icon: '8709b5846ccf8a925779bc8284949c80840cc55b.jpg',
 					icongray: '1e84bc03d3ab2b65e7fb73d89ecd290aabb92343.jpg',
 					hidden: 0
@@ -36398,7 +36307,7 @@ export const profile: Profile = {
 					unlocktime: 1632533709,
 					name: 'Make it so',
 					description: 'Have 350 shipments.',
-					percent: 37.8,
+					percent: 37.9,
 					icon: 'd5f0c5ad8f224b2b3eb527b98f02f36ffbb5d9c5.jpg',
 					icongray: '905ff4c90ab526bb17a6de3cd379b1f9db152a12.jpg',
 					hidden: 0
@@ -36431,7 +36340,7 @@ export const profile: Profile = {
 					unlocktime: 1632772453,
 					name: 'Way back then',
 					description: 'Have 350 time machines.',
-					percent: 37.3,
+					percent: 37.4,
 					icon: '98db2ffae15cf828e22b5cbdf9d84ebc2b136c2f.jpg',
 					icongray: '4bc5a81d8b18fe64b46e22db3360f9b47e8ea107.jpg',
 					hidden: 0
@@ -36464,7 +36373,7 @@ export const profile: Profile = {
 					unlocktime: 1632523277,
 					name: 'Click (starring Adam Sandler)',
 					description: 'Make 1 decillion cookies just from cursors.',
-					percent: 37.6,
+					percent: 37.7,
 					icon: 'a5f2a5c2db87e2418b1118b4fb4d82779fe83ae3.jpg',
 					icongray: '5a9005f1cdb806c7bc356621c947eea126027a6d.jpg',
 					hidden: 0
@@ -36607,7 +36516,7 @@ export const profile: Profile = {
 					unlocktime: 1632798670,
 					name: 'Now the dark days are gone',
 					description: 'Make 1 duodecillion cookies just from prisms.',
-					percent: 36,
+					percent: 36.1,
 					icon: 'ba0d4f2ae6764f91e243aba7a76a2ffe5c327559.jpg',
 					icongray: '1e526f1af696a0b646667aa23c3bf068d6bffc72.jpg',
 					hidden: 0
@@ -36651,7 +36560,7 @@ export const profile: Profile = {
 					unlocktime: 1659653157,
 					name: 'It belongs in a bakery',
 					description: 'Reach level 10 temples.',
-					percent: 18.2,
+					percent: 18.3,
 					icon: '7e048f814a6fdae70c6f79aa47c848c53b4d40ce.jpg',
 					icongray: '76f62befa33e15d9d6a49b1844778b650cc73720.jpg',
 					hidden: 0
@@ -36706,7 +36615,7 @@ export const profile: Profile = {
 					unlocktime: 1632270509,
 					name: 'Grandma needs a new pair of shoes',
 					description: 'Have 100 chancemakers.',
-					percent: 39.4,
+					percent: 39.5,
 					icon: '3672fbd16fecef30c1f056ebceefea08357bbb06.jpg',
 					icongray: 'fcb7f4f9436423e269f4a8cb40c17446f5aea962.jpg',
 					hidden: 0
@@ -36717,7 +36626,7 @@ export const profile: Profile = {
 					unlocktime: 1632414141,
 					name: 'Million to one shot, doc',
 					description: 'Have 150 chancemakers.',
-					percent: 38.6,
+					percent: 38.7,
 					icon: 'f5bc4e30b708c40d279061befe461553d40f0597.jpg',
 					icongray: 'ca26756d6bab75d68867723f257f801e616b6a77.jpg',
 					hidden: 0
@@ -36915,7 +36824,7 @@ export const profile: Profile = {
 					unlocktime: 1632774196,
 					name: "That's just peanuts to space",
 					description: 'Have 400 shipments.',
-					percent: 37.4,
+					percent: 37.5,
 					icon: '8c73b411b12dd7ceaa16ca9dc6aaf59e7aa31d46.jpg',
 					icongray: '8e4734c3ad6138e4700dd355ecf1ec4935323e72.jpg',
 					hidden: 0
@@ -36948,7 +36857,7 @@ export const profile: Profile = {
 					unlocktime: 1632786177,
 					name: "Invited to yesterday's party",
 					description: 'Have 400 time machines.',
-					percent: 36.8,
+					percent: 36.9,
 					icon: 'ebe5eda50f34ef2672d06733a456ac3c37a9e066.jpg',
 					icongray: '96f1301a75aca71f6142923bf628d162818cf37f.jpg',
 					hidden: 0
@@ -37003,7 +36912,7 @@ export const profile: Profile = {
 					unlocktime: 1632538036,
 					name: 'Cave story',
 					description: 'Have 450 mines.',
-					percent: 37.7,
+					percent: 37.8,
 					icon: '992dc77d803fea6c3a944d12b944026ba8ca85e3.jpg',
 					icongray: '345f06a261bb7f0b5ccf284934dc971d36df3456.jpg',
 					hidden: 0
@@ -37047,7 +36956,7 @@ export const profile: Profile = {
 					unlocktime: 1632777923,
 					name: 'Spell it out for you',
 					description: 'Have 450 wizard towers.',
-					percent: 37,
+					percent: 37.1,
 					icon: 'ca5bfc7886f8efd234da0d2210ab1c201c353268.jpg',
 					icongray: 'dfdd021a73ac95dab2183a9674e3a64c5584c3fd.jpg',
 					hidden: 0
@@ -37190,7 +37099,7 @@ export const profile: Profile = {
 					unlocktime: 1632834992,
 					name: 'Bursting at the seams',
 					description: 'Bake 1 tredecillion cookies in one ascension.',
-					percent: 36.4,
+					percent: 36.5,
 					icon: '987c8f9937559210f68c2eb8b2407261e43b2253.jpg',
 					icongray: '52a981d82addac71b945b4a1fc00cd00bddc5013.jpg',
 					hidden: 0
@@ -37256,7 +37165,7 @@ export const profile: Profile = {
 					unlocktime: 1660592208,
 					name: 'Green, aching thumb',
 					description: 'Harvest 1,000 mature garden plants.',
-					percent: 8.2,
+					percent: 8.3,
 					icon: 'beabf58350b6c459f3ce185a4b40f55b5cf27a85.jpg',
 					icongray: '5cf8966fd07981cac124db582def0cb6c2cdf099.jpg',
 					hidden: 0
@@ -37377,7 +37286,7 @@ export const profile: Profile = {
 					unlocktime: 1633617288,
 					name: 'Tricentennial and a half',
 					description: 'Have at least 350 of everything.',
-					percent: 33.9,
+					percent: 34,
 					icon: '5b2f5c315b34ddc31ceb7f7d4261b6919bcd1e63.jpg',
 					icongray: 'e62aebec1d4310bb578c3005ff348a331b36f78e.jpg',
 					hidden: 0
@@ -37432,7 +37341,7 @@ export const profile: Profile = {
 					unlocktime: 1632785721,
 					name: "But wait 'til you get older",
 					description: 'Have 550 grandmas.',
-					percent: 37.2,
+					percent: 37.3,
 					icon: 'c3737735264fde523b08430acb2c84f2183c452e.jpg',
 					icongray: 'd46f7c965406a134d1eeda59343b440e8c3aed52.jpg',
 					hidden: 0
@@ -37476,7 +37385,7 @@ export const profile: Profile = {
 					unlocktime: 1632785529,
 					name: 'Get the show on, get paid',
 					description: 'Have 500 banks.',
-					percent: 37,
+					percent: 37.1,
 					icon: 'd832e215bdd4391c2e129963c3bd1f36788ec338.jpg',
 					icongray: 'd1f61f50eaa2fa49f289101910fa809160b5cd0f.jpg',
 					hidden: 0
@@ -37531,7 +37440,7 @@ export const profile: Profile = {
 					unlocktime: 1632876099,
 					name: 'Your brain gets smart but your head gets dumb',
 					description: 'Have 500 portals.',
-					percent: 35.4,
+					percent: 35.5,
 					icon: 'ef3fa022e230ba78da5cf1528ca38c8ac08997c3.jpg',
 					icongray: 'd95ec073d382af21e77a1778c509ce1721ee731c.jpg',
 					hidden: 0
@@ -37575,7 +37484,7 @@ export const profile: Profile = {
 					unlocktime: 1634220178,
 					name: "You'll never know if you don't go",
 					description: 'Have 500 chancemakers.',
-					percent: 32.7,
+					percent: 32.8,
 					icon: '1531b9e9f5036b68173cc875dcaa37fa5c00a924.jpg',
 					icongray: 'a51dad23582493124721235a9e028c9606a343bf.jpg',
 					hidden: 0
@@ -37652,7 +37561,7 @@ export const profile: Profile = {
 					unlocktime: 1632785139,
 					name: 'Out of one, many',
 					description: 'Have 300 fractal engines.',
-					percent: 37.2,
+					percent: 37.3,
 					icon: '6f486049cafe2f75046c8767351c75fa88e66985.jpg',
 					icongray: 'c77c2cf400f22aedae42c8a660686329df860b34.jpg',
 					hidden: 0
@@ -37740,7 +37649,7 @@ export const profile: Profile = {
 					unlocktime: 1641436690,
 					name: 'Sierpinski rhomboids',
 					description: 'Reach level 10 fractal engines.',
-					percent: 14,
+					percent: 14.1,
 					icon: 'ad7e088e77f44c6f53445799d3a335237b16125b.jpg',
 					icongray: '2eea92bb38e349fb550ec2cfbb111a597d6d42f8.jpg',
 					hidden: 0
@@ -37751,7 +37660,7 @@ export const profile: Profile = {
 					unlocktime: 1632876131,
 					name: 'Gotta go fast',
 					description: 'Bake 100 undecillion cookies per second.',
-					percent: 35.7,
+					percent: 35.8,
 					icon: '6ba0221096610e0502d77e339ee704ea5f648625.jpg',
 					icongray: '0dbd7837d529ca68be3b0e6c6012de04afa9ab72.jpg',
 					hidden: 0
@@ -37784,7 +37693,7 @@ export const profile: Profile = {
 					unlocktime: 1632174316,
 					name: 'Veteran',
 					description: 'Own at least 14 grandma types.',
-					percent: 41.1,
+					percent: 41.2,
 					icon: '7bb0b24b50b24d3b41034a9e916dadaaa1155fa2.jpg',
 					icongray: '801966472997262548a3ccf842313554b43e7f5f.jpg',
 					hidden: 0
@@ -38037,7 +37946,7 @@ export const profile: Profile = {
 					unlocktime: 1660079519,
 					name: "If at first you don't succeed",
 					description: 'Ascend with 1 septendecillion cookies baked.',
-					percent: 25.3,
+					percent: 25.4,
 					icon: '17a03827e345b0dd819b0d827b8e0bd8d6d86e03.jpg',
 					icongray: '7f9b8c766a123946f723c8d746ef6df415f2f9f9.jpg',
 					hidden: 0
@@ -38048,7 +37957,7 @@ export const profile: Profile = {
 					unlocktime: 1634494938,
 					name: 'O Fortuna',
 					description: 'Own every fortune upgrade.',
-					percent: 15.7,
+					percent: 15.8,
 					icon: '232b5f17c0e2ba5a414082133ab7572239c8954c.jpg',
 					icongray: 'c901242de99f0d37ad4b05518942b6fa1cc27a5f.jpg',
 					hidden: 0
@@ -38092,7 +38001,7 @@ export const profile: Profile = {
 					unlocktime: 1659841602,
 					name: 'Full warehouses',
 					description: 'Own at least 1,000 of a stock market good.',
-					percent: 13.5,
+					percent: 13.6,
 					icon: 'f68657005ac5a9c0fac71a218e6025c60a7bf2b8.jpg',
 					icongray: '2258129b40d1f7bbe12212a474af4457339a0ac2.jpg',
 					hidden: 0
@@ -38114,7 +38023,7 @@ export const profile: Profile = {
 					unlocktime: 1659818187,
 					name: 'Buy buy buy',
 					description: 'Spend a day of CpS ($86,400) in 1 stock market purchase.',
-					percent: 12.9,
+					percent: 13,
 					icon: 'e7268f3d82ae4bd0aebcba9d34e63887fd2cb25f.jpg',
 					icongray: '6d947ab2f7ac7e3238d9629577ade90447367835.jpg',
 					hidden: 0
@@ -38147,7 +38056,7 @@ export const profile: Profile = {
 					unlocktime: 1634487687,
 					name: 'What did we even eat before these',
 					description: 'Bake 10 tredecillion cookies per second.',
-					percent: 32.6,
+					percent: 32.7,
 					icon: '6cc2c6883dd21fbe14fe26d0e4b73d63f0580c07.jpg',
 					icongray: '1d88a6ae3afc2469173d71357291051d38d8930b.jpg',
 					hidden: 0
@@ -38158,7 +38067,7 @@ export const profile: Profile = {
 					unlocktime: 1634572614,
 					name: 'Heavy flow',
 					description: 'Bake 100 tredecillion cookies per second.',
-					percent: 31.6,
+					percent: 31.7,
 					icon: '83b02d6e4abfec1a8d4c9d5024d90fe61ae331b7.jpg',
 					icongray: '74e160cdfd3f34cca5bfc83efabcd51bb395ecd4.jpg',
 					hidden: 0
@@ -38169,7 +38078,7 @@ export const profile: Profile = {
 					unlocktime: 1650161309,
 					name: 'More you say?',
 					description: 'Bake 1 quattuordecillion cookies per second.',
-					percent: 30.6,
+					percent: 30.7,
 					icon: 'a01a7a31fb1a87d788f21b0868825cd4b4c97ad8.jpg',
 					icongray: 'c625ce317eb10f46d8e53e4ba81d5259048210f5.jpg',
 					hidden: 0
@@ -38224,7 +38133,7 @@ export const profile: Profile = {
 					unlocktime: 1633617465,
 					name: 'Gotta hand it to you',
 					description: 'Have 700 cursors.',
-					percent: 35.3,
+					percent: 35.4,
 					icon: '5408e321e98a316327c033e152129a3aa09c5d36.jpg',
 					icongray: '4e3513730ad1d8370ab98a8dfabd412e3ea6529a.jpg',
 					hidden: 0
@@ -38235,7 +38144,7 @@ export const profile: Profile = {
 					unlocktime: 1632798321,
 					name: 'Okay boomer',
 					description: 'Have 600 grandmas.',
-					percent: 36.7,
+					percent: 36.8,
 					icon: '35d77075c5dafec35786ff6b14d1823c31526c28.jpg',
 					icongray: 'ea784e27edf3ada9a6c8d4d4cb532e2e7690ad5b.jpg',
 					hidden: 0
@@ -38246,7 +38155,7 @@ export const profile: Profile = {
 					unlocktime: 1632785875,
 					name: 'Overripe',
 					description: 'Have 550 farms.',
-					percent: 36.8,
+					percent: 36.9,
 					icon: 'e0e395c6152464da4c8fe33dcc5d6df984af1a24.jpg',
 					icongray: '7361467fd4047756579f553618c6ac890ccba763.jpg',
 					hidden: 0
@@ -38268,7 +38177,7 @@ export const profile: Profile = {
 					unlocktime: 1632798497,
 					name: 'Self-manmade man',
 					description: 'Have 550 factories.',
-					percent: 36.3,
+					percent: 36.4,
 					icon: '5fd9accd7544e5ade34ffad86cc63112f7379b3f.jpg',
 					icongray: '9d89317e07ed8d02a4cb3a65765e821de5e4982e.jpg',
 					hidden: 0
@@ -38312,7 +38221,7 @@ export const profile: Profile = {
 					unlocktime: 1633798525,
 					name: 'The incredible journey',
 					description: 'Have 550 shipments.',
-					percent: 34.5,
+					percent: 34.6,
 					icon: '5a5cc18f1a3e858b36e5bd2230b2e17e8ecfd934.jpg',
 					icongray: '068773f66ccae2e4c2a6008da75b7af2c4b59f16.jpg',
 					hidden: 0
@@ -38378,7 +38287,7 @@ export const profile: Profile = {
 					unlocktime: 1634487785,
 					name: 'Tempting fate',
 					description: 'Have 550 chancemakers.',
-					percent: 28.4,
+					percent: 28.5,
 					icon: '81e508bb943fd163322c18d803c5379c4fdb4ed0.jpg',
 					icongray: 'dcd8dd68c3ac82b827f8a654a21cb0b4f84fdaaf.jpg',
 					hidden: 0
@@ -38400,7 +38309,7 @@ export const profile: Profile = {
 					unlocktime: 1660004324,
 					name: 'Curly braces',
 					description: 'Have 550 javascript consoles.',
-					percent: 22.5,
+					percent: 22.6,
 					icon: '28619201b9422e5eb88b6a97cec8ee666fbf3edc.jpg',
 					icongray: '752a1b703f4115d50f5620a61ebcd771a842f5e0.jpg',
 					hidden: 0
@@ -38488,7 +38397,7 @@ export const profile: Profile = {
 					unlocktime: 1633624159,
 					name: 'Magic thinking',
 					description: 'Have 600 wizard towers.',
-					percent: 33.8,
+					percent: 33.9,
 					icon: '5ab8850e87c2e3e8195a1a53fc4d6bb93719495e.jpg',
 					icongray: '0cd717fc2d2631a9e0532aae0c5942ada33c82bb.jpg',
 					hidden: 0
@@ -38554,7 +38463,7 @@ export const profile: Profile = {
 					unlocktime: 1659841659,
 					name: 'Making light of the situation',
 					description: 'Have 600 prisms.',
-					percent: 26.3,
+					percent: 26.4,
 					icon: '6dd855412e17f05b56b5ef98deae352517c22cc5.jpg',
 					icongray: '712e15dd4049880161695e01733db2e078c63cfb.jpg',
 					hidden: 0
@@ -38576,7 +38485,7 @@ export const profile: Profile = {
 					unlocktime: 1660341862,
 					name: 'In and of itself',
 					description: 'Have 600 fractal engines.',
-					percent: 22.2,
+					percent: 22.3,
 					icon: '40366211c63bdde8897d08a7c7b952107a54b810.jpg',
 					icongray: '3b9f2bc21f7139fb9aab1fadb9893bffb942aa34.jpg',
 					hidden: 0
@@ -38620,7 +38529,7 @@ export const profile: Profile = {
 					unlocktime: 1632359148,
 					name: 'Ripe for the picking',
 					description: 'Have 100 idleverses.',
-					percent: 38.4,
+					percent: 38.5,
 					icon: 'a2467f91cae1150c070e6dfdb69b492ae437846c.jpg',
 					icongray: '8f6ceb2ffda5ec729f6e3d1b573016af0620d13d.jpg',
 					hidden: 0
@@ -38763,7 +38672,7 @@ export const profile: Profile = {
 					unlocktime: 1633441773,
 					name: 'Earth-616',
 					description: 'Make 10 tredecillion cookies just from idleverses.',
-					percent: 34.6,
+					percent: 34.7,
 					icon: '28acd55b03ce381a1284ab60869f4854ac2faaa5.jpg',
 					icongray: 'b42b0c1387aaf71efed69cab35f7fa48ff82ed82.jpg',
 					hidden: 0
@@ -38796,7 +38705,7 @@ export const profile: Profile = {
 					unlocktime: 1632798313,
 					name: 'Ecumenopolis',
 					description: 'Own 7,500 buildings.',
-					percent: 36.8,
+					percent: 36.9,
 					icon: '06b4679c7acb78e0a46a3579a4d9fe50910d94f8.jpg',
 					icongray: 'a8dd8ec4fa9a40f76522b2220870cb62b463a98d.jpg',
 					hidden: 0
@@ -38983,7 +38892,7 @@ export const profile: Profile = {
 					unlocktime: 1662849148,
 					name: 'So much to do so much to see',
 					description: '',
-					percent: 34.6,
+					percent: 34.7,
 					icon: 'a4b8c600f12edabea1c4aca08d5892056a4108ac.jpg',
 					icongray: '8c1dc277e61c7f3b02eff8213a9da58e3bcdb4a8.jpg',
 					hidden: 1
@@ -39082,7 +38991,7 @@ export const profile: Profile = {
 					unlocktime: 1654218960,
 					name: 'The 10% myth',
 					description: 'Have 350 cortex bakers.',
-					percent: 30.8,
+					percent: 30.9,
 					icon: '37c6ee1b8703f6f8b72999a2f03faf69c12fc894.jpg',
 					icongray: '617da1ceef837dbc276aec2c72f6eb33fd515284.jpg',
 					hidden: 0
@@ -39093,7 +39002,7 @@ export const profile: Profile = {
 					unlocktime: 1654218960,
 					name: "Don't think about it too hard",
 					description: 'Have 400 cortex bakers.',
-					percent: 29.4,
+					percent: 29.5,
 					icon: '43524a6be00d89e9a30ca24e89eb223faac8632f.jpg',
 					icongray: '10f01b85cedbf3aad03291392959306b9774cac0.jpg',
 					hidden: 0
@@ -39104,7 +39013,7 @@ export const profile: Profile = {
 					unlocktime: 1659653190,
 					name: 'Though fools seldom differ',
 					description: 'Have 450 cortex bakers.',
-					percent: 25.3,
+					percent: 25.4,
 					icon: '5076132224e58f6049b0b39d4b84ae96654b978c.jpg',
 					icongray: '85cdb13adc1bbe1575f0af083dbab783b648d14a.jpg',
 					hidden: 0
@@ -39148,7 +39057,7 @@ export const profile: Profile = {
 					unlocktime: 1654218929,
 					name: 'Positive thinking',
 					description: 'Make 1 nonillion cookies just from cortex bakers.',
-					percent: 33.4,
+					percent: 33.5,
 					icon: '852b958dab44373f04794d28530270cc02471548.jpg',
 					icongray: '6e51cddde405eb70a4ea953b998017c80169eb95.jpg',
 					hidden: 0
@@ -39192,7 +39101,7 @@ export const profile: Profile = {
 					unlocktime: 1654218864,
 					name: 'They moistly come at night',
 					description: 'Have 650 grandmas.',
-					percent: 32.1,
+					percent: 32.2,
 					icon: '923502f832536391f673ff57e5a29796e9c0a997.jpg',
 					icongray: '580a07da2e3d8d66a3972f368d146fe08eddfc8a.jpg',
 					hidden: 0
@@ -39203,7 +39112,7 @@ export const profile: Profile = {
 					unlocktime: 1654218865,
 					name: "It's grown on you",
 					description: 'Have 650 farms.',
-					percent: 31.6,
+					percent: 31.7,
 					icon: '9ef09a45df0d232fb416b6ab4ab02b215e4738b1.jpg',
 					icongray: 'f16788201e033294998cdf78bf18bf40e7c1aa3f.jpg',
 					hidden: 0
@@ -39225,7 +39134,7 @@ export const profile: Profile = {
 					unlocktime: 1659653216,
 					name: 'Replaced by robots',
 					description: 'Have 650 factories.',
-					percent: 30.7,
+					percent: 30.8,
 					icon: 'b5f0c75527546efc3a4367a6a497b2205e8c7648.jpg',
 					icongray: 'd6add21e638fba946948a6a7c2e56e525cf5f4ce.jpg',
 					hidden: 0
@@ -39280,7 +39189,7 @@ export const profile: Profile = {
 					unlocktime: 1659728014,
 					name: 'Metallic taste',
 					description: 'Have 650 alchemy labs.',
-					percent: 25.8,
+					percent: 25.9,
 					icon: 'e399a14ca5868abd1a30d706e9e9e421b798a874.jpg',
 					icongray: '806321a00e36bf923110b22cb1b6a1b32eca4030.jpg',
 					hidden: 0
@@ -39302,7 +39211,7 @@ export const profile: Profile = {
 					unlocktime: 1660079104,
 					name: 'But the future refused to change',
 					description: 'Have 650 time machines.',
-					percent: 21.9,
+					percent: 22,
 					icon: '3ccd4d5d5d9a30b06a9bb32fb035c35b5a93b6a4.jpg',
 					icongray: 'f2a0f4c1549b06366095a4de7d4898505b61f96d.jpg',
 					hidden: 0
@@ -39324,7 +39233,7 @@ export const profile: Profile = {
 					unlocktime: 1660664299,
 					name: 'Enlightenment',
 					description: 'Have 650 prisms.',
-					percent: 17.5,
+					percent: 17.6,
 					icon: '76d81c65c473be16373fd3c628aeaeb2761d64f6.jpg',
 					icongray: '1379c71d7b80e31d24caffcf218edf8a017c48c6.jpg',
 					hidden: 0
@@ -39445,7 +39354,7 @@ export const profile: Profile = {
 					unlocktime: 1659653176,
 					name: 'Beyond quality',
 					description: 'Purchase 600 upgrades.',
-					percent: 22.7,
+					percent: 22.8,
 					icon: '0c18424676f8f2aff2a17ad1524554e1b980e7f5.jpg',
 					icongray: '690020b33b3c54f5400a72918e0ad11da7ed5e07.jpg',
 					hidden: 0
@@ -39489,7 +39398,7 @@ export const profile: Profile = {
 					unlocktime: 1685060744,
 					name: 'My own clone',
 					description: 'Have 1 You.',
-					percent: 29.6,
+					percent: 29.7,
 					icon: 'ffd6a5fbff5bbf6a9b9590d0bc67044e2a6f8d89.jpg',
 					icongray: '1e42d5f80aed85d22ab8f1b7bcb6c66f466cf87b.jpg',
 					hidden: 0
@@ -39511,7 +39420,7 @@ export const profile: Profile = {
 					unlocktime: 1685060744,
 					name: 'Born for this job',
 					description: 'Have 100 You.',
-					percent: 28.9,
+					percent: 29,
 					icon: '0cf552ad13a7b1f884fd8368c84854a8adf944cf.jpg',
 					icongray: '50679e719ed1730151995e23402d56311ed3c459.jpg',
 					hidden: 0
@@ -39544,7 +39453,7 @@ export const profile: Profile = {
 					unlocktime: 1685060751,
 					name: 'Life finds a way',
 					description: 'Have 250 You.',
-					percent: 28.1,
+					percent: 28.2,
 					icon: '1dac6adf6fcd7538bd17a6b496fc7e9ce380ef6f.jpg',
 					icongray: 'c2d0037107b9e835efa5c8bf1b73123dc14114ef.jpg',
 					hidden: 0
@@ -39566,7 +39475,7 @@ export const profile: Profile = {
 					unlocktime: 1685060754,
 					name: 'Strength in numbers',
 					description: 'Have 350 You.',
-					percent: 26.5,
+					percent: 26.6,
 					icon: '275df9ef4f734a3ebe7c2749fbe387f1ad8bf4f1.jpg',
 					icongray: '22db5258d8c931f06532757645804f30a37e5701.jpg',
 					hidden: 0
@@ -39599,7 +39508,7 @@ export const profile: Profile = {
 					unlocktime: 1685060755,
 					name: "Didn't make sense not to live",
 					description: 'Have 500 You.',
-					percent: 13.6,
+					percent: 13.7,
 					icon: '3e94a6d00f0667240580b96a7416a0946583bd1b.jpg',
 					icongray: 'b071865982382567b12c8e10f6850276bd534e89.jpg',
 					hidden: 0
@@ -39621,7 +39530,7 @@ export const profile: Profile = {
 					unlocktime: 1685060748,
 					name: 'Self-made',
 					description: 'Make 10 nonillion cookies just from You.',
-					percent: 29,
+					percent: 29.1,
 					icon: 'ee850755c8a0c191967e09adbd03a54d87e58cf8.jpg',
 					icongray: '83ab7398cae5fa1267864f90a9bbc34f9700924c.jpg',
 					hidden: 0
@@ -39819,7 +39728,7 @@ export const profile: Profile = {
 					unlocktime: 1685060668,
 					name: 'Divide and conquer',
 					description: 'Have 700 fractal engines.',
-					percent: 8.9,
+					percent: 9,
 					icon: '5f8b6af4105df46ae6c8080238a99de5204e5758.jpg',
 					icongray: 'a2e09fca4374a8a0b97598e9d3bdc7a4adabe2d1.jpg',
 					hidden: 0
@@ -39852,7 +39761,7 @@ export const profile: Profile = {
 					unlocktime: 1685060668,
 					name: "What's not clicking",
 					description: 'Make 10 nonillion cookies from clicking.',
-					percent: 28.8,
+					percent: 28.9,
 					icon: 'a8194748779393582ecdeecc4252b510aa35f589.jpg',
 					icongray: '3ef4ed95bf21d3d2de728827aa3b0dabacb2bad9.jpg',
 					hidden: 0
@@ -39906,7 +39815,7 @@ export const profile: Profile = {
 					unlocktime: 1643163571,
 					name: 'Big Leaf Crunch',
 					description: 'SO. MANY. LEAVES.',
-					percent: 40.2,
+					percent: 40.3,
 					icon: 'a24ff9c09a601bd15a19ede0081247c90ac55757.jpg',
 					icongray: '5247f0e66f585d4766426b88393b6f0a6a8939a5.jpg',
 					hidden: 0
@@ -39950,7 +39859,7 @@ export const profile: Profile = {
 					unlocktime: 1642978488,
 					name: 'Red Flasks',
 					description: 'Make science with leaves.',
-					percent: 52.9,
+					percent: 53,
 					icon: '9d0c63ef700e561d0b0e5d4eee4560c359f2715c.jpg',
 					icongray: 'c35871a784e40e4c464f787739531f33cc77ed78.jpg',
 					hidden: 0
@@ -39972,7 +39881,7 @@ export const profile: Profile = {
 					unlocktime: 1642978849,
 					name: 'Blue Flasks',
 					description: 'You have researched RGB science.',
-					percent: 51.4,
+					percent: 51.5,
 					icon: 'e499fec631521f7f5272ee25ea875b9ad11ee855.jpg',
 					icongray: 'c35871a784e40e4c464f787739531f33cc77ed78.jpg',
 					hidden: 0
@@ -39983,7 +39892,7 @@ export const profile: Profile = {
 					unlocktime: 1642979075,
 					name: 'Magenta Flasks',
 					description: 'They look SO cool.',
-					percent: 50.1,
+					percent: 50.2,
 					icon: 'a546d5c39d5131412ffd6ee8d8d388473a92ea66.jpg',
 					icongray: 'c35871a784e40e4c464f787739531f33cc77ed78.jpg',
 					hidden: 0
@@ -39994,7 +39903,7 @@ export const profile: Profile = {
 					unlocktime: 1642979240,
 					name: 'Orange Flasks',
 					description: 'Where do you store all the flasks?',
-					percent: 48.7,
+					percent: 48.8,
 					icon: 'b53cef89a9c38245773c2a0733b375b34454e2a4.jpg',
 					icongray: 'c35871a784e40e4c464f787739531f33cc77ed78.jpg',
 					hidden: 0
@@ -40093,7 +40002,7 @@ export const profile: Profile = {
 					unlocktime: 1649898566,
 					name: 'Ghost Leaf',
 					description: 'Did you know can blow away Ghosts in Space with a fish?',
-					percent: 8.6,
+					percent: 8.7,
 					icon: '9d7dc3218a512df7ecbdd41634974e1631a0d956.jpg',
 					icongray: '6254b5fa480add172d31d37635bd216ac1604e6c.jpg',
 					hidden: 0
@@ -40126,7 +40035,7 @@ export const profile: Profile = {
 					unlocktime: 1649898674,
 					name: 'Rainbow Leaf',
 					description: 'A physical device may help you to reach the sky.',
-					percent: 9.5,
+					percent: 9.6,
 					icon: 'fdf5cc4142cfaf3c0b525c52b2f862599892b208.jpg',
 					icongray: '2c4a99e94d991e4433036a06b71d4a9acd4bda28.jpg',
 					hidden: 0
@@ -40269,7 +40178,7 @@ export const profile: Profile = {
 					unlocktime: 1656197592,
 					name: 'Roadside Spirituality',
 					description: 'Pray to a Jizo statue.',
-					percent: 67.3,
+					percent: 67.2,
 					icon: '72dd8ac9e02387098d0692057621f5348c24824e.jpg',
 					icongray: '43a2386c425ebf6f72572e17e5f4a4125195a53e.jpg',
 					hidden: 0
@@ -40336,7 +40245,7 @@ export const profile: Profile = {
 					name: "Couldn't Take the Heat",
 					description:
 						'Defeat at least 3 Visitors simultaneously by detonating a red ether crystal.',
-					percent: 29.9,
+					percent: 29.8,
 					icon: 'ba82207f431d340f05216731dcd70d310000a6ea.jpg',
 					icongray: '43a2386c425ebf6f72572e17e5f4a4125195a53e.jpg',
 					hidden: 0
@@ -40612,7 +40521,7 @@ export const profile: Profile = {
 					name: 'Card Dude',
 					description:
 						'Collect 120 unique cards. This basically makes you like, THE guy who does the card stuff!',
-					percent: 3.6,
+					percent: 3.7,
 					icon: '5d25493feb0e1bc0808d0210eb5959cb1aedf495.jpg',
 					icongray: '27a3a7a1dae2137c35e3354d0e63dba39fadea5f.jpg',
 					hidden: 0
@@ -40960,7 +40869,7 @@ export const profile: Profile = {
 					unlocktime: 1715546046,
 					name: "Imhotep's Bane",
 					description: 'Keep it close.',
-					percent: 36.2,
+					percent: 36.3,
 					icon: '294c87b4f92375f8edda46afdf5295aeb1c2d3ef.jpg',
 					icongray: '267d8828a7ab94aae0a27a493e546dac1330599a.jpg',
 					hidden: 0
@@ -41026,7 +40935,7 @@ export const profile: Profile = {
 					unlocktime: 1715546046,
 					name: 'Tomb Raider',
 					description: '7 Artifacts collected.',
-					percent: 14.5,
+					percent: 14.6,
 					icon: '5ae8f46c62c26d4a4c2f00b309aea89b0ff4e80d.jpg',
 					icongray: 'f578e17f85e65546e07f21f16edc39a87129ffca.jpg',
 					hidden: 0
@@ -41037,7 +40946,7 @@ export const profile: Profile = {
 					unlocktime: 1716162852,
 					name: 'Raider of the Lost Arts',
 					description: '14 Artifacts collected.',
-					percent: 8.2,
+					percent: 8.3,
 					icon: 'bb4c5c559e90dbf7a76116f3ddd15ff8cf92e9e6.jpg',
 					icongray: '034b64dd031af978363a285b3523f6d7d984f7bd.jpg',
 					hidden: 0
@@ -41048,7 +40957,7 @@ export const profile: Profile = {
 					unlocktime: 1716845132,
 					name: 'Light Reader',
 					description: '25 Lore pages collected.',
-					percent: 8.8,
+					percent: 8.9,
 					icon: 'fcfeb3c1660ce0f6ac06d31da9c87ff62c173679.jpg',
 					icongray: '88063b684db3ca1e637a90aefc4c9b14e8c427f0.jpg',
 					hidden: 0
@@ -41081,7 +40990,7 @@ export const profile: Profile = {
 					unlocktime: 1714967991,
 					name: 'Pocket Change',
 					description: '100 gold collected.',
-					percent: 61.6,
+					percent: 61.7,
 					icon: 'e0c0547e5c8e345ae26e283b3e67482190cac6d9.jpg',
 					icongray: 'cd00bb6e1b05b75b3dd4cd8eb6866327aa0ed4d6.jpg',
 					hidden: 0
@@ -41103,7 +41012,7 @@ export const profile: Profile = {
 					unlocktime: 1715558969,
 					name: 'Lights Out',
 					description: '',
-					percent: 16.1,
+					percent: 16.2,
 					icon: 'c137ad6f18474e041a0c1ed0a4584138cf86a493.jpg',
 					icongray: '73ea0d691e8d5f1e32e912b10806f881248a0c50.jpg',
 					hidden: 1
@@ -41114,7 +41023,7 @@ export const profile: Profile = {
 					unlocktime: 1715568944,
 					name: 'Eternal Entombment',
 					description: '',
-					percent: 14.2,
+					percent: 14.5,
 					icon: '4c7975a344ce87bff6f8e44916b0cfacfbaaa4a7.jpg',
 					icongray: '11d18fa5bc86f2792ba7bc962ba25cb57f98d151.jpg',
 					hidden: 1
@@ -41125,7 +41034,7 @@ export const profile: Profile = {
 					unlocktime: 1714966556,
 					name: 'Cant Touch This',
 					description: '',
-					percent: 13,
+					percent: 13.2,
 					icon: '965d678e5fd6e9503e234efa7bc6fc8e5f26b8e6.jpg',
 					icongray: 'db3435bab25ab4a2e134a73b85997329fa025780.jpg',
 					hidden: 1
@@ -41136,7 +41045,7 @@ export const profile: Profile = {
 					unlocktime: 1714966092,
 					name: 'This is Not Archaeology',
 					description: '',
-					percent: 19.1,
+					percent: 19.5,
 					icon: 'e495665cd59dbff25f4fea5feb349553f5a34a23.jpg',
 					icongray: '69ca440865c10d482552fae26a6592ddfe694ac2.jpg',
 					hidden: 1
@@ -41147,7 +41056,7 @@ export const profile: Profile = {
 					unlocktime: 1715553634,
 					name: 'First Glyph',
 					description: 'Transcribed a Lore page.',
-					percent: 5.1,
+					percent: 5.2,
 					icon: '22732ba6babe8071402eeeb4397756c65fd98de5.jpg',
 					icongray: '959102c7bf3ba18e1125fed94175fd41509431bf.jpg',
 					hidden: 0
@@ -41158,7 +41067,7 @@ export const profile: Profile = {
 					unlocktime: 1715210758,
 					name: 'Mortal Return',
 					description: '',
-					percent: 15.6,
+					percent: 15.9,
 					icon: 'f25578721c95a5c259c8c23ee67d110d46abc7fb.jpg',
 					icongray: '77918187d4fcbefd0d2b8af6a6651c51221f9446.jpg',
 					hidden: 1
@@ -41169,7 +41078,7 @@ export const profile: Profile = {
 					unlocktime: 1715552485,
 					name: 'Blast Past',
 					description: '',
-					percent: 6.1,
+					percent: 6.2,
 					icon: '68b53bbdb5539ae3197ec52c1d9c2217088147f1.jpg',
 					icongray: 'd43c909aa9ee6e45f3ef5f210f40d2ca823c8d00.jpg',
 					hidden: 1
@@ -41180,7 +41089,7 @@ export const profile: Profile = {
 					unlocktime: 1714965276,
 					name: 'Mirror Makeover',
 					description: 'Changed your appearance in the Mirror.',
-					percent: 16.9,
+					percent: 17.2,
 					icon: '7f909a24e01d497c3dd2dd99e6013f11d4768c9e.jpg',
 					icongray: '598621d9e42d3c9aa3a8f380e08a09ddc5a7c1f2.jpg',
 					hidden: 0
@@ -41191,7 +41100,7 @@ export const profile: Profile = {
 					unlocktime: 1715210679,
 					name: "Mejai's Prey",
 					description: 'Killed by a Mejai.',
-					percent: 16.1,
+					percent: 16.5,
 					icon: '1641d71f112306581934235d1ce0ebf2614e93c6.jpg',
 					icongray: '00f4e36542f58095acb86a1a24b4d2193106b7c8.jpg',
 					hidden: 0
@@ -41202,7 +41111,7 @@ export const profile: Profile = {
 					unlocktime: 1715400094,
 					name: 'Unearthly Proof',
 					description: 'Proved the Mejai exist.',
-					percent: 6.7,
+					percent: 6.9,
 					icon: 'c6993f6ddf4f1aee19db9fedff932b066c59a9ad.jpg',
 					icongray: '25dd08e90e0cc2de401f690618fb4d70966f67a3.jpg',
 					hidden: 0
@@ -41213,7 +41122,7 @@ export const profile: Profile = {
 					unlocktime: 1715211883,
 					name: 'Healing Force',
 					description: 'Used a medkit.',
-					percent: 14.6,
+					percent: 14.9,
 					icon: '3db8e868f641de0813fb93a4d15e8fdfa808fc51.jpg',
 					icongray: '26dde9afd60cb743676abc096cd3c0a296686b46.jpg',
 					hidden: 0
@@ -42550,7 +42459,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '1,000 Slayed',
 					description: 'Slay 1,000 enemies.',
-					percent: 49.3,
+					percent: 49.4,
 					icon: '83aed05cb159d0737acc84aebf945fdcdf413096.jpg',
 					icongray: 'a744f0773037bd98f936b484cc2ec337c0b7e8d2.jpg',
 					hidden: 0
@@ -42561,7 +42470,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '1,000 Slayer Points',
 					description: 'Get a lifetime total of 1,000 Slayer Points.',
-					percent: 40.2,
+					percent: 40.3,
 					icon: '34f899ef1ed94f98f7983ee84f7b1c934c62ba69.jpg',
 					icongray: '2708e6e21823c81a0861bf8c47d2b62b59c94eb0.jpg',
 					hidden: 0
@@ -42572,7 +42481,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'A Hundred Chest Hunts',
 					description: 'Play 100 Chest Hunts.',
-					percent: 16.6,
+					percent: 16.7,
 					icon: '07fc15807f0e8eed9d468d472592fbbd6d45ec0e.jpg',
 					icongray: 'a096bd1777c065c7bd7cd0e6352c73fe93a9b212.jpg',
 					hidden: 0
@@ -42594,7 +42503,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '100 Millions',
 					description: 'Have 100 M Coins.',
-					percent: 60.9,
+					percent: 61.1,
 					icon: '346dae7989f8291d7b01e02f66966f39b554a83e.jpg',
 					icongray: '2c0d7cde3136a340ee428d4f5e09ce4e2296486a.jpg',
 					hidden: 0
@@ -42605,7 +42514,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '100 Nonillions',
 					description: 'Have 100 No Coins.',
-					percent: 32.9,
+					percent: 33,
 					icon: '0e08b7ded60335aa57ad7c5d7ce54aa34753e03d.jpg',
 					icongray: '353397758282c1043651edb2344b5925ebcaefe9.jpg',
 					hidden: 0
@@ -42616,7 +42525,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '100 Quintillions',
 					description: 'Have 100 Qi Coins.',
-					percent: 45.4,
+					percent: 45.6,
 					icon: '51f9f59ced49129378b5b7cd8c00a197883d1e46.jpg',
 					icongray: '229d58b207962a926cb966c6c223d29b3447c7d3.jpg',
 					hidden: 0
@@ -42627,7 +42536,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '100 Septillions',
 					description: 'Have 100 Sp Coins.',
-					percent: 38.9,
+					percent: 39,
 					icon: '9da210b18b1edce48bad19dfa76feb811bf00253.jpg',
 					icongray: 'c2f27a799cfea89a06109033c1ee64e3e52caea0.jpg',
 					hidden: 0
@@ -42638,7 +42547,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '100 Slayed',
 					description: 'Slay 100 enemies.',
-					percent: 61.1,
+					percent: 61.3,
 					icon: 'cf247d15e4cab863bce3ae1d770401053364344a.jpg',
 					icongray: '79db0890e51118a288b444a3f4ce87ee33f51955.jpg',
 					hidden: 0
@@ -42649,7 +42558,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '100 Slayer Points',
 					description: 'Get a lifetime total of 100 Slayer Points.',
-					percent: 49.4,
+					percent: 49.5,
 					icon: '9511c3f742f5485f9800661867b59f162d3ef13f.jpg',
 					icongray: '568018aeed10c0be4ad79e467c33da28b8b08085.jpg',
 					hidden: 0
@@ -42671,7 +42580,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '100 Trillions',
 					description: 'Have 100 T Coins.',
-					percent: 48.1,
+					percent: 48.2,
 					icon: '4d0aa224d0145f28ca058e1af35bdf0189a60f93.jpg',
 					icongray: '73e1b22d68629030f2c861f2f05962bf763eb800.jpg',
 					hidden: 0
@@ -42682,7 +42591,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '100 Undecillions',
 					description: 'Have 100 Ud Coins.',
-					percent: 22.7,
+					percent: 22.8,
 					icon: 'd9f1d6d51b4f562040df60d19ac32b8a4dee1d24.jpg',
 					icongray: '6014599a55197bf67c1adde59b12d6d98d0dee89.jpg',
 					hidden: 0
@@ -42693,7 +42602,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '10K Coins',
 					description: 'Pick up 10,000 Coins.',
-					percent: 42.3,
+					percent: 42.4,
 					icon: 'f8d0555255adf2c3517379f076bb81b4b73b0021.jpg',
 					icongray: 'f2acdf686d8c2a87a3fc49b50a0000d1e685e2a3.jpg',
 					hidden: 0
@@ -42704,7 +42613,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '10 Billions',
 					description: 'Have 10 B Coins.',
-					percent: 56.1,
+					percent: 56.2,
 					icon: 'e8e2706f0858515671c9b7723f857d090a210de3.jpg',
 					icongray: '93837662614692af0f6f4000e0fc6d3ef05328ad.jpg',
 					hidden: 0
@@ -42715,7 +42624,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '10 Chests',
 					description: 'Open 10 Chests in a row on the Chest Hunt Minigame.',
-					percent: 30.3,
+					percent: 30.4,
 					icon: '2a8109c831e302f40833680e84d555fe0eefcafe.jpg',
 					icongray: 'e7e9578bf9a28c6393a89e0dca0e68752e7967a9.jpg',
 					hidden: 0
@@ -42726,7 +42635,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Ten Chest Hunts',
 					description: 'Play 10 Chest Hunts.',
-					percent: 27.4,
+					percent: 27.5,
 					icon: 'd05b6f2d24bbca203923d577f5d109e2ccb7be5e.jpg',
 					icongray: 'b3efa11d83993329f1942928281c891f6e5c72e3.jpg',
 					hidden: 0
@@ -42759,7 +42668,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '10 Levels',
 					description: 'Buy 10 levels all at once of an Equipment.',
-					percent: 61.3,
+					percent: 61.4,
 					icon: 'd0672429d68585eab37634a1e964f7199a3d8403.jpg',
 					icongray: 'a0a404f5e608a8a94470b5c49683005c00f58673.jpg',
 					hidden: 0
@@ -42770,7 +42679,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '10 Octillions',
 					description: 'Have 10 Oc Coins.',
-					percent: 36.1,
+					percent: 36.2,
 					icon: '1119deb3b55bf3fa66388ae644a93c0a64e6f4f5.jpg',
 					icongray: '16c707c39a4588c2a70952b4d42841867fb280a9.jpg',
 					hidden: 0
@@ -42781,7 +42690,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '10 Quadrillions',
 					description: 'Have 10 Qa Coins.',
-					percent: 46.6,
+					percent: 46.8,
 					icon: '74870ed0d6de8cdb6f9c0e53285a79b71d90ebe5.jpg',
 					icongray: '723c9615473022e4b90e13b8246d36e9cc95feea.jpg',
 					hidden: 0
@@ -42803,7 +42712,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '10 Sextillions',
 					description: 'Have 10 Sx Coins.',
-					percent: 44.5,
+					percent: 44.6,
 					icon: 'f743779ba1a7c947ec9bcec1edcf97b424f32abd.jpg',
 					icongray: '124e66c91c2fb6b9a00a52636ad7c94780a65083.jpg',
 					hidden: 0
@@ -42814,7 +42723,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '10 Slayer Points',
 					description: 'Get a lifetime total of 10 Slayer Points.',
-					percent: 59.3,
+					percent: 59.5,
 					icon: '332de8ee95ba9a9e7c88c89b2212cce567e33d64.jpg',
 					icongray: '603bd032e83eab8e5a93de8af90e933ec4f437e5.jpg',
 					hidden: 0
@@ -42825,7 +42734,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '10 Thousands',
 					description: 'Have 10 K Coins.',
-					percent: 67.1,
+					percent: 67.3,
 					icon: '1652bedcd005f8bbb139434438c10338b5768c28.jpg',
 					icongray: '927301b5a9bd9417f80aeacab109d6e6623f7657.jpg',
 					hidden: 0
@@ -42858,7 +42767,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '1 Hundred',
 					description: 'Have 100 Coins.',
-					percent: 70.5,
+					percent: 70.7,
 					icon: '02afb8e5f1d25ffeeae01edc18c43eb60703dc3c.jpg',
 					icongray: 'c7338f33ffb34ef349eb4df6169e2caca0633740.jpg',
 					hidden: 0
@@ -42869,7 +42778,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '1 Million',
 					description: 'Have 1 M Coins.',
-					percent: 65.8,
+					percent: 65.9,
 					icon: 'aa5dfcc0dd7cefd301be2ebb2e1a8351bff2d5c8.jpg',
 					icongray: 'b66bbc1ff0ad3fbc5d0a2d6b7a255e203737fa27.jpg',
 					hidden: 0
@@ -42880,7 +42789,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '1 Nonillion',
 					description: 'Have 1 No Coins.',
-					percent: 34.6,
+					percent: 34.7,
 					icon: '4970ba4bf630855f92696751d2a246782bc638c0.jpg',
 					icongray: '994000977529b246538b5dcc1ef5f95755327b86.jpg',
 					hidden: 0
@@ -42891,7 +42800,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '1 Quintillion',
 					description: 'Have 1 Qi Coins.',
-					percent: 45.8,
+					percent: 45.9,
 					icon: '73763392963e7f556fc3eea0ba96bc799bf62cf4.jpg',
 					icongray: 'bcb53c26619a7d030d767838c17b05b88d90d019.jpg',
 					hidden: 0
@@ -42902,7 +42811,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '1 Septillion',
 					description: 'Have 1 Sp Coins.',
-					percent: 42.2,
+					percent: 42.4,
 					icon: '4d0af4d991d23e1574cd858e4a7bda946e5bad7e.jpg',
 					icongray: 'db164bd578d2adcfd6a177c60599d938d092b725.jpg',
 					hidden: 0
@@ -42913,7 +42822,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: '1 Tredecillion',
 					description: 'Have 1 Td Coins.',
-					percent: 17.5,
+					percent: 17.6,
 					icon: '5ba88a2f493f31d1918c4e7cd48762bcc62dec67.jpg',
 					icongray: 'd5d59e73a9ba3eb57f3a7338c8a84835ca5bc20e.jpg',
 					hidden: 0
@@ -42924,7 +42833,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '1 Trillion',
 					description: 'Have 1 T Coins.',
-					percent: 51.3,
+					percent: 51.5,
 					icon: '89dcc8e2b2a7dfd48a86c33c1912fa3fa3805ffa.jpg',
 					icongray: 'c9b99e5d13f89c8af16452203b48257b6887d5ae.jpg',
 					hidden: 0
@@ -42935,7 +42844,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '1 Undecillion',
 					description: 'Have 1 Ud Coins.',
-					percent: 25.6,
+					percent: 25.7,
 					icon: 'bf37471af8c56d7677263b238cb1929a052507a8.jpg',
 					icongray: '483a65a47c6fc353568ba3345a09fd615b68aafa.jpg',
 					hidden: 0
@@ -42957,7 +42866,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '200 Slayer Points',
 					description: 'Get a lifetime total of 200 Slayer Points.',
-					percent: 46.3,
+					percent: 46.5,
 					icon: '317bd558d06051db9532ed15aa51a73ae8082f53.jpg',
 					icongray: '6be17ec1e3daf135c131d0e8ab212833b90f3f43.jpg',
 					hidden: 0
@@ -42990,7 +42899,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '2,500 Slayer Points',
 					description: 'Get a lifetime total of 2,500 Slayer Points.',
-					percent: 36.9,
+					percent: 37,
 					icon: '5c9a90cb10ab905edb461d8b442dc9d9c505d888.jpg',
 					icongray: 'e550586a41516eb6bc9c635bda1ee667678d9b23.jpg',
 					hidden: 0
@@ -43001,7 +42910,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '25 Slayer Points',
 					description: 'Get a lifetime total of 25 Slayer Points.',
-					percent: 55,
+					percent: 55.2,
 					icon: '9be9cd84338e0060caed038aa8b696c50579db4e.jpg',
 					icongray: 'e5994000519e70f41a40bd8fa07f21b65cfc79ca.jpg',
 					hidden: 0
@@ -43012,7 +42921,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: '300 Levels',
 					description: 'Buy 300 levels all at once of an Equipment.',
-					percent: 29,
+					percent: 29.1,
 					icon: 'd605916f3bf66d6fd00916bf576d7c2a8cdc1960.jpg',
 					icongray: '47fa9c9152981a8125fc1f5e0ec3a7dfd06b5800.jpg',
 					hidden: 0
@@ -43045,7 +42954,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '5,000 Slayed',
 					description: 'Slay 5,000 enemies.',
-					percent: 38.5,
+					percent: 38.6,
 					icon: '5fcca1ce591d01a68b9fbeb497d04af3f309348a.jpg',
 					icongray: '2c7735e46035550c2d642f0231b951e721c28d6b.jpg',
 					hidden: 0
@@ -43056,7 +42965,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: '500K Coins',
 					description: 'Pick up 500,000 Coins.',
-					percent: 14.2,
+					percent: 14.3,
 					icon: '9e231062ad7e80e86ee403a5374886553f73ca6d.jpg',
 					icongray: '5e16a641e4d9cf27f26027c0224ceeade534a503.jpg',
 					hidden: 0
@@ -43078,7 +42987,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '500 Slayed',
 					description: 'Slay 500 enemies.',
-					percent: 53.4,
+					percent: 53.5,
 					icon: 'f484a7e0515f7703e0cf2663521f0502d5e7a114.jpg',
 					icongray: 'fcf3dcb82314db6a253a6d3e6a4220d1afc94d58.jpg',
 					hidden: 0
@@ -43089,7 +42998,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '500 Slayer Points',
 					description: 'Get a lifetime total of 500 Slayer Points.',
-					percent: 42.6,
+					percent: 42.8,
 					icon: 'c46343ae300ddf52f847001cc23ad7d46f896a62.jpg',
 					icongray: 'cbd2385da41a03b425c3d1a78fe396648bb4c7ea.jpg',
 					hidden: 0
@@ -43100,7 +43009,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '50K Coins',
 					description: 'Pick up 50,000 Coins.',
-					percent: 32.1,
+					percent: 32.2,
 					icon: '980a8dca5429016914353a370f4bdb21ff69eb49.jpg',
 					icongray: 'a6b2ba66c28ba2f1c59429b063851fe186d6cd28.jpg',
 					hidden: 0
@@ -43111,7 +43020,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '50 Levels',
 					description: 'Buy 50 levels all at once of an Equipment.',
-					percent: 52,
+					percent: 52.2,
 					icon: 'd55dd4c56f59adec49e653dba746428891e199ba.jpg',
 					icongray: '97086f3aab2b6f347494a7cfaa00115a3ad9cc67.jpg',
 					hidden: 0
@@ -43122,7 +43031,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '50 Slayer Points',
 					description: 'Get a lifetime total of 50 Slayer Points.',
-					percent: 52.5,
+					percent: 52.6,
 					icon: '3fd8cf54c157c18d0135b9e1137eb0f6d3d219b2.jpg',
 					icongray: '367acbc8471f01bda6baedb3794de1a05892798e.jpg',
 					hidden: 0
@@ -43133,7 +43042,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '5K Coins',
 					description: 'Pick up 5,000 Coins.',
-					percent: 47.5,
+					percent: 47.6,
 					icon: '19f8d80045be31870c0a2cdf700c79c17e5f1ef3.jpg',
 					icongray: 'cf472c82dc2aa8d139b8979e864f6ca6efc95dc5.jpg',
 					hidden: 0
@@ -43144,7 +43053,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: '5 Chests',
 					description: 'Open 5 Chests in a row on the Chest Hunt Minigame.',
-					percent: 31.1,
+					percent: 31.2,
 					icon: '2b46f74762b92dd1f0da11209e0d8e000e146406.jpg',
 					icongray: '6bee3dac8097fb713db18925ac7ebd6c1c5517ba.jpg',
 					hidden: 0
@@ -43155,7 +43064,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: '600 Levels',
 					description: 'Buy 600 levels all at once of an Equipment.',
-					percent: 11.8,
+					percent: 11.9,
 					icon: '897f5db2a4a904b14f2b362cf16ffca3574d8f74.jpg',
 					icongray: '8e00a0c52fa107ee562843e55c6db12c17e0c9c1.jpg',
 					hidden: 0
@@ -43166,7 +43075,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Achievement Hunter',
 					description: 'Unlock 250 Achievements.',
-					percent: 28.6,
+					percent: 28.7,
 					icon: '66d6813de5bed634308eb009b83254369f89310e.jpg',
 					icongray: '376cc5f1c3cf086902889dd4aba7cb3d98fa8a96.jpg',
 					hidden: 0
@@ -43177,7 +43086,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Achieve The Hardest',
 					description: 'Unlock 200 Achievements.',
-					percent: 33.7,
+					percent: 33.8,
 					icon: 'ba18f88ac7359b2fa2f7ce634447d4dca8fc6891.jpg',
 					icongray: 'bf87561b48651327aa9f0d05edb04752f75c1939.jpg',
 					hidden: 0
@@ -43188,7 +43097,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Alter Dimension Income',
 					description: 'Get 10 No Coins per Second.',
-					percent: 23.3,
+					percent: 23.4,
 					icon: 'fcc4ecb6af64fe220bd2c3172dbe28fecc289567.jpg',
 					icongray: 'b9a95e38c0984bbae03222993591989a36a32d83.jpg',
 					hidden: 0
@@ -43199,7 +43108,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Amazing Armor',
 					description: 'Level up your Armor up to level 250.',
-					percent: 44,
+					percent: 44.1,
 					icon: '948a019ad4b41900924e078915c7cec0c72c8e7e.jpg',
 					icongray: '92579ce01d16be0ab012e6d91c34396f928d9e4c.jpg',
 					hidden: 0
@@ -43210,7 +43119,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Amazing Axe',
 					description: 'Level up your Axe up to level 250.',
-					percent: 37.1,
+					percent: 37.2,
 					icon: '1c17077df6c26c7396a6991e9d29f29f36da6327.jpg',
 					icongray: '9e38495207dc467bf1c656b5aa8f828951ae9958.jpg',
 					hidden: 0
@@ -43221,7 +43130,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Amazing Book',
 					description: 'Level up your Spellbook up to level 250.',
-					percent: 33.9,
+					percent: 34,
 					icon: '73b869a5fd5d836b9b54af3611e7f80ee6b43f81.jpg',
 					icongray: '3a951474e39e0323835dda56b47386e4e6754979.jpg',
 					hidden: 0
@@ -43232,7 +43141,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Amazing Boots',
 					description: 'Level up your Boots up to level 250.',
-					percent: 42.4,
+					percent: 42.5,
 					icon: 'cec7be34d430a3bcb9c484456299dcde5472a8ab.jpg',
 					icongray: '4653b527682189841de53c509348a3e99fd34014.jpg',
 					hidden: 0
@@ -43243,7 +43152,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Amazing Bow',
 					description: 'Level up your Bow up to level 250.',
-					percent: 34.5,
+					percent: 34.6,
 					icon: 'dc5525e297adb267fd6130015c700f87fe739ca1.jpg',
 					icongray: 'f372d1b670c256f7571a513e117cd1bc22253731.jpg',
 					hidden: 0
@@ -43254,7 +43163,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Amazing Dagger',
 					description: 'Level up your Dagger up to level 250.',
-					percent: 39.3,
+					percent: 39.4,
 					icon: '4d92d519dd2b275ffb69258550817c5ba459163c.jpg',
 					icongray: 'adf3485ccabca2eafaa96c5b65d809fd3232e701.jpg',
 					hidden: 0
@@ -43276,7 +43185,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Amazing Helmet',
 					description: 'Level up your Helmet up to level 250.',
-					percent: 43.3,
+					percent: 43.4,
 					icon: 'ef0c9c886083f491b7a89b95d3181d0b671e1ef9.jpg',
 					icongray: 'bbb65d77ea00c7b8ba3a821b30adc3835a188260.jpg',
 					hidden: 0
@@ -43287,7 +43196,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Amazing Necklace',
 					description: 'Level up your Necklace up to level 250.',
-					percent: 28.3,
+					percent: 28.4,
 					icon: 'bf4d44b7617823a7f0c5769c9749126c182d7251.jpg',
 					icongray: '7416c26fb614fdbdf1899381f57b1b477db96d91.jpg',
 					hidden: 0
@@ -43298,7 +43207,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Amazing Ring',
 					description: 'Level up your Ring up to level 250.',
-					percent: 40.9,
+					percent: 41,
 					icon: '4d4ed0d92a4d0deb605efd0385979ac7c6f1eba8.jpg',
 					icongray: '2ed26e72f9b77cb16cc8534edf24cbeba6d3aa82.jpg',
 					hidden: 0
@@ -43309,7 +43218,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Amazing Shield',
 					description: 'Level up your Shield up to level 250.',
-					percent: 44.4,
+					percent: 44.5,
 					icon: '15c20d03c5249d925906dfde353905063c2d389b.jpg',
 					icongray: '62e069aad4af6acbcbb6e2cae4ac9454986efa0c.jpg',
 					hidden: 0
@@ -43320,7 +43229,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Amazing Spirit',
 					description: 'Level up your Spirit up to level 250.',
-					percent: 32.7,
+					percent: 32.8,
 					icon: '20d34b4d804953504a0871283fe17ce323f882ce.jpg',
 					icongray: '93f990628c0cfdb7858932c1911546fd00c99c17.jpg',
 					hidden: 0
@@ -43331,7 +43240,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Amazing Staff',
 					description: 'Level up your Staff up to level 250.',
-					percent: 35.8,
+					percent: 35.9,
 					icon: '18a6a27065d12a0c0b72b3718236e553557c1bed.jpg',
 					icongray: 'b126d51293998c976050f6b6babc967c36349422.jpg',
 					hidden: 0
@@ -43342,7 +43251,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Amazing Sword',
 					description: 'Level up your Sword up to level 250.',
-					percent: 44.8,
+					percent: 44.9,
 					icon: '3a72c58ed03ba6264294114581d9a3542d6b3319.jpg',
 					icongray: '263aa59a6f2e27baab9796f71624e7415aceb83c.jpg',
 					hidden: 0
@@ -43353,7 +43262,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'And Beyond',
 					description: 'Ascend for the first time.',
-					percent: 59.3,
+					percent: 59.4,
 					icon: '5345b603ef04f51bf1db354f70bf4bcde0fbdb21.jpg',
 					icongray: '4e30ecc6bc931b4d2c0f2f0a3acc524c2c05e4cc.jpg',
 					hidden: 0
@@ -43364,7 +43273,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: 'And Even Beyond',
 					description: 'Ultra Ascend for the first time.',
-					percent: 18.1,
+					percent: 18.2,
 					icon: 'e6bed57d2bd744ca8344c91b3f42538e21de9383.jpg',
 					icongray: 'bfc6d46ff9598a5f730e723c0dd6212428a44680.jpg',
 					hidden: 0
@@ -43375,7 +43284,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Army Veteran Gamer',
 					description: 'Unlock 300 Achievements.',
-					percent: 22.8,
+					percent: 22.9,
 					icon: 'ae047b6178ceef01a9ec5d0731fa90e0074c45a1.jpg',
 					icongray: '851f1660777d586e4fd214499cb665afa0dd3bda.jpg',
 					hidden: 0
@@ -43397,7 +43306,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Ascension Upgrades I',
 					description: 'Buy 4 Ascension Upgrades.',
-					percent: 55.8,
+					percent: 55.9,
 					icon: '733dc2a1d47909a2cfb6964c1bf7c9c80653b86c.jpg',
 					icongray: 'ca64841b879cd43ad09a5f2f1af1f30be19286a5.jpg',
 					hidden: 0
@@ -43408,7 +43317,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Ascension Upgrades II',
 					description: 'Buy 10 Ascension Upgrades.',
-					percent: 49.5,
+					percent: 49.7,
 					icon: 'add136c63cd17c22701db518a801e93cf8483564.jpg',
 					icongray: 'e3c54e5b0104086c30de5a784464c85d1dad2dd6.jpg',
 					hidden: 0
@@ -43419,7 +43328,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Ascension Upgrades III',
 					description: 'Buy 25 Ascension Upgrades.',
-					percent: 41.3,
+					percent: 41.4,
 					icon: '5b94af91bfce31bc5f3613e4661fb91d2a33a896.jpg',
 					icongray: 'e45e93e1c3e32240e3e65326534fd0c72aba7f05.jpg',
 					hidden: 0
@@ -43430,7 +43339,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Ascension Upgrades IV',
 					description: 'Buy 50 Ascension Upgrades.',
-					percent: 31.9,
+					percent: 32,
 					icon: '994fc63ce9ef998acbddd55b9b143ef4a365ac46.jpg',
 					icongray: '7f91e0302eb869f3543abb49c4ba69a970daf1ed.jpg',
 					hidden: 0
@@ -43452,7 +43361,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Ascension Upgrades V',
 					description: 'Buy 75 Ascension Upgrades.',
-					percent: 26.8,
+					percent: 26.9,
 					icon: '7da367e57337b3b8c02f4463f829da0d416d226e.jpg',
 					icongray: '22710190156eae7beb29299e0a06c7fb075dd617.jpg',
 					hidden: 0
@@ -43474,7 +43383,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: 'Ascension Upgrades VII',
 					description: 'Buy 150 Ascension Upgrades.',
-					percent: 16.4,
+					percent: 16.5,
 					icon: '84c9599b8a52b63c9aedb41b4e41e9ebd557f330.jpg',
 					icongray: '4371295b57e16ddda619a9a8518a74d1667a92d7.jpg',
 					hidden: 0
@@ -43496,7 +43405,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'A Bonus Pay',
 					description: 'Get 100 Coins per Second.',
-					percent: 67,
+					percent: 67.1,
 					icon: 'a8f9c67c46acfc461148e975adcb3404737882e4.jpg',
 					icongray: 'e3fdcdd0060d077c8ea68a38037a9aee7843be4d.jpg',
 					hidden: 0
@@ -43507,7 +43416,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'A Continent Income',
 					description: 'Get 1 Qa Coins per Second.',
-					percent: 45.7,
+					percent: 45.8,
 					icon: 'b05d3e6b29dfd4962b2622d8fa8aea4fcb35fd7d.jpg',
 					icongray: '6ff9caed2799b4364e8f0e325cbd5cc19e5589a9.jpg',
 					hidden: 0
@@ -43518,7 +43427,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'A First World Income',
 					description: 'Get 10 T Coins per Second.',
-					percent: 46.5,
+					percent: 46.7,
 					icon: 'bee18c9b9ce562fb1790325522bbe482af16396b.jpg',
 					icongray: '867123ec676f017f8c29f6be4087b07a942bd85e.jpg',
 					hidden: 0
@@ -43529,7 +43438,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'A Galactic Group Income',
 					description: 'Get 99,9 Sx Coins per Second.',
-					percent: 35.3,
+					percent: 35.4,
 					icon: '69e9ebe5800600c47a756e048c37bbda18512014.jpg',
 					icongray: '198331169ed25337cced8e1f3a913598f516e956.jpg',
 					hidden: 0
@@ -43540,7 +43449,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'A Galactic Income',
 					description: 'Get 1 Sx Coins per Second.',
-					percent: 39.5,
+					percent: 39.6,
 					icon: 'ae7300ca002f9989909e794e81c10dd6bce23c8b.jpg',
 					icongray: '92213e7a3d05606f879ffee959eec73244357d3b.jpg',
 					hidden: 0
@@ -43551,7 +43460,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: 'A Group',
 					description: 'Select 8 different Characters.',
-					percent: 6.9,
+					percent: 7,
 					icon: 'bbd5f77873c8d4b678fed6c4a1e7e9459d251713.jpg',
 					icongray: '4ed1507422e97d93cf1709892ff07591d46c8ce9.jpg',
 					hidden: 0
@@ -43562,7 +43471,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'A Heritage',
 					description: 'Get 100 K Coins per Second.',
-					percent: 62.5,
+					percent: 62.7,
 					icon: '770a8a2593f8d2ecfc462f231f80d8c137ac4905.jpg',
 					icongray: 'bcee27ca50d129d57879aa857055646d583dd828.jpg',
 					hidden: 0
@@ -43573,7 +43482,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'A Hypercumulus Income',
 					description: 'Get 1 Oc Coins per Second.',
-					percent: 32.5,
+					percent: 32.6,
 					icon: 'b547871307aeaea78d0f90ba2d95077a7023ba79.jpg',
 					icongray: 'c384cc46866eb9d447c1fd9a3d0dfaa2c22ca6d8.jpg',
 					hidden: 0
@@ -43584,7 +43493,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'A Loan',
 					description: 'Get 10 K Coins per Second.',
-					percent: 65.2,
+					percent: 65.4,
 					icon: '4ddfeb0d1a8510b3d22b2de12996f6fd8941674a.jpg',
 					icongray: 'fb2dfda1c9e0e7c9a623ff529730f8c413507ee0.jpg',
 					hidden: 0
@@ -43595,7 +43504,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'A Lottery Win',
 					description: 'Get 1 M Coins per Second.',
-					percent: 60,
+					percent: 60.1,
 					icon: '92d1d7dee856edf54f8b2a3d7169794db8d28e34.jpg',
 					icongray: '4a61de6a6ea49e7e158b941d52a81e0861edf5a9.jpg',
 					hidden: 0
@@ -43606,7 +43515,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'A Public Work',
 					description: 'Get 100 M Coins per Second.',
-					percent: 53.8,
+					percent: 54,
 					icon: 'ff60b33c2fe2a33d108f42f3eac4c3f843eba588.jpg',
 					icongray: '8d512d9781a79ddab01123673e0d2576fad3f09b.jpg',
 					hidden: 0
@@ -43617,7 +43526,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'A Salary',
 					description: 'Get 1,000 Coins per Second.',
-					percent: 66.2,
+					percent: 66.4,
 					icon: 'fde082f6938d5ee477b90dd75eb64805a751cfcf.jpg',
 					icongray: '3c17bed6a2eeefaaf0f575c2d6d9af4bf5e8c288.jpg',
 					hidden: 0
@@ -43628,7 +43537,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'A Solar System Income',
 					description: 'Get 10 Qi Coins per Second.',
-					percent: 44,
+					percent: 44.1,
 					icon: '77ace26ea38f8172c5b2a1389f512b56a04c6db6.jpg',
 					icongray: '0503010b28ab522b1e2d628a16db95084d7c31f1.jpg',
 					hidden: 0
@@ -43639,7 +43548,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'A Supercluster Income',
 					description: 'Get 10 Sp Coins per Second.',
-					percent: 34.3,
+					percent: 34.4,
 					icon: 'a1c69c9deaf31cea92c5469b6a563d1720c2e0d0.jpg',
 					icongray: '3e56028c5ef9d8fa9ea36f8c083f9c8fca0420a8.jpg',
 					hidden: 0
@@ -43650,7 +43559,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: 'A Team',
 					description: 'Select 5 different Characters.',
-					percent: 20.4,
+					percent: 20.5,
 					icon: 'f8e316725fb0e5f6223aa99c1ee4396efd6dee4e.jpg',
 					icongray: 'f43efdac4f6d475b743e0cd0050437ad7ca0566b.jpg',
 					hidden: 0
@@ -43661,7 +43570,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'A Third World Income',
 					description: 'Get 100 B Coins per Second.',
-					percent: 47.7,
+					percent: 47.9,
 					icon: '6c3877c713b207231741b39600929285ef6e0b58.jpg',
 					icongray: 'a7ae0ff0d1dbe084cb5c8b7315489558bea30c20.jpg',
 					hidden: 0
@@ -43672,7 +43581,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'A Tip',
 					description: 'Get 10 Coins per Second.',
-					percent: 68.6,
+					percent: 68.8,
 					icon: '2c32ebd763020efb496d9f6b2004f3d2325890a3.jpg',
 					icongray: '7f6be26b842d826749ed1b71b607a9ae3f86246f.jpg',
 					hidden: 0
@@ -43683,7 +43592,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'A Cosmic Income',
 					description: 'Get 99,9 Oc Coins per Second.',
-					percent: 28,
+					percent: 28.1,
 					icon: 'e3d6e37d5ea95f3e845e48022776c5b0c91ba19b.jpg',
 					icongray: 'af339e2ba3220a1418ceb7abc42c134917949b2a.jpg',
 					hidden: 0
@@ -43694,7 +43603,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'A Warm Welcome',
 					description: 'Get 1 coin.',
-					percent: 73.1,
+					percent: 73.3,
 					icon: '4d6b1ec2dc39471ce6b911165d5bbff016b4a0b8.jpg',
 					icongray: '7023a52683c7f576e8ed43065f9d522bcc906a54.jpg',
 					hidden: 0
@@ -43705,7 +43614,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'A World Income',
 					description: 'Get 100 Qa Coins per Second.',
-					percent: 45.4,
+					percent: 45.5,
 					icon: 'e9ec387d9b1dc7c21c4325d4a5b4a132a0805b5a.jpg',
 					icongray: 'e9b0418500ac6ac86199a9575f4dc9e3ad03fc61.jpg',
 					hidden: 0
@@ -43727,7 +43636,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Banker',
 					description: 'Get x40 Coin value from Random Events.',
-					percent: 17.5,
+					percent: 17.6,
 					icon: 'bd9c0cbcdeadfd2c324ce5622870d00b315708d5.jpg',
 					icongray: 'aa2f3621ecbc4c483f00112cdc5ead6e4c0164c2.jpg',
 					hidden: 0
@@ -43738,7 +43647,7 @@ export const profile: Profile = {
 					unlocktime: 1719954455,
 					name: 'Behind The Scenes',
 					description: 'View the Credits.',
-					percent: 32.6,
+					percent: 32.7,
 					icon: '53ea69b442accec003f78a7667c168c8550cf8d5.jpg',
 					icongray: '3d6eeb0d8baac4dd85a059ea363b0af5bb11a567.jpg',
 					hidden: 0
@@ -43749,7 +43658,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: 'Best Yield',
 					description: 'Double your offline earnings 250 times.',
-					percent: 9.3,
+					percent: 9.4,
 					icon: 'a0c5e6fa8b73fdcf850a91792a6ab9390e5b10df.jpg',
 					icongray: '59bec0037126ba36d61024a84d08d5a96df2fe1b.jpg',
 					hidden: 0
@@ -43760,7 +43669,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Blue Streak',
 					description: 'Use the Boost 10 times.',
-					percent: 65.7,
+					percent: 65.9,
 					icon: '941b1651e7891d9ed68074403f1a9b94cbe644dd.jpg',
 					icongray: 'ef49899f4097133c1066e7c77ef1c2177542d1ad.jpg',
 					hidden: 0
@@ -43771,7 +43680,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Boosted Boost',
 					description: 'Use the Boost while using the Boost.',
-					percent: 41.4,
+					percent: 41.5,
 					icon: '0d5ee861c150b022dd493ed9dc7f82b4aa639784.jpg',
 					icongray: '15e0876d4c6002d905f681714193c19f3ec26bdd.jpg',
 					hidden: 0
@@ -43793,7 +43702,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Bow Expert',
 					description: 'Slay 5,000 enemies with the Bow.',
-					percent: 25.8,
+					percent: 25.9,
 					icon: '2f4f8f90e97e34b5a96a0b2d770815b62d5af50f.jpg',
 					icongray: '0a4006aed3d792265af7dd667cd021960f60bf20.jpg',
 					hidden: 0
@@ -43804,7 +43713,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Bow Novice',
 					description: 'Slay 100 enemies with the Bow.',
-					percent: 32.1,
+					percent: 32.2,
 					icon: 'c98382c6d5a80340963130de90a512e4a849b60a.jpg',
 					icongray: 'ddd5a1d7b17e794bffb2e9ba3d0994ca27441105.jpg',
 					hidden: 0
@@ -43826,7 +43735,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: 'Bulk Buy',
 					description: 'Buy 100 Upgrades all at once.',
-					percent: 25.6,
+					percent: 25.7,
 					icon: '45c76834c0c4e216e60deceec6e11f6a53bf355c.jpg',
 					icongray: '427bb65d429ccf0f0583aba66a43e4058ffab8f0.jpg',
 					hidden: 0
@@ -43837,7 +43746,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Carry Me',
 					description: 'Collect the maximum amount possible of a Material.',
-					percent: 23.7,
+					percent: 23.8,
 					icon: 'a7da31f9909e831fcd56c49d2c8d0b6c56054a17.jpg',
 					icongray: 'f1c245b469ba35d3101c1c39178e92acad92d1d0.jpg',
 					hidden: 0
@@ -43848,7 +43757,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Charon',
 					description: 'Get a x40 Souls multiplier from Random Events.',
-					percent: 23,
+					percent: 23.1,
 					icon: '4bbd181cbe429897398a2d060709e88786fe05f4.jpg',
 					icongray: 'a35e1e7982b26f44413737c9c98064ba8bd22fe8.jpg',
 					hidden: 0
@@ -43859,7 +43768,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Coin Master',
 					description: 'Pick up 100,000 Coins.',
-					percent: 27.6,
+					percent: 27.7,
 					icon: 'cde21caa16110c0fb69a47772a813e6c8de84c91.jpg',
 					icongray: '4140978f5f04b6a3355314f8f5177e4754a7b734.jpg',
 					hidden: 0
@@ -43870,7 +43779,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Collector',
 					description: 'Unlock 100 Achievements.',
-					percent: 44.6,
+					percent: 44.7,
 					icon: 'a4c0ea91c2b928d0634c17d60d6f147c103a94ba.jpg',
 					icongray: 'd73663a67bf2c9ab7693001ad47ffce87ad8e525.jpg',
 					hidden: 0
@@ -43881,7 +43790,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Daily Effort',
 					description: 'Complete 15 Daily Quests.',
-					percent: 18.3,
+					percent: 18.4,
 					icon: '66f368924f6e5760fa4b64ea421c60ad4b29bc03.jpg',
 					icongray: 'a1518863890078f63712e5c6d3c6df42c00c4142.jpg',
 					hidden: 0
@@ -43892,7 +43801,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Daily Quests',
 					description: 'Unlock the Daily Quests.',
-					percent: 22.3,
+					percent: 22.4,
 					icon: '4f75837cbc4339a650d3d068bec20cef27c6e742.jpg',
 					icongray: '77d3d583ea34f1b78b689e961d4df8b2918399d6.jpg',
 					hidden: 0
@@ -43925,7 +43834,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: 'Divinities',
 					description: 'Unlock Divinities.',
-					percent: 22,
+					percent: 22.1,
 					icon: 'aa31f6b39ebe36d2a0326f4f6292970bddc0791f.jpg',
 					icongray: '591b86ec45c901885ea52e575e79e742ccb0ebb7.jpg',
 					hidden: 0
@@ -43947,7 +43856,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Doubler',
 					description: 'Have 2 multipliers active at the same time.',
-					percent: 48.9,
+					percent: 49,
 					icon: '896800b2b6a0a572634ed9ba13f80f16384f72d8.jpg',
 					icongray: '201f2afef25e7c7bf591cfb24943ad743cfd515b.jpg',
 					hidden: 0
@@ -43958,7 +43867,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Easy Task',
 					description: 'Unlock 50 Achievements.',
-					percent: 50.6,
+					percent: 50.8,
 					icon: 'd56c0096aedb2c6e79aa444cd37d01e7b91baecb.jpg',
 					icongray: '248aa9011fca8e4536152ba01beb15acacdd0f20.jpg',
 					hidden: 0
@@ -43969,7 +43878,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Efficient Yield',
 					description: 'Double your offline earnings 25 times.',
-					percent: 27.4,
+					percent: 27.5,
 					icon: '4543c82aa813408c1a954ec79628f0f6439f50a6.jpg',
 					icongray: 'a0680ebb5afdd6031809aa8611a696f4b9c23998.jpg',
 					hidden: 0
@@ -43980,7 +43889,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Excellent Armor',
 					description: 'Level up your Armor up to level 200.',
-					percent: 45,
+					percent: 45.1,
 					icon: '363f03418fae68ac5bd117e117ce470908d236a4.jpg',
 					icongray: '0f40572e034c2c85e51794a1ef75b2e72016ef44.jpg',
 					hidden: 0
@@ -43991,7 +43900,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Excellent Axe',
 					description: 'Level up your Axe up to level 200.',
-					percent: 42,
+					percent: 42.2,
 					icon: '7b1208bea507f6640e8a8edc39bea80aa3542f83.jpg',
 					icongray: 'e166fd55f5520806de24ff34b26a17665c9747e1.jpg',
 					hidden: 0
@@ -44002,7 +43911,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Excellent Book',
 					description: 'Level up your Spellbook up to level 200.',
-					percent: 36.6,
+					percent: 36.7,
 					icon: 'deae0ee6110d766d4ce861f9291170c6f5e2004f.jpg',
 					icongray: '57254e78be47d90c980d814a1fa72248c4f3e527.jpg',
 					hidden: 0
@@ -44013,7 +43922,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Excellent Boots',
 					description: 'Level up your Boots up to level 200.',
-					percent: 44.4,
+					percent: 44.6,
 					icon: '341654b43e33325ffa62d44b002f80b863b32db8.jpg',
 					icongray: '0c2113a3b148cee3bf60ad12650f8432fc4a653f.jpg',
 					hidden: 0
@@ -44024,7 +43933,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Excellent Bow',
 					description: 'Level up your Bow up to level 200.',
-					percent: 38.2,
+					percent: 38.3,
 					icon: '7a09903acd93f5353e1771004b28f24b7f135e1a.jpg',
 					icongray: '45838e346162e52d6fba63cecc7eec6a5aa69683.jpg',
 					hidden: 0
@@ -44035,7 +43944,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Excellent Dagger',
 					description: 'Level up your Dagger up to level 200.',
-					percent: 43.7,
+					percent: 43.8,
 					icon: 'e09fdb01db00bd6246599ece3afd26b97310dd8f.jpg',
 					icongray: '5a61ea4e4759c65fad8ec37002da9abe9ae93328.jpg',
 					hidden: 0
@@ -44046,7 +43955,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Excellent Gloves',
 					description: 'Level up your Gloves up to level 200.',
-					percent: 20.6,
+					percent: 20.7,
 					icon: 'aca0dc401df072df8728751a3390c8d1e7bcc4a2.jpg',
 					icongray: 'b90599daf7af731f09ea7cbdb1836a2f3dc6ab09.jpg',
 					hidden: 0
@@ -44057,7 +43966,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Excellent Helmet',
 					description: 'Level up your Helmet up to level 200.',
-					percent: 44.6,
+					percent: 44.7,
 					icon: 'b5d8b91755104149f117f0383ef9f07c235a5d69.jpg',
 					icongray: '92199e37fccf25bbf2e0d168910cfd5285fe8663.jpg',
 					hidden: 0
@@ -44068,7 +43977,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Excellent Necklace',
 					description: 'Level up your Necklace up to level 200.',
-					percent: 33.4,
+					percent: 33.5,
 					icon: '62085bf191b6561aa1c699d6a4c790abaab3fddd.jpg',
 					icongray: '3ddc73a64fc92aa0f9f18d02f6fe76e307243b5f.jpg',
 					hidden: 0
@@ -44079,7 +43988,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Excellent Ring',
 					description: 'Level up your Ring up to level 200.',
-					percent: 44.2,
+					percent: 44.3,
 					icon: '74c31e83e6e02054c4f2ef65a9d10f421830e3fe.jpg',
 					icongray: '15ce1d954f24bce9f0acba9e9bb419bceadfdacd.jpg',
 					hidden: 0
@@ -44090,7 +43999,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Excellent Shield',
 					description: 'Level up your Shield up to level 200.',
-					percent: 45.4,
+					percent: 45.6,
 					icon: '012a70a6abf9ce33324a8bb7c5c0a75fd8a0a9a5.jpg',
 					icongray: 'bf26b7cadcb17a5375b3d5c9930cde2a3a191edf.jpg',
 					hidden: 0
@@ -44101,7 +44010,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Excellent Spirit',
 					description: 'Level up your Spirit up to level 200.',
-					percent: 35.1,
+					percent: 35.2,
 					icon: '7a4c09691b75535dc99368f3b38390239cb3142b.jpg',
 					icongray: '5176e264a54a6b1404d8dc442e0122b112682d1a.jpg',
 					hidden: 0
@@ -44112,7 +44021,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Excellent Staff',
 					description: 'Level up your Staff up to level 200.',
-					percent: 40.6,
+					percent: 40.7,
 					icon: 'e8d912aa87d0b52806944e52c4fb685b679bf0e3.jpg',
 					icongray: '041c62c6f10fd4f85a7df7cb6f90a94d9d5c11ea.jpg',
 					hidden: 0
@@ -44123,7 +44032,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Excellent Sword',
 					description: 'Level up your Sword up to level 200.',
-					percent: 46.2,
+					percent: 46.3,
 					icon: '2333b030e8596a62ad219bba7089e1f5e442ad7e.jpg',
 					icongray: '0202e2816d892b3a779859dce7ac36e38ba5da26.jpg',
 					hidden: 0
@@ -44134,7 +44043,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Extremely Lucky',
 					description: "You've been extremely lucky with the Random Box.",
-					percent: 38.5,
+					percent: 38.6,
 					icon: '39b00898c05b9311aea675844f988615259ca083.jpg',
 					icongray: '9ea0b79d0d96532d9aed1d704a1db83b65b1ad79.jpg',
 					hidden: 0
@@ -44145,7 +44054,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Faster Than 88 MPH',
 					description: 'Use the Boost 2,500 times.',
-					percent: 27.3,
+					percent: 27.4,
 					icon: 'cf44ecbe7cdc918743df7ad620ce8bec1a1bd58c.jpg',
 					icongray: '2c6abd648c8916760950b1e8af3a94a66db3ec0d.jpg',
 					hidden: 0
@@ -44156,7 +44065,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Feeling Dizzy',
 					description: 'Use 25 Portals.',
-					percent: 32.8,
+					percent: 32.9,
 					icon: 'c53c5e79072028dc50b42647893c15946ca0adf0.jpg',
 					icongray: 'ff4c8927cda6ebf4b222adaac242cedf4b0cf921.jpg',
 					hidden: 0
@@ -44189,7 +44098,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'For Science',
 					description: 'Use 10 Portals.',
-					percent: 39.5,
+					percent: 39.6,
 					icon: 'c53c5e79072028dc50b42647893c15946ca0adf0.jpg',
 					icongray: 'ff4c8927cda6ebf4b222adaac242cedf4b0cf921.jpg',
 					hidden: 0
@@ -44200,7 +44109,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Get Lucky',
 					description: 'Trigger 2,000 Random Boxes.',
-					percent: 17.8,
+					percent: 17.9,
 					icon: '4da623644263414ebb62a6e00a1f57932edc2ef1.jpg',
 					icongray: '1c1bfe8916341bcb3ff03f10cfd6b18b6c27dad9.jpg',
 					hidden: 0
@@ -44222,7 +44131,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Good Armor',
 					description: 'Level up your Armor up to level 50.',
-					percent: 58.8,
+					percent: 59,
 					icon: '54c9aca068858edfa85d4fb3b312516fe464935a.jpg',
 					icongray: '0da6a330f36851560a28eae1ea04d285feba40ea.jpg',
 					hidden: 0
@@ -44233,7 +44142,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Good Axe',
 					description: 'Level up your Axe up to level 50.',
-					percent: 47,
+					percent: 47.1,
 					icon: 'ba79297b57b60304daa3985bbba2c9979a53ab1d.jpg',
 					icongray: 'e677b49f52f1ad4e934b56b3c19ba41acf33f711.jpg',
 					hidden: 0
@@ -44244,7 +44153,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Good Book',
 					description: 'Level up your Spellbook up to level 50.',
-					percent: 45.3,
+					percent: 45.5,
 					icon: '5c2534dd3ee5cf041728b167e614849f94361826.jpg',
 					icongray: '2ea6c8898b94beafc01441057fe2e3af5d2fd7c7.jpg',
 					hidden: 0
@@ -44255,7 +44164,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Good Boots',
 					description: 'Level up your Boots up to level 50.',
-					percent: 53.7,
+					percent: 53.9,
 					icon: '2bcf48379a65800b9eb2fa6198e3052ba98d9479.jpg',
 					icongray: '8d21a73e137bf7ebd9a4d00fffc8584fc9d0adbc.jpg',
 					hidden: 0
@@ -44266,7 +44175,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Good Bow',
 					description: 'Level up your Bow up to level 50.',
-					percent: 45.6,
+					percent: 45.8,
 					icon: '8e182c8e296f9f2b762764f94db7e8322c676184.jpg',
 					icongray: '7559c5abf56839091bd754ff9314bf9862aa17aa.jpg',
 					hidden: 0
@@ -44277,7 +44186,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Good Cape',
 					description: 'Level up your Cape up to level 50.',
-					percent: 20,
+					percent: 20.1,
 					icon: 'e1b3bb36c143d781607fb6d240a17242d8e4cb36.jpg',
 					icongray: '01238dbd96fab1fe6d3aaf87761204bc6f977939.jpg',
 					hidden: 0
@@ -44288,7 +44197,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Good Dagger',
 					description: 'Level up your Dagger up to level 50.',
-					percent: 49.3,
+					percent: 49.4,
 					icon: '5d5aa5a056f3927e7f798e4ad4d80ea4ddef121a.jpg',
 					icongray: 'd5969dd047267cc7986a3813f5ac3e8054541378.jpg',
 					hidden: 0
@@ -44310,7 +44219,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Good Helmet',
 					description: 'Level up your Helmet up to level 50.',
-					percent: 55.9,
+					percent: 56,
 					icon: '660dccb490875fbe1fc4b17e6b604cc1aa7ba206.jpg',
 					icongray: 'b2c21901707d1fff3a9c9932df66800e07e03aa0.jpg',
 					hidden: 0
@@ -44321,7 +44230,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Good Necklace',
 					description: 'Level up your Necklace up to level 50.',
-					percent: 44.8,
+					percent: 44.9,
 					icon: '62eca36798bc0fd2cc1ed796dbbeba3c60e5fbfa.jpg',
 					icongray: 'be73e544e0c274f03dc68e8b3e9b88a3e846091e.jpg',
 					hidden: 0
@@ -44332,7 +44241,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Good Ring',
 					description: 'Level up your Ring up to level 50.',
-					percent: 51.3,
+					percent: 51.4,
 					icon: '1ec0fc27a58c091df3a8e46e85a087b975555b3c.jpg',
 					icongray: 'e87a8513e1e681b77222d65325d07e700f362c31.jpg',
 					hidden: 0
@@ -44343,7 +44252,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Good Shield',
 					description: 'Level up your Shield up to level 50.',
-					percent: 61.4,
+					percent: 61.5,
 					icon: '5b6ce178e88b041f5fa10dd97d69aa61bdd5fc88.jpg',
 					icongray: 'd1915d7fd15026062d0a6b722e9d6817aecf13e4.jpg',
 					hidden: 0
@@ -44354,7 +44263,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Good Spirit',
 					description: 'Level up your Spirit up to level 50.',
-					percent: 45.1,
+					percent: 45.2,
 					icon: 'd0f95c52956f6a638d4eedbc1331b06dd5ae2ee6.jpg',
 					icongray: '830b7c3c4061ea2c2a7498b5d5e2b29a61887ae8.jpg',
 					hidden: 0
@@ -44365,7 +44274,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Good Staff',
 					description: 'Level up your Staff up to level 50.',
-					percent: 46.3,
+					percent: 46.5,
 					icon: 'cc4f8c46e2f2e28eba504117118a0cc3776ac00f.jpg',
 					icongray: '82cdb7d94d6788e0596ceb70aa33eab7af83a639.jpg',
 					hidden: 0
@@ -44376,7 +44285,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Good Sword',
 					description: 'Level up your Sword up to level 50.',
-					percent: 63,
+					percent: 63.2,
 					icon: 'f551c31bc4be3c9d499e7a460310e239a6976f0c.jpg',
 					icongray: 'f6c27e84686abae1fc27c06d67389780201ac813.jpg',
 					hidden: 0
@@ -44398,7 +44307,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Gotta Go Fast',
 					description: 'Use the Boost 250 times.',
-					percent: 41.3,
+					percent: 41.4,
 					icon: '941b1651e7891d9ed68074403f1a9b94cbe644dd.jpg',
 					icongray: 'ef49899f4097133c1066e7c77ef1c2177542d1ad.jpg',
 					hidden: 0
@@ -44409,7 +44318,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Great Armor',
 					description: 'Level up your Armor up to level 150.',
-					percent: 46.2,
+					percent: 46.3,
 					icon: '263238a4ecd4b2ae85881873ad1e80970080edc7.jpg',
 					icongray: 'ae0a9bdc10ada859d01aa20b86de71ae3dfcb7ad.jpg',
 					hidden: 0
@@ -44420,7 +44329,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Great Axe',
 					description: 'Level up your Axe up to level 150.',
-					percent: 44.2,
+					percent: 44.4,
 					icon: '15112190dd0e0265ff549f32b358e297c2546ce3.jpg',
 					icongray: 'e58243deeef56a4dca9595e0c0717710f02883a2.jpg',
 					hidden: 0
@@ -44431,7 +44340,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Great Book',
 					description: 'Level up your Spellbook up to level 150.',
-					percent: 41.2,
+					percent: 41.3,
 					icon: 'ecfaf76e7d06c99d2a0600000b26858b7880a4a1.jpg',
 					icongray: '1396882ae9e6c6a68264421224015bc2cb183a67.jpg',
 					hidden: 0
@@ -44442,7 +44351,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Great Boots',
 					description: 'Level up your Boots up to level 150.',
-					percent: 45.2,
+					percent: 45.3,
 					icon: '454d1c85ff483d5429560ae1f2e0b70be934f106.jpg',
 					icongray: '867c997330646968e38578aa87efaf88aeca2f44.jpg',
 					hidden: 0
@@ -44453,7 +44362,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Great Bow',
 					description: 'Level up your Bow up to level 150.',
-					percent: 42.5,
+					percent: 42.6,
 					icon: '6b89698720066930d41d5056201de795e3ab1a52.jpg',
 					icongray: '49ab5896956178399b7ee75b7c513e5d171ed0c3.jpg',
 					hidden: 0
@@ -44464,7 +44373,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Great Dagger',
 					description: 'Level up your Dagger up to level 150.',
-					percent: 44.6,
+					percent: 44.7,
 					icon: '9cbb15dae6087cc44009d79150e113ed55c2fdb5.jpg',
 					icongray: 'a190fd3a70df4cc00a494b172c90bfcb87243b5c.jpg',
 					hidden: 0
@@ -44486,7 +44395,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Great Helmet',
 					description: 'Level up your Helmet up to level 150.',
-					percent: 45.5,
+					percent: 45.6,
 					icon: '050bf3ff400ce2bf5d7fb4ff79f4c43c3630f8d3.jpg',
 					icongray: '7746b0a4736d6d39f8e2ed18fab6bc343a98f2da.jpg',
 					hidden: 0
@@ -44497,7 +44406,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Great Necklace',
 					description: 'Level up your Necklace up to level 150.',
-					percent: 36,
+					percent: 36.1,
 					icon: '678a5ef6840a42607db72454c6908b29cec0a2e8.jpg',
 					icongray: 'beaa59e43535cfb937e8edfaf2e2fcc58c19ca6b.jpg',
 					hidden: 0
@@ -44508,7 +44417,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Great Ring',
 					description: 'Level up your Ring up to level 150.',
-					percent: 44.9,
+					percent: 45,
 					icon: 'b086132dbd7056fdf85053802ba80a5f6d58dd30.jpg',
 					icongray: '82ac25b652ab637e1b87a2215acc4453390c2a24.jpg',
 					hidden: 0
@@ -44519,7 +44428,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Great Shield',
 					description: 'Level up your Shield up to level 150.',
-					percent: 47.2,
+					percent: 47.4,
 					icon: 'efd7801a985a1374ac260f3b35fd47ee363ef1e1.jpg',
 					icongray: '94124ab9b06fbf02e4059a0baa6b62841da01d55.jpg',
 					hidden: 0
@@ -44530,7 +44439,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Great Spirit',
 					description: 'Level up your Spirit up to level 150.',
-					percent: 39.3,
+					percent: 39.4,
 					icon: '83d5e5dd0044ee5ff1befc644163a64a0dd64701.jpg',
 					icongray: '017f2d0bb8ef75b23478a0741866f5116c1fb8ac.jpg',
 					hidden: 0
@@ -44541,7 +44450,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Great Staff',
 					description: 'Level up your Staff up to level 150.',
-					percent: 43.9,
+					percent: 44,
 					icon: '30925aa0d5ac1e607ae6007d9d4ae0f69917cf0b.jpg',
 					icongray: '8caba2af78859798a1d69fa5e51ab776bcf7fd2d.jpg',
 					hidden: 0
@@ -44552,7 +44461,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Great Sword',
 					description: 'Level up your Sword up to level 150.',
-					percent: 49,
+					percent: 49.1,
 					icon: 'f09c0aa636b2c0b90f659a85c1539430b7348e3a.jpg',
 					icongray: '95dde0156a4417d2f17c4e5c772df99b94b35c53.jpg',
 					hidden: 0
@@ -44574,7 +44483,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: 'Handworker',
 					description: 'Craft a total of 100 Temporary Items.',
-					percent: 11.9,
+					percent: 12,
 					icon: '2996c6d42598033345ae0b461cd331185ae6cc25.jpg',
 					icongray: 'b470ad86cbf29979eed42b713a16da11e32f95e4.jpg',
 					hidden: 0
@@ -44585,7 +44494,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Heavy Duty',
 					description: "Buy the 'Bag' Ascension Upgrade.",
-					percent: 26.4,
+					percent: 26.5,
 					icon: 'a7da31f9909e831fcd56c49d2c8d0b6c56054a17.jpg',
 					icongray: 'f1c245b469ba35d3101c1c39178e92acad92d1d0.jpg',
 					hidden: 0
@@ -44607,7 +44516,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Hundred Coins',
 					description: 'Pick up 100 Coins.',
-					percent: 70.3,
+					percent: 70.4,
 					icon: '8ac0df05e281abd05d28dfd8d995886648ac14b2.jpg',
 					icongray: '39f55c9266ec01934c46ae613bd4464bd999ac98.jpg',
 					hidden: 0
@@ -44618,7 +44527,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: 'Hungry For Upgrades',
 					description: 'Buy 125 Upgrades all at once.',
-					percent: 19.1,
+					percent: 19.2,
 					icon: 'bde76ac7d01a5049528f2387f135fd3c7d32777b.jpg',
 					icongray: 'aab33a99b4f2b5b6d9b1507ab85f27c60741845a.jpg',
 					hidden: 0
@@ -44629,7 +44538,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Idle Slayer & KNUCKLES',
 					description: 'Use the Boost 500 times.',
-					percent: 37,
+					percent: 37.1,
 					icon: '972d0eee329399a8b4ae28fe81fddabadc51380c.jpg',
 					icongray: '8cdaa761733240772db671c20d5562838f51c913.jpg',
 					hidden: 0
@@ -44640,7 +44549,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: "I'll Take Everything",
 					description: 'Buy 25 Upgrades all at once.',
-					percent: 33.2,
+					percent: 33.3,
 					icon: 'b863e2398765a4815c8c7e97aca4e38bab0c3d53.jpg',
 					icongray: '6fc57af12ffeb5eb83353f1736411d055919723e.jpg',
 					hidden: 0
@@ -44651,7 +44560,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: "I'm Done For Today",
 					description: 'Complete 3 Daily Quests.',
-					percent: 21.5,
+					percent: 21.6,
 					icon: '12ce74e8cd0d1abd9bae241aad4cae90172d4b50.jpg',
 					icongray: 'a2f823de127aad2932702b1621b63d308459a716.jpg',
 					hidden: 0
@@ -44662,7 +44571,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Incredible Armor',
 					description: 'Level up your Armor up to level 350.',
-					percent: 36.8,
+					percent: 36.9,
 					icon: '309858a5b6e9145fc5a6fe590c2375919f4a4e40.jpg',
 					icongray: '490bf8dca5dcccb3f9f383ae577d57262b8c13b5.jpg',
 					hidden: 0
@@ -44673,7 +44582,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Incredible Axe',
 					description: 'Level up your Axe up to level 350.',
-					percent: 31.7,
+					percent: 31.8,
 					icon: '9fe9ff80fb8c87946c949495be215457beadf588.jpg',
 					icongray: '64d58604ac3b77cda0f0cd3021dfeb92015a6b01.jpg',
 					hidden: 0
@@ -44684,7 +44593,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Incredible Book',
 					description: 'Level up your Spellbook up to level 350.',
-					percent: 25.1,
+					percent: 25.2,
 					icon: '9e54832c05084759d9082089fa280b16022053be.jpg',
 					icongray: '6c9247a688bf941367749dee913a71603d7e1bf6.jpg',
 					hidden: 0
@@ -44695,7 +44604,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Incredible Boots',
 					description: 'Level up your Boots up to level 350.',
-					percent: 34.6,
+					percent: 34.7,
 					icon: '7cac86ae6a02ba87eda3337dff56ef1abcf7b381.jpg',
 					icongray: '3ae24ef88d21fde5c62f7663ac45d8a62e9fb4c1.jpg',
 					hidden: 0
@@ -44706,7 +44615,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Incredible Bow',
 					description: 'Level up your Bow up to level 350.',
-					percent: 27.2,
+					percent: 27.3,
 					icon: '14ddc9da760682fa96bc17b7b14969c73002379f.jpg',
 					icongray: '577a7d055e35534ebb61ca7ec2f7f9b632a1e078.jpg',
 					hidden: 0
@@ -44717,7 +44626,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Incredible Dagger',
 					description: 'Level up your Dagger up to level 350.',
-					percent: 33.4,
+					percent: 33.5,
 					icon: '7363818be7456222b5212732522751a3c913b14c.jpg',
 					icongray: '5e054a2e6d60fb113386fb03f920571fe8a75370.jpg',
 					hidden: 0
@@ -44728,7 +44637,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Incredible Helmet',
 					description: 'Level up your Helmet up to level 350.',
-					percent: 35.2,
+					percent: 35.3,
 					icon: '5843b6fa432ed610c74ec31a5cd2f4e5b853b03e.jpg',
 					icongray: 'ea2724fd9fcbaa809ea76c77c682719cd980381e.jpg',
 					hidden: 0
@@ -44739,7 +44648,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Incredible Necklace',
 					description: 'Level up your Necklace up to level 350.',
-					percent: 20.6,
+					percent: 20.7,
 					icon: 'e44bb3e56abdfe9a0bddf50897fba659cd3fac19.jpg',
 					icongray: '720ad29c0937b6dbf01ca163b0b00eb1c8072cb8.jpg',
 					hidden: 0
@@ -44750,7 +44659,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Incredible Ring',
 					description: 'Level up your Ring up to level 350.',
-					percent: 34,
+					percent: 34.1,
 					icon: '3d895bc67b2a586feffcf18bec02794bcc763152.jpg',
 					icongray: 'a5d79a0183fa6a2242193a29db7ec2adeb1c46ec.jpg',
 					hidden: 0
@@ -44761,7 +44670,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Incredible Shield',
 					description: 'Level up your Shield up to level 350.',
-					percent: 38.5,
+					percent: 38.6,
 					icon: '3788c04c87456fbe815ed4f04cb18309a4dda9ab.jpg',
 					icongray: 'ad740fc1a42d156471b09ce00e8a47eb246da123.jpg',
 					hidden: 0
@@ -44794,7 +44703,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Incredible Sword',
 					description: 'Level up your Sword up to level 350.',
-					percent: 40.2,
+					percent: 40.3,
 					icon: '5b650e2c127f7c13aba6654555c7221feead7c50.jpg',
 					icongray: '69e74b08e615dec3c42655d230c50f8bb973b420.jpg',
 					hidden: 0
@@ -44805,7 +44714,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Indidle Jones',
 					description: 'Pick up 150 Rubies.',
-					percent: 36.6,
+					percent: 36.7,
 					icon: 'bc436836abe56210c1886390b535ae7745df0045.jpg',
 					icongray: '5c50483a7e9975ed98b71507b219df441a89a42b.jpg',
 					hidden: 0
@@ -44816,7 +44725,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'In Love With It',
 					description: 'Play the game for 30 days.',
-					percent: 34.8,
+					percent: 34.9,
 					icon: 'dcc9dab1eb26c90a0fc6cd8af1a7217cc0de80b0.jpg',
 					icongray: '3857e29158a3fa19c636ad686cd1d879b2b76c4e.jpg',
 					hidden: 0
@@ -44827,7 +44736,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: "It's A Long Way To The Top",
 					description: 'Get an equipment up to level +500.',
-					percent: 30.3,
+					percent: 30.4,
 					icon: '15c08f2c91b5af8266e34cd5655e5cc60f3e0a97.jpg',
 					icongray: '117fd9b8f146dedf2bdf9a58f2516627db4953c3.jpg',
 					hidden: 0
@@ -44838,7 +44747,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'I Am Legend',
 					description: "Buy the 'Legendary Belt' Ascension Upgrade.",
-					percent: 39,
+					percent: 39.1,
 					icon: '8f040b05618bc441b55438cae20ce0ec57600b9f.jpg',
 					icongray: 'cdabdeff739b2aa82f2097243a0fb6b51c004a37.jpg',
 					hidden: 0
@@ -44849,7 +44758,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Jeweller',
 					description: 'Get 50% gem spawn rate from Random Events.',
-					percent: 13.1,
+					percent: 13.2,
 					icon: '1e35c3b6967aa3923ba9602012ac2cc34a5635f7.jpg',
 					icongray: 'f1b85fb665d41dce11d70c43ecb7926bb5ab3315.jpg',
 					hidden: 0
@@ -44860,7 +44769,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Jumper',
 					description: 'Use 50 Portals.',
-					percent: 27.4,
+					percent: 27.5,
 					icon: 'c53c5e79072028dc50b42647893c15946ca0adf0.jpg',
 					icongray: 'ff4c8927cda6ebf4b222adaac242cedf4b0cf921.jpg',
 					hidden: 0
@@ -44871,7 +44780,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Lady Luck',
 					description: 'Get a multiplier extended.',
-					percent: 39.4,
+					percent: 39.5,
 					icon: 'f1bda4718959053efa20c7f2147c33668a7ebf42.jpg',
 					icongray: '29cf60aa27022c837c04826b9b286e2bf98caf09.jpg',
 					hidden: 0
@@ -44926,7 +44835,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Minions Have Spawned',
 					description: "Buy the 'Minions' Ascension Upgrade.",
-					percent: 32.5,
+					percent: 32.6,
 					icon: 'fb3e7b63abef657ccbc668c31e764b68e631882b.jpg',
 					icongray: '25f34b9105ac2e09432c43407c245b096a9afba3.jpg',
 					hidden: 0
@@ -44937,7 +44846,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Minion Levels I',
 					description: 'Let a Minion complete a Mission.',
-					percent: 31.4,
+					percent: 31.5,
 					icon: '1952fbd963a5452ce8e75efd6be2ecd5ce72116d.jpg',
 					icongray: '84dd090ba4750f48d8f16e9f68d5674926047336.jpg',
 					hidden: 0
@@ -44948,7 +44857,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Minion Levels II',
 					description: 'Get a total of 10 Minion levels.',
-					percent: 28.7,
+					percent: 28.8,
 					icon: 'e2db591a7212d3b55fce6f0cac55ab90c9a03b5b.jpg',
 					icongray: 'a0b8d1db144632eaccf2608bd06368fd832bca0e.jpg',
 					hidden: 0
@@ -44959,7 +44868,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Minion Levels III',
 					description: 'Get a total of 25 Minion levels.',
-					percent: 26.1,
+					percent: 26.2,
 					icon: 'ff12c97243efadc83396bcf1bc83185954fdcfc6.jpg',
 					icongray: 'e6cfa84958f68a121e80815decebb8140d35ce96.jpg',
 					hidden: 0
@@ -44981,7 +44890,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Minions Levels V',
 					description: 'Get a total of 75 Minion levels.',
-					percent: 22,
+					percent: 22.1,
 					icon: 'd647cf3d1fb8e2d1fe2b967bb33ed66127a17b63.jpg',
 					icongray: 'f9f2d326c60be30aa07b8108a11f33881a9c7ce6.jpg',
 					hidden: 0
@@ -45025,7 +44934,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Multipliers I',
 					description: 'Get a x20 multiplier or more in a Chest Hunt.',
-					percent: 27,
+					percent: 27.1,
 					icon: 'f367edbabe515b21ea8ecbbe6f3c73385b2dfab6.jpg',
 					icongray: '304c7714f59afca3c64598e6cc9eda2ddd528ed8.jpg',
 					hidden: 0
@@ -45036,7 +44945,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Multipliers II',
 					description: 'Get a x30 multiplier or more in a Chest Hunt.',
-					percent: 22.6,
+					percent: 22.7,
 					icon: '480f32c4fbf5e8d1786d9ba07798492d22848752.jpg',
 					icongray: '8e6168d0ee762fc8a98dcda6a0fd9d5ad3ee1018.jpg',
 					hidden: 0
@@ -45080,7 +44989,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Nice Armor',
 					description: 'Level up your Armor up to level 100.',
-					percent: 51.7,
+					percent: 51.9,
 					icon: '73b3ed2ccb9ac45a265eb345c8a41ef566527f8c.jpg',
 					icongray: '80bea463062503581e976ef4f26f9d742a873fa7.jpg',
 					hidden: 0
@@ -45091,7 +45000,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Nice Axe',
 					description: 'Level up your Axe up to level 100.',
-					percent: 45.3,
+					percent: 45.5,
 					icon: 'e0fa428d5fc40e392adc05cc677e9416702fa085.jpg',
 					icongray: '3b54b41039f972cead772def0ddcfca97f34dd77.jpg',
 					hidden: 0
@@ -45102,7 +45011,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Nice Book',
 					description: 'Level up your Spellbook up to level 100.',
-					percent: 44.6,
+					percent: 44.7,
 					icon: '9b95dac0eb782ff22f5e3107db420247ec94fb55.jpg',
 					icongray: '682c2f94bf54105846b8734cef93d488d25825fe.jpg',
 					hidden: 0
@@ -45113,7 +45022,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Nice Boots',
 					description: 'Level up your Boots up to level 100.',
-					percent: 47.6,
+					percent: 47.8,
 					icon: '0b63cf626266ebe93c2711b51c5e4df8c75a8847.jpg',
 					icongray: 'beb114beed27d2008db6fc8f5d5b33c2f538400a.jpg',
 					hidden: 0
@@ -45124,7 +45033,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Nice Bow',
 					description: 'Level up your Bow up to level 100.',
-					percent: 44.8,
+					percent: 44.9,
 					icon: 'e9dad0a8e88a1da44bcf98d05d8f269beeff9b85.jpg',
 					icongray: 'ed7174827832819461ed9a87365922f226898cb5.jpg',
 					hidden: 0
@@ -45135,7 +45044,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: 'Nice Cape',
 					description: 'Level up your Cape up to level 100.',
-					percent: 14.6,
+					percent: 14.7,
 					icon: 'f6bd90abf0ab81ac7b513d5db542a70fd678ffc6.jpg',
 					icongray: '53860d4d79f86e5adde38c176bfa06db2c17bba6.jpg',
 					hidden: 0
@@ -45146,7 +45055,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Nice Dagger',
 					description: 'Level up your Dagger up to level 100.',
-					percent: 45.9,
+					percent: 46,
 					icon: '27792507a45d9d56797b51b7ff0bd130c070f04b.jpg',
 					icongray: '4bb0e49f69f28def49d7fffdef3a6614b1d9e724.jpg',
 					hidden: 0
@@ -45157,7 +45066,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Nice Gloves',
 					description: 'Level up your Gloves up to level 100.',
-					percent: 30.4,
+					percent: 30.5,
 					icon: 'f5291b55f408c8c7dca5028191905b6c24525b07.jpg',
 					icongray: '28386d74ac3445fe9beb8852c0abd8aae9032938.jpg',
 					hidden: 0
@@ -45168,7 +45077,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Nice Helmet',
 					description: 'Level up your Helmet up to level 100.',
-					percent: 49.1,
+					percent: 49.2,
 					icon: '9f6e0ba88e0bb454e6ae2d94d0f946020f03ef0c.jpg',
 					icongray: '76704026c884ad4d81e159673cc2580ecf109a3e.jpg',
 					hidden: 0
@@ -45179,7 +45088,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Nice Jump',
 					description: 'Jump high.',
-					percent: 32,
+					percent: 32.1,
 					icon: '2faec1b69963cfc4862229576196f629638d02fc.jpg',
 					icongray: 'f0c877f6375b911c87b48e7e3bb7d75374da7d90.jpg',
 					hidden: 0
@@ -45190,7 +45099,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Nice Necklace',
 					description: 'Level up your Necklace up to level 100.',
-					percent: 41.5,
+					percent: 41.6,
 					icon: '762e57405fdbe305b65a6861baa91df0d03387fa.jpg',
 					icongray: '93d4ffd6c53f4cf3e4287ad51d8eb24652387946.jpg',
 					hidden: 0
@@ -45201,7 +45110,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Nice Ring',
 					description: 'Level up your Ring up to level 100.',
-					percent: 46.6,
+					percent: 46.7,
 					icon: 'd63dd6e60663ca16c73dd403607910f679b91f7d.jpg',
 					icongray: '5f8eb28ec7a777f9047938400cac6e5c8fbdca2c.jpg',
 					hidden: 0
@@ -45212,7 +45121,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Nice Shield',
 					description: 'Level up your Shield up to level 100.',
-					percent: 54.6,
+					percent: 54.7,
 					icon: 'fe3187a17ba108da9e93f12b920509ab197f0b3b.jpg',
 					icongray: '9a4967251db3ef5279a9c1a1570a94478e5466fd.jpg',
 					hidden: 0
@@ -45223,7 +45132,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Nice Spirit',
 					description: 'Level up your Spirit up to level 100.',
-					percent: 44,
+					percent: 44.2,
 					icon: '9afe772bd33314cd4a5792c4e11b7b3fa69c6e02.jpg',
 					icongray: 'f4cb956b56236971c7d2eef272991345610635c7.jpg',
 					hidden: 0
@@ -45234,7 +45143,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Nice Staff',
 					description: 'Level up your Staff up to level 100.',
-					percent: 45.1,
+					percent: 45.2,
 					icon: '03e205f09678005180e74830192609446beba328.jpg',
 					icongray: '82adb093d0069cf41fc7a9ca61b7f7df96b98f33.jpg',
 					hidden: 0
@@ -45245,7 +45154,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Nice Sword',
 					description: 'Level up your Sword up to level 100.',
-					percent: 57.2,
+					percent: 57.4,
 					icon: '3301f5ff83e0a5f5a9f6f3e9c1808df973a86591.jpg',
 					icongray: '0cbeeed5c9a1abb595dad80e042b004701ead67f.jpg',
 					hidden: 0
@@ -45256,7 +45165,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Not a Question Block',
 					description: 'Trigger 50 Random Boxes.',
-					percent: 46.4,
+					percent: 46.5,
 					icon: '4717f72c5b1ecb6b910ebbf54db0d3d16888effb.jpg',
 					icongray: '2c6c56ac3dd2b557d2f1cc0cff1a8a9c2b5dbb10.jpg',
 					hidden: 0
@@ -45267,7 +45176,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Not Idling',
 					description: 'Play the game for 7 days.',
-					percent: 42.9,
+					percent: 43,
 					icon: '217c22384758b1247086e34b15aa1d7216f777c0.jpg',
 					icongray: 'c749f27c79822642915bf2670d4d116550987934.jpg',
 					hidden: 0
@@ -45300,7 +45209,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'OMG THAT AXE',
 					description: 'Level up your Axe up to level 450.',
-					percent: 21.9,
+					percent: 22,
 					icon: 'b1c441bf3155e0b8be110fc563b7c7a3a15b238b.jpg',
 					icongray: '617f61dd15d5254843631383a33b5ddf64802682.jpg',
 					hidden: 0
@@ -45322,7 +45231,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'OMG THAT BOW',
 					description: 'Level up your Bow up to level 450.',
-					percent: 20.1,
+					percent: 20.2,
 					icon: '04baeb1873e70dde99bd8993bdeec9691d9e0473.jpg',
 					icongray: '2275e77b9e6d0d264af07af7591faea84204a930.jpg',
 					hidden: 0
@@ -45344,7 +45253,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'OMG THAT HELMET',
 					description: 'Level up your Helmet up to level 450.',
-					percent: 28.9,
+					percent: 29,
 					icon: 'b02ae6f8f5fef97420b02b719b7acf5b5a9d4f0c.jpg',
 					icongray: '81af45c248536bc29c4d36540a42ba7dc3822299.jpg',
 					hidden: 0
@@ -45355,7 +45264,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'OMG THAT RING',
 					description: 'Level up your Ring up to level 450.',
-					percent: 25.7,
+					percent: 25.8,
 					icon: '330d6b7740912538c37b5aa0b55052fe2f2884e8.jpg',
 					icongray: 'a3d354eb4e4bf1f7c0ca1aefd2c039494e947946.jpg',
 					hidden: 0
@@ -45366,7 +45275,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'OMG THAT SHIELD',
 					description: 'Level up your Shield up to level 450.',
-					percent: 32.9,
+					percent: 33,
 					icon: '4225b56617aa2a01a906ffbfc819aec9769f742f.jpg',
 					icongray: '67f6907e9b01610e868fe01efdd7c35bacc794ca.jpg',
 					hidden: 0
@@ -45377,7 +45286,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: 'OMG THAT SPIRIT',
 					description: 'Level up your Spirit up to level 450.',
-					percent: 15,
+					percent: 15.1,
 					icon: '02d5c76a628f9e3efb646fd33490632f65daca2b.jpg',
 					icongray: 'b1974bfe9aa9ba63afe485ed5b9ea0afa4d92f01.jpg',
 					hidden: 0
@@ -45388,7 +45297,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'OMG THAT STAFF',
 					description: 'Level up your Staff up to level 450.',
-					percent: 21.3,
+					percent: 21.4,
 					icon: '6cef27d64bb8905e912fc3eca49926bc9c5f9d0e.jpg',
 					icongray: '5249a4c800a95e2dc2a13330781f276f457054c1.jpg',
 					hidden: 0
@@ -45399,7 +45308,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'OMG THAT SWORD',
 					description: 'Level up your Sword up to level 450.',
-					percent: 33.9,
+					percent: 34,
 					icon: 'a7fad13ee67216beb7cbb90ad415cbbb7f5fb100.jpg',
 					icongray: '10de4b7ffc31ea172043e01639a43bbba5383ee3.jpg',
 					hidden: 0
@@ -45421,7 +45330,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'One Arrow Eight Kills',
 					description: 'Kill 8 enemies with one single arrow.',
-					percent: 33,
+					percent: 33.1,
 					icon: 'bdbdc922c11ac03b7876b9a2077303ced5d7c29b.jpg',
 					icongray: 'c3e696f206bc0264df1a76e2504f046f2102e958.jpg',
 					hidden: 0
@@ -45432,7 +45341,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Outstanding Armor',
 					description: 'Level up your Armor up to level 300.',
-					percent: 41.6,
+					percent: 41.8,
 					icon: '9c6f2284e3038f042051736189d80888c96d1041.jpg',
 					icongray: '451a5ce749a2023ce9b4fc3d88d93b332e3af593.jpg',
 					hidden: 0
@@ -45443,7 +45352,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Outstanding Axe',
 					description: 'Level up your Axe up to level 300.',
-					percent: 34.3,
+					percent: 34.4,
 					icon: 'cefe59708ef0104712a7e9f713a7f96174dee0a6.jpg',
 					icongray: '40aa38f8fc58da583587254dadc2fad8ac55b485.jpg',
 					hidden: 0
@@ -45465,7 +45374,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Outstanding Boots',
 					description: 'Level up your Boots up to level 300.',
-					percent: 38.4,
+					percent: 38.5,
 					icon: '558309be7dde7979de223da60cc6bf3aa961e6dd.jpg',
 					icongray: '8534820b5672f08fd61861ad0b35e6aa2ff4bd38.jpg',
 					hidden: 0
@@ -45487,7 +45396,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Outstanding Dagger',
 					description: 'Level up your Dagger up to level 300.',
-					percent: 35.5,
+					percent: 35.6,
 					icon: 'dd671c60107ed76b45ecc3ef58eadcec94443ebc.jpg',
 					icongray: '6abc3051d129e64e02cc6b318987ccadf9de632e.jpg',
 					hidden: 0
@@ -45498,7 +45407,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: 'Outstanding Gloves',
 					description: 'Level up your Gloves up to level 300.',
-					percent: 12.4,
+					percent: 12.5,
 					icon: 'aba7c0c742f6c40856ccc8d2096b36051b7f4d3a.jpg',
 					icongray: '3b20142fb2c3dab1614d88ddca1354a7947ce7e0.jpg',
 					hidden: 0
@@ -45509,7 +45418,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Outstanding Helmet',
 					description: 'Level up your Helmet up to level 300.',
-					percent: 39.6,
+					percent: 39.7,
 					icon: 'aa74fc568a10733365267683a268e5c66ea3a260.jpg',
 					icongray: '6cf91ecb5351b27a286b9b31a9faf3f662f203ea.jpg',
 					hidden: 0
@@ -45520,7 +45429,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Outstanding Necklace',
 					description: 'Level up your Necklace up to level 300.',
-					percent: 23.2,
+					percent: 23.3,
 					icon: '3a0a59810f59e9584b542e203ae0591c2f4263e1.jpg',
 					icongray: '5735c7a52c72be96cbae9d9f2f17f232d426dd66.jpg',
 					hidden: 0
@@ -45531,7 +45440,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Outstanding Ring',
 					description: 'Level up your Ring up to level 300.',
-					percent: 36.8,
+					percent: 36.9,
 					icon: '3d29e915ac26181f5a8b204bef6ca09a3727f409.jpg',
 					icongray: 'f6e3dc3f2657a8fe3220f632050264a5e4841653.jpg',
 					hidden: 0
@@ -45542,7 +45451,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Outstanding Shield',
 					description: 'Level up your Shield up to level 300.',
-					percent: 43.1,
+					percent: 43.2,
 					icon: 'b9149d7f286c935f02757de9dbc67b47b3721467.jpg',
 					icongray: '9de9d3ed01f881455517d5ed8b1d273d1a94fd90.jpg',
 					hidden: 0
@@ -45564,7 +45473,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Outstanding Staff',
 					description: 'Level up your Staff up to level 300.',
-					percent: 33.8,
+					percent: 33.9,
 					icon: '0ad6b7f677e5e28554b0bd63e77ff2a30f700659.jpg',
 					icongray: '772d96a86de92f0f1207860dc6b3669486710b0a.jpg',
 					hidden: 0
@@ -45575,7 +45484,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Outstanding Sword',
 					description: 'Level up your Sword up to level 300.',
-					percent: 44.1,
+					percent: 44.2,
 					icon: 'd5fa1cfddb48609e82b0b35bf8cba79541fcdbe1.jpg',
 					icongray: '1d7bfbd36c03541e29d9dc80834240a2a9cc6c9b.jpg',
 					hidden: 0
@@ -45586,7 +45495,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Platform Beginner',
 					description: 'Complete 1 section of the Bonus Stage.',
-					percent: 51.2,
+					percent: 51.4,
 					icon: '414d50bd3687c9be27f156cf761bca4ef7584f8c.jpg',
 					icongray: '7d1427890cdf8dc800bc0ea70b624e537fcf3acb.jpg',
 					hidden: 0
@@ -45597,7 +45506,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Platform Experienced',
 					description: 'Complete a total of 5 sections of the Bonus Stage.',
-					percent: 42.8,
+					percent: 42.9,
 					icon: '414d50bd3687c9be27f156cf761bca4ef7584f8c.jpg',
 					icongray: '7d1427890cdf8dc800bc0ea70b624e537fcf3acb.jpg',
 					hidden: 0
@@ -45608,7 +45517,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Platform Master',
 					description: 'Complete a total of 50 sections of the Bonus Stage.',
-					percent: 27.9,
+					percent: 28,
 					icon: '414d50bd3687c9be27f156cf761bca4ef7584f8c.jpg',
 					icongray: '80fc479925dc74b6438ca15f4acb3f1feaf07bb5.jpg',
 					hidden: 0
@@ -45619,7 +45528,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Platform Veteran',
 					description: 'Complete a total of 100 sections of the Bonus Stage.',
-					percent: 23,
+					percent: 23.1,
 					icon: '414d50bd3687c9be27f156cf761bca4ef7584f8c.jpg',
 					icongray: '7d1427890cdf8dc800bc0ea70b624e537fcf3acb.jpg',
 					hidden: 0
@@ -45641,7 +45550,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Prithee Be Careful',
 					description: 'Craft a total of 20 Temporary Items.',
-					percent: 17.5,
+					percent: 17.6,
 					icon: '1195ce71ccfafab40858a082acb266cd58888eea.jpg',
 					icongray: '39b99ae75a3fab9cb6183aca7a1ef10537eb37b9.jpg',
 					hidden: 0
@@ -45652,7 +45561,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Pure RNG',
 					description: 'Trigger 1,000 Random Boxes.',
-					percent: 24.1,
+					percent: 24.2,
 					icon: '0fcaacfc7da6dbc4f7578a802e3b47eabd096762.jpg',
 					icongray: '5642162ce37aff7aa2ebc43e00698e595d732342.jpg',
 					hidden: 0
@@ -45663,7 +45572,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: 'Quadrupler',
 					description: 'Have 4 multipliers active at the same time.',
-					percent: 14.9,
+					percent: 15,
 					icon: '70971312c5dff69ce4c026ccc0e82937b85bac83.jpg',
 					icongray: 'd58150fdb59ba469dfd2f9920d3f258d50a5067f.jpg',
 					hidden: 0
@@ -45674,7 +45583,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Quests Slayer I',
 					description: 'Claim 4 Quests.',
-					percent: 64.7,
+					percent: 64.8,
 					icon: '759f35074152964e7bf7e83e60ac18b3ae3a06f7.jpg',
 					icongray: 'b424bed9fd9b1e8c999de46ba6f8b03c2fee81b8.jpg',
 					hidden: 0
@@ -45685,7 +45594,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Quests Slayer II',
 					description: 'Claim 8 Quests.',
-					percent: 58.2,
+					percent: 58.4,
 					icon: 'c010377a6cb7fd118624bbc82066bc942ea0bb0e.jpg',
 					icongray: '19a9f5effe4f83286a82234478a8c23cc8535a8e.jpg',
 					hidden: 0
@@ -45696,7 +45605,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Quests Slayer III',
 					description: 'Claim 15 Quests.',
-					percent: 41.1,
+					percent: 41.2,
 					icon: '66c073ea3d4c0cca80103e71b6d2fd3e5dbdd70c.jpg',
 					icongray: 'd9a8971bc7a122bd8e5b538a032c53eb53ffd8c9.jpg',
 					hidden: 0
@@ -45707,7 +45616,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Quests Slayer IV',
 					description: 'Claim 30 Quests.',
-					percent: 32.1,
+					percent: 32.2,
 					icon: 'a4831621b8074526270bd7b1565e3c6586e19687.jpg',
 					icongray: '0594aabff3fc7ba736a375052eadbae7fdb7d6d3.jpg',
 					hidden: 0
@@ -45729,7 +45638,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Quest Investigation',
 					description: 'Check the rewards of a Quest.',
-					percent: 52.1,
+					percent: 52.2,
 					icon: 'a331dc881034aa4dc44ba56e9dee20be60f3cc93.jpg',
 					icongray: '0affa0eb02d6823bba411acdbc3d5cbc4fc7a9fc.jpg',
 					hidden: 0
@@ -45740,7 +45649,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Random But Not Random',
 					description: 'Trigger 500 Random Boxes.',
-					percent: 29.7,
+					percent: 29.8,
 					icon: '8337985a08fc1b9d4b5d14c716474775c14af5a2.jpg',
 					icongray: '72c77c44612e6fe6954f0090b99c4075dbf14da5.jpg',
 					hidden: 0
@@ -45751,7 +45660,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Random Is Fun',
 					description: 'Trigger 100 Random Boxes.',
-					percent: 40.6,
+					percent: 40.7,
 					icon: 'df0d712fcb76fa15cbdf5f74f8e53047da5020d9.jpg',
 					icongray: 'db6e4ae6b437d260e832486a158f971c1ab589c3.jpg',
 					hidden: 0
@@ -45762,7 +45671,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Revenge',
 					description: 'Slay 10 Mimics.',
-					percent: 20.3,
+					percent: 20.4,
 					icon: '4bbb442dc96047a252c49daa0f44b18f50fff7aa.jpg',
 					icongray: 'b5acfc4c5b3a835c95a40debde4abc561d24cffd.jpg',
 					hidden: 0
@@ -45773,7 +45682,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Ring of Recoil Material',
 					description: 'Pick up 1,000 Sapphires.',
-					percent: 24.6,
+					percent: 24.7,
 					icon: '5ccf0e4e40e87c4747647dcd574516d06310eb30.jpg',
 					icongray: 'bf41f7aeac0f3c35c52f109757d00da579a5588b.jpg',
 					hidden: 0
@@ -45784,7 +45693,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Rubies Collector',
 					description: 'Pick up 50 Rubies.',
-					percent: 38.2,
+					percent: 38.3,
 					icon: 'fa7f947dce17f13dbe8e08a7e5c01fa1c418f9ae.jpg',
 					icongray: '8b1f14d18ca068cb00e1a338767d08dba667a855.jpg',
 					hidden: 0
@@ -45795,7 +45704,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Ruby Ingot',
 					description: 'Pick up 10,000 Rubies.',
-					percent: 26.3,
+					percent: 26.4,
 					icon: '59355018beb924d6d8f5ca31b836698840dbd8f3.jpg',
 					icongray: 'f4f1c0d643cba81c2948822c4bf1ecea101b356f.jpg',
 					hidden: 0
@@ -45806,7 +45715,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Sapphire Ingot',
 					description: 'Pick up 10,000 Sapphires.',
-					percent: 18.6,
+					percent: 18.7,
 					icon: 'b9e734eb4f53cea461d02749b82bbb190334e960.jpg',
 					icongray: '223e39ca522bd3b22339c3cd1f1cf179ba43f458.jpg',
 					hidden: 0
@@ -45817,7 +45726,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Scarlet Master',
 					description: 'Pick up 1,000 Rubies.',
-					percent: 33.1,
+					percent: 33.2,
 					icon: 'cdbbcf09bd1963474805f590af03cda299237b8b.jpg',
 					icongray: '3bf2a46e6c98a48889ef699de62b9b5f0509cd0a.jpg',
 					hidden: 0
@@ -45828,7 +45737,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Shiny Red',
 					description: 'Pick up 500 Rubies.',
-					percent: 34.3,
+					percent: 34.4,
 					icon: '5c8abddbdfeebd92085300d0d7c163940542e4fc.jpg',
 					icongray: '35c5e9974e400c51b3e3564c504ac164b3ee735f.jpg',
 					hidden: 0
@@ -45839,7 +45748,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Skilled',
 					description: 'Complete a full Bonus Stage.',
-					percent: 35.7,
+					percent: 35.8,
 					icon: 'f903437525206bd169f15dff57e4fca90038e5aa.jpg',
 					icongray: 'f2b3f725fb145a08a9a7d93a1ecdb2d173e4d9f3.jpg',
 					hidden: 0
@@ -45850,7 +45759,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Sonic The Hedgehog',
 					description: 'Use the Boost 100 times.',
-					percent: 48.1,
+					percent: 48.2,
 					icon: '4ec5aa26110084dfe200c7e19529e5265ee2ac93.jpg',
 					icongray: '4208c4b0a6f6d981e9abf3e088c53c9c8e084d46.jpg',
 					hidden: 0
@@ -45861,7 +45770,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Speedrun',
 					description: 'Complete a full Bonus Stage without falling once.',
-					percent: 23.1,
+					percent: 23.2,
 					icon: '414d50bd3687c9be27f156cf761bca4ef7584f8c.jpg',
 					icongray: '7d1427890cdf8dc800bc0ea70b624e537fcf3acb.jpg',
 					hidden: 0
@@ -45872,7 +45781,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Speeds By',
 					description: 'Use the Boost 50 times.',
-					percent: 53.8,
+					percent: 53.9,
 					icon: '941b1651e7891d9ed68074403f1a9b94cbe644dd.jpg',
 					icongray: 'ef49899f4097133c1066e7c77ef1c2177542d1ad.jpg',
 					hidden: 0
@@ -45883,7 +45792,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Spirit Boosted Run',
 					description: 'Complete a Bonus Stage with the Spirit Boost mod active.',
-					percent: 15.1,
+					percent: 15.2,
 					icon: 'f9356798d7763a7ba60f16eedd9748a4f8ab439e.jpg',
 					icongray: '05784ff01f887b0342345d35faae9cd38d52fb68.jpg',
 					hidden: 0
@@ -45894,7 +45803,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: 'Spirit Speed',
 					description: 'Pick up 100 Spirit Boost spheres.',
-					percent: 13.8,
+					percent: 13.9,
 					icon: '1bf16e65c6c63fe0adaf05006266375c27db8e9a.jpg',
 					icongray: '3ad9521296dec3512a0217c90775de5f05742ba9.jpg',
 					hidden: 0
@@ -45916,7 +45825,7 @@ export const profile: Profile = {
 					unlocktime: 1721168685,
 					name: 'Stack Error Income',
 					description: 'Get 10 Dd Coins per Second.',
-					percent: 11.6,
+					percent: 11.7,
 					icon: '081423449cbdc3da5bf4e61b5932fef8742751b1.jpg',
 					icongray: 'c2836f3ab01df82a54c7bbbc9a78bd70f2095ad8.jpg',
 					hidden: 0
@@ -45949,7 +45858,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Super Sonic',
 					description: 'Use the Boost 1,000 times.',
-					percent: 33.1,
+					percent: 33.2,
 					icon: '94e0d2bde5a01c37307fcd8c93d16ea7a34c1bc4.jpg',
 					icongray: '5eecc7f7fbc82a4425d7e04f8a520103cfca0e73.jpg',
 					hidden: 0
@@ -45982,7 +45891,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Supreme Boots',
 					description: 'Level up your Boots up to level 500.',
-					percent: 22.7,
+					percent: 22.8,
 					icon: '74ea0c8a53e7ee10f2c08243a8a2b4a0850dcbe4.jpg',
 					icongray: 'd74e62f6259234256bead448608a25f6c021239b.jpg',
 					hidden: 0
@@ -46004,7 +45913,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Supreme Dagger',
 					description: 'Level up your Dagger up to level 500.',
-					percent: 21.2,
+					percent: 21.3,
 					icon: '2baf0d19a6b212cd836e69bcf5530fa48852a9c1.jpg',
 					icongray: '53ce5cde4920920e3a1388bdb4d8ea01d3f22e3c.jpg',
 					hidden: 0
@@ -46026,7 +45935,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Supreme Ring',
 					description: 'Level up your Ring up to level 500.',
-					percent: 21.8,
+					percent: 21.9,
 					icon: '614b261d720eb4832084fbdf80915d3ecbf01142.jpg',
 					icongray: 'a826c3480105c1bc852a9578b4bec500ee4a5504.jpg',
 					hidden: 0
@@ -46081,7 +45990,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Ten Coins',
 					description: 'Pick up 10 Coins.',
-					percent: 72.8,
+					percent: 73,
 					icon: 'ff4d55e231b3fa640f1cfec20a77a0c4042e73c4.jpg',
 					icongray: '36c69a42b6c7f08740f5487905c987d10caea973.jpg',
 					hidden: 0
@@ -46092,7 +46001,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'That Was Fun',
 					description: 'Find a Mimic on the first Chest you open.',
-					percent: 28.9,
+					percent: 29,
 					icon: '75b7cf355e32ef339d1f8283038b91652a11b9c5.jpg',
 					icongray: 'dd03c9221a696f115b2fa4a9ee23d5921ba3e961.jpg',
 					hidden: 0
@@ -46103,7 +46012,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'The Box! The Box!',
 					description: 'Trigger 20 Random Boxes.',
-					percent: 54.8,
+					percent: 55,
 					icon: '76ed1d4941ea946cf2a055c395d1dadad7d526c3.jpg',
 					icongray: '947ff7decc24c101fd41ff21f4c316e83209df5e.jpg',
 					hidden: 0
@@ -46114,7 +46023,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'The Completionist',
 					description: 'Unlock 150 Achievements.',
-					percent: 38.6,
+					percent: 38.7,
 					icon: '7b908caa1b5d7d5df020121f847f967aea21f7d7.jpg',
 					icongray: '78904c08073bbf74e6fcae0824c4031e295bacd8.jpg',
 					hidden: 0
@@ -46125,7 +46034,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'The Cookie Is A Lie',
 					description: 'Use 5 Portals.',
-					percent: 44.4,
+					percent: 44.5,
 					icon: 'c53c5e79072028dc50b42647893c15946ca0adf0.jpg',
 					icongray: 'ff4c8927cda6ebf4b222adaac242cedf4b0cf921.jpg',
 					hidden: 0
@@ -46136,7 +46045,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'The Importance of Being Idle',
 					description: 'Play the game for 15 days.',
-					percent: 39,
+					percent: 39.1,
 					icon: 'f24f7127ce93155df911489cdd4bdb06c2456bd3.jpg',
 					icongray: 'efba88d10f7b1b1e0a1654ac199731408b46ac03.jpg',
 					hidden: 0
@@ -46147,7 +46056,7 @@ export const profile: Profile = {
 					unlocktime: 1719953819,
 					name: 'The Lost Relics',
 					description: 'Buy something with Jewels of Soul.',
-					percent: 32.7,
+					percent: 32.8,
 					icon: 'fa908dab501eefa49b50740be7b7402f44fd2c86.jpg',
 					icongray: '74b77c54af52111a8acbfaf290c2b02af70143ed.jpg',
 					hidden: 0
@@ -46180,7 +46089,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Thousand Coins',
 					description: 'Pick up 1,000 Coins.',
-					percent: 61.9,
+					percent: 62,
 					icon: '57b7ec89b1c8ac2d99034a4aeb8b79b8ac4bfa73.jpg',
 					icongray: 'ceb9287da88afad40084b90b9e0183b83d13e8b8.jpg',
 					hidden: 0
@@ -46202,7 +46111,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'To The Grand Exchange!',
 					description: 'Pick up 150 Sapphires.',
-					percent: 27.1,
+					percent: 27.2,
 					icon: '67c297aae319f21440b0f47dc82070f2ea0c655d.jpg',
 					icongray: '2e4af2aac3971a89249518a8c7581a7285955399.jpg',
 					hidden: 0
@@ -46213,7 +46122,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: 'Transcendental Income',
 					description: 'Get 1 Ud Coins per Second.',
-					percent: 16.8,
+					percent: 16.9,
 					icon: '15defb674badc189081ca1177d6a2efe9b4c36fd.jpg',
 					icongray: 'ef7fa9f550980d102c0069d2d1bba506495800e9.jpg',
 					hidden: 0
@@ -46224,7 +46133,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Tripler',
 					description: 'Have 3 multipliers active at the same time.',
-					percent: 27.9,
+					percent: 28,
 					icon: '419fad279850790f6d7e4cc7ee1a4654492f57a0.jpg',
 					icongray: '197e03b8d2f4c7b851c87a6c18dd47998db31fdd.jpg',
 					hidden: 0
@@ -46257,7 +46166,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'UNBELIEVABLE BOOK',
 					description: 'Level up your Spellbook up to level 400.',
-					percent: 21.5,
+					percent: 21.6,
 					icon: 'e14dba5e3f000b64fde50e4036f0b754e7e5e771.jpg',
 					icongray: '43f19f44c72bea8c85477d6756c6da3752c88050.jpg',
 					hidden: 0
@@ -46268,7 +46177,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'UNBELIEVABLE BOOTS',
 					description: 'Level up your Boots up to level 400.',
-					percent: 32.7,
+					percent: 32.8,
 					icon: '0897f596e584a67ef09dc4515073ad9ee83fcba2.jpg',
 					icongray: '77a6ca4acd54714adfd3a6c0fa0b447b86788a40.jpg',
 					hidden: 0
@@ -46290,7 +46199,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'UNBELIEVABLE DAGGER',
 					description: 'Level up your Dagger up to level 400.',
-					percent: 29.3,
+					percent: 29.4,
 					icon: '606be876cf0bd9141af4ac179d6fafc7cb7c6bfb.jpg',
 					icongray: '1de345fa1215a5efe9c32be701d6d8efb0efeaff.jpg',
 					hidden: 0
@@ -46301,7 +46210,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'UNBELIEVABLE HELMET',
 					description: 'Level up your Helmet up to level 400.',
-					percent: 33.5,
+					percent: 33.6,
 					icon: 'aad26db075749f4759d4d47e5488eef28d856558.jpg',
 					icongray: 'f18723878819a70d979c5b7788e9243064a25997.jpg',
 					hidden: 0
@@ -46323,7 +46232,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'UNBELIEVABLE RING',
 					description: 'Level up your Ring up to level 400.',
-					percent: 31.2,
+					percent: 31.3,
 					icon: 'a10e348273f420b32d998604c109d2dcb38f44db.jpg',
 					icongray: 'f616070d8ce424967cdcb0c3826943abb9d6b332.jpg',
 					hidden: 0
@@ -46334,7 +46243,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'UNBELIEVABLE SHIELD',
 					description: 'Level up your Shield up to level 400.',
-					percent: 35,
+					percent: 35.1,
 					icon: 'fb24b7444d385c501cd2996e3036aa3d64897b13.jpg',
 					icongray: '56d048205a4611fb853f1e2c45acb89a2ebf319d.jpg',
 					hidden: 0
@@ -46356,7 +46265,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'UNBELIEVABLE STAFF',
 					description: 'Level up your Staff up to level 400.',
-					percent: 24.8,
+					percent: 24.9,
 					icon: '2e19747a06ff99b0e37328d4edc8f087311a22f6.jpg',
 					icongray: 'dcc32fce484e81678172bb6de868c6ce6a7b2b1e.jpg',
 					hidden: 0
@@ -46367,7 +46276,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'UNBELIEVABLE SWORD',
 					description: 'Level up your Sword up to level 400.',
-					percent: 36.3,
+					percent: 36.4,
 					icon: 'b68ea91d03c95390686ca4e436df05bd936034e3.jpg',
 					icongray: '03343fb9cce4fbb33ffbb9c8465633719f5501fd.jpg',
 					hidden: 0
@@ -46378,7 +46287,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Uncut Gems',
 					description: 'Pick up 500 Sapphires.',
-					percent: 25.7,
+					percent: 25.8,
 					icon: '0ab7691e478861a5a95d3ca915918a2c7ff462e4.jpg',
 					icongray: '5196454fbb66d0fbd36736463f4c249297a73b53.jpg',
 					hidden: 0
@@ -46389,7 +46298,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'United',
 					description: 'Select 3 different Characters.',
-					percent: 31.6,
+					percent: 31.7,
 					icon: 'fd6453c46feb7c9bb595c1a338ff49191988e959.jpg',
 					icongray: 'ce266c130aaa7422c38dd3ebd8c9691542ad9e03.jpg',
 					hidden: 0
@@ -46411,7 +46320,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Upgrade Collector',
 					description: 'Buy 50 Upgrades all at once.',
-					percent: 30.4,
+					percent: 30.5,
 					icon: 'c489d2e53ca851649eed9a41d94936ba05ff19d5.jpg',
 					icongray: '0a284c12a254b7ac5ad0dc8e72890b67afcba4cd.jpg',
 					hidden: 0
@@ -46422,7 +46331,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Upgrades I',
 					description: 'Have a total of 10 upgrades in one Ascension.',
-					percent: 66.8,
+					percent: 67,
 					icon: '733dc2a1d47909a2cfb6964c1bf7c9c80653b86c.jpg',
 					icongray: 'ca64841b879cd43ad09a5f2f1af1f30be19286a5.jpg',
 					hidden: 0
@@ -46433,7 +46342,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Upgrades II',
 					description: 'Have a total of 25 upgrades in one Ascension.',
-					percent: 61.1,
+					percent: 61.2,
 					icon: 'add136c63cd17c22701db518a801e93cf8483564.jpg',
 					icongray: 'e3c54e5b0104086c30de5a784464c85d1dad2dd6.jpg',
 					hidden: 0
@@ -46444,7 +46353,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Upgrades III',
 					description: 'Have a total of 50 upgrades in one Ascension.',
-					percent: 48.1,
+					percent: 48.2,
 					icon: '5b94af91bfce31bc5f3613e4661fb91d2a33a896.jpg',
 					icongray: 'e45e93e1c3e32240e3e65326534fd0c72aba7f05.jpg',
 					hidden: 0
@@ -46455,7 +46364,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Upgrades IV',
 					description: 'Have a total of 75 upgrades in one Ascension.',
-					percent: 45.6,
+					percent: 45.7,
 					icon: 'f2b8608224e45620c952e076ec7b19f120bff572.jpg',
 					icongray: '6cf59248de9a99f679b37a25eef1cffd18fabf92.jpg',
 					hidden: 0
@@ -46466,7 +46375,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Upgrade Manager',
 					description: 'Buy 75 Upgrades all at once.',
-					percent: 28,
+					percent: 28.1,
 					icon: '48796be4b6316923fef025f5fa65885c13e9118f.jpg',
 					icongray: '881b834dca487dcb4fc42d6e3498d6e7654d3754.jpg',
 					hidden: 0
@@ -46510,7 +46419,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Upgrades V',
 					description: 'Have a total of 100 upgrades in one Ascension.',
-					percent: 44.4,
+					percent: 44.6,
 					icon: 'bf54284070891c91b146ea19c0e2875a3174c2f8.jpg',
 					icongray: 'd568433adec7bbe7a1bdae9b78b53fb50291725f.jpg',
 					hidden: 0
@@ -46521,7 +46430,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Upgrades VI',
 					description: 'Have a total of 125 upgrades in one Ascension.',
-					percent: 40.8,
+					percent: 40.9,
 					icon: 'c8eab006778270fb298d51e63d4908a458a1bd08.jpg',
 					icongray: '7c3e8e86fd689f54b8b95c35c0d03fe92a3e64d5.jpg',
 					hidden: 0
@@ -46532,7 +46441,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Upgrades VII',
 					description: 'Have a total of 150 upgrades in one Ascension.',
-					percent: 35.7,
+					percent: 35.8,
 					icon: 'fefb2137c98e73996f73532e5074f3c480685638.jpg',
 					icongray: 'f7d05c81bb027c56d1f83aea93d7ad92dc6c90c2.jpg',
 					hidden: 0
@@ -46554,7 +46463,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Wait For Me!',
 					description: 'Make a Collectable follow you for more than 5 seconds.',
-					percent: 37.3,
+					percent: 37.4,
 					icon: '65bd4a72996b8f2ccaeac5aa17b6184024187143.jpg',
 					icongray: '0c8b292531cd88b03d70c97c1cf0ef3ab150e6d6.jpg',
 					hidden: 0
@@ -46565,7 +46474,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Welcome Back!',
 					description: 'Play the game for 2 days.',
-					percent: 48.3,
+					percent: 48.4,
 					icon: '19746739877e2c59a6dfd5f68d6582bdf707fe2f.jpg',
 					icongray: '0005e063956ec71b21606630212b1f4ab11456c1.jpg',
 					hidden: 0
@@ -46576,7 +46485,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'What Could Be Inside?',
 					description: 'Trigger 5 Random Boxes.',
-					percent: 64.9,
+					percent: 65.1,
 					icon: '9101a278d54c67b5082e990b910b98aca6daed62.jpg',
 					icongray: 'fd44fcea760b76de7c648eebf4e8bd065579b2ab.jpg',
 					hidden: 0
@@ -46587,7 +46496,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Where Am I?',
 					description: 'Go through a Portal for the first time.',
-					percent: 54.5,
+					percent: 54.7,
 					icon: 'c53c5e79072028dc50b42647893c15946ca0adf0.jpg',
 					icongray: 'ff4c8927cda6ebf4b222adaac242cedf4b0cf921.jpg',
 					hidden: 0
@@ -46598,7 +46507,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: "Who's The Protagonist?",
 					description: 'Change the Character.',
-					percent: 41.9,
+					percent: 42,
 					icon: '2a42859006f1f330ffd3433860251db5dc71a7f3.jpg',
 					icongray: 'e7a0a48b1fdad3612073c742fe6203d6364cb241.jpg',
 					hidden: 0
@@ -46620,7 +46529,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'You Are Going Too Fast',
 					description: 'Make a Collectable follow you for more than 10 seconds.',
-					percent: 35,
+					percent: 35.1,
 					icon: '65bd4a72996b8f2ccaeac5aa17b6184024187143.jpg',
 					icongray: '0c8b292531cd88b03d70c97c1cf0ef3ab150e6d6.jpg',
 					hidden: 0
@@ -46631,7 +46540,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: 'Astral Slayer',
 					description: "Buy the 'Astral Slayer' Ascension Upgrade.",
-					percent: 11.4,
+					percent: 11.5,
 					icon: '4760a01ea6eb66009d95432ba3dd90a353980cd2.jpg',
 					icongray: '97c9fadbed8c67b2ea222e643d338d9104057e22.jpg',
 					hidden: 0
@@ -46642,7 +46551,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Factory',
 					description: 'Visit  for the first time.',
-					percent: 20.5,
+					percent: 20.6,
 					icon: 'b2dd4382e084ce21984a419c95f80e3351427727.jpg',
 					icongray: '0c1185f2f8d39c5f7c83c74178c60b2a25566ff0.jpg',
 					hidden: 0
@@ -46664,7 +46573,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Frozen Fields',
 					description: 'Visit  for the first time.',
-					percent: 42.6,
+					percent: 42.7,
 					icon: 'b14ae94b7b7a221e14b31c453f9c6ebbb452cf40.jpg',
 					icongray: '7539a58ba25cd204ae61ffb42de0de9e08e89cd4.jpg',
 					hidden: 0
@@ -46675,7 +46584,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Haunted Castle',
 					description: 'Visit  for the first time.',
-					percent: 42.6,
+					percent: 42.7,
 					icon: '6e6683797f03faa420ba84391dfa221971146eff.jpg',
 					icongray: '9c682d93aee1f6f0f05573288be855e6de6f8697.jpg',
 					hidden: 0
@@ -46686,7 +46595,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Hills',
 					description: 'Go back to Hills.',
-					percent: 39.3,
+					percent: 39.4,
 					icon: 'ddea64fbb456ce61b97cc1383bfdba6e44d73108.jpg',
 					icongray: '523313cbe8b1ff3bb84d96e91bb70f95901ec849.jpg',
 					hidden: 0
@@ -46697,7 +46606,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: 'Hot Desert',
 					description: 'Visit  for the first time.',
-					percent: 16.1,
+					percent: 16.2,
 					icon: '4660b793f310ff2728ca865d24c9dabd1e636fe7.jpg',
 					icongray: '9c8d0ffdb540410f283582744e7db52e2b250257.jpg',
 					hidden: 0
@@ -46708,7 +46617,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Jungle',
 					description: 'Visit  for the first time.',
-					percent: 42.6,
+					percent: 42.7,
 					icon: '36c6dfaf8baa0ae52b75cb06dea199765b8fa66f.jpg',
 					icongray: 'e670fcf76800b983a099d90969e786ec0dca74c9.jpg',
 					hidden: 0
@@ -46719,7 +46628,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Modern City',
 					description: 'Visit  for the first time.',
-					percent: 48.5,
+					percent: 48.6,
 					icon: 'c36762de304e196ce9de9822057de4efb8e65fe1.jpg',
 					icongray: 'ec016fa4ebf55990542395121e29c1fecdec78e8.jpg',
 					hidden: 0
@@ -46741,7 +46650,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: "Edenor's Tavern",
 					description: 'Visit  for the first time.',
-					percent: 8.5,
+					percent: 8.6,
 					icon: '780876c33579f639a9322723a237a4e2c96993da.jpg',
 					icongray: '2fb897bfca1eea9dc4bc3b577086860c4c4881bf.jpg',
 					hidden: 0
@@ -46763,7 +46672,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: 'Enemy Skewer',
 					description: 'Slay 100 enemies with one single arrow.',
-					percent: 8.6,
+					percent: 8.7,
 					icon: 'c8733d58fc64ee10e75f9731ea8fbe1449993e6c.jpg',
 					icongray: '81f52c803e3f7895ed59c0d272d21a37003b9634.jpg',
 					hidden: 0
@@ -46774,7 +46683,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'One Arrow 25 Kills',
 					description: 'Slay 25 enemies with one single arrow.',
-					percent: 27.6,
+					percent: 27.8,
 					icon: 'c8733d58fc64ee10e75f9731ea8fbe1449993e6c.jpg',
 					icongray: '81f52c803e3f7895ed59c0d272d21a37003b9634.jpg',
 					hidden: 0
@@ -46785,7 +46694,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'One Arrow 50 Kills',
 					description: 'Slay 50 enemies with one single arrow.',
-					percent: 23.7,
+					percent: 23.8,
 					icon: 'c8733d58fc64ee10e75f9731ea8fbe1449993e6c.jpg',
 					icongray: '81f52c803e3f7895ed59c0d272d21a37003b9634.jpg',
 					hidden: 0
@@ -46796,7 +46705,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'One Arrow Three Kills',
 					description: 'Slay 3 enemies with one single arrow.',
-					percent: 30.4,
+					percent: 30.5,
 					icon: 'c8733d58fc64ee10e75f9731ea8fbe1449993e6c.jpg',
 					icongray: '81f52c803e3f7895ed59c0d272d21a37003b9634.jpg',
 					hidden: 0
@@ -46807,7 +46716,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Enemy Mastery I',
 					description: 'Get an Enemy to Mastery Level 1 in your Bestiary.',
-					percent: 12.5,
+					percent: 12.7,
 					icon: '913c18fa7fcff8c6214c21f39a3a751d2a0c2255.jpg',
 					icongray: '2f212ee186e02bb3dcf1416d6b4d4b2afac02d22.jpg',
 					hidden: 0
@@ -46818,7 +46727,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: 'Enemy Mastery II',
 					description: 'Get an Enemy to Mastery Level 2 in your Bestiary.',
-					percent: 11.2,
+					percent: 11.3,
 					icon: 'e7f4575e1659bff4c2ffeaf2f30ce42070f71d28.jpg',
 					icongray: '443c0d8a0c6536c283996af730f97df2191448ef.jpg',
 					hidden: 0
@@ -46829,7 +46738,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Fire, Water and Plant',
 					description: 'Get 3 entries in the Bestiary.',
-					percent: 12.5,
+					percent: 12.7,
 					icon: '71ce01dcdb102eaccbbee12824fb271e92cf704e.jpg',
 					icongray: '74f721589c87b442f8ad6172a434c23987a141d3.jpg',
 					hidden: 0
@@ -46840,7 +46749,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Gotta Slay Them All',
 					description: 'Get 10 entries in the Bestiary.',
-					percent: 11.9,
+					percent: 12.1,
 					icon: '2c8354afe75b839cc944b5f4894cc6a7b143e96a.jpg',
 					icongray: 'c3085bab21a22f98302ebfcf45fa421e808e4643.jpg',
 					hidden: 0
@@ -46851,7 +46760,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: 'Homework',
 					description: 'Get 30 entries in the Bestiary.',
-					percent: 9.3,
+					percent: 9.4,
 					icon: 'b1d517b72003822d60c1b463e85cd401778df01c.jpg',
 					icongray: '78331f6cef95257d04a55b7163dc18d33a34cddc.jpg',
 					hidden: 0
@@ -46862,7 +46771,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: "Hunter's Log",
 					description: 'Get 20 entries in the Bestiary.',
-					percent: 11.1,
+					percent: 11.2,
 					icon: 'a00cf4f61520e623de9d76f9b2d010c5758ee665.jpg',
 					icongray: '7bcf40323f809b6eb87ee0dd91a52d6466146b1d.jpg',
 					hidden: 0
@@ -46873,7 +46782,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Keeper',
 					description: 'Have 25 unspent Silver Random Boxes.',
-					percent: 8.5,
+					percent: 8.6,
 					icon: '5f8590f247b85599f829f83d1fe588020c723509.jpg',
 					icongray: '62db9fe5e6ebb9b9f1b5290a2956e1473cd2fa5a.jpg',
 					hidden: 0
@@ -46884,7 +46793,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: 'Monsters Expert',
 					description: 'Get 35 entries in the Bestiary.',
-					percent: 8.1,
+					percent: 8.2,
 					icon: '6c24f7fc6f5ffae9bd80d2b4b242fa42d7dcab55.jpg',
 					icongray: '364a5bf447da1d7139c39a86e4ee581018c9eb17.jpg',
 					hidden: 0
@@ -46895,7 +46804,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Monster Hunter',
 					description: 'Craft and open the Bestiary.',
-					percent: 12.1,
+					percent: 12.2,
 					icon: '6b782d0cb0553f9792f6d3dfcda6b3c7168cb104.jpg',
 					icongray: 'fd20f5d2414e357fce1a92755e1108f5b50fe733.jpg',
 					hidden: 0
@@ -46906,7 +46815,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Monster Manual',
 					description: 'Get 25 entries in the Bestiary.',
-					percent: 10.5,
+					percent: 10.6,
 					icon: 'd379991fe65aa32c01b8c1f2c49cdf92b68febc3.jpg',
 					icongray: '908c5ff876556be858d9d82effe5f7afd7bea942.jpg',
 					hidden: 0
@@ -46917,7 +46826,7 @@ export const profile: Profile = {
 					unlocktime: 1719953131,
 					name: 'Research Center',
 					description: 'Get 15 entries in the Bestiary.',
-					percent: 11.5,
+					percent: 11.7,
 					icon: '614484ae0e4b24cbf0e204bcabf417b74f43210d.jpg',
 					icongray: 'beab3d1674bd78d2d11ea7fd2cfa10e96c4ebb73.jpg',
 					hidden: 0
@@ -46928,7 +46837,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: 'Tome of Beasts',
 					description: 'Get 40 entries in the Bestiary.',
-					percent: 5.4,
+					percent: 5.5,
 					icon: 'ffdaeea9abb24d9830b445fb70fb0adf738d6d48.jpg',
 					icongray: '0098b23769b52f076982013aa027ac6a01beb52c.jpg',
 					hidden: 0
@@ -46939,7 +46848,7 @@ export const profile: Profile = {
 					unlocktime: 1721168363,
 					name: "Slayers' Lounge",
 					description: 'Visit  for the first time.',
-					percent: 6,
+					percent: 6.1,
 					icon: '92d3033a001dbd0f5a53481fae4f9ff2f1647e0b.jpg',
 					icongray: '22f5eaf6348e8a6d38e962b8620813d56ca276d5.jpg',
 					hidden: 0
@@ -47158,7 +47067,7 @@ export const profile: Profile = {
 					name: 'Tempestuous Triumph Scroll',
 					description:
 						'A hanging scroll from Master Hojo, depicting your victory over Wind Serpent Ibushi.',
-					percent: 52,
+					percent: 52.1,
 					icon: 'f011c91fdc3c772cc1d3f1e313b538a7d4ed14b3.jpg',
 					icongray: '6e34c3ac742c766f035b7ed4d9ecf2691841b4b0.jpg',
 					hidden: 0
@@ -47244,7 +47153,7 @@ export const profile: Profile = {
 					unlocktime: 1696694093,
 					name: 'Backpacker',
 					description: 'Collect all Backpacks',
-					percent: 42.7,
+					percent: 42.6,
 					icon: 'f97ca7b7f940ab832c875a62bc2ad0df6e968949.jpg',
 					icongray: '02afa260910d95a544fa7d32c6b81e75fe66f910.jpg',
 					hidden: 0
@@ -47255,7 +47164,7 @@ export const profile: Profile = {
 					unlocktime: 1696696358,
 					name: 'Cat Prints',
 					description: 'Track down Black Cat',
-					percent: 44.5,
+					percent: 44.4,
 					icon: 'ed6cd50bfefe6241f2df296d4de84adc9517d461.jpg',
 					icongray: '51f6f390b62d46901ee1657e24202d29ededdc21.jpg',
 					hidden: 0
@@ -47288,7 +47197,7 @@ export const profile: Profile = {
 					unlocktime: 1696815413,
 					name: 'Mercenary Tactics',
 					description: '',
-					percent: 26.3,
+					percent: 26.2,
 					icon: 'fdf738328e605d556a9d611405e9e8c100c42227.jpg',
 					icongray: 'd7df79cda537c3e8d34d62f2518847c971a49d49.jpg',
 					hidden: 1
@@ -47310,7 +47219,7 @@ export const profile: Profile = {
 					unlocktime: 1696796947,
 					name: 'Neighbourhood Watch',
 					description: 'Complete all Faction Crimes in a district',
-					percent: 31.2,
+					percent: 31.1,
 					icon: '3f8d4d8083bea1ca92f081d37405d2ddac3924c0.jpg',
 					icongray: '8eb6a104ba45fdca9a8d5e828a8d356c109bfa0a.jpg',
 					hidden: 0
@@ -47332,7 +47241,7 @@ export const profile: Profile = {
 					unlocktime: 1696781387,
 					name: 'Schooled',
 					description: '',
-					percent: 28.9,
+					percent: 28.8,
 					icon: '08e2a42646a7bf71b9f2a8b374cf946018ac79fb.jpg',
 					icongray: '25758bcf2cbccf0b411753fcd6c612ccef398e77.jpg',
 					hidden: 1
@@ -47343,7 +47252,7 @@ export const profile: Profile = {
 					unlocktime: 1696646819,
 					name: 'Amazing Coverage',
 					description: 'All Surveillance Towers activated',
-					percent: 58.1,
+					percent: 58,
 					icon: '1d7d99780f66b93a331038b4bd7321900714b06f.jpg',
 					icongray: '3129dacdd4e5bfb42a99802161c0efdd48a2f23a.jpg',
 					hidden: 0
@@ -47354,7 +47263,7 @@ export const profile: Profile = {
 					unlocktime: 1696718655,
 					name: 'Short Fuse',
 					description: '',
-					percent: 50.9,
+					percent: 50.8,
 					icon: 'b38278cf160df17cd10ee5a068a4253d5d9cd702.jpg',
 					icongray: 'bedb098773f3c6979d9c6411b0a4c9860f6161ec.jpg',
 					hidden: 1
@@ -47365,7 +47274,7 @@ export const profile: Profile = {
 					unlocktime: 1696726975,
 					name: 'Fists of Fury',
 					description: '',
-					percent: 44.1,
+					percent: 44,
 					icon: 'b1229e3a7719a4362b2042f2c12aa2f57b787e05.jpg',
 					icongray: 'c4d255503926658e1d156ff894a200525c32fadd.jpg',
 					hidden: 1
@@ -47398,7 +47307,7 @@ export const profile: Profile = {
 					unlocktime: 1696817145,
 					name: 'Challenge Finder',
 					description: '',
-					percent: 25.7,
+					percent: 25.6,
 					icon: '04435f01386d654607a7b0f476aa5d0a131a8f2e.jpg',
 					icongray: '8f047ea865ef60e102f3758aecc83cb89143ef8d.jpg',
 					hidden: 1
@@ -47409,7 +47318,7 @@ export const profile: Profile = {
 					unlocktime: 1696732762,
 					name: 'R&D',
 					description: 'Complete all Research Stations',
-					percent: 26.5,
+					percent: 26.4,
 					icon: 'b1c978d3888a172acf757ba55407422a4ab03da3.jpg',
 					icongray: 'a9628653bc7a002745b627afe283ea5b41702df4.jpg',
 					hidden: 0
@@ -47420,7 +47329,7 @@ export const profile: Profile = {
 					unlocktime: 1696692864,
 					name: 'Demons Emerge',
 					description: '',
-					percent: 67.8,
+					percent: 67.6,
 					icon: 'e833cb6a815fbc02683e500bf30d008718257705.jpg',
 					icongray: '4356d631a89ae4e4019db83b014be54a5ed22f95.jpg',
 					hidden: 1
@@ -47431,7 +47340,7 @@ export const profile: Profile = {
 					unlocktime: 1696787769,
 					name: 'The Six Assemble',
 					description: '',
-					percent: 56.1,
+					percent: 56,
 					icon: '00d6979f3d214cb660bf0f85a306bca583579bd9.jpg',
 					icongray: 'a70287bf4899e10f3f5ca3c3619ff76f94cb5d9c.jpg',
 					hidden: 1
@@ -47442,7 +47351,7 @@ export const profile: Profile = {
 					unlocktime: 1696894749,
 					name: 'End Game',
 					description: '',
-					percent: 49.3,
+					percent: 49.2,
 					icon: '5aa07aab3a2704e5405161a6cdafff35ea863551.jpg',
 					icongray: 'e6d45686d1b5fa6e38e054c0ecf314f6318d75ea.jpg',
 					hidden: 1
@@ -47475,7 +47384,7 @@ export const profile: Profile = {
 					unlocktime: 1696884797,
 					name: 'Staying Positive',
 					description: '',
-					percent: 50.1,
+					percent: 50,
 					icon: '0817366677ca970cc34131c2c0d9c51955d4ef77.jpg',
 					icongray: '6bac82b021c5256578929290aa8b391c7e0e7952.jpg',
 					hidden: 1
@@ -47486,7 +47395,7 @@ export const profile: Profile = {
 					unlocktime: 1696813977,
 					name: 'Grounded',
 					description: '',
-					percent: 53.3,
+					percent: 53.2,
 					icon: 'dce1ef80ac8efb17e91631e5c1b77dbe556add7c.jpg',
 					icongray: 'ec2619bc46ac722e12eb792a95e4aff0b3ad44db.jpg',
 					hidden: 1
@@ -47497,7 +47406,7 @@ export const profile: Profile = {
 					unlocktime: 1696822291,
 					name: 'Sting and Smash',
 					description: '',
-					percent: 51.3,
+					percent: 51.2,
 					icon: 'a985f4e98faf13e33a39236688682453f85b253d.jpg',
 					icongray: '170ce96a5efc9e40599d1d949dc914ff2b7292d5.jpg',
 					hidden: 1
@@ -47508,7 +47417,7 @@ export const profile: Profile = {
 					unlocktime: 1696717974,
 					name: 'Tombstone Takedown',
 					description: '',
-					percent: 35.6,
+					percent: 35.5,
 					icon: '30080cab02a26494d59ca7538c0fae36ef941658.jpg',
 					icongray: '7dd24ee7144aba931cb42d941dc469282aacd152.jpg',
 					hidden: 1
@@ -47519,7 +47428,7 @@ export const profile: Profile = {
 					unlocktime: 1696642224,
 					name: 'Shock and Awe',
 					description: '',
-					percent: 73.2,
+					percent: 73.1,
 					icon: '6c34f3fc08ef21e4c037570868f5aa458ec80d5b.jpg',
 					icongray: 'cd920d2badf6729de8e410443b5821f8a2ac6dee.jpg',
 					hidden: 1
@@ -47530,7 +47439,7 @@ export const profile: Profile = {
 					unlocktime: 1696628725,
 					name: 'Wing It',
 					description: '',
-					percent: 76.5,
+					percent: 76.4,
 					icon: '19e0a4bfbbbf91d1f1f5f4fa070c0c05e54d0fd1.jpg',
 					icongray: '6a6db08d680476537224fd6bf7c5221d64dd7cca.jpg',
 					hidden: 1
@@ -47541,7 +47450,7 @@ export const profile: Profile = {
 					unlocktime: 1696628874,
 					name: 'King of Swing',
 					description: 'Complete a level 1 Traversal Benchmark',
-					percent: 76.1,
+					percent: 76,
 					icon: 'dc13c042819dbab2dd5d374fba3c28e8070e5b40.jpg',
 					icongray: 'fd13292c71eee59da2b3e8c1ab26270d701b8f1c.jpg',
 					hidden: 0
@@ -47552,7 +47461,7 @@ export const profile: Profile = {
 					unlocktime: 1696628004,
 					name: 'And Stay Down!',
 					description: 'Complete a level 1 Combat Benchmark',
-					percent: 71.9,
+					percent: 71.7,
 					icon: 'c678a539a4e708d5fe2057a770b6990d239e74d1.jpg',
 					icongray: '5bdec246510f2f38a48406e7b77997b1da85485a.jpg',
 					hidden: 0
@@ -47563,7 +47472,7 @@ export const profile: Profile = {
 					unlocktime: 1696705594,
 					name: 'Pigeon Hunter',
 					description: '',
-					percent: 34.9,
+					percent: 34.8,
 					icon: '2a9cd02683396e4bad7d9a08a6f5ef3be82cd804.jpg',
 					icongray: '40a9a02d32853f8c74d676f80e653072e7673621.jpg',
 					hidden: 1
@@ -47585,7 +47494,7 @@ export const profile: Profile = {
 					unlocktime: 1696787373,
 					name: 'Friendly Neighbourhood Spider-Man',
 					description: 'Complete all Side Missions',
-					percent: 27.9,
+					percent: 27.8,
 					icon: '4ae849ea7f6dd5097c984a1be12f3b1371457412.jpg',
 					icongray: 'a78dfd16ccbfd5bd68d005eaa1c4e5d96edd2c3e.jpg',
 					hidden: 0
@@ -47596,7 +47505,7 @@ export const profile: Profile = {
 					unlocktime: 1696631800,
 					name: 'The Scientific Method',
 					description: 'Craft your first Upgrade',
-					percent: 69.4,
+					percent: 69.3,
 					icon: '12d5903749459a1be9b7afa23d7b0ce84f87e1da.jpg',
 					icongray: 'fa392e8a76071248c29ac2111363fbc003209534.jpg',
 					hidden: 0
@@ -47607,7 +47516,7 @@ export const profile: Profile = {
 					unlocktime: 1696619421,
 					name: 'Spider-Sensible',
 					description: 'Perfect Dodge 10 attacks',
-					percent: 77.3,
+					percent: 77.2,
 					icon: 'd9e620a5388df5be7f524b93b280a1fdf929c27d.jpg',
 					icongray: 'bafc1715fe35530c559629921322e5c8137b4c19.jpg',
 					hidden: 0
@@ -47618,7 +47527,7 @@ export const profile: Profile = {
 					unlocktime: 1696794644,
 					name: 'Overdrive',
 					description: 'Complete 10 Vehicle Takedowns',
-					percent: 44.8,
+					percent: 44.7,
 					icon: '2425ecefff3b8991c386477505aa115e07f72a71.jpg',
 					icongray: '3a88a17da8a3ec9e577ef9f6d61eab414ed9c45b.jpg',
 					hidden: 0
@@ -47640,7 +47549,7 @@ export const profile: Profile = {
 					unlocktime: 1696629048,
 					name: 'Hero for Higher',
 					description: 'Perch atop Avengers Tower',
-					percent: 38.7,
+					percent: 38.6,
 					icon: '371ea9a32a7c2b485a219ea0c6107fd0de8db779.jpg',
 					icongray: 'a9247fafd150c3a4e794f6b3a856c5c779d5d41a.jpg',
 					hidden: 0
@@ -47651,7 +47560,7 @@ export const profile: Profile = {
 					unlocktime: 1696686623,
 					name: 'Sightseeing',
 					description: 'Photograph all Landmarks on the Map',
-					percent: 36.7,
+					percent: 36.6,
 					icon: '032d0a6aff2d1ae13e3fd33cca111bb0a5a076ba.jpg',
 					icongray: '5b9072772afa8c83b2cdf6f55f8ddf4fe26c0cbb.jpg',
 					hidden: 0
@@ -47673,7 +47582,7 @@ export const profile: Profile = {
 					unlocktime: 1696894865,
 					name: 'Sticky and Tricky',
 					description: 'Chain 4 unique tricks before landing',
-					percent: 40.2,
+					percent: 40.1,
 					icon: '222e36ce5d13d1ec56d11a2a47bca3e6ce16f5d1.jpg',
 					icongray: 'ef6009405f51ab7e7cbc483cceec3542c290cf4b.jpg',
 					hidden: 0
@@ -47684,7 +47593,7 @@ export const profile: Profile = {
 					unlocktime: 1696727286,
 					name: 'Snappy Dresser',
 					description: '',
-					percent: 65.2,
+					percent: 65.1,
 					icon: '1ca8e59f5dca03c4c9e115ccdf42d3e0e9ff6962.jpg',
 					icongray: '39a9756cd9acf55a165419a39eb65605c27b7e90.jpg',
 					hidden: 1
@@ -47695,7 +47604,7 @@ export const profile: Profile = {
 					unlocktime: 1696687559,
 					name: 'Arachnophobia',
 					description: 'Perform 75 Stealth Takedowns',
-					percent: 63.4,
+					percent: 63.3,
 					icon: '5271e35ad43586155fab91ae987234f70e1ac1ac.jpg',
 					icongray: '3427ae99cfdfc58ad24760b96565fc7ea3e07cd8.jpg',
 					hidden: 0
@@ -47706,7 +47615,7 @@ export const profile: Profile = {
 					unlocktime: 1696618874,
 					name: 'Lost and Found',
 					description: 'Collect 5 Backpacks',
-					percent: 77.1,
+					percent: 77,
 					icon: '919e55103b52a500c65740ba35ca9daf3723eed7.jpg',
 					icongray: 'a9302c2f1ca2ab3076d09c9715d76f58ced36286.jpg',
 					hidden: 0
@@ -47717,7 +47626,7 @@ export const profile: Profile = {
 					unlocktime: 1696731182,
 					name: 'Spider-Man About Town',
 					description: 'Greet 10 citizens',
-					percent: 42.4,
+					percent: 42.3,
 					icon: 'c6fa2f59489f9b6371d50b01f4810ff57438bcad.jpg',
 					icongray: 'c6209417100141cf900d7077ee645029d4948abc.jpg',
 					hidden: 0
@@ -47728,7 +47637,7 @@ export const profile: Profile = {
 					unlocktime: 1696688355,
 					name: "Cat's Out of the Bag",
 					description: 'Collect a Black Cat collectible',
-					percent: 70.2,
+					percent: 70,
 					icon: 'e60b658530c829cadefcd7e20b2ae4ce5ee3ee79.jpg',
 					icongray: '4b862cf71b2266f0637b6b89f5b799af0e24963c.jpg',
 					hidden: 0
@@ -47739,7 +47648,7 @@ export const profile: Profile = {
 					unlocktime: 1697570658,
 					name: 'A Bit of a Fixer-Upper',
 					description: '',
-					percent: 19.2,
+					percent: 19.1,
 					icon: '53107e0e95f8c2eeb4efe116fae4600639bae576.jpg',
 					icongray: '9806f76e4582df79777d46dcd6e80ce4c4b08a4c.jpg',
 					hidden: 1
@@ -47750,7 +47659,7 @@ export const profile: Profile = {
 					unlocktime: 1696640489,
 					name: 'Ace the Base',
 					description: 'Complete all objectives in a base',
-					percent: 61.5,
+					percent: 61.4,
 					icon: '2c406174ce4ab0bed9b411b260f40c691c77efa7.jpg',
 					icongray: '4d4676e3c0a3a2f9b4e979b0db3d87494e4b36ab.jpg',
 					hidden: 0
@@ -47794,7 +47703,7 @@ export const profile: Profile = {
 					unlocktime: 1697123834,
 					name: 'Screwy',
 					description: 'Get Spectacular or better in all Screwball Challenges',
-					percent: 11.6,
+					percent: 11.5,
 					icon: '93304639eb6cfb8acf59525417996102ef9e7019.jpg',
 					icongray: '705e3c69750f0be4a2782f4987dd2b0db898fe75.jpg',
 					hidden: 0
@@ -47805,7 +47714,7 @@ export const profile: Profile = {
 					unlocktime: 1696911875,
 					name: 'The Cat Came Back',
 					description: '',
-					percent: 33.6,
+					percent: 33.5,
 					icon: '2a3604a255e1c033ada84ba9211b62712433eb39.jpg',
 					icongray: '92cf0becc720a0e0bae237e90a34a3da0d2c6873.jpg',
 					hidden: 1
@@ -47816,7 +47725,7 @@ export const profile: Profile = {
 					unlocktime: 1697080410,
 					name: 'Here Kitty-Kitty',
 					description: '',
-					percent: 29.8,
+					percent: 29.7,
 					icon: '693a4037d3752841aa4d93de7538b24c49a1c2dc.jpg',
 					icongray: '4162226f9bad466618244635f3b379aedc88000d.jpg',
 					hidden: 1
@@ -47904,7 +47813,7 @@ export const profile: Profile = {
 					unlocktime: 1697139865,
 					name: 'Steel Skull, Glass Jaw',
 					description: '',
-					percent: 23,
+					percent: 22.9,
 					icon: '2d3671c830f5c91a508b7c918a31bd472af2b1c1.jpg',
 					icongray: 'd6068bded4ade3c381bd6bdcc3c2614d4e945726.jpg',
 					hidden: 1
@@ -47937,7 +47846,7 @@ export const profile: Profile = {
 					unlocktime: 1697569979,
 					name: 'The City Sleeps',
 					description: '100% Complete CTNS: Silver Lining',
-					percent: 12.8,
+					percent: 12.7,
 					icon: '5daefaa114cf4b567b61487fbbd3934ea37edce6.jpg',
 					icongray: 'a2b220c6012e67e6922af5f3fc6a00d8e76ffa98.jpg',
 					hidden: 0
@@ -48014,7 +47923,7 @@ export const profile: Profile = {
 					unlocktime: 1696693109,
 					name: 'Grinding All the Way',
 					description: 'Max out one Benchmark type',
-					percent: 53.6,
+					percent: 53.5,
 					icon: 'db332286a428507d41e82b34800a186cd60cd150.jpg',
 					icongray: '1f956bf01c39f93f949da531aa0e297863afe164.jpg',
 					hidden: 0
@@ -48025,7 +47934,7 @@ export const profile: Profile = {
 					unlocktime: 1696799207,
 					name: 'Full Arsenal',
 					description: 'Max out all Gadgets',
-					percent: 24,
+					percent: 23.9,
 					icon: '2d06d39b09df5d44273766045e389a83ed20fbab.jpg',
 					icongray: 'f3b801660ad7608580abc2b9887a2a5dd145c904.jpg',
 					hidden: 0
@@ -48047,7 +47956,7 @@ export const profile: Profile = {
 					unlocktime: 1696787373,
 					name: 'So Many Hits...',
 					description: 'Achieve a combo of 100',
-					percent: 36.9,
+					percent: 36.8,
 					icon: '314416b332fd5de4332db1e9bfa634a4324297d5.jpg',
 					icongray: 'd0ac8713986094dd31acf5342fa1a87188aa4ccb.jpg',
 					hidden: 0
@@ -48294,7 +48203,7 @@ export const profile: Profile = {
 					unlocktime: 1698270723,
 					name: 'Parasites Lost',
 					description: '',
-					percent: 36.3,
+					percent: 36.4,
 					icon: 'cb036c6fc34bf69870c328268ca2a4fd788c3da4.jpg',
 					icongray: '7c4502e555870e122d96737d1bc91a6a310ddcef.jpg',
 					hidden: 1
@@ -48424,7 +48333,7 @@ export const profile: Profile = {
 					unlocktime: 1676176183,
 					name: 'The Wise Owl',
 					description: '',
-					percent: 23,
+					percent: 22.9,
 					icon: '7984463bf6739db83e7df933a923eb07833b5c5f.jpg',
 					icongray: 'a7b413303a36f40109f1499ff1ac1cbc8d887663.jpg',
 					hidden: 1
@@ -48446,7 +48355,7 @@ export const profile: Profile = {
 					unlocktime: 1675984684,
 					name: 'Troll with the Punches',
 					description: '',
-					percent: 84.2,
+					percent: 84.1,
 					icon: '5c9e26c4941ae4fc98c6eaf3c023e3a18dc2df51.jpg',
 					icongray: '70b3c64e9777c9e92c2f142c588fbb06f0866047.jpg',
 					hidden: 1
@@ -48457,7 +48366,7 @@ export const profile: Profile = {
 					unlocktime: 1676590685,
 					name: "That's a Keeper",
 					description: '',
-					percent: 64,
+					percent: 63.7,
 					icon: '862757b287f9430989c4c5f27e71b0053966f3b3.jpg',
 					icongray: '47adf0df129b5f89653bb0dca1e20b02128ba988.jpg',
 					hidden: 1
@@ -48468,7 +48377,7 @@ export const profile: Profile = {
 					unlocktime: 1678135010,
 					name: 'Rising From the Ashes',
 					description: '',
-					percent: 28.9,
+					percent: 28.7,
 					icon: '4f38837452e869bb533ab89385b934ebef36438c.jpg',
 					icongray: '1a65e332e7281ce256f7cab7021df7d3fdf62802.jpg',
 					hidden: 1
@@ -48479,7 +48388,7 @@ export const profile: Profile = {
 					unlocktime: 1678666880,
 					name: 'Grappling with a Graphorn',
 					description: '',
-					percent: 31.8,
+					percent: 31.6,
 					icon: '9a1b2adf2df9962839e38a20223b12762d5382eb.jpg',
 					icongray: '4b0f0166341563f75dad74ae6507f45bd6633df7.jpg',
 					hidden: 1
@@ -48490,7 +48399,7 @@ export const profile: Profile = {
 					unlocktime: 1678666441,
 					name: 'The One Who Mastered Memories',
 					description: '',
-					percent: 31.9,
+					percent: 31.8,
 					icon: '7be13db16e78295760f0cbfaae7371b3dbb7b1bf.jpg',
 					icongray: 'b6bebb6a91fd98380f7b301a4b7289236736128c.jpg',
 					hidden: 1
@@ -48501,7 +48410,7 @@ export const profile: Profile = {
 					unlocktime: 1678133789,
 					name: 'The Hallowed Hero',
 					description: '',
-					percent: 36.6,
+					percent: 36.4,
 					icon: '0ec46a7165d686e77aded42ed7f674b99a303e4a.jpg',
 					icongray: 'a9e677e3397d09516932619122e659840367faed.jpg',
 					hidden: 1
@@ -48512,7 +48421,7 @@ export const profile: Profile = {
 					unlocktime: 1678811854,
 					name: 'The Hero of Hogwarts',
 					description: '',
-					percent: 29.9,
+					percent: 29.7,
 					icon: '04b644cf02f1b46cdf1e6b4aa4a6191583e3b22f.jpg',
 					icongray: '57d9b6ac397bb8dbfce0c970e6c9b6e69538690f.jpg',
 					hidden: 1
@@ -48534,7 +48443,7 @@ export const profile: Profile = {
 					unlocktime: 1678810350,
 					name: 'The Avenging Gazelle',
 					description: '',
-					percent: 22.1,
+					percent: 22,
 					icon: '6fbe088b231a915637d409d41b61d2dcba3be885.jpg',
 					icongray: 'a8a1944ec34e2405b24c7c33389491f00f1df851.jpg',
 					hidden: 1
@@ -48545,7 +48454,7 @@ export const profile: Profile = {
 					unlocktime: 1677360257,
 					name: 'The Defender of Dragons',
 					description: '',
-					percent: 43.5,
+					percent: 43.3,
 					icon: 'f61b89ae8fe133a925d319112fae20077fa0dd81.jpg',
 					icongray: 'd3e3b3c319f67d37d492ccda01b127db3ed794fe.jpg',
 					hidden: 1
@@ -48556,7 +48465,7 @@ export const profile: Profile = {
 					unlocktime: 1678809841,
 					name: 'Beast Friends',
 					description: '',
-					percent: 21.3,
+					percent: 21.2,
 					icon: '8fdc2878e6f704b3fe816d6d395232ef3a03d305.jpg',
 					icongray: '8ac99392d7850a4dfbc52be58237825d31afa3d2.jpg',
 					hidden: 1
@@ -48567,7 +48476,7 @@ export const profile: Profile = {
 					unlocktime: 1678812595,
 					name: 'A Sallow Grave',
 					description: '',
-					percent: 23.8,
+					percent: 23.7,
 					icon: '85d39453201b471b83f75990922cf6b27f3288f2.jpg',
 					icongray: '83e680e6b560cd8201cced524b5d0d7538e3d812.jpg',
 					hidden: 1
@@ -48578,7 +48487,7 @@ export const profile: Profile = {
 					unlocktime: 1677807207,
 					name: 'Flight the Good Flight',
 					description: '',
-					percent: 26.7,
+					percent: 26.6,
 					icon: '550b9a1b2d2d70e154452a8d2ee1f4d2f9b81b85.jpg',
 					icongray: '9f60666a9aef851637ef66f27f85e1c71cf8a8e7.jpg',
 					hidden: 1
@@ -48589,7 +48498,7 @@ export const profile: Profile = {
 					unlocktime: 1697658060,
 					name: 'The Good Samaritan',
 					description: 'Complete all side quests',
-					percent: 6.5,
+					percent: 6.4,
 					icon: '8a62c0e4444a81de820cb02fb96ad19cd8aa1947.jpg',
 					icongray: 'c12dced04e9f3a63054b7fb8dbcaf1330ef5c8df.jpg',
 					hidden: 0
@@ -48600,7 +48509,7 @@ export const profile: Profile = {
 					unlocktime: 1676604726,
 					name: 'Challenge Accepted',
 					description: 'Complete all tiers of a challenge',
-					percent: 45.8,
+					percent: 45.6,
 					icon: 'ed7b5ee36cf2e68864ada25dcfa3ab0f3038ae03.jpg',
 					icongray: '458644244e2f0ebe5289599279e5c91106f7afba.jpg',
 					hidden: 0
@@ -48611,7 +48520,7 @@ export const profile: Profile = {
 					unlocktime: 1676053589,
 					name: 'A Keen Sense of Spell',
 					description: '',
-					percent: 79.6,
+					percent: 79.5,
 					icon: 'c54dcf12698edd975e71c525185854c635f60941.jpg',
 					icongray: 'd3fd39cd6d573ed5d9e102fcf042c00e003c462d.jpg',
 					hidden: 1
@@ -48622,7 +48531,7 @@ export const profile: Profile = {
 					unlocktime: 1677033051,
 					name: 'Loom for Improvement',
 					description: 'Upgrade a piece of gear',
-					percent: 54.5,
+					percent: 54.3,
 					icon: '04816bf65c1156d9477f5e777b91c1bf55468493.jpg',
 					icongray: 'efd0279b97c404541e0504fdba87cda1ad629534.jpg',
 					hidden: 0
@@ -48633,7 +48542,7 @@ export const profile: Profile = {
 					unlocktime: 1676430106,
 					name: 'The Root of the Problem',
 					description: 'Stun 10 different enemies using a Mandrake',
-					percent: 25.5,
+					percent: 25.4,
 					icon: '63c8237eef023c8927927260edde6d20fd62d903.jpg',
 					icongray: 'ca5fb8d5e0612f69a5649a9f9be0ec8903181635.jpg',
 					hidden: 0
@@ -48655,7 +48564,7 @@ export const profile: Profile = {
 					unlocktime: 1676494416,
 					name: 'Going Through the Potions',
 					description: 'Brew every type of potion',
-					percent: 21.1,
+					percent: 21,
 					icon: '8cbf670b9a9a58b940321d5928596812dbec454f.jpg',
 					icongray: 'af311def0e66409bab459dc80817539ed449fe7d.jpg',
 					hidden: 0
@@ -48666,7 +48575,7 @@ export const profile: Profile = {
 					unlocktime: 1676429788,
 					name: 'Put Down Roots',
 					description: 'Grow every type of plant',
-					percent: 16.3,
+					percent: 16.2,
 					icon: 'f30927a5e6ef0c57e4ddb7f4a0c2b0be902906e5.jpg',
 					icongray: 'd99243e711db381e6d32a8a2826831b703205e89.jpg',
 					hidden: 0
@@ -48677,7 +48586,7 @@ export const profile: Profile = {
 					unlocktime: 1677260005,
 					name: "Third Time's a Charm",
 					description: 'Upgrade a piece of gear 3 times',
-					percent: 22.8,
+					percent: 22.7,
 					icon: '0d94a64704b8d8ee821d123962718ae13b4d3963.jpg',
 					icongray: 'debb35fb04fb5f7bdfd112ff7f01cef57542f796.jpg',
 					hidden: 0
@@ -48688,7 +48597,7 @@ export const profile: Profile = {
 					unlocktime: 1676177025,
 					name: 'A Talent for Spending',
 					description: 'Spend 5 Talent Points',
-					percent: 69.9,
+					percent: 69.7,
 					icon: '175cc1a73ae03d7bb6d5153467d8012eabaac2aa.jpg',
 					icongray: '3ede5cd4d4e8e217a239bbd4ce0078862730597f.jpg',
 					hidden: 0
@@ -48710,7 +48619,7 @@ export const profile: Profile = {
 					unlocktime: 1678131947,
 					name: 'Room with a View',
 					description: "Reach the highest point in the castle, the Headmaster's upper study",
-					percent: 16,
+					percent: 15.9,
 					icon: 'ac796dab2f09483ea0aba1b29db2d9dc914026c8.jpg',
 					icongray: '9ec1680a9f088cc1abc909b94ced35699a9aa1b3.jpg',
 					hidden: 0
@@ -48732,7 +48641,7 @@ export const profile: Profile = {
 					unlocktime: 1677806626,
 					name: 'Floo Around the World',
 					description: 'Unlock all Floo Flames',
-					percent: 10.8,
+					percent: 10.7,
 					icon: '6afeef8290b9e50e645200e690f0eea514b2ce4d.jpg',
 					icongray: '80c6a1e8bb97d58cf52afe9f22ce0a27fdbcce67.jpg',
 					hidden: 0
@@ -48743,7 +48652,7 @@ export const profile: Profile = {
 					unlocktime: 1676243340,
 					name: 'Followed the Butterflies',
 					description: 'Follow butterflies to a treasure',
-					percent: 53.2,
+					percent: 53,
 					icon: '7c843a190fcde960f01f411423468e3ab88944f5.jpg',
 					icongray: '22b6e534eac3b5e9363fb56e137245c5abe3657a.jpg',
 					hidden: 0
@@ -48776,7 +48685,7 @@ export const profile: Profile = {
 					unlocktime: 1677343842,
 					name: 'Coasting Along',
 					description: '',
-					percent: 38.9,
+					percent: 38.7,
 					icon: 'a5ded477f34d9d3df22224e988fc388552f8faa8.jpg',
 					icongray: '5f09e979c3509ad591f73fb246907e8ad98f03f1.jpg',
 					hidden: 1
@@ -48787,7 +48696,7 @@ export const profile: Profile = {
 					unlocktime: 1678411257,
 					name: 'Demiguise Dread',
 					description: 'Find all Demiguise statues',
-					percent: 6.5,
+					percent: 6.4,
 					icon: '8d7ea49cf482b2588882693e2244101e410d4f07.jpg',
 					icongray: '8fb128916a1d43f4a96b91bd9d76de4b861d2f12.jpg',
 					hidden: 0
@@ -48798,7 +48707,7 @@ export const profile: Profile = {
 					unlocktime: 1677033603,
 					name: 'The Ends Petrify the Means',
 					description: 'Defeat a total of fifty enemies using Petrificus Totalus',
-					percent: 21.6,
+					percent: 21.5,
 					icon: '6b3a40f0b85656377d661cb7cd54cad9e8ed44d3.jpg',
 					icongray: 'ec2dd8ba97d767d4a3d7b4a2e7b9bdef7f13e30f.jpg',
 					hidden: 0
@@ -48809,7 +48718,7 @@ export const profile: Profile = {
 					unlocktime: 1676590112,
 					name: 'Raising Expectations',
 					description: 'Reach a combo of 100',
-					percent: 29.9,
+					percent: 29.8,
 					icon: '02a9f3eeba17ae2ab4e42682167ad90160b7dd88.jpg',
 					icongray: 'e603fa6f52e5e984d35c0e0897ecda198505b193.jpg',
 					hidden: 0
@@ -48820,7 +48729,7 @@ export const profile: Profile = {
 					unlocktime: 1677429258,
 					name: 'The Spell Master',
 					description: 'Learn all spells',
-					percent: 37.9,
+					percent: 37.7,
 					icon: '8513ce755ef9da6ba06ed241dad7b4faf5def123.jpg',
 					icongray: '42a171f92cdd033c4fb6afacdae656e016398892.jpg',
 					hidden: 0
@@ -49113,7 +49022,7 @@ export const profile: Profile = {
 					unlocktime: 1692316515,
 					name: 'Forged in Blood and Fire',
 					description: '',
-					percent: 40.9,
+					percent: 41,
 					icon: 'a00e6ad2d3d84c4649654ce74a82cc2fa96cf3cf.jpg',
 					icongray: '0db20ed8095106be54f7ced1c60f3540c77b8941.jpg',
 					hidden: 1
@@ -49137,7 +49046,7 @@ export const profile: Profile = {
 					name: 'Penny Pincher',
 					description:
 						'Defeat the Toll Collector without her using gold against you - excellent budgeting. ',
-					percent: 27.6,
+					percent: 27.7,
 					icon: '969cc50dcb65bc3993966fba3b732227db209472.jpg',
 					icongray: '486641391fb2de3cdfa41598c1e90fc3bf621200.jpg',
 					hidden: 0
@@ -49159,7 +49068,7 @@ export const profile: Profile = {
 					unlocktime: 1691499303,
 					name: 'Shove Off',
 					description: 'Kill a creature with falling damage.',
-					percent: 50.3,
+					percent: 50.4,
 					icon: 'fc95da156e92c9d6f0955236d77bbe07e36f06e9.jpg',
 					icongray: '80d10c6bd718fa0222d5c149ca25511dca67798d.jpg',
 					hidden: 0
@@ -49204,7 +49113,7 @@ export const profile: Profile = {
 					unlocktime: 1693441768,
 					name: 'To Bloom in Darkest Night',
 					description: '',
-					percent: 26.9,
+					percent: 27,
 					icon: 'f074708db163ec1cf253953b7fe4cc32e929657c.jpg',
 					icongray: '2f32c004f552e9bc735ddb7d11b477e01152ab5a.jpg',
 					hidden: 1
@@ -49226,7 +49135,7 @@ export const profile: Profile = {
 					unlocktime: 1696266962,
 					name: 'Loophole',
 					description: '',
-					percent: 24,
+					percent: 24.1,
 					icon: '70972fff002e080bdd5b86295f0241448bfe2481.jpg',
 					icongray: '44deee9d0a5a22a45be261cff52fa97b140d33c9.jpg',
 					hidden: 1
@@ -49296,7 +49205,7 @@ export const profile: Profile = {
 					unlocktime: 1720667658,
 					name: 'Time to Die',
 					description: 'Kill a Monstrosity in 20 seconds or less.',
-					percent: 60.8,
+					percent: 60.9,
 					icon: '0a8d36f04fcc642c684de44aed895ab22622d2f0.jpg',
 					icongray: '9bea907e98669c11081187f83af94cb43a635b1c.jpg',
 					hidden: 0
@@ -49346,7 +49255,7 @@ export const profile: Profile = {
 					unlocktime: 1721439648,
 					name: 'Our Reclamation',
 					description: 'Complete the main campaign.',
-					percent: 10,
+					percent: 10.3,
 					icon: '74885b3597b9655cdd03128cbba0e1e92428c272.jpg',
 					icongray: '08920304ac4ab809380747fb97448e427659f103.jpg',
 					hidden: 0
@@ -49357,7 +49266,7 @@ export const profile: Profile = {
 					unlocktime: 1721486268,
 					name: 'No Easy Prey',
 					description: 'Defeat a thanator (non-feral).',
-					percent: 7.5,
+					percent: 7.6,
 					icon: '51c808dc1f7028d77650c595f1f72b1dc24a5350.jpg',
 					icongray: 'c2ef0aff3a45dd7110e03cf45d941916e53de7da.jpg',
 					hidden: 0
@@ -49368,7 +49277,7 @@ export const profile: Profile = {
 					unlocktime: 1719166842,
 					name: 'Talk to the Ancestors',
 					description: 'Unlock three Ancestor Skills.',
-					percent: 33.2,
+					percent: 33.4,
 					icon: '3bff93d063e1fd810697cc9be944d90a773f844a.jpg',
 					icongray: '19a3e88871781d7234c94931ba462d87f7ccb9bf.jpg',
 					hidden: 0
@@ -49379,7 +49288,7 @@ export const profile: Profile = {
 					unlocktime: 1720920225,
 					name: 'Sprouting Potential',
 					description: 'Touch 20 tarsyu saplings.',
-					percent: 8.3,
+					percent: 8.5,
 					icon: '823b6c3d49c60330170e21be2d8de7857aea5f95.jpg',
 					icongray: '4070f55afe52aa6d375d842aab42c8cc111cb9c4.jpg',
 					hidden: 0
@@ -49390,7 +49299,7 @@ export const profile: Profile = {
 					unlocktime: 1719614624,
 					name: 'Full Bloom',
 					description: 'Touch 20 bellsprigs.',
-					percent: 17.8,
+					percent: 18,
 					icon: '314dd652ecb42969dc6502b7c56ee7648b88d932.jpg',
 					icongray: '0f7dc24c847fbe22c352d336394a270085608ada.jpg',
 					hidden: 0
@@ -49401,7 +49310,7 @@ export const profile: Profile = {
 					unlocktime: 1719009235,
 					name: 'First Strike',
 					description: 'Complete the quest Becoming.',
-					percent: 58.9,
+					percent: 59.1,
 					icon: '50f5010aefee7cbb8667b8a320d819d4eb1e3cb2.jpg',
 					icongray: '884586af62c7514f0ef76bca4614b5207eac59a0.jpg',
 					hidden: 0
@@ -49412,7 +49321,7 @@ export const profile: Profile = {
 					unlocktime: 1719541026,
 					name: 'Aranahe Alliance',
 					description: 'Complete the quest Pushing Back.',
-					percent: 34.8,
+					percent: 35.1,
 					icon: '3acb842e6f45979a6490befbcae8511031577ba3.jpg',
 					icongray: '0de22c23b5f3a376b78fe1ff1bfc1436c0043c02.jpg',
 					hidden: 0
@@ -49423,7 +49332,7 @@ export const profile: Profile = {
 					unlocktime: 1720662587,
 					name: 'Stronger Together',
 					description: 'Complete the quest Combined Forces.',
-					percent: 19.5,
+					percent: 19.9,
 					icon: 'b97b900f87aff1df7c65a09e88983287e61d7bdf.jpg',
 					icongray: '424eb495bc71f7f39b54a520c4c75c1887198863.jpg',
 					hidden: 0
@@ -49434,7 +49343,7 @@ export const profile: Profile = {
 					unlocktime: 1721256364,
 					name: 'Clearing the Mist',
 					description: 'Complete the quest Revelations.',
-					percent: 13.7,
+					percent: 13.9,
 					icon: 'a8c26da7d8e0a0d6cea3ca1cbd6ed3d2b25adbed.jpg',
 					icongray: '540483243979733013920827ec1bc4522caaf96e.jpg',
 					hidden: 0
@@ -49445,7 +49354,7 @@ export const profile: Profile = {
 					unlocktime: 1721259890,
 					name: 'Eco Warrior',
 					description: 'Complete the quest Rising Pressure.',
-					percent: 11.6,
+					percent: 11.8,
 					icon: 'a8807c8eba4805b97b65358b9d5129db2cab9250.jpg',
 					icongray: '716ad6a902f177903e02d0ad51861673595df546.jpg',
 					hidden: 0
@@ -49456,7 +49365,7 @@ export const profile: Profile = {
 					unlocktime: 1719671721,
 					name: 'Wildlife Expert',
 					description: "Unlock 20 Hunter's Guide entries for gatherable wildlife.",
-					percent: 24.1,
+					percent: 24.4,
 					icon: '909762e9cb92a4215f7102a4037196004c78143e.jpg',
 					icongray: '9b3b0599022ae75598c41de0683aa03d1104acfd.jpg',
 					hidden: 0
@@ -49467,7 +49376,7 @@ export const profile: Profile = {
 					unlocktime: 1719618544,
 					name: 'Great Gatherer',
 					description: "Unlock 30 Hunter's Guide entries for gatherable plants.",
-					percent: 25,
+					percent: 25.3,
 					icon: 'b436b0e1fdbf349a4f8955a4455b34bd891562b5.jpg',
 					icongray: 'ab058c3b340954ec97733e136ccd23439eaca76d.jpg',
 					hidden: 0
@@ -49478,7 +49387,7 @@ export const profile: Profile = {
 					unlocktime: 1720659964,
 					name: 'Peak Performance',
 					description: 'Unlock an Apex Skill.',
-					percent: 9.5,
+					percent: 9.7,
 					icon: 'aeda6aea782aca4bdae143acda51fe40ed04078a.jpg',
 					icongray: 'ea4d52c49bb1284ac16d8bb62bf31a01e740065b.jpg',
 					hidden: 0
@@ -49489,7 +49398,7 @@ export const profile: Profile = {
 					unlocktime: 1719673041,
 					name: 'Little by Little',
 					description: 'Defeat 10 RDA installations.',
-					percent: 16.4,
+					percent: 16.6,
 					icon: '5853204ab911b76e330e1787f208256ece82524e.jpg',
 					icongray: '334e5aea9f1a32232325aa101be57fa56e0c7304.jpg',
 					hidden: 0
@@ -49500,7 +49409,7 @@ export const profile: Profile = {
 					unlocktime: 1720659179,
 					name: 'Hit Them Where It Hurts',
 					description: 'Defeat five RDA outposts.',
-					percent: 17.1,
+					percent: 17.3,
 					icon: 'bfe05f66f06e33ed699ed8fc5c87ddd386ad69ac.jpg',
 					icongray: '3a6e80ff26bf4a51a4f543413aec4831298ac7d3.jpg',
 					hidden: 0
@@ -49511,7 +49420,7 @@ export const profile: Profile = {
 					unlocktime: 1719616834,
 					name: 'Cooking Pot Pro',
 					description: 'Unlock three recipes for specialty dishes.',
-					percent: 29.5,
+					percent: 29.8,
 					icon: 'dccb4c0e4c27d7a363ec2f23b64866bb1dcbc618.jpg',
 					icongray: '4eabdbf93b17113b3acbaf77c4ddbfd5a694e15a.jpg',
 					hidden: 0
@@ -49522,7 +49431,7 @@ export const profile: Profile = {
 					unlocktime: 1719087667,
 					name: 'Apprentice Crafter',
 					description: "Craft a weapon or gear piece of 'superior' rarity or higher.",
-					percent: 43.2,
+					percent: 43.4,
 					icon: 'e00d5cce0cecb3e9b34381473ed1492632cc2604.jpg',
 					icongray: 'a311ce0e605e1c604b090e17f81165f7a6dedc19.jpg',
 					hidden: 0
@@ -49533,7 +49442,7 @@ export const profile: Profile = {
 					unlocktime: 1720989156,
 					name: "Becoming Na'vi",
 					description: 'Unlock 3 skills in each skill tree.',
-					percent: 19.8,
+					percent: 20,
 					icon: '623e97a9853e0591d16fe30d07cd670483488c03.jpg',
 					icongray: 'd7e8ff7f6df5e1648e73efe31fbeacf3bdcf8fb8.jpg',
 					hidden: 0
@@ -49585,7 +49494,7 @@ export const profile: Profile = {
 					unlocktime: 1367778280,
 					name: 'Flamethrower',
 					description: 'Set five enemies on fire in 30 seconds.',
-					percent: 29.3,
+					percent: 29.2,
 					icon: 'tf_burn_playersinminimumtime.jpg',
 					icongray: 'tf_burn_playersinminimumtime_bw.jpg',
 					hidden: 0
@@ -49979,7 +49888,7 @@ export const profile: Profile = {
 					name: 'House Call',
 					description:
 						'Join a game that one of your friends is in and then deploy an berCharge on him.',
-					percent: 14.7,
+					percent: 14.6,
 					icon: 'tf_medic_invite_join_charge.jpg',
 					icongray: 'tf_medic_invite_join_charge_bw.jpg',
 					hidden: 0
@@ -50023,7 +49932,7 @@ export const profile: Profile = {
 					unlocktime: 1463001334,
 					name: 'Medic Milestone 3',
 					description: 'Achieve 22 of the achievements in the Medic pack.',
-					percent: 11.7,
+					percent: 11.6,
 					icon: '48c360c7c5bb85ee416f5d33e0c0d852bb9a50a9.jpg',
 					icongray: '51544bec4f19351613119a2b74af91e1909c8931.jpg',
 					hidden: 0
@@ -50509,7 +50418,7 @@ export const profile: Profile = {
 					unlocktime: 1368237319,
 					name: 'Communist Mani-Fisto',
 					description: 'Kill an enemy with a critical punch.',
-					percent: 16.6,
+					percent: 16.5,
 					icon: '096c4bdff778dd9559e929768a280e3db0271e90.jpg',
 					icongray: 'd0b1c10ece49201fbac2ee35cece320d75b517ee.jpg',
 					hidden: 0
@@ -50564,7 +50473,7 @@ export const profile: Profile = {
 					unlocktime: 1396311704,
 					name: "I'm Bat Man",
 					description: 'Survive 500 damage in one life.',
-					percent: 18,
+					percent: 17.9,
 					icon: 'd435d3ed6d7becd525b17753a882d794ec76fb7e.jpg',
 					icongray: '86494ca645f0d4c167f8dd847dde911e6a3a822d.jpg',
 					hidden: 0
@@ -50807,7 +50716,7 @@ export const profile: Profile = {
 					unlocktime: 1375193296,
 					name: 'Socket to Him',
 					description: 'Headshot an enemy Demoman.',
-					percent: 25.1,
+					percent: 25,
 					icon: 'e120e921417f883537298d4e2eeaf2f70966ce3c.jpg',
 					icongray: '7b164c64b67d20dfdb4b5d5046956dbdc31c6a3e.jpg',
 					hidden: 0
@@ -50929,7 +50838,7 @@ export const profile: Profile = {
 					unlocktime: 1367806070,
 					name: 'Identity Theft',
 					description: "Backstab the enemy that you're currently disguised as.",
-					percent: 18.7,
+					percent: 18.6,
 					icon: 'a66493f7bfd8b0e3985160a633a40f87077fe621.jpg',
 					icongray: '8b1e7d4f7bc1f4caa42e4a3ce050d81114a6fbcc.jpg',
 					hidden: 0
@@ -51173,7 +51082,7 @@ export const profile: Profile = {
 					name: 'Deep Undercover',
 					description:
 						'While using the Cloak and Dagger, kill the same enemy 3 times, all within the same area in a single life.',
-					percent: 11.6,
+					percent: 11.5,
 					icon: '43b79da0561535d26aa4b83e689c7c5046653004.jpg',
 					icongray: '8a8aabb6d532be1f98c9fbfccd4f206125f65a1f.jpg',
 					hidden: 0
@@ -51195,7 +51104,7 @@ export const profile: Profile = {
 					unlocktime: 1428244821,
 					name: 'Sniper Milestone 2',
 					description: 'Achieve 11 of the achievements in the Sniper pack.',
-					percent: 18.2,
+					percent: 18.1,
 					icon: '1c39019047b49a03cb518e7208d713d9331c8b42.jpg',
 					icongray: '339adad051074993ab2f42a1cf7eeb23d80d57c3.jpg',
 					hidden: 0
@@ -51250,7 +51159,7 @@ export const profile: Profile = {
 					unlocktime: 1442887158,
 					name: 'Candy Coroner',
 					description: 'Collect 20 Halloween pumpkins from dead players to unlock a hat.',
-					percent: 11.5,
+					percent: 11.6,
 					icon: '7510bfeb19d8c00cf83c7ce600ff3e320eec13fe.jpg',
 					icongray: 'e0a08c4a19a93f352f7b9f83ca28bc853c3dceb5.jpg',
 					hidden: 0
@@ -51729,7 +51638,7 @@ export const profile: Profile = {
 					name: 'If You Build It, They Will Die',
 					description:
 						'Haul a level 3 sentry gun into a position where it achieves a kill shortly after being redeployed.',
-					percent: 18,
+					percent: 17.9,
 					icon: 'd11b2debba6ffa0c03aae07509278d6d74da30a1.jpg',
 					icongray: '0f155f86efbb2470901d50fcb07603a9ac693b35.jpg',
 					hidden: 0
@@ -52483,46 +52392,11 @@ export const profile: Profile = {
 			friend_since: 1469052211
 		},
 		{
-			steamid: '76561198061390285',
-			avatar: '330dbec9a70024d03cd15c72e264a5083fdafa42_full.jpg',
-			lastlogoff: 1722468341,
-			username: 'LifeNinja987',
-			friend_since: 1366939989
-		},
-		{
-			steamid: '76561198039705200',
-			avatar: '0828e6eb804f312f914c446070331a35630b5d60_full.jpg',
-			lastlogoff: 1719527270,
-			username: 'Kingodavid',
-			friend_since: 1497137063
-		},
-		{
-			steamid: '76561198982213414',
-			avatar: 'bb056dd750e1444aee38309fc04c139a5948c077_full.jpg',
-			lastlogoff: 1728622732,
-			username: '47carolines',
-			friend_since: 1592252223
-		},
-		{
-			steamid: '76561198077522065',
-			avatar: 'f924231652dc74192753cb3aea5ba883e9a843ff_full.jpg',
-			lastlogoff: 1730077167,
-			username: 'Scott Pilgrim vs Corona Virus',
-			friend_since: 1367084163
-		},
-		{
-			steamid: '76561198094049598',
-			avatar: '00b6c61cf58f01f3a2ba0c638f1935bdbd7c3ac3_full.jpg',
-			lastlogoff: 1715663347,
-			username: 'YT: AKrain',
-			friend_since: 1468981713
-		},
-		{
-			steamid: '76561198155076517',
-			avatar: '943df69df7a93f95109bac568dcd20e416622838_full.jpg',
-			lastlogoff: 1730005369,
-			username: 'Enzo',
-			friend_since: 1464215245
+			steamid: '76561198056708010',
+			avatar: '44933eeb90b5e4d5aefb7a31a8d2f72d569403c5_full.jpg',
+			lastlogoff: 1730195140,
+			username: 'Razztazz',
+			friend_since: 1533989301
 		},
 		{
 			steamid: '76561198047209122',
@@ -52532,207 +52406,11 @@ export const profile: Profile = {
 			friend_since: 1650347127
 		},
 		{
-			steamid: '76561197974322543',
-			avatar: 'a0d8630658f59dd10fa494e4b0c38fcc1d2dca26_full.jpg',
-			lastlogoff: 1730070541,
-			username: 'Alcast',
-			friend_since: 1699042662
-		},
-		{
-			steamid: '76561198050231238',
-			avatar: '6f38a802ed94b71d45ab9cd1700f58ff2e5b8380_full.jpg',
-			lastlogoff: 1729556565,
-			username: 'J',
-			friend_since: 1463012896
-		},
-		{
-			steamid: '76561198119294797',
-			avatar: '37ad75c34c1fa2b00fea90c3445c2cbe337f901d_full.jpg',
-			lastlogoff: 1730055110,
-			username: 'Parlow',
-			friend_since: 1462809712
-		},
-		{
-			steamid: '76561198034018562',
-			avatar: '543bb32f9249e6738288c0d3ac6987ee25983c41_full.jpg',
-			lastlogoff: 1730066263,
-			username: 'BaXuz',
-			friend_since: 1474581954
-		},
-		{
-			steamid: '76561197978225364',
-			avatar: '1058a71f3ba7ca2766ce85ededf377aa6cc2e5b1_full.jpg',
-			lastlogoff: 1730017966,
-			username: 'Knopfdruckoffizier',
-			friend_since: 1467151587
-		},
-		{
-			steamid: '76561198090607596',
-			avatar: 'c333fd735ef0c673962312ab15a3e748839f43a3_full.jpg',
-			lastlogoff: 1728661923,
-			username: 'Murply',
-			friend_since: 1367792891
-		},
-		{
-			steamid: '76561198042031300',
-			avatar: 'f1c5bd7f8eacbb6f8bf43bb30eac4cc5346b8b48_full.jpg',
-			lastlogoff: 1730069867,
-			username: 'Sheik',
-			friend_since: 1616798614
-		},
-		{
 			steamid: '76561198074813964',
 			avatar: '3f47c3634c822270cbccf23f4cb4fcf2272e23d1_full.jpg',
-			lastlogoff: 1730047211,
+			lastlogoff: 1730272328,
 			username: 'olibrine',
 			friend_since: 1467816109
-		},
-		{
-			steamid: '76561198352709867',
-			avatar: '360246921050fb1677811ac0cc711e8ad088b3e3_full.jpg',
-			lastlogoff: 1729308075,
-			username: 'DangerWench',
-			friend_since: 1665625104
-		},
-		{
-			steamid: '76561198370613873',
-			avatar: 'd4e36c18dbe43d0e21bba359c4c5e4e2480dba72_full.jpg',
-			lastlogoff: 1730044907,
-			username: 'berp',
-			friend_since: 1499969823
-		},
-		{
-			steamid: '76561198232715488',
-			avatar: '027710dfe5b50c36062d6da0bce8306fcc19f5e2_full.jpg',
-			lastlogoff: 1728006000,
-			username: 'Gloryflare',
-			friend_since: 1505414955
-		},
-		{
-			steamid: '76561198104080165',
-			avatar: '56267b8002808b3dfd5cacf8146d1468b95bd193_full.jpg',
-			lastlogoff: 1730051970,
-			username: 'Virtas',
-			friend_since: 1651974940
-		},
-		{
-			steamid: '76561198056075237',
-			avatar: '7ed4ace4db81e7c1870f8af8452b4aa51eab39bf_full.jpg',
-			lastlogoff: 1730003199,
-			username: 'Clock Man',
-			friend_since: 1691421197
-		},
-		{
-			steamid: '76561198241707138',
-			avatar: 'b1fdd40e9f8ffe7ea144734ac5e1fc0822ae1f04_full.jpg',
-			lastlogoff: 1729988449,
-			username: 'NefasQS',
-			friend_since: 1612680232
-		},
-		{
-			steamid: '76561197993358016',
-			avatar: '6d02661dde1719fe79a21ea63d11e95801aff997_full.jpg',
-			lastlogoff: 1727840787,
-			username: 'shmity72',
-			friend_since: 1589162724
-		},
-		{
-			steamid: '76561198060103261',
-			avatar: '26458ac0a9e4a290b2edc09801b09e92ab74a747_full.jpg',
-			lastlogoff: 1718647742,
-			username: 'flowersheep',
-			friend_since: 1665625106
-		},
-		{
-			steamid: '76561198072900882',
-			avatar: '129237d8bef9aab15da458a7ddc3826afdcc7e8d_full.jpg',
-			lastlogoff: 1729907692,
-			username: 'JuneBugJones',
-			friend_since: 1404326339
-		},
-		{
-			steamid: '76561198227111772',
-			avatar: 'fe5737d9c434682f9bc3eb425404dce233555eb8_full.jpg',
-			lastlogoff: 1502623298,
-			username: 'DailY20ChickeN',
-			friend_since: 1463874758
-		},
-		{
-			steamid: '76561198057728255',
-			avatar: '5737632a6c34d49b2954c28ce0f970c145c252aa_full.jpg',
-			lastlogoff: 1730061791,
-			username: 'Last_Hound',
-			friend_since: 1467142601
-		},
-		{
-			steamid: '76561198090950877',
-			avatar: 'fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_full.jpg',
-			lastlogoff: 1483304821,
-			username: 'Dank Memes',
-			friend_since: 1367981651
-		},
-		{
-			steamid: '76561198063334116',
-			avatar: '618bfa7e8477cee17e56637af632fef4e31724b2_full.jpg',
-			lastlogoff: 1729724081,
-			username: 'Rosstafariann',
-			friend_since: 1460516930
-		},
-		{
-			steamid: '76561197979041421',
-			avatar: '7ae537b6b7b7b09e68f52e76cdb8f0727f5cb270_full.jpg',
-			lastlogoff: 1584675432,
-			username: 'wkiefer',
-			friend_since: 1432420007
-		},
-		{
-			steamid: '76561198132863362',
-			avatar: '7d124790ae75927f8776264a947a7e08ab23eebb_full.jpg',
-			lastlogoff: 1730061107,
-			username: 'Aviroblox',
-			friend_since: 1578759945
-		},
-		{
-			steamid: '76561198069463927',
-			avatar: 'e3131558abb3aa1d7b8a582deff6679c1ef5f799_full.jpg',
-			lastlogoff: 1729879289,
-			username: 'British Mystery',
-			friend_since: 1403297267
-		},
-		{
-			steamid: '76561198274258536',
-			avatar: 'a4dd0693177d0c56a04923bd0ce73c7007a29095_full.jpg',
-			lastlogoff: 1468076659,
-			username: 'Mr.Pootis',
-			friend_since: 1462742059
-		},
-		{
-			steamid: '76561198340211013',
-			avatar: '52a9de1668a398d4dc400b8f225c5374034e9d82_full.jpg',
-			lastlogoff: 1729965366,
-			username: 'Ms. Fortune Teller',
-			friend_since: 1501802505
-		},
-		{
-			steamid: '76561198345704539',
-			avatar: '7df5b1d0f072d9b2e67bc3db5d1b78b787353b35_full.jpg',
-			lastlogoff: 1730074812,
-			username: 'Gamer Errors',
-			friend_since: 1591130015
-		},
-		{
-			steamid: '76561198018613122',
-			avatar: 'fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_full.jpg',
-			lastlogoff: 1687486844,
-			username: 'blaizah',
-			friend_since: 1667078833
-		},
-		{
-			steamid: '76561198088480930',
-			avatar: '81ca4d9d7664210814097f72d3a0acab9dadff37_full.jpg',
-			lastlogoff: 1725923473,
-			username: 'Sage1217',
-			friend_since: 1392153864
 		},
 		{
 			steamid: '76561198089184428',
@@ -52742,172 +52420,53 @@ export const profile: Profile = {
 			friend_since: 1368051049
 		},
 		{
-			steamid: '76561198167765591',
-			avatar: 'acf67207768cdc5be5f09aca6a9f7830bf27d6f7_full.jpg',
-			lastlogoff: 1690502835,
-			username: 'jvde_',
-			friend_since: 1473209235
+			steamid: '76561198117399271',
+			avatar: 'efdb2e700df320cbc5920fcb78fa78b9d0d0db65_full.jpg',
+			lastlogoff: 1649542239,
+			username: 'SkySatan',
+			friend_since: 1489642138
+		},
+		{
+			steamid: '76561198042031300',
+			avatar: 'f1c5bd7f8eacbb6f8bf43bb30eac4cc5346b8b48_full.jpg',
+			lastlogoff: 1730328941,
+			username: 'Sheik',
+			friend_since: 1616798614
 		},
 		{
 			steamid: '76561198069239592',
 			avatar: '52bfe6828f7cc88655757907064a1e9533425083_full.jpg',
-			lastlogoff: 1730053106,
+			lastlogoff: 1730323552,
 			username: 'Wolfborn',
 			friend_since: 1462869365
 		},
 		{
 			steamid: '76561198091116721',
 			avatar: '9dbb9a46128345cdaa686acf6b60ec65ea772d44_full.jpg',
-			lastlogoff: 1730068898,
+			lastlogoff: 1730275201,
 			username: 'Jazza',
 			friend_since: 1537039323
 		},
 		{
-			steamid: '76561198058067546',
-			avatar: '4bb177d824e30f5644d8ab04b75c8d2f9345f726_full.jpg',
-			lastlogoff: 1730071435,
-			username: 'AtticusRoss',
-			friend_since: 1475695251
+			steamid: '76561197993358016',
+			avatar: '6d02661dde1719fe79a21ea63d11e95801aff997_full.jpg',
+			lastlogoff: 1727840787,
+			username: 'shmity72',
+			friend_since: 1589162724
 		},
 		{
-			steamid: '76561198127488473',
-			avatar: 'cb8f081e9ca114170ea3f2013a29f89a27977a2e_full.jpg',
-			lastlogoff: 1729801969,
-			username: 'Alexey25',
-			friend_since: 1465802922
-		},
-		{
-			steamid: '76561197997119261',
-			avatar: '420b20d92277c688e1b1a06c17f01c0ed17f17e0_full.jpg',
-			lastlogoff: 1729258203,
-			username: 'HHOdin',
-			friend_since: 1610123864
+			steamid: '76561198153409704',
+			avatar: 'fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_full.jpg',
+			lastlogoff: 1410226076,
+			username: 'dnh63108',
+			friend_since: 1440882437
 		},
 		{
 			steamid: '76561197999279907',
 			avatar: '65d72f8d21444977bffccad43e4c73c1399ca540_full.jpg',
-			lastlogoff: 1730058983,
+			lastlogoff: 1730088318,
 			username: 'yakub0',
 			friend_since: 1650310532
-		},
-		{
-			steamid: '76561198126625668',
-			avatar: 'cf390578eeb6d553e5dec5a3be61f2cc6a91e5d1_full.jpg',
-			lastlogoff: 1433970781,
-			username: 'LazyPanda',
-			friend_since: 1392432571
-		},
-		{
-			steamid: '76561198054799240',
-			avatar: 'fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_full.jpg',
-			lastlogoff: 1561709904,
-			username: 'DAMIANO',
-			friend_since: 1367776355
-		},
-		{
-			steamid: '76561198120583796',
-			avatar: '9b066c0a81b28d9397d83803a5584b52c2137f4a_full.jpg',
-			lastlogoff: 1644777274,
-			username: 'Silent is Golden',
-			friend_since: 1463908586
-		},
-		{
-			steamid: '76561198307673547',
-			avatar: '38d97eed5cdceb06a6f1cd7ee5c53e0077a0d9dd_full.jpg',
-			lastlogoff: 1730075427,
-			username: 'Grandps',
-			friend_since: 1467241480
-		},
-		{
-			steamid: '76561198134686328',
-			avatar: 'ebfc075b3ebedaf71215906e30326d70cf246808_full.jpg',
-			lastlogoff: 1401131882,
-			username: 'MURICAN HERO',
-			friend_since: 1473209231
-		},
-		{
-			steamid: '76561198379309879',
-			avatar: '5da239ee2a26bf20694027b9731ab8e8bfff3488_full.jpg',
-			lastlogoff: 1722881249,
-			username: 'wanted9',
-			friend_since: 1496168695
-		},
-		{
-			steamid: '76561198214857653',
-			avatar: '831e42f2636d4041b0a2b319bf4b984a74eb7ee2_full.jpg',
-			lastlogoff: 1729217194,
-			username: 'Tyrone',
-			friend_since: 1452309815
-		},
-		{
-			steamid: '76561198063463200',
-			avatar: '11bca5d9349ac04b30d035dda045cfd77a1e0514_full.jpg',
-			lastlogoff: 1730059083,
-			username: 'Local Gamer',
-			friend_since: 1381526323
-		},
-		{
-			steamid: '76561198057638021',
-			avatar: '2f4d7ca817e9f8cbcd95b7ff2e42c77802b52927_full.jpg',
-			lastlogoff: 1730001786,
-			username: 'jozy101',
-			friend_since: 1650230174
-		},
-		{
-			steamid: '76561198071245540',
-			avatar: 'b6123a945d84f07d6c8ae5809bad2ee5dc9d09a7_full.jpg',
-			lastlogoff: 1729799305,
-			username: 'Monkey L Doofy',
-			friend_since: 1485400400
-		},
-		{
-			steamid: '76561198361328186',
-			avatar: '7fd76314aabba2d677b9d164f8085a47d3d427e8_full.jpg',
-			lastlogoff: 1729517700,
-			username: 'Annoyed_Constantly | ZHsUV',
-			friend_since: 1500760317
-		},
-		{
-			steamid: '76561198017249595',
-			avatar: '9ded280200d670ab4e76672c7c8bf7f343840e73_full.jpg',
-			lastlogoff: 1656001937,
-			username: 'kinologik',
-			friend_since: 1562181645
-		},
-		{
-			steamid: '76561198211500856',
-			avatar: '2df5870951ac5a54cb81223fb469680db44c4dd4_full.jpg',
-			lastlogoff: 1726367442,
-			username: 'Wondersplitzen',
-			friend_since: 1503088677
-		},
-		{
-			steamid: '76561198093924027',
-			avatar: '2e70ee0c16e6523cbe340bedb4f0a0857712d3b0_full.jpg',
-			lastlogoff: 1728715678,
-			username: 'Lucy Flip',
-			friend_since: 1467256019
-		},
-		{
-			steamid: '76561198096430071',
-			avatar: 'f4f2fc58620a769dfcc51defda89ed5cb8fa7d75_full.jpg',
-			lastlogoff: 1730002764,
-			username: 'Garfield 2.0',
-			friend_since: 1504558800
-		},
-		{
-			steamid: '76561198033799476',
-			avatar: 'cab15d241ec5a53395910c47fd61d12c1e282d30_full.jpg',
-			lastlogoff: 1730068529,
-			username: 'TangoMangoDown!',
-			friend_since: 1509831799
-		},
-		{
-			steamid: '76561198025653291',
-			avatar: '0ae2f2985b97dbd8b77ded6f94e5c71bbd2719a4_full.jpg',
-			lastlogoff: 1730057360,
-			username: 'Steph S.',
-			friend_since: 1492477019
 		},
 		{
 			steamid: '76561198043147443',
@@ -52919,30 +52478,37 @@ export const profile: Profile = {
 		{
 			steamid: '76561198236189326',
 			avatar: 'acf67207768cdc5be5f09aca6a9f7830bf27d6f7_full.jpg',
-			lastlogoff: 1729747624,
+			lastlogoff: 1730176464,
 			username: 'Meechy',
 			friend_since: 1487562426
 		},
 		{
-			steamid: '76561198108132649',
-			avatar: '576a072e6da81175e6b47f000010d843bca92fd7_full.jpg',
-			lastlogoff: 1513108556,
-			username: 'Dimatronrocks',
-			friend_since: 1455329195
+			steamid: '76561198094049598',
+			avatar: '00b6c61cf58f01f3a2ba0c638f1935bdbd7c3ac3_full.jpg',
+			lastlogoff: 1715663347,
+			username: 'YT: AKrain',
+			friend_since: 1468981713
 		},
 		{
-			steamid: '76561198178999451',
-			avatar: '8879e59d4428c411c61e108f3d647dd13540d80d_full.jpg',
-			lastlogoff: 1728678083,
-			username: 'Waltario',
-			friend_since: 1462998681
+			steamid: '76561198090607596',
+			avatar: 'c333fd735ef0c673962312ab15a3e748839f43a3_full.jpg',
+			lastlogoff: 1728661923,
+			username: 'Murply',
+			friend_since: 1367792891
 		},
 		{
-			steamid: '76561198067053149',
-			avatar: 'c947036a639b8b5a9ec3958ff66292014fe2f615_full.jpg',
-			lastlogoff: 1729262272,
-			username: 'TheBalrog',
-			friend_since: 1466079764
+			steamid: '76561198018613122',
+			avatar: 'fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_full.jpg',
+			lastlogoff: 1687486844,
+			username: 'blaizah',
+			friend_since: 1667078833
+		},
+		{
+			steamid: '76561197997119261',
+			avatar: '420b20d92277c688e1b1a06c17f01c0ed17f17e0_full.jpg',
+			lastlogoff: 1729258203,
+			username: 'HHOdin',
+			friend_since: 1610123864
 		},
 		{
 			steamid: '76561198038179236',
@@ -52952,94 +52518,81 @@ export const profile: Profile = {
 			friend_since: 1467355848
 		},
 		{
-			steamid: '76561198123618180',
-			avatar: '49acdd7acab28c9344ec286e4dae713098043b02_full.jpg',
-			lastlogoff: 1728941985,
-			username: 'EternalSessions6',
-			friend_since: 1650407895
+			steamid: '76561198155076517',
+			avatar: '943df69df7a93f95109bac568dcd20e416622838_full.jpg',
+			lastlogoff: 1730276691,
+			username: 'Enzo',
+			friend_since: 1464215245
 		},
 		{
-			steamid: '76561198142800266',
-			avatar: '83764e067f3ee3bc0be68d65f4169c80d142b7af_full.jpg',
-			lastlogoff: 1730065486,
-			username: 'Dr. Diet Thunder',
-			friend_since: 1502221804
-		},
-		{
-			steamid: '76561198053235418',
-			avatar: 'c14e98f3b50b6a4b9b6eef3b3f8f349b4c6d32f1_full.jpg',
-			lastlogoff: 1724917103,
-			username: 'Lon Blum',
-			friend_since: 1456008246
-		},
-		{
-			steamid: '76561198302473690',
+			steamid: '76561198090950877',
 			avatar: 'fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_full.jpg',
-			username: 'evdohakataev7',
-			friend_since: 1469236994
+			lastlogoff: 1483304821,
+			username: 'Dank Memes',
+			friend_since: 1367981651
 		},
 		{
-			steamid: '76561198102105028',
-			avatar: 'a07a24da2a351d3729d41bfe91cdfd4f2f7c190c_full.jpg',
-			lastlogoff: 1404776981,
-			username: 'adamnaz02',
-			friend_since: 1376070806
+			steamid: '76561197978225364',
+			avatar: '1058a71f3ba7ca2766ce85ededf377aa6cc2e5b1_full.jpg',
+			lastlogoff: 1730336259,
+			username: 'Knopfdruckoffizier',
+			friend_since: 1467151587
 		},
 		{
-			steamid: '76561198077794958',
-			avatar: '7b1ad003ea8eb9d788de9dc7c77e5bfe64d42d7b_full.jpg',
-			lastlogoff: 1730071296,
-			username: 'Bumkus',
-			friend_since: 1529960786
+			steamid: '76561198071245540',
+			avatar: 'b6123a945d84f07d6c8ae5809bad2ee5dc9d09a7_full.jpg',
+			lastlogoff: 1730269156,
+			username: 'Monkey L Doofy',
+			friend_since: 1485400400
 		},
 		{
-			steamid: '76561198117399271',
-			avatar: 'efdb2e700df320cbc5920fcb78fa78b9d0d0db65_full.jpg',
-			lastlogoff: 1649542239,
-			username: 'SkySatan',
-			friend_since: 1489642138
+			steamid: '76561198060942032',
+			avatar: 'a14b282c6ff5f203ebdc54c6a46dd03d49511045_full.jpg',
+			lastlogoff: 1730175042,
+			username: 'tyquavion da goat',
+			friend_since: 1475624452
 		},
 		{
-			steamid: '76561198104485059',
+			steamid: '76561198134686328',
+			avatar: 'ebfc075b3ebedaf71215906e30326d70cf246808_full.jpg',
+			lastlogoff: 1401131882,
+			username: 'MURICAN HERO',
+			friend_since: 1473209231
+		},
+		{
+			steamid: '76561198054799240',
 			avatar: 'fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_full.jpg',
-			lastlogoff: 1729983774,
-			username: 'kicking5',
-			friend_since: 1392081217
+			lastlogoff: 1561709904,
+			username: 'DAMIANO',
+			friend_since: 1367776355
 		},
 		{
-			steamid: '76561198149403604',
-			avatar: '83a40ec73950db3fbb3fcf2ac5faab54d3fa14e1_full.jpg',
-			lastlogoff: 1730046846,
-			username: 'Saint Echo',
-			friend_since: 1456268806
+			steamid: '76561198227111772',
+			avatar: 'fe5737d9c434682f9bc3eb425404dce233555eb8_full.jpg',
+			lastlogoff: 1502623298,
+			username: 'DailY20ChickeN',
+			friend_since: 1463874758
+		},
+		{
+			steamid: '76561198379309879',
+			avatar: '5da239ee2a26bf20694027b9731ab8e8bfff3488_full.jpg',
+			lastlogoff: 1722881249,
+			username: 'wanted9',
+			friend_since: 1496168695
+		},
+		{
+			steamid: '76561198017249595',
+			avatar: '9ded280200d670ab4e76672c7c8bf7f343840e73_full.jpg',
+			lastlogoff: 1656001937,
+			username: 'kinologik',
+			friend_since: 1562181645
 		},
 		{
 			steamid: '76561198149690302',
 			avatar: 'de236bd8a84b137877f3f6caec80a7c0b98992e2_full.jpg',
-			lastlogoff: 1730070985,
+			lastlogoff: 1730335357,
 			username: 'clowngasm',
 			friend_since: 1680305461
-		},
-		{
-			steamid: '76561198194770057',
-			avatar: '6595a243739ae73573ddd184d2da3f6690bcc8a2_full.jpg',
-			lastlogoff: 1728605974,
-			username: '',
-			friend_since: 1467343412
-		},
-		{
-			steamid: '76561198160458185',
-			avatar: 'e6ad6992c074e70a88d52d2efa9a0081f9209a30_full.jpg',
-			lastlogoff: 1730007197,
-			username: 'Seething Steel',
-			friend_since: 1712633482
-		},
-		{
-			steamid: '76561198259147703',
-			avatar: 'fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_full.jpg',
-			lastlogoff: 1724180458,
-			username: 'bob',
-			friend_since: 1535310514
 		},
 		{
 			steamid: '76561198196561698',
@@ -53056,25 +52609,123 @@ export const profile: Profile = {
 			friend_since: 1462729864
 		},
 		{
-			steamid: '76561197987226957',
-			avatar: 'cd6340159dbaf0e6ed59ba5b3e71099d8eff37df_full.jpg',
-			lastlogoff: 1729993350,
-			username: 'Evan',
-			friend_since: 1629578076
+			steamid: '76561198104080165',
+			avatar: '56267b8002808b3dfd5cacf8146d1468b95bd193_full.jpg',
+			lastlogoff: 1730182413,
+			username: 'Virtas',
+			friend_since: 1651974940
 		},
 		{
-			steamid: '76561198056708010',
-			avatar: '44933eeb90b5e4d5aefb7a31a8d2f72d569403c5_full.jpg',
-			lastlogoff: 1730036374,
-			username: 'Razztazz',
-			friend_since: 1533989301
+			steamid: '76561198178999451',
+			avatar: '8879e59d4428c411c61e108f3d647dd13540d80d_full.jpg',
+			lastlogoff: 1728678083,
+			username: 'Waltario',
+			friend_since: 1462998681
 		},
 		{
-			steamid: '76561198060942032',
-			avatar: 'a14b282c6ff5f203ebdc54c6a46dd03d49511045_full.jpg',
-			lastlogoff: 1730060664,
-			username: 'tyquavion da goat',
-			friend_since: 1475624452
+			steamid: '76561198096430071',
+			avatar: 'f4f2fc58620a769dfcc51defda89ed5cb8fa7d75_full.jpg',
+			lastlogoff: 1730255012,
+			username: 'Garfield 2.0',
+			friend_since: 1504558800
+		},
+		{
+			steamid: '76561198034018562',
+			avatar: '543bb32f9249e6738288c0d3ac6987ee25983c41_full.jpg',
+			lastlogoff: 1730329905,
+			username: 'BaXuz',
+			friend_since: 1474581954
+		},
+		{
+			steamid: '76561198063334116',
+			avatar: '618bfa7e8477cee17e56637af632fef4e31724b2_full.jpg',
+			lastlogoff: 1730084614,
+			username: 'Rosstafariann',
+			friend_since: 1460516930
+		},
+		{
+			steamid: '76561198370613873',
+			avatar: 'd4e36c18dbe43d0e21bba359c4c5e4e2480dba72_full.jpg',
+			lastlogoff: 1730335806,
+			username: 'berp',
+			friend_since: 1499969823
+		},
+		{
+			steamid: '76561198063463200',
+			avatar: '11bca5d9349ac04b30d035dda045cfd77a1e0514_full.jpg',
+			lastlogoff: 1730299426,
+			username: 'Local Gamer',
+			friend_since: 1381526323
+		},
+		{
+			steamid: '76561198077794958',
+			avatar: '7b1ad003ea8eb9d788de9dc7c77e5bfe64d42d7b_full.jpg',
+			lastlogoff: 1730205633,
+			username: 'Bumkus',
+			friend_since: 1529960786
+		},
+		{
+			steamid: '76561198361328186',
+			avatar: '7fd76314aabba2d677b9d164f8085a47d3d427e8_full.jpg',
+			lastlogoff: 1729517700,
+			username: 'Annoyed_Constantly | ZHsUV',
+			friend_since: 1500760317
+		},
+		{
+			steamid: '76561198025653291',
+			avatar: '0ae2f2985b97dbd8b77ded6f94e5c71bbd2719a4_full.jpg',
+			lastlogoff: 1730252112,
+			username: 'Steph S.',
+			friend_since: 1492477019
+		},
+		{
+			steamid: '76561198149403604',
+			avatar: '83a40ec73950db3fbb3fcf2ac5faab54d3fa14e1_full.jpg',
+			lastlogoff: 1730321987,
+			username: 'Saint Echo',
+			friend_since: 1456268806
+		},
+		{
+			steamid: '76561198127488473',
+			avatar: 'cb8f081e9ca114170ea3f2013a29f89a27977a2e_full.jpg',
+			lastlogoff: 1730322153,
+			username: 'Alexey25',
+			friend_since: 1465802922
+		},
+		{
+			steamid: '76561198061390285',
+			avatar: '330dbec9a70024d03cd15c72e264a5083fdafa42_full.jpg',
+			lastlogoff: 1722468341,
+			username: 'LifeNinja987',
+			friend_since: 1366939989
+		},
+		{
+			steamid: '76561198067053149',
+			avatar: 'c947036a639b8b5a9ec3958ff66292014fe2f615_full.jpg',
+			lastlogoff: 1729262272,
+			username: 'TheBalrog',
+			friend_since: 1466079764
+		},
+		{
+			steamid: '76561198050231238',
+			avatar: '6f38a802ed94b71d45ab9cd1700f58ff2e5b8380_full.jpg',
+			lastlogoff: 1730321692,
+			username: 'J',
+			friend_since: 1463012896
+		},
+		{
+			steamid: '76561198039705200',
+			avatar: '0828e6eb804f312f914c446070331a35630b5d60_full.jpg',
+			lastlogoff: 1719527270,
+			username: 'Kingodavid',
+			friend_since: 1497137063
+		},
+		{
+			steamid: '76561198982213414',
+			avatar: 'bb056dd750e1444aee38309fc04c139a5948c077_full.jpg',
+			lastlogoff: 1728622732,
+			username: '47carolines',
+			friend_since: 1592252223
 		},
 		{
 			steamid: '76561198049540016',
@@ -53084,11 +52735,269 @@ export const profile: Profile = {
 			friend_since: 1669768988
 		},
 		{
-			steamid: '76561198153409704',
+			steamid: '76561198120583796',
+			avatar: '9b066c0a81b28d9397d83803a5584b52c2137f4a_full.jpg',
+			lastlogoff: 1644777274,
+			username: 'Silent is Golden',
+			friend_since: 1463908586
+		},
+		{
+			steamid: '76561197974322543',
+			avatar: 'a0d8630658f59dd10fa494e4b0c38fcc1d2dca26_full.jpg',
+			lastlogoff: 1730313418,
+			username: 'Alcast',
+			friend_since: 1699042662
+		},
+		{
+			steamid: '76561198057638021',
+			avatar: '2f4d7ca817e9f8cbcd95b7ff2e42c77802b52927_full.jpg',
+			lastlogoff: 1730257571,
+			username: 'jozy101',
+			friend_since: 1650230174
+		},
+		{
+			steamid: '76561198232715488',
+			avatar: '027710dfe5b50c36062d6da0bce8306fcc19f5e2_full.jpg',
+			lastlogoff: 1728006000,
+			username: 'Gloryflare',
+			friend_since: 1505414955
+		},
+		{
+			steamid: '76561198093924027',
+			avatar: '2e70ee0c16e6523cbe340bedb4f0a0857712d3b0_full.jpg',
+			lastlogoff: 1728715678,
+			username: 'Lucy Flip',
+			friend_since: 1467256019
+		},
+		{
+			steamid: '76561198194770057',
+			avatar: '6595a243739ae73573ddd184d2da3f6690bcc8a2_full.jpg',
+			lastlogoff: 1728605974,
+			username: '',
+			friend_since: 1467343412
+		},
+		{
+			steamid: '76561198053235418',
+			avatar: 'c14e98f3b50b6a4b9b6eef3b3f8f349b4c6d32f1_full.jpg',
+			lastlogoff: 1724917103,
+			username: 'Lon Blum',
+			friend_since: 1456008246
+		},
+		{
+			steamid: '76561198307673547',
+			avatar: '38d97eed5cdceb06a6f1cd7ee5c53e0077a0d9dd_full.jpg',
+			lastlogoff: 1730334585,
+			username: 'Grandps',
+			friend_since: 1467241480
+		},
+		{
+			steamid: '76561198058067546',
+			avatar: '4bb177d824e30f5644d8ab04b75c8d2f9345f726_full.jpg',
+			lastlogoff: 1730208890,
+			username: 'AtticusRoss',
+			friend_since: 1475695251
+		},
+		{
+			steamid: '76561198352709867',
+			avatar: '360246921050fb1677811ac0cc711e8ad088b3e3_full.jpg',
+			lastlogoff: 1730333898,
+			username: 'DangerWench',
+			friend_since: 1665625104
+		},
+		{
+			steamid: '76561198167765591',
+			avatar: 'acf67207768cdc5be5f09aca6a9f7830bf27d6f7_full.jpg',
+			lastlogoff: 1690502835,
+			username: 'jvde_',
+			friend_since: 1473209235
+		},
+		{
+			steamid: '76561197987226957',
+			avatar: 'cd6340159dbaf0e6ed59ba5b3e71099d8eff37df_full.jpg',
+			lastlogoff: 1730336587,
+			username: 'Evan',
+			friend_since: 1629578076
+		},
+		{
+			steamid: '76561198241707138',
+			avatar: 'b1fdd40e9f8ffe7ea144734ac5e1fc0822ae1f04_full.jpg',
+			lastlogoff: 1730250251,
+			username: 'NefasQS',
+			friend_since: 1612680232
+		},
+		{
+			steamid: '76561198274258536',
+			avatar: 'a4dd0693177d0c56a04923bd0ce73c7007a29095_full.jpg',
+			lastlogoff: 1468076659,
+			username: 'Mr.Pootis',
+			friend_since: 1462742059
+		},
+		{
+			steamid: '76561198056075237',
+			avatar: '7ed4ace4db81e7c1870f8af8452b4aa51eab39bf_full.jpg',
+			lastlogoff: 1730003199,
+			username: 'Clock Man',
+			friend_since: 1691421197
+		},
+		{
+			steamid: '76561198132863362',
+			avatar: '7d124790ae75927f8776264a947a7e08ab23eebb_full.jpg',
+			lastlogoff: 1730061107,
+			username: 'Aviroblox',
+			friend_since: 1578759945
+		},
+		{
+			steamid: '76561198104485059',
 			avatar: 'fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_full.jpg',
-			lastlogoff: 1410226076,
-			username: 'dnh63108',
-			friend_since: 1440882437
+			lastlogoff: 1730271425,
+			username: 'kicking5',
+			friend_since: 1392081217
+		},
+		{
+			steamid: '76561198340211013',
+			avatar: '52a9de1668a398d4dc400b8f225c5374034e9d82_full.jpg',
+			lastlogoff: 1730315449,
+			username: 'Ms. Fortune Teller',
+			friend_since: 1501802505
+		},
+		{
+			steamid: '76561198345704539',
+			avatar: '7df5b1d0f072d9b2e67bc3db5d1b78b787353b35_full.jpg',
+			lastlogoff: 1730271245,
+			username: 'Gamer Errors',
+			friend_since: 1591130015
+		},
+		{
+			steamid: '76561197979041421',
+			avatar: '7ae537b6b7b7b09e68f52e76cdb8f0727f5cb270_full.jpg',
+			lastlogoff: 1584675432,
+			username: 'wkiefer',
+			friend_since: 1432420007
+		},
+		{
+			steamid: '76561198108132649',
+			avatar: '576a072e6da81175e6b47f000010d843bca92fd7_full.jpg',
+			lastlogoff: 1513108556,
+			username: 'Dimatronrocks',
+			friend_since: 1455329195
+		},
+		{
+			steamid: '76561198160458185',
+			avatar: 'e6ad6992c074e70a88d52d2efa9a0081f9209a30_full.jpg',
+			lastlogoff: 1730261211,
+			username: 'Seething Steel',
+			friend_since: 1712633482
+		},
+		{
+			steamid: '76561198259147703',
+			avatar: 'fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_full.jpg',
+			lastlogoff: 1724180458,
+			username: 'bob',
+			friend_since: 1535310514
+		},
+		{
+			steamid: '76561198057728255',
+			avatar: '5737632a6c34d49b2954c28ce0f970c145c252aa_full.jpg',
+			lastlogoff: 1730307445,
+			username: 'Last_Hound',
+			friend_since: 1467142601
+		},
+		{
+			steamid: '76561198126625668',
+			avatar: 'cf390578eeb6d553e5dec5a3be61f2cc6a91e5d1_full.jpg',
+			lastlogoff: 1433970781,
+			username: 'LazyPanda',
+			friend_since: 1392432571
+		},
+		{
+			steamid: '76561198119294797',
+			avatar: '37ad75c34c1fa2b00fea90c3445c2cbe337f901d_full.jpg',
+			lastlogoff: 1730318993,
+			username: 'Parlow',
+			friend_since: 1462809712
+		},
+		{
+			steamid: '76561198088480930',
+			avatar: '81ca4d9d7664210814097f72d3a0acab9dadff37_full.jpg',
+			lastlogoff: 1725923473,
+			username: 'Sage1217',
+			friend_since: 1392153864
+		},
+		{
+			steamid: '76561198069463927',
+			avatar: 'e3131558abb3aa1d7b8a582deff6679c1ef5f799_full.jpg',
+			lastlogoff: 1730316001,
+			username: 'British Mystery',
+			friend_since: 1403297267
+		},
+		{
+			steamid: '76561198214857653',
+			avatar: '831e42f2636d4041b0a2b319bf4b984a74eb7ee2_full.jpg',
+			lastlogoff: 1729217194,
+			username: 'Tyrone',
+			friend_since: 1452309815
+		},
+		{
+			steamid: '76561198123618180',
+			avatar: '49acdd7acab28c9344ec286e4dae713098043b02_full.jpg',
+			lastlogoff: 1728941985,
+			username: 'EternalSessions6',
+			friend_since: 1650407895
+		},
+		{
+			steamid: '76561198142800266',
+			avatar: '83764e067f3ee3bc0be68d65f4169c80d142b7af_full.jpg',
+			lastlogoff: 1730301292,
+			username: 'Dr. Diet Thunder',
+			friend_since: 1502221804
+		},
+		{
+			steamid: '76561198102105028',
+			avatar: 'a07a24da2a351d3729d41bfe91cdfd4f2f7c190c_full.jpg',
+			lastlogoff: 1404776981,
+			username: 'adamnaz02',
+			friend_since: 1376070806
+		},
+		{
+			steamid: '76561198060103261',
+			avatar: '26458ac0a9e4a290b2edc09801b09e92ab74a747_full.jpg',
+			lastlogoff: 1718647742,
+			username: 'flowersheep',
+			friend_since: 1665625106
+		},
+		{
+			steamid: '76561198072900882',
+			avatar: '129237d8bef9aab15da458a7ddc3826afdcc7e8d_full.jpg',
+			lastlogoff: 1730263383,
+			username: 'JuneBugJones',
+			friend_since: 1404326339
+		},
+		{
+			steamid: '76561198033799476',
+			avatar: 'cab15d241ec5a53395910c47fd61d12c1e282d30_full.jpg',
+			lastlogoff: 1730331126,
+			username: 'TangoMangoDown!',
+			friend_since: 1509831799
+		},
+		{
+			steamid: '76561198302473690',
+			avatar: 'fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_full.jpg',
+			username: 'evdohakataev7',
+			friend_since: 1469236994
+		},
+		{
+			steamid: '76561198211500856',
+			avatar: '2df5870951ac5a54cb81223fb469680db44c4dd4_full.jpg',
+			lastlogoff: 1726367442,
+			username: 'Wondersplitzen',
+			friend_since: 1503088677
+		},
+		{
+			steamid: '76561198077522065',
+			avatar: 'f924231652dc74192753cb3aea5ba883e9a843ff_full.jpg',
+			lastlogoff: 1730334606,
+			username: 'Scott Pilgrim vs Corona Virus',
+			friend_since: 1367084163
 		}
 	]
 };
