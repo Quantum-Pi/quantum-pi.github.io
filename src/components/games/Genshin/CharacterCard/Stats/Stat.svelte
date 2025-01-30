@@ -1,7 +1,11 @@
 <script lang="ts">
-	export let name: string;
-	export let icon: string;
-	export let value: string | undefined;
+	interface Props {
+		name: string;
+		icon: string;
+		value: string | undefined;
+	}
+
+	let { name, icon, value }: Props = $props();
 
 	const valueNum = value ? parseFloat(value.replace(/[^0-9]/g, '')) : undefined;
 	const isEleDmgBonus = icon.includes('DamageBonus') && !icon.includes('physical');
@@ -13,7 +17,7 @@
 			class={`${icon} align-middle text-sm`}
 			style={`color: ${isEleDmgBonus ? 'var(--element)' : 'white'}`}
 		>
-			<span class="path1" /><span class="path2" />
+			<span class="path1"></span><span class="path2"></span>
 		</i>{name}</span
 	>
 	<span class="ml-3">{value}</span>

@@ -3,8 +3,12 @@
 	import type { CharacterResource } from '../CharacterCard.svelte';
 	import Skill from './Skill.svelte';
 
-	export let character: GenshinCharacter;
-	export let resources: CharacterResource['character'];
+	interface Props {
+		character: GenshinCharacter;
+		resources: CharacterResource['character'];
+	}
+
+	let { character, resources }: Props = $props();
 
 	const ranking = (
 		((character.ranking?.ranking ?? 0) / (character.ranking?.outOf ?? 1)) *
@@ -58,12 +62,12 @@
 	/>
 </div>
 
-<style lang="scss">
+<style>
 	.info {
 		row-gap: calc(16px * calc(var(--scale) - 1));
 	}
 
-	picture:has(> #splash) {
+	picture:has(:global(> #splash)) {
 		position: absolute;
 		top: 0;
 		left: 0;

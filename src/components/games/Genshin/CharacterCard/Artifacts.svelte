@@ -4,8 +4,12 @@
 	import { mainStatToValue } from '$lib/genshin_data';
 	import type { CharacterResource } from './CharacterCard.svelte';
 
-	export let character: GenshinCharacter;
-	export let resources: CharacterResource['artifact'];
+	interface Props {
+		character: GenshinCharacter;
+		resources: CharacterResource['artifact'];
+	}
+
+	let { character, resources }: Props = $props();
 
 	const artifacts = character.artifacts ?? [];
 </script>
@@ -28,7 +32,7 @@
 					class="artifact-ms__info absolute z-10 flex flex-col gap-y-[2px] justify-center items-end right-0 top-0 h-full"
 				>
 					<i class={`icon-${artifact.mainStatKey} text-end`} style="">
-						<span class="path1" /><span class="path2" />
+						<span class="path1"></span><span class="path2"></span>
 					</i>
 					<div>
 						{mainStatToValue[artifact.mainStatKey][artifact.level]}{artifact.mainStatKey.endsWith(
@@ -38,7 +42,7 @@
 							: ''}
 					</div>
 					<div class="flex justify-end items-center">
-						<div style:--rarity={artifact.rarity} class="rarity mr-1" />
+						<div style:--rarity={artifact.rarity} class="rarity mr-1"></div>
 						<div class="level-bubble text-end w-fit px-[2px] rounded-sm">+{artifact.level}</div>
 					</div>
 				</div>
@@ -47,7 +51,7 @@
 				{#each artifact.substats as substat}
 					<div class="flex items-center">
 						<i class={`icon-${substat.key} text-end text-sm mr-2`} style="">
-							<span class="path1" /><span class="path2" />
+							<span class="path1"></span><span class="path2"></span>
 						</i>
 						<div>
 							+{substat.value}{substat.key.endsWith('_') ? '%' : ''}
@@ -59,7 +63,7 @@
 	{/each}
 </div>
 
-<style lang="scss">
+<style>
 	.rarity {
 		--star-width: calc(7px * var(--scale));
 		--width: calc(var(--star-width) * var(--rarity));

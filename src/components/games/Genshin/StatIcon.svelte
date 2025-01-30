@@ -1,10 +1,13 @@
 <script lang="ts">
 	import type { StatKey } from 'enka-network-api';
 
-	export let stat: StatKey;
-	// export let style: string = '';
+	interface Props {
+		stat: StatKey; // export let style: string = '';
+	}
+
+	let { stat }: Props = $props();
 </script>
 
 <i class={`icon-${stat}`} style="">
-	<span class="path1" /><span class="path2" />
+	<span class="path1"></span><span class="path2"></span>
 </i>

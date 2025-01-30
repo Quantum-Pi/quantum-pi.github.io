@@ -1,13 +1,30 @@
 <script lang="ts">
 	import { getGameHero, getGameIcon } from '$lib/cache';
 	import { isEnhancedImage } from '$lib';
-	import { recentGames } from '$lib/steam_agg';
 
-	type Game = (typeof recentGames)[0];
+	type Game = {
+		appid: number;
+		name: string;
+		playtime: number;
+		playtime_2weeks?: number;
+		last_played: number;
+		icon_url: string;
+		num_achievements?: number;
+		achievements?: {
+			name: string;
+			icon: string;
+			description: string;
+			percent: number;
+		}[];
+	};
 
-	export let game: Game;
-	export let show2Weeks = true;
-	export let showRareAchievement = false;
+	interface Props {
+		game: Game;
+		show2Weeks?: boolean;
+		showRareAchievement?: boolean;
+	}
+
+	let { game, show2Weeks = true, showRareAchievement = false }: Props = $props();
 
 	const bannerImg = getGameHero(game.appid);
 	const iconImg = getGameIcon(game.appid, game.icon_url);
@@ -48,7 +65,7 @@
 		</div>
 	</div>
 	{#if showRareAchievement && rareAchievement}
-		<div class="flex gap-4 justify-center items-center m-2">
+		<div class="flex gap-4 justify-start items-center m-2 max-w-[444px]">
 			<img
 				class="w-16 h-16 border-gray-600 border-2"
 				src={`https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/${game.appid}/${rareAchievement.icon}`}

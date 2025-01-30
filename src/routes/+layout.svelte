@@ -1,9 +1,15 @@
-<script>
+<script lang="ts">
 	import '../app.scss';
 	import '$lib/override';
+
+	interface Props {
+		children?: import('svelte').Snippet;
+	}
+
+	let { children }: Props = $props();
 </script>
 
-<slot />
+{@render children?.()}
 
 <style lang="scss">
 	@use '../app.scss';

@@ -3,7 +3,11 @@
 	import { getArtifactImage, getCharacterImage, type CharacterCacheKey } from '$lib/genshin_cache';
 	import StatIcon from './StatIcon.svelte';
 
-	export let artifact: GenshinArtifact;
+	interface Props {
+		artifact: GenshinArtifact;
+	}
+
+	let { artifact }: Props = $props();
 
 	const getResources = async () => ({
 		icon: await getArtifactImage(artifact.setKey, artifact.slotKey),
@@ -16,10 +20,10 @@
 		artifact.cv >= 49
 			? 'mythic'
 			: artifact.cv >= 40
-			? 'legendary'
-			: artifact.cv >= 30
-			? 'epic'
-			: '';
+				? 'legendary'
+				: artifact.cv >= 30
+					? 'epic'
+					: '';
 </script>
 
 {#await getResources() then resources}
@@ -62,9 +66,10 @@
 	</div>
 {/await}
 
-<style lang="scss">
+<style>
 	.mini-artifact {
 		position: relative;
+
 		&::after {
 			content: '';
 			position: absolute;
@@ -74,13 +79,14 @@
 			filter: brightness(70%);
 			width: 100%;
 			height: 100%;
-			// background: var();
+			/* background: var(); */
 			background: #7c7c7cb0;
 			border-top-left-radius: 0.125rem;
 			border-top-right-radius: 0.125rem;
 			border: 3px solid var(--rarity);
 			border-bottom: none;
 		}
+
 		& picture {
 			filter: drop-shadow(3px 3px 3px #222);
 		}
@@ -93,14 +99,14 @@
 
 	.cv {
 		background: rgba(0, 0, 0, 0.8);
-		// width: 28px;
+		/* width: 28px; */
 		color: var(--rarity);
 		height: 21px;
 		padding: 0 4px;
 	}
 
 	.character {
-		// background: rgba(0, 0, 0, 0.8);
+		/* background: rgba(0, 0, 0, 0.8); */
 		width: 30px;
 		height: 30px;
 	}

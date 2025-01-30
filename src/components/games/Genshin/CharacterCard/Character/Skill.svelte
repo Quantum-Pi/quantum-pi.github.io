@@ -1,4 +1,4 @@
-<script context="module" lang="ts">
+<script module lang="ts">
 	import type { GenshinCharacter } from '$lib/genshin_agg';
 	import type { Picture } from 'vite-imagetools';
 
@@ -16,8 +16,12 @@
 </script>
 
 <script lang="ts">
-	export let info: Info;
-	export let character: GenshinCharacter;
+	interface Props {
+		info: Info;
+		character: GenshinCharacter;
+	}
+
+	let { info, character }: Props = $props();
 
 	const getConClass = (con: number) =>
 		info.type === 'constellation'
@@ -48,7 +52,7 @@
 	</div>
 {/if}
 
-<style lang="scss">
+<style>
 	.skill {
 		background: rgba(0, 0, 0, 0.5);
 		border-radius: 50%;
@@ -87,7 +91,7 @@
 	}
 
 	picture {
-		&:has(> .skill.locked) {
+		&:has(:global(> .skill.locked)) {
 			position: relative;
 
 			&::before {
@@ -106,7 +110,7 @@
 		}
 	}
 
-	div:has(> picture .skill.level) {
+	div:has(:global(> picture .skill.level)) {
 		position: relative;
 	}
 </style>

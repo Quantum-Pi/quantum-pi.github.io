@@ -2,7 +2,11 @@
 	import type { GenshinWeapon } from '$lib/genshin_agg';
 	import { getCharacterImage, getWeaponImage } from '$lib/genshin_cache';
 
-	export let weapon: GenshinWeapon;
+	interface Props {
+		weapon: GenshinWeapon;
+	}
+
+	let { weapon }: Props = $props();
 
 	const getResources = async () => ({
 		icon: await getWeaponImage(weapon.key, weapon.refinement >= 5 ? 'awakenIcon' : 'baseIocn'),
@@ -57,9 +61,10 @@
 	</div>
 {/await}
 
-<style lang="scss">
+<style>
 	.mini-weapon {
 		position: relative;
+
 		&::after {
 			content: '';
 			position: absolute;
@@ -71,6 +76,7 @@
 			height: 100%;
 			background: var(--rarity);
 		}
+
 		& picture {
 			filter: drop-shadow(3px 3px 3px #222);
 		}
@@ -81,7 +87,7 @@
 	}
 
 	.character {
-		// background: rgba(0, 0, 0, 0.8);
+		/* background: rgba(0, 0, 0, 0.8); */
 		width: 21px;
 		height: 21px;
 	}

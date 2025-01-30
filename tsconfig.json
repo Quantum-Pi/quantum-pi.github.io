@@ -5,11 +5,16 @@
 		"checkJs": true,
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
+		// "moduleResolution": "nodenext",
+		// "module": "NodeNext",
 		"resolveJsonModule": true,
 		"skipLibCheck": true,
 		"sourceMap": true,
 		"strict": true,
-		"typeRoots": ["src/@types"]
+		"typeRoots": ["src/@types"],
+		// "target": "ES2022",
+		// "verbatimModuleSyntax": true,
+		// "isolatedModules": true
 	}
 	// Path aliases are handled by https://kit.svelte.dev/docs/configuration#alias
 	//
