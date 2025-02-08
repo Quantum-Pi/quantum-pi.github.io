@@ -1,1 +1,0 @@
-const r={sources:{webp:""+new URL("../assets/UI_EquipIcon_Sword_Traveler.CUF3Jvbh.webp",import.meta.url).href+" 128w, "+new URL("../assets/UI_EquipIcon_Sword_Traveler.DHg1r8rp.webp",import.meta.url).href+" 256w"},img:{src:""+new URL("../assets/UI_EquipIcon_Sword_Traveler.DHg1r8rp.webp",import.meta.url).href,w:256,h:256}};export{r as default};
