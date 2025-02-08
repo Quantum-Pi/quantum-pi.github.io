@@ -6,7 +6,7 @@
 
 <div class="w-3/4 flex flex-col items-center">
 	<div class="text-white text-4xl mb-4">My Friends</div>
-	<div class="grid grid-cols-5 sm:grid-cols-7 lg:grid-cols-12 gap-4">
+	<div class="grid grid-cols-5 sm:grid-cols-7 lg:grid-cols-12 4k:grid-cols-16 gap-4">
 		{#each friends as friend}
 			{@const img = getProfilePicture(friend.avatar)}
 			<a

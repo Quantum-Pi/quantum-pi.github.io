@@ -25,7 +25,8 @@ const config = {
 				'pyramid-sm': 'repeat(1, 1fr)',
 				'footer-md': 'repeat(3, 1fr)',
 				'footer-sm': 'repeat(2, 1fr)',
-				footer: '1fr'
+				footer: '1fr',
+				'16': 'repeat(16, minmax(0, 1fr))',
 			},
 			gridTemplateRows: {
 				'pyramid-lg': 'repeat(3, 1fr)',
@@ -33,7 +34,10 @@ const config = {
 				'pyramid-sm': 'repeat(6, 1fr)',
 				'footer-sm': 'repeat(2, 1fr)',
 				footer: 'repeat(3, 1fr)'
-			}
+			},
+			screens: {
+				'4k': '2561px',
+			},
 		}
 	},
 	plugins: [
