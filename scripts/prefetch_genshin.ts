@@ -11,17 +11,24 @@ import {
 	IArtifact
 } from 'enka-network-api';
 
-const enka = new EnkaClient({ userAgent: 'quantumpie.net Genshin icon caching' });
-
+const enka = new EnkaClient({
+	userAgent: 'quantumpie.net Genshin icon caching',
+	cacheDirectory: './cache'
+});
+await enka.cachedAssetsManager.cacheDirectorySetup();
+await enka.cachedAssetsManager.fetchAllContents();
 /**=====================*\
 |       Characters       |
 \=======================*/
-const characters = enka.getAllCharacters().reduce((prev, curr) => {
-	return {
-		...prev,
-		[convertToGOODKey(curr.name.get('en'))]: curr
-	};
-}, {} as Record<string, CharacterData>);
+const characters = enka.getAllCharacters().reduce(
+	(prev, curr) => {
+		return {
+			...prev,
+			[convertToGOODKey(curr.name.get('en'))]: curr
+		};
+	},
+	{} as Record<string, CharacterData>
+);
 
 const characterImgMap: Record<
 	string,
@@ -135,12 +142,15 @@ export type { CharacterCacheKey }
 /**=====================*\
 |         Weapons        |
 \=======================*/
-const weapons = enka.getAllWeapons().reduce((prev, curr) => {
-	return {
-		...prev,
-		[convertToGOODKey(curr.name.get('en'))]: curr
-	};
-}, {} as Record<string, WeaponData>);
+const weapons = enka.getAllWeapons().reduce(
+	(prev, curr) => {
+		return {
+			...prev,
+			[convertToGOODKey(curr.name.get('en'))]: curr
+		};
+	},
+	{} as Record<string, WeaponData>
+);
 
 const weaponImgMap: Record<
 	string,
@@ -222,12 +232,15 @@ export type { WeaponCacheKey }
 /**=====================*\
 |       Artifacts        |
 \=======================*/
-const artifacts = enka.getAllArtifacts().reduce((prev, curr) => {
-	return {
-		...prev,
-		[convertToGOODKey(curr.set.name.get('en'))]: curr
-	};
-}, {} as Record<string, ArtifactData>);
+const artifacts = enka.getAllArtifacts().reduce(
+	(prev, curr) => {
+		return {
+			...prev,
+			[convertToGOODKey(curr.set.name.get('en'))]: curr
+		};
+	},
+	{} as Record<string, ArtifactData>
+);
 
 const artifactImageMap: Record<
 	string,
