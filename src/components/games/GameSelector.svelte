@@ -3,12 +3,12 @@
 	import ElderScrollsOnline from './ESO/Overview_ESO.svelte';
 	import ER from '../svg/ER.svelte';
 	import Eso from '../svg/ESO.svelte';
-	import { onMount, afterUpdate, beforeUpdate } from 'svelte';
+	import { onMount } from 'svelte';
 
 	type Mode = 'ESO' | 'ER';
 
-	let previous: Mode | '' = '';
-	let mode: Mode = 'ESO';
+	let previous: Mode | '' = $state('');
+	let mode: Mode = $state('ESO');
 
 	const ro = new ResizeObserver((entries) => {
 		const height = entries[0].target.clientHeight;
@@ -27,27 +27,31 @@
 		adjustContainerHeight();
 	});
 
-	beforeUpdate(() => {
-		const active = document.querySelector('#game-showcases div.active');
-		if (active) {
-			ro.unobserve(active);
+	$effect.pre(() => {
+		if (mode) {
+			const active = document.querySelector('#game-showcases div.active');
+			if (active) {
+				ro.unobserve(active);
+			}
 		}
 	});
 
-	afterUpdate(() => {
-		const active = document.querySelector('#game-showcases div.active');
-		if (active) {
-			ro.observe(active);
+	$effect(() => {
+		if (mode) {
+			const active = document.querySelector('#game-showcases div.active');
+			if (active) {
+				ro.observe(active);
+			}
+			setTimeout(adjustContainerHeight, 1000);
 		}
-		setTimeout(adjustContainerHeight, 1000);
 	});
 
-	$: isHidden = (m: Mode) => (!(m === mode || m === previous) ? 'hidden' : '');
-	$: isFadeIn = (m: Mode) => (m === mode ? 'fadein' : '');
-	$: isFadeOut = (m: Mode) => (m === previous ? 'fadeout' : '');
-	$: isActive = (m: Mode) => (m === mode ? 'active' : '');
+	const isHidden = (m: Mode) => (!(m === mode || m === previous) ? 'hidden' : '');
+	const isFadeIn = (m: Mode) => (m === mode ? 'fadein' : '');
+	const isFadeOut = (m: Mode) => (m === previous ? 'fadeout' : '');
+	const isActive = (m: Mode) => (m === mode ? 'active' : '');
 
-	$: setMode = (m: Mode) => {
+	const setMode = (m: Mode) => {
 		if (m === mode) return;
 		previous = mode;
 		mode = m;
@@ -55,12 +59,12 @@
 </script>
 
 <div class="text-white text-lg flex gap-8 w-full justify-center mb-4">
-	<button class="cursor-pointer" on:click={() => setMode('ESO')} tabindex="0" title="ESO Showcase">
+	<button class="cursor-pointer" onclick={() => setMode('ESO')} tabindex="0" title="ESO Showcase">
 		<Eso --size="48px" --color={mode === 'ESO' ? '#8F865E' : 'white'} />
 	</button>
 	<button
 		class="cursor-pointer"
-		on:click={() => setMode('ER')}
+		onclick={() => setMode('ER')}
 		tabindex="0"
 		title="Elden Ring Showcase"
 	>

@@ -4,13 +4,24 @@
 	import DownIcon from '~icons/teenyicons/down-solid';
 	import { uuid } from '$lib/uuid';
 
-	export let i: number;
-	export let className: string = '';
-	export let maxWidth: number = -1;
-	export let maxHeight: number = -1;
+	interface Props {
+		i: number;
+		className?: string;
+		maxWidth?: number;
+		maxHeight?: number;
+		children?: import('svelte').Snippet;
+	}
+
+	let {
+		i = $bindable(),
+		className = '',
+		maxWidth = $bindable(-1),
+		maxHeight = $bindable(-1),
+		children
+	}: Props = $props();
 
 	let elems: HTMLCollection | undefined = undefined;
-	let n = 0;
+	let n = $state(0);
 
 	const id = `scroll-container-${uuid()}`;
 	const qid = `#${id}`;
@@ -60,7 +71,7 @@
 		}
 	};
 
-	$: inc = () => {
+	let inc = $derived(() => {
 		let prev = i;
 		if (i >= n - 1) {
 			i = 0;
@@ -68,8 +79,8 @@
 			i++;
 		}
 		adjustStyles(prev);
-	};
-	$: dec = () => {
+	});
+	let dec = $derived(() => {
 		let prev = i;
 		if (i === 0) {
 			i = n - 1;
@@ -77,23 +88,23 @@
 			i--;
 		}
 		adjustStyles(prev);
-	};
+	});
 </script>
 
 <div class={`flex flex-col gap-4 items-center ${className}`}>
 	<button
 		class="cursor-pointer text-white hover:text-yellow-300 text-lg"
-		on:click={inc}
+		onclick={inc}
 		title="Scroll Up"
 	>
 		<UpIcon />
 	</button>
 	<div {id} class="scroll-container flex flex-col relative">
-		<slot />
+		{@render children?.()}
 	</div>
 	<button
 		class="cursor-pointer text-white hover:text-yellow-300 text-lg"
-		on:click={dec}
+		onclick={dec}
 		title="Scroll Down"
 	>
 		<DownIcon />

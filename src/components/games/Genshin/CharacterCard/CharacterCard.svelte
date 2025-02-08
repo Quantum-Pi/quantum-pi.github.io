@@ -1,4 +1,4 @@
-<script context="module" lang="ts">
+<script module lang="ts">
 	type GetResources = () => Promise<{
 		character: {
 			con_0: Picture;
@@ -41,7 +41,11 @@
 	import WeaponStats from './Stats/WeaponStats.svelte';
 	import type { SlotKey } from 'enka-network-api';
 
-	export let character: GenshinCharacter;
+	interface Props {
+		character: GenshinCharacter;
+	}
+
+	let { character }: Props = $props();
 	const artifacts = character.artifacts ?? [];
 	const artifactBySlot = artifacts.reduce(
 		(prev, curr) => ({
@@ -67,7 +71,7 @@
 		weapon: character.weapon
 			? {
 					baseIcon: await getWeaponImage(character.weapon.key, 'baseIocn')
-			  }
+				}
 			: undefined,
 		artifact: {
 			flower: await getArtifactImage(artifactBySlot['flower'], 'flower'),
@@ -99,44 +103,44 @@
 	</div>
 </div>
 
-<style lang="scss">
+<style>
 	@media (min-width: 0px) {
-		// sm
+		/* sm */
 		.character-card > div {
 			--scale: 0.8;
 		}
 	}
 
 	@media (min-width: 640px) {
-		// sm
+		/* sm */
 		.character-card > div {
 			--scale: 0.9;
 		}
 	}
 
 	@media (min-width: 768px) {
-		// md
+		/* md */
 		.character-card > div {
 			--scale: 0.785;
 		}
 	}
 
 	@media (min-width: 1024px) {
-		// lg
+		/* lg */
 		.character-card > div {
 			--scale: 1;
 		}
 	}
 
 	@media (min-width: 1280px) {
-		// xl
+		/* xl */
 		.character-card > div {
 			--scale: 1;
 		}
 	}
 
 	@media (min-width: 1536px) {
-		// 2xl
+		/* 2xl */
 		.character-card > div {
 			--scale: 1;
 		}
@@ -163,6 +167,6 @@
 		min-width: calc(var(--scale) * var(--width));
 		height: calc(var(--scale) * var(--height));
 		font-size: calc(16px * var(--scale));
-		// line-height: 1.2;
+		/* line-height: 1.2; */
 	}
 </style>

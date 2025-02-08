@@ -3,13 +3,24 @@
 	import LeftIcon from '~icons/teenyicons/left-solid';
 	import RightIcon from '~icons/teenyicons/right-solid';
 
-	export let i: number;
-	export let className: string = '';
-	export let maxWidth: number = -1;
-	export let maxHeight: number = -1;
+	interface Props {
+		i: number;
+		className?: string;
+		maxWidth?: number;
+		maxHeight?: number;
+		children?: import('svelte').Snippet;
+	}
+
+	let {
+		i = $bindable(),
+		className = '',
+		maxWidth = $bindable(-1),
+		maxHeight = $bindable(-1),
+		children
+	}: Props = $props();
 
 	let elems: HTMLCollection | undefined = undefined;
-	let n = 0;
+	let n = $state(0);
 
 	onMount(() => {
 		elems =
@@ -55,7 +66,7 @@
 		}
 	};
 
-	$: inc = () => {
+	let inc = $derived(() => {
 		let prev = i;
 		if (i >= n - 1) {
 			i = 0;
@@ -63,8 +74,8 @@
 			i++;
 		}
 		adjustStyles(prev);
-	};
-	$: dec = () => {
+	});
+	let dec = $derived(() => {
 		let prev = i;
 		if (i === 0) {
 			i = n - 1;
@@ -72,23 +83,19 @@
 			i--;
 		}
 		adjustStyles(prev);
-	};
+	});
 </script>
 
 <div class={`flex gap-4 items-center ${className}`}>
-	<button
-		class="cursor-pointer text-white hover:text-yellow-300"
-		on:click={inc}
-		title="Scroll Left"
-	>
+	<button class="cursor-pointer text-white hover:text-yellow-300" onclick={inc} title="Scroll Left">
 		<LeftIcon />
 	</button>
 	<div id="h-scroll-container" class="flex flex-col relative">
-		<slot />
+		{@render children?.()}
 	</div>
 	<button
 		class="cursor-pointer text-white hover:text-yellow-300"
-		on:click={dec}
+		onclick={dec}
 		title="Scroll Right"
 	>
 		<RightIcon />

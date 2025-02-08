@@ -2,7 +2,11 @@
 	import type { GenshinCharacter } from '$lib/genshin_agg';
 	import { getCharacterImage } from '$lib/genshin_cache';
 
-	export let character: GenshinCharacter;
+	interface Props {
+		character: GenshinCharacter;
+	}
+
+	let { character }: Props = $props();
 
 	const getResources = async () => ({
 		icon: await getCharacterImage(character.key, 'characterIcon')
@@ -36,7 +40,7 @@
 	</div>
 {/await}
 
-<style lang="scss">
+<style>
 	.mini-character {
 		background: var(--element);
 

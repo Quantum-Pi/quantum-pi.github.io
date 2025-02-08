@@ -1,14 +1,15 @@
+<!-- @migration-task Error while migrating Svelte code: Can't migrate code with afterUpdate and beforeUpdate. Please migrate by hand. -->
 <script lang="ts">
 	import Stardew from './SDV/Overview_SDV.svelte';
 	import Genshin from './Genshin/Overview_Genshin.svelte';
 	import SDVIcon from '../svg/SDV.svelte';
 	import GenshinIcon from '../svg/GI.svelte';
-	import { onMount, afterUpdate, beforeUpdate } from 'svelte';
+	import { onMount } from 'svelte';
 
 	type Mode = 'GI' | 'SDV';
 
-	let previous: Mode | '' = '';
-	let mode: Mode = 'GI';
+	let previous: Mode | '' = $state('');
+	let mode: Mode = $state('GI');
 
 	const ro = new ResizeObserver((entries) => {
 		const height = entries[0].target.clientHeight;
@@ -27,27 +28,31 @@
 		adjustContainerHeight();
 	});
 
-	beforeUpdate(() => {
-		const active = document.querySelector('#game-showcases-casual div.active');
-		if (active) {
-			ro.unobserve(active);
+	$effect.pre(() => {
+		if (mode) {
+			const active = document.querySelector('#game-showcases-casual div.active');
+			if (active) {
+				ro.unobserve(active);
+			}
 		}
 	});
 
-	afterUpdate(() => {
-		const active = document.querySelector('#game-showcases-casual div.active');
-		if (active) {
-			ro.observe(active);
+	$effect(() => {
+		if (mode) {
+			const active = document.querySelector('#game-showcases-casual div.active');
+			if (active) {
+				ro.observe(active);
+			}
+			setTimeout(adjustContainerHeight, 1000);
 		}
-		setTimeout(adjustContainerHeight, 1000);
 	});
 
-	$: isHidden = (m: Mode) => (!(m === mode || m === previous) ? 'hidden' : '');
-	$: isFadeIn = (m: Mode) => (m === mode ? 'fadein' : '');
-	$: isFadeOut = (m: Mode) => (m === previous ? 'fadeout' : '');
-	$: isActive = (m: Mode) => (m === mode ? 'active' : '');
+	const isHidden = (m: Mode) => (!(m === mode || m === previous) ? 'hidden' : '');
+	const isFadeIn = (m: Mode) => (m === mode ? 'fadein' : '');
+	const isFadeOut = (m: Mode) => (m === previous ? 'fadeout' : '');
+	const isActive = (m: Mode) => (m === mode ? 'active' : '');
 
-	$: setMode = (m: Mode) => {
+	const setMode = (m: Mode) => {
 		if (m === mode) return;
 		previous = mode;
 		mode = m;
@@ -55,7 +60,7 @@
 </script>
 
 <div class="text-white text-lg flex gap-8 w-full justify-center mb-4">
-	<button class="cursor-pointer" on:click={() => setMode('GI')} tabindex="0" title="GI Showcase">
+	<button class="cursor-pointer" onclick={() => setMode('GI')} tabindex="0" title="GI Showcase">
 		<GenshinIcon
 			--size="48px"
 			--color={mode === 'GI'
@@ -65,7 +70,7 @@
 	</button>
 	<button
 		class="cursor-pointer"
-		on:click={() => setMode('SDV')}
+		onclick={() => setMode('SDV')}
 		tabindex="0"
 		title="Elden Ring Showcase"
 	>

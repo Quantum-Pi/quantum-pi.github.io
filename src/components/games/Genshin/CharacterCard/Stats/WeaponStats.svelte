@@ -4,8 +4,12 @@
 	import type { CharacterResource } from '../CharacterCard.svelte';
 	import Stat from './Stat.svelte';
 
-	export let character: GenshinCharacter;
-	export let resources: CharacterResource['weapon'];
+	interface Props {
+		character: GenshinCharacter;
+		resources: CharacterResource['weapon'];
+	}
+
+	let { character, resources }: Props = $props();
 
 	const weapon = character.weapon?.key as WeaponCacheKey;
 	const stats = character.ranking?.stats;
@@ -95,7 +99,7 @@
 	</div>
 </div>
 
-<style lang="scss">
+<style>
 	.weapon-img {
 		width: var(--img-size);
 		position: relative;

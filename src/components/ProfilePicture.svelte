@@ -1,7 +1,11 @@
 <script lang="ts">
-	export let src: string;
-	export let rounded: boolean = false;
-	export let size: number = 128;
+	interface Props {
+		src: string;
+		rounded?: boolean;
+		size?: number;
+	}
+
+	let { src, rounded = false, size = 128 }: Props = $props();
 </script>
 
 <img
