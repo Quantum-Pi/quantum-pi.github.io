@@ -1,0 +1,1 @@
+const o={sources:{webp:""+new URL("../assets/UI_EquipIcon_Pole_BloodMoon_Awaken.Bm1izDaS.webp",import.meta.url).href+" 128w, "+new URL("../assets/UI_EquipIcon_Pole_BloodMoon_Awaken.BgNBd4w4.webp",import.meta.url).href+" 256w"},img:{src:""+new URL("../assets/UI_EquipIcon_Pole_BloodMoon_Awaken.BgNBd4w4.webp",import.meta.url).href,w:256,h:256}};export{o as default};

@@ -1,0 +1,1 @@
+const e={sources:{webp:""+new URL("../assets/UI_EquipIcon_Sword_Estoc_Awaken.jr3-IeZI.webp",import.meta.url).href+" 128w, "+new URL("../assets/UI_EquipIcon_Sword_Estoc_Awaken.mYPe287b.webp",import.meta.url).href+" 256w"},img:{src:""+new URL("../assets/UI_EquipIcon_Sword_Estoc_Awaken.mYPe287b.webp",import.meta.url).href,w:256,h:256}};export{e as default};

@@ -1,1 +1,0 @@
-const e={sources:{webp:""+new URL("../assets/UI_RelicIcon_15034_5.rPD5f5P3.webp",import.meta.url).href+" 128w, "+new URL("../assets/UI_RelicIcon_15034_5.DtcNBB5u.webp",import.meta.url).href+" 256w"},img:{src:""+new URL("../assets/UI_RelicIcon_15034_5.DtcNBB5u.webp",import.meta.url).href,w:256,h:256}};export{e as default};

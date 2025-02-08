@@ -1,0 +1,1 @@
+const e={sources:{webp:""+new URL("../assets/UI_Gacha_EquipIcon_Pole_Lapis.CPEwru4O.webp",import.meta.url).href+" 256w, "+new URL("../assets/UI_Gacha_EquipIcon_Pole_Lapis.C22RN6Yv.webp",import.meta.url).href+" 512w"},img:{src:""+new URL("../assets/UI_Gacha_EquipIcon_Pole_Lapis.C22RN6Yv.webp",import.meta.url).href,w:512,h:1024}};export{e as default};

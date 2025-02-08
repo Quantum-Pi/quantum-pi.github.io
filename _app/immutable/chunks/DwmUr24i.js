@@ -1,0 +1,1 @@
+const s={sources:{webp:""+new URL("../assets/UI_EquipIcon_Catalyst_Fourwinds.BBYx2Mw4.webp",import.meta.url).href+" 128w, "+new URL("../assets/UI_EquipIcon_Catalyst_Fourwinds.Cx2K-31C.webp",import.meta.url).href+" 256w"},img:{src:""+new URL("../assets/UI_EquipIcon_Catalyst_Fourwinds.Cx2K-31C.webp",import.meta.url).href,w:256,h:256}};export{s as default};

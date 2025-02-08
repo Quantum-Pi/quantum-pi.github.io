@@ -1,0 +1,1 @@
+const e={sources:{webp:""+new URL("../assets/UI_EquipIcon_Catalyst_Fourwinds_Awaken.m5PS0Y0-.webp",import.meta.url).href+" 128w, "+new URL("../assets/UI_EquipIcon_Catalyst_Fourwinds_Awaken.BRm5MXVL.webp",import.meta.url).href+" 256w"},img:{src:""+new URL("../assets/UI_EquipIcon_Catalyst_Fourwinds_Awaken.BRm5MXVL.webp",import.meta.url).href,w:256,h:256}};export{e as default};
