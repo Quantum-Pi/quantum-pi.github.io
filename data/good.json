@@ -6856,6 +6856,41 @@
 			"constellation": 6,
 			"ascension": 5,
 			"talent": { "auto": 1, "skill": 1, "burst": 8 }
+		},
+		{
+			"key": "Amber",
+			"level": 70,
+			"constellation": 6,
+			"ascension": 4,
+			"talent": { "auto": 1, "skill": 1, "burst": 1 }
+		},
+		{
+			"key": "Mavuika",
+			"level": 90,
+			"constellation": 0,
+			"ascension": 6,
+			"talent": { "auto": 1, "skill": 8, "burst": 9 }
+		},
+		{
+			"key": "Yanfei",
+			"level": 40,
+			"constellation": 4,
+			"ascension": 1,
+			"talent": { "auto": 1, "skill": 1, "burst": 1 }
+		},
+		{
+			"key": "Sucrose",
+			"level": 70,
+			"constellation": 6,
+			"ascension": 4,
+			"talent": { "auto": 1, "skill": 3, "burst": 3 }
+		},
+		{
+			"key": "KaedeharaKazuha",
+			"level": 90,
+			"constellation": 0,
+			"ascension": 6,
+			"talent": { "auto": 7, "skill": 9, "burst": 9 }
 		}
 	]
 }

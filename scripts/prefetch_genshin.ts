@@ -77,7 +77,7 @@ if (genshinProfile.good.characters) {
 			].map(({ url, name }) => {
 				if (!url || url.length == 0) return null;
 				const link = url.replace('api.ambr.top', 'gi.yatta.moe');
-				console.log(link);
+				// console.log(link);
 				const file = link.split('/').at(-1)?.replace(`_${c.key}`, '');
 				if (!file) return null;
 				const path = `src/assets/genshin/characters/${c.key}/${file}`;
@@ -177,7 +177,7 @@ if (genshinProfile.good.weapons) {
 			].map(({ url, name }) => {
 				if (!url || url.length == 0) return null;
 				const link = url.replace('api.ambr.top', 'gi.yatta.moe');
-				console.log(link);
+				// console.log(link);
 				const file = link.split('/').at(-1)?.replace(`_${w.key}`, '');
 				if (!file) return null;
 				const path = `src/assets/genshin/weapons/${w.key}/${file}`;
