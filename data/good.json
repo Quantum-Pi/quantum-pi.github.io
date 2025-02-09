@@ -5,15 +5,6 @@
 	"source": "Inventory_Kamera",
 	"weapons": [
 		{
-			"key": "PolarStar",
-			"level": 90,
-			"ascension": 6,
-			"refinement": 1,
-			"location": "Fischl",
-			"lock": false,
-			"id": 1
-		},
-		{
 			"key": "AquaSimulacra",
 			"level": 90,
 			"ascension": 6,
@@ -21,6 +12,15 @@
 			"location": "Yelan",
 			"lock": false,
 			"id": 0
+		},
+		{
+			"key": "PolarStar",
+			"level": 90,
+			"ascension": 6,
+			"refinement": 1,
+			"location": "Fischl",
+			"lock": false,
+			"id": 1
 		},
 		{
 			"key": "CrimsonMoonsSemblance",
@@ -86,15 +86,6 @@
 			"id": 8
 		},
 		{
-			"key": "SkywardBlade",
-			"level": 90,
-			"ascension": 6,
-			"refinement": 1,
-			"location": "Xingqiu",
-			"lock": false,
-			"id": 10
-		},
-		{
 			"key": "UrakuMisugiri",
 			"level": 90,
 			"ascension": 6,
@@ -102,6 +93,15 @@
 			"location": "Furina",
 			"lock": false,
 			"id": 9
+		},
+		{
+			"key": "SkywardBlade",
+			"level": 90,
+			"ascension": 6,
+			"refinement": 1,
+			"location": "Xingqiu",
+			"lock": false,
+			"id": 10
 		},
 		{
 			"key": "AquilaFavonia",
@@ -275,15 +275,6 @@
 			"id": 29
 		},
 		{
-			"key": "DragonsBane",
-			"level": 90,
-			"ascension": 6,
-			"refinement": 5,
-			"location": "RaidenShogun",
-			"lock": false,
-			"id": 31
-		},
-		{
 			"key": "Deathmatch",
 			"level": 90,
 			"ascension": 6,
@@ -293,13 +284,31 @@
 			"id": 30
 		},
 		{
+			"key": "DragonsBane",
+			"level": 90,
+			"ascension": 6,
+			"refinement": 5,
+			"location": "RaidenShogun",
+			"lock": false,
+			"id": 31
+		},
+		{
+			"key": "EarthShaker",
+			"level": 90,
+			"ascension": 6,
+			"refinement": 1,
+			"location": "Gaming",
+			"lock": false,
+			"id": 32
+		},
+		{
 			"key": "MailedFlower",
 			"level": 90,
 			"ascension": 6,
 			"refinement": 5,
 			"location": "Mavuika",
 			"lock": false,
-			"id": 32
+			"id": 33
 		},
 		{
 			"key": "LuxuriousSeaLord",
@@ -308,7 +317,7 @@
 			"refinement": 5,
 			"location": "Diluc",
 			"lock": false,
-			"id": 33
+			"id": 34
 		},
 		{
 			"key": "SerpentSpine",
@@ -317,7 +326,7 @@
 			"refinement": 5,
 			"location": "Noelle",
 			"lock": false,
-			"id": 34
+			"id": 35
 		},
 		{
 			"key": "FleuveCendreFerryman",
@@ -326,7 +335,7 @@
 			"refinement": 2,
 			"location": "Kirara",
 			"lock": false,
-			"id": 35
+			"id": 36
 		},
 		{
 			"key": "FinaleOfTheDeep",
@@ -335,16 +344,16 @@
 			"refinement": 4,
 			"location": "",
 			"lock": false,
-			"id": 36
+			"id": 37
 		},
 		{
 			"key": "WolfFang",
 			"level": 90,
 			"ascension": 6,
-			"refinement": 2,
+			"refinement": 4,
 			"location": "",
 			"lock": false,
-			"id": 37
+			"id": 38
 		},
 		{
 			"key": "ToukabouShigure",
@@ -353,7 +362,7 @@
 			"refinement": 5,
 			"location": "KukiShinobu",
 			"lock": false,
-			"id": 38
+			"id": 39
 		},
 		{
 			"key": "AmenomaKageuchi",
@@ -362,7 +371,7 @@
 			"refinement": 5,
 			"location": "KamisatoAyaka",
 			"lock": false,
-			"id": 39
+			"id": 40
 		},
 		{
 			"key": "TheBlackSword",
@@ -371,7 +380,7 @@
 			"refinement": 1,
 			"location": "Keqing",
 			"lock": false,
-			"id": 40
+			"id": 41
 		},
 		{
 			"key": "BlackcliffLongsword",
@@ -380,7 +389,7 @@
 			"refinement": 1,
 			"location": "",
 			"lock": false,
-			"id": 41
+			"id": 42
 		},
 		{
 			"key": "PrototypeRancour",
@@ -389,7 +398,7 @@
 			"refinement": 1,
 			"location": "",
 			"lock": false,
-			"id": 42
+			"id": 43
 		},
 		{
 			"key": "SacrificialSword",
@@ -398,7 +407,7 @@
 			"refinement": 5,
 			"location": "Jean",
 			"lock": false,
-			"id": 43
+			"id": 44
 		},
 		{
 			"key": "FavoniusSword",
@@ -407,7 +416,7 @@
 			"refinement": 5,
 			"location": "KaedeharaKazuha",
 			"lock": false,
-			"id": 44
+			"id": 45
 		},
 		{
 			"key": "PrototypeAmber",
@@ -416,7 +425,7 @@
 			"refinement": 1,
 			"location": "",
 			"lock": false,
-			"id": 45
+			"id": 46
 		},
 		{
 			"key": "FavoniusLance",
@@ -424,15 +433,6 @@
 			"ascension": 5,
 			"refinement": 4,
 			"location": "YunJin",
-			"lock": false,
-			"id": 46
-		},
-		{
-			"key": "EarthShaker",
-			"level": 80,
-			"ascension": 5,
-			"refinement": 1,
-			"location": "Gaming",
 			"lock": false,
 			"id": 47
 		},
@@ -734,15 +734,6 @@
 			"id": 80
 		},
 		{
-			"key": "DragonsBane",
-			"level": 1,
-			"ascension": 0,
-			"refinement": 5,
-			"location": "",
-			"lock": false,
-			"id": 82
-		},
-		{
 			"key": "LithicSpear",
 			"level": 1,
 			"ascension": 0,
@@ -750,6 +741,15 @@
 			"location": "",
 			"lock": false,
 			"id": 81
+		},
+		{
+			"key": "DragonsBane",
+			"level": 1,
+			"ascension": 0,
+			"refinement": 5,
+			"location": "",
+			"lock": false,
+			"id": 82
 		},
 		{
 			"key": "DragonsBane",
@@ -809,19 +809,10 @@
 			"key": "TheBell",
 			"level": 1,
 			"ascension": 0,
-			"refinement": 4,
+			"refinement": 5,
 			"location": "",
 			"lock": false,
 			"id": 89
-		},
-		{
-			"key": "TheBell",
-			"level": 1,
-			"ascension": 0,
-			"refinement": 1,
-			"location": "",
-			"lock": false,
-			"id": 90
 		},
 		{
 			"key": "FavoniusGreatsword",
@@ -830,7 +821,7 @@
 			"refinement": 2,
 			"location": "",
 			"lock": false,
-			"id": 91
+			"id": 90
 		},
 		{
 			"key": "SturdyBone",
@@ -839,7 +830,7 @@
 			"refinement": 1,
 			"location": "",
 			"lock": false,
-			"id": 92
+			"id": 91
 		},
 		{
 			"key": "SwordOfNarzissenkreuz",
@@ -848,7 +839,7 @@
 			"refinement": 1,
 			"location": "Traveler",
 			"lock": false,
-			"id": 93
+			"id": 92
 		},
 		{
 			"key": "KagotsurubeIsshin",
@@ -857,7 +848,7 @@
 			"refinement": 1,
 			"location": "",
 			"lock": false,
-			"id": 94
+			"id": 93
 		},
 		{
 			"key": "LionsRoar",
@@ -866,13 +857,22 @@
 			"refinement": 5,
 			"location": "",
 			"lock": false,
-			"id": 95
+			"id": 94
 		},
 		{
 			"key": "LionsRoar",
 			"level": 1,
 			"ascension": 0,
 			"refinement": 2,
+			"location": "",
+			"lock": false,
+			"id": 95
+		},
+		{
+			"key": "SacrificialSword",
+			"level": 1,
+			"ascension": 0,
+			"refinement": 5,
 			"location": "",
 			"lock": false,
 			"id": 96
@@ -881,16 +881,16 @@
 			"key": "SacrificialSword",
 			"level": 1,
 			"ascension": 0,
-			"refinement": 5,
+			"refinement": 1,
 			"location": "",
 			"lock": false,
 			"id": 97
 		},
 		{
-			"key": "SacrificialSword",
+			"key": "TheFlute",
 			"level": 1,
 			"ascension": 0,
-			"refinement": 1,
+			"refinement": 5,
 			"location": "",
 			"lock": false,
 			"id": 98
@@ -899,16 +899,16 @@
 			"key": "TheFlute",
 			"level": 1,
 			"ascension": 0,
-			"refinement": 5,
+			"refinement": 1,
 			"location": "",
 			"lock": false,
 			"id": 99
 		},
 		{
-			"key": "TheFlute",
+			"key": "FavoniusSword",
 			"level": 1,
 			"ascension": 0,
-			"refinement": 1,
+			"refinement": 5,
 			"location": "",
 			"lock": false,
 			"id": 100
@@ -917,19 +917,10 @@
 			"key": "FavoniusSword",
 			"level": 1,
 			"ascension": 0,
-			"refinement": 5,
-			"location": "",
-			"lock": false,
-			"id": 101
-		},
-		{
-			"key": "FavoniusSword",
-			"level": 1,
-			"ascension": 0,
 			"refinement": 1,
 			"location": "",
 			"lock": false,
-			"id": 102
+			"id": 101
 		},
 		{
 			"key": "ThrillingTalesOfDragonSlayers",
@@ -938,7 +929,7 @@
 			"refinement": 5,
 			"location": "SangonomiyaKokomi",
 			"lock": false,
-			"id": 103
+			"id": 102
 		},
 		{
 			"key": "BlackTassel",
@@ -947,7 +938,7 @@
 			"refinement": 5,
 			"location": "Zhongli",
 			"lock": false,
-			"id": 104
+			"id": 103
 		},
 		{
 			"key": "DarkIronSword",
@@ -956,7 +947,7 @@
 			"refinement": 1,
 			"location": "",
 			"lock": false,
-			"id": 105
+			"id": 104
 		},
 		{
 			"key": "Messenger",
@@ -965,7 +956,7 @@
 			"refinement": 2,
 			"location": "",
 			"lock": false,
-			"id": 106
+			"id": 105
 		},
 		{
 			"key": "Slingshot",
@@ -974,7 +965,7 @@
 			"refinement": 5,
 			"location": "",
 			"lock": false,
-			"id": 107
+			"id": 106
 		},
 		{
 			"key": "RecurveBow",
@@ -983,10 +974,19 @@
 			"refinement": 1,
 			"location": "",
 			"lock": false,
-			"id": 108
+			"id": 107
 		},
 		{
 			"key": "SharpshootersOath",
+			"level": 1,
+			"ascension": 0,
+			"refinement": 5,
+			"location": "",
+			"lock": false,
+			"id": 108
+		},
+		{
+			"key": "RavenBow",
 			"level": 1,
 			"ascension": 0,
 			"refinement": 5,
@@ -995,7 +995,16 @@
 			"id": 109
 		},
 		{
-			"key": "RavenBow",
+			"key": "TwinNephrite",
+			"level": 1,
+			"ascension": 0,
+			"refinement": 4,
+			"location": "",
+			"lock": false,
+			"id": 110
+		},
+		{
+			"key": "EmeraldOrb",
 			"level": 1,
 			"ascension": 0,
 			"refinement": 5,
@@ -1004,16 +1013,7 @@
 			"id": 111
 		},
 		{
-			"key": "SharpshootersOath",
-			"level": 1,
-			"ascension": 0,
-			"refinement": 1,
-			"location": "",
-			"lock": false,
-			"id": 110
-		},
-		{
-			"key": "RavenBow",
+			"key": "OtherworldlyStory",
 			"level": 1,
 			"ascension": 0,
 			"refinement": 1,
@@ -1022,16 +1022,16 @@
 			"id": 112
 		},
 		{
-			"key": "TwinNephrite",
+			"key": "ThrillingTalesOfDragonSlayers",
 			"level": 1,
 			"ascension": 0,
-			"refinement": 4,
+			"refinement": 5,
 			"location": "",
 			"lock": false,
 			"id": 113
 		},
 		{
-			"key": "EmeraldOrb",
+			"key": "ThrillingTalesOfDragonSlayers",
 			"level": 1,
 			"ascension": 0,
 			"refinement": 5,
@@ -1040,49 +1040,13 @@
 			"id": 114
 		},
 		{
-			"key": "EmeraldOrb",
-			"level": 1,
-			"ascension": 0,
-			"refinement": 1,
-			"location": "",
-			"lock": false,
-			"id": 115
-		},
-		{
-			"key": "OtherworldlyStory",
-			"level": 1,
-			"ascension": 0,
-			"refinement": 1,
-			"location": "",
-			"lock": false,
-			"id": 116
-		},
-		{
-			"key": "ThrillingTalesOfDragonSlayers",
-			"level": 1,
-			"ascension": 0,
-			"refinement": 5,
-			"location": "",
-			"lock": false,
-			"id": 117
-		},
-		{
-			"key": "ThrillingTalesOfDragonSlayers",
-			"level": 1,
-			"ascension": 0,
-			"refinement": 5,
-			"location": "",
-			"lock": false,
-			"id": 118
-		},
-		{
 			"key": "ThrillingTalesOfDragonSlayers",
 			"level": 1,
 			"ascension": 0,
 			"refinement": 5,
 			"location": "Sucrose",
 			"lock": false,
-			"id": 119
+			"id": 115
 		},
 		{
 			"key": "MagicGuide",
@@ -1091,7 +1055,7 @@
 			"refinement": 5,
 			"location": "",
 			"lock": false,
-			"id": 120
+			"id": 116
 		},
 		{
 			"key": "BlackTassel",
@@ -1100,25 +1064,7 @@
 			"refinement": 5,
 			"location": "",
 			"lock": false,
-			"id": 121
-		},
-		{
-			"key": "BlackTassel",
-			"level": 1,
-			"ascension": 0,
-			"refinement": 1,
-			"location": "",
-			"lock": false,
-			"id": 122
-		},
-		{
-			"key": "BlackTassel",
-			"level": 1,
-			"ascension": 0,
-			"refinement": 1,
-			"location": "",
-			"lock": false,
-			"id": 123
+			"id": 117
 		},
 		{
 			"key": "Halberd",
@@ -1127,7 +1073,7 @@
 			"refinement": 5,
 			"location": "",
 			"lock": false,
-			"id": 124
+			"id": 118
 		},
 		{
 			"key": "WhiteTassel",
@@ -1136,7 +1082,7 @@
 			"refinement": 5,
 			"location": "",
 			"lock": false,
-			"id": 125
+			"id": 119
 		},
 		{
 			"key": "SkyriderGreatsword",
@@ -1145,7 +1091,7 @@
 			"refinement": 5,
 			"location": "",
 			"lock": false,
-			"id": 126
+			"id": 120
 		},
 		{
 			"key": "DebateClub",
@@ -1154,7 +1100,7 @@
 			"refinement": 5,
 			"location": "",
 			"lock": false,
-			"id": 127
+			"id": 121
 		},
 		{
 			"key": "WhiteIronGreatsword",
@@ -1163,7 +1109,7 @@
 			"refinement": 1,
 			"location": "",
 			"lock": false,
-			"id": 128
+			"id": 122
 		},
 		{
 			"key": "BloodtaintedGreatsword",
@@ -1172,16 +1118,7 @@
 			"refinement": 5,
 			"location": "",
 			"lock": false,
-			"id": 129
-		},
-		{
-			"key": "BloodtaintedGreatsword",
-			"level": 1,
-			"ascension": 0,
-			"refinement": 1,
-			"location": "",
-			"lock": false,
-			"id": 130
+			"id": 123
 		},
 		{
 			"key": "FerrousShadow",
@@ -1190,7 +1127,7 @@
 			"refinement": 5,
 			"location": "",
 			"lock": false,
-			"id": 131
+			"id": 124
 		},
 		{
 			"key": "SkyriderSword",
@@ -1199,25 +1136,7 @@
 			"refinement": 5,
 			"location": "",
 			"lock": false,
-			"id": 132
-		},
-		{
-			"key": "SkyriderSword",
-			"level": 1,
-			"ascension": 0,
-			"refinement": 1,
-			"location": "",
-			"lock": false,
-			"id": 133
-		},
-		{
-			"key": "SkyriderSword",
-			"level": 1,
-			"ascension": 0,
-			"refinement": 1,
-			"location": "",
-			"lock": false,
-			"id": 134
+			"id": 125
 		},
 		{
 			"key": "FilletBlade",
@@ -1226,7 +1145,7 @@
 			"refinement": 5,
 			"location": "",
 			"lock": false,
-			"id": 135
+			"id": 126
 		},
 		{
 			"key": "TravelersHandySword",
@@ -1235,7 +1154,7 @@
 			"refinement": 1,
 			"location": "",
 			"lock": false,
-			"id": 136
+			"id": 127
 		},
 		{
 			"key": "HarbingerOfDawn",
@@ -1244,7 +1163,7 @@
 			"refinement": 5,
 			"location": "",
 			"lock": false,
-			"id": 137
+			"id": 128
 		},
 		{
 			"key": "CoolSteel",
@@ -1253,7 +1172,7 @@
 			"refinement": 5,
 			"location": "",
 			"lock": false,
-			"id": 138
+			"id": 129
 		},
 		{
 			"key": "HuntersBow",
@@ -1273,6 +1192,22 @@
 			"mainStatKey": "hp",
 			"level": 20,
 			"substats": [
+				{ "key": "atk_", "value": 9.3 },
+				{ "key": "critRate_", "value": 10.5 },
+				{ "key": "def_", "value": 12.4 },
+				{ "key": "critDMG_", "value": 5.4 }
+			],
+			"location": "",
+			"lock": true,
+			"id": 0
+		},
+		{
+			"setKey": "ObsidianCodex",
+			"slotKey": "flower",
+			"rarity": 5,
+			"mainStatKey": "hp",
+			"level": 20,
+			"substats": [
 				{ "key": "critRate_", "value": 8.9 },
 				{ "key": "enerRech_", "value": 10.4 },
 				{ "key": "critDMG_", "value": 5.4 },
@@ -1280,7 +1215,23 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 0
+			"id": 1
+		},
+		{
+			"setKey": "ObsidianCodex",
+			"slotKey": "plume",
+			"rarity": 5,
+			"mainStatKey": "atk",
+			"level": 20,
+			"substats": [
+				{ "key": "atk_", "value": 4.7 },
+				{ "key": "critDMG_", "value": 19.4 },
+				{ "key": "critRate_", "value": 11.3 },
+				{ "key": "eleMas", "value": 23.0 }
+			],
+			"location": "",
+			"lock": true,
+			"id": 2
 		},
 		{
 			"setKey": "ObsidianCodex",
@@ -1296,7 +1247,39 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 1
+			"id": 3
+		},
+		{
+			"setKey": "ObsidianCodex",
+			"slotKey": "sands",
+			"rarity": 5,
+			"mainStatKey": "atk_",
+			"level": 20,
+			"substats": [
+				{ "key": "eleMas", "value": 40.0 },
+				{ "key": "critRate_", "value": 6.6 },
+				{ "key": "hp_", "value": 13.4 },
+				{ "key": "critDMG_", "value": 13.2 }
+			],
+			"location": "",
+			"lock": true,
+			"id": 4
+		},
+		{
+			"setKey": "ObsidianCodex",
+			"slotKey": "sands",
+			"rarity": 5,
+			"mainStatKey": "atk_",
+			"level": 20,
+			"substats": [
+				{ "key": "critRate_", "value": 6.6 },
+				{ "key": "def", "value": 23.0 },
+				{ "key": "critDMG_", "value": 14.0 },
+				{ "key": "enerRech_", "value": 17.5 }
+			],
+			"location": "",
+			"lock": true,
+			"id": 5
 		},
 		{
 			"setKey": "ObsidianCodex",
@@ -1312,7 +1295,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 2
+			"id": 6
 		},
 		{
 			"setKey": "ObsidianCodex",
@@ -1328,7 +1311,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 3
+			"id": 7
 		},
 		{
 			"setKey": "ScrollOfTheHeroOfCinderCity",
@@ -1344,7 +1327,7 @@
 			],
 			"location": "Xilonen",
 			"lock": true,
-			"id": 4
+			"id": 8
 		},
 		{
 			"setKey": "ScrollOfTheHeroOfCinderCity",
@@ -1360,7 +1343,23 @@
 			],
 			"location": "Xilonen",
 			"lock": false,
-			"id": 5
+			"id": 9
+		},
+		{
+			"setKey": "ScrollOfTheHeroOfCinderCity",
+			"slotKey": "sands",
+			"rarity": 5,
+			"mainStatKey": "def_",
+			"level": 20,
+			"substats": [
+				{ "key": "eleMas", "value": 16.0 },
+				{ "key": "critRate_", "value": 7.4 },
+				{ "key": "enerRech_", "value": 15.5 },
+				{ "key": "critDMG_", "value": 15.5 }
+			],
+			"location": "Xilonen",
+			"lock": true,
+			"id": 10
 		},
 		{
 			"setKey": "ScrollOfTheHeroOfCinderCity",
@@ -1374,9 +1373,9 @@
 				{ "key": "hp", "value": 269.0 },
 				{ "key": "atk", "value": 33.0 }
 			],
-			"location": "Xilonen",
+			"location": "",
 			"lock": false,
-			"id": 6
+			"id": 11
 		},
 		{
 			"setKey": "ScrollOfTheHeroOfCinderCity",
@@ -1392,7 +1391,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 7
+			"id": 12
 		},
 		{
 			"setKey": "ScrollOfTheHeroOfCinderCity",
@@ -1408,7 +1407,7 @@
 			],
 			"location": "Xilonen",
 			"lock": true,
-			"id": 8
+			"id": 13
 		},
 		{
 			"setKey": "UnfinishedReverie",
@@ -1424,7 +1423,7 @@
 			],
 			"location": "Xiao",
 			"lock": true,
-			"id": 9
+			"id": 14
 		},
 		{
 			"setKey": "FragmentOfHarmonicWhimsy",
@@ -1440,7 +1439,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 10
+			"id": 15
 		},
 		{
 			"setKey": "FragmentOfHarmonicWhimsy",
@@ -1456,7 +1455,7 @@
 			],
 			"location": "Clorinde",
 			"lock": true,
-			"id": 11
+			"id": 16
 		},
 		{
 			"setKey": "FragmentOfHarmonicWhimsy",
@@ -1472,7 +1471,7 @@
 			],
 			"location": "Arlecchino",
 			"lock": true,
-			"id": 12
+			"id": 17
 		},
 		{
 			"setKey": "FragmentOfHarmonicWhimsy",
@@ -1488,7 +1487,7 @@
 			],
 			"location": "Arlecchino",
 			"lock": true,
-			"id": 13
+			"id": 18
 		},
 		{
 			"setKey": "FragmentOfHarmonicWhimsy",
@@ -1504,7 +1503,7 @@
 			],
 			"location": "Mavuika",
 			"lock": true,
-			"id": 14
+			"id": 19
 		},
 		{
 			"setKey": "FragmentOfHarmonicWhimsy",
@@ -1520,7 +1519,7 @@
 			],
 			"location": "Clorinde",
 			"lock": true,
-			"id": 15
+			"id": 20
 		},
 		{
 			"setKey": "FragmentOfHarmonicWhimsy",
@@ -1536,7 +1535,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 16
+			"id": 21
 		},
 		{
 			"setKey": "FragmentOfHarmonicWhimsy",
@@ -1552,7 +1551,7 @@
 			],
 			"location": "YunJin",
 			"lock": true,
-			"id": 17
+			"id": 22
 		},
 		{
 			"setKey": "FragmentOfHarmonicWhimsy",
@@ -1568,7 +1567,7 @@
 			],
 			"location": "Arlecchino",
 			"lock": true,
-			"id": 18
+			"id": 23
 		},
 		{
 			"setKey": "FragmentOfHarmonicWhimsy",
@@ -1584,7 +1583,7 @@
 			],
 			"location": "Clorinde",
 			"lock": true,
-			"id": 19
+			"id": 24
 		},
 		{
 			"setKey": "FragmentOfHarmonicWhimsy",
@@ -1600,7 +1599,7 @@
 			],
 			"location": "Faruzan",
 			"lock": false,
-			"id": 20
+			"id": 25
 		},
 		{
 			"setKey": "FragmentOfHarmonicWhimsy",
@@ -1615,8 +1614,8 @@
 				{ "key": "critRate_", "value": 7.4 }
 			],
 			"location": "Xianyun",
-			"lock": false,
-			"id": 21
+			"lock": true,
+			"id": 26
 		},
 		{
 			"setKey": "FragmentOfHarmonicWhimsy",
@@ -1632,7 +1631,7 @@
 			],
 			"location": "Arlecchino",
 			"lock": true,
-			"id": 22
+			"id": 27
 		},
 		{
 			"setKey": "FragmentOfHarmonicWhimsy",
@@ -1648,7 +1647,7 @@
 			],
 			"location": "Gaming",
 			"lock": true,
-			"id": 23
+			"id": 28
 		},
 		{
 			"setKey": "FragmentOfHarmonicWhimsy",
@@ -1664,7 +1663,7 @@
 			],
 			"location": "Clorinde",
 			"lock": true,
-			"id": 24
+			"id": 29
 		},
 		{
 			"setKey": "FragmentOfHarmonicWhimsy",
@@ -1680,7 +1679,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 25
+			"id": 30
 		},
 		{
 			"setKey": "FragmentOfHarmonicWhimsy",
@@ -1696,7 +1695,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 26
+			"id": 31
 		},
 		{
 			"setKey": "FragmentOfHarmonicWhimsy",
@@ -1712,7 +1711,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 27
+			"id": 32
 		},
 		{
 			"setKey": "FragmentOfHarmonicWhimsy",
@@ -1728,7 +1727,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 28
+			"id": 33
 		},
 		{
 			"setKey": "GoldenTroupe",
@@ -1744,7 +1743,7 @@
 			],
 			"location": "Fischl",
 			"lock": true,
-			"id": 29
+			"id": 34
 		},
 		{
 			"setKey": "GoldenTroupe",
@@ -1760,7 +1759,7 @@
 			],
 			"location": "Furina",
 			"lock": true,
-			"id": 30
+			"id": 35
 		},
 		{
 			"setKey": "GoldenTroupe",
@@ -1776,7 +1775,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 31
+			"id": 36
 		},
 		{
 			"setKey": "GoldenTroupe",
@@ -1792,7 +1791,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 32
+			"id": 37
 		},
 		{
 			"setKey": "GoldenTroupe",
@@ -1808,7 +1807,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 33
+			"id": 38
 		},
 		{
 			"setKey": "GoldenTroupe",
@@ -1824,7 +1823,7 @@
 			],
 			"location": "Fischl",
 			"lock": true,
-			"id": 34
+			"id": 39
 		},
 		{
 			"setKey": "GoldenTroupe",
@@ -1840,7 +1839,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 35
+			"id": 40
 		},
 		{
 			"setKey": "GoldenTroupe",
@@ -1856,7 +1855,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 36
+			"id": 41
 		},
 		{
 			"setKey": "GoldenTroupe",
@@ -1872,7 +1871,7 @@
 			],
 			"location": "Furina",
 			"lock": false,
-			"id": 37
+			"id": 42
 		},
 		{
 			"setKey": "GoldenTroupe",
@@ -1887,8 +1886,8 @@
 				{ "key": "critDMG_", "value": 15.5 }
 			],
 			"location": "Furina",
-			"lock": false,
-			"id": 38
+			"lock": true,
+			"id": 43
 		},
 		{
 			"setKey": "GoldenTroupe",
@@ -1904,7 +1903,7 @@
 			],
 			"location": "Fischl",
 			"lock": true,
-			"id": 39
+			"id": 44
 		},
 		{
 			"setKey": "GoldenTroupe",
@@ -1920,7 +1919,7 @@
 			],
 			"location": "Mavuika",
 			"lock": true,
-			"id": 40
+			"id": 45
 		},
 		{
 			"setKey": "GoldenTroupe",
@@ -1936,7 +1935,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 41
+			"id": 46
 		},
 		{
 			"setKey": "GoldenTroupe",
@@ -1952,7 +1951,7 @@
 			],
 			"location": "Mavuika",
 			"lock": true,
-			"id": 42
+			"id": 47
 		},
 		{
 			"setKey": "GoldenTroupe",
@@ -1968,7 +1967,7 @@
 			],
 			"location": "Furina",
 			"lock": false,
-			"id": 43
+			"id": 48
 		},
 		{
 			"setKey": "GoldenTroupe",
@@ -1984,7 +1983,7 @@
 			],
 			"location": "KukiShinobu",
 			"lock": false,
-			"id": 44
+			"id": 49
 		},
 		{
 			"setKey": "GoldenTroupe",
@@ -2000,7 +1999,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 45
+			"id": 50
 		},
 		{
 			"setKey": "GoldenTroupe",
@@ -2016,7 +2015,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 46
+			"id": 51
 		},
 		{
 			"setKey": "GoldenTroupe",
@@ -2032,7 +2031,7 @@
 			],
 			"location": "Fischl",
 			"lock": true,
-			"id": 47
+			"id": 52
 		},
 		{
 			"setKey": "MarechausseeHunter",
@@ -2048,7 +2047,7 @@
 			],
 			"location": "Xiao",
 			"lock": true,
-			"id": 48
+			"id": 53
 		},
 		{
 			"setKey": "MarechausseeHunter",
@@ -2064,7 +2063,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 49
+			"id": 54
 		},
 		{
 			"setKey": "MarechausseeHunter",
@@ -2080,7 +2079,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 50
+			"id": 55
 		},
 		{
 			"setKey": "MarechausseeHunter",
@@ -2096,7 +2095,7 @@
 			],
 			"location": "Xiao",
 			"lock": true,
-			"id": 51
+			"id": 56
 		},
 		{
 			"setKey": "MarechausseeHunter",
@@ -2112,7 +2111,7 @@
 			],
 			"location": "Gaming",
 			"lock": true,
-			"id": 52
+			"id": 57
 		},
 		{
 			"setKey": "MarechausseeHunter",
@@ -2128,7 +2127,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 53
+			"id": 58
 		},
 		{
 			"setKey": "MarechausseeHunter",
@@ -2144,7 +2143,7 @@
 			],
 			"location": "Gaming",
 			"lock": true,
-			"id": 54
+			"id": 59
 		},
 		{
 			"setKey": "MarechausseeHunter",
@@ -2160,23 +2159,7 @@
 			],
 			"location": "Xiao",
 			"lock": false,
-			"id": 55
-		},
-		{
-			"setKey": "MarechausseeHunter",
-			"slotKey": "goblet",
-			"rarity": 5,
-			"mainStatKey": "def_",
-			"level": 20,
-			"substats": [
-				{ "key": "enerRech_", "value": 11.0 },
-				{ "key": "eleMas", "value": 89.0 },
-				{ "key": "critDMG_", "value": 6.2 },
-				{ "key": "critRate_", "value": 5.8 }
-			],
-			"location": "Xilonen",
-			"lock": false,
-			"id": 56
+			"id": 60
 		},
 		{
 			"setKey": "MarechausseeHunter",
@@ -2192,7 +2175,23 @@
 			],
 			"location": "Clorinde",
 			"lock": true,
-			"id": 57
+			"id": 62
+		},
+		{
+			"setKey": "MarechausseeHunter",
+			"slotKey": "goblet",
+			"rarity": 5,
+			"mainStatKey": "def_",
+			"level": 20,
+			"substats": [
+				{ "key": "enerRech_", "value": 11.0 },
+				{ "key": "eleMas", "value": 89.0 },
+				{ "key": "critDMG_", "value": 6.2 },
+				{ "key": "critRate_", "value": 5.8 }
+			],
+			"location": "Xilonen",
+			"lock": true,
+			"id": 61
 		},
 		{
 			"setKey": "MarechausseeHunter",
@@ -2208,7 +2207,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 58
+			"id": 63
 		},
 		{
 			"setKey": "MarechausseeHunter",
@@ -2224,7 +2223,7 @@
 			],
 			"location": "Xiao",
 			"lock": true,
-			"id": 59
+			"id": 64
 		},
 		{
 			"setKey": "MarechausseeHunter",
@@ -2240,7 +2239,7 @@
 			],
 			"location": "Beidou",
 			"lock": true,
-			"id": 60
+			"id": 65
 		},
 		{
 			"setKey": "FlowerOfParadiseLost",
@@ -2256,7 +2255,7 @@
 			],
 			"location": "KukiShinobu",
 			"lock": true,
-			"id": 61
+			"id": 66
 		},
 		{
 			"setKey": "FlowerOfParadiseLost",
@@ -2272,7 +2271,7 @@
 			],
 			"location": "KukiShinobu",
 			"lock": false,
-			"id": 62
+			"id": 67
 		},
 		{
 			"setKey": "FlowerOfParadiseLost",
@@ -2287,8 +2286,8 @@
 				{ "key": "enerRech_", "value": 11.0 }
 			],
 			"location": "KukiShinobu",
-			"lock": false,
-			"id": 63
+			"lock": true,
+			"id": 68
 		},
 		{
 			"setKey": "FlowerOfParadiseLost",
@@ -2304,7 +2303,7 @@
 			],
 			"location": "KukiShinobu",
 			"lock": true,
-			"id": 64
+			"id": 69
 		},
 		{
 			"setKey": "GildedDreams",
@@ -2320,7 +2319,7 @@
 			],
 			"location": "RaidenShogun",
 			"lock": true,
-			"id": 65
+			"id": 70
 		},
 		{
 			"setKey": "GildedDreams",
@@ -2336,7 +2335,7 @@
 			],
 			"location": "RaidenShogun",
 			"lock": true,
-			"id": 66
+			"id": 71
 		},
 		{
 			"setKey": "GildedDreams",
@@ -2352,7 +2351,7 @@
 			],
 			"location": "Chevreuse",
 			"lock": true,
-			"id": 67
+			"id": 72
 		},
 		{
 			"setKey": "GildedDreams",
@@ -2368,7 +2367,7 @@
 			],
 			"location": "RaidenShogun",
 			"lock": true,
-			"id": 68
+			"id": 73
 		},
 		{
 			"setKey": "GildedDreams",
@@ -2384,7 +2383,7 @@
 			],
 			"location": "Nahida",
 			"lock": true,
-			"id": 69
+			"id": 74
 		},
 		{
 			"setKey": "GildedDreams",
@@ -2400,7 +2399,7 @@
 			],
 			"location": "RaidenShogun",
 			"lock": true,
-			"id": 70
+			"id": 75
 		},
 		{
 			"setKey": "DeepwoodMemories",
@@ -2416,7 +2415,7 @@
 			],
 			"location": "Nahida",
 			"lock": true,
-			"id": 71
+			"id": 76
 		},
 		{
 			"setKey": "DeepwoodMemories",
@@ -2432,7 +2431,7 @@
 			],
 			"location": "Nahida",
 			"lock": false,
-			"id": 72
+			"id": 77
 		},
 		{
 			"setKey": "DeepwoodMemories",
@@ -2447,8 +2446,8 @@
 				{ "key": "critDMG_", "value": 13.2 }
 			],
 			"location": "Fischl",
-			"lock": false,
-			"id": 73
+			"lock": true,
+			"id": 78
 		},
 		{
 			"setKey": "DeepwoodMemories",
@@ -2464,7 +2463,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 74
+			"id": 79
 		},
 		{
 			"setKey": "DeepwoodMemories",
@@ -2480,7 +2479,7 @@
 			],
 			"location": "Nahida",
 			"lock": false,
-			"id": 75
+			"id": 80
 		},
 		{
 			"setKey": "DeepwoodMemories",
@@ -2496,7 +2495,7 @@
 			],
 			"location": "Nahida",
 			"lock": false,
-			"id": 76
+			"id": 81
 		},
 		{
 			"setKey": "VermillionHereafter",
@@ -2511,8 +2510,8 @@
 				{ "key": "critDMG_", "value": 7.0 }
 			],
 			"location": "",
-			"lock": false,
-			"id": 77
+			"lock": true,
+			"id": 82
 		},
 		{
 			"setKey": "VermillionHereafter",
@@ -2528,7 +2527,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 78
+			"id": 83
 		},
 		{
 			"setKey": "HuskOfOpulentDreams",
@@ -2544,7 +2543,7 @@
 			],
 			"location": "Noelle",
 			"lock": true,
-			"id": 79
+			"id": 84
 		},
 		{
 			"setKey": "HuskOfOpulentDreams",
@@ -2560,7 +2559,7 @@
 			],
 			"location": "YunJin",
 			"lock": true,
-			"id": 80
+			"id": 85
 		},
 		{
 			"setKey": "HuskOfOpulentDreams",
@@ -2576,7 +2575,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 81
+			"id": 86
 		},
 		{
 			"setKey": "HuskOfOpulentDreams",
@@ -2592,7 +2591,7 @@
 			],
 			"location": "Noelle",
 			"lock": true,
-			"id": 82
+			"id": 87
 		},
 		{
 			"setKey": "HuskOfOpulentDreams",
@@ -2608,7 +2607,7 @@
 			],
 			"location": "YunJin",
 			"lock": false,
-			"id": 83
+			"id": 88
 		},
 		{
 			"setKey": "HuskOfOpulentDreams",
@@ -2624,7 +2623,7 @@
 			],
 			"location": "Noelle",
 			"lock": false,
-			"id": 84
+			"id": 89
 		},
 		{
 			"setKey": "HuskOfOpulentDreams",
@@ -2639,8 +2638,8 @@
 				{ "key": "eleMas", "value": 40.0 }
 			],
 			"location": "Noelle",
-			"lock": false,
-			"id": 85
+			"lock": true,
+			"id": 90
 		},
 		{
 			"setKey": "HuskOfOpulentDreams",
@@ -2656,7 +2655,7 @@
 			],
 			"location": "YunJin",
 			"lock": false,
-			"id": 86
+			"id": 91
 		},
 		{
 			"setKey": "HuskOfOpulentDreams",
@@ -2672,7 +2671,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 87
+			"id": 92
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -2687,8 +2686,8 @@
 				{ "key": "critRate_", "value": 3.9 }
 			],
 			"location": "Sucrose",
-			"lock": false,
-			"id": 88
+			"lock": true,
+			"id": 93
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -2704,7 +2703,7 @@
 			],
 			"location": "Xingqiu",
 			"lock": true,
-			"id": 89
+			"id": 94
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -2720,7 +2719,7 @@
 			],
 			"location": "Yelan",
 			"lock": true,
-			"id": 90
+			"id": 95
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -2736,7 +2735,7 @@
 			],
 			"location": "Amber",
 			"lock": true,
-			"id": 91
+			"id": 96
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -2752,7 +2751,7 @@
 			],
 			"location": "Sayu",
 			"lock": true,
-			"id": 92
+			"id": 97
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -2768,7 +2767,7 @@
 			],
 			"location": "Beidou",
 			"lock": false,
-			"id": 93
+			"id": 98
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -2784,7 +2783,7 @@
 			],
 			"location": "Yelan",
 			"lock": false,
-			"id": 94
+			"id": 99
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -2800,7 +2799,7 @@
 			],
 			"location": "Xingqiu",
 			"lock": true,
-			"id": 95
+			"id": 100
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -2816,7 +2815,7 @@
 			],
 			"location": "Xiangling",
 			"lock": true,
-			"id": 96
+			"id": 101
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -2832,7 +2831,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 97
+			"id": 102
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -2848,7 +2847,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 98
+			"id": 103
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -2864,7 +2863,7 @@
 			],
 			"location": "Amber",
 			"lock": true,
-			"id": 99
+			"id": 104
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -2880,7 +2879,7 @@
 			],
 			"location": "Traveler",
 			"lock": false,
-			"id": 100
+			"id": 105
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -2895,8 +2894,8 @@
 				{ "key": "hp", "value": 269.0 }
 			],
 			"location": "Xiangling",
-			"lock": false,
-			"id": 101
+			"lock": true,
+			"id": 106
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -2912,7 +2911,7 @@
 			],
 			"location": "Xingqiu",
 			"lock": true,
-			"id": 102
+			"id": 107
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -2928,7 +2927,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 103
+			"id": 108
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -2944,7 +2943,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 104
+			"id": 109
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -2960,7 +2959,7 @@
 			],
 			"location": "Yelan",
 			"lock": true,
-			"id": 105
+			"id": 110
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -2976,7 +2975,7 @@
 			],
 			"location": "Traveler",
 			"lock": false,
-			"id": 106
+			"id": 111
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -2992,7 +2991,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 107
+			"id": 112
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -3008,7 +3007,7 @@
 			],
 			"location": "Zhongli",
 			"lock": false,
-			"id": 108
+			"id": 113
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -3024,7 +3023,7 @@
 			],
 			"location": "Xiangling",
 			"lock": false,
-			"id": 109
+			"id": 114
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -3040,7 +3039,7 @@
 			],
 			"location": "Yelan",
 			"lock": false,
-			"id": 110
+			"id": 115
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -3056,7 +3055,7 @@
 			],
 			"location": "Xingqiu",
 			"lock": false,
-			"id": 111
+			"id": 116
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -3072,7 +3071,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 112
+			"id": 117
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -3088,7 +3087,7 @@
 			],
 			"location": "Xiangling",
 			"lock": true,
-			"id": 113
+			"id": 118
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -3104,7 +3103,7 @@
 			],
 			"location": "Keqing",
 			"lock": true,
-			"id": 114
+			"id": 119
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -3120,7 +3119,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 115
+			"id": 120
 		},
 		{
 			"setKey": "ShimenawasReminiscence",
@@ -3136,7 +3135,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 116
+			"id": 121
 		},
 		{
 			"setKey": "ShimenawasReminiscence",
@@ -3152,7 +3151,7 @@
 			],
 			"location": "Wanderer",
 			"lock": true,
-			"id": 117
+			"id": 122
 		},
 		{
 			"setKey": "ShimenawasReminiscence",
@@ -3168,7 +3167,7 @@
 			],
 			"location": "Jean",
 			"lock": true,
-			"id": 118
+			"id": 123
 		},
 		{
 			"setKey": "ShimenawasReminiscence",
@@ -3184,7 +3183,7 @@
 			],
 			"location": "Wanderer",
 			"lock": true,
-			"id": 119
+			"id": 124
 		},
 		{
 			"setKey": "ShimenawasReminiscence",
@@ -3200,7 +3199,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 120
+			"id": 125
 		},
 		{
 			"setKey": "ShimenawasReminiscence",
@@ -3216,7 +3215,7 @@
 			],
 			"location": "Jean",
 			"lock": true,
-			"id": 121
+			"id": 126
 		},
 		{
 			"setKey": "ShimenawasReminiscence",
@@ -3232,7 +3231,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 122
+			"id": 127
 		},
 		{
 			"setKey": "ShimenawasReminiscence",
@@ -3248,7 +3247,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 123
+			"id": 128
 		},
 		{
 			"setKey": "ShimenawasReminiscence",
@@ -3264,7 +3263,7 @@
 			],
 			"location": "Amber",
 			"lock": false,
-			"id": 124
+			"id": 129
 		},
 		{
 			"setKey": "ShimenawasReminiscence",
@@ -3280,7 +3279,7 @@
 			],
 			"location": "Sayu",
 			"lock": false,
-			"id": 125
+			"id": 130
 		},
 		{
 			"setKey": "ShimenawasReminiscence",
@@ -3296,7 +3295,7 @@
 			],
 			"location": "Wanderer",
 			"lock": false,
-			"id": 126
+			"id": 131
 		},
 		{
 			"setKey": "ShimenawasReminiscence",
@@ -3312,7 +3311,7 @@
 			],
 			"location": "Keqing",
 			"lock": false,
-			"id": 127
+			"id": 132
 		},
 		{
 			"setKey": "ShimenawasReminiscence",
@@ -3328,7 +3327,7 @@
 			],
 			"location": "HuTao",
 			"lock": false,
-			"id": 128
+			"id": 133
 		},
 		{
 			"setKey": "ShimenawasReminiscence",
@@ -3344,7 +3343,7 @@
 			],
 			"location": "Sayu",
 			"lock": false,
-			"id": 129
+			"id": 134
 		},
 		{
 			"setKey": "ShimenawasReminiscence",
@@ -3360,7 +3359,7 @@
 			],
 			"location": "Wanderer",
 			"lock": false,
-			"id": 130
+			"id": 135
 		},
 		{
 			"setKey": "ShimenawasReminiscence",
@@ -3376,7 +3375,7 @@
 			],
 			"location": "RaidenShogun",
 			"lock": true,
-			"id": 131
+			"id": 136
 		},
 		{
 			"setKey": "ShimenawasReminiscence",
@@ -3392,7 +3391,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 132
+			"id": 137
 		},
 		{
 			"setKey": "TenacityOfTheMillelith",
@@ -3408,7 +3407,7 @@
 			],
 			"location": "Faruzan",
 			"lock": false,
-			"id": 133
+			"id": 138
 		},
 		{
 			"setKey": "TenacityOfTheMillelith",
@@ -3424,7 +3423,7 @@
 			],
 			"location": "Zhongli",
 			"lock": false,
-			"id": 134
+			"id": 139
 		},
 		{
 			"setKey": "TenacityOfTheMillelith",
@@ -3440,7 +3439,7 @@
 			],
 			"location": "SangonomiyaKokomi",
 			"lock": false,
-			"id": 135
+			"id": 140
 		},
 		{
 			"setKey": "TenacityOfTheMillelith",
@@ -3455,8 +3454,8 @@
 				{ "key": "hp_", "value": 5.3 }
 			],
 			"location": "Faruzan",
-			"lock": false,
-			"id": 136
+			"lock": true,
+			"id": 141
 		},
 		{
 			"setKey": "TenacityOfTheMillelith",
@@ -3472,7 +3471,7 @@
 			],
 			"location": "Faruzan",
 			"lock": true,
-			"id": 137
+			"id": 142
 		},
 		{
 			"setKey": "TenacityOfTheMillelith",
@@ -3488,7 +3487,7 @@
 			],
 			"location": "Zhongli",
 			"lock": true,
-			"id": 138
+			"id": 143
 		},
 		{
 			"setKey": "TenacityOfTheMillelith",
@@ -3504,7 +3503,7 @@
 			],
 			"location": "Tartaglia",
 			"lock": true,
-			"id": 139
+			"id": 144
 		},
 		{
 			"setKey": "TenacityOfTheMillelith",
@@ -3520,7 +3519,7 @@
 			],
 			"location": "Zhongli",
 			"lock": true,
-			"id": 140
+			"id": 145
 		},
 		{
 			"setKey": "TenacityOfTheMillelith",
@@ -3536,7 +3535,7 @@
 			],
 			"location": "SangonomiyaKokomi",
 			"lock": true,
-			"id": 141
+			"id": 146
 		},
 		{
 			"setKey": "TenacityOfTheMillelith",
@@ -3552,7 +3551,7 @@
 			],
 			"location": "Faruzan",
 			"lock": false,
-			"id": 142
+			"id": 147
 		},
 		{
 			"setKey": "HeartOfDepth",
@@ -3567,8 +3566,8 @@
 				{ "key": "eleMas", "value": 42.0 }
 			],
 			"location": "Tartaglia",
-			"lock": false,
-			"id": 143
+			"lock": true,
+			"id": 148
 		},
 		{
 			"setKey": "HeartOfDepth",
@@ -3584,7 +3583,7 @@
 			],
 			"location": "Diluc",
 			"lock": true,
-			"id": 144
+			"id": 149
 		},
 		{
 			"setKey": "HeartOfDepth",
@@ -3600,7 +3599,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 145
+			"id": 150
 		},
 		{
 			"setKey": "HeartOfDepth",
@@ -3616,7 +3615,7 @@
 			],
 			"location": "Tartaglia",
 			"lock": false,
-			"id": 146
+			"id": 151
 		},
 		{
 			"setKey": "HeartOfDepth",
@@ -3632,7 +3631,7 @@
 			],
 			"location": "Tartaglia",
 			"lock": true,
-			"id": 147
+			"id": 152
 		},
 		{
 			"setKey": "HeartOfDepth",
@@ -3648,7 +3647,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 148
+			"id": 153
 		},
 		{
 			"setKey": "HeartOfDepth",
@@ -3664,7 +3663,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 149
+			"id": 154
 		},
 		{
 			"setKey": "HeartOfDepth",
@@ -3680,7 +3679,7 @@
 			],
 			"location": "Kirara",
 			"lock": false,
-			"id": 150
+			"id": 155
 		},
 		{
 			"setKey": "HeartOfDepth",
@@ -3696,7 +3695,7 @@
 			],
 			"location": "Tartaglia",
 			"lock": true,
-			"id": 151
+			"id": 156
 		},
 		{
 			"setKey": "HeartOfDepth",
@@ -3712,7 +3711,7 @@
 			],
 			"location": "Traveler",
 			"lock": true,
-			"id": 152
+			"id": 157
 		},
 		{
 			"setKey": "NoblesseOblige",
@@ -3728,7 +3727,7 @@
 			],
 			"location": "Gorou",
 			"lock": true,
-			"id": 153
+			"id": 158
 		},
 		{
 			"setKey": "NoblesseOblige",
@@ -3744,7 +3743,7 @@
 			],
 			"location": "Thoma",
 			"lock": true,
-			"id": 154
+			"id": 159
 		},
 		{
 			"setKey": "NoblesseOblige",
@@ -3760,7 +3759,7 @@
 			],
 			"location": "Xianyun",
 			"lock": false,
-			"id": 155
+			"id": 160
 		},
 		{
 			"setKey": "NoblesseOblige",
@@ -3776,7 +3775,7 @@
 			],
 			"location": "Chevreuse",
 			"lock": false,
-			"id": 156
+			"id": 161
 		},
 		{
 			"setKey": "NoblesseOblige",
@@ -3792,7 +3791,7 @@
 			],
 			"location": "Diona",
 			"lock": false,
-			"id": 157
+			"id": 162
 		},
 		{
 			"setKey": "NoblesseOblige",
@@ -3808,7 +3807,7 @@
 			],
 			"location": "Bennett",
 			"lock": false,
-			"id": 158
+			"id": 163
 		},
 		{
 			"setKey": "NoblesseOblige",
@@ -3824,7 +3823,7 @@
 			],
 			"location": "Xianyun",
 			"lock": false,
-			"id": 159
+			"id": 164
 		},
 		{
 			"setKey": "NoblesseOblige",
@@ -3840,7 +3839,7 @@
 			],
 			"location": "Gorou",
 			"lock": false,
-			"id": 160
+			"id": 165
 		},
 		{
 			"setKey": "NoblesseOblige",
@@ -3855,8 +3854,8 @@
 				{ "key": "critDMG_", "value": 24.1 }
 			],
 			"location": "Gorou",
-			"lock": false,
-			"id": 161
+			"lock": true,
+			"id": 166
 		},
 		{
 			"setKey": "NoblesseOblige",
@@ -3872,7 +3871,7 @@
 			],
 			"location": "Xianyun",
 			"lock": true,
-			"id": 162
+			"id": 167
 		},
 		{
 			"setKey": "NoblesseOblige",
@@ -3888,7 +3887,7 @@
 			],
 			"location": "Aloy",
 			"lock": true,
-			"id": 163
+			"id": 168
 		},
 		{
 			"setKey": "NoblesseOblige",
@@ -3904,7 +3903,7 @@
 			],
 			"location": "Bennett",
 			"lock": false,
-			"id": 164
+			"id": 169
 		},
 		{
 			"setKey": "NoblesseOblige",
@@ -3920,7 +3919,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 165
+			"id": 170
 		},
 		{
 			"setKey": "NoblesseOblige",
@@ -3936,7 +3935,7 @@
 			],
 			"location": "Chevreuse",
 			"lock": false,
-			"id": 166
+			"id": 171
 		},
 		{
 			"setKey": "NoblesseOblige",
@@ -3952,7 +3951,7 @@
 			],
 			"location": "Mavuika",
 			"lock": false,
-			"id": 167
+			"id": 172
 		},
 		{
 			"setKey": "NoblesseOblige",
@@ -3968,7 +3967,7 @@
 			],
 			"location": "Gorou",
 			"lock": true,
-			"id": 168
+			"id": 173
 		},
 		{
 			"setKey": "NoblesseOblige",
@@ -3984,7 +3983,7 @@
 			],
 			"location": "Xianyun",
 			"lock": false,
-			"id": 169
+			"id": 174
 		},
 		{
 			"setKey": "NoblesseOblige",
@@ -4000,7 +3999,7 @@
 			],
 			"location": "Bennett",
 			"lock": false,
-			"id": 170
+			"id": 175
 		},
 		{
 			"setKey": "CrimsonWitchOfFlames",
@@ -4016,7 +4015,7 @@
 			],
 			"location": "HuTao",
 			"lock": false,
-			"id": 171
+			"id": 176
 		},
 		{
 			"setKey": "CrimsonWitchOfFlames",
@@ -4032,7 +4031,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 172
+			"id": 177
 		},
 		{
 			"setKey": "CrimsonWitchOfFlames",
@@ -4048,7 +4047,7 @@
 			],
 			"location": "Diluc",
 			"lock": true,
-			"id": 173
+			"id": 178
 		},
 		{
 			"setKey": "CrimsonWitchOfFlames",
@@ -4064,7 +4063,7 @@
 			],
 			"location": "HuTao",
 			"lock": false,
-			"id": 174
+			"id": 179
 		},
 		{
 			"setKey": "CrimsonWitchOfFlames",
@@ -4079,8 +4078,8 @@
 				{ "key": "critDMG_", "value": 13.2 }
 			],
 			"location": "",
-			"lock": false,
-			"id": 175
+			"lock": true,
+			"id": 180
 		},
 		{
 			"setKey": "CrimsonWitchOfFlames",
@@ -4096,7 +4095,7 @@
 			],
 			"location": "Diluc",
 			"lock": true,
-			"id": 176
+			"id": 181
 		},
 		{
 			"setKey": "CrimsonWitchOfFlames",
@@ -4112,7 +4111,7 @@
 			],
 			"location": "HuTao",
 			"lock": true,
-			"id": 177
+			"id": 182
 		},
 		{
 			"setKey": "CrimsonWitchOfFlames",
@@ -4128,7 +4127,7 @@
 			],
 			"location": "Diluc",
 			"lock": true,
-			"id": 178
+			"id": 183
 		},
 		{
 			"setKey": "CrimsonWitchOfFlames",
@@ -4144,7 +4143,7 @@
 			],
 			"location": "Furina",
 			"lock": true,
-			"id": 179
+			"id": 184
 		},
 		{
 			"setKey": "CrimsonWitchOfFlames",
@@ -4160,7 +4159,7 @@
 			],
 			"location": "HuTao",
 			"lock": true,
-			"id": 180
+			"id": 185
 		},
 		{
 			"setKey": "CrimsonWitchOfFlames",
@@ -4176,7 +4175,7 @@
 			],
 			"location": "Diluc",
 			"lock": true,
-			"id": 181
+			"id": 186
 		},
 		{
 			"setKey": "ThunderingFury",
@@ -4192,7 +4191,7 @@
 			],
 			"location": "Keqing",
 			"lock": true,
-			"id": 182
+			"id": 187
 		},
 		{
 			"setKey": "ThunderingFury",
@@ -4208,7 +4207,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 183
+			"id": 188
 		},
 		{
 			"setKey": "ThunderingFury",
@@ -4224,7 +4223,7 @@
 			],
 			"location": "Keqing",
 			"lock": true,
-			"id": 184
+			"id": 189
 		},
 		{
 			"setKey": "ThunderingFury",
@@ -4240,7 +4239,7 @@
 			],
 			"location": "Keqing",
 			"lock": true,
-			"id": 185
+			"id": 190
 		},
 		{
 			"setKey": "ThunderingFury",
@@ -4256,7 +4255,7 @@
 			],
 			"location": "Yelan",
 			"lock": true,
-			"id": 186
+			"id": 191
 		},
 		{
 			"setKey": "ThunderingFury",
@@ -4272,7 +4271,7 @@
 			],
 			"location": "Arlecchino",
 			"lock": true,
-			"id": 187
+			"id": 192
 		},
 		{
 			"setKey": "WanderersTroupe",
@@ -4288,7 +4287,7 @@
 			],
 			"location": "Tighnari",
 			"lock": true,
-			"id": 188
+			"id": 193
 		},
 		{
 			"setKey": "WanderersTroupe",
@@ -4304,7 +4303,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 189
+			"id": 194
 		},
 		{
 			"setKey": "WanderersTroupe",
@@ -4320,7 +4319,7 @@
 			],
 			"location": "Tighnari",
 			"lock": true,
-			"id": 190
+			"id": 195
 		},
 		{
 			"setKey": "WanderersTroupe",
@@ -4336,7 +4335,7 @@
 			],
 			"location": "Kirara",
 			"lock": true,
-			"id": 191
+			"id": 196
 		},
 		{
 			"setKey": "WanderersTroupe",
@@ -4352,7 +4351,7 @@
 			],
 			"location": "Tighnari",
 			"lock": true,
-			"id": 192
+			"id": 197
 		},
 		{
 			"setKey": "WanderersTroupe",
@@ -4368,7 +4367,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 193
+			"id": 198
 		},
 		{
 			"setKey": "WanderersTroupe",
@@ -4384,7 +4383,7 @@
 			],
 			"location": "Tighnari",
 			"lock": true,
-			"id": 194
+			"id": 199
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -4400,7 +4399,7 @@
 			],
 			"location": "Xiangling",
 			"lock": true,
-			"id": 195
+			"id": 200
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -4416,7 +4415,7 @@
 			],
 			"location": "Yaoyao",
 			"lock": false,
-			"id": 196
+			"id": 201
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -4432,7 +4431,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 197
+			"id": 202
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -4448,7 +4447,7 @@
 			],
 			"location": "KaedeharaKazuha",
 			"lock": false,
-			"id": 198
+			"id": 203
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -4463,8 +4462,8 @@
 				{ "key": "critDMG_", "value": 27.2 }
 			],
 			"location": "Sucrose",
-			"lock": false,
-			"id": 199
+			"lock": true,
+			"id": 204
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -4480,7 +4479,7 @@
 			],
 			"location": "Jean",
 			"lock": true,
-			"id": 200
+			"id": 205
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -4496,7 +4495,7 @@
 			],
 			"location": "Thoma",
 			"lock": false,
-			"id": 201
+			"id": 206
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -4512,7 +4511,7 @@
 			],
 			"location": "KaedeharaKazuha",
 			"lock": false,
-			"id": 202
+			"id": 207
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -4527,8 +4526,8 @@
 				{ "key": "critDMG_", "value": 13.2 }
 			],
 			"location": "",
-			"lock": false,
-			"id": 203
+			"lock": true,
+			"id": 208
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -4544,7 +4543,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 204
+			"id": 209
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -4560,7 +4559,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 205
+			"id": 210
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -4576,7 +4575,7 @@
 			],
 			"location": "KaedeharaKazuha",
 			"lock": false,
-			"id": 206
+			"id": 211
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -4592,7 +4591,7 @@
 			],
 			"location": "Gorou",
 			"lock": false,
-			"id": 207
+			"id": 212
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -4608,7 +4607,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 208
+			"id": 213
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -4624,7 +4623,7 @@
 			],
 			"location": "Tighnari",
 			"lock": true,
-			"id": 209
+			"id": 214
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -4640,7 +4639,7 @@
 			],
 			"location": "KaedeharaKazuha",
 			"lock": false,
-			"id": 210
+			"id": 215
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -4656,7 +4655,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 211
+			"id": 216
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -4672,7 +4671,7 @@
 			],
 			"location": "Diona",
 			"lock": false,
-			"id": 212
+			"id": 217
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -4688,7 +4687,7 @@
 			],
 			"location": "Xingqiu",
 			"lock": true,
-			"id": 213
+			"id": 218
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -4704,7 +4703,7 @@
 			],
 			"location": "ShikanoinHeizou",
 			"lock": false,
-			"id": 214
+			"id": 219
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -4720,7 +4719,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 215
+			"id": 220
 		},
 		{
 			"setKey": "GladiatorsFinale",
@@ -4736,7 +4735,7 @@
 			],
 			"location": "Mavuika",
 			"lock": false,
-			"id": 216
+			"id": 221
 		},
 		{
 			"setKey": "GladiatorsFinale",
@@ -4752,7 +4751,7 @@
 			],
 			"location": "Traveler",
 			"lock": true,
-			"id": 217
+			"id": 222
 		},
 		{
 			"setKey": "GladiatorsFinale",
@@ -4768,7 +4767,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 218
+			"id": 223
 		},
 		{
 			"setKey": "GladiatorsFinale",
@@ -4784,7 +4783,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 219
+			"id": 224
 		},
 		{
 			"setKey": "GladiatorsFinale",
@@ -4800,7 +4799,7 @@
 			],
 			"location": "Aloy",
 			"lock": true,
-			"id": 220
+			"id": 225
 		},
 		{
 			"setKey": "GladiatorsFinale",
@@ -4816,7 +4815,7 @@
 			],
 			"location": "Wanderer",
 			"lock": true,
-			"id": 221
+			"id": 226
 		},
 		{
 			"setKey": "GladiatorsFinale",
@@ -4832,7 +4831,7 @@
 			],
 			"location": "Noelle",
 			"lock": true,
-			"id": 222
+			"id": 227
 		},
 		{
 			"setKey": "GladiatorsFinale",
@@ -4848,7 +4847,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 223
+			"id": 228
 		},
 		{
 			"setKey": "GladiatorsFinale",
@@ -4864,7 +4863,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 224
+			"id": 229
 		},
 		{
 			"setKey": "GladiatorsFinale",
@@ -4880,7 +4879,7 @@
 			],
 			"location": "Aloy",
 			"lock": true,
-			"id": 225
+			"id": 230
 		},
 		{
 			"setKey": "GladiatorsFinale",
@@ -4896,7 +4895,7 @@
 			],
 			"location": "Kirara",
 			"lock": true,
-			"id": 226
+			"id": 231
 		},
 		{
 			"setKey": "GladiatorsFinale",
@@ -4912,7 +4911,7 @@
 			],
 			"location": "KamisatoAyaka",
 			"lock": false,
-			"id": 227
+			"id": 232
 		},
 		{
 			"setKey": "GladiatorsFinale",
@@ -4928,7 +4927,7 @@
 			],
 			"location": "Sayu",
 			"lock": false,
-			"id": 228
+			"id": 233
 		},
 		{
 			"setKey": "MaidenBeloved",
@@ -4943,8 +4942,8 @@
 				{ "key": "hp", "value": 209.0 }
 			],
 			"location": "KaedeharaKazuha",
-			"lock": false,
-			"id": 229
+			"lock": true,
+			"id": 234
 		},
 		{
 			"setKey": "BlizzardStrayer",
@@ -4960,7 +4959,7 @@
 			],
 			"location": "Aloy",
 			"lock": true,
-			"id": 230
+			"id": 235
 		},
 		{
 			"setKey": "BlizzardStrayer",
@@ -4976,7 +4975,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 231
+			"id": 236
 		},
 		{
 			"setKey": "BlizzardStrayer",
@@ -4992,7 +4991,7 @@
 			],
 			"location": "KamisatoAyaka",
 			"lock": false,
-			"id": 232
+			"id": 237
 		},
 		{
 			"setKey": "BlizzardStrayer",
@@ -5007,8 +5006,8 @@
 				{ "key": "hp_", "value": 4.1 }
 			],
 			"location": "Aloy",
-			"lock": false,
-			"id": 233
+			"lock": true,
+			"id": 238
 		},
 		{
 			"setKey": "BlizzardStrayer",
@@ -5024,7 +5023,7 @@
 			],
 			"location": "KamisatoAyaka",
 			"lock": true,
-			"id": 234
+			"id": 239
 		},
 		{
 			"setKey": "BlizzardStrayer",
@@ -5040,7 +5039,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 235
+			"id": 240
 		},
 		{
 			"setKey": "BlizzardStrayer",
@@ -5056,7 +5055,7 @@
 			],
 			"location": "KamisatoAyaka",
 			"lock": false,
-			"id": 236
+			"id": 241
 		},
 		{
 			"setKey": "BlizzardStrayer",
@@ -5072,7 +5071,7 @@
 			],
 			"location": "Bennett",
 			"lock": false,
-			"id": 237
+			"id": 242
 		},
 		{
 			"setKey": "BlizzardStrayer",
@@ -5088,7 +5087,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 238
+			"id": 243
 		},
 		{
 			"setKey": "BlizzardStrayer",
@@ -5103,8 +5102,8 @@
 				{ "key": "critRate_", "value": 6.6 }
 			],
 			"location": "KamisatoAyaka",
-			"lock": false,
-			"id": 239
+			"lock": true,
+			"id": 244
 		},
 		{
 			"setKey": "BlizzardStrayer",
@@ -5120,7 +5119,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 240
+			"id": 245
 		},
 		{
 			"setKey": "BlizzardStrayer",
@@ -5136,7 +5135,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 241
+			"id": 246
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -5152,7 +5151,7 @@
 			],
 			"location": "Diona",
 			"lock": false,
-			"id": 242
+			"id": 247
 		},
 		{
 			"setKey": "VermillionHereafter",
@@ -5167,8 +5166,8 @@
 				{ "key": "critRate_", "value": 3.5 }
 			],
 			"location": "",
-			"lock": false,
-			"id": 243
+			"lock": true,
+			"id": 248
 		},
 		{
 			"setKey": "MaidenBeloved",
@@ -5184,7 +5183,7 @@
 			],
 			"location": "SangonomiyaKokomi",
 			"lock": true,
-			"id": 244
+			"id": 249
 		},
 		{
 			"setKey": "MaidenBeloved",
@@ -5200,7 +5199,7 @@
 			],
 			"location": "Yaoyao",
 			"lock": true,
-			"id": 245
+			"id": 250
 		},
 		{
 			"setKey": "ObsidianCodex",
@@ -5216,7 +5215,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 246
+			"id": 251
 		},
 		{
 			"setKey": "GoldenTroupe",
@@ -5232,7 +5231,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 247
+			"id": 252
 		},
 		{
 			"setKey": "MarechausseeHunter",
@@ -5248,7 +5247,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 248
+			"id": 253
 		},
 		{
 			"setKey": "MarechausseeHunter",
@@ -5264,7 +5263,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 249
+			"id": 254
 		},
 		{
 			"setKey": "MarechausseeHunter",
@@ -5280,7 +5279,7 @@
 			],
 			"location": "Gaming",
 			"lock": true,
-			"id": 250
+			"id": 255
 		},
 		{
 			"setKey": "DeepwoodMemories",
@@ -5296,7 +5295,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 251
+			"id": 256
 		},
 		{
 			"setKey": "OceanHuedClam",
@@ -5312,7 +5311,7 @@
 			],
 			"location": "Yaoyao",
 			"lock": true,
-			"id": 252
+			"id": 257
 		},
 		{
 			"setKey": "OceanHuedClam",
@@ -5328,7 +5327,7 @@
 			],
 			"location": "Amber",
 			"lock": true,
-			"id": 253
+			"id": 258
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -5344,7 +5343,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 254
+			"id": 259
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -5360,7 +5359,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 255
+			"id": 260
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -5376,7 +5375,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 256
+			"id": 261
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -5392,7 +5391,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 257
+			"id": 262
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -5408,7 +5407,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 258
+			"id": 263
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -5424,7 +5423,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 259
+			"id": 264
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -5440,7 +5439,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 260
+			"id": 265
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -5456,7 +5455,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 261
+			"id": 266
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -5472,7 +5471,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 262
+			"id": 267
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -5488,7 +5487,7 @@
 			],
 			"location": "Layla",
 			"lock": false,
-			"id": 263
+			"id": 268
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -5504,7 +5503,7 @@
 			],
 			"location": "Beidou",
 			"lock": false,
-			"id": 264
+			"id": 269
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -5520,7 +5519,7 @@
 			],
 			"location": "Jean",
 			"lock": false,
-			"id": 265
+			"id": 270
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -5536,7 +5535,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 266
+			"id": 271
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -5551,8 +5550,8 @@
 				{ "key": "def_", "value": 5.8 }
 			],
 			"location": "",
-			"lock": false,
-			"id": 267
+			"lock": true,
+			"id": 272
 		},
 		{
 			"setKey": "ShimenawasReminiscence",
@@ -5568,7 +5567,7 @@
 			],
 			"location": "Venti",
 			"lock": true,
-			"id": 268
+			"id": 273
 		},
 		{
 			"setKey": "ShimenawasReminiscence",
@@ -5584,7 +5583,7 @@
 			],
 			"location": "Thoma",
 			"lock": false,
-			"id": 269
+			"id": 274
 		},
 		{
 			"setKey": "TenacityOfTheMillelith",
@@ -5599,8 +5598,8 @@
 				{ "key": "atk_", "value": 5.8 }
 			],
 			"location": "SangonomiyaKokomi",
-			"lock": false,
-			"id": 270
+			"lock": true,
+			"id": 275
 		},
 		{
 			"setKey": "TenacityOfTheMillelith",
@@ -5616,7 +5615,7 @@
 			],
 			"location": "Zhongli",
 			"lock": true,
-			"id": 271
+			"id": 276
 		},
 		{
 			"setKey": "TenacityOfTheMillelith",
@@ -5632,7 +5631,7 @@
 			],
 			"location": "SangonomiyaKokomi",
 			"lock": true,
-			"id": 272
+			"id": 277
 		},
 		{
 			"setKey": "NoblesseOblige",
@@ -5648,7 +5647,7 @@
 			],
 			"location": "Bennett",
 			"lock": false,
-			"id": 273
+			"id": 278
 		},
 		{
 			"setKey": "NoblesseOblige",
@@ -5664,7 +5663,7 @@
 			],
 			"location": "Diona",
 			"lock": false,
-			"id": 274
+			"id": 279
 		},
 		{
 			"setKey": "NoblesseOblige",
@@ -5680,7 +5679,7 @@
 			],
 			"location": "Layla",
 			"lock": false,
-			"id": 275
+			"id": 280
 		},
 		{
 			"setKey": "NoblesseOblige",
@@ -5696,7 +5695,7 @@
 			],
 			"location": "Jean",
 			"lock": false,
-			"id": 276
+			"id": 281
 		},
 		{
 			"setKey": "CrimsonWitchOfFlames",
@@ -5711,8 +5710,8 @@
 				{ "key": "def", "value": 67.0 }
 			],
 			"location": "",
-			"lock": false,
-			"id": 277
+			"lock": true,
+			"id": 282
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -5728,7 +5727,7 @@
 			],
 			"location": "ShikanoinHeizou",
 			"lock": true,
-			"id": 278
+			"id": 283
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -5744,7 +5743,7 @@
 			],
 			"location": "ShikanoinHeizou",
 			"lock": true,
-			"id": 279
+			"id": 284
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -5760,7 +5759,7 @@
 			],
 			"location": "Kirara",
 			"lock": true,
-			"id": 280
+			"id": 285
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -5776,7 +5775,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 281
+			"id": 286
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -5792,7 +5791,7 @@
 			],
 			"location": "Venti",
 			"lock": false,
-			"id": 282
+			"id": 287
 		},
 		{
 			"setKey": "GladiatorsFinale",
@@ -5808,7 +5807,7 @@
 			],
 			"location": "Sayu",
 			"lock": false,
-			"id": 283
+			"id": 288
 		},
 		{
 			"setKey": "GladiatorsFinale",
@@ -5824,7 +5823,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 284
+			"id": 289
 		},
 		{
 			"setKey": "GladiatorsFinale",
@@ -5840,7 +5839,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 285
+			"id": 290
 		},
 		{
 			"setKey": "GladiatorsFinale",
@@ -5856,7 +5855,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 286
+			"id": 291
 		},
 		{
 			"setKey": "GladiatorsFinale",
@@ -5872,7 +5871,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 287
+			"id": 292
 		},
 		{
 			"setKey": "MaidenBeloved",
@@ -5888,7 +5887,7 @@
 			],
 			"location": "Yaoyao",
 			"lock": true,
-			"id": 288
+			"id": 293
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -5904,7 +5903,7 @@
 			],
 			"location": "Venti",
 			"lock": false,
-			"id": 289
+			"id": 294
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -5920,7 +5919,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 290
+			"id": 295
 		},
 		{
 			"setKey": "OceanHuedClam",
@@ -5936,7 +5935,7 @@
 			],
 			"location": "Layla",
 			"lock": true,
-			"id": 291
+			"id": 296
 		},
 		{
 			"setKey": "ShimenawasReminiscence",
@@ -5952,7 +5951,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 292
+			"id": 297
 		},
 		{
 			"setKey": "HeartOfDepth",
@@ -5968,7 +5967,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 293
+			"id": 298
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -5984,7 +5983,23 @@
 			],
 			"location": "Venti",
 			"lock": false,
-			"id": 294
+			"id": 299
+		},
+		{
+			"setKey": "ObsidianCodex",
+			"slotKey": "flower",
+			"rarity": 5,
+			"mainStatKey": "hp",
+			"level": 12,
+			"substats": [
+				{ "key": "def", "value": 42.0 },
+				{ "key": "critDMG_", "value": 5.4 },
+				{ "key": "critRate_", "value": 3.5 },
+				{ "key": "atk", "value": 29.0 }
+			],
+			"location": "",
+			"lock": false,
+			"id": 300
 		},
 		{
 			"setKey": "FragmentOfHarmonicWhimsy",
@@ -5999,8 +6014,8 @@
 				{ "key": "critRate_", "value": 3.9 }
 			],
 			"location": "",
-			"lock": false,
-			"id": 295
+			"lock": true,
+			"id": 301
 		},
 		{
 			"setKey": "GoldenTroupe",
@@ -6016,7 +6031,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 296
+			"id": 302
 		},
 		{
 			"setKey": "MarechausseeHunter",
@@ -6032,7 +6047,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 297
+			"id": 303
 		},
 		{
 			"setKey": "MarechausseeHunter",
@@ -6048,7 +6063,7 @@
 			],
 			"location": "Gaming",
 			"lock": true,
-			"id": 298
+			"id": 304
 		},
 		{
 			"setKey": "VermillionHereafter",
@@ -6064,7 +6079,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 299
+			"id": 305
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -6080,7 +6095,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 300
+			"id": 306
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -6096,7 +6111,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 301
+			"id": 307
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -6112,7 +6127,7 @@
 			],
 			"location": "Beidou",
 			"lock": true,
-			"id": 302
+			"id": 308
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -6128,7 +6143,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 303
+			"id": 309
 		},
 		{
 			"setKey": "ShimenawasReminiscence",
@@ -6144,7 +6159,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 304
+			"id": 310
 		},
 		{
 			"setKey": "HeartOfDepth",
@@ -6160,7 +6175,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 305
+			"id": 311
 		},
 		{
 			"setKey": "HeartOfDepth",
@@ -6176,7 +6191,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 306
+			"id": 312
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -6192,7 +6207,7 @@
 			],
 			"location": "Venti",
 			"lock": false,
-			"id": 307
+			"id": 313
 		},
 		{
 			"setKey": "BlizzardStrayer",
@@ -6208,7 +6223,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 308
+			"id": 314
 		},
 		{
 			"setKey": "TenacityOfTheMillelith",
@@ -6224,7 +6239,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 309
+			"id": 315
 		},
 		{
 			"setKey": "OceanHuedClam",
@@ -6240,7 +6255,7 @@
 			],
 			"location": "Yaoyao",
 			"lock": true,
-			"id": 310
+			"id": 316
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -6256,7 +6271,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 311
+			"id": 317
 		},
 		{
 			"setKey": "ObsidianCodex",
@@ -6271,8 +6286,8 @@
 				{ "key": "atk", "value": 18.0 }
 			],
 			"location": "",
-			"lock": false,
-			"id": 312
+			"lock": true,
+			"id": 318
 		},
 		{
 			"setKey": "UnfinishedReverie",
@@ -6288,7 +6303,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 313
+			"id": 319
 		},
 		{
 			"setKey": "GoldenTroupe",
@@ -6304,7 +6319,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 314
+			"id": 320
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -6320,7 +6335,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 315
+			"id": 321
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -6336,7 +6351,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 316
+			"id": 322
 		},
 		{
 			"setKey": "NoblesseOblige",
@@ -6352,7 +6367,7 @@
 			],
 			"location": "Chevreuse",
 			"lock": false,
-			"id": 317
+			"id": 323
 		},
 		{
 			"setKey": "GladiatorsFinale",
@@ -6367,8 +6382,8 @@
 				{ "key": "critRate_", "value": 3.1 }
 			],
 			"location": "",
-			"lock": false,
-			"id": 318
+			"lock": true,
+			"id": 324
 		},
 		{
 			"setKey": "GladiatorsFinale",
@@ -6384,7 +6399,23 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 319
+			"id": 325
+		},
+		{
+			"setKey": "ObsidianCodex",
+			"slotKey": "flower",
+			"rarity": 5,
+			"mainStatKey": "hp",
+			"level": 6,
+			"substats": [
+				{ "key": "atk_", "value": 4.1 },
+				{ "key": "def", "value": 21.0 },
+				{ "key": "critRate_", "value": 3.9 },
+				{ "key": "hp_", "value": 4.1 }
+			],
+			"location": "",
+			"lock": false,
+			"id": 326
 		},
 		{
 			"setKey": "MarechausseeHunter",
@@ -6400,7 +6431,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 320
+			"id": 327
 		},
 		{
 			"setKey": "MarechausseeHunter",
@@ -6416,7 +6447,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 321
+			"id": 328
 		},
 		{
 			"setKey": "VermillionHereafter",
@@ -6431,8 +6462,8 @@
 				{ "key": "def_", "value": 5.8 }
 			],
 			"location": "",
-			"lock": false,
-			"id": 322
+			"lock": true,
+			"id": 329
 		},
 		{
 			"setKey": "EmblemOfSeveredFate",
@@ -6448,7 +6479,7 @@
 			],
 			"location": "",
 			"lock": true,
-			"id": 323
+			"id": 330
 		},
 		{
 			"setKey": "ThunderingFury",
@@ -6464,7 +6495,7 @@
 			],
 			"location": "",
 			"lock": false,
-			"id": 324
+			"id": 331
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -6480,7 +6511,7 @@
 			],
 			"location": "ShikanoinHeizou",
 			"lock": false,
-			"id": 325
+			"id": 332
 		},
 		{
 			"setKey": "Berserker",
@@ -6495,7 +6526,7 @@
 			],
 			"location": "Yanfei",
 			"lock": false,
-			"id": 326
+			"id": 333
 		},
 		{
 			"setKey": "Berserker",
@@ -6510,7 +6541,7 @@
 			],
 			"location": "Yanfei",
 			"lock": false,
-			"id": 327
+			"id": 334
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -6525,8 +6556,8 @@
 				{ "key": "enerRech_", "value": 5.2 }
 			],
 			"location": "",
-			"lock": false,
-			"id": 328
+			"lock": true,
+			"id": 335
 		},
 		{
 			"setKey": "ViridescentVenerer",
@@ -6542,7 +6573,7 @@
 			],
 			"location": "Sucrose",
 			"lock": false,
-			"id": 329
+			"id": 336
 		}
 	],
 	"characters": [
@@ -6554,18 +6585,18 @@
 			"talent": { "auto": 10, "skill": 10, "burst": 10 }
 		},
 		{
-			"key": "Xingqiu",
-			"level": 81,
-			"constellation": 6,
-			"ascension": 6,
-			"talent": { "auto": 1, "skill": 7, "burst": 10 }
-		},
-		{
 			"key": "Xilonen",
 			"level": 80,
 			"constellation": 0,
 			"ascension": 6,
 			"talent": { "auto": 1, "skill": 10, "burst": 9 }
+		},
+		{
+			"key": "Xingqiu",
+			"level": 81,
+			"constellation": 6,
+			"ascension": 6,
+			"talent": { "auto": 1, "skill": 7, "burst": 10 }
 		},
 		{
 			"key": "Xiao",
@@ -6617,13 +6648,6 @@
 			"talent": { "auto": 1, "skill": 6, "burst": 9 }
 		},
 		{
-			"key": "KaedeharaKazuha",
-			"level": 90,
-			"constellation": 0,
-			"ascension": 6,
-			"talent": { "auto": 7, "skill": 9, "burst": 9 }
-		},
-		{
 			"key": "Jean",
 			"level": 90,
 			"constellation": 2,
@@ -6635,7 +6659,7 @@
 			"level": 90,
 			"constellation": 1,
 			"ascension": 6,
-			"talent": { "auto": 1, "skill": 10, "burst": 7 }
+			"talent": { "auto": 1, "skill": 10, "burst": 9 }
 		},
 		{
 			"key": "RaidenShogun",
@@ -6666,11 +6690,11 @@
 			"talent": { "auto": 1, "skill": 10, "burst": 10 }
 		},
 		{
-			"key": "Mavuika",
+			"key": "Arlecchino",
 			"level": 90,
-			"constellation": 0,
+			"constellation": 2,
 			"ascension": 6,
-			"talent": { "auto": 1, "skill": 8, "burst": 9 }
+			"talent": { "auto": 10, "skill": 8, "burst": 6 }
 		},
 		{
 			"key": "Diluc",
@@ -6698,7 +6722,7 @@
 			"level": 90,
 			"constellation": 6,
 			"ascension": 6,
-			"talent": { "auto": 1, "skill": 9, "burst": 1 }
+			"talent": { "auto": 1, "skill": 9, "burst": 3 }
 		},
 		{
 			"key": "Bennett",
@@ -6747,7 +6771,7 @@
 			"level": 80,
 			"constellation": 6,
 			"ascension": 6,
-			"talent": { "auto": 9, "skill": 5, "burst": 7 }
+			"talent": { "auto": 9, "skill": 5, "burst": 9 }
 		},
 		{
 			"key": "Kachina",
@@ -6822,9 +6846,9 @@
 		{
 			"key": "Gaming",
 			"level": 80,
-			"constellation": 4,
+			"constellation": 5,
 			"ascension": 5,
-			"talent": { "auto": 1, "skill": 7, "burst": 3 }
+			"talent": { "auto": 1, "skill": 8, "burst": 7 }
 		},
 		{
 			"key": "Thoma",
@@ -6833,490 +6857,5 @@
 			"ascension": 5,
 			"talent": { "auto": 1, "skill": 1, "burst": 8 }
 		}
-	],
-	"materials": {
-		"Mora": 52028075,
-		"HerosWit": 1064,
-		"AdventurersExperience": 2396,
-		"BlackCrystalHorn": 34,
-		"BlackBronzeHorn": 455,
-		"HeavyHorn": 2198,
-		"LeyLineSprout": 1,
-		"DeadLeyLineLeaves": 2,
-		"DeadLeyLineBranch": 11,
-		"ChaosCore": 1,
-		"ChaosCircuit": 6,
-		"ChaosDevice": 2,
-		"MistGrassWick": 21,
-		"MistGrass": 96,
-		"MistGrassPollen": 444,
-		"InspectorsSacrificialKnife": 15,
-		"AgentsSacrificialKnife": 51,
-		"HuntersSacrificialKnife": 183,
-		"FossilizedBoneShard": 6,
-		"SturdyBoneShard": 40,
-		"FragileBoneShard": 142,
-		"ChaosOculus": 1,
-		"ChaosAxis": 1,
-		"ChaosGear": 913,
-		"PolarizingPrism": 27,
-		"CrystalPrism": 107,
-		"DismalPrism": 411,
-		"ConcealedTalon": 0,
-		"ConcealedUnguis": 34,
-		"ConcealedClaw": 144,
-		"DeathlyStatuette": 4,
-		"GloomyStatuette": 6,
-		"RobustFungalNucleus": 0,
-		"DormantFungalNucleus": 1,
-		"InactivatedFungalNucleus": 445,
-		"ChaosBolt": 16,
-		"ChaosModule": 41,
-		"ChaosStorage": 188,
-		"RadiantPrism": 6,
-		"TurbidPrism": 35,
-		"DamagedPrism": 211,
-		"MarkedShell": 1,
-		"SturdyShell": 7,
-		"DesiccatedShell": 36,
-		"WanderersBloomingFlower": 14,
-		"TreasuredFlower": 28,
-		"AFlowerYetToBloom": 1114,
-		"NewbornTaintedHydroPhantasm": 13,
-		"ScoopOfTaintedWater": 63,
-		"DropOfTaintedWater": 290,
-		"AlienLifeCore": 11,
-		"ForeignSynapse": 2,
-		"RiftCore": 41151,
-		"OperativesConstancy": 1,
-		"OldOperativesPocketWatch": 145,
-		"LunarFin": 9,
-		"FeatheryFin": 2,
-		"SplinteredHilt": 1,
-		"RuinedHilt": 7,
-		"SigilOfAStridingWill": 14,
-		"LocusOfAClearWill": 65,
-		"ShardOfAShatteredWill": 251,
-		"IgnitedSeedOfLife": 6,
-		"IgnitedStone": 1,
-		"HeartOfTheSecretSource": 1,
-		"SheathOfTheSecretSource": 7,
-		"AxisOfTheSecretSource": 53,
-		"IllusoryLeafcoil": 8,
-		"BewilderingBroadleaf": 26,
-		"RefractiveBud": 105,
-		"SlimeConcentrate": 1,
-		"SlimeSecretions": 3,
-		"SlimeCondensate": 298,
-		"OminousMask": 1,
-		"StainedMask": 258,
-		"DamagedMask": 2858,
-		"ForbiddenCurseScroll": 25,
-		"SealedScroll": 109,
-		"DiviningScroll": 1609,
-		"WeatheredArrowhead": 11,
-		"SharpArrowhead": 75,
-		"FirmArrowhead": 489,
-		"LieutenantsInsignia": 43,
-		"SergeantsInsignia": 223,
-		"RecruitsInsignia": 1003,
-		"GoldenRavenInsignia": 40,
-		"SilverRavenInsignia": 297,
-		"TreasureHoarderInsignia": 1082,
-		"EnergyNectar": 16,
-		"ShimmeringNectar": 23,
-		"WhopperflowerNectar": 81,
-		"FamedHandguard": 1,
-		"KageuchiHandguard": 3,
-		"OldHandguard": 120,
-		"SpectralNucleus": 18,
-		"SpectralHusk": 61,
-		"CrystallineCystDust": 2,
-		"LuminescentPollen": 15,
-		"FungalSpores": 135,
-		"RichRedBrocade": 15,
-		"TrimmedRedSilk": 59,
-		"FadedRedSatin": 787,
-		"XenochromaticCrystal": 23,
-		"TransoceanicChunk": 93,
-		"TransoceanicPearl": 369,
-		"ArtificedDynamicGear": 14,
-		"MechanicalSpurGear": 51,
-		"MeshingGear": 784,
-		"SeasonedFang": 1,
-		"JuvenileFang": 232,
-		"WarriorsMetalWhistle": 6,
-		"SentrysWoodenWhistle": 49,
-		"DvalinsPlume": 5,
-		"DvalinsClaw": 7,
-		"DvalinsSigh": 11,
-		"TailOfBoreas": 21,
-		"RingOfBoreas": 13,
-		"SpiritLocketOfBoreas": 9,
-		"TuskOfMonocerosCaeli": 61,
-		"ShardOfAFoulLegacy": 52,
-		"ShadowOfTheWarrior": 44,
-		"DragonLordsCrown": 38,
-		"BloodjadeBranch": 23,
-		"GildedScale": 11,
-		"MoltenMoment": 13,
-		"HellfireButterfly": 19,
-		"AshenHeart": 22,
-		"MudraOfTheMaleficGeneral": 26,
-		"TearsOfTheCalamitousGod": 13,
-		"TheMeaningOfAeons": 28,
-		"PuppetStrings": 24,
-		"MirrorOfMushin": 27,
-		"DakasBell": 27,
-		"WorldspanFern": 18,
-		"PrimordialGreenbloom": 21,
-		"Everamber": 11,
-		"LightlessSilkString": 23,
-		"LightlessEyeOfTheMaelstrom": 23,
-		"FadingCandle": 19,
-		"SilkenFeather": 11,
-		"DenialAndJudgment": 20,
-		"TheCornerstoneOfStarsAndFlames": 8,
-		"ErodedHorn": 1,
-		"ErodedSunfire": 1,
-		"ErodedScaleFeather": 1,
-		"HoarfrostCore": 1,
-		"EverflameSeed": 5,
-		"CrystallineBloom": 9,
-		"MarionetteCore": 2,
-		"StormBeads": 2,
-		"DragonheirsFalseFin": 2,
-		"RunicFang": 20,
-		"MajesticHookedBeak": 3,
-		"PerpetualCaliber": 2,
-		"LightGuidingTetrahedron": 1,
-		"QuelledCreeper": 1,
-		"ArtificedSpareClockworkComponentCoppelia": 2,
-		"ArtificedSpareClockworkComponentCoppelius": 2,
-		"EmperorsResolution": 1,
-		"TourbillonDevice": 1,
-		"FontemerUnihorn": 1,
-		"WaterThatFailedToTranscend": 1,
-		"CloudseamScale": 2,
-		"FragmentOfAGoldenMelody": 2,
-		"MarkOfTheBindingBlessing": 6,
-		"OverripeFlamegranate": 7,
-		"GoldInscribedSecretSourceCore": 1,
-		"BrilliantDiamondGemstone": 6,
-		"AgnidusAgateSliver": 258,
-		"VarunadaLazuriteChunk": 15,
-		"VarunadaLazuriteFragment": 209,
-		"VarunadaLazuriteSliver": 475,
-		"NagadusEmeraldChunk": 9,
-		"NagadusEmeraldFragment": 47,
-		"NagadusEmeraldSliver": 203,
-		"VajradaAmethystChunk": 8,
-		"VajradaAmethystFragment": 114,
-		"VajradaAmethystSliver": 2119,
-		"VayudaTurquoiseFragment": 5,
-		"VayudaTurquoiseSliver": 7,
-		"ShivadaJadeGemstone": 6,
-		"ShivadaJadeFragment": 194,
-		"ShivadaJadeSliver": 464,
-		"PrithivaTopazChunk": 4,
-		"PrithivaTopazFragment": 27,
-		"PrithivaTopazSliver": 259,
-		"PhilosophiesOfFreedom": 7,
-		"GuideToFreedom": 40,
-		"TeachingsOfFreedom": 16,
-		"PhilosophiesOfResistance": 4,
-		"GuideToResistance": 19,
-		"TeachingsOfResistance": 27,
-		"PhilosophiesOfBallad": 14,
-		"GuideToBallad": 1,
-		"TeachingsOfBallad": 18,
-		"PhilosophiesOfProsperity": 1,
-		"GuideToProsperity": 0,
-		"TeachingsOfProsperity": 0,
-		"PhilosophiesOfDiligence": 7,
-		"GuideToDiligence": 1,
-		"TeachingsOfDiligence": 15,
-		"PhilosophiesOfGold": 11,
-		"GuideToGold": 1,
-		"TeachingsOfGold": 4,
-		"PhilosophiesOfTransience": 26,
-		"GuideToTransience": 20,
-		"TeachingsOfTransience": 19,
-		"PhilosophiesOfElegance": 36,
-		"GuideToElegance": 171,
-		"TeachingsOfElegance": 41,
-		"PhilosophiesOfLight": 12,
-		"GuideToLight": 0,
-		"TeachingsOfLight": 0,
-		"PhilosophiesOfAdmonition": 11,
-		"GuideToAdmonition": 30,
-		"TeachingsOfAdmonition": 0,
-		"PhilosophiesOfIngenuity": 21,
-		"GuideToIngenuity": 130,
-		"TeachingsOfIngenuity": 0,
-		"PhilosophiesOfPraxis": 23,
-		"GuideToPraxis": 111,
-		"TeachingsOfPraxis": 0,
-		"PhilosophiesOfEquity": 36,
-		"GuideToEquity": 103,
-		"TeachingsOfEquity": 0,
-		"PhilosophiesOfJustice": 2,
-		"GuideToJustice": 16,
-		"TeachingsOfJustice": 77,
-		"PhilosophiesOfOrder": 11,
-		"GuideToOrder": 1,
-		"PhilosophiesOfContention": 6,
-		"GuideToContention": 6,
-		"TeachingsOfContention": 2,
-		"PhilosophiesOfKindling": 16,
-		"GuideToKindling": 28,
-		"TeachingsOfKindling": 44,
-		"PhilosophiesOfConflict": 4,
-		"GuideToConflict": 90,
-		"TeachingsOfConflict": 96,
-		"CrownOfInsight": 24,
-		"FragmentOfDecarabiansEpic": 1,
-		"DebrisOfDecarabiansCity": 18,
-		"TileOfDecarabiansTower": 26,
-		"BorealWolfsCrackedTooth": 11,
-		"BorealWolfsMilkTooth": 2,
-		"DreamOfTheDandelionGladiator": 5,
-		"ShacklesOfTheDandelionGladiator": 1,
-		"ChainsOfTheDandelionGladiator": 151,
-		"RelicFromGuyun": 11,
-		"LustrousStoneFromGuyun": 26,
-		"LuminousSandsFromGuyun": 66,
-		"MistVeiledPrimoElixir": 1,
-		"MistVeiledGoldElixir": 10,
-		"MistVeiledMercuryElixir": 59,
-		"MistVeiledLeadElixir": 39,
-		"PieceOfAerosiderite": 7,
-		"GrainOfAerosiderite": 1,
-		"GoldenBranchOfADistantSea": 1,
-		"JadeBranchOfADistantSea": 1,
-		"CoralBranchOfADistantSea": 1,
-		"NarukamisAffection": 7,
-		"NarukamisJoy": 0,
-		"NarukamisWisdom": 91,
-		"MaskOfTheOneHorned": 5,
-		"MaskOfTheTigersBite": 0,
-		"MaskOfTheWickedLieutenant": 0,
-		"SilverTalismanOfTheForestDew": 2,
-		"IronTalismanOfTheForestDew": 0,
-		"CopperTalismanOfTheForestDew": 0,
-		"OasisGardensMourning": 1,
-		"OasisGardensKindness": 0,
-		"OasisGardensReminiscence": 0,
-		"DreamOfScorchingMight": 3,
-		"RemnantGlowOfScorchingMight": 0,
-		"EchoOfScorchingMight": 0,
-		"ChapterOfAnAncientChord": 1,
-		"FragmentOfAnAncientChord": 1,
-		"SpringOfPureSacredDewdrop": 1,
-		"SublimationOfPureSacredDewdrop": 492,
-		"DrossOfPureSacredDewdrop": 0,
-		"SilverGobletOfThePristineSea": 1,
-		"WineGobletOfThePristineSea": 1,
-		"BrokenGobletOfThePristineSea": 15,
-		"BlazingSacrificialHeartsHesitance": 0,
-		"BlazingSacrificialHeartsTerror": 0,
-		"DeliriousDemeanorOfTheSacredLord": 11,
-		"DeliriousDesolationOfTheSacredLord": 1,
-		"DeliriousDecadenceOfTheSacredLord": 19,
-		"NightWindsMysticRevelation": 1,
-		"NightWindsMysticConsideration": 13,
-		"NightWindsMysticPremonition": 5,
-		"NightWindsMysticAugury": 6,
-		"StrangeTooth": 3,
-		"NorthlanderSwordBillet": 4,
-		"NorthlanderBowBillet": 13,
-		"NorthlanderClaymoreBillet": 10,
-		"NorthlanderCatalystBillet": 9,
-		"NorthlanderPolearmBillet": 9,
-		"MidlanderSwordBillet": 2,
-		"MidlanderBowBillet": 2,
-		"MidlanderClaymoreBillet": 5,
-		"MidlanderCatalystBillet": 7,
-		"MidlanderPolearmBillet": 7,
-		"BorderlandSwordBillet": 1,
-		"BorderlandClaymoreBillet": 1,
-		"IronChunk": 4558,
-		"WhiteIronChunk": 4577,
-		"CrystalChunk": 3278,
-		"MagicalCrystalChunk": 125,
-		"Starsilver": 87,
-		"AmethystLump": 1,
-		"CondessenceCrystal": 218,
-		"Wolfhook": 79,
-		"Valberry": 39,
-		"Cecilia": 54,
-		"WindwheelAster": 337,
-		"PhilanemoMushroom": 36,
-		"SmallLampGrass": 39,
-		"CallaLily": 342,
-		"DandelionSeed": 5,
-		"JueyunChili": 75,
-		"NoctilucousJade": 165,
-		"SilkFlower": 182,
-		"GlazeLily": 69,
-		"Qingxin": 111,
-		"Starconch": 11,
-		"Violetgrass": 59,
-		"CorLapis": 10,
-		"ClearwaterJade": 10,
-		"Onikabuto": 74,
-		"SakuraBloom": 47,
-		"CrystalMarrow": 62,
-		"Dendrobium": 127,
-		"NakuWeed": 96,
-		"SeaGanoderma": 242,
-		"SangoPearl": 6,
-		"AmakumoFruit": 98,
-		"FluorescentFungus": 90,
-		"RukkhashavaMushrooms": 8,
-		"Padisarah": 109,
-		"NilotpalaLotus": 4,
-		"KalpalataLotus": 31,
-		"HennaBerry": 11,
-		"SandGreasePupa": 32,
-		"MourningFlower": 51,
-		"Trishiraite": 11,
-		"Scarab": 35,
-		"BerylConch": 81,
-		"RomaritimeFlower": 174,
-		"LumidouceBell": 16,
-		"RainbowRose": 28,
-		"Lumitoile": 52,
-		"LakelightLily": 1114,
-		"SubdetectionUnit": 47,
-		"SpringOfTheFirstDewdrop": 52,
-		"SprayfeatherGill": 73,
-		"BrilliantChrysanthemum": 1,
-		"QuenepaBerry": 1,
-		"SaurianClawSucculent": 76,
-		"GlowingHornshroom": 8,
-		"WitheringPurpurbloom": 1,
-		"Horsetail": 422,
-		"MistFlowerCorolla": 58,
-		"FlamingFlowerStamen": 132,
-		"ElectroCrystal": 54,
-		"ButterflyWings": 99,
-		"Frog": 11,
-		"LuminescentSpine": 40,
-		"LizardTail": 114,
-		"CrystalCore": 156,
-		"LoachPearl": 8,
-		"Viparyas": 43,
-		"PluieLotus": 165,
-		"Cacahuatl": 335,
-		"EmbercoreFlower": 577,
-		"Mushroom": 2132,
-		"SweetFlower": 1,
-		"Carrot": 1653,
-		"Radish": 1980,
-		"Snapdragon": 596,
-		"Mint": 2169,
-		"Wheat": 622,
-		"Cabbage": 591,
-		"Pinecone": 860,
-		"LotusHead": 373,
-		"Berry": 1670,
-		"RawMeat": 4970,
-		"BirdEgg": 1,
-		"Matsutake": 1259,
-		"Fowl": 2511,
-		"Crab": 1,
-		"Salt": 1126,
-		"Onion": 858,
-		"Pepper": 1384,
-		"Milk": 741,
-		"Tomato": 887,
-		"Potato": 575,
-		"Fish": 91,
-		"Tofu": 230,
-		"Almond": 168,
-		"BambooShoot": 43,
-		"Rice": 232,
-		"ShrimpMeat": 223,
-		"ChilledMeat": 26,
-		"EelMeat": 56,
-		"GlabrousBeans": 107,
-		"MysteriousMeat": 35,
-		"CoffeeBeans": 120,
-		"FermentedJuice": 100,
-		"Seagrass": 1263,
-		"LavenderMelon": 762,
-		"HarraFruit": 792,
-		"ZaytunPeach": 2,
-		"SumeruRose": 987,
-		"AjilenakhNut": 76,
-		"Marcotte": 563,
-		"Tidalga": 368,
-		"ChenyuAdeptea": 38,
-		"Grainfruit": 788,
-		"SpinelFruit": 619,
-		"CrabRoe": 19,
-		"Flour": 70,
-		"Cream": 60,
-		"SmokedFowl": 2,
-		"Butter": 40,
-		"Ham": 35,
-		"Sugar": 1,
-		"Cheese": 39,
-		"Bacon": 51,
-		"Sausage": 56,
-		"Spice": 62,
-		"BirchWood": 13151,
-		"CuihuaWood": 36,
-		"PineWood": 2,
-		"SandbearerWood": 27,
-		"BambooSegment": 55,
-		"FragrantCedarWood": 117,
-		"FirWood": 82,
-		"YumemiruWood": 13,
-		"MapleWood": 2,
-		"AraliaWood": 10,
-		"OtogiWood": 39,
-		"Brightwood": 1,
-		"KarmaphalaWood": 1,
-		"AdhigamaWood": 57,
-		"AthelWood": 15,
-		"MallowWood": 0,
-		"CypressWood": 18,
-		"AshenAratikuWood": 1,
-		"FlammabombWood": 1,
-		"Fabric": 11,
-		"RedDye": 130,
-		"YellowDye": 56,
-		"BlueDye": 49,
-		"FruitPasteBait": 49,
-		"RedrotBait": 76,
-		"FalseWormBait": 14,
-		"FakeFlyBait": 40,
-		"SugardewBait": 14,
-		"SourBait": 4,
-		"FlashingMaintenanceMekBait": 2,
-		"Medaka": 23,
-		"GlazeMedaka": 26,
-		"SweetFlowerMedaka": 43,
-		"AizenMedaka": 44,
-		"Dawncatcher": 8,
-		"Crystalfish": 6,
-		"LungedStickleback": 14,
-		"Betta": 14,
-		"VenomspineFish": 16,
-		"AkaiMaou": 7,
-		"Snowstrider": 2,
-		"GoldenKoi": 6,
-		"BrownShirakodai": 14,
-		"PurpleShirakodai": 15,
-		"MaintenanceMekPlatinumCollection": 5,
-		"MaintenanceMekSituationController": 11,
-		"MaintenanceMekWaterBodyCleaner": 5,
-		"MaintenanceMekInitialConfiguration": 15,
-		"StreamingAxeMarlin": 9,
-		"Pufferfish": 2,
-		"RaimeiAngelfish": 4,
-		"TeaColoredShirakodai": 18
-	}
+	]
 }
