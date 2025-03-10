@@ -17,6 +17,41 @@
 	}
 }
 
+@utility grid-areas-pyramid-sm {
+	grid-template-areas: 'a' 'b' 'c' 'd' 'e' 'f';
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+}
+
+@utility grid-areas-pyramid-md {
+	grid-template-areas: 'a b' 'c d' 'e f';
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+}
+
+@utility grid-areas-pyramid-lg {
+	grid-template-areas: '. . a a . .' '. b b c c .' 'd d e e f f';
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+}
+
+@utility grid-areas-footer-md {
+	grid-template-areas: 'b a c';
+	grid-template-columns: repeat(3, 1fr);
+}
+
+@utility grid-areas-footer-sm {
+	grid-template-areas: 'a a' 'b c';
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+
+@utility grid-areas-footer {
+	grid-template-areas: 'a' 'b' 'c';
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(3, 1fr);
+}
+
 @font-face {
 	font-family: 'icomoon';
 	src: url('/webfonts/stats.eot?dsl84y');

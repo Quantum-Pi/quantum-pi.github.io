@@ -17,7 +17,6 @@
 	},
 	"devDependencies": {
 		"@iconify/json": "^2.2.300",
-		"@savvywombat/tailwindcss-grid-areas": "^4.0.0",
 		"@skeletonlabs/skeleton": "^2.11.0",
 		"@skeletonlabs/tw-plugin": "^0.4.1",
 		"@sveltejs/adapter-auto": "^4.0.0",

@@ -19,7 +19,7 @@
 <div
 	class="grid grid-areas-footer sm:grid-areas-footer-sm md:grid-areas-footer-md p-24 gap-y-4 gap-x-12 text-white"
 >
-	<div class="grid-in-a flex flex-col items-center">
+	<div class="[grid-area:a] flex flex-col items-center">
 		{#if isEnhancedImage(pfp)}
 			<enhanced:img src={pfp} alt="pfp" class="rounded-full w-36 border-black border-4" />
 		{:else}
@@ -31,7 +31,7 @@
 			{hoursPlayed} hours played across {profile.gamesOwned} games
 		</div>
 	</div>
-	<div class="grid-in-b flex flex-col md:justify-center items-center gap-4">
+	<div class="[grid-area:b] flex flex-col md:justify-center items-center gap-4">
 		<div class="text-xl">Socials:</div>
 		<div class="grid grid-cols-3 grid-rows-2 gap-4 text-3xl text-white">
 			<a
@@ -66,7 +66,7 @@
 			</a>
 		</div>
 	</div>
-	<div class="grid-in-c flex flex-col md:justify-center items-center gap-4">
+	<div class="[grid-area:c] flex flex-col md:justify-center items-center gap-4">
 		<div class="text-xl">Games:</div>
 		<div class="grid grid-cols-3 grid-rows-2 gap-4 text-3xl text-white">
 			<a
