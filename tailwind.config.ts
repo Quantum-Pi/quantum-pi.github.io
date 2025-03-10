@@ -44,7 +44,7 @@ const config = {
 		skeleton({
 			themes: { preset: ['skeleton'] }
 		}),
-		require('@savvywombat/tailwindcss-grid-areas')
+		// require('@savvywombat/tailwindcss-grid-areas')
 	]
 } satisfies Config;
 
