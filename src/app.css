@@ -1,11 +1,4 @@
 @import "tailwindcss";
-@plugin "@savvywombat/tailwindcss-grid-areas";
-/* @tailwind base; */
-/* @tailwind components; */
-/* @tailwind utilities; */
-
-/* @import './scss/variables';
-@import './scss/stats'; */
 
 @layer components {
 	.filter-white {
