@@ -43,7 +43,7 @@
 					</div>
 					<div class="flex justify-end items-center">
 						<div style:--rarity={artifact.rarity} class="rarity mr-1"></div>
-						<div class="level-bubble text-end w-fit px-[2px] rounded-sm">+{artifact.level}</div>
+						<div class="level-bubble text-end w-fit px-[2px] rounded-xs">+{artifact.level}</div>
 					</div>
 				</div>
 			</div>

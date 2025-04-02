@@ -28,7 +28,7 @@
 
 {#await getResources() then resources}
 	<div style:--rarity={`var(--${rarity})`} class="text-white text-xs">
-		<div class="mini-artifact w-[100px] relative rounded-t-sm">
+		<div class="mini-artifact w-[100px] relative rounded-t-xs">
 			<enhanced:img
 				class="w-[100px]"
 				src={resources.icon}
@@ -36,13 +36,13 @@
 				alt={`con 0 icon`}
 			/>
 			<div
-				class="cv flex justify-center items-center text-white rounded-tl-sm absolute bottom-0 right-0 text-xs"
+				class="cv flex justify-center items-center text-white rounded-tl-xs absolute bottom-0 right-0 text-xs"
 			>
 				CV {artifact.cv}
 			</div>
 			{#if resources.characterIcon}
 				<div
-					class="character flex justify-center items-center text-white rounded-tl-sm absolute bottom-0 left-0 text-xs rounded-br-sm"
+					class="character flex justify-center items-center text-white rounded-tl-xs absolute bottom-0 left-0 text-xs rounded-br-xs"
 				>
 					<enhanced:img
 						class="w-[72px]"
@@ -53,7 +53,7 @@
 				</div>
 			{/if}
 		</div>
-		<div class="stats w-[100px] grid grid-cols-2 relative rounded-b-sm px-[1.5px]">
+		<div class="stats w-[100px] grid grid-cols-2 relative rounded-b-xs px-[1.5px]">
 			{#each artifact.substats as ss}
 				<div class="flex justify-between items-center">
 					<StatIcon stat={ss.key} />

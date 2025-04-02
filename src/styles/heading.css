@@ -1,0 +1,114 @@
+@utility h1 {
+	color: var(--heading-font-color);
+	font-family: var(--heading-font-family);
+	font-weight: normal;
+	font-style: var(--heading-font-style);
+	letter-spacing: var(--heading-letter-spacing);
+
+	font-size: var(--text-3xl);
+	line-height: var(--text-3xl--line-height);
+
+	@variant md {
+		font-size: var(--text-5xl);
+		line-height: var(--text-5xl--line-height);
+	}
+	@variant dark {
+		color: var(--heading-font-color-dark);
+	}
+}
+
+@utility h2 {
+	color: var(--heading-font-color);
+	font-family: var(--heading-font-family);
+	font-weight: normal;
+	font-style: var(--heading-font-style);
+	letter-spacing: var(--heading-letter-spacing);
+
+	font-size: var(--text-2xl);
+	line-height: var(--text-2xl--line-height);
+
+	@variant md {
+		font-size: var(--text-4xl);
+		line-height: var(--text-4xl--line-height);
+	}
+	@variant dark {
+		color: var(--heading-font-color-dark);
+	}
+}
+
+@utility h3 {
+	color: var(--heading-font-color);
+	font-family: var(--heading-font-family);
+	font-weight: normal;
+	font-style: var(--heading-font-style);
+	letter-spacing: var(--heading-letter-spacing);
+
+	font-size: var(--text-xl);
+	line-height: var(--text-xl--line-height);
+
+	@variant md {
+		font-size: var(--text-2xl);
+		line-height: var(--text-2xl--line-height);
+	}
+	@variant dark {
+		color: var(--heading-font-color-dark);
+	}
+}
+
+@utility h4 {
+	color: var(--heading-font-color);
+	font-family: var(--heading-font-family);
+	font-weight: normal;
+	font-style: var(--heading-font-style);
+	letter-spacing: var(--heading-letter-spacing);
+
+	font-size: var(--text-lg);
+	line-height: var(--text-lg--line-height);
+
+	@variant md {
+		font-size: var(--text-xl);
+		line-height: var(--text-xl--line-height);
+	}
+
+	@variant dark {
+		color: var(--heading-font-color-dark);
+	}
+}
+
+@utility h5 {
+	color: var(--heading-font-color);
+	font-family: var(--heading-font-family);
+	font-weight: normal;
+	font-style: var(--heading-font-style);
+	letter-spacing: var(--heading-letter-spacing);
+
+	font-size: var(--text-base);
+	line-height: var(--text-base--line-height);
+
+	@variant md {
+		font-size: var(--text-lg);
+		line-height: var(--text-lg--line-height);
+	}
+	@variant dark {
+		color: var(--heading-font-color-dark);
+	}
+}
+
+@utility h6 {
+	color: var(--heading-font-color);
+	font-family: var(--heading-font-family);
+	font-weight: normal;
+	font-style: var(--heading-font-style);
+	letter-spacing: var(--heading-letter-spacing);
+
+	font-size: var(--text-sm);
+	line-height: var(--text-sm--line-height);
+
+	@variant md {
+		font-size: var(--text-base);
+		line-height: var(--text-base--line-height);
+	}
+	@variant dark {
+		color: var(--heading-font-color-dark);
+	}
+}

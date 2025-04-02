@@ -1,13 +1,25 @@
 @import "tailwindcss";
 
-@layer components {
-	.filter-white {
-		filter: brightness(0) invert(1);
-	}
+@import '@skeletonlabs/skeleton';
+@import '@skeletonlabs/skeleton/optional/presets';
+@import '@skeletonlabs/skeleton/themes/cerberus';
+@source '../node_modules/@skeletonlabs/skeleton-svelte/dist';
 
-	.filter-none {
-		filter: none;
-	}
+@import "./styles/heading.css";
+
+
+
+@theme {
+	--breakpoint-4k: 159rem;
+}
+
+
+@utility filter-white {
+	filter: brightness(0) invert(1);
+}
+
+@utility filter-none {
+	filter: none;
 }
 
 @utility grid-areas-pyramid-sm {

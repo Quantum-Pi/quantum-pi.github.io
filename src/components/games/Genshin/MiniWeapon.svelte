@@ -23,7 +23,7 @@
 		})`}
 		class="text-white text-xs"
 	>
-		<div class="mini-weapon w-[72px] relative rounded-t-sm">
+		<div class="mini-weapon w-[72px] relative rounded-t-xs">
 			<enhanced:img
 				class="w-[72px]"
 				src={resources.icon}
@@ -32,7 +32,7 @@
 			/>
 			{#if resources.characterIcon}
 				<div
-					class="character flex justify-center items-center text-white rounded-tl-sm absolute bottom-0 right-0 text-xs rounded-br-sm"
+					class="character flex justify-center items-center text-white rounded-tl-xs absolute bottom-0 right-0 text-xs rounded-br-xs"
 				>
 					<enhanced:img
 						class="w-[72px]"
@@ -44,17 +44,17 @@
 			{/if}
 
 			<!-- <div
-				class="refinement flex justify-center items-center text-white rounded-tl-sm absolute bottom-0 right-0 text-xs rounded-br-sm"
+				class="refinement flex justify-center items-center text-white rounded-tl-xs absolute bottom-0 right-0 text-xs rounded-br-xs"
 			>
 				R{weapon.refinement}
 			</div>
 			<div
-				class="level flex justify-center items-center text-white rounded-tl-sm absolute bottom-0 left-0 text-xs rounded-bl-sm"
+				class="level flex justify-center items-center text-white rounded-tl-xs absolute bottom-0 left-0 text-xs rounded-bl-xs"
 			>
 				L{weapon.level}
 			</div> -->
 		</div>
-		<div class="stats w-[72px] flex justify-between relative rounded-b-sm px-[1.5px]">
+		<div class="stats w-[72px] flex justify-between relative rounded-b-xs px-[1.5px]">
 			<span>L{weapon.level}</span>
 			<span>R{weapon.refinement}</span>
 		</div>
