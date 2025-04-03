@@ -44,26 +44,26 @@
 	.mini-character {
 		background: var(--element);
 
-		& picture {
+		& :global(picture) {
 			filter: drop-shadow(3px 3px 3px #222);
 		}
 	}
 
 	.stats {
 		background: rgba(0, 0, 0, 0.7);
-	}
 
-	.stats::before {
-		content: '';
-		position: absolute;
-		top: 0;
-		left: 0;
-		background: var(--element);
-		width: 100%;
-		height: 100%;
-		z-index: -10;
-		border-bottom-left-radius: 0.125rem;
-		border-bottom-right-radius: 0.125rem;
+		&::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: var(--element);
+			width: 100%;
+			height: 100%;
+			z-index: -10;
+			border-bottom-left-radius: 0.125rem;
+			border-bottom-right-radius: 0.125rem;
+		}
 	}
 
 	.constellation {
@@ -72,9 +72,9 @@
 		height: 21px;
 	}
 
-	.level {
+	/* .level {
 		background: rgba(0, 0, 0, 0.8);
 		width: 21px;
 		height: 21px;
-	}
+	} */
 </style>

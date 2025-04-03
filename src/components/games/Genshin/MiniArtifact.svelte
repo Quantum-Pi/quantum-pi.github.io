@@ -87,7 +87,7 @@
 			border-bottom: none;
 		}
 
-		& picture {
+		& :global(picture) {
 			filter: drop-shadow(3px 3px 3px #222);
 		}
 	}

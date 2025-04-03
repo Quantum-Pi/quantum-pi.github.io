@@ -77,7 +77,7 @@
 			background: var(--rarity);
 		}
 
-		& picture {
+		& :global(picture) {
 			filter: drop-shadow(3px 3px 3px #222);
 		}
 	}

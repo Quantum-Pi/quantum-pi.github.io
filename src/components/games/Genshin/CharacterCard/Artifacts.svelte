@@ -81,16 +81,8 @@
 		min-width: var(--artifact-height);
 		height: var(--artifact-height);
 
-		&__info {
-			row-gap: calc(16px * calc(var(--scale) - 1));
-
-			& i {
-				font-size: calc(14px * calc(var(--scale) / 1.15));
-				line-height: calc(20px * calc(var(--scale) / 2));
-			}
-		}
 	}
-
+	
 	.level-bubble {
 		background: rgba(0, 0, 0, 0.6);
 		font-size: calc(10px * calc(var(--scale) / 1.25));

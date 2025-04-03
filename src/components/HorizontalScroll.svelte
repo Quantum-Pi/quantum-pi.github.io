@@ -103,25 +103,30 @@
 </div>
 
 <style>
-	:global(#h-scroll-container picture) {
-		display: flex;
-		width: 100%;
-		height: 100%;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
+	:global {
+		#h-scroll-container {
+			& picture {
+				display: flex;
+				width: 100%;
+				height: 100%;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
 
-	:global(#h-scroll-container picture.hidden) {
-		display: none;
-	}
-
-	:global(.fadein) {
-		animation: slide-in-up 1s forwards;
-	}
-
-	:global(.fadeout) {
-		animation: slide-out-down 1s forwards;
+				&.hidden {
+					display: none;
+				}
+			}
+			
+		}
+	
+		.fadein {
+			animation: slide-in-up 1s forwards;
+		}
+	
+		.fadeout {
+			animation: slide-out-down 1s forwards;
+		}
 	}
 
 	@keyframes slide-in-up {

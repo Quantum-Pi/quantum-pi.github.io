@@ -96,7 +96,7 @@
 		}
 	}
 
-	.background img {
+	:global(.background img) {
 		position: relative;
 		object-fit: cover;
 		width: 100vw;

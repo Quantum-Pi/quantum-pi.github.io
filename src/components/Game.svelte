@@ -19,10 +19,13 @@
 		nonSteam?: false;
 	};
 
-	type NonSteamGame = Omit<SteamGame, 'appid' | 'achievements' | 'icon_url' | 'last_played' | 'nonSteam'> & {
+	type NonSteamGame = Omit<
+		SteamGame,
+		'appid' | 'achievements' | 'icon_url' | 'last_played' | 'nonSteam'
+	> & {
 		nonSteam: true;
 		appid: string;
-		playtime_recorded?: Date;
+		playtime_recorded?: number;
 		last_played?: number;
 		achievements?: undefined;
 		icon_url?: undefined;
@@ -65,7 +68,7 @@
 						2 weeks: {(game.playtime_2weeks / 60).toFixed(1)}h <br />
 					{/if}
 					{show2Weeks ? 'total: ' : ''}
-					{(game.playtime / 60).toFixed(1)}h <span class="text-sm italic">{game.nonSteam && game.playtime_recorded ? ` as of ${new Date(game.playtime_recorded).toLocaleDateString('en-US')}`: ''}</span>
+					{(game.playtime / 60).toFixed(1)}h <!-- <span class="text-sm italic">{game.nonSteam && game.playtime_recorded ? ` as of ${new Date(game.playtime_recorded).toLocaleDateString('en-US')}`: ''}</span> -->
 				</div>
 			</div>
 			<div>
@@ -104,6 +107,10 @@
 		</div>
 		{#if game.last_played}
 			<div>Last played {new Date(game.last_played * 1000).toLocaleDateString('en-US')}</div>
+		{:else if game.nonSteam && game.playtime_recorded}
+			<div>
+				Playtime recorded {new Date(game.playtime_recorded * 1000).toLocaleDateString('en-US')}
+			</div>
 		{/if}
 	</footer>
 </a>
@@ -116,4 +123,13 @@
 	.game-icon > img {
 		mix-blend-mode: lighten;
 	}
+
+	.card-hover {
+		transition: transform 0.2s ease-in-out;
+		
+		&:hover {
+			transform: scale(1.02);
+		}
+	}
+
 </style>

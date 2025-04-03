@@ -152,12 +152,12 @@
 
 	.bg {
 		z-index: -1;
-		& {
-			.card-bg {
-				height: calc(var(--scale) * var(--height));
-				width: 100%;
-			}
+
+		& .card-bg {
+			height: calc(var(--scale) * var(--height));
+			width: 100%;
 		}
+		
 		&::before {
 		content: '';
 		position: absolute;
