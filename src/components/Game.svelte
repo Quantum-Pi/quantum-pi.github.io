@@ -2,7 +2,7 @@
 	import { getGameHero, getGameIcon } from '$lib/cache';
 	import { isEnhancedImage } from '$lib';
 
-	type Game = {
+	type SteamGame = {
 		appid: number;
 		name: string;
 		playtime: number;
@@ -16,7 +16,19 @@
 			description: string;
 			percent: number;
 		}[];
+		nonSteam?: false;
 	};
+
+	type NonSteamGame = Omit<SteamGame, 'appid' | 'achievements' | 'icon_url' | 'last_played' | 'nonSteam'> & {
+		nonSteam: true;
+		appid: string;
+		playtime_recorded?: Date;
+		last_played?: number;
+		achievements?: undefined;
+		icon_url?: undefined;
+	};
+
+	type Game = SteamGame | NonSteamGame;
 
 	interface Props {
 		game: Game;
@@ -53,7 +65,7 @@
 						2 weeks: {(game.playtime_2weeks / 60).toFixed(1)}h <br />
 					{/if}
 					{show2Weeks ? 'total: ' : ''}
-					{(game.playtime / 60).toFixed(1)}h
+					{(game.playtime / 60).toFixed(1)}h <span class="text-sm italic">{game.nonSteam && game.playtime_recorded ? ` as of ${new Date(game.playtime_recorded).toLocaleDateString('en-US')}`: ''}</span>
 				</div>
 			</div>
 			<div>
@@ -90,7 +102,9 @@
 				<img src={iconImg} alt={`${game.name} icon`} class="w-[32px]" />
 			{/if}
 		</div>
-		<div>Last played {new Date(game.last_played * 1000).toLocaleDateString('en-US')}</div>
+		{#if game.last_played}
+			<div>Last played {new Date(game.last_played * 1000).toLocaleDateString('en-US')}</div>
+		{/if}
 	</footer>
 </a>
 

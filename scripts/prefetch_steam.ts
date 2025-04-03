@@ -1,16 +1,19 @@
 import { profile } from '../data/steam_raw';
 import { existsSync, writeFileSync } from 'fs';
 import { downloadImage, hash } from './lib';
+import { Game, nonSteamGames } from '../data/non_steam';
 
 /**=====================*\
 |     Game Resources     |
 \=======================*/
 
-const heroImgs: { appId: number; path: string; hash: string }[] = [];
-const iconImgs: { appId: number; path: string; hash: string }[] = [];
+const heroImgs: { appId: number | string; path: string; hash: string }[] = [];
+const iconImgs: { appId: number | string; path: string; hash: string }[] = [];
+
+let games: Game[] = [...profile.games, ...nonSteamGames]
 
 const gamePromises = await Promise.all(
-	profile.games.map((game) => {
+	games.map((game) => {
 		if (game.playtime > 0) {
 			const hero_url = `https://cdn.cloudflare.steamstatic.com/steam/apps/${game.appid}/header.jpg`;
 			const hero_path = `src/assets/games/${game.appid}.jpg`;
@@ -81,10 +84,10 @@ const heroImports = `${heroImgs
 	.join('\n')}
 
 const gameHeroDict: Record<string, Picture> = {
-${heroImgs.map((game) => `\t[${game.appId}]: ${game.hash}`).join(',\n')}
+${heroImgs.map((game) => typeof(game.appId) === "number" ? `\t[${game.appId}]: ${game.hash}` : `\t"${game.appId}": ${game.hash}`).join(',\n')}
 };
 
-const getGameHero = (appId: number) => {
+const getGameHero = (appId: number | string) => {
 	if (gameHeroDict[appId]) {
 		return gameHeroDict[appId]
 	}
@@ -100,10 +103,10 @@ const iconImports = `${iconImgs
 	.join('\n')}
 
 const gameIconDict: Record<string, Picture> = {
-${iconImgs.map((game) => `\t[${game.appId}]: ${game.hash}`).join(',\n')}
+${iconImgs.map((game) => typeof(game.appId) === "number" ? `\t[${game.appId}]: ${game.hash}` : `\t"${game.appId}": ${game.hash}`).join(',\n')}
 };
 
-const getGameIcon = (appId: number, icon_url: string) => {
+const getGameIcon = (appId: number | string, icon_url: string | undefined) => {
 	if (gameIconDict[appId]) {
 		return gameIconDict[appId]
 	}
