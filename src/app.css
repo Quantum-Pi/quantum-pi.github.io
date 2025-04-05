@@ -1,0 +1,159 @@
+@import "tailwindcss";
+
+@import '@skeletonlabs/skeleton';
+@import '@skeletonlabs/skeleton/optional/presets';
+@import '@skeletonlabs/skeleton/themes/cerberus';
+@source '../node_modules/@skeletonlabs/skeleton-svelte/dist';
+
+@import "./styles/heading.css";
+
+
+
+@theme {
+	--breakpoint-4k: 159rem;
+}
+
+
+@utility filter-white {
+	filter: brightness(0) invert(1);
+}
+
+@utility filter-none {
+	filter: none;
+}
+
+@utility grid-areas-pyramid-sm {
+	grid-template-areas: 'a' 'b' 'c' 'd' 'e' 'f';
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+}
+
+@utility grid-areas-pyramid-md {
+	grid-template-areas: 'a b' 'c d' 'e f';
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+}
+
+@utility grid-areas-pyramid-lg {
+	grid-template-areas: '. . a a . .' '. b b c c .' 'd d e e f f';
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+}
+
+@utility grid-areas-footer-md {
+	grid-template-areas: 'b a c';
+	grid-template-columns: repeat(3, 1fr);
+}
+
+@utility grid-areas-footer-sm {
+	grid-template-areas: 'a a' 'b c';
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+
+@utility grid-areas-footer {
+	grid-template-areas: 'a' 'b' 'c';
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(3, 1fr);
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src: url('/webfonts/stats.eot?dsl84y');
+	src: url('/webfonts/stats.eot?dsl84y#iefix') format('embedded-opentype'),
+		url('/webfonts/stats.ttf?dsl84y') format('truetype'),
+		url('/webfonts/stats.woff?dsl84y') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+
+[class^='icon-'],
+[class*=' icon-'] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-anemoDamageBonus:before,
+.icon-anemo_dmg_:before {
+	content: '\e900';
+}
+.icon-atk:before {
+	content: '\e901';
+}
+.icon-atk_:before {
+	content: '\e902';
+}
+.icon-critDamage:before,
+.icon-critDMG_:before {
+	content: '\e903';
+}
+.icon-critRate:before,
+.icon-critRate_:before {
+	content: '\e905';
+}
+.icon-cryoDamageBonus:before,
+.icon-cryo_dmg_:before {
+	content: '\e906';
+}
+.icon-def:before {
+	content: '\e907';
+}
+.icon-def_:before {
+	content: '\e908';
+}
+.icon-dendroDamageBonus:before,
+.icon-dendro_dmg_:before {
+	content: '\e909';
+}
+.icon-electroDamageBonus:before,
+.icon-electro_dmg_:before {
+	content: '\e90a';
+}
+.icon-elementalMastery:before,
+.icon-eleMas:before {
+	content: '\e90b';
+}
+.icon-energyRecharge:before,
+.icon-enerRech_:before {
+	content: '\e90c';
+}
+.icon-geoDamageBonus:before,
+.icon-geo_dmg_:before {
+	content: '\e90e';
+}
+.icon-healingBonus:before,
+.icon-heal_:before {
+	content: '\e90f';
+}
+.icon-maxHp:before,
+.icon-hp:before {
+	content: '\e910';
+}
+.icon-hp_:before {
+	content: '\e912';
+}
+.icon-hydroDamageBonus:before,
+.icon-hydro_dmg_:before {
+	content: '\e915';
+}
+.icon-physicalDamageBonus:before,
+.icon-physical_dmg_:before {
+	content: '\e916';
+}
+.icon-pyroDamageBonus:before,
+.icon-pyro_dmg_:before {
+	content: '\e917';
+}
+

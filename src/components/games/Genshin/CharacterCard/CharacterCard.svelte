@@ -83,22 +83,26 @@
 	});
 </script>
 
-<div
-	style:--element={`var(--${character.element ?? 'Pyro'})`}
-	class="character-card flex justify-start md:justify-center overflow-x-scroll overflow-y-hidden"
->
-	<div style:--width={'975px'} style:--height={'406px'} class="flex relative">
-		{#await getResources() then resources}
-			<Character {character} resources={resources.character} />
-			<WeaponStats {character} resources={resources.weapon} />
-			<Artifacts {character} resources={resources.artifact} />
-		{/await}
-		<div class="bg absolute top-0 left-0 z-0 gradient">
-			<enhanced:img
-				src={elementBGs[character.element ?? 'Hydro']}
-				sizes="(min-width: 1280px) 1280px"
-				alt={`Elemental background`}
-			/>
+<div class="character-card-container">
+
+	<div
+		style:--element={`var(--${character.element ?? 'Pyro'})`}
+		class="character-card flex justify-start md:justify-center overflow-x-auto overflow-y-hidden"
+	>
+		<div style:--width={'975px'} style:--height={'406px'} class="flex relative">
+			{#await getResources() then resources}
+				<Character {character} resources={resources.character} />
+				<WeaponStats {character} resources={resources.weapon} />
+				<Artifacts {character} resources={resources.artifact} />
+			{/await}
+			<div class="bg absolute top-0 left-0 gradient">
+				<enhanced:img
+					class={'card-bg'}
+					src={elementBGs[character.element ?? 'Hydro']}
+					sizes="(min-width: 1280px) 1280px"
+					alt={`Elemental background`}
+				/>
+			</div>
 		</div>
 	</div>
 </div>
@@ -146,12 +150,15 @@
 		}
 	}
 
-	.bg img {
-		height: calc(var(--scale) * var(--height));
-		width: 100%;
-	}
+	.bg {
+		z-index: -1;
 
-	.bg::before {
+		& .card-bg {
+			height: calc(var(--scale) * var(--height));
+			width: 100%;
+		}
+		
+		&::before {
 		content: '';
 		position: absolute;
 		z-index: 20;
@@ -160,13 +167,13 @@
 		height: 100%;
 		background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25));
 	}
+	}
 
-	.character-card div {
+	.character-card > div {
 		border: 1px solid var(--element);
 		text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 		min-width: calc(var(--scale) * var(--width));
 		height: calc(var(--scale) * var(--height));
 		font-size: calc(16px * var(--scale));
-		/* line-height: 1.2; */
 	}
 </style>

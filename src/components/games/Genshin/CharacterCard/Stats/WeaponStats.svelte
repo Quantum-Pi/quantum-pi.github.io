@@ -103,20 +103,21 @@
 	.weapon-img {
 		width: var(--img-size);
 		position: relative;
-	}
-	.weapon-img::after {
-		content: '';
-		--star-width: calc(9px * var(--scale));
-		--width: calc(var(--star-width) * var(--weapon-rarity));
-		background-image: url(/star.svg);
-		display: block;
-		position: absolute;
-		top: var(--img-size);
-		left: calc(32px * var(--scale));
-		width: var(--width);
-		height: var(--star-width);
-		transform: translate(-50%, -50%);
-		z-index: 10;
+
+		&::after {
+			content: '';
+			--star-width: calc(9px * var(--scale));
+			--width: calc(var(--star-width) * var(--weapon-rarity));
+			background-image: url(/star.svg);
+			display: block;
+			position: absolute;
+			top: var(--img-size);
+			left: calc(32px * var(--scale));
+			width: var(--width);
+			height: var(--star-width);
+			transform: translate(-50%, -50%);
+			z-index: 10;
+		}
 	}
 
 	.stats {

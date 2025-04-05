@@ -7,6 +7,7 @@
 	import RecentGames from '../components/section/RecentGames.svelte';
 	import GameSelector from '../components/games/GameSelector.svelte';
 	import GameSelectorCasual from '../components/games/GameSelectorCasual.svelte';
+	import PreviewImageContainer from '../components/PreviewImageContainer.svelte';
 </script>
 
 <Hero />
@@ -35,6 +36,7 @@
 		<Footer />
 	</div>
 </div>
+<PreviewImageContainer />
 
 <style>
 	#content {

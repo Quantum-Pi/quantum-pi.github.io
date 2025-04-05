@@ -90,7 +90,7 @@
 		line-height: normal;
 	}
 
-	picture {
+	:global(picture) {
 		&:has(:global(> .skill.locked)) {
 			position: relative;
 

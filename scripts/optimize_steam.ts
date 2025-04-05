@@ -1,11 +1,13 @@
 import { writeFileSync } from 'fs';
-import { profile } from '../data/steam_raw';
+import { Profile, profile } from '../data/steam_raw';
+import { Game, nonSteamGames } from '../data/non_steam';
 
 const blacklist = [
 	993090 // Lossless scaling
 ];
 
-const games = profile.games.filter((game) => !blacklist.includes(game.appid));
+let games: Game[] = profile.games.filter((game) => !blacklist.includes(game.appid));
+games = [...games, ...nonSteamGames];
 
 // Achievements.svelte
 const gamesWithAchievements = games.filter(
@@ -31,7 +33,7 @@ const recentGames = games
 const friends = profile.friends.sort((a, b) => a.friend_since - b.friend_since);
 
 // Footer
-const hoursPlayed = profile.games.reduce((prev, { playtime }) => prev + playtime, 0) / 60;
+const hoursPlayed = games.reduce((prev, { playtime }) => prev + playtime, 0) / 60;
 
 const ts = `
 const profile = {
@@ -41,7 +43,7 @@ const profile = {
     "steamid": "${profile.steamid}",
     "username": "${profile.username}",
     "hoursPlayed": ${hoursPlayed},
-    "gamesOwned": ${profile.games.length},
+    "gamesOwned": ${games.length},
 };
 const perfectGames = ${JSON.stringify(perfectGames)};
 const mostPlayed = ${JSON.stringify(mostPlayed)};

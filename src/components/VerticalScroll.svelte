@@ -112,25 +112,27 @@
 </div>
 
 <style>
-	:global(.scroll-container > *) {
-		display: flex;
-		width: 100%;
-		height: 100%;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
+	:global {
+		.scroll-container > * {
+			display: flex;
+			width: 100%;
+			height: 100%;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
 
-	:global(.scroll-container > *.hidden) {
-		display: none;
-	}
+			&.hidden {
+				display: none;
+			}
+		}
 
-	:global(.fadein) {
-		animation: slide-in-up 1s forwards;
-	}
+		.fadein {
+			animation: slide-in-up 1s forwards;
+		}
 
-	:global(.fadeout) {
-		animation: slide-out-down 1s forwards;
+		.fadeout {
+			animation: slide-out-down 1s forwards;
+		}
 	}
 
 	@keyframes slide-in-up {

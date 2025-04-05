@@ -28,32 +28,35 @@
 </div>
 
 <style>
-	.background img {
-		position: relative;
-		object-fit: cover;
-		width: 100vw;
-		height: 102vh;
+	.background {
+		& :global(img) {
+			position: relative;
+			object-fit: cover;
+			width: 100vw;
+			height: 102vh;
+		}
+		
+		&::after {
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			background: linear-gradient(
+					90deg,
+					rgba(0, 0, 0, 1) 0%,
+					rgba(0, 0, 0, 0) 10%,
+					rgba(0, 0, 0, 0) 90%,
+					rgba(0, 0, 0, 1) 100%
+				),
+				linear-gradient(
+					0deg,
+					rgba(0, 0, 0, 1) 0%,
+					rgba(0, 0, 0, 0) 20%,
+					rgba(0, 0, 0, 0) 80%,
+					rgba(0, 0, 0, 1) 100%
+				);
+		}
 	}
 
-	.background::after {
-		content: '';
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		background: linear-gradient(
-				90deg,
-				rgba(0, 0, 0, 1) 0%,
-				rgba(0, 0, 0, 0) 10%,
-				rgba(0, 0, 0, 0) 90%,
-				rgba(0, 0, 0, 1) 100%
-			),
-			linear-gradient(
-				0deg,
-				rgba(0, 0, 0, 1) 0%,
-				rgba(0, 0, 0, 0) 20%,
-				rgba(0, 0, 0, 0) 80%,
-				rgba(0, 0, 0, 1) 100%
-			);
-	}
 </style>

@@ -67,7 +67,7 @@
 		row-gap: calc(16px * calc(var(--scale) - 1));
 	}
 
-	picture:has(:global(> #splash)) {
+	:global(picture:has(> #splash)) {
 		position: absolute;
 		top: 0;
 		left: 0;
