@@ -1,5 +1,5 @@
 <script lang="ts">
-	import BGDesktop from '../../../assets/bg-er.png?enhanced&w=3840;2560;1800&blur=3&effort=max&fit=cover&format=webp';
+	import BGDesktop from '../../../assets/bg-sdv.png?enhanced&w=3840;2560;1800&blur=3&effort=max&fit=cover&format=webp';
 	import BGMobile from '../../../assets/bg-er-mobile.png?enhanced&w=1600;1280;640&blur=1.25&effort=max&fit=cover&format=webp';
 
 	import FarmDay from '../../../assets/sdv/farm_day.jpeg?enhanced&w=3840;2560;1800&effort=max&fit=cover&format=webp';
