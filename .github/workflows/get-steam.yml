@@ -58,8 +58,10 @@ jobs:
           echo "${{ steps.steam.outputs.json }}" > data/steam_raw.ts
           # echo "${{ steps.genshin.outputs.json }}" > data/genshin_raw.ts
           pnpm format:data
-          pnpm run prefetch
-          pnpm run aggregate
+          # pnpm run prefetch
+          tsx scripts/prefetch_steam.ts
+          # pnpm run aggregate
+          tsx scripts/optimize_steam.ts
 
           git config --global user.email "no-reply@github.com"
           git config --global user.name "GitHub Actions"
