@@ -20,7 +20,7 @@
 	<div class="info absolute z-10 pl-4 pt-3 text-white flex flex-col">
 		<span>{character.key}</span>
 		<span>Lv. {character.level}</span>
-		<span>Fr. TODO</span>
+		<!-- <span>Fr. TODO</span> -->
 		<span>Top {ranking}%</span>
 	</div>
 	<div class="flex flex-col gap-y-3 absolute z-10 pl-4 pb-4 top-full -translate-y-full">
@@ -55,7 +55,7 @@
 	</div>
 	<enhanced:img
 		id="splash"
-		class="w-full h-full absolute object-cover scale-150"
+		class="w-full h-full absolute object-cover scale-125 -translate-y-2"
 		src={resources.splashImage}
 		sizes="(min-width: 1024px) 1024px"
 		alt={`con 0 icon`}

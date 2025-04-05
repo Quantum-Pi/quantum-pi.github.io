@@ -91,7 +91,7 @@
 
 	.artifact-img {
 		mask-image: linear-gradient(90deg, white 0%, white 15%, transparent 100%);
-		transform: scale(1.75) translateX(-10%);
+		/* transform: scale(1.75) translateX(-10%); */
 		width: var(--artifact-height);
 		height: var(--artifact-height);
 	}

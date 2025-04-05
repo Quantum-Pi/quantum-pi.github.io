@@ -12,13 +12,13 @@
 </script>
 
 {#if valueNum && valueNum > 0}
-	<span class="mb-2"
+	<span class="mb-2 flex items-center"
 		><i
-			class={`${icon} align-middle text-sm`}
+			class={`${icon} align-middle text-md mr-2 mt-1`}
 			style={`color: ${isEleDmgBonus ? 'var(--element)' : 'white'}`}
 		>
 			<span class="path1"></span><span class="path2"></span>
-		</i>{name}</span
+		</i><span>{name.replace('DMG Bonus', 'Bonus')}</span></span
 	>
 	<span class="ml-3">{value}</span>
 {/if}

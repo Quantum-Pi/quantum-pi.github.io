@@ -74,7 +74,7 @@
 		</div>
 		<div class="character-grid w-[90%] sm:w-[95%] h-full grid gap-y-8 grid-cols-1">
 			{#each characters as c}
-				{#if c.key === 'Yelan' || c.key === 'Arlecchino' || c.key === 'Xiao' || c.key === 'Noelle'}
+				{#if c.key === 'Yelan' || c.key === 'Arlecchino' || c.key === 'Xiao' || c.key === 'Furina'}
 					<CharacterCard character={c} />
 				{/if}
 			{/each}

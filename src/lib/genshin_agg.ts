@@ -83,6 +83,83 @@ const elementToBuildStatKey: Record<Element, BuildStatKey> = {
 
 const characters: GenshinCharacter[] = [
 	{
+		key: 'Mavuika',
+		level: 90,
+		constellation: 0,
+		ascension: 6,
+		talent: { auto: 1, skill: 8, burst: 9 },
+		element: 'Pyro',
+		stars: 5,
+		weapon: { key: 'MailedFlower', level: 90, ascension: 6, refinement: 5 },
+		artifacts: [
+			{
+				setKey: 'ObsidianCodex',
+				slotKey: 'flower',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'hp',
+				substats: [
+					{ key: 'atk_', value: 9.3 },
+					{ key: 'critRate_', value: 10.5 },
+					{ key: 'def_', value: 12.4 },
+					{ key: 'critDMG_', value: 5.4 }
+				]
+			},
+			{
+				setKey: 'ObsidianCodex',
+				slotKey: 'plume',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'atk',
+				substats: [
+					{ key: 'critDMG_', value: 19.4 },
+					{ key: 'critRate_', value: 11.3 },
+					{ key: 'atk_', value: 4.7 },
+					{ key: 'eleMas', value: 23 }
+				]
+			},
+			{
+				setKey: 'ObsidianCodex',
+				slotKey: 'sands',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'atk_',
+				substats: [
+					{ key: 'eleMas', value: 40 },
+					{ key: 'critRate_', value: 6.6 },
+					{ key: 'hp_', value: 13.4 },
+					{ key: 'critDMG_', value: 13.2 }
+				]
+			},
+			{
+				setKey: 'ObsidianCodex',
+				slotKey: 'circlet',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'critRate_',
+				substats: [
+					{ key: 'critDMG_', value: 15.5 },
+					{ key: 'def_', value: 17.5 },
+					{ key: 'hp_', value: 5.8 },
+					{ key: 'eleMas', value: 42 }
+				]
+			},
+			{
+				setKey: 'GoldenTroupe',
+				slotKey: 'goblet',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'pyro_dmg_',
+				substats: [
+					{ key: 'def', value: 72 },
+					{ key: 'critDMG_', value: 14 },
+					{ key: 'critRate_', value: 3.1 },
+					{ key: 'eleMas', value: 19 }
+				]
+			}
+		]
+	},
+	{
 		key: 'Yelan',
 		level: 90,
 		constellation: 6,
@@ -164,12 +241,12 @@ const characters: GenshinCharacter[] = [
 				"Frontloaded average DMG for c6r5 Aqua Yelan Combo: 2x E + 2x BTB + 3x C2 + 5x C6 + 24x Q. Team: c0r5 fs Kazuha @ 1000 EM vv hydro swirl + Zhongli shield up + c4 Mona burst up. Yelan's A4 set to 10s, C4 2 stacks, 18% HP from A1. 4p Nymph's Dream is set to 3 stacks.",
 			weapon: 'Aqua Simulacra',
 			weaponStars: 5,
-			ranking: 20442,
-			outOf: 547371,
+			ranking: 21335,
+			outOf: 570443,
 			stats: {
-				critRate: 0.7591004395271485,
-				critDamage: 2.578648569562549,
-				energyRecharge: 1.40720045802843,
+				critRate: 0.7591004352271484,
+				critDamage: 2.578648565262549,
+				energyRecharge: 1.4072004537284302,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
 				elementalMastery: 0,
@@ -178,12 +255,117 @@ const characters: GenshinCharacter[] = [
 				cryoDamageBonus: 0,
 				pyroDamageBonus: 0,
 				anemoDamageBonus: 0,
-				hydroDamageBonus: 0.46600046990167543,
+				hydroDamageBonus: 0.4660004656016754,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 32107.7734379792,
-				atk: 1183.8574223542,
-				def: 722.3638920807625
+				maxHp: 32107.7734379749,
+				atk: 1183.8574223499,
+				def: 722.3638920764625
+			}
+		}
+	},
+	{
+		key: 'Furina',
+		level: 90,
+		constellation: 6,
+		ascension: 6,
+		talent: { auto: 9, skill: 10, burst: 10 },
+		element: 'Hydro',
+		stars: 5,
+		weapon: { key: 'UrakuMisugiri', level: 90, ascension: 6, refinement: 1 },
+		artifacts: [
+			{
+				setKey: 'GoldenTroupe',
+				slotKey: 'flower',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'hp',
+				substats: [
+					{ key: 'critRate_', value: 8.6 },
+					{ key: 'critDMG_', value: 14.8 },
+					{ key: 'hp_', value: 9.9 },
+					{ key: 'eleMas', value: 21 }
+				]
+			},
+			{
+				setKey: 'GoldenTroupe',
+				slotKey: 'plume',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'atk',
+				substats: [
+					{ key: 'critDMG_', value: 19.4 },
+					{ key: 'hp_', value: 10.5 },
+					{ key: 'enerRech_', value: 11 },
+					{ key: 'hp', value: 508 }
+				]
+			},
+			{
+				setKey: 'GoldenTroupe',
+				slotKey: 'sands',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'hp_',
+				substats: [
+					{ key: 'def', value: 58 },
+					{ key: 'critRate_', value: 6.6 },
+					{ key: 'atk', value: 31 },
+					{ key: 'critDMG_', value: 15.5 }
+				]
+			},
+			{
+				setKey: 'GoldenTroupe',
+				slotKey: 'goblet',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'hydro_dmg_',
+				substats: [
+					{ key: 'critDMG_', value: 14.8 },
+					{ key: 'critRate_', value: 13.6 },
+					{ key: 'hp_', value: 5.8 },
+					{ key: 'enerRech_', value: 11 }
+				]
+			},
+			{
+				setKey: 'WanderersTroupe',
+				slotKey: 'circlet',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'critRate_',
+				substats: [
+					{ key: 'critDMG_', value: 21 },
+					{ key: 'enerRech_', value: 10.4 },
+					{ key: 'hp_', value: 4.7 },
+					{ key: 'def_', value: 11.7 }
+				]
+			}
+		],
+		ranking: {
+			name: 'Elemental Skill with C2 buffs, Avg DMG',
+			details:
+				'Average DMG for Mademoiselle Crabaletta in a double hydro team. Number of characters who offered HP: 4. Maxed Fanfare stacks and maxed C2 stacks (easy to achieve in for example Neuvilette teams). Weapon stacks maxed when applicable. ',
+			weapon: 'Splendor of Tranquil Waters',
+			weaponStars: 5,
+			ranking: 7545,
+			outOf: 478249,
+			stats: {
+				critRate: 0.8407008792221985,
+				critDamage: 2.236748888617798,
+				energyRecharge: 1.323800876265808,
+				healingBonus: 0,
+				incomingHealingBonus: 0,
+				elementalMastery: 20.980000450736327,
+				physicalDamageBonus: 0,
+				geoDamageBonus: 0,
+				cryoDamageBonus: 0,
+				pyroDamageBonus: 0,
+				anemoDamageBonus: 0,
+				hydroDamageBonus: 0.4660008992016754,
+				dendroDamageBonus: 0,
+				electroDamageBonus: 0,
+				maxHp: 32456.9648446585,
+				atk: 1127.9217538381874,
+				def: 973.6201791311563
 			}
 		}
 	},
@@ -191,7 +373,7 @@ const characters: GenshinCharacter[] = [
 		key: 'Xilonen',
 		level: 80,
 		constellation: 0,
-		ascension: 6,
+		ascension: 5,
 		talent: { auto: 1, skill: 10, burst: 9 },
 		element: 'Geo',
 		stars: 5,
@@ -263,110 +445,6 @@ const characters: GenshinCharacter[] = [
 				]
 			}
 		]
-	},
-	{
-		key: 'Xingqiu',
-		level: 81,
-		constellation: 6,
-		ascension: 6,
-		talent: { auto: 1, skill: 7, burst: 10 },
-		element: 'Hydro',
-		stars: 4,
-		weapon: { key: 'SkywardBlade', level: 90, ascension: 6, refinement: 1 },
-		artifacts: [
-			{
-				setKey: 'EmblemOfSeveredFate',
-				slotKey: 'flower',
-				level: 20,
-				rarity: 5,
-				mainStatKey: 'hp',
-				substats: [
-					{ key: 'critDMG_', value: 19.4 },
-					{ key: 'critRate_', value: 5.8 },
-					{ key: 'enerRech_', value: 5.8 },
-					{ key: 'atk', value: 35 }
-				]
-			},
-			{
-				setKey: 'EmblemOfSeveredFate',
-				slotKey: 'plume',
-				level: 20,
-				rarity: 5,
-				mainStatKey: 'atk',
-				substats: [
-					{ key: 'enerRech_', value: 11 },
-					{ key: 'critRate_', value: 7.8 },
-					{ key: 'atk_', value: 14.6 },
-					{ key: 'critDMG_', value: 13.2 }
-				]
-			},
-			{
-				setKey: 'EmblemOfSeveredFate',
-				slotKey: 'sands',
-				level: 20,
-				rarity: 5,
-				mainStatKey: 'atk_',
-				substats: [
-					{ key: 'critRate_', value: 5.4 },
-					{ key: 'critDMG_', value: 21 },
-					{ key: 'enerRech_', value: 5.8 },
-					{ key: 'hp_', value: 14 }
-				]
-			},
-			{
-				setKey: 'EmblemOfSeveredFate',
-				slotKey: 'goblet',
-				level: 20,
-				rarity: 5,
-				mainStatKey: 'hydro_dmg_',
-				substats: [
-					{ key: 'eleMas', value: 58 },
-					{ key: 'def_', value: 13.1 },
-					{ key: 'enerRech_', value: 4.5 },
-					{ key: 'critDMG_', value: 10.9 }
-				]
-			},
-			{
-				setKey: 'ViridescentVenerer',
-				slotKey: 'circlet',
-				level: 20,
-				rarity: 5,
-				mainStatKey: 'critRate_',
-				substats: [
-					{ key: 'enerRech_', value: 6.5 },
-					{ key: 'hp', value: 269 },
-					{ key: 'critDMG_', value: 27.2 },
-					{ key: 'def_', value: 20.4 }
-				]
-			}
-		],
-		ranking: {
-			name: 'Sword Rain, Avg DMG',
-			details: "4p Nymph's Dream is set to very optimistic 3 stacks.",
-			weapon: 'Sacrificial Sword',
-			weaponStars: 5,
-			ranking: 19721,
-			outOf: 222840,
-			stats: {
-				critRate: 0.5915009338690186,
-				critDamage: 1.4170009453131103,
-				energyRecharge: 2.0880808193518066,
-				healingBonus: 0,
-				incomingHealingBonus: 0,
-				elementalMastery: 58.27999966929688,
-				physicalDamageBonus: 0,
-				geoDamageBonus: 0,
-				cryoDamageBonus: 0,
-				pyroDamageBonus: 0,
-				anemoDamageBonus: 0,
-				hydroDamageBonus: 0.6660008985830689,
-				dendroDamageBonus: 0,
-				electroDamageBonus: 0,
-				maxHp: 15975.513672765,
-				atk: 1822.3375253040624,
-				def: 948.60205167125
-			}
-		}
 	},
 	{
 		key: 'Xiao',
@@ -450,26 +528,26 @@ const characters: GenshinCharacter[] = [
 				"Combo that includes A4/VHA/PJWS/CQ stacking, Bennett, Noblesse and Elegy uptimes, 2E and 11HP with collision damage. 4p Noblese Aquila C6 Bennett, 4p ToTM Elegy C6 Faruzan, Zhongli. Faruzan's A4 is disabled for a bit of simplicity (it's also pretty weak anyways)",
 			weapon: 'Staff of Homa',
 			weaponStars: 5,
-			ranking: 40436,
-			outOf: 437005,
+			ranking: 42448,
+			outOf: 460166,
 			stats: {
-				critRate: 0.4909006793682068,
-				critDamage: 2.5916366417591066,
-				energyRecharge: 1.0583007176105468,
+				critRate: 0.49090040246820676,
+				critDamage: 2.5916363648591063,
+				energyRecharge: 1.058300440710547,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 48.95999978377266,
+				elementalMastery: 48.959999506872656,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
 				pyroDamageBonus: 0,
-				anemoDamageBonus: 0.46600069000167543,
+				anemoDamageBonus: 0.4660004131016754,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 20881.2656256993,
-				atk: 2183.891678433675,
-				def: 1098.4959723789875
+				maxHp: 20881.2656254224,
+				atk: 2183.891678156775,
+				def: 1098.4959721020875
 			}
 		}
 	},
@@ -555,8 +633,8 @@ const characters: GenshinCharacter[] = [
 				'C0 Ayaka, C0R5 TTDS Mona @ 4pc Tenacity, C0R1 Kazuha @ 4pc VV 1000 EM, C6R5 Diona @ 4pc Noblesse. Combo: Dash (N1) QE 3N1CD. Enemy is frozen.',
 			weapon: 'Amenoma Kageuchi',
 			weaponStars: 4,
-			ranking: 208984,
-			outOf: 625472,
+			ranking: 214619,
+			outOf: 647092,
 			stats: {
 				critRate: 0.33390098992764283,
 				critDamage: 2.1431009787696533,
@@ -660,26 +738,26 @@ const characters: GenshinCharacter[] = [
 				'Average DMG for 11N1CD + Q combo. elegy instructor amber c0r1. kazuha c2r1 @ 1000EM(1420). 4p SR burst uptime 1/3, other sets: 2/3. ',
 			weapon: 'Staff of Homa',
 			weaponStars: 5,
-			ranking: 175302,
-			outOf: 645091,
+			ranking: 182146,
+			outOf: 675089,
 			stats: {
-				critRate: 0.6293009258833863,
-				critDamage: 2.4158370234099364,
-				energyRecharge: 1.097100947054956,
+				critRate: 0.6293000650833862,
+				critDamage: 2.4158361626099367,
+				energyRecharge: 1.097100086254956,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 34.970002148303124,
+				elementalMastery: 34.97000128750312,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
-				pyroDamageBonus: 0.6160009242621399,
+				pyroDamageBonus: 0.6160000634621399,
 				anemoDamageBonus: 0,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 34751.3359384276,
-				atk: 1413.2276073729126,
-				def: 981.719483349475
+				maxHp: 34751.3359375668,
+				atk: 1413.2276065121127,
+				def: 981.719482488675
 			}
 		}
 	},
@@ -765,7 +843,7 @@ const characters: GenshinCharacter[] = [
 		level: 80,
 		constellation: 0,
 		ascension: 6,
-		talent: { auto: 9, skill: 10, burst: 9 },
+		talent: { auto: 8, skill: 10, burst: 9 },
 		element: 'Hydro',
 		stars: 5,
 		weapon: { key: 'TheViridescentHunt', level: 90, ascension: 6, refinement: 1 },
@@ -842,8 +920,8 @@ const characters: GenshinCharacter[] = [
 				"1 rQ (vape) + 1 E + N2C * 6 + mSlash * 4. c0r1 Kazuha + c6r1 Xiangling + c6r1 Bennett. Most buffs expire after 3N2C. Shimenawa's burst damage is halved.",
 			weapon: 'Aqua Simulacra',
 			weaponStars: 1,
-			ranking: 21271,
-			outOf: 183040,
+			ranking: 22240,
+			outOf: 191890,
 			stats: {
 				critRate: 0.6526007483678894,
 				critDamage: 1.4556007812696534,
@@ -946,8 +1024,8 @@ const characters: GenshinCharacter[] = [
 			details: '---',
 			weapon: 'Black Tassel',
 			weaponStars: 3,
-			ranking: 64756,
-			outOf: 708466,
+			ranking: 69253,
+			outOf: 749048,
 			stats: {}
 		}
 	},
@@ -1029,9 +1107,96 @@ const characters: GenshinCharacter[] = [
 		]
 	},
 	{
+		key: 'KaedeharaKazuha',
+		level: 90,
+		constellation: 0,
+		ascension: 6,
+		talent: { auto: 7, skill: 9, burst: 9 },
+		element: 'Anemo',
+		stars: 5,
+		weapon: { key: 'FavoniusSword', level: 90, ascension: 6, refinement: 5 },
+		artifacts: [
+			{
+				setKey: 'ViridescentVenerer',
+				slotKey: 'flower',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'hp',
+				substats: [
+					{ key: 'eleMas', value: 61 },
+					{ key: 'atk', value: 33 },
+					{ key: 'enerRech_', value: 10.4 },
+					{ key: 'def', value: 19 }
+				]
+			},
+			{
+				setKey: 'ViridescentVenerer',
+				slotKey: 'plume',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'atk',
+				substats: [
+					{ key: 'def', value: 19 },
+					{ key: 'enerRech_', value: 4.5 },
+					{ key: 'eleMas', value: 35 },
+					{ key: 'hp_', value: 20.4 }
+				]
+			},
+			{
+				setKey: 'ViridescentVenerer',
+				slotKey: 'sands',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'eleMas',
+				substats: [
+					{ key: 'def', value: 37 },
+					{ key: 'hp', value: 239 },
+					{ key: 'hp_', value: 10.5 },
+					{ key: 'enerRech_', value: 16.8 }
+				]
+			},
+			{
+				setKey: 'ViridescentVenerer',
+				slotKey: 'goblet',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'eleMas',
+				substats: [
+					{ key: 'atk_', value: 8.2 },
+					{ key: 'hp', value: 777 },
+					{ key: 'atk', value: 58 },
+					{ key: 'def', value: 21 }
+				]
+			},
+			{
+				setKey: 'MaidenBeloved',
+				slotKey: 'circlet',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'eleMas',
+				substats: [
+					{ key: 'enerRech_', value: 11 },
+					{ key: 'def_', value: 10.2 },
+					{ key: 'critDMG_', value: 21.8 },
+					{ key: 'hp', value: 209 }
+				]
+			}
+		],
+		ranking: {
+			name: 'EM + ER (+ CR) balance formula',
+			details:
+				'Assumes Favonius Sword R5 (EM / 1000 + ER / 500) * 5000 + (vv ? 2000 : 0) + (CR > 15% ? (CR * 1500) : 0)',
+			weapon: 'Favonius Sword',
+			weaponStars: 4,
+			ranking: 511121,
+			outOf: 1011019,
+			stats: {}
+		}
+	},
+	{
 		key: 'Jean',
 		level: 90,
-		constellation: 2,
+		constellation: 3,
 		ascension: 6,
 		talent: { auto: 1, skill: 1, burst: 6 },
 		element: 'Anemo',
@@ -1156,28 +1321,28 @@ const characters: GenshinCharacter[] = [
 			},
 			{
 				setKey: 'FragmentOfHarmonicWhimsy',
-				slotKey: 'circlet',
-				level: 20,
-				rarity: 5,
-				mainStatKey: 'critDMG_',
-				substats: [
-					{ key: 'def', value: 67 },
-					{ key: 'hp', value: 299 },
-					{ key: 'atk', value: 62 },
-					{ key: 'critRate_', value: 3.5 }
-				]
-			},
-			{
-				setKey: 'MarechausseeHunter',
 				slotKey: 'goblet',
 				level: 20,
 				rarity: 5,
 				mainStatKey: 'electro_dmg_',
 				substats: [
-					{ key: 'critDMG_', value: 13.2 },
-					{ key: 'critRate_', value: 3.9 },
-					{ key: 'atk_', value: 25.7 },
-					{ key: 'hp', value: 299 }
+					{ key: 'eleMas', value: 19 },
+					{ key: 'atk_', value: 14 },
+					{ key: 'critRate_', value: 10.5 },
+					{ key: 'enerRech_', value: 6.5 }
+				]
+			},
+			{
+				setKey: 'NoblesseOblige',
+				slotKey: 'circlet',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'critRate_',
+				substats: [
+					{ key: 'critDMG_', value: 18.7 },
+					{ key: 'eleMas', value: 37 },
+					{ key: 'def', value: 56 },
+					{ key: 'atk_', value: 4.7 }
 				]
 			}
 		],
@@ -1187,15 +1352,15 @@ const characters: GenshinCharacter[] = [
 				"C0 Clorinde + C6 Fischl + 4p Noblesse C6 Chevreuse @ 40k HP + 4p Cinder C6 Thoma. Leaderboard ranks DPS based on 16s rotation using QEE 5N3E combo. Clorinde's A1 and A4 at full uptime for simplicity. Chevreuse's C6 stacks: QEE:0, N3E:1, N3E: 2, N3E:3, N3E:3, N3E: 3. 4pc Harmonic Whimsy stacks Q:1, EE:2, 5N3:3. Absolution same stacks as Whimsy. ",
 			weapon: 'Absolution',
 			weaponStars: 5,
-			ranking: 83049,
-			outOf: 235064,
+			ranking: 54898,
+			outOf: 270524,
 			stats: {
-				critRate: 0.48310078014360963,
-				critDamage: 2.516724892749658,
-				energyRecharge: 1.0000007831,
+				critRate: 0.8252004800622925,
+				critDamage: 1.9491246162240967,
+				energyRecharge: 1.0648005424325928,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 0,
+				elementalMastery: 55.94999746664219,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
@@ -1203,10 +1368,10 @@ const characters: GenshinCharacter[] = [
 				anemoDamageBonus: 0,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
-				electroDamageBonus: 0.4660007738016754,
-				maxHp: 19400.0351570331,
-				atk: 2315.2832039081,
-				def: 1205.3114021502874
+				electroDamageBonus: 0.4660005091016754,
+				maxHp: 18802.5351567684,
+				atk: 2182.22314504965,
+				def: 1193.7314458309
 			}
 		}
 	},
@@ -1292,8 +1457,8 @@ const characters: GenshinCharacter[] = [
 				"c0 Raiden, c2 Furina, c0 Yelan, c0 4p VV Jean. Combo: Q 3N5. Furina's Fanfare at 400 stacks. Yelan's A4 at 8s seconds. ",
 			weapon: 'Staff of the Scarlet Sands',
 			weaponStars: 4,
-			ranking: 934300,
-			outOf: 1093048,
+			ranking: 976265,
+			outOf: 1144716,
 			stats: {
 				critRate: 0.3572009568098236,
 				critDamage: 0.6943009559992004,
@@ -1318,7 +1483,7 @@ const characters: GenshinCharacter[] = [
 	{
 		key: 'Keqing',
 		level: 90,
-		constellation: 1,
+		constellation: 2,
 		ascension: 6,
 		talent: { auto: 8, skill: 4, burst: 8 },
 		element: 'Electro',
@@ -1474,8 +1639,8 @@ const characters: GenshinCharacter[] = [
 				'Off-field Tri-Karma Purification (non-spread) avg DMG. Example team: Nahida + Xingqiu + Kuki + non-dendro flex.',
 			weapon: 'A Thousand Floating Dreams',
 			weaponStars: 4,
-			ranking: 439156,
-			outOf: 919868,
+			ranking: 459013,
+			outOf: 967984,
 			stats: {
 				critRate: 0.32990021521908874,
 				critDamage: 0.8264002006755554,
@@ -1494,111 +1659,6 @@ const characters: GenshinCharacter[] = [
 				maxHp: 17215.0781252187,
 				atk: 1194.101806859325,
 				def: 720.484619359325
-			}
-		}
-	},
-	{
-		key: 'Furina',
-		level: 90,
-		constellation: 1,
-		ascension: 6,
-		talent: { auto: 1, skill: 10, burst: 10 },
-		element: 'Hydro',
-		stars: 5,
-		weapon: { key: 'UrakuMisugiri', level: 90, ascension: 6, refinement: 1 },
-		artifacts: [
-			{
-				setKey: 'GoldenTroupe',
-				slotKey: 'flower',
-				level: 20,
-				rarity: 5,
-				mainStatKey: 'hp',
-				substats: [
-					{ key: 'atk', value: 53 },
-					{ key: 'critDMG_', value: 7 },
-					{ key: 'enerRech_', value: 9.1 },
-					{ key: 'critRate_', value: 10.1 }
-				]
-			},
-			{
-				setKey: 'GoldenTroupe',
-				slotKey: 'plume',
-				level: 20,
-				rarity: 5,
-				mainStatKey: 'atk',
-				substats: [
-					{ key: 'critDMG_', value: 19.4 },
-					{ key: 'hp_', value: 10.5 },
-					{ key: 'enerRech_', value: 11 },
-					{ key: 'hp', value: 508 }
-				]
-			},
-			{
-				setKey: 'GoldenTroupe',
-				slotKey: 'sands',
-				level: 20,
-				rarity: 5,
-				mainStatKey: 'hp_',
-				substats: [
-					{ key: 'def', value: 58 },
-					{ key: 'critRate_', value: 6.6 },
-					{ key: 'atk', value: 31 },
-					{ key: 'critDMG_', value: 15.5 }
-				]
-			},
-			{
-				setKey: 'GoldenTroupe',
-				slotKey: 'goblet',
-				level: 20,
-				rarity: 5,
-				mainStatKey: 'hp_',
-				substats: [
-					{ key: 'atk_', value: 9.9 },
-					{ key: 'critDMG_', value: 27.2 },
-					{ key: 'hp', value: 299 },
-					{ key: 'enerRech_', value: 6.5 }
-				]
-			},
-			{
-				setKey: 'CrimsonWitchOfFlames',
-				slotKey: 'circlet',
-				level: 20,
-				rarity: 5,
-				mainStatKey: 'critRate_',
-				substats: [
-					{ key: 'def', value: 44 },
-					{ key: 'hp_', value: 14 },
-					{ key: 'eleMas', value: 40 },
-					{ key: 'critDMG_', value: 12.4 }
-				]
-			}
-		],
-		ranking: {
-			name: 'Elemental Skill, Avg DMG',
-			details:
-				'Average DMG for Mademoiselle Crabaletta in a double hydro team. Number of characters who offered HP: 4. Fanfare stacks count: 200. Weapon stacks maxed when applicable. ',
-			weapon: 'Splendor of Tranquil Waters',
-			weaponStars: 5,
-			ranking: 127166,
-			outOf: 598988,
-			stats: {
-				critRate: 0.7202002056934509,
-				critDamage: 2.1979481824733886,
-				energyRecharge: 1.2655002721645507,
-				healingBonus: 0,
-				incomingHealingBonus: 0,
-				elementalMastery: 39.62999745691797,
-				physicalDamageBonus: 0,
-				geoDamageBonus: 0,
-				cryoDamageBonus: 0,
-				pyroDamageBonus: 0,
-				anemoDamageBonus: 0,
-				hydroDamageBonus: 0,
-				dendroDamageBonus: 0,
-				electroDamageBonus: 0,
-				maxHp: 38907.7500002035,
-				atk: 1258.313720906625,
-				def: 936.5000612386563
 			}
 		}
 	},
@@ -1684,26 +1744,26 @@ const characters: GenshinCharacter[] = [
 				'C0 Arlecchino + C6 Chevreuse @ 40k HP + Electro Flex + C6R1 Aquila Bennett @ 4p Noblesse. Combo: E .. CA 5N3. Majority of potential buffs such as 4p Shimenawa / 4p HoD / 4p CW wear off before 5N3 starts due to long setup. Chevreuse stacks for CA 5N3: 0/1/1/1/2/2/2/3/3/3/... BoL value after using CA: 155%. 4p Whimsy stacks for CA 5N3: 1/2/3/3/... ',
 			weapon: "Crimson Moon's Semblance",
 			weaponStars: 5,
-			ranking: 72040,
-			outOf: 549977,
+			ranking: 50546,
+			outOf: 633636,
 			stats: {
-				critRate: 0.7798126253447937,
-				critDamage: 2.0577005061469484,
-				energyRecharge: 1.097100606854956,
+				critRate: 0.8031125785246521,
+				critDamage: 2.0577005268469484,
+				energyRecharge: 1.045300614966455,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 34.97000180810313,
+				elementalMastery: 34.97000182880313,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
-				pyroDamageBonus: 0.4660005781016754,
+				pyroDamageBonus: 0.46600059880167544,
 				anemoDamageBonus: 0,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 18779.3847662124,
-				atk: 2169.036377540525,
-				def: 968.862061134275
+				maxHp: 18331.2539068581,
+				atk: 2192.5429693581,
+				def: 968.862061154975
 			}
 		}
 	},
@@ -2067,6 +2127,110 @@ const characters: GenshinCharacter[] = [
 		]
 	},
 	{
+		key: 'Xingqiu',
+		level: 81,
+		constellation: 6,
+		ascension: 6,
+		talent: { auto: 1, skill: 7, burst: 10 },
+		element: 'Hydro',
+		stars: 4,
+		weapon: { key: 'SkywardBlade', level: 90, ascension: 6, refinement: 1 },
+		artifacts: [
+			{
+				setKey: 'EmblemOfSeveredFate',
+				slotKey: 'flower',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'hp',
+				substats: [
+					{ key: 'critDMG_', value: 19.4 },
+					{ key: 'critRate_', value: 5.8 },
+					{ key: 'enerRech_', value: 5.8 },
+					{ key: 'atk', value: 35 }
+				]
+			},
+			{
+				setKey: 'EmblemOfSeveredFate',
+				slotKey: 'plume',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'atk',
+				substats: [
+					{ key: 'enerRech_', value: 11 },
+					{ key: 'critRate_', value: 7.8 },
+					{ key: 'atk_', value: 14.6 },
+					{ key: 'critDMG_', value: 13.2 }
+				]
+			},
+			{
+				setKey: 'EmblemOfSeveredFate',
+				slotKey: 'sands',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'atk_',
+				substats: [
+					{ key: 'critRate_', value: 5.4 },
+					{ key: 'critDMG_', value: 21 },
+					{ key: 'enerRech_', value: 5.8 },
+					{ key: 'hp_', value: 14 }
+				]
+			},
+			{
+				setKey: 'EmblemOfSeveredFate',
+				slotKey: 'goblet',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'hydro_dmg_',
+				substats: [
+					{ key: 'eleMas', value: 58 },
+					{ key: 'def_', value: 13.1 },
+					{ key: 'enerRech_', value: 4.5 },
+					{ key: 'critDMG_', value: 10.9 }
+				]
+			},
+			{
+				setKey: 'ViridescentVenerer',
+				slotKey: 'circlet',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'critRate_',
+				substats: [
+					{ key: 'enerRech_', value: 6.5 },
+					{ key: 'hp', value: 269 },
+					{ key: 'critDMG_', value: 27.2 },
+					{ key: 'def_', value: 20.4 }
+				]
+			}
+		],
+		ranking: {
+			name: 'Sword Rain, Avg DMG',
+			details: "4p Nymph's Dream is set to very optimistic 3 stacks.",
+			weapon: 'Sacrificial Sword',
+			weaponStars: 5,
+			ranking: 20894,
+			outOf: 237285,
+			stats: {
+				critRate: 0.5915005091690185,
+				critDamage: 1.4170005206131104,
+				energyRecharge: 2.0880803946518065,
+				healingBonus: 0,
+				incomingHealingBonus: 0,
+				elementalMastery: 58.27999924459687,
+				physicalDamageBonus: 0,
+				geoDamageBonus: 0,
+				cryoDamageBonus: 0,
+				pyroDamageBonus: 0,
+				anemoDamageBonus: 0,
+				hydroDamageBonus: 0.6660004738830688,
+				dendroDamageBonus: 0,
+				electroDamageBonus: 0,
+				maxHp: 15975.5136723403,
+				atk: 1822.3375248793625,
+				def: 948.60205124655
+			}
+		}
+	},
+	{
 		key: 'Wanderer',
 		level: 80,
 		constellation: 0,
@@ -2302,8 +2466,8 @@ const characters: GenshinCharacter[] = [
 				"Combo: E Q 3CA. C1 Tighnari + C0R1 Deepwood Nahida + electro flex + electro flex. Tighnari's A1 buffs only CAs. Enemy has pre-existing Quicken aura. Nahida's A1 buff is maxed and lasts entire combo. ",
 			weapon: 'Skyward Harp',
 			weaponStars: 5,
-			ranking: 19329,
-			outOf: 64056,
+			ranking: 20108,
+			outOf: 67216,
 			stats: {
 				critRate: 0.9328683812452149,
 				critDamage: 1.113800426228125,
@@ -2407,8 +2571,8 @@ const characters: GenshinCharacter[] = [
 				"(((E_DMG / 5500) + (E_HEAL / 5000) + (ER / 150)) * 5000) + SET_BONUS. +6500 ToTM, +6000 OHC, +6000 Deepwood, +5000 Noblesse, +4000 Maiden. Please keep in mind custom 'balance formulas' are completely feelscrafted unlike proper avg dmg formulas.",
 			weapon: 'Everlasting Moonglow',
 			weaponStars: 3,
-			ranking: 105828,
-			outOf: 296736,
+			ranking: 108708,
+			outOf: 307006,
 			stats: {}
 		}
 	},
@@ -2570,8 +2734,8 @@ const characters: GenshinCharacter[] = [
 			details: 'N1 + N2 + N3 + N4. Team: Noelle C6, Gorou C6, Yunjin C6, Zhongli C0',
 			weapon: 'Serpent Spine',
 			weaponStars: 4,
-			ranking: 2274,
-			outOf: 26016,
+			ranking: 2331,
+			outOf: 27022,
 			stats: {
 				critRate: 0.7417400555316711,
 				critDamage: 1.7826999501888061,
@@ -2596,7 +2760,7 @@ const characters: GenshinCharacter[] = [
 	{
 		key: 'Kachina',
 		level: 80,
-		constellation: 0,
+		constellation: 1,
 		ascension: 5,
 		talent: { auto: 1, skill: 1, burst: 1 },
 		element: 'Geo',
@@ -2611,7 +2775,7 @@ const characters: GenshinCharacter[] = [
 		talent: { auto: 1, skill: 6, burst: 8 },
 		element: 'Geo',
 		stars: 4,
-		weapon: { key: 'FavoniusLance', level: 80, ascension: 5, refinement: 4 },
+		weapon: { key: 'FavoniusLance', level: 80, ascension: 5, refinement: 5 },
 		artifacts: [
 			{
 				setKey: 'FragmentOfHarmonicWhimsy',
@@ -2739,7 +2903,7 @@ const characters: GenshinCharacter[] = [
 		talent: { auto: 2, skill: 4, burst: 7 },
 		element: 'Anemo',
 		stars: 4,
-		weapon: { key: 'FavoniusGreatsword', level: 70, ascension: 4, refinement: 5 },
+		weapon: { key: 'WasterGreatsword', level: 1, ascension: 0, refinement: 1 },
 		artifacts: [
 			{
 				setKey: 'EmblemOfSeveredFate',
@@ -3005,8 +3169,8 @@ const characters: GenshinCharacter[] = [
 				'4x Oz hits. no buffs, talent level 13. One Oz hit does not benefit from the Thundersoother (75% uptime). Polar Star at 3 stacks.',
 			weapon: 'Polar Star',
 			weaponStars: 5,
-			ranking: 39369,
-			outOf: 283304,
+			ranking: 42971,
+			outOf: 303851,
 			stats: {
 				critRate: 0.9756687331958557,
 				critDamage: 1.2537007380290772,
@@ -3249,7 +3413,7 @@ const characters: GenshinCharacter[] = [
 	{
 		key: 'Gaming',
 		level: 80,
-		constellation: 5,
+		constellation: 6,
 		ascension: 5,
 		talent: { auto: 1, skill: 8, burst: 7 },
 		element: 'Pyro',
@@ -3297,6 +3461,19 @@ const characters: GenshinCharacter[] = [
 			},
 			{
 				setKey: 'MarechausseeHunter',
+				slotKey: 'circlet',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'critRate_',
+				substats: [
+					{ key: 'atk_', value: 9.9 },
+					{ key: 'critDMG_', value: 13.2 },
+					{ key: 'def_', value: 5.1 },
+					{ key: 'eleMas', value: 56 }
+				]
+			},
+			{
+				setKey: 'MarechausseeHunter',
 				slotKey: 'flower',
 				level: 16,
 				rarity: 5,
@@ -3306,19 +3483,6 @@ const characters: GenshinCharacter[] = [
 					{ key: 'def', value: 51 },
 					{ key: 'critDMG_', value: 7 },
 					{ key: 'atk_', value: 5.8 }
-				]
-			},
-			{
-				setKey: 'MarechausseeHunter',
-				slotKey: 'circlet',
-				level: 12,
-				rarity: 5,
-				mainStatKey: 'critRate_',
-				substats: [
-					{ key: 'critDMG_', value: 7.8 },
-					{ key: 'atk_', value: 10.5 },
-					{ key: 'atk', value: 35 },
-					{ key: 'def', value: 16 }
 				]
 			}
 		]
@@ -3373,6 +3537,298 @@ const characters: GenshinCharacter[] = [
 				]
 			}
 		]
+	},
+	{
+		key: 'Sucrose',
+		level: 70,
+		constellation: 6,
+		ascension: 4,
+		talent: { auto: 1, skill: 3, burst: 3 },
+		element: 'Anemo',
+		stars: 4,
+		weapon: { key: 'ThrillingTalesOfDragonSlayers', level: 1, ascension: 0, refinement: 5 },
+		artifacts: [
+			{
+				setKey: 'EmblemOfSeveredFate',
+				slotKey: 'flower',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'hp',
+				substats: [
+					{ key: 'def', value: 63 },
+					{ key: 'critDMG_', value: 19.4 },
+					{ key: 'eleMas', value: 47 },
+					{ key: 'critRate_', value: 3.9 }
+				]
+			},
+			{
+				setKey: 'ViridescentVenerer',
+				slotKey: 'plume',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'atk',
+				substats: [
+					{ key: 'critRate_', value: 6.2 },
+					{ key: 'critDMG_', value: 27.2 },
+					{ key: 'eleMas', value: 19 },
+					{ key: 'enerRech_', value: 11 }
+				]
+			},
+			{
+				setKey: 'ViridescentVenerer',
+				slotKey: 'sands',
+				level: 5,
+				rarity: 5,
+				mainStatKey: 'eleMas',
+				substats: [
+					{ key: 'atk', value: 18 },
+					{ key: 'atk_', value: 4.7 },
+					{ key: 'hp_', value: 4.1 },
+					{ key: 'critDMG_', value: 5.4 }
+				]
+			}
+		]
+	},
+	{
+		key: 'Charlotte',
+		level: 70,
+		constellation: 6,
+		ascension: 4,
+		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Cryo',
+		stars: 4,
+		weapon: { key: 'ThrillingTalesOfDragonSlayers', level: 1, ascension: 0, refinement: 5 },
+		artifacts: [
+			{
+				setKey: 'EmblemOfSeveredFate',
+				slotKey: 'flower',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'hp',
+				substats: [
+					{ key: 'critRate_', value: 12.4 },
+					{ key: 'critDMG_', value: 13.2 },
+					{ key: 'atk', value: 16 },
+					{ key: 'atk_', value: 11.1 }
+				]
+			},
+			{
+				setKey: 'EmblemOfSeveredFate',
+				slotKey: 'sands',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'atk_',
+				substats: [
+					{ key: 'hp', value: 807 },
+					{ key: 'critRate_', value: 6.6 },
+					{ key: 'critDMG_', value: 14 },
+					{ key: 'eleMas', value: 21 }
+				]
+			},
+			{
+				setKey: 'ViridescentVenerer',
+				slotKey: 'goblet',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'atk_',
+				substats: [
+					{ key: 'def', value: 21 },
+					{ key: 'enerRech_', value: 9.7 },
+					{ key: 'critRate_', value: 10.5 },
+					{ key: 'eleMas', value: 35 }
+				]
+			},
+			{
+				setKey: 'GladiatorsFinale',
+				slotKey: 'plume',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'atk',
+				substats: [
+					{ key: 'atk_', value: 11.7 },
+					{ key: 'enerRech_', value: 24.6 },
+					{ key: 'critRate_', value: 6.6 },
+					{ key: 'critDMG_', value: 7 }
+				]
+			},
+			{
+				setKey: 'GladiatorsFinale',
+				slotKey: 'circlet',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'critRate_',
+				substats: [
+					{ key: 'critDMG_', value: 13.2 },
+					{ key: 'atk_', value: 15.2 },
+					{ key: 'atk', value: 16 },
+					{ key: 'hp', value: 508 }
+				]
+			}
+		]
+	},
+	{
+		key: 'Kaeya',
+		level: 70,
+		constellation: 6,
+		ascension: 4,
+		talent: { auto: 1, skill: 6, burst: 6 },
+		element: 'Cryo',
+		stars: 4,
+		weapon: { key: 'WolfFang', level: 90, ascension: 6, refinement: 5 },
+		artifacts: [
+			{
+				setKey: 'ObsidianCodex',
+				slotKey: 'sands',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'atk_',
+				substats: [
+					{ key: 'critRate_', value: 6.6 },
+					{ key: 'def', value: 23 },
+					{ key: 'critDMG_', value: 14 },
+					{ key: 'enerRech_', value: 17.5 }
+				]
+			},
+			{
+				setKey: 'BlizzardStrayer',
+				slotKey: 'flower',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'hp',
+				substats: [
+					{ key: 'critDMG_', value: 14 },
+					{ key: 'critRate_', value: 7.4 },
+					{ key: 'def', value: 42 },
+					{ key: 'atk_', value: 9.9 }
+				]
+			},
+			{
+				setKey: 'BlizzardStrayer',
+				slotKey: 'plume',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'atk',
+				substats: [
+					{ key: 'hp', value: 538 },
+					{ key: 'def', value: 19 },
+					{ key: 'critDMG_', value: 14.8 },
+					{ key: 'atk_', value: 14 }
+				]
+			},
+			{
+				setKey: 'BlizzardStrayer',
+				slotKey: 'goblet',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'atk_',
+				substats: [
+					{ key: 'critDMG_', value: 6.2 },
+					{ key: 'enerRech_', value: 9.1 },
+					{ key: 'def', value: 79 },
+					{ key: 'hp_', value: 5.8 }
+				]
+			},
+			{
+				setKey: 'BlizzardStrayer',
+				slotKey: 'circlet',
+				level: 12,
+				rarity: 5,
+				mainStatKey: 'critRate_',
+				substats: [
+					{ key: 'critDMG_', value: 7.8 },
+					{ key: 'hp', value: 747 },
+					{ key: 'enerRech_', value: 5.8 },
+					{ key: 'def', value: 16 }
+				]
+			}
+		]
+	},
+	{
+		key: 'Razor',
+		level: 70,
+		constellation: 6,
+		ascension: 4,
+		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Electro',
+		stars: 4,
+		weapon: { key: 'FavoniusGreatsword', level: 80, ascension: 5, refinement: 5 },
+		artifacts: [
+			{
+				setKey: 'MarechausseeHunter',
+				slotKey: 'circlet',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'critRate_',
+				substats: [
+					{ key: 'critDMG_', value: 7.8 },
+					{ key: 'atk_', value: 10.5 },
+					{ key: 'atk', value: 68 },
+					{ key: 'def', value: 16 }
+				]
+			},
+			{
+				setKey: 'GladiatorsFinale',
+				slotKey: 'flower',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'hp',
+				substats: [
+					{ key: 'critRate_', value: 3.9 },
+					{ key: 'critDMG_', value: 33.4 },
+					{ key: 'atk', value: 16 },
+					{ key: 'eleMas', value: 40 }
+				]
+			},
+			{
+				setKey: 'GladiatorsFinale',
+				slotKey: 'plume',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'atk',
+				substats: [
+					{ key: 'critDMG_', value: 19.4 },
+					{ key: 'critRate_', value: 6.6 },
+					{ key: 'eleMas', value: 21 },
+					{ key: 'hp_', value: 9.9 }
+				]
+			},
+			{
+				setKey: 'GladiatorsFinale',
+				slotKey: 'sands',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'atk_',
+				substats: [
+					{ key: 'def', value: 39 },
+					{ key: 'def_', value: 13.1 },
+					{ key: 'atk', value: 33 },
+					{ key: 'eleMas', value: 42 }
+				]
+			},
+			{
+				setKey: 'GladiatorsFinale',
+				slotKey: 'goblet',
+				level: 20,
+				rarity: 5,
+				mainStatKey: 'physical_dmg_',
+				substats: [
+					{ key: 'atk', value: 49 },
+					{ key: 'hp', value: 269 },
+					{ key: 'critDMG_', value: 18.7 },
+					{ key: 'enerRech_', value: 11 }
+				]
+			}
+		]
+	},
+	{
+		key: 'Barbara',
+		level: 70,
+		constellation: 6,
+		ascension: 5,
+		talent: { auto: 5, skill: 8, burst: 4 },
+		element: 'Hydro',
+		stars: 4,
+		weapon: { key: 'ApprenticesNotes', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
 		key: 'Amber',
@@ -3439,81 +3895,91 @@ const characters: GenshinCharacter[] = [
 		]
 	},
 	{
-		key: 'Mavuika',
-		level: 90,
-		constellation: 0,
-		ascension: 6,
-		talent: { auto: 1, skill: 8, burst: 9 },
-		element: 'Pyro',
-		stars: 5,
-		weapon: { key: 'MailedFlower', level: 90, ascension: 6, refinement: 5 },
+		key: 'Yaoyao',
+		level: 60,
+		constellation: 1,
+		ascension: 3,
+		talent: { auto: 1, skill: 2, burst: 2 },
+		element: 'Dendro',
+		stars: 4,
+		weapon: { key: 'BeginnersProtector', level: 1, ascension: 0, refinement: 1 },
 		artifacts: [
 			{
-				setKey: 'FragmentOfHarmonicWhimsy',
-				slotKey: 'plume',
-				level: 20,
-				rarity: 5,
-				mainStatKey: 'atk',
-				substats: [
-					{ key: 'critDMG_', value: 19.4 },
-					{ key: 'critRate_', value: 2.7 },
-					{ key: 'atk_', value: 19.2 },
-					{ key: 'def_', value: 5.8 }
-				]
-			},
-			{
-				setKey: 'GoldenTroupe',
-				slotKey: 'sands',
-				level: 20,
-				rarity: 5,
-				mainStatKey: 'atk_',
-				substats: [
-					{ key: 'eleMas', value: 16 },
-					{ key: 'critRate_', value: 7.4 },
-					{ key: 'critDMG_', value: 13.2 },
-					{ key: 'enerRech_', value: 15.5 }
-				]
-			},
-			{
-				setKey: 'GoldenTroupe',
-				slotKey: 'goblet',
-				level: 20,
-				rarity: 5,
-				mainStatKey: 'pyro_dmg_',
-				substats: [
-					{ key: 'def', value: 72 },
-					{ key: 'critDMG_', value: 14 },
-					{ key: 'critRate_', value: 3.1 },
-					{ key: 'eleMas', value: 19 }
-				]
-			},
-			{
-				setKey: 'NoblesseOblige',
-				slotKey: 'circlet',
-				level: 20,
-				rarity: 5,
-				mainStatKey: 'critRate_',
-				substats: [
-					{ key: 'critDMG_', value: 18.7 },
-					{ key: 'eleMas', value: 37 },
-					{ key: 'def', value: 56 },
-					{ key: 'atk_', value: 4.7 }
-				]
-			},
-			{
-				setKey: 'GladiatorsFinale',
+				setKey: 'ViridescentVenerer',
 				slotKey: 'flower',
 				level: 20,
 				rarity: 5,
 				mainStatKey: 'hp',
 				substats: [
-					{ key: 'critRate_', value: 3.9 },
-					{ key: 'critDMG_', value: 33.4 },
-					{ key: 'atk', value: 16 },
-					{ key: 'eleMas', value: 40 }
+					{ key: 'enerRech_', value: 11.7 },
+					{ key: 'atk_', value: 4.1 },
+					{ key: 'atk', value: 62 },
+					{ key: 'critDMG_', value: 14 }
+				]
+			},
+			{
+				setKey: 'MaidenBeloved',
+				slotKey: 'circlet',
+				level: 18,
+				rarity: 5,
+				mainStatKey: 'heal_',
+				substats: [
+					{ key: 'def_', value: 13.9 },
+					{ key: 'hp_', value: 5.8 },
+					{ key: 'eleMas', value: 58 },
+					{ key: 'enerRech_', value: 12.3 }
+				]
+			},
+			{
+				setKey: 'OceanHuedClam',
+				slotKey: 'sands',
+				level: 16,
+				rarity: 5,
+				mainStatKey: 'hp_',
+				substats: [
+					{ key: 'atk', value: 43 },
+					{ key: 'eleMas', value: 23 },
+					{ key: 'atk_', value: 4.7 },
+					{ key: 'hp', value: 807 }
+				]
+			},
+			{
+				setKey: 'MaidenBeloved',
+				slotKey: 'goblet',
+				level: 16,
+				rarity: 5,
+				mainStatKey: 'hp_',
+				substats: [
+					{ key: 'critDMG_', value: 20.2 },
+					{ key: 'eleMas', value: 19 },
+					{ key: 'enerRech_', value: 11 },
+					{ key: 'atk_', value: 9.3 }
+				]
+			},
+			{
+				setKey: 'OceanHuedClam',
+				slotKey: 'plume',
+				level: 10,
+				rarity: 5,
+				mainStatKey: 'atk',
+				substats: [
+					{ key: 'hp', value: 269 },
+					{ key: 'def', value: 21 },
+					{ key: 'atk_', value: 4.7 },
+					{ key: 'hp_', value: 9.3 }
 				]
 			}
 		]
+	},
+	{
+		key: 'Ningguang',
+		level: 40,
+		constellation: 6,
+		ascension: 1,
+		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Geo',
+		stars: 4,
+		weapon: { key: 'ApprenticesNotes', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
 		key: 'Yanfei',
@@ -3552,142 +4018,144 @@ const characters: GenshinCharacter[] = [
 		]
 	},
 	{
-		key: 'Sucrose',
-		level: 70,
-		constellation: 6,
-		ascension: 4,
-		talent: { auto: 1, skill: 3, burst: 3 },
-		element: 'Anemo',
+		key: 'Lisa',
+		level: 30,
+		constellation: 5,
+		ascension: 1,
+		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Electro',
 		stars: 4,
-		weapon: { key: 'ThrillingTalesOfDragonSlayers', level: 1, ascension: 0, refinement: 5 },
-		artifacts: [
-			{
-				setKey: 'EmblemOfSeveredFate',
-				slotKey: 'flower',
-				level: 20,
-				rarity: 5,
-				mainStatKey: 'hp',
-				substats: [
-					{ key: 'def', value: 63 },
-					{ key: 'critDMG_', value: 19.4 },
-					{ key: 'eleMas', value: 47 },
-					{ key: 'critRate_', value: 3.9 }
-				]
-			},
-			{
-				setKey: 'ViridescentVenerer',
-				slotKey: 'plume',
-				level: 20,
-				rarity: 5,
-				mainStatKey: 'atk',
-				substats: [
-					{ key: 'critRate_', value: 6.2 },
-					{ key: 'critDMG_', value: 27.2 },
-					{ key: 'eleMas', value: 19 },
-					{ key: 'enerRech_', value: 11 }
-				]
-			},
-			{
-				setKey: 'ViridescentVenerer',
-				slotKey: 'sands',
-				level: 5,
-				rarity: 5,
-				mainStatKey: 'eleMas',
-				substats: [
-					{ key: 'atk', value: 18 },
-					{ key: 'atk_', value: 4.7 },
-					{ key: 'hp_', value: 4.1 },
-					{ key: 'critDMG_', value: 5.4 }
-				]
-			}
-		]
+		weapon: { key: 'ApprenticesNotes', level: 1, ascension: 0, refinement: 1 }
 	},
 	{
-		key: 'KaedeharaKazuha',
-		level: 90,
-		constellation: 0,
-		ascension: 6,
-		talent: { auto: 7, skill: 9, burst: 9 },
-		element: 'Anemo',
+		key: 'Qiqi',
+		level: 20,
+		constellation: 4,
+		ascension: 1,
+		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Cryo',
 		stars: 5,
-		weapon: { key: 'FavoniusSword', level: 90, ascension: 6, refinement: 5 },
-		artifacts: [
-			{
-				setKey: 'ViridescentVenerer',
-				slotKey: 'flower',
-				level: 20,
-				rarity: 5,
-				mainStatKey: 'hp',
-				substats: [
-					{ key: 'eleMas', value: 61 },
-					{ key: 'atk', value: 33 },
-					{ key: 'enerRech_', value: 10.4 },
-					{ key: 'def', value: 19 }
-				]
-			},
-			{
-				setKey: 'ViridescentVenerer',
-				slotKey: 'plume',
-				level: 20,
-				rarity: 5,
-				mainStatKey: 'atk',
-				substats: [
-					{ key: 'def', value: 19 },
-					{ key: 'enerRech_', value: 4.5 },
-					{ key: 'eleMas', value: 35 },
-					{ key: 'hp_', value: 20.4 }
-				]
-			},
-			{
-				setKey: 'ViridescentVenerer',
-				slotKey: 'sands',
-				level: 20,
-				rarity: 5,
-				mainStatKey: 'eleMas',
-				substats: [
-					{ key: 'def', value: 37 },
-					{ key: 'hp', value: 239 },
-					{ key: 'hp_', value: 10.5 },
-					{ key: 'enerRech_', value: 16.8 }
-				]
-			},
-			{
-				setKey: 'ViridescentVenerer',
-				slotKey: 'goblet',
-				level: 20,
-				rarity: 5,
-				mainStatKey: 'eleMas',
-				substats: [
-					{ key: 'atk_', value: 8.2 },
-					{ key: 'hp', value: 777 },
-					{ key: 'atk', value: 58 },
-					{ key: 'def', value: 21 }
-				]
-			},
-			{
-				setKey: 'MaidenBeloved',
-				slotKey: 'circlet',
-				level: 20,
-				rarity: 5,
-				mainStatKey: 'eleMas',
-				substats: [
-					{ key: 'enerRech_', value: 11 },
-					{ key: 'def_', value: 10.2 },
-					{ key: 'critDMG_', value: 21.8 },
-					{ key: 'hp', value: 209 }
-				]
-			}
-		],
-		ranking: {
-			name: 'EM + ER (+ CR) balance formula',
-			details:
-				'Assumes Favonius Sword R5 (EM / 1000 + ER / 500) * 5000 + (vv ? 2000 : 0) + (CR > 15% ? (CR * 1500) : 0)',
-			weapon: 'Favonius Sword',
-			weaponStars: 4,
-			ranking: 486942,
-			outOf: 961251,
-			stats: {}
-		}
+		weapon: { key: 'DullBlade', level: 1, ascension: 0, refinement: 1 }
+	},
+	{
+		key: 'Chongyun',
+		level: 20,
+		constellation: 6,
+		ascension: 1,
+		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Cryo',
+		stars: 4,
+		weapon: { key: 'WasterGreatsword', level: 1, ascension: 0, refinement: 1 }
+	},
+	{
+		key: 'Sethos',
+		level: 20,
+		constellation: 0,
+		ascension: 1,
+		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Electro',
+		stars: 4,
+		weapon: { key: 'HuntersBow', level: 1, ascension: 0, refinement: 1 }
+	},
+	{
+		key: 'KujouSara',
+		level: 20,
+		constellation: 3,
+		ascension: 1,
+		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Electro',
+		stars: 4,
+		weapon: { key: 'HuntersBow', level: 1, ascension: 0, refinement: 1 }
+	},
+	{
+		key: 'Collei',
+		level: 20,
+		constellation: 6,
+		ascension: 1,
+		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Dendro',
+		stars: 4,
+		weapon: { key: 'HuntersBow', level: 1, ascension: 0, refinement: 1 }
+	},
+	{
+		key: 'Candace',
+		level: 20,
+		constellation: 4,
+		ascension: 1,
+		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Hydro',
+		stars: 4,
+		weapon: { key: 'BeginnersProtector', level: 1, ascension: 0, refinement: 1 }
+	},
+	{
+		key: 'Xinyan',
+		level: 20,
+		constellation: 6,
+		ascension: 1,
+		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Pyro',
+		stars: 4,
+		weapon: { key: 'WasterGreatsword', level: 1, ascension: 0, refinement: 1 }
+	},
+	{
+		key: 'Dehya',
+		level: 1,
+		constellation: 0,
+		ascension: 0,
+		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Pyro',
+		stars: 5,
+		weapon: { key: 'WasterGreatsword', level: 1, ascension: 0, refinement: 1 }
+	},
+	{
+		key: 'LanYan',
+		level: 1,
+		constellation: 3,
+		ascension: 0,
+		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Anemo',
+		stars: 4,
+		weapon: { key: 'ApprenticesNotes', level: 1, ascension: 0, refinement: 1 }
+	},
+	{
+		key: 'Lynette',
+		level: 1,
+		constellation: 6,
+		ascension: 0,
+		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Anemo',
+		stars: 4,
+		weapon: { key: 'DullBlade', level: 1, ascension: 0, refinement: 1 }
+	},
+	{
+		key: 'Mika',
+		level: 1,
+		constellation: 6,
+		ascension: 0,
+		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Cryo',
+		stars: 4,
+		weapon: { key: 'BeginnersProtector', level: 1, ascension: 0, refinement: 1 }
+	},
+	{
+		key: 'Rosaria',
+		level: 1,
+		constellation: 6,
+		ascension: 0,
+		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Cryo',
+		stars: 4,
+		weapon: { key: 'BeginnersProtector', level: 1, ascension: 0, refinement: 1 }
+	},
+	{
+		key: 'Dori',
+		level: 1,
+		constellation: 4,
+		ascension: 0,
+		talent: { auto: 1, skill: 1, burst: 1 },
+		element: 'Electro',
+		stars: 4,
+		weapon: { key: 'WasterGreatsword', level: 1, ascension: 0, refinement: 1 }
 	}
 ];
 const weapons: GenshinWeapon[] = [
@@ -3701,8 +4169,8 @@ const weapons: GenshinWeapon[] = [
 		location: 'Arlecchino',
 		stars: 5
 	},
-	{ key: 'CalamityQueller', level: 90, refinement: 1, ascension: 6, stars: 5 },
 	{ key: 'SkywardSpine', level: 90, refinement: 1, ascension: 6, location: 'Thoma', stars: 5 },
+	{ key: 'CalamityQueller', level: 90, refinement: 1, ascension: 6, stars: 5 },
 	{ key: 'StaffOfHoma', level: 90, refinement: 1, ascension: 6, location: 'Xiao', stars: 5 },
 	{ key: 'StaffOfHoma', level: 90, refinement: 1, ascension: 6, location: 'HuTao', stars: 5 },
 	{ key: 'PeakPatrolSong', level: 90, refinement: 1, ascension: 6, location: 'Xilonen', stars: 5 },
@@ -3765,8 +4233,8 @@ const weapons: GenshinWeapon[] = [
 		location: 'RaidenShogun',
 		stars: 4
 	},
-	{ key: 'EarthShaker', level: 90, refinement: 1, ascension: 6, location: 'Gaming', stars: 4 },
 	{ key: 'MailedFlower', level: 90, refinement: 5, ascension: 6, location: 'Mavuika', stars: 4 },
+	{ key: 'EarthShaker', level: 90, refinement: 1, ascension: 6, location: 'Gaming', stars: 4 },
 	{ key: 'LuxuriousSeaLord', level: 90, refinement: 5, ascension: 6, location: 'Diluc', stars: 4 },
 	{ key: 'SerpentSpine', level: 90, refinement: 5, ascension: 6, location: 'Noelle', stars: 4 },
 	{
@@ -3778,7 +4246,7 @@ const weapons: GenshinWeapon[] = [
 		stars: 4
 	},
 	{ key: 'FinaleOfTheDeep', level: 90, refinement: 4, ascension: 6, stars: 4 },
-	{ key: 'WolfFang', level: 90, refinement: 4, ascension: 6, stars: 4 },
+	{ key: 'WolfFang', level: 90, refinement: 5, ascension: 6, location: 'Kaeya', stars: 4 },
 	{
 		key: 'ToukabouShigure',
 		level: 90,
@@ -3808,8 +4276,16 @@ const weapons: GenshinWeapon[] = [
 		stars: 4
 	},
 	{ key: 'PrototypeAmber', level: 80, refinement: 1, ascension: 5, stars: 4 },
-	{ key: 'FavoniusLance', level: 80, refinement: 4, ascension: 5, location: 'YunJin', stars: 4 },
-	{ key: 'FavoniusGreatsword', level: 70, refinement: 5, ascension: 4, location: 'Sayu', stars: 4 },
+	{ key: 'TamayurateiNoOhanashi', level: 80, refinement: 5, ascension: 5, stars: 4 },
+	{ key: 'FavoniusLance', level: 80, refinement: 5, ascension: 5, location: 'YunJin', stars: 4 },
+	{
+		key: 'FavoniusGreatsword',
+		level: 80,
+		refinement: 5,
+		ascension: 5,
+		location: 'Razor',
+		stars: 4
+	},
 	{ key: 'CalamityOfEshu', level: 70, refinement: 5, ascension: 4, stars: 4 },
 	{ key: 'Cloudforged', level: 60, refinement: 5, ascension: 3, location: 'Venti', stars: 4 },
 	{ key: 'IbisPiercer', level: 60, refinement: 5, ascension: 3, stars: 4 },
@@ -3836,38 +4312,47 @@ const weapons: GenshinWeapon[] = [
 	{ key: 'Rust', level: 1, refinement: 5, ascension: 0, stars: 4 },
 	{ key: 'SacrificialBow', level: 1, refinement: 5, ascension: 0, stars: 4 },
 	{ key: 'SacrificialBow', level: 1, refinement: 2, ascension: 0, stars: 4 },
+	{ key: 'SacrificialBow', level: 1, refinement: 1, ascension: 0, stars: 4 },
 	{ key: 'TheStringless', level: 1, refinement: 5, ascension: 0, stars: 4 },
-	{ key: 'FavoniusWarbow', level: 1, refinement: 2, ascension: 0, stars: 4 },
+	{ key: 'TheStringless', level: 1, refinement: 1, ascension: 0, stars: 4 },
+	{ key: 'FavoniusWarbow', level: 1, refinement: 4, ascension: 0, stars: 4 },
 	{ key: 'RingOfYaxche', level: 1, refinement: 1, ascension: 0, stars: 4 },
 	{ key: 'EyeOfPerception', level: 1, refinement: 5, ascension: 0, stars: 4 },
 	{ key: 'EyeOfPerception', level: 1, refinement: 2, ascension: 0, stars: 4 },
-	{ key: 'SacrificialFragments', level: 1, refinement: 2, ascension: 0, stars: 4 },
+	{ key: 'SacrificialFragments', level: 1, refinement: 5, ascension: 0, stars: 4 },
+	{ key: 'SacrificialFragments', level: 1, refinement: 1, ascension: 0, stars: 4 },
 	{ key: 'TheWidsith', level: 1, refinement: 5, ascension: 0, stars: 4 },
 	{ key: 'TheWidsith', level: 1, refinement: 4, ascension: 0, stars: 4 },
 	{ key: 'FavoniusCodex', level: 1, refinement: 5, ascension: 0, stars: 4 },
-	{ key: 'FavoniusCodex', level: 1, refinement: 1, ascension: 0, stars: 4 },
-	{ key: 'MountainBracingBolt', level: 1, refinement: 2, ascension: 0, stars: 4 },
+	{ key: 'FavoniusCodex', level: 1, refinement: 2, ascension: 0, stars: 4 },
 	{ key: 'BalladOfTheFjords', level: 1, refinement: 5, ascension: 0, stars: 4 },
+	{ key: 'MountainBracingBolt', level: 1, refinement: 2, ascension: 0, stars: 4 },
 	{ key: 'DragonspineSpear', level: 1, refinement: 1, ascension: 0, stars: 4 },
+	{ key: 'FavoniusLance', level: 1, refinement: 1, ascension: 0, stars: 4 },
+	{ key: 'FavoniusLance', level: 1, refinement: 1, ascension: 0, stars: 4 },
 	{ key: 'LithicSpear', level: 1, refinement: 1, ascension: 0, stars: 4 },
 	{ key: 'DragonsBane', level: 1, refinement: 5, ascension: 0, stars: 4 },
 	{ key: 'DragonsBane', level: 1, refinement: 2, ascension: 0, stars: 4 },
 	{ key: 'LithicBlade', level: 1, refinement: 2, ascension: 0, stars: 4 },
 	{ key: 'Rainslasher', level: 1, refinement: 5, ascension: 0, stars: 4 },
-	{ key: 'Rainslasher', level: 1, refinement: 2, ascension: 0, stars: 4 },
+	{ key: 'Rainslasher', level: 1, refinement: 4, ascension: 0, stars: 4 },
 	{ key: 'SacrificialGreatsword', level: 1, refinement: 2, ascension: 0, stars: 4 },
+	{ key: 'SacrificialGreatsword', level: 1, refinement: 1, ascension: 0, stars: 4 },
 	{ key: 'TheBell', level: 1, refinement: 5, ascension: 0, stars: 4 },
 	{ key: 'TheBell', level: 1, refinement: 5, ascension: 0, stars: 4 },
+	{ key: 'TheBell', level: 1, refinement: 1, ascension: 0, stars: 4 },
 	{ key: 'FavoniusGreatsword', level: 1, refinement: 2, ascension: 0, stars: 4 },
+	{ key: 'FavoniusGreatsword', level: 1, refinement: 1, ascension: 0, stars: 4 },
+	{ key: 'FavoniusGreatsword', level: 1, refinement: 1, ascension: 0, stars: 4 },
 	{ key: 'SturdyBone', level: 1, refinement: 1, ascension: 0, stars: 4 },
 	{ key: 'SwordOfNarzissenkreuz', level: 1, refinement: 1, ascension: 0, stars: 4 },
 	{ key: 'KagotsurubeIsshin', level: 1, refinement: 1, ascension: 0, stars: 4 },
 	{ key: 'LionsRoar', level: 1, refinement: 5, ascension: 0, stars: 4 },
-	{ key: 'LionsRoar', level: 1, refinement: 2, ascension: 0, stars: 4 },
+	{ key: 'LionsRoar', level: 1, refinement: 5, ascension: 0, stars: 4 },
 	{ key: 'SacrificialSword', level: 1, refinement: 5, ascension: 0, stars: 4 },
 	{ key: 'SacrificialSword', level: 1, refinement: 1, ascension: 0, stars: 4 },
 	{ key: 'TheFlute', level: 1, refinement: 5, ascension: 0, stars: 4 },
-	{ key: 'TheFlute', level: 1, refinement: 1, ascension: 0, stars: 4 },
+	{ key: 'TheFlute', level: 1, refinement: 2, ascension: 0, stars: 4 },
 	{ key: 'FavoniusSword', level: 1, refinement: 5, ascension: 0, stars: 4 },
 	{ key: 'FavoniusSword', level: 1, refinement: 1, ascension: 0, stars: 4 },
 	{
@@ -3882,13 +4367,59 @@ const weapons: GenshinWeapon[] = [
 	{ key: 'DarkIronSword', level: 20, refinement: 1, ascension: 0, stars: 3 },
 	{ key: 'Messenger', level: 1, refinement: 2, ascension: 0, stars: 3 },
 	{ key: 'Slingshot', level: 1, refinement: 5, ascension: 0, stars: 3 },
+	{ key: 'Slingshot', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'Slingshot', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'Slingshot', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'Slingshot', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'Slingshot', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'Slingshot', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'Slingshot', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'Slingshot', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'Slingshot', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'Slingshot', level: 1, refinement: 1, ascension: 0, stars: 3 },
 	{ key: 'RecurveBow', level: 1, refinement: 1, ascension: 0, stars: 3 },
 	{ key: 'SharpshootersOath', level: 1, refinement: 5, ascension: 0, stars: 3 },
+	{ key: 'SharpshootersOath', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'SharpshootersOath', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'SharpshootersOath', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'SharpshootersOath', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'SharpshootersOath', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'SharpshootersOath', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'SharpshootersOath', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'SharpshootersOath', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'SharpshootersOath', level: 1, refinement: 1, ascension: 0, stars: 3 },
 	{ key: 'RavenBow', level: 1, refinement: 5, ascension: 0, stars: 3 },
+	{ key: 'RavenBow', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'RavenBow', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'RavenBow', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'RavenBow', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'RavenBow', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'RavenBow', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'RavenBow', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'RavenBow', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'RavenBow', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'RavenBow', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'RavenBow', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'RavenBow', level: 1, refinement: 1, ascension: 0, stars: 3 },
 	{ key: 'TwinNephrite', level: 1, refinement: 4, ascension: 0, stars: 3 },
 	{ key: 'EmeraldOrb', level: 1, refinement: 5, ascension: 0, stars: 3 },
+	{ key: 'EmeraldOrb', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'EmeraldOrb', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'EmeraldOrb', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'EmeraldOrb', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'EmeraldOrb', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'EmeraldOrb', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'EmeraldOrb', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'EmeraldOrb', level: 1, refinement: 1, ascension: 0, stars: 3 },
 	{ key: 'OtherworldlyStory', level: 1, refinement: 1, ascension: 0, stars: 3 },
-	{ key: 'ThrillingTalesOfDragonSlayers', level: 1, refinement: 5, ascension: 0, stars: 3 },
+	{
+		key: 'ThrillingTalesOfDragonSlayers',
+		level: 1,
+		refinement: 5,
+		ascension: 0,
+		location: 'Charlotte',
+		stars: 3
+	},
 	{ key: 'ThrillingTalesOfDragonSlayers', level: 1, refinement: 5, ascension: 0, stars: 3 },
 	{
 		key: 'ThrillingTalesOfDragonSlayers',
@@ -3898,21 +4429,161 @@ const weapons: GenshinWeapon[] = [
 		location: 'Sucrose',
 		stars: 3
 	},
+	{ key: 'ThrillingTalesOfDragonSlayers', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'ThrillingTalesOfDragonSlayers', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'ThrillingTalesOfDragonSlayers', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'ThrillingTalesOfDragonSlayers', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'ThrillingTalesOfDragonSlayers', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'ThrillingTalesOfDragonSlayers', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'ThrillingTalesOfDragonSlayers', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'ThrillingTalesOfDragonSlayers', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'ThrillingTalesOfDragonSlayers', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'ThrillingTalesOfDragonSlayers', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'ThrillingTalesOfDragonSlayers', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'ThrillingTalesOfDragonSlayers', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'ThrillingTalesOfDragonSlayers', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'ThrillingTalesOfDragonSlayers', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'ThrillingTalesOfDragonSlayers', level: 1, refinement: 1, ascension: 0, stars: 3 },
 	{ key: 'MagicGuide', level: 1, refinement: 5, ascension: 0, stars: 3 },
+	{ key: 'MagicGuide', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'MagicGuide', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'MagicGuide', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'MagicGuide', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'MagicGuide', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'MagicGuide', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'MagicGuide', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'MagicGuide', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'MagicGuide', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'MagicGuide', level: 1, refinement: 1, ascension: 0, stars: 3 },
 	{ key: 'BlackTassel', level: 1, refinement: 5, ascension: 0, stars: 3 },
+	{ key: 'BlackTassel', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'BlackTassel', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'BlackTassel', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'BlackTassel', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'BlackTassel', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'BlackTassel', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'BlackTassel', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'BlackTassel', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'BlackTassel', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'BlackTassel', level: 1, refinement: 1, ascension: 0, stars: 3 },
 	{ key: 'Halberd', level: 1, refinement: 5, ascension: 0, stars: 3 },
 	{ key: 'WhiteTassel', level: 1, refinement: 5, ascension: 0, stars: 3 },
 	{ key: 'SkyriderGreatsword', level: 1, refinement: 5, ascension: 0, stars: 3 },
 	{ key: 'DebateClub', level: 1, refinement: 5, ascension: 0, stars: 3 },
+	{ key: 'DebateClub', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'DebateClub', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'DebateClub', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'DebateClub', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'DebateClub', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'DebateClub', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'DebateClub', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'DebateClub', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'DebateClub', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'DebateClub', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'DebateClub', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'DebateClub', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'DebateClub', level: 1, refinement: 1, ascension: 0, stars: 3 },
 	{ key: 'WhiteIronGreatsword', level: 1, refinement: 1, ascension: 0, stars: 3 },
 	{ key: 'BloodtaintedGreatsword', level: 1, refinement: 5, ascension: 0, stars: 3 },
+	{ key: 'BloodtaintedGreatsword', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'BloodtaintedGreatsword', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'BloodtaintedGreatsword', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'BloodtaintedGreatsword', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'BloodtaintedGreatsword', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'BloodtaintedGreatsword', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'BloodtaintedGreatsword', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'BloodtaintedGreatsword', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'BloodtaintedGreatsword', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'BloodtaintedGreatsword', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'BloodtaintedGreatsword', level: 1, refinement: 1, ascension: 0, stars: 3 },
 	{ key: 'FerrousShadow', level: 1, refinement: 5, ascension: 0, stars: 3 },
+	{ key: 'FerrousShadow', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'FerrousShadow', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'FerrousShadow', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'FerrousShadow', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'FerrousShadow', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'FerrousShadow', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'FerrousShadow', level: 1, refinement: 1, ascension: 0, stars: 3 },
 	{ key: 'SkyriderSword', level: 1, refinement: 5, ascension: 0, stars: 3 },
+	{ key: 'FerrousShadow', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'SkyriderSword', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'SkyriderSword', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'SkyriderSword', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'SkyriderSword', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'SkyriderSword', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'SkyriderSword', level: 1, refinement: 1, ascension: 0, stars: 3 },
 	{ key: 'FilletBlade', level: 1, refinement: 5, ascension: 0, stars: 3 },
 	{ key: 'TravelersHandySword', level: 1, refinement: 1, ascension: 0, stars: 3 },
 	{ key: 'HarbingerOfDawn', level: 1, refinement: 5, ascension: 0, stars: 3 },
+	{ key: 'HarbingerOfDawn', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'HarbingerOfDawn', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'HarbingerOfDawn', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'HarbingerOfDawn', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'HarbingerOfDawn', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'HarbingerOfDawn', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'HarbingerOfDawn', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'HarbingerOfDawn', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'HarbingerOfDawn', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'HarbingerOfDawn', level: 1, refinement: 1, ascension: 0, stars: 3 },
 	{ key: 'CoolSteel', level: 1, refinement: 5, ascension: 0, stars: 3 },
-	{ key: 'HuntersBow', level: 1, refinement: 1, ascension: 0, location: 'Diona', stars: 1 }
+	{ key: 'CoolSteel', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'CoolSteel', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'CoolSteel', level: 1, refinement: 1, ascension: 0, stars: 3 },
+	{ key: 'WasterGreatsword', level: 1, refinement: 1, ascension: 0, location: 'Sayu', stars: 1 },
+	{ key: 'HuntersBow', level: 1, refinement: 1, ascension: 0, location: 'Diona', stars: 1 },
+	{ key: 'DullBlade', level: 1, refinement: 1, ascension: 0, stars: 1 },
+	{ key: 'ApprenticesNotes', level: 1, refinement: 1, ascension: 0, location: 'Barbara', stars: 1 },
+	{
+		key: 'BeginnersProtector',
+		level: 1,
+		refinement: 1,
+		ascension: 0,
+		location: 'Yaoyao',
+		stars: 1
+	},
+	{
+		key: 'ApprenticesNotes',
+		level: 1,
+		refinement: 1,
+		ascension: 0,
+		location: 'Ningguang',
+		stars: 1
+	},
+	{ key: 'ApprenticesNotes', level: 1, refinement: 1, ascension: 0, location: 'Lisa', stars: 1 },
+	{ key: 'DullBlade', level: 1, refinement: 1, ascension: 0, location: 'Qiqi', stars: 1 },
+	{
+		key: 'WasterGreatsword',
+		level: 1,
+		refinement: 1,
+		ascension: 0,
+		location: 'Chongyun',
+		stars: 1
+	},
+	{ key: 'HuntersBow', level: 1, refinement: 1, ascension: 0, location: 'Sethos', stars: 1 },
+	{ key: 'HuntersBow', level: 1, refinement: 1, ascension: 0, location: 'KujouSara', stars: 1 },
+	{ key: 'HuntersBow', level: 1, refinement: 1, ascension: 0, location: 'Collei', stars: 1 },
+	{
+		key: 'BeginnersProtector',
+		level: 1,
+		refinement: 1,
+		ascension: 0,
+		location: 'Candace',
+		stars: 1
+	},
+	{ key: 'WasterGreatsword', level: 1, refinement: 1, ascension: 0, location: 'Xinyan', stars: 1 },
+	{ key: 'WasterGreatsword', level: 1, refinement: 1, ascension: 0, location: 'Dehya', stars: 1 },
+	{ key: 'ApprenticesNotes', level: 1, refinement: 1, ascension: 0, location: 'LanYan', stars: 1 },
+	{ key: 'DullBlade', level: 1, refinement: 1, ascension: 0, location: 'Lynette', stars: 1 },
+	{ key: 'BeginnersProtector', level: 1, refinement: 1, ascension: 0, location: 'Mika', stars: 1 },
+	{
+		key: 'BeginnersProtector',
+		level: 1,
+		refinement: 1,
+		ascension: 0,
+		location: 'Rosaria',
+		stars: 1
+	},
+	{ key: 'WasterGreatsword', level: 1, refinement: 1, ascension: 0, location: 'Dori', stars: 1 }
 ];
 const artifacts: GenshinArtifact[] = [
 	{
@@ -3977,6 +4648,7 @@ const artifacts: GenshinArtifact[] = [
 		],
 		setKey: 'ObsidianCodex',
 		slotKey: 'plume',
+		location: 'Mavuika',
 		cv: 42
 	},
 	{
@@ -3989,6 +4661,7 @@ const artifacts: GenshinArtifact[] = [
 		],
 		setKey: 'GoldenTroupe',
 		slotKey: 'goblet',
+		location: 'Furina',
 		cv: 42
 	},
 	{
@@ -4040,7 +4713,7 @@ const artifacts: GenshinArtifact[] = [
 		],
 		setKey: 'GladiatorsFinale',
 		slotKey: 'flower',
-		location: 'Mavuika',
+		location: 'Razor',
 		cv: 41.2
 	},
 	{
@@ -4119,6 +4792,19 @@ const artifacts: GenshinArtifact[] = [
 		setKey: 'FragmentOfHarmonicWhimsy',
 		slotKey: 'flower',
 		location: 'Arlecchino',
+		cv: 38
+	},
+	{
+		mainStatKey: 'hp',
+		substats: [
+			{ key: 'critRate_', value: 12.4 },
+			{ key: 'critDMG_', value: 13.2 },
+			{ key: 'atk', value: 16 },
+			{ key: 'atk_', value: 11.1 }
+		],
+		setKey: 'EmblemOfSeveredFate',
+		slotKey: 'flower',
+		location: 'Charlotte',
 		cv: 38
 	},
 	{
@@ -4417,6 +5103,18 @@ const artifacts: GenshinArtifact[] = [
 		cv: 32.7
 	},
 	{
+		mainStatKey: 'atk',
+		substats: [
+			{ key: 'critDMG_', value: 13.2 },
+			{ key: 'critRate_', value: 9.7 },
+			{ key: 'atk_', value: 9.9 },
+			{ key: 'def', value: 32 }
+		],
+		setKey: 'ObsidianCodex',
+		slotKey: 'plume',
+		cv: 32.6
+	},
+	{
 		mainStatKey: 'atk_',
 		substats: [
 			{ key: 'critDMG_', value: 21 },
@@ -4463,6 +5161,7 @@ const artifacts: GenshinArtifact[] = [
 		],
 		setKey: 'GladiatorsFinale',
 		slotKey: 'plume',
+		location: 'Razor',
 		cv: 32.6
 	},
 	{
@@ -4475,6 +5174,7 @@ const artifacts: GenshinArtifact[] = [
 		],
 		setKey: 'GoldenTroupe',
 		slotKey: 'flower',
+		location: 'Furina',
 		cv: 32
 	},
 	{
@@ -4667,6 +5367,18 @@ const artifacts: GenshinArtifact[] = [
 		setKey: 'ScrollOfTheHeroOfCinderCity',
 		slotKey: 'sands',
 		location: 'Xilonen',
+		cv: 30.3
+	},
+	{
+		mainStatKey: 'hp',
+		substats: [
+			{ key: 'critRate_', value: 6.2 },
+			{ key: 'critDMG_', value: 17.9 },
+			{ key: 'def', value: 21 },
+			{ key: 'enerRech_', value: 14.9 }
+		],
+		setKey: 'FragmentOfHarmonicWhimsy',
+		slotKey: 'flower',
 		cv: 30.3
 	},
 	{
