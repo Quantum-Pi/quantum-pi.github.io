@@ -1,1 +1,0 @@
-const e={sources:{webp:""+new URL("../assets/Skill_A_Catalyst_MD.CgKUdWBM.webp",import.meta.url).href+" 64w, "+new URL("../assets/Skill_A_Catalyst_MD.DV33bcfe.webp",import.meta.url).href+" 128w"},img:{src:""+new URL("../assets/Skill_A_Catalyst_MD.DV33bcfe.webp",import.meta.url).href,w:128,h:128}};export{e as default};
