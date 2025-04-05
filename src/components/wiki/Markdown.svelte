@@ -3,18 +3,28 @@
 	import DOMPurify from 'dompurify';
 
     type Props = {
+        urlSource?: boolean;
         markdown: string;
     }
 
-    let { markdown }: Props = $props();
+    let { markdown, urlSource = false }: Props = $props();
 
-	const markdownPromise = marked(markdown, {
-		async: true
-	});
+    const convertMarkdown = async () => {
+        if (urlSource) {
+            const text = await (await fetch(markdown)).text()
+            return marked(text, {
+                async: true
+            }); 
+        } else {
+            return marked(markdown, {
+                async: true
+            });
+        }
+    }
 </script>
 
 <div>
-	{#await markdownPromise}
+	{#await convertMarkdown()}
 		<div>Loading...</div>
 	{:then markdownHtml}
 		<div>
