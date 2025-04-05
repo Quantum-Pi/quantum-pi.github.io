@@ -19,14 +19,14 @@ export const nonSteamGames: NonSteamGame[] = [
 	{
 		appid: 'genshin',
 		name: 'Genshin Impact',
-		playtime: 80301,
+		playtime: 80301, // minutes
 		playtime_recorded: 1741668382,
 		nonSteam: true
 	},
 	{
 		appid: 'wow',
 		name: 'World of Warcraft',
-		playtime: 241497,
+		playtime: 241497, // minutes
 		last_played: 1721298730,
 		nonSteam: true
 	}
