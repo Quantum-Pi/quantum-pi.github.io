@@ -16,12 +16,12 @@
 	<div class="flex flex-col xl:flex-row gap-8">
 		<PreviewImage
 			image={FarmDay}
-			preivewClass="max-w-md lg:max-w-2xl border-4 border-amber-950 rounded-lg shadow-lg"
+			preivewClass="max-w-[90vw] lg:max-w-2xl border-4 border-amber-950 rounded-lg shadow-lg"
 			ariaLabel="farm-day"
 		/>
 		<PreviewImage
 			image={FarmNight}
-			preivewClass="max-w-md lg:max-w-2xl border-4 border-amber-950 rounded-lg shadow-lg"
+			preivewClass="max-w-[90vw] lg:max-w-2xl border-4 border-amber-950 rounded-lg shadow-lg"
 			ariaLabel="farm-night"
 		/>
 	</div>

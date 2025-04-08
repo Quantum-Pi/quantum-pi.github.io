@@ -17,7 +17,7 @@
 </script>
 
 <div
-	class="grid grid-areas-footer sm:grid-areas-footer-sm md:grid-areas-footer-md p-24 gap-y-4 gap-x-12 text-white"
+	class="grid grid-areas-footer sm:grid-areas-footer-sm md:grid-areas-footer-md pt-24 gap-y-4 gap-x-12 text-white"
 >
 	<div class="[grid-area:a] flex flex-col items-center">
 		{#if isEnhancedImage(pfp)}
