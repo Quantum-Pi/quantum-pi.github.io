@@ -1,6 +1,34 @@
 <script lang="ts">
-	import { marked, type RendererObject } from 'marked';
+	import {
+		marked,
+		type RendererObject,
+		type TokenizerAndRendererExtension,
+		type Tokens
+	} from 'marked';
 	import DOMPurify from 'dompurify';
+
+	const spoiler: TokenizerAndRendererExtension = {
+		name: 'spoiler',
+		level: 'inline',
+		start(src) {
+			return src.match(/||/)?.index;
+		},
+		tokenizer(src, _) {
+			const rule = /(\|\|)([\s\S]*?)(\|\|)/g;
+			const match = rule.exec(src);
+			if (match) {
+				const token: Tokens.Generic = {
+					type: 'spoiler',
+					raw: match[0],
+					text: match[2]
+				};
+				return token;
+			}
+		},
+		renderer(token) {
+			return `<span class="spoiler">${token.text}</span>`;
+		}
+	};
 
 	const renderer: RendererObject = {
 		image({ href, title, text }) {
@@ -14,52 +42,7 @@
 						? 'text-xl font-bold mt-2'
 						: 'text-lg';
 			return `<h${depth} class="${style}">${text}</h${depth}>`;
-		},
-		// TODO - investigate
-		// list({ items, ordered, start }) {
-		// 	let body = '';
-		// 	for (let j = 0; j < items.length; j++) {
-		// 		const item = items[j];
-		// 		body += this.listitem(item);
-		// 	}
-            
-        //     console.log(`${start} - ${items.length}`)
-		// 	const type = ordered ? 'ol' : 'ul';
-		// 	const startAttr = ordered && start !== 1 ? ' start="' + start + '"' : '';
-        //     return `<${type}${startAttr} class="list-disc">\n${body}</${type}>\n`;
-		// },
-		// listitem({ task, checked, tokens, loose }) {
-		// 	let itemBody = '';
-		// 	if (task) {
-		// 		const checkbox = this.checkbox({ checked: !!checked });
-		// 		if (loose) {
-		// 			if (tokens[0]?.type === 'paragraph') {
-		// 				tokens[0].text = checkbox + ' ' + tokens[0].text;
-		// 				if (
-		// 					tokens[0].tokens &&
-		// 					tokens[0].tokens.length > 0 &&
-		// 					tokens[0].tokens[0].type === 'text'
-		// 				) {
-		// 					tokens[0].tokens[0].text = checkbox + ' ' + escape(tokens[0].tokens[0].text);
-		// 					tokens[0].tokens[0].escaped = true;
-		// 				}
-		// 			} else {
-		// 				tokens.unshift({
-		// 					type: 'text',
-		// 					raw: checkbox + ' ',
-		// 					text: checkbox + ' ',
-		// 					escaped: true
-		// 				});
-		// 			}
-		// 		} else {
-		// 			itemBody += checkbox + ' ';
-		// 		}
-		// 	}
-
-		// 	itemBody += this.parser.parse(tokens, !!loose);
-
-		// 	return `<li>${itemBody}</li>\n`;
-		// }
+		}
 	};
 
 	type Props = {
@@ -67,7 +50,11 @@
 		markdown: string;
 	};
 
-	marked.use({ renderer });
+	marked.use({
+		renderer,
+		extensions: [spoiler],
+		hooks: { postprocess: (html) => DOMPurify.sanitize(html) }
+	});
 
 	let { markdown, urlSource = false }: Props = $props();
 
@@ -96,7 +83,7 @@
 		<div>Loading...</div>
 	{:then markdownHtml}
 		<div>
-			{@html DOMPurify.sanitize(markdownHtml)}
+			{@html markdownHtml}
 		</div>
 	{:catch error}
 		<div>Error: {error.message}</div>
@@ -117,7 +104,25 @@
 
 		h3 {
 			font-size: 1.75rem;
-			margin-bottom: 1rem;
+			margin: 1rem 0;
+		}
+
+		ul {
+			margin-left: 32px;
+		}
+
+		li {
+			list-style: circle;
+		}
+
+		.spoiler {
+			background-color: #4a4a4a;
+			color: #4a4a4a;
+			cursor: pointer;
+			transition: color 0.3s ease;
+			&:hover {
+				color: #fff;
+			}
 		}
 	}
 </style>
