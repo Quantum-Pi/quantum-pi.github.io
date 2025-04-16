@@ -95,6 +95,10 @@
 		h1 {
 			font-size: 2.5rem;
 			margin-bottom: 1rem;
+
+			&:not(:first-of-type) {
+				margin-top: 2rem;
+			}
 		}
 
 		h2 {
@@ -122,6 +126,32 @@
 			transition: color 0.3s ease;
 			&:hover {
 				color: #fff;
+			}
+		}
+
+		a {
+			color: #00bde7;
+			text-decoration: underline;
+		}
+
+		blockquote {
+			margin-top: 8px;
+			margin-left: 16px;
+			background-color: var(--color-gray-800);
+			border-left: 10px solid var(--color-gray-600);
+			padding: 8px;
+
+			p {
+				margin-bottom: 4px;
+				prefix: "\"";
+				suffix: "\"";
+
+				&::before {
+					content: "> \"";
+				}
+				&::after {
+					content: "\"";
+				}
 			}
 		}
 	}
