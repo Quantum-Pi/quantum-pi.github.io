@@ -301,7 +301,17 @@
 </script>
 
 <div class="p-8">
-	<div>WIP, may be jank</div>
+	<div>
+		Soul weapon engravement optimimzer for <a
+			class="text-blue-500"
+			href="https://www.reddit.com/r/SlayerLegend/">Slayer Legends</a
+		>
+	</div>
+	<div class="my-4">
+		<div>If you have any comments/requests you can reach out to me via:</div>
+		<div class="ml-3">Discord: quantumpie</div>
+		<div class="ml-3">Reddit: u/QuantumPie_</div>
+	</div>
 	<div class="mt-8 flex flex-col justify-center w-min">
 		<div class="space-y-2 mb-4">
 			{#each [0, 1, 2, 3] as r}
