@@ -8,13 +8,26 @@
 
 	type Solution = Placement[];
 
+	const MAX_ITERATIONS = 10000000;
+	const MAX_SOL = 90;
+	let itr = $state(0);
 	let board = $state([
-		[false, true, true, true],
-		[false, true, true, true],
-		[false, true, false, true],
-		[true, true, true, true]
+		[false, true, true, true, false, false, false],
+		[false, true, true, true, false, false, false],
+		[false, true, false, true, false, false, false],
+		[true, true, true, true, false, false, false],
+		[false, false, false, false, false, false, false],
+		[false, false, false, false, false, false, false],
+		[false, false, false, false, false, false, false]
 	]);
+
+	$effect(() => {
+		board;
+		piecesInUse;
+		solutionsToCheck = getAllPlacements(true).length;
+	});
 	let solutions: Solution[] | null = $state(null);
+	let solutionsToCheck = $state(0);
 
 	const updateBoard = (r: number, c: number) => {
 		board[r][c] = !board[r][c];
@@ -22,7 +35,7 @@
 	};
 
 	const generateGrid = (solution: Solution): (string | null)[][] => {
-		const grid: (string | null)[][] = Array.from({ length: 4 }, () => Array(4).fill(null));
+		const grid: (string | null)[][] = Array.from({ length: 7 }, () => Array(7).fill(null));
 
 		for (const { piece, rotation, position } of solution) {
 			const shape = pieces[piece][rotation];
@@ -155,6 +168,16 @@
 		]
 	};
 
+	let piecesInUse: Record<Piece, boolean> = $state({
+		I: true,
+		O: true,
+		T: true,
+		L: true,
+		J: true,
+		S: true,
+		Z: true
+	});
+
 	const generatePlacements = (
 		board: boolean[][],
 		piece: number[][][]
@@ -220,10 +243,7 @@
 		return board.every((row, r) => row.every((cell, c) => !cell || covered[r][c]));
 	};
 
-	const bruteForceSolutions = (
-		board: boolean[][],
-		pieces: Record<Piece, number[][][]>
-	): Solution[] => {
+	const getAllPlacements = (filter: boolean = false) => {
 		const allPlacements: { piece: Piece; rotation: number; position: [number, number] }[] = [];
 
 		for (const [pieceName, rotations] of Object.entries(pieces)) {
@@ -234,10 +254,23 @@
 			allPlacements.push(...placements);
 		}
 
+		return !filter ? allPlacements : allPlacements.filter(({ piece }) => piecesInUse[piece]);
+	};
+
+	const bruteForceSolutions = (
+		board: boolean[][],
+		pieces: Record<Piece, number[][][]>
+	): Solution[] => {
+		const allPlacements = getAllPlacements(false);
+		console.log('Number of placements: ', allPlacements.length);
+
 		const uniqueCombinations: Set<string> = new Set();
 		const solutions: Solution[] = [];
-
-		const combine = (currentSolution: Solution, covered: boolean[][]) => {
+		const combine = (
+			currentSolution: Solution,
+			covered: boolean[][],
+			recursive: boolean = false
+		) => {
 			if (isValidSolution(board, currentSolution)) {
 				const pieceCombination = currentSolution
 					.map(({ piece }) => piece)
@@ -251,7 +284,15 @@
 				return;
 			}
 
-			for (const placement of allPlacements) {
+			const filteredPlacements = recursive
+				? allPlacements
+				: allPlacements.filter(({ piece }) => piecesInUse[piece]);
+
+			for (const placement of filteredPlacements) {
+				if (itr > MAX_ITERATIONS) {
+					console.log('Iteration limit reached');
+					return;
+				}
 				const { piece, rotation, position } = placement;
 				const shape = pieces[piece][rotation];
 				const [row, col] = position;
@@ -267,6 +308,7 @@
 								break;
 							}
 						}
+						itr = itr + 1;
 					}
 					if (!valid) break;
 				}
@@ -283,7 +325,7 @@
 				}
 
 				currentSolution.push(placement);
-				combine(currentSolution, newCovered);
+				combine(currentSolution, newCovered, true);
 				currentSolution.pop();
 			}
 		};
@@ -294,9 +336,11 @@
 	};
 
 	const optimize = () => {
+		itr = 0;
 		const localBoard = $state.snapshot(board).map((row) => [...row]);
 		solutions = bruteForceSolutions(localBoard, pieces);
 		console.log('Unique Solutions:', $state.snapshot(solutions));
+		console.log('Iterations:', itr);
 	};
 </script>
 
@@ -312,11 +356,55 @@
 		<div class="ml-3">Discord: quantumpie</div>
 		<div class="ml-3">Reddit: u/QuantumPie_</div>
 	</div>
+	<span class="h4">How to use:</span>
+	<div class="flex flex-col gap-y-2 mb-4">
+		<span class="ml-4"
+			>1. Select which pieces you want to be included in the solved pattern (for example, if CRIT &
+			ATK are selected, the solutions must include at least one of those pieces)</span
+		>
+		<span class="ml-4"
+			>2. Check the boxes to match the pattern for your soul weapon. The current example is for a
+			4x4 weapon (note: it doesn't matter where the 4x4 region is centered)</span
+		>
+		<span class="ml-4"
+			>3. Click the "Start" button to find all possible solutions with the given constraints</span
+		>
+		<span
+			>Note: There are <span
+				class={`${solutionsToCheck >= MAX_SOL ? 'text-red-500' : 'text-green-500'}`}
+				>{solutionsToCheck}</span
+			>
+			initial solutions to check. If this number is over {MAX_SOL}, there will likely be to many
+			solutions to check and it will stop after checking {MAX_ITERATIONS.toLocaleString()} scenarios</span
+		>
+	</div>
+	<div>
+		{#each Object.entries(pieces) as [piece, _rotations]}
+			<div class="flex items-center space-x-2">
+				<label class="flex items-center space-x-2">
+					<input
+						class="checkbox"
+						type="checkbox"
+						checked={$state.snapshot(piecesInUse)[piece as Piece]}
+						onchange={() => {
+							piecesInUse[piece as Piece] = !piecesInUse[piece as Piece];
+							piecesInUse = { ...piecesInUse };
+						}}
+					/>
+				</label>
+				<div
+					class="w-8 h-8 border border-gray-300"
+					style="background-color: {pieceToColor[piece]}"
+				></div>
+				<span>{pieceToStat[piece]}</span>
+			</div>
+		{/each}
+	</div>
 	<div class="mt-8 flex flex-col justify-center w-min">
 		<div class="space-y-2 mb-4">
-			{#each [0, 1, 2, 3] as r}
+			{#each [0, 1, 2, 3, 4, 5, 6] as r}
 				<div class="flex items-center space-x-2">
-					{#each [0, 1, 2, 3] as c}
+					{#each [0, 1, 2, 3, 4, 5, 6] as c}
 						<label class="flex items-center space-x-2">
 							<input
 								class="checkbox"
@@ -333,8 +421,20 @@
 	</div>
 	<div class="w-screen">
 		{#if solutions}
+			<div class="mx-8 mt-4">
+				{#if itr >= MAX_ITERATIONS - 1}
+					<p class="text-red-500">
+						Iteration limit reached. Please try to reduce the number of pieces or the size of the
+						board.
+					</p>
+				{:else}
+					<p class="text-green-500">
+						Checked {itr.toLocaleString()} possible combinations.
+					</p>
+				{/if}
+			</div>
 			{#if solutions.length > 0}
-				<div class="p-8 flex flex-col justify-center w-min">
+				<div class="m-8 flex flex-col justify-center w-min">
 					<h2 class="text-2xl font-bold mb-4">Solutions</h2>
 					{#each solutions as solution, solutionIndex}
 						<div class="mb-8 w-screen">
@@ -342,7 +442,7 @@
 							<div class="mb-2">
 								<strong>Stats</strong>: {solution.map(({ piece }) => pieceToStat[piece]).join(', ')}
 							</div>
-							<div class="grid grid-cols-4 gap-1 w-fit">
+							<div class="grid grid-cols-7 gap-1 w-fit">
 								{#each generateGrid(solution) as row, rowIndex}
 									{#each row as cell, colIndex}
 										<div
