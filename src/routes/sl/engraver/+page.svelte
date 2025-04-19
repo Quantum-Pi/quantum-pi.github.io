@@ -50,6 +50,16 @@
 		Z: '#FFFFFF'
 	};
 
+	const pieceToStat: Record<string, string> = {
+		I: 'Gold',
+		O: 'Crit DMG',
+		T: 'HP Recovery',
+		L: 'ATK',
+		J: 'HP',
+		S: 'Accuracy',
+		Z: 'Dodge'
+	};
+
 	const pieces = {
 		I: [
 			[[1, 1, 1, 1]], // Horizontal
@@ -311,15 +321,18 @@
 		</div>
 		<button type="button" class="btn preset-filled-primary-500" onclick={optimize}>Start</button>
 	</div>
-	<div>
+	<div class="w-screen">
 		{#if solutions}
 			{#if solutions.length > 0}
 				<div class="p-8 flex flex-col justify-center w-min">
 					<h2 class="text-2xl font-bold mb-4">Solutions</h2>
 					{#each solutions as solution, solutionIndex}
-						<div class="mb-8">
+						<div class="mb-8 w-screen">
 							<h3 class="text-xl font-semibold mb-4">Solution {solutionIndex + 1}:</h3>
-							<div class="grid grid-cols-4 gap-1">
+							<div class="mb-2">
+								<strong>Stats</strong>: {solution.map(({ piece }) => pieceToStat[piece]).join(', ')}
+							</div>
+							<div class="grid grid-cols-4 gap-1 w-fit">
 								{#each generateGrid(solution) as row, rowIndex}
 									{#each row as cell, colIndex}
 										<div
