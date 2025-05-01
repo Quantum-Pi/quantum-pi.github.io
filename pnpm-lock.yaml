@@ -61,8 +61,8 @@ importers:
         specifier: ^1.7.9
         version: 1.7.9
       enka-network-api:
-        specifier: ^5.0.3
-        version: 5.0.3
+        specifier: ^5.0.4
+        version: 5.0.4
       eslint:
         specifier: ^9.19.0
         version: 9.19.0(jiti@2.4.2)
@@ -1343,8 +1343,8 @@ packages:
     resolution: {integrity: sha512-ZSW3ma5GkcQBIpwZTSRAI8N71Uuwgs93IezB7mf7R60tC8ZbJideoDNKjHn2O9KIlx6rkGTTEk1xUCK2E1Y2Yg==}
     engines: {node: '>=10.13.0'}
 
-  enka-network-api@5.0.3:
-    resolution: {integrity: sha512-b87lCeJ2UOuYbAqBUBzng/TuPhMciUxe3JK54FbGaS+ZHakihFWAdA/iLQRacNINb2qebfiw6wR0/ufzXiDFBQ==}
+  enka-network-api@5.0.4:
+    resolution: {integrity: sha512-Oz3XvEnccVbMEoWu39Jil2CxWiJsgwrQj1jTzPDHweJ2pvt75+Wb8uLQO64NUMe+j7I+9qs1V5Xz0HlMCW26Zg==}
     engines: {node: '>=16.0.0'}
 
   enka-system@0.3.7:
@@ -3378,7 +3378,7 @@ snapshots:
       graceful-fs: 4.2.11
       tapable: 2.2.1
 
-  enka-network-api@5.0.3:
+  enka-network-api@5.0.4:
     dependencies:
       axios: 1.7.9
       config_file.js: 1.4.1
