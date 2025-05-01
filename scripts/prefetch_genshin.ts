@@ -65,7 +65,7 @@ if (genshinProfile.good.characters) {
 						talent.name.get('en');
 						return {
 							name: `talent_${talent_i++}`,
-							url: talent.icon.url
+							url: talent.icon!.url
 						};
 					} catch {
 						return {

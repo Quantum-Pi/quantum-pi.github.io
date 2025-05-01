@@ -70,7 +70,7 @@ const rankingMap = genshinProfile.akasha.reduce(
 			weaponStars: number;
 			ranking: number;
 			outOf: number;
-			stats: Record<BuildStatKey, number>;
+			stats?: Record<BuildStatKey, number>;
 		} | null
 	>
 );
@@ -96,20 +96,26 @@ type GenshinCharacter = {
 		weapon: string;
 		ranking: number;
 		outOf: number;
-		stats: Record<BuildStatKey, number>;
+		stats?: Record<BuildStatKey, number>;
 	};
 };
 const characters: GenshinCharacter[] =
 	good.characters
 		?.map((character) => {
 			const characterData = genshinProfile.characters[character.key];
+			const ranking = rankingMap[character.key] ?? undefined;
+			if (ranking) {
+				if (Object.keys(ranking.stats ?? {}).length === 0) {
+					delete ranking.stats;
+				}
+			}
 			return {
 				...character,
 				element: characterData?.element,
 				stars: characterData?.stars,
 				weapon: weaponMap[character.key] ?? undefined,
 				artifacts: artifactMap[character.key] ?? undefined,
-				ranking: rankingMap[character.key] ?? undefined
+				ranking
 			};
 		})
 		.filter((character) => !character.key.includes('Traveler')) ?? []; // TODO: point of failure if new character has Traveler in name
@@ -228,7 +234,7 @@ type GenshinCharacter = {
 		weaponStars: number;
 		ranking: number;
 		outOf: number;
-		stats: Record<BuildStatKey, number>;
+		stats?: Record<BuildStatKey, number>;
 	};
 };
 
