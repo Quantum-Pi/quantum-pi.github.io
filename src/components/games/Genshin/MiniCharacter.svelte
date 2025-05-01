@@ -1,6 +1,8 @@
 <script lang="ts">
 	import type { GenshinCharacter } from '$lib/genshin_agg';
 	import { getCharacterImage } from '$lib/genshin_cache';
+	import { globalState } from '../../../state/state.svelte';
+	import CharacterCard from './CharacterCard/CharacterCard.svelte';
 
 	interface Props {
 		character: GenshinCharacter;
@@ -8,14 +10,26 @@
 
 	let { character }: Props = $props();
 
+	const hasStats = character.ranking?.stats !== undefined;
+
 	const getResources = async () => ({
 		icon: await getCharacterImage(character.key, 'characterIcon')
 	});
+
+	const openCharacter = () => {
+		if (hasStats) {
+			globalState.imagePreview = preview
+		}
+	}
 </script>
 
+{#snippet preview()}
+    <CharacterCard character={character} />
+{/snippet}
+
 {#await getResources() then resources}
-	<div style:--element={`var(--${character?.element ?? 'Pyro'}_Dark)`} class="text-white text-xs">
-		<div class="mini-character w-[72px] relative rounded-t-xs">
+	<svelte:element this={hasStats ? 'button' : 'div'} style:--element={`var(--${character?.element ?? 'Pyro'}_Dark)`} class={`text-white ${hasStats ? 'hoverable' : ''} text-xs`} onclick={openCharacter} role="link" tabindex="-1">
+		<div class='mini-character w-[72px] relative rounded-t-xs'>
 			<enhanced:img
 				class="w-[72px]"
 				src={resources.icon}
@@ -27,17 +41,12 @@
 			>
 				C{character.constellation}
 			</div>
-			<!-- <div
-				class="level flex justify-center items-center text-white rounded-tr-xs absolute bottom-0 left-0 text-xs"
-			>
-				L{character.level}
-			</div> -->
 		</div>
 		<div class="stats w-[72px] flex justify-between relative rounded-b-xs px-[1.5px]">
 			<span>L{character.level}</span>
 			<span>{character.talent.auto}/{character.talent.skill}/{character.talent.burst}</span>
 		</div>
-	</div>
+	</svelte:element>
 {/await}
 
 <style>
@@ -46,6 +55,18 @@
 
 		& :global(picture) {
 			filter: drop-shadow(3px 3px 3px #222);
+		}
+	}
+
+	.hoverable {
+		transition: 0.2s all;
+
+		&:hover {
+			transform: scale(1.05);
+		}
+		
+		&:active {
+			transform: scale(0.95);
 		}
 	}
 
@@ -71,10 +92,4 @@
 		width: 21px;
 		height: 21px;
 	}
-
-	/* .level {
-		background: rgba(0, 0, 0, 0.8);
-		width: 21px;
-		height: 21px;
-	} */
 </style>
