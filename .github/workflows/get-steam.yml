@@ -47,26 +47,24 @@ jobs:
         with:
           steamid: '76561198069744679'
           apikey: ${{ secrets.STEAM_API }}
-      # - name: Genshin Fetch
-      #   id: genshin
-      #   uses: quantum-pi/Action-GenshinAPI@v2.4
-      #   with:
-      #     uuid: 605452914
-      #     usage: 'QuantumPie.net Genshin profile display'
+      - name: Genshin Fetch
+        id: genshin
+        uses: quantum-pi/Action-GenshinAPI@v2.4
+        with:
+          uuid: 605452914
+          usage: 'QuantumPie.net Genshin profile display'
       - name: Write Output
         run: |
           echo "${{ steps.steam.outputs.json }}" > data/steam_raw.ts
-          # echo "${{ steps.genshin.outputs.json }}" > data/genshin_raw.ts
+          echo "${{ steps.genshin.outputs.json }}" > data/genshin_raw.ts
           pnpm format:data
-          # pnpm run prefetch
-          pnpm tsx scripts/prefetch_steam.ts
-          # pnpm run aggregate
-          pnpm tsx scripts/optimize_steam.ts
+          pnpm run prefetch
+          pnpm run aggregate
 
           git config --global user.email "no-reply@github.com"
           git config --global user.name "GitHub Actions"
           git add data/steam_raw.ts
-          # git add data/genshin_raw.ts
+          git add data/genshin_raw.ts
           git add src/lib/steam_agg.ts
           git add src/lib/cache.ts
           git add src/assets/games/
