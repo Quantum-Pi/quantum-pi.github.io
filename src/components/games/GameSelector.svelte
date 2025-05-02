@@ -59,11 +59,11 @@
 </script>
 
 <div class="text-white text-lg flex gap-8 w-full justify-center mb-4">
-	<button class="cursor-pointer" onclick={() => setMode('ESO')} tabindex="0" title="ESO Showcase">
+	<button class={`pb-2 ${isActive('ESO') ? 'border-b-2 border-[#8F865E] cursor-default' : 'border-b-2 border-transparent hoverable'}`} onclick={() => setMode('ESO')} tabindex="0" title="ESO Showcase">
 		<Eso --size="48px" --color={mode === 'ESO' ? '#8F865E' : 'white'} />
 	</button>
 	<button
-		class="cursor-pointer"
+		class={`pb-2 ${isActive('ER') ? 'border-b-2 border-[#ffbc75] cursor-default' : 'border-b-2 border-transparent hoverable'}`}
 		onclick={() => setMode('ER')}
 		tabindex="0"
 		title="Elden Ring Showcase"
@@ -90,6 +90,14 @@
 </div>
 
 <style>
+	.hoverable {
+		transition: all 0.2s ease-in-out;
+		&:hover {
+			transform: scale(1.1);
+			border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+		}
+	}
+
 	.fadein {
 		animation: slide-in-right 1s forwards;
 	}
