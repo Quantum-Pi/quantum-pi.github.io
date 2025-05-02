@@ -1,29 +1,28 @@
 <script module lang="ts">
-	type GetResources = () => Promise<{
+	export type Resources = {
 		character: {
-			con_0: Picture;
-			con_1: Picture;
-			con_2: Picture;
-			con_3: Picture;
-			con_4: Picture;
-			con_5: Picture;
-			normal: Picture;
-			skill: Picture;
-			burst: Picture;
-			splashImage: Picture;
+			con_0: Promise<Picture>;
+			con_1: Promise<Picture>;
+			con_2: Promise<Picture>;
+			con_3: Promise<Picture>;
+			con_4: Promise<Picture>;
+			con_5: Promise<Picture>;
+			normal: Promise<Picture>;
+			skill: Promise<Picture>;
+			burst: Promise<Picture>;
+			splashImage: Promise<Picture>;
 		};
 		weapon?: {
-			baseIcon: Picture;
+			baseIcon: Promise<Picture>;
 		};
 		artifact: {
-			flower: Picture;
-			plume: Picture;
-			sands: Picture;
-			goblet: Picture;
-			circlet: Picture;
+			flower: Promise<Picture>;
+			plume: Promise<Picture>;
+			sands: Promise<Picture>;
+			goblet: Promise<Picture>;
+			circlet: Promise<Picture>;
 		};
-	}>;
-	export type CharacterResource = Awaited<ReturnType<GetResources>>;
+	};
 </script>
 
 <script lang="ts">
@@ -55,32 +54,32 @@
 		{} as Record<SlotKey, ArtifactCacheKey>
 	);
 
-	const getResources: GetResources = async () => ({
+	const resources: Resources = {
 		character: {
-			con_0: await getCharacterImage(character.key, 'con_0'),
-			con_1: await getCharacterImage(character.key, 'con_1'),
-			con_2: await getCharacterImage(character.key, 'con_2'),
-			con_3: await getCharacterImage(character.key, 'con_3'),
-			con_4: await getCharacterImage(character.key, 'con_4'),
-			con_5: await getCharacterImage(character.key, 'con_5'),
-			normal: await getCharacterImage(character.key, 'normal'),
-			skill: await getCharacterImage(character.key, 'skill'),
-			burst: await getCharacterImage(character.key, 'burst'),
-			splashImage: await getCharacterImage(character.key, 'splashImage')
+			con_0: getCharacterImage(character.key, 'con_0'),
+			con_1: getCharacterImage(character.key, 'con_1'),
+			con_2: getCharacterImage(character.key, 'con_2'),
+			con_3: getCharacterImage(character.key, 'con_3'),
+			con_4: getCharacterImage(character.key, 'con_4'),
+			con_5: getCharacterImage(character.key, 'con_5'),
+			normal: getCharacterImage(character.key, 'normal'),
+			skill: getCharacterImage(character.key, 'skill'),
+			burst: getCharacterImage(character.key, 'burst'),
+			splashImage: getCharacterImage(character.key, 'splashImage')
 		},
 		weapon: character.weapon
 			? {
-					baseIcon: await getWeaponImage(character.weapon.key, 'baseIocn')
+					baseIcon: getWeaponImage(character.weapon.key, 'baseIocn')
 				}
 			: undefined,
 		artifact: {
-			flower: await getArtifactImage(artifactBySlot['flower'], 'flower'),
-			plume: await getArtifactImage(artifactBySlot['plume'], 'plume'),
-			sands: await getArtifactImage(artifactBySlot['sands'], 'sands'),
-			goblet: await getArtifactImage(artifactBySlot['goblet'], 'goblet'),
-			circlet: await getArtifactImage(artifactBySlot['circlet'], 'circlet')
+			flower: getArtifactImage(artifactBySlot['flower'], 'flower'),
+			plume: getArtifactImage(artifactBySlot['plume'], 'plume'),
+			sands: getArtifactImage(artifactBySlot['sands'], 'sands'),
+			goblet: getArtifactImage(artifactBySlot['goblet'], 'goblet'),
+			circlet: getArtifactImage(artifactBySlot['circlet'], 'circlet')
 		}
-	});
+	};
 </script>
 
 <div class="character-card-container">
@@ -90,11 +89,9 @@
 		class="character-card flex justify-start md:justify-center overflow-x-auto overflow-y-hidden"
 	>
 		<div style:--width={'975px'} style:--height={'406px'} class="flex relative">
-			{#await getResources() then resources}
-				<Character {character} resources={resources.character} />
-				<WeaponStats {character} resources={resources.weapon} />
-				<Artifacts {character} resources={resources.artifact} />
-			{/await}
+			<Character {character} resources={resources.character} />
+			<WeaponStats {character} resources={resources.weapon} />
+			<Artifacts {character} resources={resources.artifact} />
 			<div class="bg absolute top-0 left-0 gradient">
 				<enhanced:img
 					class={'card-bg'}

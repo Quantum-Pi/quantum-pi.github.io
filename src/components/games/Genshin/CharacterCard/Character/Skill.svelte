@@ -1,16 +1,17 @@
 <script module lang="ts">
 	import type { GenshinCharacter } from '$lib/genshin_agg';
 	import type { Picture } from 'vite-imagetools';
+	import SkeletonImage from '../../../../SkeletonImage.svelte';
 
 	type Info =
 		| {
 				type: 'constellation';
-				image: Picture;
+				image: Promise<Picture>;
 				constellation: number;
 		  }
 		| {
 				type: 'talent';
-				image: Picture;
+				image: Promise<Picture>;
 				level: number;
 		  };
 </script>
@@ -31,45 +32,49 @@
 			: 'locked';
 </script>
 
-{#if info.type === 'constellation'}
-	<enhanced:img
-		class={`skill ${getConClass(info.constellation)}`}
-		src={info.image}
-		sizes="(min-width: 128px) 128px"
-		alt={`Constellation ${info.constellation} icon`}
-	/>
-{:else}
-	<div>
-		<enhanced:img
-			class="skill level w-6"
+<div class="genshin-skill">
+	{#if info.type === 'constellation'}
+		<SkeletonImage
+			class={`skill ${getConClass(info.constellation)}`}
 			src={info.image}
 			sizes="(min-width: 128px) 128px"
-			alt={`Talent icon`}
+			skeletonSize="w-[24px] h-[24px]"
+			alt={`Constellation ${info.constellation} icon`}
 		/>
-		<div class="level-bubble">
-			{info.level}
+	{:else}
+		<div>
+			<SkeletonImage
+				class="skill level w-6"
+				src={info.image}
+				skeletonSize="w-[24px] h-[24px]"
+				sizes="(min-width: 128px) 128px"
+				alt={`Talent icon`}
+			/>
+			<div class="level-bubble">
+				{info.level}
+			</div>
 		</div>
-	</div>
-{/if}
+	{/if}
+</div>
 
 <style>
-	.skill {
+	.genshin-skill :global(.skill) {
 		background: rgba(0, 0, 0, 0.5);
 		border-radius: 50%;
 		position: relative;
 		width: calc(24px * var(--scale));
 		height: calc(24px * var(--scale));
 
-		&.locked {
+		&:global(.locked) {
 			filter: brightness(50%);
 			box-shadow: 0px 0px 1px 1px var(--element);
 		}
 
-		&.unlocked {
+		&:global(.unlocked) {
 			box-shadow: 0px 0px 3px 2px var(--element);
 		}
 
-		&.level {
+		&:global(.level) {
 			box-shadow: 0px 0px 1px 0.5px rgba(255, 255, 255, 0.9);
 		}
 	}

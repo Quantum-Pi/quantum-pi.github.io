@@ -1,11 +1,12 @@
 <script lang="ts">
 	import type { GenshinCharacter } from '$lib/genshin_agg';
-	import type { CharacterResource } from '../CharacterCard.svelte';
+	import SkeletonImage from '../../../../SkeletonImage.svelte';
+	import type { Resources } from '../CharacterCard.svelte';
 	import Skill from './Skill.svelte';
 
 	interface Props {
 		character: GenshinCharacter;
-		resources: CharacterResource['character'];
+		resources: Resources['character'];
 	}
 
 	let { character, resources }: Props = $props();
@@ -16,7 +17,7 @@
 	).toFixed(1);
 </script>
 
-<div class="w-1/3 h-full relative z-10">
+<div class="genshin-character w-1/3 h-full relative z-10">
 	<div class="info absolute z-10 pl-4 pt-3 text-white flex flex-col">
 		<span>{character.key}</span>
 		<span>Lv. {character.level}</span>
@@ -31,7 +32,7 @@
 		<Skill info={{ type: 'constellation', image: resources.con_4, constellation: 5 }} {character} />
 		<Skill info={{ type: 'constellation', image: resources.con_5, constellation: 6 }} {character} />
 	</div>
-	<div class="flex flex-col gap-y-4 absolute z-10 right-[5%] bottom-[56%] translate-y-full">
+	<div class="flex flex-col gap-y-4 absolute z-10 right-[5%] bottom-[54.8%] translate-y-full">
 		<Skill
 			info={{ type: 'talent', image: resources.normal, level: character.talent.auto }}
 			{character}
@@ -53,9 +54,9 @@
 			{character}
 		/>
 	</div>
-	<enhanced:img
-		id="splash"
-		class="w-full h-full absolute object-cover scale-125 -translate-y-2"
+	<!-- id="splash" -->
+	<SkeletonImage
+		class="splash-img w-full h-full absolute object-cover scale-125 -translate-y-2"
 		src={resources.splashImage}
 		sizes="(min-width: 1024px) 1024px"
 		alt={`con 0 icon`}
@@ -67,7 +68,7 @@
 		row-gap: calc(16px * calc(var(--scale) - 1));
 	}
 
-	:global(picture:has(> #splash)) {
+	.genshin-character :global(.splash-img) {
 		position: absolute;
 		top: 0;
 		left: 0;

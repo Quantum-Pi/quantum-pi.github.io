@@ -1,12 +1,13 @@
 <script lang="ts">
 	import { elementToBuildStatKey, type GenshinCharacter } from '$lib/genshin_agg';
 	import { getWeaponImage, type CharacterCacheKey, type WeaponCacheKey } from '$lib/genshin_cache';
-	import type { CharacterResource } from '../CharacterCard.svelte';
+	import SkeletonImage from '../../../../SkeletonImage.svelte';
+	import type { Resources } from '../CharacterCard.svelte';
 	import Stat from './Stat.svelte';
 
 	interface Props {
 		character: GenshinCharacter;
-		resources: CharacterResource['weapon'];
+		resources: Resources['weapon'];
 	}
 
 	let { character, resources }: Props = $props();
@@ -52,7 +53,7 @@
 	<div class="flex mt-3">
 		{#if resources}
 			<div style:--weapon-rarity={character.ranking?.weaponStars} class="weapon-img">
-				<enhanced:img
+				<SkeletonImage
 					src={resources.baseIcon}
 					sizes="(min-width: 128px) 128px"
 					alt={`con 0 icon`}

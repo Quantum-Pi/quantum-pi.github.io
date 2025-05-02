@@ -2,11 +2,12 @@
 	import type { GenshinCharacter } from '$lib/genshin_agg';
 	import { getArtifactImage, type ArtifactCacheKey } from '$lib/genshin_cache';
 	import { mainStatToValue } from '$lib/genshin_data';
-	import type { CharacterResource } from './CharacterCard.svelte';
+	import SkeletonImage from '../../../SkeletonImage.svelte';
+	import type { Resources } from './CharacterCard.svelte';
 
 	interface Props {
 		character: GenshinCharacter;
-		resources: CharacterResource['artifact'];
+		resources: Resources['artifact'];
 	}
 
 	let { character, resources }: Props = $props();
@@ -16,13 +17,13 @@
 
 <div
 	style:--artifact-height={'calc(70px * var(--scale))'}
-	class="w-1/3 h-full flex flex-col gap-y-1 md:gap-y-2 justify-center relative z-10"
+	class="genshin-artifact w-1/3 h-full flex flex-col gap-y-1 md:gap-y-2 justify-center relative z-10"
 >
 	{#each artifacts as artifact}
 		<div class="artifact flex text-white ounded-sm">
 			<!-- TODO: may not be defined -->
 			<div class="artifact-ms relative overflow-hidden">
-				<enhanced:img
+				<SkeletonImage
 					class="artifact-img h-full w-[70px] scale-[1.75]"
 					src={resources[artifact.slotKey]}
 					sizes="(min-width: 512px) 512px"
@@ -89,7 +90,7 @@
 		line-height: calc(14px * calc(var(--scale) / 1.25));
 	}
 
-	.artifact-img {
+	.genshin-artifact :global(.artifact-img) {
 		mask-image: linear-gradient(90deg, white 0%, white 15%, transparent 100%);
 		/* transform: scale(1.75) translateX(-10%); */
 		width: var(--artifact-height);
