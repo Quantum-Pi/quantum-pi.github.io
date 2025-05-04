@@ -1,0 +1,1 @@
+const e={sources:{webp:""+new URL("../assets/UI_Talent_S_03.DJ0A6Vnx.webp",import.meta.url).href+" 50w, "+new URL("../assets/UI_Talent_S_03.D9v-oOlJ.webp",import.meta.url).href+" 100w"},img:{src:""+new URL("../assets/UI_Talent_S_03.D9v-oOlJ.webp",import.meta.url).href,w:100,h:100}};export{e as default};
