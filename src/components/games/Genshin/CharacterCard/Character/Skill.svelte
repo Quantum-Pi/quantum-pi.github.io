@@ -1,7 +1,7 @@
 <script module lang="ts">
 	import type { GenshinCharacter } from '$lib/genshin_agg';
 	import type { Picture } from 'vite-imagetools';
-	import SkeletonImage from '../../../../SkeletonImage.svelte';
+	import SkeletonImage from '../../../../image/SkeletonImage.svelte';
 
 	type Info =
 		| {

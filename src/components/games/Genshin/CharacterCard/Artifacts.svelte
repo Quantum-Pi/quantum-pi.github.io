@@ -2,7 +2,7 @@
 	import type { GenshinCharacter } from '$lib/genshin_agg';
 	import { getArtifactImage, type ArtifactCacheKey } from '$lib/genshin_cache';
 	import { mainStatToValue } from '$lib/genshin_data';
-	import SkeletonImage from '../../../SkeletonImage.svelte';
+	import SkeletonImage from '../../../image/SkeletonImage.svelte';
 	import type { Resources } from './CharacterCard.svelte';
 
 	interface Props {

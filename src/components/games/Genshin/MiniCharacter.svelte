@@ -35,6 +35,7 @@
 				src={resources.icon}
 				sizes="(min-width: 256px) 256px"
 				alt={`con 0 icon`}
+				loading="lazy"
 			/>
 			<div
 				class="constellation flex justify-center items-center text-white rounded-tl-xs absolute bottom-0 right-0 text-xs"

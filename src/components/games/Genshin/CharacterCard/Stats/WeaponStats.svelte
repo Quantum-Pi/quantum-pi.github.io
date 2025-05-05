@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { elementToBuildStatKey, type GenshinCharacter } from '$lib/genshin_agg';
 	import { getWeaponImage, type CharacterCacheKey, type WeaponCacheKey } from '$lib/genshin_cache';
-	import SkeletonImage from '../../../../SkeletonImage.svelte';
+	import SkeletonImage from '../../../../image/SkeletonImage.svelte';
 	import type { Resources } from '../CharacterCard.svelte';
 	import Stat from './Stat.svelte';
 

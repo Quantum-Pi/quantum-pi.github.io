@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { GenshinCharacter } from '$lib/genshin_agg';
-	import SkeletonImage from '../../../../SkeletonImage.svelte';
+	import SkeletonImage from '../../../../image/SkeletonImage.svelte';
 	import type { Resources } from '../CharacterCard.svelte';
 	import Skill from './Skill.svelte';
 

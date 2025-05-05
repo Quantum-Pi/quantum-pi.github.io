@@ -4,7 +4,7 @@
 
 	import FarmDay from '../../../assets/sdv/farm_day.jpeg?enhanced&w=3840;2560;1800&effort=max&fit=cover&format=webp';
 	import FarmNight from '../../../assets/sdv/farm_night.jpeg?enhanced&w=3840;2560;1800&effort=max&fit=cover&format=webp';
-	import PreviewImage from '../../PreviewImage.svelte';
+	import PreviewImage from '../../image/PreviewImage.svelte';
 	import Overview from '../Overview.svelte';
 </script>
 

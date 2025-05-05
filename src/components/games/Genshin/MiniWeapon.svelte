@@ -29,6 +29,7 @@
 				src={resources.icon}
 				sizes="(min-width: 256px) 256px"
 				alt={`con 0 icon`}
+				loading="lazy"
 			/>
 			{#if resources.characterIcon}
 				<div
@@ -39,6 +40,7 @@
 						src={resources.characterIcon}
 						sizes="(min-width: 256px) 256px"
 						alt={`con 0 icon`}
+						loading="lazy"
 					/>
 				</div>
 			{/if}
