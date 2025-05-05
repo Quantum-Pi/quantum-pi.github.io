@@ -17,12 +17,14 @@
 			sizes="(min-width:2700px) 3840px, (min-width:2100px) 2560px, (min-width:768px) 1800px"
 			alt="Background image"
 			class="hidden md:block"
+			fetchpriority="high"
 		/>
 		<enhanced:img
 			src={bgMobile}
 			sizes="(min-width:1440px) 1600px, (min-width:1080px) 1280px, (min-width:750px) 640px"
 			alt="Background image"
 			class="md:hidden"
+			fetchpriority="high"
 		/>
 	</div>
 	<div class=" w-full mt-[-90vh] pb-[10vh] flex justify-center items-center flex-col">

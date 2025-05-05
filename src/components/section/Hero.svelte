@@ -15,12 +15,14 @@
 			sizes="(min-width:2560px) 2000px, (min-width:1920px) 1600px, (min-width:1080px) 1280px"
 			alt="Background image"
 			class="text-gray-200 hidden md:block"
+			fetchpriority="high"
 		/>
 		<enhanced:img
 			src={HeroMobile}
 			sizes="(min-width:1440px) 1600px, (min-width:1080px) 1280px, (min-width:750px) 640px"
 			alt="Background image"
 			class="text-gray-200 md:hidden"
+			fetchpriority="high"
 		/>
 	</div>
 	<div

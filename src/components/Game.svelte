@@ -53,7 +53,7 @@
 >
 	<header>
 		{#if isEnhancedImage(bannerImg)}
-			<enhanced:img src={bannerImg} alt={`${game.name} header image`} />
+			<enhanced:img src={bannerImg} fetchpriority="high" alt={`${game.name} header image`} />
 		{:else}
 			<img src={bannerImg} alt={`${game.name} header image`} />
 		{/if}
