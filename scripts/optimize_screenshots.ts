@@ -1,0 +1,40 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const BASE = path.join(__dirname, '../src/assets/screenshots/');
+console.log('Screenshots directory:', BASE);
+
+const imageLib: Record<string, string[]> = {};
+
+fs.readdirSync(BASE, {recursive: true}).forEach((file) => {
+    if (path.extname(file)) {
+        const game = path.basename(path.dirname(file));
+        imageLib[game] ??= [];
+        imageLib[game].push(`../assets/screenshots/${file}`);
+    }
+});
+console.log('Image library:', imageLib);
+
+export const ts = `import type { Picture } from 'vite-imagetools';
+type ScreenshotGetter = () => Promise<Picture>;
+type Screenshot = {
+    thumbnail: ScreenshotGetter;
+    full: ScreenshotGetter;
+};
+export type ScreenshotImageDictKey = ${Object.keys(imageLib).map((game) => `'${game}'`).join(' | ')};
+export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> = {${
+    Object.entries(imageLib).map(([game, images]) => {
+        return `\n\t${game}: [
+${images.map((image) => `\t\t{
+            thumbnail: async () => (await import('${image}?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('${image}?enhanced&w=2160;1440;1080&format=jpg')).default
+        }`).join(',\n')}
+    ]`
+    }).join(',')}
+} as const;`;
+
+fs.writeFileSync('src/lib/screenshot_agg.ts', ts);
