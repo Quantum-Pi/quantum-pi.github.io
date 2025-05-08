@@ -1,1 +1,0 @@
-const t={sources:{webp:""+new URL("../assets/UI_EquipIcon_Bow_Ultimatum.CFDHBKCr.webp",import.meta.url).href+" 128w, "+new URL("../assets/UI_EquipIcon_Bow_Ultimatum.C_-SklhQ.webp",import.meta.url).href+" 256w"},img:{src:""+new URL("../assets/UI_EquipIcon_Bow_Ultimatum.C_-SklhQ.webp",import.meta.url).href,w:256,h:256}};export{t as default};
