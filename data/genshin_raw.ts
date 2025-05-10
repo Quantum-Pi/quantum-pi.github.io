@@ -104,8 +104,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'C0 Ayaka, C0R5 TTDS Mona @ 4pc Tenacity, C0R1 Kazuha @ 4pc VV 1000 EM, C6R5 Diona @ 4pc Noblesse. Combo: Dash \(N1\) QE 3N1CD. Enemy is frozen.',
 				weapon: 'Amenoma Kageuchi',
-				ranking: 219746,
-				outOf: 665407
+				ranking: 219911,
+				outOf: 666491
 			},
 			weapon: {
 				weaponStats: { atk: 454, atk_: 55.1 },
@@ -125,31 +125,31 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Xingqiu',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Xingqiu.png',
 			stats: {
-				critRate: 0.5915005694690185,
-				critDamage: 1.4170005809131103,
-				energyRecharge: 2.0880804549518066,
+				critRate: 0.5915006950690186,
+				critDamage: 1.4170007065131103,
+				energyRecharge: 2.088080580551807,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 58.279999304896876,
+				elementalMastery: 58.27999943049687,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
 				pyroDamageBonus: 0,
 				anemoDamageBonus: 0,
-				hydroDamageBonus: 0.6660005341830688,
+				hydroDamageBonus: 0.6660006597830689,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 15975.5136724006,
-				atk: 1822.3375249396624,
-				def: 948.60205130685
+				maxHp: 15975.5136725262,
+				atk: 1822.3375250652625,
+				def: 948.60205143245
 			},
 			calculations: {
 				short: 'BURST',
 				name: 'Sword Rain, Avg DMG',
 				details: "4p Nymph\'s Dream is set to very optimistic 3 stacks.",
 				weapon: 'Sacrificial Sword',
-				ranking: 21856,
-				outOf: 247351
+				ranking: 21880,
+				outOf: 247809
 			},
 			weapon: {
 				weaponStats: { atk: 608, enerRech_: 55.1 },
@@ -171,23 +171,23 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Xiao',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Xiao.png',
 			stats: {
-				critRate: 0.5414008512541565,
-				critDamage: 2.5682367100760253,
-				energyRecharge: 1.155400873665503,
+				critRate: 0.5414003785541565,
+				critDamage: 2.5682362373760252,
+				energyRecharge: 1.155400400965503,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 16.32000053072422,
+				elementalMastery: 16.32000005802422,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
 				pyroDamageBonus: 0,
-				anemoDamageBonus: 0.4660008266016754,
+				anemoDamageBonus: 0.46600035390167543,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 21239.7773445859,
-				atk: 2242.9934148984003,
-				def: 941.1942147030875
+				maxHp: 21239.7773441132,
+				atk: 2242.9934144257,
+				def: 941.1942142303875
 			},
 			calculations: {
 				short: 'HYPER',
@@ -195,8 +195,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"Combo that includes A4/VHA/LNO/PJWS/CQ stacking, Bennett, Noblesse and Elegy uptimes, 2E and 11HP with collision damage. 4p Noblese Aquila C6 Bennett, 4p ToTM Elegy C6 Faruzan, Zhongli. Faruzan\'s A4 is disabled for a bit of simplicity \(it\'s also pretty weak anyways\)No charged attack in the calculated combo but 4-pc DPC results assume N1C instead of just N1 for the sake of set buff and it not being too hard to perform. ",
 				weapon: 'Staff of Homa',
-				ranking: 12504,
-				outOf: 362656
+				ranking: 12536,
+				outOf: 363187
 			},
 			weapon: {
 				weaponStats: { atk: 608, critDMG_: 66.2 },
@@ -221,8 +221,8 @@ export const genshinProfile: GenshinProfile = {
 				name: 'Shieldbot, Max HP',
 				details: '---',
 				weapon: 'Black Tassel',
-				ranking: 72824,
-				outOf: 779771
+				ranking: 72985,
+				outOf: 781083
 			},
 			weapon: {
 				weaponStats: { atk: 354, hp_: 46.9 },
@@ -267,8 +267,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'4x Oz hits. no buffs, talent level 13. One Oz hit does not benefit from the Thundersoother \(75% uptime\). Polar Star at 3 stacks.',
 				weapon: 'Polar Star',
-				ranking: 45872,
-				outOf: 319648
+				ranking: 45880,
+				outOf: 320379
 			},
 			weapon: {
 				weaponStats: { atk: 608, critRate_: 33.1 },
@@ -313,8 +313,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"1 rQ \(vape\) + 1 E + N2C * 6 + mSlash * 4. c0r1 Kazuha + c6r1 Xiangling + c6r1 Bennett. Most buffs expire after 3N2C. Shimenawa\'s burst damage is halved.",
 				weapon: 'Aqua Simulacra',
-				ranking: 22937,
-				outOf: 198211
+				ranking: 22976,
+				outOf: 198525
 			},
 			weapon: {
 				weaponStats: { atk: 23 },
@@ -358,8 +358,8 @@ export const genshinProfile: GenshinProfile = {
 				name: 'Hyper Mono Geo NA combo, Avg DMG',
 				details: 'N1 + N2 + N3 + N4. Team: Noelle C6, Gorou C6, Yunjin C6, Zhongli C0',
 				weapon: 'Serpent Spine',
-				ranking: 2423,
-				outOf: 28040
+				ranking: 2426,
+				outOf: 28100
 			},
 			weapon: {
 				weaponStats: { atk: 510, critRate_: 27.6 },
@@ -380,23 +380,23 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Hu Tao',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Hutao.png',
 			stats: {
-				critRate: 0.6293009900833862,
-				critDamage: 2.4158370876099364,
-				energyRecharge: 1.097101011254956,
+				critRate: 0.6293000064833862,
+				critDamage: 2.4158361040099363,
+				energyRecharge: 1.097100027654956,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 34.970002212503125,
+				elementalMastery: 34.97000122890312,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
-				pyroDamageBonus: 0.6160009884621399,
+				pyroDamageBonus: 0.6160000048621399,
 				anemoDamageBonus: 0,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 34751.3359384918,
-				atk: 1413.2276074371127,
-				def: 981.719483413675
+				maxHp: 34751.3359375082,
+				atk: 1413.2276064535126,
+				def: 981.719482430075
 			},
 			calculations: {
 				short: 'HYPER',
@@ -404,8 +404,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'Average DMG for 11N1CD + Q combo. elegy instructor amber c0r1. kazuha c2r1 @ 1000EM\(1420\). 4p SR burst uptime 1/3, other sets: 2/3. ',
 				weapon: 'Staff of Homa',
-				ranking: 188011,
-				outOf: 698070
+				ranking: 188279,
+				outOf: 699115
 			},
 			weapon: {
 				weaponStats: { atk: 608, critDMG_: 66.2 },
@@ -431,8 +431,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'Assumes Favonius Sword R5 \(EM / 1000 + ER / 500\) * 5000 + \(vv ? 2000 : 0\) + \(CR > 15% ? \(CR * 1500\) : 0\)',
 				weapon: 'Favonius Sword',
-				ranking: 530203,
-				outOf: 1048712
+				ranking: 531036,
+				outOf: 1050400
 			},
 			weapon: {
 				weaponStats: { atk: 454, enerRech_: 61.3 },
@@ -477,8 +477,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"c0 Raiden, c2 Furina, c0 Yelan, c0 4p VV Jean. Combo: Q 3N5. Furina\'s Fanfare at 400 stacks. Yelan\'s A4 at 8s seconds. ",
 				weapon: 'Staff of the Scarlet Sands',
-				ranking: 1008582,
-				outOf: 1185213
+				ranking: 1009911,
+				outOf: 1187013
 			},
 			weapon: {
 				weaponStats: { atk: 454, eleMas: 221 },
@@ -505,8 +505,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"\(\(\(E_DMG / 5500\) + \(E_HEAL / 5000\) + \(ER / 150\)\) * 5000\) + SET_BONUS. +6500 ToTM, +6000 OHC, +6000 Deepwood, +5000 Noblesse, +4000 Maiden. Please keep in mind custom \'balance formulas\' are completely feelscrafted unlike proper avg dmg formulas.",
 				weapon: 'Everlasting Moonglow',
-				ranking: 111149,
-				outOf: 315263
+				ranking: 111286,
+				outOf: 315664
 			},
 			weapon: {
 				weaponStats: { atk: 401, hp_: 35.2 },
@@ -528,23 +528,23 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Yelan',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Yelan.png',
 			stats: {
-				critRate: 0.7823999947116516,
-				critDamage: 2.5865478938625,
-				energyRecharge: 1.4072000211284301,
+				critRate: 0.7824002563116517,
+				critDamage: 2.5865481554625,
+				energyRecharge: 1.4072002827284302,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 32.63999943194844,
+				elementalMastery: 32.63999969354844,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
 				pyroDamageBonus: 0,
 				anemoDamageBonus: 0,
-				hydroDamageBonus: 0.4660000330016754,
+				hydroDamageBonus: 0.4660002946016754,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 32107.7734375423,
-				atk: 1096.791748089175,
-				def: 748.5885620540188
+				maxHp: 32107.7734378039,
+				atk: 1096.791748350775,
+				def: 748.5885623156188
 			},
 			calculations: {
 				short: 'C6 COMBO',
@@ -552,8 +552,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"Frontloaded average DMG for c6r5 Aqua Yelan Combo: 2x E + 2x BTB + 3x C2 + 5x C6 + 24x Q. Team: c0r5 fs Kazuha @ 1000 EM vv hydro swirl + Zhongli shield up + c4 Mona burst up. Yelan\'s A4 set to 10s, C4 2 stacks, 18% HP from A1. 4p Nymph\'s Dream is set to 3 stacks.",
 				weapon: 'Aqua Simulacra',
-				ranking: 11736,
-				outOf: 588459
+				ranking: 11743,
+				outOf: 589342
 			},
 			weapon: {
 				weaponStats: { atk: 542, critDMG_: 88.2 },
@@ -597,8 +597,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"Combo: E Q 3CA. C1 Tighnari + C0R1 Deepwood Nahida + electro flex + electro flex. Tighnari\'s A1 buffs only CAs. Enemy has pre-existing Quicken aura. Nahida\'s A1 buff is maxed and lasts entire combo. ",
 				weapon: 'Skyward Harp',
-				ranking: 20770,
-				outOf: 69524
+				ranking: 20793,
+				outOf: 69628
 			},
 			weapon: {
 				weaponStats: { atk: 608, critRate_: 33.1 },
@@ -643,8 +643,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'Off-field Tri-Karma Purification \(non-spread\) avg DMG. Example team: Nahida + Xingqiu + Kuki + non-dendro flex.',
 				weapon: 'A Thousand Floating Dreams',
-				ranking: 474852,
-				outOf: 1005232
+				ranking: 475480,
+				outOf: 1006845
 			},
 			weapon: {
 				weaponStats: { atk: 454, eleMas: 221 },
@@ -665,23 +665,23 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Furina',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Furina.png',
 			stats: {
-				critRate: 0.8407007425221985,
-				critDamage: 2.2367487519177978,
-				energyRecharge: 1.323800739565808,
+				critRate: 0.8407005924221985,
+				critDamage: 2.2367486018177978,
+				energyRecharge: 1.323800589465808,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 20.980000314036328,
+				elementalMastery: 20.980000163936328,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
 				pyroDamageBonus: 0,
 				anemoDamageBonus: 0,
-				hydroDamageBonus: 0.46600076250167544,
+				hydroDamageBonus: 0.4660006124016754,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 32456.9648445218,
-				atk: 1127.9217537014874,
-				def: 973.6201789944563
+				maxHp: 32456.9648443717,
+				atk: 1127.9217535513876,
+				def: 973.6201788443562
 			},
 			calculations: {
 				short: 'C2 SKILL',
@@ -689,8 +689,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'Average DMG for Mademoiselle Crabaletta in a double hydro team. Number of characters who offered HP: 4. Maxed Fanfare stacks and maxed C2 stacks \(easy to achieve in for example Neuvilette teams\). Weapon stacks maxed when applicable. ',
 				weapon: 'Splendor of Tranquil Waters',
-				ranking: 8472,
-				outOf: 523078
+				ranking: 8515,
+				outOf: 524978
 			},
 			weapon: {
 				weaponStats: { atk: 542, critDMG_: 88.2 },
@@ -710,23 +710,23 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Arlecchino',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Arlecchino.png',
 			stats: {
-				critRate: 0.8031122523246521,
-				critDamage: 2.057700200646948,
-				energyRecharge: 1.045300288766455,
+				critRate: 0.818712491283136,
+				critDamage: 2.104300457725244,
+				energyRecharge: 1.0453004424664551,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
-				elementalMastery: 34.970001502603125,
+				elementalMastery: 34.970001656303126,
 				physicalDamageBonus: 0,
 				geoDamageBonus: 0,
 				cryoDamageBonus: 0,
-				pyroDamageBonus: 0.4660002726016754,
+				pyroDamageBonus: 0.46600042630167543,
 				anemoDamageBonus: 0,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
 				electroDamageBonus: 0,
-				maxHp: 18331.2539065319,
-				atk: 2192.5429690319,
-				def: 968.862060828775
+				maxHp: 17883.1250004356,
+				atk: 2208.10302777935,
+				def: 900.5267338340375
 			},
 			calculations: {
 				short: 'OVERLOAD',
@@ -734,8 +734,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'C0 Arlecchino + C6 Chevreuse @ 40k HP + Electro Flex + C6R1 Aquila Bennett @ 4p Noblesse. Combo: E .. CA 5N3. Majority of potential buffs such as 4p Shimenawa / 4p HoD / 4p CW wear off before 5N3 starts due to long setup. Chevreuse stacks for CA 5N3: 0/1/1/1/2/2/2/3/3/3/... BoL value after using CA: 155%. 4p Whimsy stacks for CA 5N3: 1/2/3/3/... ',
 				weapon: "Crimson Moon\'s Semblance",
-				ranking: 63512,
-				outOf: 685570
+				ranking: 29842,
+				outOf: 687769
 			},
 			weapon: {
 				weaponStats: { atk: 674, critRate_: 22.1 },
@@ -755,9 +755,9 @@ export const genshinProfile: GenshinProfile = {
 			name: 'Clorinde',
 			icon: 'https://enka.network/ui/UI_AvatarIcon_Clorinde.png',
 			stats: {
-				critRate: 0.8291009232745911,
-				critDamage: 2.291125075553491,
-				energyRecharge: 1.0906009838329103,
+				critRate: 0.8213001436499939,
+				critDamage: 2.213324243476807,
+				energyRecharge: 1.09060018723291,
 				healingBonus: 0,
 				incomingHealingBonus: 0,
 				elementalMastery: 0,
@@ -768,10 +768,10 @@ export const genshinProfile: GenshinProfile = {
 				anemoDamageBonus: 0,
 				hydroDamageBonus: 0,
 				dendroDamageBonus: 0,
-				electroDamageBonus: 0.4660009608016754,
-				maxHp: 21230.2265634701,
-				atk: 2081.97607518885,
-				def: 878.1136484310375
+				electroDamageBonus: 0.4660001642016754,
+				maxHp: 20499.4160157985,
+				atk: 2253.033447439125,
+				def: 932.4793092555312
 			},
 			calculations: {
 				short: 'OVERLOAD',
@@ -779,8 +779,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"C0 Clorinde + C6 Fischl + 4p Noblesse C6 Chevreuse @ 40k HP + 4p Cinder C6 Thoma. Leaderboard ranks DPS based on 16s rotation using QEE 5N3E combo. Clorinde\'s A1 and A4 at full uptime for simplicity. Chevreuse\'s C6 stacks: QEE:0, N3E:1, N3E: 2, N3E:3, N3E:3, N3E: 3. 4pc Harmonic Whimsy stacks Q:1, EE:2, 5N3:3. Absolution same stacks as Whimsy. ",
 				weapon: 'Absolution',
-				ranking: 15022,
-				outOf: 292864
+				ranking: 9858,
+				outOf: 293856
 			},
 			weapon: {
 				weaponStats: { atk: 674, critDMG_: 44.1 },
@@ -927,10 +927,10 @@ export const genshinProfile: GenshinProfile = {
 				location: 'Arlecchino',
 				lock: false,
 				substats: [
-					{ key: 'hp', value: 448 },
-					{ key: 'critDMG_', value: 21 },
-					{ key: 'def_', value: 11.7 },
-					{ key: 'critRate_', value: 5.8 }
+					{ key: 'critRate_', value: 7.4 },
+					{ key: 'critDMG_', value: 25.6 },
+					{ key: 'atk', value: 16 },
+					{ key: 'def', value: 21 }
 				]
 			},
 			{
@@ -1527,14 +1527,14 @@ export const genshinProfile: GenshinProfile = {
 				location: 'Clorinde',
 				lock: false,
 				substats: [
-					{ key: 'critRate_', value: 6.6 },
-					{ key: 'critDMG_', value: 17.1 },
-					{ key: 'def', value: 37 },
-					{ key: 'hp', value: 269 }
+					{ key: 'hp', value: 448 },
+					{ key: 'critDMG_', value: 21 },
+					{ key: 'def_', value: 11.7 },
+					{ key: 'critRate_', value: 5.8 }
 				]
 			},
 			{
-				setKey: 'ShimenawasReminiscence',
+				setKey: 'MarechausseeHunter',
 				slotKey: 'goblet',
 				level: 20,
 				rarity: 5,
@@ -1542,10 +1542,10 @@ export const genshinProfile: GenshinProfile = {
 				location: 'Clorinde',
 				lock: false,
 				substats: [
-					{ key: 'hp_', value: 9.3 },
-					{ key: 'atk_', value: 8.7 },
+					{ key: 'critDMG_', value: 13.2 },
 					{ key: 'critRate_', value: 3.9 },
-					{ key: 'critDMG_', value: 24.9 }
+					{ key: 'atk_', value: 25.7 },
+					{ key: 'hp', value: 299 }
 				]
 			},
 			{
