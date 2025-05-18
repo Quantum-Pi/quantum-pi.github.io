@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { GenshinArtifact } from '$lib/genshin_agg';
 	import { getArtifactImage, getCharacterImage, type CharacterCacheKey } from '$lib/genshin_cache';
+	import { getStatRollRarity } from '$lib/genshin_helper';
 	import StatIcon from './StatIcon.svelte';
 
 	interface Props {
@@ -56,7 +57,7 @@
 		<div class="stats w-[100px] grid grid-cols-2 relative rounded-b-xs px-[1.5px]">
 			{#each artifact.substats as ss}
 				<div class="flex justify-between items-center">
-					<StatIcon stat={ss.key} />
+					<StatIcon color={getStatRollRarity(ss.value, ss.key)} stat={ss.key} />
 					<div class="mr-1">
 						{ss.value}{ss.key.endsWith('_') ? '%' : ''}
 					</div>

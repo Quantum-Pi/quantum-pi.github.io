@@ -2,6 +2,7 @@
 	import type { GenshinCharacter } from '$lib/genshin_agg';
 	import { getArtifactImage, type ArtifactCacheKey } from '$lib/genshin_cache';
 	import { mainStatToValue } from '$lib/genshin_data';
+	import { getStatRollRarity } from '$lib/genshin_helper';
 	import SkeletonImage from '../../../SkeletonImage.svelte';
 	import type { Resources } from './CharacterCard.svelte';
 
@@ -51,10 +52,13 @@
 			<div class="grid grid-cols-2 grid-rows-2 w-full ml-3">
 				{#each artifact.substats as substat}
 					<div class="flex items-center">
-						<i class={`icon-${substat.key} text-end text-sm mr-2`} style="">
+						<i class={`icon-${substat.key} text-end text-sm mr-2`}>
 							<span class="path1"></span><span class="path2"></span>
 						</i>
-						<div>
+						<div
+							class="w-1/2"
+							style={`border-bottom: 1px solid ${getStatRollRarity(substat.value, substat.key)}`}
+						>
 							+{substat.value}{substat.key.endsWith('_') ? '%' : ''}
 						</div>
 					</div>
@@ -81,9 +85,8 @@
 	.artifact-ms {
 		min-width: var(--artifact-height);
 		height: var(--artifact-height);
-
 	}
-	
+
 	.level-bubble {
 		background: rgba(0, 0, 0, 0.6);
 		font-size: calc(10px * calc(var(--scale) / 1.25));
