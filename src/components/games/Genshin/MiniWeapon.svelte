@@ -55,8 +55,8 @@
 			</div> -->
 		</div>
 		<div class="stats w-[72px] flex justify-between relative rounded-b-xs px-[1.5px]">
-			<span>L{weapon.level}</span>
-			<span>R{weapon.refinement}</span>
+			<span class={weapon.level == 90 ? 'text-amber-300' : ''}>L{weapon.level}</span>
+			<span class={weapon.refinement == 5 ? 'text-amber-300' : ''}>R{weapon.refinement}</span>
 		</div>
 	</div>
 {/await}
