@@ -7,14 +7,14 @@
 		ariaLabel?: string;
 		sizes: string;
 		alt?: string;
-		skeletonSize?: string;
+		skeletonDimension?: string;
 	};
 
-	let { src, ariaLabel, class: className, sizes, alt, skeletonSize }: Props = $props();
+	let { src, ariaLabel, class: className, sizes, alt, skeletonDimension }: Props = $props();
 </script>
 
 {#await src}
-	<div class={`loading ${skeletonSize ?? 'w-full h-full'}`}>
+	<div class={`skeleton ${skeletonDimension ?? 'w-full h-full'}`}>
 		<div class="flex items-center justify-center w-full h-full rounded-sm">
 			<svg
 				class="max-w-10 w-1/2 max-h-10 h-1/2 text-gray-600"
@@ -49,7 +49,7 @@
 		}
 	}
 
-	.loading {
+	.skeleton {
 		animation: loading 2s infinite;
 	}
 </style>

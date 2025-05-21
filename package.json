@@ -13,7 +13,8 @@
 		"format:data": "prettier --plugin-search-dir ./src/lib/ --write ./data/steam_raw.ts ./data/genshin_raw.ts ./src/lib/steam_agg.ts",
 		"deploy": "pnpm build && pnpx gh-pages -d build -t true",
 		"prefetch": "tsx scripts/prefetch_steam.ts && tsx scripts/prefetch_genshin.ts",
-		"aggregate": "tsx scripts/optimize_steam.ts && tsx scripts/optimize_genshin.ts"
+		"aggregate": "tsx scripts/optimize_steam.ts && tsx scripts/optimize_genshin.ts",
+		"screenshots": "tsx scripts/optimize_screenshots.ts"
 	},
 	"devDependencies": {
 		"@iconify/json": "^2.2.300",

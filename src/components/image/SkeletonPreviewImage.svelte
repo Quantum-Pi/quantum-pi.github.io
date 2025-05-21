@@ -7,19 +7,20 @@
 		image: Promise<Picture>;
 		imageFull?: Promise<Picture>;
 		ariaLabel: string;
-		skeletonSize?: string;
-		preivewClass?: string;
+		skeletonDimension?: string;
+		thumbnailClass?: string;
 		thumbnailSizes: string;
+		previewSizes?: string;
 	};
 
-	let { image, imageFull, ariaLabel, preivewClass, thumbnailSizes, skeletonSize }: Props = $props();
+	let { image, imageFull, ariaLabel, thumbnailClass, thumbnailSizes, skeletonDimension, previewSizes = "(min-width:2160px) 2160px, (min-width:1440px) 1440px, (min-width:1080px) 1080px" }: Props = $props();
 </script>
 
 {#snippet preview()}
     <SkeletonImage 
         src={imageFull ?? image}
-        skeletonSize={'w-64'}
-        sizes="(min-width:1440px) 1600px, (min-width:1080px) 1280px, (min-width:750px) 720px"
+        skeletonDimension={'w-64'}
+        sizes={previewSizes}
         class="w-auto max-h-[98vh]"
     />
 {/snippet}
@@ -28,8 +29,8 @@
 	<SkeletonImage 
         src={image}
         sizes={thumbnailSizes}
-        skeletonSize={skeletonSize}
-        class={preivewClass}
+        skeletonDimension={skeletonDimension}
+        class={thumbnailClass}
     />
 </button>
 
@@ -37,7 +38,7 @@
 	button {
 		transition: 0.2s;
 		&:hover {
-			transform: scale(1.01);
+			transform: scale(1.05);
 		}
 		&:active {
 			transform: scale(0.99);

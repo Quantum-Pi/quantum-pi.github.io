@@ -9,7 +9,7 @@ type Screenshot = {
     thumbnail: ScreenshotGetter;
     full: ScreenshotGetter;
 };
-export type ScreenshotImageDictKey = 'acs' | 'genshin';
+export type ScreenshotImageDictKey = 'acs' | 'genshin' | 'hfw';
 export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> = {
 	acs: [
 		{
@@ -121,6 +121,380 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
 		{
             thumbnail: async () => (await import('../assets/screenshots/genshin/20250412205940.png?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/genshin/20250412205940.png?enhanced&w=2160;1440;1080&format=jpg')).default
+        }
+    ],
+	hfw: [
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_0.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_0.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_1.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_1.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_10.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_10.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_100.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_100.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_101.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_101.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_102.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_102.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_103.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_103.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_11.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_11.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_12.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_12.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_13.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_13.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_14.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_14.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_15.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_15.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_16.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_16.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_17.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_17.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_18.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_18.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_19.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_19.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_2.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_2.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_21.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_21.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_22.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_22.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_23.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_23.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_24.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_24.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_25.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_25.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_26.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_26.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_29.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_29.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_3.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_3.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_30.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_30.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_32.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_32.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_33.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_33.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_34.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_34.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_35.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_35.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_36.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_36.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_37.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_37.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_38.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_38.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_39.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_39.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_4.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_4.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_40.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_40.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_42.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_42.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_43.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_43.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_46.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_46.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_47.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_47.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_48.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_48.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_49.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_49.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_5.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_5.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_50.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_50.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_51.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_51.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_52.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_52.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_53.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_53.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_54.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_54.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_55.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_55.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_56.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_56.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_57.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_57.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_59.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_59.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_6.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_6.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_60.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_60.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_61.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_61.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_63.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_63.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_64.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_64.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_65.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_65.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_66.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_66.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_67.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_67.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_68.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_68.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_69.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_69.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_7.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_7.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_70.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_70.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_71.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_71.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_72.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_72.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_73.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_73.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_74.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_74.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_75.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_75.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_76.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_76.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_77.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_77.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_78.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_78.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_79.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_79.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_8.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_8.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_80.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_80.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_81.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_81.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_82.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_82.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_83.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_83.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_84.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_84.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_85.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_85.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_87.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_87.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_88.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_88.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_89.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_89.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_9.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_9.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_90.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_90.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_91.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_91.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_92.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_92.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_94.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_94.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_95.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_95.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_96.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_96.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_97.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_97.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_98.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_98.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_99.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_99.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
         }
     ]
 } as const;

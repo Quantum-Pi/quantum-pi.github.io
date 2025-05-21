@@ -8,6 +8,7 @@
 	import GameSelector from '../components/games/GameSelector.svelte';
 	import GameSelectorCasual from '../components/games/GameSelectorCasual.svelte';
 	import PreviewImageContainer from '../components/PreviewImageContainer.svelte';
+	import ImageGallery from '../components/image-gallery/ImageGallery.svelte';
 </script>
 
 <Hero />
@@ -30,6 +31,9 @@
 	</div>
 	<div class="bg-black mb-24 w-full">
 		<GameSelectorCasual />
+	</div>
+	<div class="bg-black mb-24 w-full">
+		<ImageGallery />
 	</div>
 	<div class="bg-black px-8 flex flex-col items-center">
 		<Friends />
