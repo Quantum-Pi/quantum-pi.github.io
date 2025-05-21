@@ -2,7 +2,8 @@
 	import BGDesktop from '../../assets/bg-genshin.jpg?enhanced&w=3840;2560;1800&blur=3&effort=max&fit=cover&format=webp';
 	import BGMobile from '../../assets/bg-eso-mobile.png?enhanced&w=1600;1280;640&blur=1.25&effort=max&fit=cover&format=webp';
 
-	import characters, { artifacts, weapons } from '$lib/genshin_agg';
+	import characters, { artifacts as artifactsCV, weapons } from '$lib/genshin_agg';
+	import { artifacts } from '$lib/genshin_artifacts';
 	import type { GenshinCharacter, GenshinWeapon } from '$lib/genshin_agg';
 	import type { CharacterCacheKey, WeaponCacheKey } from '$lib/genshin_cache';
 	import Overview from '../../components/games/Overview.svelte';
@@ -127,20 +128,25 @@
 				<CharacterCard width={950} character={characterMap['Mavuika']} />
 			</div>
 		</div>
-		<!-- <div class="character-grid w-[90%] sm:w-[95%] h-full grid gap-y-8 grid-cols-1">
-			{#each characters as c}
-				{#if c.key === 'Yelan' || c.key === 'Arlecchino' || c.key === 'Xiao' || c.key === 'Furina'}
-					<CharacterCard character={c} />
-				{/if}
-			{/each}
-		</div> -->
 		<div
-			class="w-fit h-full grid gap-6 grid-cols-3 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-9 mt-8"
+			class="w-fit h-full grid gap-6 grid-cols-3 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-9 my-8"
 		>
-			{#each artifacts as a}
+			{#each artifactsCV.slice(0, 36) as a}
 				<MiniArtifact artifact={a} />
 			{/each}
 		</div>
+		{#each Object.entries(artifacts).sort((a, b) => b[1].length - a[1].length) as [set, setArtifacts]}
+			<div class="text-4xl mt-8 text" style="-webkit-text-stroke: 1px #000;">
+				{set.replace(/([A-Z])/g, ' $1')}
+			</div>
+			<div
+				class="w-fit h-full grid gap-6 grid-cols-3 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-9 mt-8"
+			>
+				{#each setArtifacts as a}
+					<MiniArtifact artifact={a} />
+				{/each}
+			</div>
+		{/each}
 	</div>
 </Overview>
 <PreviewImageContainer />

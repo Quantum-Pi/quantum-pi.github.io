@@ -1,6 +1,6 @@
 // import { writeFileSync } from 'fs';
 import { BuildStatKey, genshinProfile } from '../data/genshin_raw';
-import { IGOOD, ISubstat, SlotKey, StatKey } from 'enka-network-api';
+import { IGOOD, ISubstat, SetKey, SlotKey, StatKey } from 'enka-network-api';
 import goodJSON from '../data/good.json';
 import { writeFileSync } from 'fs';
 
@@ -153,6 +153,23 @@ type GenshinArtifact = {
 	cv: number;
 	location?: string;
 };
+
+const mapArtifact = ({ mainStatKey, substats, setKey, slotKey, location }: Artifact[0]): GenshinArtifact => ({
+	mainStatKey,
+	substats: substats.sort(
+		(a, b) => (b.key.startsWith('crit') ? 1 : 0) - (a.key.startsWith('crit') ? 1 : 0)
+	),
+	setKey,
+	slotKey,
+	location: location === '' || location.startsWith('Traveler') ? undefined : location,
+	cv: parseFloat(
+		(
+			(substats.find((ss) => ss.key === 'critDMG_')?.value ?? 0) +
+			2 * (substats.find((ss) => ss.key === 'critRate_')?.value ?? 0)
+		).toFixed(2)
+	)
+});
+
 const artifacts: GenshinArtifact[] =
 	good.artifacts
 		?.filter((artifact) => {
@@ -165,22 +182,9 @@ const artifacts: GenshinArtifact[] =
 			const isHighCV = cv > 30;
 			return isYellow && isMax && isHighCV;
 		})
-		.map(({ mainStatKey, substats, setKey, slotKey, location }) => ({
-			mainStatKey,
-			substats: substats.sort(
-				(a, b) => (b.key.startsWith('crit') ? 1 : 0) - (a.key.startsWith('crit') ? 1 : 0)
-			),
-			setKey,
-			slotKey,
-			location: location === '' || location.startsWith('Traveler') ? undefined : location,
-			cv: parseFloat(
-				(
-					(substats.find((ss) => ss.key === 'critDMG_')?.value ?? 0) +
-					2 * (substats.find((ss) => ss.key === 'critRate_')?.value ?? 0)
-				).toFixed(2)
-			)
-		}))
+		.map(mapArtifact)
 		.sort((a, b) => b.cv - a.cv) ?? [];
+
 
 const ts = `
 import type { IGOOD, StatKey, ISubstat, SlotKey } from 'enka-network-api';
@@ -275,3 +279,27 @@ export type { GenshinCharacter, BuildStatKey, Element }
 `;
 
 writeFileSync('src/lib/genshin_agg.ts', ts);
+
+const fullArtifacts: Record<string, GenshinArtifact[]> =
+	good.artifacts
+		?.filter((artifact) => {
+			const isYellow = artifact.rarity === 5;
+			const isMax = artifact.level === 20;
+			return isYellow && isMax;
+		}).map(mapArtifact)
+		.sort((a, b) => b.cv - a.cv)
+		.reduce((prev, current) => {
+			prev[current.setKey] ??= [];
+			prev[current.setKey].push(current);
+			return prev;
+		}, {} as Record<string, GenshinArtifact[]>) ?? {};
+
+const tsArtifacts = `
+import type { ArtifactCacheKey } from './genshin_cache';
+import type { GenshinArtifact } from './genshin_agg';
+
+const artifacts: Partial<Record<ArtifactCacheKey, GenshinArtifact[]>> = ${JSON.stringify(fullArtifacts)}
+export { artifacts }
+`;
+
+writeFileSync('src/lib/genshin_artifacts.ts', tsArtifacts);
