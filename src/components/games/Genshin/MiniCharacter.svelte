@@ -18,34 +18,49 @@
 
 	const openCharacter = () => {
 		if (hasStats) {
-			globalState.imagePreview = preview
+			globalState.imagePreview = preview;
 		}
-	}
+	};
 </script>
 
 {#snippet preview()}
-    <CharacterCard character={character} />
+	<CharacterCard {character} />
 {/snippet}
 
 {#await getResources() then resources}
-	<svelte:element this={hasStats ? 'button' : 'div'} style:--element={`var(--${character?.element ?? 'Pyro'}_Dark)`} class={`text-white ${hasStats ? 'hoverable' : ''} text-xs`} onclick={openCharacter} role="link" tabindex="-1">
-		<div class='mini-character w-[72px] relative rounded-t-xs'>
+	<svelte:element
+		this={hasStats ? 'button' : 'div'}
+		style:--element={`var(--${character?.element ?? 'Pyro'}_Dark)`}
+		class={`text-white ${hasStats ? 'hoverable' : ''} text-xs`}
+		onclick={openCharacter}
+		role="link"
+		tabindex="-1"
+	>
+		<div class="mini-character w-[76px] relative rounded-t-xs">
 			<enhanced:img
-				class="w-[72px]"
+				class="w-[76px]"
 				src={resources.icon}
 				sizes="(min-width: 256px) 256px"
 				alt={`con 0 icon`}
 				loading="lazy"
 			/>
 			<div
-				class="constellation flex justify-center items-center text-white rounded-tl-xs absolute bottom-0 right-0 text-xs"
+				class={`${character.constellation == 6 ? 'text-amber-300' : 'text-white'} constellation flex justify-center items-center rounded-tl-xs absolute bottom-0 right-0 text-xs`}
 			>
 				C{character.constellation}
 			</div>
 		</div>
-		<div class="stats w-[72px] flex justify-between relative rounded-b-xs px-[1.5px]">
-			<span>L{character.level}</span>
-			<span>{character.talent.auto}/{character.talent.skill}/{character.talent.burst}</span>
+		<div class="stats w-[76px] flex justify-between relative rounded-b-xs px-[1.5px]">
+			<span class={character.level == 90 ? 'text-amber-300' : ''}>L{character.level}</span>
+			<span>
+				<span class={character.talent.auto == 10 ? 'text-amber-300' : ''}
+					>{character.talent.auto}</span
+				>/<span class={character.talent.skill == 10 ? 'text-amber-300' : ''}
+					>{character.talent.skill}</span
+				>/<span class={character.talent.burst == 10 ? 'text-amber-300' : ''}
+					>{character.talent.burst}</span
+				>
+			</span>
 		</div>
 	</svelte:element>
 {/await}
@@ -65,7 +80,7 @@
 		&:hover {
 			transform: scale(1.05);
 		}
-		
+
 		&:active {
 			transform: scale(0.95);
 		}

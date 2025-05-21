@@ -42,9 +42,12 @@
 
 	interface Props {
 		character: GenshinCharacter;
+		width?: number;
 	}
 
-	let { character }: Props = $props();
+	let { character, width = 975 }: Props = $props();
+	const height = (406.0 / 975.0) * width;
+
 	const artifacts = character.artifacts ?? [];
 	const artifactBySlot = artifacts.reduce(
 		(prev, curr) => ({
@@ -83,12 +86,15 @@
 </script>
 
 <div class="character-card-container">
-
 	<div
 		style:--element={`var(--${character.element ?? 'Pyro'})`}
 		class="character-card flex justify-start md:justify-center overflow-x-auto overflow-y-hidden"
 	>
-		<div style:--width={'975px'} style:--height={'406px'} class="flex relative">
+		<div
+			style:--width={`${width}px`}
+			style:--height={`${height}px`}
+			class="flex relative overflow-hidden"
+		>
 			<Character {character} resources={resources.character} />
 			<WeaponStats {character} resources={resources.weapon} />
 			<Artifacts {character} resources={resources.artifact} />
@@ -154,16 +160,16 @@
 			height: calc(var(--scale) * var(--height));
 			width: 100%;
 		}
-		
+
 		&::before {
-		content: '';
-		position: absolute;
-		z-index: 20;
-		display: block;
-		width: 100%;
-		height: 100%;
-		background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25));
-	}
+			content: '';
+			position: absolute;
+			z-index: 20;
+			display: block;
+			width: 100%;
+			height: 100%;
+			background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25));
+		}
 	}
 
 	.character-card > div {

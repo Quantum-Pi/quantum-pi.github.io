@@ -114,7 +114,7 @@
 </Overview>
 
 <style>
-	@media (min-width: 1900px) {
+	@media (min-width: 1950px) {
 		.character-grid {
 			grid-template-columns: repeat(2, minmax(0, 1fr));
 		}

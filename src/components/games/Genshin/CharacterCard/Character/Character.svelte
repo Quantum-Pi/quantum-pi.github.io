@@ -22,7 +22,9 @@
 		<span>{character.key}</span>
 		<span>Lv. {character.level}</span>
 		<!-- <span>Fr. TODO</span> -->
-		<span>Top {ranking}%</span>
+		{#if ranking != '0.0'}
+			<span>Top {ranking}%</span>
+		{/if}
 	</div>
 	<div class="flex flex-col gap-y-3 absolute z-10 pl-4 pb-4 top-full -translate-y-full">
 		<Skill info={{ type: 'constellation', image: resources.con_0, constellation: 1 }} {character} />
