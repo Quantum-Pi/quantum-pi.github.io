@@ -1,0 +1,1 @@
+const e={sources:{jpeg:""+new URL("../assets/2420110_98.CeokHMqz.jpeg",import.meta.url).href+" 2160w, "+new URL("../assets/2420110_98.Bi_Lq6oj.jpeg",import.meta.url).href+" 1440w, "+new URL("../assets/2420110_98.CV1AcXr0.jpeg",import.meta.url).href+" 1080w"},img:{src:""+new URL("../assets/2420110_98.CeokHMqz.jpeg",import.meta.url).href,w:2160,h:1215}};export{e as default};
