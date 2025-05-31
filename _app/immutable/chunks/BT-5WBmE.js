@@ -1,0 +1,1 @@
+const _={sources:{webp:""+new URL("../assets/2025_05_14_19_34_10.BKHWYVTu.webp",import.meta.url).href+" 540w, "+new URL("../assets/2025_05_14_19_34_10.DGcV9-qd.webp",import.meta.url).href+" 360w"},img:{src:""+new URL("../assets/2025_05_14_19_34_10.BKHWYVTu.webp",import.meta.url).href,w:540,h:304}};export{_ as default};
