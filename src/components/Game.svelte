@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { getGameHero, getGameIcon } from '$lib/cache';
 	import { isEnhancedImage } from '$lib';
+	import MaterialSymbolsTrophyOutline from '~icons/material-symbols/trophy-outline';
+	import MageHourGlass from '~icons/mage/hour-glass';
 
 	type SteamGame = {
 		appid: number;
@@ -60,9 +62,10 @@
 	</header>
 	<div class="p-4 space-y-4 h-full flex flex-col justify-between">
 		<div class="h3 lg:h4">{game.name}</div>
-		<div class="flex justify-between">
-			<div>
-				<div class="h4">Playtime</div>
+		<div class="flex justify-between items-center md:items-start">
+			<div class="flex items-center md:block">
+				<MageHourGlass class="text-2xl mr-4 block md:hidden" />
+				<div class="h4 hidden md:block">Playtime</div>
 				<div class="h5">
 					{#if show2Weeks && game.playtime_2weeks}
 						2 weeks: {(game.playtime_2weeks / 60).toFixed(1)}h <br />
@@ -73,8 +76,11 @@
 			</div>
 			<div>
 				{#if game.num_achievements}
-					<div class="h4">Achievements</div>
-					<div class="h5">{game.achievements?.length} / {game.num_achievements}</div>
+					<div class="flex items-center md:block">
+						<MaterialSymbolsTrophyOutline class="text-2xl mr-4 block md:hidden" />
+						<div class="h4 hidden md:block">Achievements</div>
+						<div class="h5">{game.achievements?.length} / {game.num_achievements}</div>
+					</div>
 				{/if}
 			</div>
 		</div>
@@ -126,10 +132,9 @@
 
 	.card-hover {
 		transition: transform 0.2s ease-in-out;
-		
+
 		&:hover {
 			transform: scale(1.02);
 		}
 	}
-
 </style>
