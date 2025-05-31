@@ -41,7 +41,7 @@ type CharacterImageKey =
 	| 'talent_1'
 	| 'talent_2';
 
-type CharacterCacheKey = 'Arlecchino' | 'Xilonen' | 'Yelan' | 'Xingqiu' | 'Xiao' | 'Xianyun' | 'Faruzan' | 'Furina' | 'Clorinde' | 'Chevreuse' | 'HuTao' | 'Aloy' | 'Mavuika' | 'KamisatoAyaka' | 'Venti' | 'Tartaglia' | 'Zhongli' | 'KaedeharaKazuha' | 'Jean' | 'RaidenShogun' | 'Keqing' | 'Nahida' | 'Diluc' | 'Kirara' | 'Bennett' | 'Wanderer' | 'Tighnari' | 'SangonomiyaKokomi' | 'Gorou' | 'Noelle' | 'Kachina' | 'YunJin' | 'ShikanoinHeizou' | 'Sayu' | 'Layla' | 'Diona' | 'Fischl' | 'KukiShinobu' | 'Beidou' | 'Xiangling' | 'Gaming' | 'Thoma' | 'Sucrose' | 'Charlotte' | 'Kaeya' | 'Razor' | 'Barbara' | 'Amber' | 'Yaoyao' | 'Ningguang' | 'Yanfei' | 'Lisa' | 'Qiqi' | 'Chongyun' | 'Sethos' | 'KujouSara' | 'Collei' | 'Candace' | 'Xinyan' | 'Dehya' | 'LanYan' | 'Lynette' | 'Mika' | 'Rosaria' | 'Dori';
+type CharacterCacheKey = 'Arlecchino' | 'Xilonen' | 'Yelan' | 'Xingqiu' | 'Xiao' | 'Xianyun' | 'Faruzan' | 'Furina' | 'Clorinde' | 'Chevreuse' | 'HuTao' | 'Aloy' | 'Layla' | 'Escoffier' | 'KamisatoAyaka' | 'Venti' | 'Tartaglia' | 'Zhongli' | 'KaedeharaKazuha' | 'Jean' | 'RaidenShogun' | 'Keqing' | 'Nahida' | 'Mavuika' | 'Diluc' | 'Kirara' | 'Bennett' | 'Wanderer' | 'Tighnari' | 'SangonomiyaKokomi' | 'Dehya' | 'Gorou' | 'Noelle' | 'Kachina' | 'YunJin' | 'LanYan' | 'ShikanoinHeizou' | 'Sayu' | 'Diona' | 'Iansan' | 'Ororon' | 'Fischl' | 'KukiShinobu' | 'Beidou' | 'Gaming' | 'Xiangling' | 'Thoma' | 'Sucrose' | 'Charlotte' | 'Kaeya' | 'Razor' | 'Yaoyao' | 'Barbara' | 'Amber' | 'Mika' | 'Freminet' | 'Mona' | 'Ningguang' | 'Yanfei' | 'Lisa' | 'Qiqi' | 'Ifa' | 'Lynette' | 'Chongyun' | 'Sethos' | 'KujouSara' | 'Collei' | 'Candace' | 'Xinyan' | 'Rosaria' | 'Dori';
 
 const characterImageDict: Record<CharacterCacheKey, Record<CharacterImageKey, () => Promise<Picture>> & { talent_3?: () => Promise<Picture> }> = {
 Arlecchino: {
@@ -237,23 +237,38 @@ Arlecchino: {
 	talent_0: async () => (await import('../assets/genshin/characters/Aloy/UI_Talent_S_05.png?enhanced&format=webp')).default,
 	talent_1: async () => (await import('../assets/genshin/characters/Aloy/UI_Talent_S_06.png?enhanced&format=webp')).default,
 	talent_2: async () => (await import('../assets/genshin/characters/Aloy/UI_Talent_S_07.png?enhanced&format=webp')).default
-},Mavuika: {
-	sideIcon: async () => (await import('../assets/genshin/characters/Mavuika/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
-	con_0: async () => (await import('../assets/genshin/characters/Mavuika/UI_Talent_S_01.png?enhanced&format=webp')).default,
-	con_1: async () => (await import('../assets/genshin/characters/Mavuika/UI_Talent_S_02.png?enhanced&format=webp')).default,
-	con_2: async () => (await import('../assets/genshin/characters/Mavuika/UI_Talent_U_01.png?enhanced&format=webp')).default,
-	con_3: async () => (await import('../assets/genshin/characters/Mavuika/UI_Talent_S_03.png?enhanced&format=webp')).default,
-	con_4: async () => (await import('../assets/genshin/characters/Mavuika/UI_Talent_U_02.png?enhanced&format=webp')).default,
-	con_5: async () => (await import('../assets/genshin/characters/Mavuika/UI_Talent_S_04.png?enhanced&format=webp')).default,
-	burst: async () => (await import('../assets/genshin/characters/Mavuika/Skill_E_01.png?enhanced&format=webp')).default,
-	skill: async () => (await import('../assets/genshin/characters/Mavuika/Skill_S_01.png?enhanced&format=webp')).default,
-	characterIcon: async () => (await import('../assets/genshin/characters/Mavuika/UI_AvatarIcon.png?enhanced&format=webp')).default,
-	normal: async () => (await import('../assets/genshin/characters/Mavuika/Skill_A_04.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/characters/Mavuika/UI_Gacha_AvatarImg.png?enhanced&format=webp')).default,
-	talent_0: async () => (await import('../assets/genshin/characters/Mavuika/UI_Talent_S_05.png?enhanced&format=webp')).default,
-	talent_1: async () => (await import('../assets/genshin/characters/Mavuika/UI_Talent_S_06.png?enhanced&format=webp')).default,
-	talent_2: async () => (await import('../assets/genshin/characters/Mavuika/UI_Talent_S_07.png?enhanced&format=webp')).default,
-	talent_3: async () => (await import('../assets/genshin/characters/Mavuika/UI_Talent_S_Citlali_07.png?enhanced&format=webp')).default
+},Layla: {
+	sideIcon: async () => (await import('../assets/genshin/characters/Layla/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
+	con_0: async () => (await import('../assets/genshin/characters/Layla/UI_Talent_S_01.png?enhanced&format=webp')).default,
+	con_1: async () => (await import('../assets/genshin/characters/Layla/UI_Talent_S_02.png?enhanced&format=webp')).default,
+	con_2: async () => (await import('../assets/genshin/characters/Layla/UI_Talent_U_01.png?enhanced&format=webp')).default,
+	con_3: async () => (await import('../assets/genshin/characters/Layla/UI_Talent_S_03.png?enhanced&format=webp')).default,
+	con_4: async () => (await import('../assets/genshin/characters/Layla/UI_Talent_U_02.png?enhanced&format=webp')).default,
+	con_5: async () => (await import('../assets/genshin/characters/Layla/UI_Talent_S_04.png?enhanced&format=webp')).default,
+	burst: async () => (await import('../assets/genshin/characters/Layla/Skill_E_01.png?enhanced&format=webp')).default,
+	skill: async () => (await import('../assets/genshin/characters/Layla/Skill_S_01.png?enhanced&format=webp')).default,
+	characterIcon: async () => (await import('../assets/genshin/characters/Layla/UI_AvatarIcon.png?enhanced&format=webp')).default,
+	normal: async () => (await import('../assets/genshin/characters/Layla/Skill_A_01.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/characters/Layla/UI_Gacha_AvatarImg.png?enhanced&format=webp')).default,
+	talent_0: async () => (await import('../assets/genshin/characters/Layla/UI_Talent_S_05.png?enhanced&format=webp')).default,
+	talent_1: async () => (await import('../assets/genshin/characters/Layla/UI_Talent_S_06.png?enhanced&format=webp')).default,
+	talent_2: async () => (await import('../assets/genshin/characters/Layla/UI_Talent_Eula_Combine.png?enhanced&format=webp')).default
+},Escoffier: {
+	sideIcon: async () => (await import('../assets/genshin/characters/Escoffier/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
+	con_0: async () => (await import('../assets/genshin/characters/Escoffier/UI_Talent_S_01.png?enhanced&format=webp')).default,
+	con_1: async () => (await import('../assets/genshin/characters/Escoffier/UI_Talent_S_02.png?enhanced&format=webp')).default,
+	con_2: async () => (await import('../assets/genshin/characters/Escoffier/UI_Talent_U_01.png?enhanced&format=webp')).default,
+	con_3: async () => (await import('../assets/genshin/characters/Escoffier/UI_Talent_S_03.png?enhanced&format=webp')).default,
+	con_4: async () => (await import('../assets/genshin/characters/Escoffier/UI_Talent_U_02.png?enhanced&format=webp')).default,
+	con_5: async () => (await import('../assets/genshin/characters/Escoffier/UI_Talent_S_04.png?enhanced&format=webp')).default,
+	burst: async () => (await import('../assets/genshin/characters/Escoffier/Skill_E_01.png?enhanced&format=webp')).default,
+	skill: async () => (await import('../assets/genshin/characters/Escoffier/Skill_S_01.png?enhanced&format=webp')).default,
+	characterIcon: async () => (await import('../assets/genshin/characters/Escoffier/UI_AvatarIcon.png?enhanced&format=webp')).default,
+	normal: async () => (await import('../assets/genshin/characters/Escoffier/Skill_A_03.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/characters/Escoffier/UI_Gacha_AvatarImg.png?enhanced&format=webp')).default,
+	talent_0: async () => (await import('../assets/genshin/characters/Escoffier/UI_Talent_S_05.png?enhanced&format=webp')).default,
+	talent_1: async () => (await import('../assets/genshin/characters/Escoffier/UI_Talent_S_06.png?enhanced&format=webp')).default,
+	talent_2: async () => (await import('../assets/genshin/characters/Escoffier/UI_Talent_S_08.png?enhanced&format=webp')).default
 },KamisatoAyaka: {
 	sideIcon: async () => (await import('../assets/genshin/characters/KamisatoAyaka/UI_AvatarIcon_Side_Ayaka.png?enhanced&format=webp')).default,
 	con_0: async () => (await import('../assets/genshin/characters/KamisatoAyaka/UI_Talent_S_Ayaka_01.png?enhanced&format=webp')).default,
@@ -398,6 +413,23 @@ Arlecchino: {
 	talent_0: async () => (await import('../assets/genshin/characters/Nahida/UI_Talent_S_05.png?enhanced&format=webp')).default,
 	talent_1: async () => (await import('../assets/genshin/characters/Nahida/UI_Talent_S_06.png?enhanced&format=webp')).default,
 	talent_2: async () => (await import('../assets/genshin/characters/Nahida/UI_Talent_S_07.png?enhanced&format=webp')).default
+},Mavuika: {
+	sideIcon: async () => (await import('../assets/genshin/characters/Mavuika/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
+	con_0: async () => (await import('../assets/genshin/characters/Mavuika/UI_Talent_S_01.png?enhanced&format=webp')).default,
+	con_1: async () => (await import('../assets/genshin/characters/Mavuika/UI_Talent_S_02.png?enhanced&format=webp')).default,
+	con_2: async () => (await import('../assets/genshin/characters/Mavuika/UI_Talent_U_01.png?enhanced&format=webp')).default,
+	con_3: async () => (await import('../assets/genshin/characters/Mavuika/UI_Talent_S_03.png?enhanced&format=webp')).default,
+	con_4: async () => (await import('../assets/genshin/characters/Mavuika/UI_Talent_U_02.png?enhanced&format=webp')).default,
+	con_5: async () => (await import('../assets/genshin/characters/Mavuika/UI_Talent_S_04.png?enhanced&format=webp')).default,
+	burst: async () => (await import('../assets/genshin/characters/Mavuika/Skill_E_01.png?enhanced&format=webp')).default,
+	skill: async () => (await import('../assets/genshin/characters/Mavuika/Skill_S_01.png?enhanced&format=webp')).default,
+	characterIcon: async () => (await import('../assets/genshin/characters/Mavuika/UI_AvatarIcon.png?enhanced&format=webp')).default,
+	normal: async () => (await import('../assets/genshin/characters/Mavuika/Skill_A_04.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/characters/Mavuika/UI_Gacha_AvatarImg.png?enhanced&format=webp')).default,
+	talent_0: async () => (await import('../assets/genshin/characters/Mavuika/UI_Talent_S_05.png?enhanced&format=webp')).default,
+	talent_1: async () => (await import('../assets/genshin/characters/Mavuika/UI_Talent_S_06.png?enhanced&format=webp')).default,
+	talent_2: async () => (await import('../assets/genshin/characters/Mavuika/UI_Talent_S_07.png?enhanced&format=webp')).default,
+	talent_3: async () => (await import('../assets/genshin/characters/Mavuika/UI_Talent_S_Citlali_07.png?enhanced&format=webp')).default
 },Diluc: {
 	sideIcon: async () => (await import('../assets/genshin/characters/Diluc/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
 	con_0: async () => (await import('../assets/genshin/characters/Diluc/UI_Talent_S_01.png?enhanced&format=webp')).default,
@@ -495,6 +527,22 @@ Arlecchino: {
 	talent_1: async () => (await import('../assets/genshin/characters/SangonomiyaKokomi/UI_Talent_S_Kokomi_06.png?enhanced&format=webp')).default,
 	talent_2: async () => (await import('../assets/genshin/characters/SangonomiyaKokomi/UI_Talent_Explosion_Swim.png?enhanced&format=webp')).default,
 	talent_3: async () => (await import('../assets/genshin/characters/SangonomiyaKokomi/UI_Talent_S_Kokomi_07.png?enhanced&format=webp')).default
+},Dehya: {
+	sideIcon: async () => (await import('../assets/genshin/characters/Dehya/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
+	con_0: async () => (await import('../assets/genshin/characters/Dehya/UI_Talent_S_01.png?enhanced&format=webp')).default,
+	con_1: async () => (await import('../assets/genshin/characters/Dehya/UI_Talent_S_02.png?enhanced&format=webp')).default,
+	con_2: async () => (await import('../assets/genshin/characters/Dehya/UI_Talent_U_01.png?enhanced&format=webp')).default,
+	con_3: async () => (await import('../assets/genshin/characters/Dehya/UI_Talent_S_03.png?enhanced&format=webp')).default,
+	con_4: async () => (await import('../assets/genshin/characters/Dehya/UI_Talent_U_02.png?enhanced&format=webp')).default,
+	con_5: async () => (await import('../assets/genshin/characters/Dehya/UI_Talent_S_04.png?enhanced&format=webp')).default,
+	burst: async () => (await import('../assets/genshin/characters/Dehya/Skill_E_01.png?enhanced&format=webp')).default,
+	skill: async () => (await import('../assets/genshin/characters/Dehya/Skill_S_01.png?enhanced&format=webp')).default,
+	characterIcon: async () => (await import('../assets/genshin/characters/Dehya/UI_AvatarIcon.png?enhanced&format=webp')).default,
+	normal: async () => (await import('../assets/genshin/characters/Dehya/Skill_A_04.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/characters/Dehya/UI_Gacha_AvatarImg.png?enhanced&format=webp')).default,
+	talent_0: async () => (await import('../assets/genshin/characters/Dehya/UI_Talent_S_05.png?enhanced&format=webp')).default,
+	talent_1: async () => (await import('../assets/genshin/characters/Dehya/UI_Talent_S_06.png?enhanced&format=webp')).default,
+	talent_2: async () => (await import('../assets/genshin/characters/Dehya/UI_Talent_S_07.png?enhanced&format=webp')).default
 },Gorou: {
 	sideIcon: async () => (await import('../assets/genshin/characters/Gorou/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
 	con_0: async () => (await import('../assets/genshin/characters/Gorou/UI_Talent_S_01.png?enhanced&format=webp')).default,
@@ -560,6 +608,22 @@ Arlecchino: {
 	talent_0: async () => (await import('../assets/genshin/characters/YunJin/UI_Talent_S_Yunjin_05.png?enhanced&format=webp')).default,
 	talent_1: async () => (await import('../assets/genshin/characters/YunJin/UI_Talent_S_Yunjin_06.png?enhanced&format=webp')).default,
 	talent_2: async () => (await import('../assets/genshin/characters/YunJin/UI_Talent_S_Yunjin_07.png?enhanced&format=webp')).default
+},LanYan: {
+	sideIcon: async () => (await import('../assets/genshin/characters/LanYan/UI_AvatarIcon_Side_Lanyan.png?enhanced&format=webp')).default,
+	con_0: async () => (await import('../assets/genshin/characters/LanYan/UI_Talent_S_Lanyan_01.png?enhanced&format=webp')).default,
+	con_1: async () => (await import('../assets/genshin/characters/LanYan/UI_Talent_S_Lanyan_02.png?enhanced&format=webp')).default,
+	con_2: async () => (await import('../assets/genshin/characters/LanYan/UI_Talent_U_Lanyan_01.png?enhanced&format=webp')).default,
+	con_3: async () => (await import('../assets/genshin/characters/LanYan/UI_Talent_S_Lanyan_03.png?enhanced&format=webp')).default,
+	con_4: async () => (await import('../assets/genshin/characters/LanYan/UI_Talent_U_Lanyan_02.png?enhanced&format=webp')).default,
+	con_5: async () => (await import('../assets/genshin/characters/LanYan/UI_Talent_S_Lanyan_04.png?enhanced&format=webp')).default,
+	burst: async () => (await import('../assets/genshin/characters/LanYan/Skill_E_Lanyan_01.png?enhanced&format=webp')).default,
+	skill: async () => (await import('../assets/genshin/characters/LanYan/Skill_S_Lanyan_01.png?enhanced&format=webp')).default,
+	characterIcon: async () => (await import('../assets/genshin/characters/LanYan/UI_AvatarIcon_Lanyan.png?enhanced&format=webp')).default,
+	normal: async () => (await import('../assets/genshin/characters/LanYan/Skill_A_Catalyst_MD.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/characters/LanYan/UI_Gacha_AvatarImg_Lanyan.png?enhanced&format=webp')).default,
+	talent_0: async () => (await import('../assets/genshin/characters/LanYan/UI_Talent_S_Lanyan_05.png?enhanced&format=webp')).default,
+	talent_1: async () => (await import('../assets/genshin/characters/LanYan/UI_Talent_S_Lanyan_06.png?enhanced&format=webp')).default,
+	talent_2: async () => (await import('../assets/genshin/characters/LanYan/UI_Talent_S_Sayu_07.png?enhanced&format=webp')).default
 },ShikanoinHeizou: {
 	sideIcon: async () => (await import('../assets/genshin/characters/ShikanoinHeizou/UI_AvatarIcon_Side_Heizo.png?enhanced&format=webp')).default,
 	con_0: async () => (await import('../assets/genshin/characters/ShikanoinHeizou/UI_Talent_S_Heizo_01.png?enhanced&format=webp')).default,
@@ -592,22 +656,6 @@ Arlecchino: {
 	talent_0: async () => (await import('../assets/genshin/characters/Sayu/UI_Talent_S_05.png?enhanced&format=webp')).default,
 	talent_1: async () => (await import('../assets/genshin/characters/Sayu/UI_Talent_S_06.png?enhanced&format=webp')).default,
 	talent_2: async () => (await import('../assets/genshin/characters/Sayu/UI_Talent_S_07.png?enhanced&format=webp')).default
-},Layla: {
-	sideIcon: async () => (await import('../assets/genshin/characters/Layla/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
-	con_0: async () => (await import('../assets/genshin/characters/Layla/UI_Talent_S_01.png?enhanced&format=webp')).default,
-	con_1: async () => (await import('../assets/genshin/characters/Layla/UI_Talent_S_02.png?enhanced&format=webp')).default,
-	con_2: async () => (await import('../assets/genshin/characters/Layla/UI_Talent_U_01.png?enhanced&format=webp')).default,
-	con_3: async () => (await import('../assets/genshin/characters/Layla/UI_Talent_S_03.png?enhanced&format=webp')).default,
-	con_4: async () => (await import('../assets/genshin/characters/Layla/UI_Talent_U_02.png?enhanced&format=webp')).default,
-	con_5: async () => (await import('../assets/genshin/characters/Layla/UI_Talent_S_04.png?enhanced&format=webp')).default,
-	burst: async () => (await import('../assets/genshin/characters/Layla/Skill_E_01.png?enhanced&format=webp')).default,
-	skill: async () => (await import('../assets/genshin/characters/Layla/Skill_S_01.png?enhanced&format=webp')).default,
-	characterIcon: async () => (await import('../assets/genshin/characters/Layla/UI_AvatarIcon.png?enhanced&format=webp')).default,
-	normal: async () => (await import('../assets/genshin/characters/Layla/Skill_A_01.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/characters/Layla/UI_Gacha_AvatarImg.png?enhanced&format=webp')).default,
-	talent_0: async () => (await import('../assets/genshin/characters/Layla/UI_Talent_S_05.png?enhanced&format=webp')).default,
-	talent_1: async () => (await import('../assets/genshin/characters/Layla/UI_Talent_S_06.png?enhanced&format=webp')).default,
-	talent_2: async () => (await import('../assets/genshin/characters/Layla/UI_Talent_Eula_Combine.png?enhanced&format=webp')).default
 },Diona: {
 	sideIcon: async () => (await import('../assets/genshin/characters/Diona/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
 	con_0: async () => (await import('../assets/genshin/characters/Diona/UI_Talent_S_01.png?enhanced&format=webp')).default,
@@ -624,6 +672,40 @@ Arlecchino: {
 	talent_0: async () => (await import('../assets/genshin/characters/Diona/UI_Talent_S_05.png?enhanced&format=webp')).default,
 	talent_1: async () => (await import('../assets/genshin/characters/Diona/UI_Talent_S_06.png?enhanced&format=webp')).default,
 	talent_2: async () => (await import('../assets/genshin/characters/Diona/UI_Talent_Cook_Heal.png?enhanced&format=webp')).default
+},Iansan: {
+	sideIcon: async () => (await import('../assets/genshin/characters/Iansan/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
+	con_0: async () => (await import('../assets/genshin/characters/Iansan/UI_Talent_S_01.png?enhanced&format=webp')).default,
+	con_1: async () => (await import('../assets/genshin/characters/Iansan/UI_Talent_S_02.png?enhanced&format=webp')).default,
+	con_2: async () => (await import('../assets/genshin/characters/Iansan/UI_Talent_U_01.png?enhanced&format=webp')).default,
+	con_3: async () => (await import('../assets/genshin/characters/Iansan/UI_Talent_S_03.png?enhanced&format=webp')).default,
+	con_4: async () => (await import('../assets/genshin/characters/Iansan/UI_Talent_U_02.png?enhanced&format=webp')).default,
+	con_5: async () => (await import('../assets/genshin/characters/Iansan/UI_Talent_S_04.png?enhanced&format=webp')).default,
+	burst: async () => (await import('../assets/genshin/characters/Iansan/Skill_E_01.png?enhanced&format=webp')).default,
+	skill: async () => (await import('../assets/genshin/characters/Iansan/Skill_S_01.png?enhanced&format=webp')).default,
+	characterIcon: async () => (await import('../assets/genshin/characters/Iansan/UI_AvatarIcon.png?enhanced&format=webp')).default,
+	normal: async () => (await import('../assets/genshin/characters/Iansan/Skill_A_03.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/characters/Iansan/UI_Gacha_AvatarImg.png?enhanced&format=webp')).default,
+	talent_0: async () => (await import('../assets/genshin/characters/Iansan/UI_Talent_S_05.png?enhanced&format=webp')).default,
+	talent_1: async () => (await import('../assets/genshin/characters/Iansan/UI_Talent_S_06.png?enhanced&format=webp')).default,
+	talent_2: async () => (await import('../assets/genshin/characters/Iansan/UI_Talent_S_Varesa_07.png?enhanced&format=webp')).default,
+	talent_3: async () => (await import('../assets/genshin/characters/Iansan/UI_Talent_S_08.png?enhanced&format=webp')).default
+},Ororon: {
+	sideIcon: async () => (await import('../assets/genshin/characters/Ororon/UI_AvatarIcon_Side_Olorun.png?enhanced&format=webp')).default,
+	con_0: async () => (await import('../assets/genshin/characters/Ororon/UI_Talent_S_Olorun_01.png?enhanced&format=webp')).default,
+	con_1: async () => (await import('../assets/genshin/characters/Ororon/UI_Talent_S_Olorun_02.png?enhanced&format=webp')).default,
+	con_2: async () => (await import('../assets/genshin/characters/Ororon/UI_Talent_U_Olorun_01.png?enhanced&format=webp')).default,
+	con_3: async () => (await import('../assets/genshin/characters/Ororon/UI_Talent_S_Olorun_03.png?enhanced&format=webp')).default,
+	con_4: async () => (await import('../assets/genshin/characters/Ororon/UI_Talent_U_Olorun_02.png?enhanced&format=webp')).default,
+	con_5: async () => (await import('../assets/genshin/characters/Ororon/UI_Talent_S_Olorun_04.png?enhanced&format=webp')).default,
+	burst: async () => (await import('../assets/genshin/characters/Ororon/Skill_E_Olorun_01.png?enhanced&format=webp')).default,
+	skill: async () => (await import('../assets/genshin/characters/Ororon/Skill_S_Olorun_01.png?enhanced&format=webp')).default,
+	characterIcon: async () => (await import('../assets/genshin/characters/Ororon/UI_AvatarIcon_Olorun.png?enhanced&format=webp')).default,
+	normal: async () => (await import('../assets/genshin/characters/Ororon/Skill_A_02.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/characters/Ororon/UI_Gacha_AvatarImg_Olorun.png?enhanced&format=webp')).default,
+	talent_0: async () => (await import('../assets/genshin/characters/Ororon/UI_Talent_S_Olorun_05.png?enhanced&format=webp')).default,
+	talent_1: async () => (await import('../assets/genshin/characters/Ororon/UI_Talent_S_Olorun_06.png?enhanced&format=webp')).default,
+	talent_2: async () => (await import('../assets/genshin/characters/Ororon/UI_Talent_S_Olorun_07.png?enhanced&format=webp')).default,
+	talent_3: async () => (await import('../assets/genshin/characters/Ororon/UI_Talent_S_Olorun_08.png?enhanced&format=webp')).default
 },Fischl: {
 	sideIcon: async () => (await import('../assets/genshin/characters/Fischl/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
 	con_0: async () => (await import('../assets/genshin/characters/Fischl/UI_Talent_S_01.png?enhanced&format=webp')).default,
@@ -672,22 +754,6 @@ Arlecchino: {
 	talent_0: async () => (await import('../assets/genshin/characters/Beidou/UI_Talent_S_05.png?enhanced&format=webp')).default,
 	talent_1: async () => (await import('../assets/genshin/characters/Beidou/UI_Talent_S_06.png?enhanced&format=webp')).default,
 	talent_2: async () => (await import('../assets/genshin/characters/Beidou/UI_Talent_Explosion_Swim.png?enhanced&format=webp')).default
-},Xiangling: {
-	sideIcon: async () => (await import('../assets/genshin/characters/Xiangling/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
-	con_0: async () => (await import('../assets/genshin/characters/Xiangling/UI_Talent_S_01.png?enhanced&format=webp')).default,
-	con_1: async () => (await import('../assets/genshin/characters/Xiangling/UI_Talent_S_02.png?enhanced&format=webp')).default,
-	con_2: async () => (await import('../assets/genshin/characters/Xiangling/UI_Talent_U_02.png?enhanced&format=webp')).default,
-	con_3: async () => (await import('../assets/genshin/characters/Xiangling/UI_Talent_S_03.png?enhanced&format=webp')).default,
-	con_4: async () => (await import('../assets/genshin/characters/Xiangling/UI_Talent_U_01.png?enhanced&format=webp')).default,
-	con_5: async () => (await import('../assets/genshin/characters/Xiangling/UI_Talent_S_04.png?enhanced&format=webp')).default,
-	burst: async () => (await import('../assets/genshin/characters/Xiangling/Skill_E_01.png?enhanced&format=webp')).default,
-	skill: async () => (await import('../assets/genshin/characters/Xiangling/Skill_S_01.png?enhanced&format=webp')).default,
-	characterIcon: async () => (await import('../assets/genshin/characters/Xiangling/UI_AvatarIcon.png?enhanced&format=webp')).default,
-	normal: async () => (await import('../assets/genshin/characters/Xiangling/Skill_A_03.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/characters/Xiangling/UI_Gacha_AvatarImg.png?enhanced&format=webp')).default,
-	talent_0: async () => (await import('../assets/genshin/characters/Xiangling/UI_Talent_S_05.png?enhanced&format=webp')).default,
-	talent_1: async () => (await import('../assets/genshin/characters/Xiangling/UI_Talent_S_06.png?enhanced&format=webp')).default,
-	talent_2: async () => (await import('../assets/genshin/characters/Xiangling/UI_Talent_Cook_Attack.png?enhanced&format=webp')).default
 },Gaming: {
 	sideIcon: async () => (await import('../assets/genshin/characters/Gaming/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
 	con_0: async () => (await import('../assets/genshin/characters/Gaming/UI_Talent_S_01.png?enhanced&format=webp')).default,
@@ -704,6 +770,22 @@ Arlecchino: {
 	talent_0: async () => (await import('../assets/genshin/characters/Gaming/UI_Talent_S_05.png?enhanced&format=webp')).default,
 	talent_1: async () => (await import('../assets/genshin/characters/Gaming/UI_Talent_S_06.png?enhanced&format=webp')).default,
 	talent_2: async () => (await import('../assets/genshin/characters/Gaming/UI_Talent_S_Dehya_07.png?enhanced&format=webp')).default
+},Xiangling: {
+	sideIcon: async () => (await import('../assets/genshin/characters/Xiangling/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
+	con_0: async () => (await import('../assets/genshin/characters/Xiangling/UI_Talent_S_01.png?enhanced&format=webp')).default,
+	con_1: async () => (await import('../assets/genshin/characters/Xiangling/UI_Talent_S_02.png?enhanced&format=webp')).default,
+	con_2: async () => (await import('../assets/genshin/characters/Xiangling/UI_Talent_U_02.png?enhanced&format=webp')).default,
+	con_3: async () => (await import('../assets/genshin/characters/Xiangling/UI_Talent_S_03.png?enhanced&format=webp')).default,
+	con_4: async () => (await import('../assets/genshin/characters/Xiangling/UI_Talent_U_01.png?enhanced&format=webp')).default,
+	con_5: async () => (await import('../assets/genshin/characters/Xiangling/UI_Talent_S_04.png?enhanced&format=webp')).default,
+	burst: async () => (await import('../assets/genshin/characters/Xiangling/Skill_E_01.png?enhanced&format=webp')).default,
+	skill: async () => (await import('../assets/genshin/characters/Xiangling/Skill_S_01.png?enhanced&format=webp')).default,
+	characterIcon: async () => (await import('../assets/genshin/characters/Xiangling/UI_AvatarIcon.png?enhanced&format=webp')).default,
+	normal: async () => (await import('../assets/genshin/characters/Xiangling/Skill_A_03.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/characters/Xiangling/UI_Gacha_AvatarImg.png?enhanced&format=webp')).default,
+	talent_0: async () => (await import('../assets/genshin/characters/Xiangling/UI_Talent_S_05.png?enhanced&format=webp')).default,
+	talent_1: async () => (await import('../assets/genshin/characters/Xiangling/UI_Talent_S_06.png?enhanced&format=webp')).default,
+	talent_2: async () => (await import('../assets/genshin/characters/Xiangling/UI_Talent_Cook_Attack.png?enhanced&format=webp')).default
 },Thoma: {
 	sideIcon: async () => (await import('../assets/genshin/characters/Thoma/UI_AvatarIcon_Side_Tohma.png?enhanced&format=webp')).default,
 	con_0: async () => (await import('../assets/genshin/characters/Thoma/UI_Talent_S_Tohma_01.png?enhanced&format=webp')).default,
@@ -784,6 +866,22 @@ Arlecchino: {
 	talent_0: async () => (await import('../assets/genshin/characters/Razor/UI_Talent_S_05.png?enhanced&format=webp')).default,
 	talent_1: async () => (await import('../assets/genshin/characters/Razor/UI_Talent_S_06.png?enhanced&format=webp')).default,
 	talent_2: async () => (await import('../assets/genshin/characters/Razor/UI_Talent_Explosion_Sprint.png?enhanced&format=webp')).default
+},Yaoyao: {
+	sideIcon: async () => (await import('../assets/genshin/characters/Yaoyao/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
+	con_0: async () => (await import('../assets/genshin/characters/Yaoyao/UI_Talent_S_01.png?enhanced&format=webp')).default,
+	con_1: async () => (await import('../assets/genshin/characters/Yaoyao/UI_Talent_S_02.png?enhanced&format=webp')).default,
+	con_2: async () => (await import('../assets/genshin/characters/Yaoyao/UI_Talent_U_01.png?enhanced&format=webp')).default,
+	con_3: async () => (await import('../assets/genshin/characters/Yaoyao/UI_Talent_S_03.png?enhanced&format=webp')).default,
+	con_4: async () => (await import('../assets/genshin/characters/Yaoyao/UI_Talent_U_02.png?enhanced&format=webp')).default,
+	con_5: async () => (await import('../assets/genshin/characters/Yaoyao/UI_Talent_S_04.png?enhanced&format=webp')).default,
+	burst: async () => (await import('../assets/genshin/characters/Yaoyao/Skill_E_01.png?enhanced&format=webp')).default,
+	skill: async () => (await import('../assets/genshin/characters/Yaoyao/Skill_S_01.png?enhanced&format=webp')).default,
+	characterIcon: async () => (await import('../assets/genshin/characters/Yaoyao/UI_AvatarIcon.png?enhanced&format=webp')).default,
+	normal: async () => (await import('../assets/genshin/characters/Yaoyao/Skill_A_03.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/characters/Yaoyao/UI_Gacha_AvatarImg.png?enhanced&format=webp')).default,
+	talent_0: async () => (await import('../assets/genshin/characters/Yaoyao/UI_Talent_S_05.png?enhanced&format=webp')).default,
+	talent_1: async () => (await import('../assets/genshin/characters/Yaoyao/UI_Talent_S_06.png?enhanced&format=webp')).default,
+	talent_2: async () => (await import('../assets/genshin/characters/Yaoyao/UI_Talent_S_07.png?enhanced&format=webp')).default
 },Barbara: {
 	sideIcon: async () => (await import('../assets/genshin/characters/Barbara/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
 	con_0: async () => (await import('../assets/genshin/characters/Barbara/UI_Talent_S_01.png?enhanced&format=webp')).default,
@@ -816,22 +914,54 @@ Arlecchino: {
 	talent_0: async () => (await import('../assets/genshin/characters/Amber/UI_Talent_S_Ambor_05.png?enhanced&format=webp')).default,
 	talent_1: async () => (await import('../assets/genshin/characters/Amber/UI_Talent_S_Ambor_06.png?enhanced&format=webp')).default,
 	talent_2: async () => (await import('../assets/genshin/characters/Amber/UI_Talent_Explosion_Glide.png?enhanced&format=webp')).default
-},Yaoyao: {
-	sideIcon: async () => (await import('../assets/genshin/characters/Yaoyao/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
-	con_0: async () => (await import('../assets/genshin/characters/Yaoyao/UI_Talent_S_01.png?enhanced&format=webp')).default,
-	con_1: async () => (await import('../assets/genshin/characters/Yaoyao/UI_Talent_S_02.png?enhanced&format=webp')).default,
-	con_2: async () => (await import('../assets/genshin/characters/Yaoyao/UI_Talent_U_01.png?enhanced&format=webp')).default,
-	con_3: async () => (await import('../assets/genshin/characters/Yaoyao/UI_Talent_S_03.png?enhanced&format=webp')).default,
-	con_4: async () => (await import('../assets/genshin/characters/Yaoyao/UI_Talent_U_02.png?enhanced&format=webp')).default,
-	con_5: async () => (await import('../assets/genshin/characters/Yaoyao/UI_Talent_S_04.png?enhanced&format=webp')).default,
-	burst: async () => (await import('../assets/genshin/characters/Yaoyao/Skill_E_01.png?enhanced&format=webp')).default,
-	skill: async () => (await import('../assets/genshin/characters/Yaoyao/Skill_S_01.png?enhanced&format=webp')).default,
-	characterIcon: async () => (await import('../assets/genshin/characters/Yaoyao/UI_AvatarIcon.png?enhanced&format=webp')).default,
-	normal: async () => (await import('../assets/genshin/characters/Yaoyao/Skill_A_03.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/characters/Yaoyao/UI_Gacha_AvatarImg.png?enhanced&format=webp')).default,
-	talent_0: async () => (await import('../assets/genshin/characters/Yaoyao/UI_Talent_S_05.png?enhanced&format=webp')).default,
-	talent_1: async () => (await import('../assets/genshin/characters/Yaoyao/UI_Talent_S_06.png?enhanced&format=webp')).default,
-	talent_2: async () => (await import('../assets/genshin/characters/Yaoyao/UI_Talent_S_07.png?enhanced&format=webp')).default
+},Mika: {
+	sideIcon: async () => (await import('../assets/genshin/characters/Mika/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
+	con_0: async () => (await import('../assets/genshin/characters/Mika/UI_Talent_S_01.png?enhanced&format=webp')).default,
+	con_1: async () => (await import('../assets/genshin/characters/Mika/UI_Talent_S_02.png?enhanced&format=webp')).default,
+	con_2: async () => (await import('../assets/genshin/characters/Mika/UI_Talent_U_01.png?enhanced&format=webp')).default,
+	con_3: async () => (await import('../assets/genshin/characters/Mika/UI_Talent_S_03.png?enhanced&format=webp')).default,
+	con_4: async () => (await import('../assets/genshin/characters/Mika/UI_Talent_U_02.png?enhanced&format=webp')).default,
+	con_5: async () => (await import('../assets/genshin/characters/Mika/UI_Talent_S_04.png?enhanced&format=webp')).default,
+	burst: async () => (await import('../assets/genshin/characters/Mika/Skill_E_01.png?enhanced&format=webp')).default,
+	skill: async () => (await import('../assets/genshin/characters/Mika/Skill_S_01.png?enhanced&format=webp')).default,
+	characterIcon: async () => (await import('../assets/genshin/characters/Mika/UI_AvatarIcon.png?enhanced&format=webp')).default,
+	normal: async () => (await import('../assets/genshin/characters/Mika/Skill_A_03.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/characters/Mika/UI_Gacha_AvatarImg.png?enhanced&format=webp')).default,
+	talent_0: async () => (await import('../assets/genshin/characters/Mika/UI_Talent_S_05.png?enhanced&format=webp')).default,
+	talent_1: async () => (await import('../assets/genshin/characters/Mika/UI_Talent_S_06.png?enhanced&format=webp')).default,
+	talent_2: async () => (await import('../assets/genshin/characters/Mika/UI_Talent_Collect_Local_Mengde.png?enhanced&format=webp')).default
+},Freminet: {
+	sideIcon: async () => (await import('../assets/genshin/characters/Freminet/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
+	con_0: async () => (await import('../assets/genshin/characters/Freminet/UI_Talent_S_01.png?enhanced&format=webp')).default,
+	con_1: async () => (await import('../assets/genshin/characters/Freminet/UI_Talent_S_02.png?enhanced&format=webp')).default,
+	con_2: async () => (await import('../assets/genshin/characters/Freminet/UI_Talent_U_01.png?enhanced&format=webp')).default,
+	con_3: async () => (await import('../assets/genshin/characters/Freminet/UI_Talent_S_03.png?enhanced&format=webp')).default,
+	con_4: async () => (await import('../assets/genshin/characters/Freminet/UI_Talent_U_02.png?enhanced&format=webp')).default,
+	con_5: async () => (await import('../assets/genshin/characters/Freminet/UI_Talent_S_04.png?enhanced&format=webp')).default,
+	burst: async () => (await import('../assets/genshin/characters/Freminet/Skill_E_01.png?enhanced&format=webp')).default,
+	skill: async () => (await import('../assets/genshin/characters/Freminet/Skill_S_01.png?enhanced&format=webp')).default,
+	characterIcon: async () => (await import('../assets/genshin/characters/Freminet/UI_AvatarIcon.png?enhanced&format=webp')).default,
+	normal: async () => (await import('../assets/genshin/characters/Freminet/Skill_A_04.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/characters/Freminet/UI_Gacha_AvatarImg.png?enhanced&format=webp')).default,
+	talent_0: async () => (await import('../assets/genshin/characters/Freminet/UI_Talent_S_05.png?enhanced&format=webp')).default,
+	talent_1: async () => (await import('../assets/genshin/characters/Freminet/UI_Talent_S_06.png?enhanced&format=webp')).default,
+	talent_2: async () => (await import('../assets/genshin/characters/Freminet/UI_Talent_S_07.png?enhanced&format=webp')).default
+},Mona: {
+	sideIcon: async () => (await import('../assets/genshin/characters/Mona/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
+	con_0: async () => (await import('../assets/genshin/characters/Mona/UI_Talent_S_01.png?enhanced&format=webp')).default,
+	con_1: async () => (await import('../assets/genshin/characters/Mona/UI_Talent_S_02.png?enhanced&format=webp')).default,
+	con_2: async () => (await import('../assets/genshin/characters/Mona/UI_Talent_U_01.png?enhanced&format=webp')).default,
+	con_3: async () => (await import('../assets/genshin/characters/Mona/UI_Talent_S_03.png?enhanced&format=webp')).default,
+	con_4: async () => (await import('../assets/genshin/characters/Mona/UI_Talent_U_02.png?enhanced&format=webp')).default,
+	con_5: async () => (await import('../assets/genshin/characters/Mona/UI_Talent_S_04.png?enhanced&format=webp')).default,
+	burst: async () => (await import('../assets/genshin/characters/Mona/Skill_E_01.png?enhanced&format=webp')).default,
+	skill: async () => (await import('../assets/genshin/characters/Mona/Skill_S_01.png?enhanced&format=webp')).default,
+	characterIcon: async () => (await import('../assets/genshin/characters/Mona/UI_AvatarIcon.png?enhanced&format=webp')).default,
+	normal: async () => (await import('../assets/genshin/characters/Mona/Skill_A_Catalyst_MD.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/characters/Mona/UI_Gacha_AvatarImg.png?enhanced&format=webp')).default,
+	talent_0: async () => (await import('../assets/genshin/characters/Mona/UI_Talent_S_05.png?enhanced&format=webp')).default,
+	talent_1: async () => (await import('../assets/genshin/characters/Mona/UI_Talent_S_06.png?enhanced&format=webp')).default,
+	talent_2: async () => (await import('../assets/genshin/characters/Mona/UI_Talent_Combine_Weapon.png?enhanced&format=webp')).default
 },Ningguang: {
 	sideIcon: async () => (await import('../assets/genshin/characters/Ningguang/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
 	con_0: async () => (await import('../assets/genshin/characters/Ningguang/UI_Talent_S_01.png?enhanced&format=webp')).default,
@@ -896,6 +1026,39 @@ Arlecchino: {
 	talent_0: async () => (await import('../assets/genshin/characters/Qiqi/UI_Talent_S_05.png?enhanced&format=webp')).default,
 	talent_1: async () => (await import('../assets/genshin/characters/Qiqi/UI_Talent_S_06.png?enhanced&format=webp')).default,
 	talent_2: async () => (await import('../assets/genshin/characters/Qiqi/UI_Talent_Collect_Local_Liyue.png?enhanced&format=webp')).default
+},Ifa: {
+	sideIcon: async () => (await import('../assets/genshin/characters/Ifa/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
+	con_0: async () => (await import('../assets/genshin/characters/Ifa/UI_Talent_S_01.png?enhanced&format=webp')).default,
+	con_1: async () => (await import('../assets/genshin/characters/Ifa/UI_Talent_S_02.png?enhanced&format=webp')).default,
+	con_2: async () => (await import('../assets/genshin/characters/Ifa/UI_Talent_U_01.png?enhanced&format=webp')).default,
+	con_3: async () => (await import('../assets/genshin/characters/Ifa/UI_Talent_S_03.png?enhanced&format=webp')).default,
+	con_4: async () => (await import('../assets/genshin/characters/Ifa/UI_Talent_U_02.png?enhanced&format=webp')).default,
+	con_5: async () => (await import('../assets/genshin/characters/Ifa/UI_Talent_S_04.png?enhanced&format=webp')).default,
+	burst: async () => (await import('../assets/genshin/characters/Ifa/Skill_E_01.png?enhanced&format=webp')).default,
+	skill: async () => (await import('../assets/genshin/characters/Ifa/Skill_S_01.png?enhanced&format=webp')).default,
+	characterIcon: async () => (await import('../assets/genshin/characters/Ifa/UI_AvatarIcon.png?enhanced&format=webp')).default,
+	normal: async () => (await import('../assets/genshin/characters/Ifa/Skill_A_Catalyst_MD.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/characters/Ifa/UI_Gacha_AvatarImg.png?enhanced&format=webp')).default,
+	talent_0: async () => (await import('../assets/genshin/characters/Ifa/UI_Talent_S_05.png?enhanced&format=webp')).default,
+	talent_1: async () => (await import('../assets/genshin/characters/Ifa/UI_Talent_S_06.png?enhanced&format=webp')).default,
+	talent_2: async () => (await import('../assets/genshin/characters/Ifa/UI_Talent_S_07.png?enhanced&format=webp')).default,
+	talent_3: async () => (await import('../assets/genshin/characters/Ifa/UI_Talent_S_08.png?enhanced&format=webp')).default
+},Lynette: {
+	sideIcon: async () => (await import('../assets/genshin/characters/Lynette/UI_AvatarIcon_Side_Linette.png?enhanced&format=webp')).default,
+	con_0: async () => (await import('../assets/genshin/characters/Lynette/UI_Talent_S_Linette_01.png?enhanced&format=webp')).default,
+	con_1: async () => (await import('../assets/genshin/characters/Lynette/UI_Talent_S_Linette_02.png?enhanced&format=webp')).default,
+	con_2: async () => (await import('../assets/genshin/characters/Lynette/UI_Talent_U_Linette_01.png?enhanced&format=webp')).default,
+	con_3: async () => (await import('../assets/genshin/characters/Lynette/UI_Talent_S_Linette_03.png?enhanced&format=webp')).default,
+	con_4: async () => (await import('../assets/genshin/characters/Lynette/UI_Talent_U_Linette_02.png?enhanced&format=webp')).default,
+	con_5: async () => (await import('../assets/genshin/characters/Lynette/UI_Talent_S_Linette_04.png?enhanced&format=webp')).default,
+	burst: async () => (await import('../assets/genshin/characters/Lynette/Skill_E_Linette_01.png?enhanced&format=webp')).default,
+	skill: async () => (await import('../assets/genshin/characters/Lynette/Skill_S_Linette_01.png?enhanced&format=webp')).default,
+	characterIcon: async () => (await import('../assets/genshin/characters/Lynette/UI_AvatarIcon_Linette.png?enhanced&format=webp')).default,
+	normal: async () => (await import('../assets/genshin/characters/Lynette/Skill_A_01.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/characters/Lynette/UI_Gacha_AvatarImg_Linette.png?enhanced&format=webp')).default,
+	talent_0: async () => (await import('../assets/genshin/characters/Lynette/UI_Talent_S_Linette_05.png?enhanced&format=webp')).default,
+	talent_1: async () => (await import('../assets/genshin/characters/Lynette/UI_Talent_S_Linette_06.png?enhanced&format=webp')).default,
+	talent_2: async () => (await import('../assets/genshin/characters/Lynette/UI_Talent_S_Linette_07.png?enhanced&format=webp')).default
 },Chongyun: {
 	sideIcon: async () => (await import('../assets/genshin/characters/Chongyun/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
 	con_0: async () => (await import('../assets/genshin/characters/Chongyun/UI_Talent_S_01.png?enhanced&format=webp')).default,
@@ -992,70 +1155,6 @@ Arlecchino: {
 	talent_0: async () => (await import('../assets/genshin/characters/Xinyan/UI_Talent_S_05.png?enhanced&format=webp')).default,
 	talent_1: async () => (await import('../assets/genshin/characters/Xinyan/UI_Talent_S_06.png?enhanced&format=webp')).default,
 	talent_2: async () => (await import('../assets/genshin/characters/Xinyan/UI_Talent_Cook_Defense.png?enhanced&format=webp')).default
-},Dehya: {
-	sideIcon: async () => (await import('../assets/genshin/characters/Dehya/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
-	con_0: async () => (await import('../assets/genshin/characters/Dehya/UI_Talent_S_01.png?enhanced&format=webp')).default,
-	con_1: async () => (await import('../assets/genshin/characters/Dehya/UI_Talent_S_02.png?enhanced&format=webp')).default,
-	con_2: async () => (await import('../assets/genshin/characters/Dehya/UI_Talent_U_01.png?enhanced&format=webp')).default,
-	con_3: async () => (await import('../assets/genshin/characters/Dehya/UI_Talent_S_03.png?enhanced&format=webp')).default,
-	con_4: async () => (await import('../assets/genshin/characters/Dehya/UI_Talent_U_02.png?enhanced&format=webp')).default,
-	con_5: async () => (await import('../assets/genshin/characters/Dehya/UI_Talent_S_04.png?enhanced&format=webp')).default,
-	burst: async () => (await import('../assets/genshin/characters/Dehya/Skill_E_01.png?enhanced&format=webp')).default,
-	skill: async () => (await import('../assets/genshin/characters/Dehya/Skill_S_01.png?enhanced&format=webp')).default,
-	characterIcon: async () => (await import('../assets/genshin/characters/Dehya/UI_AvatarIcon.png?enhanced&format=webp')).default,
-	normal: async () => (await import('../assets/genshin/characters/Dehya/Skill_A_04.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/characters/Dehya/UI_Gacha_AvatarImg.png?enhanced&format=webp')).default,
-	talent_0: async () => (await import('../assets/genshin/characters/Dehya/UI_Talent_S_05.png?enhanced&format=webp')).default,
-	talent_1: async () => (await import('../assets/genshin/characters/Dehya/UI_Talent_S_06.png?enhanced&format=webp')).default,
-	talent_2: async () => (await import('../assets/genshin/characters/Dehya/UI_Talent_S_07.png?enhanced&format=webp')).default
-},LanYan: {
-	sideIcon: async () => (await import('../assets/genshin/characters/LanYan/UI_AvatarIcon_Side_Lanyan.png?enhanced&format=webp')).default,
-	con_0: async () => (await import('../assets/genshin/characters/LanYan/UI_Talent_S_Lanyan_01.png?enhanced&format=webp')).default,
-	con_1: async () => (await import('../assets/genshin/characters/LanYan/UI_Talent_S_Lanyan_02.png?enhanced&format=webp')).default,
-	con_2: async () => (await import('../assets/genshin/characters/LanYan/UI_Talent_U_Lanyan_01.png?enhanced&format=webp')).default,
-	con_3: async () => (await import('../assets/genshin/characters/LanYan/UI_Talent_S_Lanyan_03.png?enhanced&format=webp')).default,
-	con_4: async () => (await import('../assets/genshin/characters/LanYan/UI_Talent_U_Lanyan_02.png?enhanced&format=webp')).default,
-	con_5: async () => (await import('../assets/genshin/characters/LanYan/UI_Talent_S_Lanyan_04.png?enhanced&format=webp')).default,
-	burst: async () => (await import('../assets/genshin/characters/LanYan/Skill_E_Lanyan_01.png?enhanced&format=webp')).default,
-	skill: async () => (await import('../assets/genshin/characters/LanYan/Skill_S_Lanyan_01.png?enhanced&format=webp')).default,
-	characterIcon: async () => (await import('../assets/genshin/characters/LanYan/UI_AvatarIcon_Lanyan.png?enhanced&format=webp')).default,
-	normal: async () => (await import('../assets/genshin/characters/LanYan/Skill_A_Catalyst_MD.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/characters/LanYan/UI_Gacha_AvatarImg_Lanyan.png?enhanced&format=webp')).default,
-	talent_0: async () => (await import('../assets/genshin/characters/LanYan/UI_Talent_S_Lanyan_05.png?enhanced&format=webp')).default,
-	talent_1: async () => (await import('../assets/genshin/characters/LanYan/UI_Talent_S_Lanyan_06.png?enhanced&format=webp')).default,
-	talent_2: async () => (await import('../assets/genshin/characters/LanYan/UI_Talent_S_Sayu_07.png?enhanced&format=webp')).default
-},Lynette: {
-	sideIcon: async () => (await import('../assets/genshin/characters/Lynette/UI_AvatarIcon_Side_Linette.png?enhanced&format=webp')).default,
-	con_0: async () => (await import('../assets/genshin/characters/Lynette/UI_Talent_S_Linette_01.png?enhanced&format=webp')).default,
-	con_1: async () => (await import('../assets/genshin/characters/Lynette/UI_Talent_S_Linette_02.png?enhanced&format=webp')).default,
-	con_2: async () => (await import('../assets/genshin/characters/Lynette/UI_Talent_U_Linette_01.png?enhanced&format=webp')).default,
-	con_3: async () => (await import('../assets/genshin/characters/Lynette/UI_Talent_S_Linette_03.png?enhanced&format=webp')).default,
-	con_4: async () => (await import('../assets/genshin/characters/Lynette/UI_Talent_U_Linette_02.png?enhanced&format=webp')).default,
-	con_5: async () => (await import('../assets/genshin/characters/Lynette/UI_Talent_S_Linette_04.png?enhanced&format=webp')).default,
-	burst: async () => (await import('../assets/genshin/characters/Lynette/Skill_E_Linette_01.png?enhanced&format=webp')).default,
-	skill: async () => (await import('../assets/genshin/characters/Lynette/Skill_S_Linette_01.png?enhanced&format=webp')).default,
-	characterIcon: async () => (await import('../assets/genshin/characters/Lynette/UI_AvatarIcon_Linette.png?enhanced&format=webp')).default,
-	normal: async () => (await import('../assets/genshin/characters/Lynette/Skill_A_01.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/characters/Lynette/UI_Gacha_AvatarImg_Linette.png?enhanced&format=webp')).default,
-	talent_0: async () => (await import('../assets/genshin/characters/Lynette/UI_Talent_S_Linette_05.png?enhanced&format=webp')).default,
-	talent_1: async () => (await import('../assets/genshin/characters/Lynette/UI_Talent_S_Linette_06.png?enhanced&format=webp')).default,
-	talent_2: async () => (await import('../assets/genshin/characters/Lynette/UI_Talent_S_Linette_07.png?enhanced&format=webp')).default
-},Mika: {
-	sideIcon: async () => (await import('../assets/genshin/characters/Mika/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
-	con_0: async () => (await import('../assets/genshin/characters/Mika/UI_Talent_S_01.png?enhanced&format=webp')).default,
-	con_1: async () => (await import('../assets/genshin/characters/Mika/UI_Talent_S_02.png?enhanced&format=webp')).default,
-	con_2: async () => (await import('../assets/genshin/characters/Mika/UI_Talent_U_01.png?enhanced&format=webp')).default,
-	con_3: async () => (await import('../assets/genshin/characters/Mika/UI_Talent_S_03.png?enhanced&format=webp')).default,
-	con_4: async () => (await import('../assets/genshin/characters/Mika/UI_Talent_U_02.png?enhanced&format=webp')).default,
-	con_5: async () => (await import('../assets/genshin/characters/Mika/UI_Talent_S_04.png?enhanced&format=webp')).default,
-	burst: async () => (await import('../assets/genshin/characters/Mika/Skill_E_01.png?enhanced&format=webp')).default,
-	skill: async () => (await import('../assets/genshin/characters/Mika/Skill_S_01.png?enhanced&format=webp')).default,
-	characterIcon: async () => (await import('../assets/genshin/characters/Mika/UI_AvatarIcon.png?enhanced&format=webp')).default,
-	normal: async () => (await import('../assets/genshin/characters/Mika/Skill_A_03.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/characters/Mika/UI_Gacha_AvatarImg.png?enhanced&format=webp')).default,
-	talent_0: async () => (await import('../assets/genshin/characters/Mika/UI_Talent_S_05.png?enhanced&format=webp')).default,
-	talent_1: async () => (await import('../assets/genshin/characters/Mika/UI_Talent_S_06.png?enhanced&format=webp')).default,
-	talent_2: async () => (await import('../assets/genshin/characters/Mika/UI_Talent_Collect_Local_Mengde.png?enhanced&format=webp')).default
 },Rosaria: {
 	sideIcon: async () => (await import('../assets/genshin/characters/Rosaria/UI_AvatarIcon_Side.png?enhanced&format=webp')).default,
 	con_0: async () => (await import('../assets/genshin/characters/Rosaria/UI_Talent_S_01.png?enhanced&format=webp')).default,
@@ -1102,7 +1201,7 @@ type WeaponImageKey =
 	'awakenIcon' |
 	'splashImage';
 
-type WeaponCacheKey = 'CrimsonMoonsSemblance' | 'PeakPatrolSong' | 'AquaSimulacra' | 'SkywardBlade' | 'StaffOfHoma' | 'OathswornEye' | 'FavoniusWarbow' | 'UrakuMisugiri' | 'Absolution' | 'DialoguesOfTheDesertSages' | 'SacrificialBow' | 'PolarStar' | 'SkywardSpine' | 'CalamityQueller' | 'AquilaFavonia' | 'AmosBow' | 'LostPrayerToTheSacredWinds' | 'SkywardAtlas' | 'SkywardPride' | 'FadingTwilight' | 'TheViridescentHunt' | 'TheStringless' | 'AshGravenDrinkingHorn' | 'SolarPearl' | 'SacrificialFragments' | 'TheWidsith' | 'MissiveWindspear' | 'TheCatch' | 'Deathmatch' | 'DragonsBane' | 'MailedFlower' | 'EarthShaker' | 'LuxuriousSeaLord' | 'SerpentSpine' | 'FleuveCendreFerryman' | 'FinaleOfTheDeep' | 'WolfFang' | 'ToukabouShigure' | 'AmenomaKageuchi' | 'TheBlackSword' | 'BlackcliffLongsword' | 'PrototypeRancour' | 'SacrificialSword' | 'FavoniusSword' | 'PrototypeAmber' | 'TamayurateiNoOhanashi' | 'FavoniusLance' | 'FavoniusGreatsword' | 'CalamityOfEshu' | 'Cloudforged' | 'IbisPiercer' | 'FootprintOfTheRainbow' | 'TheFlute' | 'IronSting' | 'Rust' | 'FavoniusCodex' | 'CrescentPike' | 'PrototypeArchaic' | 'TheBell' | 'BalladOfTheBoundlessBlue' | 'UltimateOverlordsMegaMagicSword' | 'SacrificialGreatsword' | 'CinnabarSpindle' | 'RingOfYaxche' | 'EyeOfPerception' | 'BalladOfTheFjords' | 'MountainBracingBolt' | 'DragonspineSpear' | 'LithicSpear' | 'LithicBlade' | 'Rainslasher' | 'SturdyBone' | 'SwordOfNarzissenkreuz' | 'KagotsurubeIsshin' | 'LionsRoar' | 'ThrillingTalesOfDragonSlayers' | 'BlackTassel' | 'DarkIronSword' | 'Messenger' | 'Slingshot' | 'RecurveBow' | 'SharpshootersOath' | 'RavenBow' | 'TwinNephrite' | 'EmeraldOrb' | 'OtherworldlyStory' | 'MagicGuide' | 'Halberd' | 'WhiteTassel' | 'SkyriderGreatsword' | 'DebateClub' | 'WhiteIronGreatsword' | 'BloodtaintedGreatsword' | 'FerrousShadow' | 'SkyriderSword' | 'FilletBlade' | 'TravelersHandySword' | 'HarbingerOfDawn' | 'CoolSteel' | 'WasterGreatsword' | 'HuntersBow' | 'DullBlade' | 'ApprenticesNotes' | 'BeginnersProtector';
+type WeaponCacheKey = 'CrimsonMoonsSemblance' | 'PeakPatrolSong' | 'AquaSimulacra' | 'SkywardBlade' | 'StaffOfHoma' | 'SkywardAtlas' | 'FavoniusWarbow' | 'UrakuMisugiri' | 'Absolution' | 'DialoguesOfTheDesertSages' | 'SacrificialBow' | 'PolarStar' | 'CalamityQueller' | 'SkywardSpine' | 'AquilaFavonia' | 'AmosBow' | 'SkywardPride' | 'LostPrayerToTheSacredWinds' | 'ChainBreaker' | 'FadingTwilight' | 'TheViridescentHunt' | 'TheStringless' | 'AshGravenDrinkingHorn' | 'OathswornEye' | 'HakushinRing' | 'PrototypeAmber' | 'SolarPearl' | 'SacrificialFragments' | 'TheWidsith' | 'MissiveWindspear' | 'TheCatch' | 'FavoniusLance' | 'Deathmatch' | 'DragonsBane' | 'EarthShaker' | 'FruitfulHook' | 'UltimateOverlordsMegaMagicSword' | 'MailedFlower' | 'LuxuriousSeaLord' | 'SerpentSpine' | 'Rainslasher' | 'SacrificialGreatsword' | 'FavoniusGreatsword' | 'FleuveCendreFerryman' | 'FinaleOfTheDeep' | 'WolfFang' | 'ToukabouShigure' | 'AmenomaKageuchi' | 'TheBlackSword' | 'BlackcliffLongsword' | 'PrototypeRancour' | 'SacrificialSword' | 'FavoniusSword' | 'TamayurateiNoOhanashi' | 'CalamityOfEshu' | 'Cloudforged' | 'IbisPiercer' | 'FavoniusCodex' | 'FootprintOfTheRainbow' | 'SwordOfNarzissenkreuz' | 'TheFlute' | 'IronSting' | 'Rust' | 'CrescentPike' | 'PrototypeArchaic' | 'TheBell' | 'BalladOfTheBoundlessBlue' | 'CinnabarSpindle' | 'SequenceOfSolitude' | 'RingOfYaxche' | 'WaveridingWhirl' | 'EyeOfPerception' | 'MountainBracingBolt' | 'BalladOfTheFjords' | 'DragonspineSpear' | 'LithicSpear' | 'LithicBlade' | 'SturdyBone' | 'KagotsurubeIsshin' | 'LionsRoar' | 'ThrillingTalesOfDragonSlayers' | 'BlackTassel' | 'Slingshot' | 'DarkIronSword' | 'Messenger' | 'RecurveBow' | 'SharpshootersOath' | 'RavenBow' | 'TwinNephrite' | 'EmeraldOrb' | 'OtherworldlyStory' | 'MagicGuide' | 'Halberd' | 'WhiteTassel' | 'SkyriderGreatsword' | 'DebateClub' | 'WhiteIronGreatsword' | 'BloodtaintedGreatsword' | 'FerrousShadow' | 'SkyriderSword' | 'FilletBlade' | 'TravelersHandySword' | 'HarbingerOfDawn' | 'CoolSteel' | 'DullBlade' | 'WasterGreatsword' | 'HuntersBow' | 'BeginnersProtector' | 'ApprenticesNotes';
 
 const weaponImageDict: Record<WeaponCacheKey, Record<WeaponImageKey, () => Promise<Picture>>> = {
 CrimsonMoonsSemblance: {
@@ -1125,10 +1224,10 @@ CrimsonMoonsSemblance: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/StaffOfHoma/UI_EquipIcon_Pole_Homa.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/StaffOfHoma/UI_EquipIcon_Pole_Homa_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/StaffOfHoma/UI_Gacha_EquipIcon_Pole_Homa.png?enhanced&format=webp')).default
-},OathswornEye: {
-	baseIocn: async () => (await import('../assets/genshin/weapons/OathswornEye/UI_EquipIcon_Catalyst_Jyanome.png?enhanced&format=webp')).default,
-	awakenIcon: async () => (await import('../assets/genshin/weapons/OathswornEye/UI_EquipIcon_Catalyst_Jyanome_Awaken.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/weapons/OathswornEye/UI_Gacha_EquipIcon_Catalyst_Jyanome.png?enhanced&format=webp')).default
+},SkywardAtlas: {
+	baseIocn: async () => (await import('../assets/genshin/weapons/SkywardAtlas/UI_EquipIcon_Catalyst_Dvalin.png?enhanced&format=webp')).default,
+	awakenIcon: async () => (await import('../assets/genshin/weapons/SkywardAtlas/UI_EquipIcon_Catalyst_Dvalin_Awaken.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/weapons/SkywardAtlas/UI_Gacha_EquipIcon_Catalyst_Dvalin.png?enhanced&format=webp')).default
 },FavoniusWarbow: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/FavoniusWarbow/UI_EquipIcon_Bow_Zephyrus.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/FavoniusWarbow/UI_EquipIcon_Bow_Zephyrus_Awaken.png?enhanced&format=webp')).default,
@@ -1153,14 +1252,14 @@ CrimsonMoonsSemblance: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/PolarStar/UI_EquipIcon_Bow_Worldbane.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/PolarStar/UI_EquipIcon_Bow_Worldbane_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/PolarStar/UI_Gacha_EquipIcon_Bow_Worldbane.png?enhanced&format=webp')).default
-},SkywardSpine: {
-	baseIocn: async () => (await import('../assets/genshin/weapons/SkywardSpine/UI_EquipIcon_Pole_Dvalin.png?enhanced&format=webp')).default,
-	awakenIcon: async () => (await import('../assets/genshin/weapons/SkywardSpine/UI_EquipIcon_Pole_Dvalin_Awaken.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/weapons/SkywardSpine/UI_Gacha_EquipIcon_Pole_Dvalin.png?enhanced&format=webp')).default
 },CalamityQueller: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/CalamityQueller/UI_EquipIcon_Pole_Santika.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/CalamityQueller/UI_EquipIcon_Pole_Santika_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/CalamityQueller/UI_Gacha_EquipIcon_Pole_Santika.png?enhanced&format=webp')).default
+},SkywardSpine: {
+	baseIocn: async () => (await import('../assets/genshin/weapons/SkywardSpine/UI_EquipIcon_Pole_Dvalin.png?enhanced&format=webp')).default,
+	awakenIcon: async () => (await import('../assets/genshin/weapons/SkywardSpine/UI_EquipIcon_Pole_Dvalin_Awaken.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/weapons/SkywardSpine/UI_Gacha_EquipIcon_Pole_Dvalin.png?enhanced&format=webp')).default
 },AquilaFavonia: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/AquilaFavonia/UI_EquipIcon_Sword_Falcon.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/AquilaFavonia/UI_EquipIcon_Sword_Falcon_Awaken.png?enhanced&format=webp')).default,
@@ -1169,18 +1268,18 @@ CrimsonMoonsSemblance: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/AmosBow/UI_EquipIcon_Bow_Amos.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/AmosBow/UI_EquipIcon_Bow_Amos_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/AmosBow/UI_Gacha_EquipIcon_Bow_Amos.png?enhanced&format=webp')).default
-},LostPrayerToTheSacredWinds: {
-	baseIocn: async () => (await import('../assets/genshin/weapons/LostPrayerToTheSacredWinds/UI_EquipIcon_Catalyst_Fourwinds.png?enhanced&format=webp')).default,
-	awakenIcon: async () => (await import('../assets/genshin/weapons/LostPrayerToTheSacredWinds/UI_EquipIcon_Catalyst_Fourwinds_Awaken.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/weapons/LostPrayerToTheSacredWinds/UI_Gacha_EquipIcon_Catalyst_Fourwinds.png?enhanced&format=webp')).default
-},SkywardAtlas: {
-	baseIocn: async () => (await import('../assets/genshin/weapons/SkywardAtlas/UI_EquipIcon_Catalyst_Dvalin.png?enhanced&format=webp')).default,
-	awakenIcon: async () => (await import('../assets/genshin/weapons/SkywardAtlas/UI_EquipIcon_Catalyst_Dvalin_Awaken.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/weapons/SkywardAtlas/UI_Gacha_EquipIcon_Catalyst_Dvalin.png?enhanced&format=webp')).default
 },SkywardPride: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/SkywardPride/UI_EquipIcon_Claymore_Dvalin.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/SkywardPride/UI_EquipIcon_Claymore_Dvalin_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/SkywardPride/UI_Gacha_EquipIcon_Claymore_Dvalin.png?enhanced&format=webp')).default
+},LostPrayerToTheSacredWinds: {
+	baseIocn: async () => (await import('../assets/genshin/weapons/LostPrayerToTheSacredWinds/UI_EquipIcon_Catalyst_Fourwinds.png?enhanced&format=webp')).default,
+	awakenIcon: async () => (await import('../assets/genshin/weapons/LostPrayerToTheSacredWinds/UI_EquipIcon_Catalyst_Fourwinds_Awaken.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/weapons/LostPrayerToTheSacredWinds/UI_Gacha_EquipIcon_Catalyst_Fourwinds.png?enhanced&format=webp')).default
+},ChainBreaker: {
+	baseIocn: async () => (await import('../assets/genshin/weapons/ChainBreaker/UI_EquipIcon_Bow_Isikhulu.png?enhanced&format=webp')).default,
+	awakenIcon: async () => (await import('../assets/genshin/weapons/ChainBreaker/UI_EquipIcon_Bow_Isikhulu_Awaken.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/weapons/ChainBreaker/UI_Gacha_EquipIcon_Bow_Isikhulu.png?enhanced&format=webp')).default
 },FadingTwilight: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/FadingTwilight/UI_EquipIcon_Bow_Fallensun.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/FadingTwilight/UI_EquipIcon_Bow_Fallensun_Awaken.png?enhanced&format=webp')).default,
@@ -1197,6 +1296,18 @@ CrimsonMoonsSemblance: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/AshGravenDrinkingHorn/UI_EquipIcon_Catalyst_ConchSprayer.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/AshGravenDrinkingHorn/UI_EquipIcon_Catalyst_ConchSprayer_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/AshGravenDrinkingHorn/UI_Gacha_EquipIcon_Catalyst_ConchSprayer.png?enhanced&format=webp')).default
+},OathswornEye: {
+	baseIocn: async () => (await import('../assets/genshin/weapons/OathswornEye/UI_EquipIcon_Catalyst_Jyanome.png?enhanced&format=webp')).default,
+	awakenIcon: async () => (await import('../assets/genshin/weapons/OathswornEye/UI_EquipIcon_Catalyst_Jyanome_Awaken.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/weapons/OathswornEye/UI_Gacha_EquipIcon_Catalyst_Jyanome.png?enhanced&format=webp')).default
+},HakushinRing: {
+	baseIocn: async () => (await import('../assets/genshin/weapons/HakushinRing/UI_EquipIcon_Catalyst_Bakufu.png?enhanced&format=webp')).default,
+	awakenIcon: async () => (await import('../assets/genshin/weapons/HakushinRing/UI_EquipIcon_Catalyst_Bakufu_Awaken.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/weapons/HakushinRing/UI_Gacha_EquipIcon_Catalyst_Bakufu.png?enhanced&format=webp')).default
+},PrototypeAmber: {
+	baseIocn: async () => (await import('../assets/genshin/weapons/PrototypeAmber/UI_EquipIcon_Catalyst_Proto.png?enhanced&format=webp')).default,
+	awakenIcon: async () => (await import('../assets/genshin/weapons/PrototypeAmber/UI_EquipIcon_Catalyst_Proto_Awaken.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/weapons/PrototypeAmber/UI_Gacha_EquipIcon_Catalyst_Proto.png?enhanced&format=webp')).default
 },SolarPearl: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/SolarPearl/UI_EquipIcon_Catalyst_Resurrection.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/SolarPearl/UI_EquipIcon_Catalyst_Resurrection_Awaken.png?enhanced&format=webp')).default,
@@ -1217,6 +1328,10 @@ CrimsonMoonsSemblance: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/TheCatch/UI_EquipIcon_Pole_Mori.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/TheCatch/UI_EquipIcon_Pole_Mori_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/TheCatch/UI_Gacha_EquipIcon_Pole_Mori.png?enhanced&format=webp')).default
+},FavoniusLance: {
+	baseIocn: async () => (await import('../assets/genshin/weapons/FavoniusLance/UI_EquipIcon_Pole_Zephyrus.png?enhanced&format=webp')).default,
+	awakenIcon: async () => (await import('../assets/genshin/weapons/FavoniusLance/UI_EquipIcon_Pole_Zephyrus_Awaken.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/weapons/FavoniusLance/UI_Gacha_EquipIcon_Pole_Zephyrus.png?enhanced&format=webp')).default
 },Deathmatch: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/Deathmatch/UI_EquipIcon_Pole_Gladiator.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/Deathmatch/UI_EquipIcon_Pole_Gladiator_Awaken.png?enhanced&format=webp')).default,
@@ -1225,14 +1340,22 @@ CrimsonMoonsSemblance: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/DragonsBane/UI_EquipIcon_Pole_Stardust.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/DragonsBane/UI_EquipIcon_Pole_Stardust_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/DragonsBane/UI_Gacha_EquipIcon_Pole_Stardust.png?enhanced&format=webp')).default
-},MailedFlower: {
-	baseIocn: async () => (await import('../assets/genshin/weapons/MailedFlower/UI_EquipIcon_Claymore_Fleurfair.png?enhanced&format=webp')).default,
-	awakenIcon: async () => (await import('../assets/genshin/weapons/MailedFlower/UI_EquipIcon_Claymore_Fleurfair_Awaken.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/weapons/MailedFlower/UI_Gacha_EquipIcon_Claymore_Fleurfair.png?enhanced&format=webp')).default
 },EarthShaker: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/EarthShaker/UI_EquipIcon_Claymore_Isikhulu.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/EarthShaker/UI_EquipIcon_Claymore_Isikhulu_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/EarthShaker/UI_Gacha_EquipIcon_Claymore_Isikhulu.png?enhanced&format=webp')).default
+},FruitfulHook: {
+	baseIocn: async () => (await import('../assets/genshin/weapons/FruitfulHook/UI_EquipIcon_Claymore_Umpakati.png?enhanced&format=webp')).default,
+	awakenIcon: async () => (await import('../assets/genshin/weapons/FruitfulHook/UI_EquipIcon_Claymore_Umpakati_Awaken.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/weapons/FruitfulHook/UI_Gacha_EquipIcon_Claymore_Umpakati.png?enhanced&format=webp')).default
+},UltimateOverlordsMegaMagicSword: {
+	baseIocn: async () => (await import('../assets/genshin/weapons/UltimateOverlordsMegaMagicSword/UI_EquipIcon_Claymore_Champion.png?enhanced&format=webp')).default,
+	awakenIcon: async () => (await import('../assets/genshin/weapons/UltimateOverlordsMegaMagicSword/UI_EquipIcon_Claymore_Champion_Awaken.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/weapons/UltimateOverlordsMegaMagicSword/UI_Gacha_EquipIcon_Claymore_Champion.png?enhanced&format=webp')).default
+},MailedFlower: {
+	baseIocn: async () => (await import('../assets/genshin/weapons/MailedFlower/UI_EquipIcon_Claymore_Fleurfair.png?enhanced&format=webp')).default,
+	awakenIcon: async () => (await import('../assets/genshin/weapons/MailedFlower/UI_EquipIcon_Claymore_Fleurfair_Awaken.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/weapons/MailedFlower/UI_Gacha_EquipIcon_Claymore_Fleurfair.png?enhanced&format=webp')).default
 },LuxuriousSeaLord: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/LuxuriousSeaLord/UI_EquipIcon_Claymore_MillenniaTuna.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/LuxuriousSeaLord/UI_EquipIcon_Claymore_MillenniaTuna_Awaken.png?enhanced&format=webp')).default,
@@ -1241,6 +1364,18 @@ CrimsonMoonsSemblance: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/SerpentSpine/UI_EquipIcon_Claymore_Kione.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/SerpentSpine/UI_EquipIcon_Claymore_Kione_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/SerpentSpine/UI_Gacha_EquipIcon_Claymore_Kione.png?enhanced&format=webp')).default
+},Rainslasher: {
+	baseIocn: async () => (await import('../assets/genshin/weapons/Rainslasher/UI_EquipIcon_Claymore_Perdue.png?enhanced&format=webp')).default,
+	awakenIcon: async () => (await import('../assets/genshin/weapons/Rainslasher/UI_EquipIcon_Claymore_Perdue_Awaken.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/weapons/Rainslasher/UI_Gacha_EquipIcon_Claymore_Perdue.png?enhanced&format=webp')).default
+},SacrificialGreatsword: {
+	baseIocn: async () => (await import('../assets/genshin/weapons/SacrificialGreatsword/UI_EquipIcon_Claymore_Fossil.png?enhanced&format=webp')).default,
+	awakenIcon: async () => (await import('../assets/genshin/weapons/SacrificialGreatsword/UI_EquipIcon_Claymore_Fossil_Awaken.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/weapons/SacrificialGreatsword/UI_Gacha_EquipIcon_Claymore_Fossil.png?enhanced&format=webp')).default
+},FavoniusGreatsword: {
+	baseIocn: async () => (await import('../assets/genshin/weapons/FavoniusGreatsword/UI_EquipIcon_Claymore_Zephyrus.png?enhanced&format=webp')).default,
+	awakenIcon: async () => (await import('../assets/genshin/weapons/FavoniusGreatsword/UI_EquipIcon_Claymore_Zephyrus_Awaken.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/weapons/FavoniusGreatsword/UI_Gacha_EquipIcon_Claymore_Zephyrus.png?enhanced&format=webp')).default
 },FleuveCendreFerryman: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/FleuveCendreFerryman/UI_EquipIcon_Sword_Machination.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/FleuveCendreFerryman/UI_EquipIcon_Sword_Machination_Awaken.png?enhanced&format=webp')).default,
@@ -1281,22 +1416,10 @@ CrimsonMoonsSemblance: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/FavoniusSword/UI_EquipIcon_Sword_Zephyrus.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/FavoniusSword/UI_EquipIcon_Sword_Zephyrus_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/FavoniusSword/UI_Gacha_EquipIcon_Sword_Zephyrus.png?enhanced&format=webp')).default
-},PrototypeAmber: {
-	baseIocn: async () => (await import('../assets/genshin/weapons/PrototypeAmber/UI_EquipIcon_Catalyst_Proto.png?enhanced&format=webp')).default,
-	awakenIcon: async () => (await import('../assets/genshin/weapons/PrototypeAmber/UI_EquipIcon_Catalyst_Proto_Awaken.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/weapons/PrototypeAmber/UI_Gacha_EquipIcon_Catalyst_Proto.png?enhanced&format=webp')).default
 },TamayurateiNoOhanashi: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/TamayurateiNoOhanashi/UI_EquipIcon_Pole_Aoandon.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/TamayurateiNoOhanashi/UI_EquipIcon_Pole_Aoandon_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/TamayurateiNoOhanashi/UI_Gacha_EquipIcon_Pole_Aoandon.png?enhanced&format=webp')).default
-},FavoniusLance: {
-	baseIocn: async () => (await import('../assets/genshin/weapons/FavoniusLance/UI_EquipIcon_Pole_Zephyrus.png?enhanced&format=webp')).default,
-	awakenIcon: async () => (await import('../assets/genshin/weapons/FavoniusLance/UI_EquipIcon_Pole_Zephyrus_Awaken.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/weapons/FavoniusLance/UI_Gacha_EquipIcon_Pole_Zephyrus.png?enhanced&format=webp')).default
-},FavoniusGreatsword: {
-	baseIocn: async () => (await import('../assets/genshin/weapons/FavoniusGreatsword/UI_EquipIcon_Claymore_Zephyrus.png?enhanced&format=webp')).default,
-	awakenIcon: async () => (await import('../assets/genshin/weapons/FavoniusGreatsword/UI_EquipIcon_Claymore_Zephyrus_Awaken.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/weapons/FavoniusGreatsword/UI_Gacha_EquipIcon_Claymore_Zephyrus.png?enhanced&format=webp')).default
 },CalamityOfEshu: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/CalamityOfEshu/UI_EquipIcon_Sword_SacrificialNgombe.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/CalamityOfEshu/UI_EquipIcon_Sword_SacrificialNgombe_Awaken.png?enhanced&format=webp')).default,
@@ -1309,10 +1432,18 @@ CrimsonMoonsSemblance: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/IbisPiercer/UI_EquipIcon_Bow_Ibis.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/IbisPiercer/UI_EquipIcon_Bow_Ibis_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/IbisPiercer/UI_Gacha_EquipIcon_Bow_Ibis.png?enhanced&format=webp')).default
+},FavoniusCodex: {
+	baseIocn: async () => (await import('../assets/genshin/weapons/FavoniusCodex/UI_EquipIcon_Catalyst_Zephyrus.png?enhanced&format=webp')).default,
+	awakenIcon: async () => (await import('../assets/genshin/weapons/FavoniusCodex/UI_EquipIcon_Catalyst_Zephyrus_Awaken.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/weapons/FavoniusCodex/UI_Gacha_EquipIcon_Catalyst_Zephyrus.png?enhanced&format=webp')).default
 },FootprintOfTheRainbow: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/FootprintOfTheRainbow/UI_EquipIcon_Pole_Isikhulu.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/FootprintOfTheRainbow/UI_EquipIcon_Pole_Isikhulu_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/FootprintOfTheRainbow/UI_Gacha_EquipIcon_Pole_Isikhulu.png?enhanced&format=webp')).default
+},SwordOfNarzissenkreuz: {
+	baseIocn: async () => (await import('../assets/genshin/weapons/SwordOfNarzissenkreuz/UI_EquipIcon_Sword_Purewill.png?enhanced&format=webp')).default,
+	awakenIcon: async () => (await import('../assets/genshin/weapons/SwordOfNarzissenkreuz/UI_EquipIcon_Sword_Purewill.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/weapons/SwordOfNarzissenkreuz/UI_Gacha_EquipIcon_Sword_Purewill.png?enhanced&format=webp')).default
 },TheFlute: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/TheFlute/UI_EquipIcon_Sword_Troupe.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/TheFlute/UI_EquipIcon_Sword_Troupe_Awaken.png?enhanced&format=webp')).default,
@@ -1325,10 +1456,6 @@ CrimsonMoonsSemblance: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/Rust/UI_EquipIcon_Bow_Recluse.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/Rust/UI_EquipIcon_Bow_Recluse_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/Rust/UI_Gacha_EquipIcon_Bow_Recluse.png?enhanced&format=webp')).default
-},FavoniusCodex: {
-	baseIocn: async () => (await import('../assets/genshin/weapons/FavoniusCodex/UI_EquipIcon_Catalyst_Zephyrus.png?enhanced&format=webp')).default,
-	awakenIcon: async () => (await import('../assets/genshin/weapons/FavoniusCodex/UI_EquipIcon_Catalyst_Zephyrus_Awaken.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/weapons/FavoniusCodex/UI_Gacha_EquipIcon_Catalyst_Zephyrus.png?enhanced&format=webp')).default
 },CrescentPike: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/CrescentPike/UI_EquipIcon_Pole_Exotic.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/CrescentPike/UI_EquipIcon_Pole_Exotic_Awaken.png?enhanced&format=webp')).default,
@@ -1345,34 +1472,34 @@ CrimsonMoonsSemblance: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/BalladOfTheBoundlessBlue/UI_EquipIcon_Catalyst_DandelionPoem.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/BalladOfTheBoundlessBlue/UI_EquipIcon_Catalyst_DandelionPoem_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/BalladOfTheBoundlessBlue/UI_Gacha_EquipIcon_Catalyst_DandelionPoem.png?enhanced&format=webp')).default
-},UltimateOverlordsMegaMagicSword: {
-	baseIocn: async () => (await import('../assets/genshin/weapons/UltimateOverlordsMegaMagicSword/UI_EquipIcon_Claymore_Champion.png?enhanced&format=webp')).default,
-	awakenIcon: async () => (await import('../assets/genshin/weapons/UltimateOverlordsMegaMagicSword/UI_EquipIcon_Claymore_Champion_Awaken.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/weapons/UltimateOverlordsMegaMagicSword/UI_Gacha_EquipIcon_Claymore_Champion.png?enhanced&format=webp')).default
-},SacrificialGreatsword: {
-	baseIocn: async () => (await import('../assets/genshin/weapons/SacrificialGreatsword/UI_EquipIcon_Claymore_Fossil.png?enhanced&format=webp')).default,
-	awakenIcon: async () => (await import('../assets/genshin/weapons/SacrificialGreatsword/UI_EquipIcon_Claymore_Fossil_Awaken.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/weapons/SacrificialGreatsword/UI_Gacha_EquipIcon_Claymore_Fossil.png?enhanced&format=webp')).default
 },CinnabarSpindle: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/CinnabarSpindle/UI_EquipIcon_Sword_Opus.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/CinnabarSpindle/UI_EquipIcon_Sword_Opus_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/CinnabarSpindle/UI_Gacha_EquipIcon_Sword_Opus.png?enhanced&format=webp')).default
+},SequenceOfSolitude: {
+	baseIocn: async () => (await import('../assets/genshin/weapons/SequenceOfSolitude/UI_EquipIcon_Bow_Stinger.png?enhanced&format=webp')).default,
+	awakenIcon: async () => (await import('../assets/genshin/weapons/SequenceOfSolitude/UI_EquipIcon_Bow_Stinger_Awaken.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/weapons/SequenceOfSolitude/UI_Gacha_EquipIcon_Bow_Stinger.png?enhanced&format=webp')).default
 },RingOfYaxche: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/RingOfYaxche/UI_EquipIcon_Catalyst_Isikhulu.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/RingOfYaxche/UI_EquipIcon_Catalyst_Isikhulu_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/RingOfYaxche/UI_Gacha_EquipIcon_Catalyst_Isikhulu.png?enhanced&format=webp')).default
+},WaveridingWhirl: {
+	baseIocn: async () => (await import('../assets/genshin/weapons/WaveridingWhirl/UI_EquipIcon_Catalyst_Umpakati.png?enhanced&format=webp')).default,
+	awakenIcon: async () => (await import('../assets/genshin/weapons/WaveridingWhirl/UI_EquipIcon_Catalyst_Umpakati_Awaken.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/weapons/WaveridingWhirl/UI_Gacha_EquipIcon_Catalyst_Umpakati.png?enhanced&format=webp')).default
 },EyeOfPerception: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/EyeOfPerception/UI_EquipIcon_Catalyst_Truelens.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/EyeOfPerception/UI_EquipIcon_Catalyst_Truelens_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/EyeOfPerception/UI_Gacha_EquipIcon_Catalyst_Truelens.png?enhanced&format=webp')).default
-},BalladOfTheFjords: {
-	baseIocn: async () => (await import('../assets/genshin/weapons/BalladOfTheFjords/UI_EquipIcon_Pole_Shanty.png?enhanced&format=webp')).default,
-	awakenIcon: async () => (await import('../assets/genshin/weapons/BalladOfTheFjords/UI_EquipIcon_Pole_Shanty_Awaken.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/weapons/BalladOfTheFjords/UI_Gacha_EquipIcon_Pole_Shanty.png?enhanced&format=webp')).default
 },MountainBracingBolt: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/MountainBracingBolt/UI_EquipIcon_Pole_Umpakati.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/MountainBracingBolt/UI_EquipIcon_Pole_Umpakati_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/MountainBracingBolt/UI_Gacha_EquipIcon_Pole_Umpakati.png?enhanced&format=webp')).default
+},BalladOfTheFjords: {
+	baseIocn: async () => (await import('../assets/genshin/weapons/BalladOfTheFjords/UI_EquipIcon_Pole_Shanty.png?enhanced&format=webp')).default,
+	awakenIcon: async () => (await import('../assets/genshin/weapons/BalladOfTheFjords/UI_EquipIcon_Pole_Shanty_Awaken.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/weapons/BalladOfTheFjords/UI_Gacha_EquipIcon_Pole_Shanty.png?enhanced&format=webp')).default
 },DragonspineSpear: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/DragonspineSpear/UI_EquipIcon_Pole_Everfrost.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/DragonspineSpear/UI_EquipIcon_Pole_Everfrost_Awaken.png?enhanced&format=webp')).default,
@@ -1385,18 +1512,10 @@ CrimsonMoonsSemblance: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/LithicBlade/UI_EquipIcon_Claymore_Lapis.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/LithicBlade/UI_EquipIcon_Claymore_Lapis_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/LithicBlade/UI_Gacha_EquipIcon_Claymore_Lapis.png?enhanced&format=webp')).default
-},Rainslasher: {
-	baseIocn: async () => (await import('../assets/genshin/weapons/Rainslasher/UI_EquipIcon_Claymore_Perdue.png?enhanced&format=webp')).default,
-	awakenIcon: async () => (await import('../assets/genshin/weapons/Rainslasher/UI_EquipIcon_Claymore_Perdue_Awaken.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/weapons/Rainslasher/UI_Gacha_EquipIcon_Claymore_Perdue.png?enhanced&format=webp')).default
 },SturdyBone: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/SturdyBone/UI_EquipIcon_Sword_Umpakati.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/SturdyBone/UI_EquipIcon_Sword_Umpakati_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/SturdyBone/UI_Gacha_EquipIcon_Sword_Umpakati.png?enhanced&format=webp')).default
-},SwordOfNarzissenkreuz: {
-	baseIocn: async () => (await import('../assets/genshin/weapons/SwordOfNarzissenkreuz/UI_EquipIcon_Sword_Purewill.png?enhanced&format=webp')).default,
-	awakenIcon: async () => (await import('../assets/genshin/weapons/SwordOfNarzissenkreuz/UI_EquipIcon_Sword_Purewill.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/weapons/SwordOfNarzissenkreuz/UI_Gacha_EquipIcon_Sword_Purewill.png?enhanced&format=webp')).default
 },KagotsurubeIsshin: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/KagotsurubeIsshin/UI_EquipIcon_Sword_Youtou.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/KagotsurubeIsshin/UI_EquipIcon_Sword_Youtou_Awaken.png?enhanced&format=webp')).default,
@@ -1413,6 +1532,10 @@ CrimsonMoonsSemblance: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/BlackTassel/UI_EquipIcon_Pole_Noire.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/BlackTassel/UI_EquipIcon_Pole_Noire_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/BlackTassel/UI_Gacha_EquipIcon_Pole_Noire.png?enhanced&format=webp')).default
+},Slingshot: {
+	baseIocn: async () => (await import('../assets/genshin/weapons/Slingshot/UI_EquipIcon_Bow_Sling.png?enhanced&format=webp')).default,
+	awakenIcon: async () => (await import('../assets/genshin/weapons/Slingshot/UI_EquipIcon_Bow_Sling_Awaken.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/weapons/Slingshot/UI_Gacha_EquipIcon_Bow_Sling.png?enhanced&format=webp')).default
 },DarkIronSword: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/DarkIronSword/UI_EquipIcon_Sword_Darker.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/DarkIronSword/UI_EquipIcon_Sword_Darker_Awaken.png?enhanced&format=webp')).default,
@@ -1421,10 +1544,6 @@ CrimsonMoonsSemblance: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/Messenger/UI_EquipIcon_Bow_Msg.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/Messenger/UI_EquipIcon_Bow_Msg_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/Messenger/UI_Gacha_EquipIcon_Bow_Msg.png?enhanced&format=webp')).default
-},Slingshot: {
-	baseIocn: async () => (await import('../assets/genshin/weapons/Slingshot/UI_EquipIcon_Bow_Sling.png?enhanced&format=webp')).default,
-	awakenIcon: async () => (await import('../assets/genshin/weapons/Slingshot/UI_EquipIcon_Bow_Sling_Awaken.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/weapons/Slingshot/UI_Gacha_EquipIcon_Bow_Sling.png?enhanced&format=webp')).default
 },RecurveBow: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/RecurveBow/UI_EquipIcon_Bow_Curve.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/RecurveBow/UI_EquipIcon_Bow_Curve_Awaken.png?enhanced&format=webp')).default,
@@ -1501,6 +1620,10 @@ CrimsonMoonsSemblance: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/CoolSteel/UI_EquipIcon_Sword_Steel.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/CoolSteel/UI_EquipIcon_Sword_Steel_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/CoolSteel/UI_Gacha_EquipIcon_Sword_Steel.png?enhanced&format=webp')).default
+},DullBlade: {
+	baseIocn: async () => (await import('../assets/genshin/weapons/DullBlade/UI_EquipIcon_Sword_Blunt.png?enhanced&format=webp')).default,
+	awakenIcon: async () => (await import('../assets/genshin/weapons/DullBlade/UI_EquipIcon_Sword_Blunt_Awaken.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/weapons/DullBlade/UI_Gacha_EquipIcon_Sword_Blunt.png?enhanced&format=webp')).default
 },WasterGreatsword: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/WasterGreatsword/UI_EquipIcon_Claymore_Aniki.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/WasterGreatsword/UI_EquipIcon_Claymore_Aniki_Awaken.png?enhanced&format=webp')).default,
@@ -1509,18 +1632,14 @@ CrimsonMoonsSemblance: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/HuntersBow/UI_EquipIcon_Bow_Hunters.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/HuntersBow/UI_EquipIcon_Bow_Hunters_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/HuntersBow/UI_Gacha_EquipIcon_Bow_Hunters.png?enhanced&format=webp')).default
-},DullBlade: {
-	baseIocn: async () => (await import('../assets/genshin/weapons/DullBlade/UI_EquipIcon_Sword_Blunt.png?enhanced&format=webp')).default,
-	awakenIcon: async () => (await import('../assets/genshin/weapons/DullBlade/UI_EquipIcon_Sword_Blunt_Awaken.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/weapons/DullBlade/UI_Gacha_EquipIcon_Sword_Blunt.png?enhanced&format=webp')).default
-},ApprenticesNotes: {
-	baseIocn: async () => (await import('../assets/genshin/weapons/ApprenticesNotes/UI_EquipIcon_Catalyst_Apprentice.png?enhanced&format=webp')).default,
-	awakenIcon: async () => (await import('../assets/genshin/weapons/ApprenticesNotes/UI_EquipIcon_Catalyst_Apprentice_Awaken.png?enhanced&format=webp')).default,
-	splashImage: async () => (await import('../assets/genshin/weapons/ApprenticesNotes/UI_Gacha_EquipIcon_Catalyst_Apprentice.png?enhanced&format=webp')).default
 },BeginnersProtector: {
 	baseIocn: async () => (await import('../assets/genshin/weapons/BeginnersProtector/UI_EquipIcon_Pole_Gewalt.png?enhanced&format=webp')).default,
 	awakenIcon: async () => (await import('../assets/genshin/weapons/BeginnersProtector/UI_EquipIcon_Pole_Gewalt_Awaken.png?enhanced&format=webp')).default,
 	splashImage: async () => (await import('../assets/genshin/weapons/BeginnersProtector/UI_Gacha_EquipIcon_Pole_Gewalt.png?enhanced&format=webp')).default
+},ApprenticesNotes: {
+	baseIocn: async () => (await import('../assets/genshin/weapons/ApprenticesNotes/UI_EquipIcon_Catalyst_Apprentice.png?enhanced&format=webp')).default,
+	awakenIcon: async () => (await import('../assets/genshin/weapons/ApprenticesNotes/UI_EquipIcon_Catalyst_Apprentice_Awaken.png?enhanced&format=webp')).default,
+	splashImage: async () => (await import('../assets/genshin/weapons/ApprenticesNotes/UI_Gacha_EquipIcon_Catalyst_Apprentice.png?enhanced&format=webp')).default
 }
 
 };
@@ -1539,7 +1658,7 @@ type ArtifactImageKey =
 	'flower' |
 	'sands';
 
-type ArtifactCacheKey = 'FragmentOfHarmonicWhimsy' | 'EchoesOfAnOffering' | 'ScrollOfTheHeroOfCinderCity' | 'MarechausseeHunter' | 'EmblemOfSeveredFate' | 'ThunderingFury' | 'ViridescentVenerer' | 'UnfinishedReverie' | 'NoblesseOblige' | 'TenacityOfTheMillelith' | 'GoldenTroupe' | 'WanderersTroupe' | 'GildedDreams' | 'CrimsonWitchOfFlames' | 'ShimenawasReminiscence' | 'BlizzardStrayer' | 'GladiatorsFinale' | 'ObsidianCodex' | 'FlowerOfParadiseLost' | 'DeepwoodMemories' | 'VermillionHereafter' | 'HuskOfOpulentDreams' | 'HeartOfDepth' | 'MaidenBeloved' | 'OceanHuedClam' | 'Berserker';
+type ArtifactCacheKey = 'FragmentOfHarmonicWhimsy' | 'EchoesOfAnOffering' | 'ScrollOfTheHeroOfCinderCity' | 'MarechausseeHunter' | 'EmblemOfSeveredFate' | 'ThunderingFury' | 'ViridescentVenerer' | 'WanderersTroupe' | 'TenacityOfTheMillelith' | 'GoldenTroupe' | 'NoblesseOblige' | 'GildedDreams' | 'ShimenawasReminiscence' | 'CrimsonWitchOfFlames' | 'BlizzardStrayer' | 'GladiatorsFinale' | 'LongNightsOath' | 'ObsidianCodex' | 'UnfinishedReverie' | 'VourukashasGlow' | 'FlowerOfParadiseLost' | 'DesertPavilionChronicle' | 'DeepwoodMemories' | 'VermillionHereafter' | 'HuskOfOpulentDreams' | 'HeartOfDepth' | 'MaidenBeloved';
 
 const artifactImageDict: Record<ArtifactCacheKey, Record<ArtifactImageKey, () => Promise<Picture>>> = {
 FragmentOfHarmonicWhimsy: {
@@ -1584,18 +1703,12 @@ FragmentOfHarmonicWhimsy: {
 	circlet: async () => (await import('../assets/genshin/artifacts/ViridescentVenerer/UI_RelicIcon_15002_3.png?enhanced&format=webp')).default,
 	flower: async () => (await import('../assets/genshin/artifacts/ViridescentVenerer/UI_RelicIcon_15002_4.png?enhanced&format=webp')).default,
 	sands: async () => (await import('../assets/genshin/artifacts/ViridescentVenerer/UI_RelicIcon_15002_5.png?enhanced&format=webp')).default
-},UnfinishedReverie: {
-	goblet: async () => (await import('../assets/genshin/artifacts/UnfinishedReverie/UI_RelicIcon_15036_1.png?enhanced&format=webp')).default,
-	plume: async () => (await import('../assets/genshin/artifacts/UnfinishedReverie/UI_RelicIcon_15036_2.png?enhanced&format=webp')).default,
-	circlet: async () => (await import('../assets/genshin/artifacts/UnfinishedReverie/UI_RelicIcon_15036_3.png?enhanced&format=webp')).default,
-	flower: async () => (await import('../assets/genshin/artifacts/UnfinishedReverie/UI_RelicIcon_15036_4.png?enhanced&format=webp')).default,
-	sands: async () => (await import('../assets/genshin/artifacts/UnfinishedReverie/UI_RelicIcon_15036_5.png?enhanced&format=webp')).default
-},NoblesseOblige: {
-	goblet: async () => (await import('../assets/genshin/artifacts/NoblesseOblige/UI_RelicIcon_15007_1.png?enhanced&format=webp')).default,
-	plume: async () => (await import('../assets/genshin/artifacts/NoblesseOblige/UI_RelicIcon_15007_2.png?enhanced&format=webp')).default,
-	circlet: async () => (await import('../assets/genshin/artifacts/NoblesseOblige/UI_RelicIcon_15007_3.png?enhanced&format=webp')).default,
-	flower: async () => (await import('../assets/genshin/artifacts/NoblesseOblige/UI_RelicIcon_15007_4.png?enhanced&format=webp')).default,
-	sands: async () => (await import('../assets/genshin/artifacts/NoblesseOblige/UI_RelicIcon_15007_5.png?enhanced&format=webp')).default
+},WanderersTroupe: {
+	goblet: async () => (await import('../assets/genshin/artifacts/WanderersTroupe/UI_RelicIcon_15003_1.png?enhanced&format=webp')).default,
+	plume: async () => (await import('../assets/genshin/artifacts/WanderersTroupe/UI_RelicIcon_15003_2.png?enhanced&format=webp')).default,
+	circlet: async () => (await import('../assets/genshin/artifacts/WanderersTroupe/UI_RelicIcon_15003_3.png?enhanced&format=webp')).default,
+	flower: async () => (await import('../assets/genshin/artifacts/WanderersTroupe/UI_RelicIcon_15003_4.png?enhanced&format=webp')).default,
+	sands: async () => (await import('../assets/genshin/artifacts/WanderersTroupe/UI_RelicIcon_15003_5.png?enhanced&format=webp')).default
 },TenacityOfTheMillelith: {
 	goblet: async () => (await import('../assets/genshin/artifacts/TenacityOfTheMillelith/UI_RelicIcon_15017_1.png?enhanced&format=webp')).default,
 	plume: async () => (await import('../assets/genshin/artifacts/TenacityOfTheMillelith/UI_RelicIcon_15017_2.png?enhanced&format=webp')).default,
@@ -1608,30 +1721,30 @@ FragmentOfHarmonicWhimsy: {
 	circlet: async () => (await import('../assets/genshin/artifacts/GoldenTroupe/UI_RelicIcon_15032_3.png?enhanced&format=webp')).default,
 	flower: async () => (await import('../assets/genshin/artifacts/GoldenTroupe/UI_RelicIcon_15032_4.png?enhanced&format=webp')).default,
 	sands: async () => (await import('../assets/genshin/artifacts/GoldenTroupe/UI_RelicIcon_15032_5.png?enhanced&format=webp')).default
-},WanderersTroupe: {
-	goblet: async () => (await import('../assets/genshin/artifacts/WanderersTroupe/UI_RelicIcon_15003_1.png?enhanced&format=webp')).default,
-	plume: async () => (await import('../assets/genshin/artifacts/WanderersTroupe/UI_RelicIcon_15003_2.png?enhanced&format=webp')).default,
-	circlet: async () => (await import('../assets/genshin/artifacts/WanderersTroupe/UI_RelicIcon_15003_3.png?enhanced&format=webp')).default,
-	flower: async () => (await import('../assets/genshin/artifacts/WanderersTroupe/UI_RelicIcon_15003_4.png?enhanced&format=webp')).default,
-	sands: async () => (await import('../assets/genshin/artifacts/WanderersTroupe/UI_RelicIcon_15003_5.png?enhanced&format=webp')).default
+},NoblesseOblige: {
+	goblet: async () => (await import('../assets/genshin/artifacts/NoblesseOblige/UI_RelicIcon_15007_1.png?enhanced&format=webp')).default,
+	plume: async () => (await import('../assets/genshin/artifacts/NoblesseOblige/UI_RelicIcon_15007_2.png?enhanced&format=webp')).default,
+	circlet: async () => (await import('../assets/genshin/artifacts/NoblesseOblige/UI_RelicIcon_15007_3.png?enhanced&format=webp')).default,
+	flower: async () => (await import('../assets/genshin/artifacts/NoblesseOblige/UI_RelicIcon_15007_4.png?enhanced&format=webp')).default,
+	sands: async () => (await import('../assets/genshin/artifacts/NoblesseOblige/UI_RelicIcon_15007_5.png?enhanced&format=webp')).default
 },GildedDreams: {
 	goblet: async () => (await import('../assets/genshin/artifacts/GildedDreams/UI_RelicIcon_15026_1.png?enhanced&format=webp')).default,
 	plume: async () => (await import('../assets/genshin/artifacts/GildedDreams/UI_RelicIcon_15026_2.png?enhanced&format=webp')).default,
 	circlet: async () => (await import('../assets/genshin/artifacts/GildedDreams/UI_RelicIcon_15026_3.png?enhanced&format=webp')).default,
 	flower: async () => (await import('../assets/genshin/artifacts/GildedDreams/UI_RelicIcon_15026_4.png?enhanced&format=webp')).default,
 	sands: async () => (await import('../assets/genshin/artifacts/GildedDreams/UI_RelicIcon_15026_5.png?enhanced&format=webp')).default
-},CrimsonWitchOfFlames: {
-	goblet: async () => (await import('../assets/genshin/artifacts/CrimsonWitchOfFlames/UI_RelicIcon_15006_1.png?enhanced&format=webp')).default,
-	plume: async () => (await import('../assets/genshin/artifacts/CrimsonWitchOfFlames/UI_RelicIcon_15006_2.png?enhanced&format=webp')).default,
-	circlet: async () => (await import('../assets/genshin/artifacts/CrimsonWitchOfFlames/UI_RelicIcon_15006_3.png?enhanced&format=webp')).default,
-	flower: async () => (await import('../assets/genshin/artifacts/CrimsonWitchOfFlames/UI_RelicIcon_15006_4.png?enhanced&format=webp')).default,
-	sands: async () => (await import('../assets/genshin/artifacts/CrimsonWitchOfFlames/UI_RelicIcon_15006_5.png?enhanced&format=webp')).default
 },ShimenawasReminiscence: {
 	goblet: async () => (await import('../assets/genshin/artifacts/ShimenawasReminiscence/UI_RelicIcon_15019_1.png?enhanced&format=webp')).default,
 	plume: async () => (await import('../assets/genshin/artifacts/ShimenawasReminiscence/UI_RelicIcon_15019_2.png?enhanced&format=webp')).default,
 	circlet: async () => (await import('../assets/genshin/artifacts/ShimenawasReminiscence/UI_RelicIcon_15019_3.png?enhanced&format=webp')).default,
 	flower: async () => (await import('../assets/genshin/artifacts/ShimenawasReminiscence/UI_RelicIcon_15019_4.png?enhanced&format=webp')).default,
 	sands: async () => (await import('../assets/genshin/artifacts/ShimenawasReminiscence/UI_RelicIcon_15019_5.png?enhanced&format=webp')).default
+},CrimsonWitchOfFlames: {
+	goblet: async () => (await import('../assets/genshin/artifacts/CrimsonWitchOfFlames/UI_RelicIcon_15006_1.png?enhanced&format=webp')).default,
+	plume: async () => (await import('../assets/genshin/artifacts/CrimsonWitchOfFlames/UI_RelicIcon_15006_2.png?enhanced&format=webp')).default,
+	circlet: async () => (await import('../assets/genshin/artifacts/CrimsonWitchOfFlames/UI_RelicIcon_15006_3.png?enhanced&format=webp')).default,
+	flower: async () => (await import('../assets/genshin/artifacts/CrimsonWitchOfFlames/UI_RelicIcon_15006_4.png?enhanced&format=webp')).default,
+	sands: async () => (await import('../assets/genshin/artifacts/CrimsonWitchOfFlames/UI_RelicIcon_15006_5.png?enhanced&format=webp')).default
 },BlizzardStrayer: {
 	goblet: async () => (await import('../assets/genshin/artifacts/BlizzardStrayer/UI_RelicIcon_14001_1.png?enhanced&format=webp')).default,
 	plume: async () => (await import('../assets/genshin/artifacts/BlizzardStrayer/UI_RelicIcon_14001_2.png?enhanced&format=webp')).default,
@@ -1644,18 +1757,42 @@ FragmentOfHarmonicWhimsy: {
 	circlet: async () => (await import('../assets/genshin/artifacts/GladiatorsFinale/UI_RelicIcon_15001_3.png?enhanced&format=webp')).default,
 	flower: async () => (await import('../assets/genshin/artifacts/GladiatorsFinale/UI_RelicIcon_15001_4.png?enhanced&format=webp')).default,
 	sands: async () => (await import('../assets/genshin/artifacts/GladiatorsFinale/UI_RelicIcon_15001_5.png?enhanced&format=webp')).default
+},LongNightsOath: {
+	goblet: async () => (await import('../assets/genshin/artifacts/LongNightsOath/UI_RelicIcon_15039_1.png?enhanced&format=webp')).default,
+	plume: async () => (await import('../assets/genshin/artifacts/LongNightsOath/UI_RelicIcon_15039_2.png?enhanced&format=webp')).default,
+	circlet: async () => (await import('../assets/genshin/artifacts/LongNightsOath/UI_RelicIcon_15039_3.png?enhanced&format=webp')).default,
+	flower: async () => (await import('../assets/genshin/artifacts/LongNightsOath/UI_RelicIcon_15039_4.png?enhanced&format=webp')).default,
+	sands: async () => (await import('../assets/genshin/artifacts/LongNightsOath/UI_RelicIcon_15039_5.png?enhanced&format=webp')).default
 },ObsidianCodex: {
 	goblet: async () => (await import('../assets/genshin/artifacts/ObsidianCodex/UI_RelicIcon_15038_1.png?enhanced&format=webp')).default,
 	plume: async () => (await import('../assets/genshin/artifacts/ObsidianCodex/UI_RelicIcon_15038_2.png?enhanced&format=webp')).default,
 	circlet: async () => (await import('../assets/genshin/artifacts/ObsidianCodex/UI_RelicIcon_15038_3.png?enhanced&format=webp')).default,
 	flower: async () => (await import('../assets/genshin/artifacts/ObsidianCodex/UI_RelicIcon_15038_4.png?enhanced&format=webp')).default,
 	sands: async () => (await import('../assets/genshin/artifacts/ObsidianCodex/UI_RelicIcon_15038_5.png?enhanced&format=webp')).default
+},UnfinishedReverie: {
+	goblet: async () => (await import('../assets/genshin/artifacts/UnfinishedReverie/UI_RelicIcon_15036_1.png?enhanced&format=webp')).default,
+	plume: async () => (await import('../assets/genshin/artifacts/UnfinishedReverie/UI_RelicIcon_15036_2.png?enhanced&format=webp')).default,
+	circlet: async () => (await import('../assets/genshin/artifacts/UnfinishedReverie/UI_RelicIcon_15036_3.png?enhanced&format=webp')).default,
+	flower: async () => (await import('../assets/genshin/artifacts/UnfinishedReverie/UI_RelicIcon_15036_4.png?enhanced&format=webp')).default,
+	sands: async () => (await import('../assets/genshin/artifacts/UnfinishedReverie/UI_RelicIcon_15036_5.png?enhanced&format=webp')).default
+},VourukashasGlow: {
+	goblet: async () => (await import('../assets/genshin/artifacts/VourukashasGlow/UI_RelicIcon_15030_1.png?enhanced&format=webp')).default,
+	plume: async () => (await import('../assets/genshin/artifacts/VourukashasGlow/UI_RelicIcon_15030_2.png?enhanced&format=webp')).default,
+	circlet: async () => (await import('../assets/genshin/artifacts/VourukashasGlow/UI_RelicIcon_15030_3.png?enhanced&format=webp')).default,
+	flower: async () => (await import('../assets/genshin/artifacts/VourukashasGlow/UI_RelicIcon_15030_4.png?enhanced&format=webp')).default,
+	sands: async () => (await import('../assets/genshin/artifacts/VourukashasGlow/UI_RelicIcon_15030_5.png?enhanced&format=webp')).default
 },FlowerOfParadiseLost: {
 	goblet: async () => (await import('../assets/genshin/artifacts/FlowerOfParadiseLost/UI_RelicIcon_15028_1.png?enhanced&format=webp')).default,
 	plume: async () => (await import('../assets/genshin/artifacts/FlowerOfParadiseLost/UI_RelicIcon_15028_2.png?enhanced&format=webp')).default,
 	circlet: async () => (await import('../assets/genshin/artifacts/FlowerOfParadiseLost/UI_RelicIcon_15028_3.png?enhanced&format=webp')).default,
 	flower: async () => (await import('../assets/genshin/artifacts/FlowerOfParadiseLost/UI_RelicIcon_15028_4.png?enhanced&format=webp')).default,
 	sands: async () => (await import('../assets/genshin/artifacts/FlowerOfParadiseLost/UI_RelicIcon_15028_5.png?enhanced&format=webp')).default
+},DesertPavilionChronicle: {
+	goblet: async () => (await import('../assets/genshin/artifacts/DesertPavilionChronicle/UI_RelicIcon_15027_1.png?enhanced&format=webp')).default,
+	plume: async () => (await import('../assets/genshin/artifacts/DesertPavilionChronicle/UI_RelicIcon_15027_2.png?enhanced&format=webp')).default,
+	circlet: async () => (await import('../assets/genshin/artifacts/DesertPavilionChronicle/UI_RelicIcon_15027_3.png?enhanced&format=webp')).default,
+	flower: async () => (await import('../assets/genshin/artifacts/DesertPavilionChronicle/UI_RelicIcon_15027_4.png?enhanced&format=webp')).default,
+	sands: async () => (await import('../assets/genshin/artifacts/DesertPavilionChronicle/UI_RelicIcon_15027_5.png?enhanced&format=webp')).default
 },DeepwoodMemories: {
 	goblet: async () => (await import('../assets/genshin/artifacts/DeepwoodMemories/UI_RelicIcon_15025_1.png?enhanced&format=webp')).default,
 	plume: async () => (await import('../assets/genshin/artifacts/DeepwoodMemories/UI_RelicIcon_15025_2.png?enhanced&format=webp')).default,
@@ -1686,18 +1823,6 @@ FragmentOfHarmonicWhimsy: {
 	circlet: async () => (await import('../assets/genshin/artifacts/MaidenBeloved/UI_RelicIcon_14004_3.png?enhanced&format=webp')).default,
 	flower: async () => (await import('../assets/genshin/artifacts/MaidenBeloved/UI_RelicIcon_14004_4.png?enhanced&format=webp')).default,
 	sands: async () => (await import('../assets/genshin/artifacts/MaidenBeloved/UI_RelicIcon_14004_5.png?enhanced&format=webp')).default
-},OceanHuedClam: {
-	goblet: async () => (await import('../assets/genshin/artifacts/OceanHuedClam/UI_RelicIcon_15022_1.png?enhanced&format=webp')).default,
-	plume: async () => (await import('../assets/genshin/artifacts/OceanHuedClam/UI_RelicIcon_15022_2.png?enhanced&format=webp')).default,
-	circlet: async () => (await import('../assets/genshin/artifacts/OceanHuedClam/UI_RelicIcon_15022_3.png?enhanced&format=webp')).default,
-	flower: async () => (await import('../assets/genshin/artifacts/OceanHuedClam/UI_RelicIcon_15022_4.png?enhanced&format=webp')).default,
-	sands: async () => (await import('../assets/genshin/artifacts/OceanHuedClam/UI_RelicIcon_15022_5.png?enhanced&format=webp')).default
-},Berserker: {
-	goblet: async () => (await import('../assets/genshin/artifacts/Berserker/UI_RelicIcon_10005_1.png?enhanced&format=webp')).default,
-	plume: async () => (await import('../assets/genshin/artifacts/Berserker/UI_RelicIcon_10005_2.png?enhanced&format=webp')).default,
-	circlet: async () => (await import('../assets/genshin/artifacts/Berserker/UI_RelicIcon_10005_3.png?enhanced&format=webp')).default,
-	flower: async () => (await import('../assets/genshin/artifacts/Berserker/UI_RelicIcon_10005_4.png?enhanced&format=webp')).default,
-	sands: async () => (await import('../assets/genshin/artifacts/Berserker/UI_RelicIcon_10005_5.png?enhanced&format=webp')).default
 }
 };
 const getArtifactImage = async (weapon: ArtifactCacheKey, image: ArtifactImageKey) => {
