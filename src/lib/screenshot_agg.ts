@@ -49,6 +49,214 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             full: async () => (await import('../assets/screenshots/acs/2025_04_28_19_32_10.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
         },
 		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_13_20_31.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_11_13_20_31.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_13_21_53.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_11_13_21_53.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_13_29_42.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_11_13_29_42.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_13_34_57.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_11_13_34_57.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_13_49_26.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_11_13_49_26.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_13_51_28.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_11_13_51_28.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_15_57_58.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_11_15_57_58.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_16_01_06.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_11_16_01_06.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_16_03_28.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_11_16_03_28.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_16_29_08.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_11_16_29_08.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_16_30_38.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_11_16_30_38.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_16_31_53.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_11_16_31_53.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_16_34_06.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_11_16_34_06.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_16_35_23.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_11_16_35_23.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_16_48_12.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_11_16_48_12.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_16_49_19.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_11_16_49_19.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_16_57_22.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_11_16_57_22.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_12_19_07_12.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_12_19_07_12.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_12_19_12_05.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_12_19_12_05.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_12_19_17_19.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_12_19_17_19.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_12_19_18_55.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_12_19_18_55.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_12_19_22_14.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_12_19_22_14.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_12_19_33_52.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_12_19_33_52.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_12_19_35_00.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_12_19_35_00.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_12_19_36_50.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_12_19_36_50.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_13_18_19_45.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_13_18_19_45.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_13_18_23_03.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_13_18_23_03.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_13_18_32_04.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_13_18_32_04.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_13_18_36_42.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_13_18_36_42.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_14_18_56_42.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_14_18_56_42.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_14_19_34_10.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_14_19_34_10.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_14_19_46_42.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_14_19_46_42.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_15_19_07_14.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_15_19_07_14.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_15_19_09_18.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_15_19_09_18.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_15_19_16_02.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_15_19_16_02.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_15_20_04_07.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_15_20_04_07.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_21_16_40_23.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_21_16_40_23.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_21_17_24_57.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_21_17_24_57.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_12_46_43.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_22_12_46_43.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_12_55_44.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_22_12_55_44.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_03_12.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_03_12.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_04_35.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_04_35.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_05_34.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_05_34.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_06_26.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_06_26.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_07_18.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_07_18.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_09_04.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_09_04.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_10_08.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_10_08.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_11_24.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_11_24.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_15_10.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_15_10.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_17_11.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_17_11.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_20_26.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_20_26.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_21_17.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_21_17.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
             thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_3_20_25_48.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/acs/2025_05_3_20_25_48.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
         },
@@ -75,6 +283,54 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
 		{
             thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_4_10_27_28.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/acs/2025_05_4_10_27_28.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_5_17_59_57.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_5_17_59_57.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_5_18_05_43.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_5_18_05_43.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_5_18_08_42.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_5_18_08_42.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_5_18_09_39.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_5_18_09_39.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_5_18_18_50.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_5_18_18_50.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_5_18_21_01.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_5_18_21_01.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_5_18_23_29.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_5_18_23_29.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_5_20_55_31.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_5_20_55_31.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_6_20_57_23.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_6_20_57_23.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_6_20_58_09.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_6_20_58_09.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_6_21_02_13.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_6_21_02_13.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_6_21_03_42.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_6_21_03_42.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
         }
     ],
 	genshin: [
