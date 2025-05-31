@@ -1,0 +1,1 @@
+const e={sources:{webp:""+new URL("../assets/Skill_E_Olorun_01.DWDWRTG1.webp",import.meta.url).href+" 32w, "+new URL("../assets/Skill_E_Olorun_01.Dc1bM3Nf.webp",import.meta.url).href+" 64w"},img:{src:""+new URL("../assets/Skill_E_Olorun_01.Dc1bM3Nf.webp",import.meta.url).href,w:64,h:64}};export{e as default};

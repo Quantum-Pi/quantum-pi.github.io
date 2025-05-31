@@ -1,0 +1,1 @@
+const a={sources:{webp:""+new URL("../assets/UI_Gacha_AvatarImg.CsQIXETm.webp",import.meta.url).href+" 1024w, "+new URL("../assets/UI_Gacha_AvatarImg.RGU3zuBE.webp",import.meta.url).href+" 2048w"},img:{src:""+new URL("../assets/UI_Gacha_AvatarImg.RGU3zuBE.webp",import.meta.url).href,w:2048,h:1024}};export{a as default};
