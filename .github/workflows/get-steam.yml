@@ -49,14 +49,14 @@ jobs:
           apikey: ${{ secrets.STEAM_API }}
       - name: Genshin Fetch
         id: genshin
-        uses: quantum-pi/Action-GenshinAPI@v2.4
+        uses: quantum-pi/Action-GenshinAPI@v3.0.0
         with:
           uuid: 605452914
           usage: 'QuantumPie.net Genshin profile display'
+          outputDir: 'data/'
       - name: Write Output
         run: |
           echo "${{ steps.steam.outputs.json }}" > data/steam_raw.ts
-          echo "${{ steps.genshin.outputs.json }}" > data/genshin_raw.ts
           pnpm format:data
           pnpm run prefetch
           pnpm run aggregate
