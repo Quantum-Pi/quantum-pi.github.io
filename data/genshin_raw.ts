@@ -104,8 +104,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'C0 Ayaka, C0R5 TTDS Mona @ 4pc Tenacity, C0R1 Kazuha @ 4pc VV 1000 EM, C6R5 Diona @ 4pc Noblesse. Combo: Dash (N1) QE 3N1CD. Enemy is frozen.',
 				weapon: 'Amenoma Kageuchi',
-				ranking: 159925,
-				outOf: 538405
+				ranking: 160060,
+				outOf: 539174
 			},
 			weapon: {
 				weaponStats: { atk: 565, atk_: 27.6 },
@@ -148,8 +148,8 @@ export const genshinProfile: GenshinProfile = {
 				name: 'Mono Pyro Pyronado Avg DMG',
 				details: 'c6r5 Xiangling, c6r1 Bennett, c0r1 Kazuha with 1000EM, flex pyro',
 				weapon: '"The Catch"',
-				ranking: 24213,
-				outOf: 130363
+				ranking: 24278,
+				outOf: 130643
 			},
 			weapon: {
 				weaponStats: { atk: 510, enerRech_: 45.9 },
@@ -193,8 +193,8 @@ export const genshinProfile: GenshinProfile = {
 				name: 'Sword Rain, Avg DMG',
 				details: "4p Nymph's Dream is set to very optimistic 3 stacks.",
 				weapon: 'Sacrificial Sword',
-				ranking: 22554,
-				outOf: 255589
+				ranking: 22582,
+				outOf: 255983
 			},
 			weapon: {
 				weaponStats: { atk: 608, enerRech_: 55.1 },
@@ -240,8 +240,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"Combo that includes A4/VHA/PJWS/CQ stacking and all buff uptimes. 2E and 11HP with collision damage. 4p ToTM Elegy C6 Faruzan, 4p Noblese C0R1 Xianyun @ 3800 ATK (4445 post-buff ATK), C0 Furina. Faruzan's A4 is disabled for a bit of simplicity (it's also pretty weak anyways). 4-pc Long Night's Oath stacks are pretty sweaty: 2/3/4/3/4/5/5/... ER% categories beyond 120% are dropped because FFXX has much lower ER% requirements. There is no N1C in the calculated combo but 4-pc DPC results assume N1C (without actually adding it to the result) start for the sake of set buff and it not being too hard to perform. ",
 				weapon: 'Staff of Homa',
-				ranking: 5777,
-				outOf: 373217
+				ranking: 5799,
+				outOf: 373837
 			},
 			weapon: {
 				weaponStats: { atk: 608, critDMG_: 66.2 },
@@ -266,8 +266,8 @@ export const genshinProfile: GenshinProfile = {
 				name: 'Shieldbot, Max HP',
 				details: '---',
 				weapon: 'Black Tassel',
-				ranking: 75373,
-				outOf: 803423
+				ranking: 75491,
+				outOf: 804553
 			},
 			weapon: {
 				weaponStats: { atk: 354, hp_: 46.9 },
@@ -312,8 +312,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'4x Oz hits. no buffs, talent level 13. One Oz hit does not benefit from the Thundersoother (75% uptime). Polar Star at 3 stacks.',
 				weapon: 'Polar Star',
-				ranking: 18831,
-				outOf: 331991
+				ranking: 18874,
+				outOf: 332576
 			},
 			weapon: {
 				weaponStats: { atk: 608, critRate_: 33.1 },
@@ -358,8 +358,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"1 rQ (vape) + 1 E + N2C * 6 + mSlash * 4. c0r1 Kazuha + c6r1 Xiangling + c6r1 Bennett. Most buffs expire after 3N2C. Shimenawa's burst damage is halved.",
 				weapon: 'Aqua Simulacra',
-				ranking: 23557,
-				outOf: 203348
+				ranking: 23587,
+				outOf: 203623
 			},
 			weapon: {
 				weaponStats: { atk: 23 },
@@ -403,8 +403,8 @@ export const genshinProfile: GenshinProfile = {
 				name: 'Hyper Mono Geo NA combo, Avg DMG',
 				details: 'N1 + N2 + N3 + N4. Team: Noelle C6, Gorou C6, Yunjin C6, Zhongli C0',
 				weapon: 'Serpent Spine',
-				ranking: 2505,
-				outOf: 28908
+				ranking: 2509,
+				outOf: 28948
 			},
 			weapon: {
 				weaponStats: { atk: 510, critRate_: 27.6 },
@@ -449,8 +449,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'Average DMG for 11N1CD + Q combo. elegy instructor amber c0r1. kazuha c2r1 @ 1000EM(1420). 4p SR burst uptime 1/3, other sets: 2/3. ',
 				weapon: 'Staff of Homa',
-				ranking: 230153,
-				outOf: 802611
+				ranking: 230373,
+				outOf: 803633
 			},
 			weapon: {
 				weaponStats: { atk: 608, critDMG_: 66.2 },
@@ -476,8 +476,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'Assumes Favonius Sword R5 (EM / 1000 + ER / 500) * 5000 + (vv ? 2000 : 0) + (CR > 15% ? (CR * 1500) : 0)',
 				weapon: 'Favonius Sword',
-				ranking: 545799,
-				outOf: 1084198
+				ranking: 546680,
+				outOf: 1086211
 			},
 			weapon: {
 				weaponStats: { atk: 454, enerRech_: 61.3 },
@@ -504,8 +504,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"c0 Raiden, c2 Furina, c0 Yelan, c0 4p VV Jean. Combo: Q 3N5. Furina's Fanfare at 400 stacks. Yelan's A4 at 8s seconds. ",
 				weapon: 'Staff of the Scarlet Sands',
-				ranking: 1038088,
-				outOf: 1223061
+				ranking: 1039748,
+				outOf: 1225159
 			},
 			weapon: {
 				weaponStats: { atk: 454, eleMas: 221 },
@@ -532,8 +532,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"(((E_DMG / 5500) + (E_HEAL / 5000) + (ER / 150)) * 5000) + SET_BONUS. +6500 ToTM, +6000 OHC, +6000 Deepwood, +5000 Noblesse, +4000 Maiden. Please keep in mind custom 'balance formulas' are completely feelscrafted unlike proper avg dmg formulas.",
 				weapon: 'Everlasting Moonglow',
-				ranking: 114029,
-				outOf: 325096
+				ranking: 114161,
+				outOf: 325689
 			},
 			weapon: {
 				weaponStats: { atk: 401, hp_: 35.2 },
@@ -579,8 +579,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"Frontloaded average DMG for c6r5 Aqua Yelan Combo: 2x E + 2x BTB + 3x C2 + 5x C6 + 24x Q. Team: c0r5 fs Kazuha @ 1000 EM vv hydro swirl + Zhongli shield up + c4 Mona burst up. Yelan's A4 set to 10s, C4 2 stacks, 18% HP from A1. 4p Nymph's Dream is set to 3 stacks.",
 				weapon: 'Aqua Simulacra',
-				ranking: 12072,
-				outOf: 603795
+				ranking: 12094,
+				outOf: 604448
 			},
 			weapon: {
 				weaponStats: { atk: 542, critDMG_: 88.2 },
@@ -624,8 +624,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"Combo: E Q 3CA. C1 Tighnari + C0R1 Deepwood Nahida + electro flex + electro flex. Tighnari's A1 buffs only CAs. Enemy has pre-existing Quicken aura. Nahida's A1 buff is maxed and lasts entire combo. ",
 				weapon: 'Skyward Harp',
-				ranking: 21356,
-				outOf: 71646
+				ranking: 21386,
+				outOf: 71749
 			},
 			weapon: {
 				weaponStats: { atk: 608, critRate_: 33.1 },
@@ -670,8 +670,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'Off-field Tri-Karma Purification (non-spread) avg DMG. Example team: Nahida + Xingqiu + Kuki + non-dendro flex.',
 				weapon: 'A Thousand Floating Dreams',
-				ranking: 487131,
-				outOf: 1034084
+				ranking: 487657,
+				outOf: 1035453
 			},
 			weapon: {
 				weaponStats: { atk: 454, eleMas: 221 },
@@ -716,8 +716,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"(Q) [C] E 6N3 N1C with DPC. (Q) E 6N3 C with everything else. c0r1 Wanderer, c6 TOTM Faruzan, c6r1 NO Bennett, Zhongli. Faruzan's A4 is ignored. 4p Shimenawa has their Q DMG halved (simulating burst every second rotation). If you see any way to improve the formula please contact me through Discord",
 				weapon: "Tulaytullah's Remembrance",
-				ranking: 115069,
-				outOf: 329041
+				ranking: 115208,
+				outOf: 329493
 			},
 			weapon: {
 				weaponStats: { atk: 510, critDMG_: 55.1 },
@@ -761,8 +761,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'Average DMG for Mademoiselle Crabaletta in a double hydro team. Number of characters who offered HP: 4. Maxed Fanfare stacks and maxed C2 stacks (easy to achieve in for example Neuvilette teams). Weapon stacks maxed when applicable. ',
 				weapon: 'Splendor of Tranquil Waters',
-				ranking: 9322,
-				outOf: 554146
+				ranking: 9351,
+				outOf: 555489
 			},
 			weapon: {
 				weaponStats: { atk: 542, critDMG_: 88.2 },
@@ -806,8 +806,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'C0 Arlecchino + C6 Chevreuse @ 40k HP + Electro Flex + C6R1 Aquila Bennett @ 4p Noblesse. Combo: E .. CA 5N3. Majority of potential buffs such as 4p Shimenawa / 4p HoD / 4p CW wear off before 5N3 starts due to long setup. Chevreuse stacks for CA 5N3: 0/1/1/1/2/2/2/3/3/3/... BoL value after using CA: 155%. 4p Whimsy stacks for CA 5N3: 1/2/3/3/... ',
 				weapon: "Crimson Moon's Semblance",
-				ranking: 33236,
-				outOf: 724709
+				ranking: 33421,
+				outOf: 726560
 			},
 			weapon: {
 				weaponStats: { atk: 674, critRate_: 22.1 },
@@ -851,8 +851,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"C0 Clorinde + C6 Fischl + 4p Noblesse C6 Chevreuse @ 40k HP + 4p Cinder C6 Thoma. Leaderboard ranks DPS based on 16s rotation using QEE 5N3E combo. Clorinde's A1 and A4 at full uptime for simplicity. Chevreuse's C6 stacks: QEE:0, N3E:1, N3E: 2, N3E:3, N3E:3, N3E: 3. 4pc Harmonic Whimsy stacks Q:1, EE:2, 5N3:3. Absolution same stacks as Whimsy. ",
 				weapon: 'Absolution',
-				ranking: 10998,
-				outOf: 309785
+				ranking: 11020,
+				outOf: 310567
 			},
 			weapon: {
 				weaponStats: { atk: 674, critDMG_: 44.1 },
@@ -896,8 +896,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					"C0 Mavuika + C6 Chevreuse + Ororon @ 4p Cinder + C6R1 Aquila Bennett @ 4p Noblesse. Combo: E .. Q 8CAF. Mavuika at 200 Fighting Spirit. A4 DMG Bonus starts at 40% for the burst and falls off to 26% for the final charged attack. 4-pc Obsidian Codex's critrate buff stops after 6th Cyclic CA hit. ",
 				weapon: 'Mailed Flower',
-				ranking: 176367,
-				outOf: 367815
+				ranking: 177147,
+				outOf: 369465
 			},
 			weapon: {
 				weaponStats: { atk: 565, eleMas: 110 },
@@ -941,8 +941,8 @@ export const genshinProfile: GenshinProfile = {
 				details:
 					'1x E cast + 20x E ticks + 1x Q. C2 Furina at max (400) fanfare. 4-pc Blizzard Strayer assumes 50% freeze uptime (e.g. one rotation against freezable enemy and one rotation against a boss). ',
 				weapon: 'Deathmatch',
-				ranking: 10494,
-				outOf: 73606
+				ranking: 10670,
+				outOf: 75184
 			},
 			weapon: {
 				weaponStats: { atk: 454, critRate_: 36.8 },
