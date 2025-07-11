@@ -1,6 +1,5 @@
 <script lang="ts">
 	import type { Picture } from 'vite-imagetools';
-	import { globalState } from '../../state/state.svelte';
 	import SkeletonImage from './SkeletonImage.svelte';
 
 	type Props = {
@@ -25,23 +24,10 @@
     />
 {/snippet}
 
-<button onclick={() => (globalState.imagePreview = preview)} aria-label={ariaLabel}>
-	<SkeletonImage 
-        src={image}
-        sizes={thumbnailSizes}
-        skeletonDimension={skeletonDimension}
-        class={thumbnailClass}
-    />
-</button>
-
-<style>
-	button {
-		transition: 0.2s;
-		&:hover {
-			transform: scale(1.05);
-		}
-		&:active {
-			transform: scale(0.99);
-		}
-	}
-</style>
+<SkeletonImage 
+	preview={preview}
+	src={image}
+	sizes={thumbnailSizes}
+	skeletonDimension={skeletonDimension}
+	class={thumbnailClass}
+/>

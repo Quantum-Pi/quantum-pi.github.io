@@ -331,6 +331,30 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
 		{
             thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_6_21_03_42.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/acs/2025_05_6_21_03_42.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/[Group 0]-2025_06_10_20_02_23_2025_06_10_20_02_36-6 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/[Group 0]-2025_06_10_20_02_23_2025_06_10_20_02_36-6 images.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/[Group 0]-2025_06_12_07_32_17_2025_06_12_07_32_30-4 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/[Group 0]-2025_06_12_07_32_17_2025_06_12_07_32_30-4 images.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/[Group 0]-2025_06_15_15_58_50_2025_06_15_15_58_59-5 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/[Group 0]-2025_06_15_15_58_50_2025_06_15_15_58_59-5 images.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/[Group 0]-2025_06_15_16_41_02_2025_06_15_16_42_02-20 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/[Group 0]-2025_06_15_16_41_02_2025_06_15_16_42_02-20 images.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/[Group 0]-2025_06_7_19_08_43_2025_06_7_19_08_54-5 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/[Group 0]-2025_06_7_19_08_43_2025_06_7_19_08_54-5 images.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/[Group 0]-2025_06_7_19_23_36_2025_06_7_19_24_14-15 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/[Group 0]-2025_06_7_19_23_36_2025_06_7_19_24_14-15 images.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
         }
     ],
 	genshin: [
@@ -377,6 +401,50 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
 		{
             thumbnail: async () => (await import('../assets/screenshots/genshin/20250412205940.png?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/genshin/20250412205940.png?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250620170047_20250620170146-13 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250620170047_20250620170146-13 images.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250620171844_20250620172145-20 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250620171844_20250620172145-20 images.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250620181004_20250620181109-17 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250620181004_20250620181109-17 images.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250621090333_20250621090421-11 images_0001.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250621090333_20250621090421-11 images_0001.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 1]-20250620170927_20250620171001-8 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/[Group 1]-20250620170927_20250620171001-8 images.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 1]-20250621091201_20250621091347-15 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/[Group 1]-20250621091201_20250621091347-15 images.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 2]-20250620172753_20250620172834-11 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/[Group 2]-20250620172753_20250620172834-11 images.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 2]-20250620194440_20250620194618-25 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/[Group 2]-20250620194440_20250620194618-25 images.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 3]-20250621092136_20250621092228-15 images_0001.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/[Group 3]-20250621092136_20250621092228-15 images_0001.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 4]-20250620173912_20250620173953-12 images2.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/[Group 4]-20250620173912_20250620173953-12 images2.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 5]-20250620174840_20250620174958-22 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/[Group 5]-20250620174840_20250620174958-22 images.jpg?enhanced&w=2160;1440;1080&format=jpg')).default
         }
     ],
 	hfw: [

@@ -22,14 +22,14 @@
 	{#each Object.entries(screenshotImageDict).sort((a, b) => a.length - b.length) as [key, value]}
 		<div class={`m-4 ${keyToCols[key as ScreenshotImageDictKey].container}`}>
 			<div class="text-2xl lg:text-3xl mb-4">{keyToName[key as ScreenshotImageDictKey]}</div>
-			<div class={`grid ${keyToCols[key as ScreenshotImageDictKey].gallery} gap-4`}>
+			<div class={`grid ${keyToCols[key as ScreenshotImageDictKey].gallery} gap-4 grid-flow-dense`}>
 				{#each value as image}
 					<SkeletonPreviewImage
 						image={image.thumbnail()}
 						imageFull={image.full()}
 						ariaLabel={`${key} ${image}`}
 						thumbnailSizes="(min-width:1440px) 540px, (min-width:1080px) 360px"
-						thumbnailClass="w-full rounded-md"
+						thumbnailClass="w-full h-full rounded-md"
 					/>
 				{/each}
 			</div>

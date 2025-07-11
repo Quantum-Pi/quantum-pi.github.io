@@ -1,5 +1,7 @@
 <script lang="ts">
 	import type { Picture } from 'vite-imagetools';
+	import { globalState } from '../../state/state.svelte';
+	import type { Snippet } from 'svelte';
 
 	type Props = {
 		src: Promise<Picture>;
@@ -8,9 +10,38 @@
 		sizes: string;
 		alt?: string;
 		skeletonDimension?: string;
+		preview?: Snippet;
 	};
 
-	let { src, ariaLabel, class: className, sizes, alt, skeletonDimension }: Props = $props();
+	let { src, ariaLabel, class: className, sizes, alt, skeletonDimension, preview }: Props = $props();
+
+	const getColSpan = (w: number, h: number): { colSpan: number; rowSpan: number; ratio: number } => {
+		const ratio = w / h;
+		const spanRatio = ((ratio / (16 / 9)));
+		const span = (((spanRatio - 1.0) / 0.25) + 1).toFixed(0)
+		if (spanRatio.toFixed(2) !== '1.00') {
+			console.log(`spanRatio: ${spanRatio} ratio: ${ratio.toFixed(2)}`);
+		}
+		// return '1'
+		if (ratio > 1.78) {
+			return {
+				colSpan: 2,
+				rowSpan: 1,
+				ratio: 3.676
+			}
+		} else if (Math.abs(1.0 - ratio) < 0.01) {
+			return {
+				colSpan: 2,
+				rowSpan: 2,
+				ratio: 1.69
+			}
+		}
+		return {
+			colSpan: 1,
+			rowSpan: 1,
+			ratio: 1.778
+		}
+	};
 </script>
 
 {#await src}
@@ -33,7 +64,14 @@
     {#if !image}
     {@debug image, src}
     {/if}
-    <enhanced:img src={image} aria-labelledby={ariaLabel} {sizes} {alt} class={className} />
+	{#if preview}
+		{@const { colSpan, rowSpan, ratio } = getColSpan(image.img.w, image.img.h)}
+		<button onclick={() => (globalState.imagePreview = preview)} aria-label={ariaLabel} style={`grid-column: span ${colSpan}; grid-row: span ${rowSpan}; aspect-ratio: ${ratio}`}>
+			<enhanced:img src={image} aria-labelledby={ariaLabel} {sizes} {alt} class={`${className} object-cover`} />
+		</button>
+	{:else}
+   		<enhanced:img src={image} aria-labelledby={ariaLabel} {sizes} {alt} class={className} />
+	{/if}
 {/await}
 
 <style>
@@ -51,5 +89,15 @@
 
 	.skeleton {
 		animation: loading 2s infinite;
+	}
+
+	button {
+		transition: 0.2s;
+		&:hover {
+			transform: scale(1.05);
+		}
+		&:active {
+			transform: scale(0.99);
+		}
 	}
 </style>
