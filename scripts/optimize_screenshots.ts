@@ -36,7 +36,7 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
         return `\n\t${game}: [
 ${images.map((image) => `\t\t{
             thumbnail: async () => (await import('${image}?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('${image}?enhanced&w=2160;1440;1080&format=jpg')).default
+            full: async () => (await import('${image}?enhanced&w=3840;2560;1920&format=jpg')).default
         }`).join(',\n')}
     ]`
     }).join(',')}

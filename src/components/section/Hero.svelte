@@ -2,7 +2,7 @@
 	import { isEnhancedImage } from '$lib';
 	import { getProfilePicture } from '$lib/cache';
 	import { profile } from '$lib/steam_agg';
-	import HeroDesktop from '../../assets/bg-desktop.png?enhanced&w=2000;1600;1280&blur=1.25&effort=max&fit=cover&format=webp';
+	import HeroDesktop from '../../assets/bg-desktop.png?enhanced&w=3000;2000;1600;1280&blur=1.25&effort=max&fit=cover&format=webp';
 	import HeroMobile from '../../assets/bg-mobile.png?enhanced&w=1600;1280;640&blur=1.25&effort=max&fit=cover&format=webp';
 
 	const pfp = getProfilePicture(profile.avatar);
@@ -12,7 +12,7 @@
 	<div class="background">
 		<enhanced:img
 			src={HeroDesktop}
-			sizes="(min-width:2560px) 2000px, (min-width:1920px) 1600px, (min-width:1080px) 1280px"
+			sizes="(min-width:3000px) 3000px, (min-width:2560px) 2000px, (min-width:1920px) 1600px, (min-width:1080px) 1280px"
 			alt="Background image"
 			class="text-gray-200 hidden md:block"
 			fetchpriority="high"
