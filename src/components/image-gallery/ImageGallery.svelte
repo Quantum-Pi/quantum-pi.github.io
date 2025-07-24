@@ -28,7 +28,7 @@
 						image={image.thumbnail()}
 						imageFull={image.full()}
 						ariaLabel={`${key} ${image}`}
-						thumbnailSizes="(min-width:1440px) 540px, (min-width:1080px) 360px"
+						thumbnailSizes={`(min-width:1440px) ${image.aspectRatio > 4 ? '920px' : '540px'}, (min-width:1080px) ${image.aspectRatio > 4 ? '540px' : '360px'}`}
 						thumbnailClass="w-full h-full rounded-md"
 					/>
 				{/each}

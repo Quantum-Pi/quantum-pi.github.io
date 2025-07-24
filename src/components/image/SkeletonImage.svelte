@@ -15,21 +15,42 @@
 
 	let { src, ariaLabel, class: className, sizes, alt, skeletonDimension, preview }: Props = $props();
 
+	const getRatio = (span: number): number => {
+		const gap = span - 1;
+		// gapRatio is % of column width the gap occupies
+		const gapRatio = 0.09043; // gap/column ratio you measured
+		// const gapRatio = 0.07156; // gap/column ratio you measured
+		// const gapRatio = 0.0678; // gap/column ratio you measured
+		return (span + gap * gapRatio) * (16 / 9);
+	};
 	const getColSpan = (w: number, h: number): { colSpan: number; rowSpan: number; ratio: number } => {
 		const ratio = w / h;
 		const spanRatio = ((ratio / (16 / 9)));
 		const span = (((spanRatio - 1.0) / 0.25) + 1).toFixed(0)
-		if (spanRatio.toFixed(2) !== '1.00') {
-			console.log(`spanRatio: ${spanRatio} ratio: ${ratio.toFixed(2)}`);
+		/**
+		 * 4 images, 3 gaps between them
+		 * 4-column span aspect ratio = (4 × column_width + 3 × gap) / column_height
+		 * Width = 4 × column_width + 3 × (0.0678 × column_width)
+		 *	     = 4 × column_width + 0.2034 × column_width
+		 *		 = 4.2034 × column_width
+		 * Height = column_width × 9/16 (same as 1-column to maintain consistent row height)
+		 * Aspect ratio = 4.2034 / (9/16) = 4.2034 × 16/9 = 7.474
+		 * (4 + 3 × 0.0678) × 16/9 = 4.2034 × 1.778 = 7.474
+		*/
+		if (ratio > 4) {
+			return {
+				colSpan: 4,
+				rowSpan: 1,
+				ratio: getRatio(4)
+			}
 		}
-		// return '1'
 		if (ratio > 1.78) {
 			return {
 				colSpan: 2,
 				rowSpan: 1,
-				ratio: 3.676
+				ratio: getRatio(2)
 			}
-		} else if (Math.abs(1.0 - ratio) < 0.01) {
+		} else if (Math.abs(1.0 - ratio) < 0.065) {
 			return {
 				colSpan: 2,
 				rowSpan: 2,
@@ -39,7 +60,7 @@
 		return {
 			colSpan: 1,
 			rowSpan: 1,
-			ratio: 1.778
+			ratio: 1.778 // 16/9
 		}
 	};
 </script>

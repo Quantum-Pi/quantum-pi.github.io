@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import sharp from 'sharp';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -8,15 +9,30 @@ const __dirname = path.dirname(__filename);
 const BASE = path.join(__dirname, '../src/assets/screenshots/');
 console.log('Screenshots directory:', BASE);
 
-const imageLib: Record<string, string[]> = {};
+const imageLib: Record<string, {
+    path: string;
+    aspectRatio: number;
+}[]> = {};
 
-fs.readdirSync(BASE, {recursive: true}).forEach((file) => {
+const getImageDimensions = async (filePath: string) => {
+    const metadata = await sharp(filePath).metadata();
+    return {
+        width: metadata.width!,
+        height: metadata.height!,
+        aspectRatio: metadata.width! / metadata.height!
+    };
+};
+
+await Promise.all(fs.readdirSync(BASE, {recursive: true}).map(async (file) => {
     if (path.extname(file)) {
         const game = path.basename(path.dirname(file));
+        const { aspectRatio } = await getImageDimensions(path.join(BASE, file));
         imageLib[game] ??= [];
-        imageLib[game].push(`../assets/screenshots/${file}`);
+        imageLib[game].push({ path: `../assets/screenshots/${file}`, aspectRatio });
     }
-});
+    return;
+}));
+
 console.log('Image library:', imageLib);
 
 export const ts = `/**
@@ -29,14 +45,16 @@ type ScreenshotGetter = () => Promise<Picture>;
 type Screenshot = {
     thumbnail: ScreenshotGetter;
     full: ScreenshotGetter;
+    aspectRatio: number;
 };
 export type ScreenshotImageDictKey = ${Object.keys(imageLib).map((game) => `'${game}'`).join(' | ')};
 export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> = {${
     Object.entries(imageLib).map(([game, images]) => {
         return `\n\t${game}: [
 ${images.map((image) => `\t\t{
-            thumbnail: async () => (await import('${image}?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('${image}?enhanced&w=3840;2560;1920&format=jpg')).default
+            thumbnail: async () => (await import('${image.path}?enhanced&w=${image.aspectRatio > 4 ? '920;' : ''}540;360&format=webp')).default,
+            full: async () => (await import('${image.path}?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: ${image.aspectRatio.toFixed(4)}
         }`).join(',\n')}
     ]`
     }).join(',')}
