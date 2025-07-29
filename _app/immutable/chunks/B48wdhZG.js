@@ -1,0 +1,1 @@
+const e={sources:{webp:""+new URL("../assets/Genshin Impact 6_25_2025 17_21_22.8ql2ACAZ.webp",import.meta.url).href+" 540w, "+new URL("../assets/Genshin Impact 6_25_2025 17_21_22.DLw551sn.webp",import.meta.url).href+" 360w"},img:{src:""+new URL("../assets/Genshin Impact 6_25_2025 17_21_22.8ql2ACAZ.webp",import.meta.url).href,w:540,h:304}};export{e as default};
