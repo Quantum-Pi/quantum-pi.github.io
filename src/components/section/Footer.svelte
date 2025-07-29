@@ -28,7 +28,7 @@
 
 		<div class="ml-2 text-5xl">{profile.username}</div>
 		<div class="mt-2 text-center">
-			{hoursPlayed} hours played across {profile.gamesOwned} games
+			{hoursPlayed} hours played across {profile.gamesPlayed} games
 		</div>
 	</div>
 	<div class="[grid-area:b] flex flex-col md:justify-center items-center gap-4">
