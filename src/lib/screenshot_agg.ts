@@ -19,13 +19,13 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_04_27_11_05_42.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_04_27_11_05_42.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_04_27_09_55_07.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_04_27_09_55_07.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_04_27_11_09_27.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_04_27_11_09_27.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_04_27_11_05_42.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_04_27_11_05_42.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -34,13 +34,18 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_04_27_11_10_14.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_04_27_11_10_14.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_04_27_11_09_27.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_04_27_11_09_27.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
             thumbnail: async () => (await import('../assets/screenshots/acs/2025_04_28_19_01_58.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/acs/2025_04_28_19_01_58.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_04_27_11_10_14.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_04_27_11_10_14.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -51,6 +56,11 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
 		{
             thumbnail: async () => (await import('../assets/screenshots/acs/2025_04_28_19_32_10.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/acs/2025_04_28_19_32_10.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_13_20_31.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_11_13_20_31.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -69,33 +79,18 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_13_51_28.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_11_13_51_28.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_04_27_09_55_07.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_04_27_09_55_07.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
             thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_13_21_53.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/acs/2025_05_11_13_21_53.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_13_51_28.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_11_13_51_28.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
             thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_16_01_06.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/acs/2025_05_11_16_01_06.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_15_57_58.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_11_15_57_58.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_13_20_31.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_11_13_20_31.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -109,13 +104,28 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_16_34_06.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_11_16_34_06.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_16_03_28.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_11_16_03_28.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_16_31_53.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_11_16_31_53.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_15_57_58.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_11_15_57_58.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
             thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_16_35_23.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/acs/2025_05_11_16_35_23.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_16_34_06.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_11_16_34_06.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -129,13 +139,8 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_16_57_22.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_11_16_57_22.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_12_19_07_12.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_12_19_07_12.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_12_19_17_19.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_12_19_17_19.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -144,8 +149,8 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_12_19_17_19.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_12_19_17_19.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_12_19_07_12.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_12_19_07_12.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -154,8 +159,13 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_16_31_53.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_11_16_31_53.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_16_57_22.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_11_16_57_22.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_12_19_22_14.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_12_19_22_14.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -164,13 +174,18 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_12_19_36_50.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_12_19_36_50.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
             thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_12_19_35_00.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/acs/2025_05_12_19_35_00.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_12_19_36_50.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_12_19_36_50.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_13_18_32_04.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_13_18_32_04.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -184,28 +199,18 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_13_18_32_04.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_13_18_32_04.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_11_16_03_28.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_11_16_03_28.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
             thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_13_18_36_42.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/acs/2025_05_13_18_36_42.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_14_18_56_42.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_14_18_56_42.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_14_19_46_42.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_14_19_46_42.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_12_19_22_14.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_12_19_22_14.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_14_18_56_42.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_14_18_56_42.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -219,6 +224,11 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_15_19_16_02.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_15_19_16_02.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
             thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_15_19_09_18.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/acs/2025_05_15_19_09_18.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
@@ -229,18 +239,8 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_14_19_46_42.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_14_19_46_42.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
             thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_21_16_40_23.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/acs/2025_05_21_16_40_23.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_15_19_16_02.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_15_19_16_02.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -249,23 +249,13 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_21_17_24_57.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_21_17_24_57.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
             thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_12_55_44.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/acs/2025_05_22_12_55_44.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_05_34.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_05_34.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_04_35.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_04_35.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_21_17_24_57.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_21_17_24_57.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -274,18 +264,28 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_07_18.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_07_18.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_09_04.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_09_04.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_04_35.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_04_35.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
             thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_06_26.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_06_26.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_07_18.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_07_18.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_05_34.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_05_34.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_09_04.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_09_04.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -299,13 +299,23 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_20_26.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_20_26.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_17_11.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_17_11.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_15_10.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_15_10.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
             thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_21_17.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_21_17.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_20_26.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_20_26.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -329,18 +339,23 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_4_10_21_59.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_4_10_21_59.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
             thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_4_10_27_28.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/acs/2025_05_4_10_27_28.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_4_10_21_59.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_4_10_21_59.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
             thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_4_10_25_05.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/acs/2025_05_4_10_25_05.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_5_18_09_39.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_5_18_09_39.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -356,11 +371,6 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
 		{
             thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_5_18_08_42.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/acs/2025_05_5_18_08_42.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_5_18_09_39.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_5_18_09_39.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -384,28 +394,13 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_6_20_57_23.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_6_20_57_23.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
             thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_6_20_58_09.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/acs/2025_05_6_20_58_09.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_17_11.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_17_11.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_22_13_15_10.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_22_13_15_10.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_6_21_03_42.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_6_21_03_42.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_06_12_07_40_19.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_06_12_07_40_19.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -414,8 +409,18 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_06_15_14_47_57.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_06_15_14_47_57.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_6_21_02_13.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_6_21_02_13.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_06_12_07_40_19.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_06_12_07_40_19.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_6_21_03_42.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_05_6_21_03_42.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -424,13 +429,13 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_6_21_02_13.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_6_21_02_13.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_06_15_14_47_57.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_06_15_14_47_57.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_05_6_20_57_23.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_05_6_20_57_23.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_06_15_15_51_20.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_06_15_15_51_20.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -439,13 +444,13 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_06_8_18_54_52.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_06_8_18_54_52.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_07_7_17_42_55.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_07_7_17_42_55.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_07_7_17_42_55.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_07_7_17_42_55.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/acs/2025_06_8_18_54_52.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/2025_06_8_18_54_52.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -454,9 +459,9 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 4.8063
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/2025_06_15_15_51_20.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/2025_06_15_15_51_20.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
+            thumbnail: async () => (await import('../assets/screenshots/acs/[Group 0]-2025_06_12_07_32_17_2025_06_12_07_32_30-4 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/[Group 0]-2025_06_12_07_32_17_2025_06_12_07_32_30-4 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 3.8755
         },
 		{
             thumbnail: async () => (await import('../assets/screenshots/acs/[Group 0]-2025_06_15_15_58_50_2025_06_15_15_58_59-5 images.jpg?enhanced&w=540;360&format=webp')).default,
@@ -464,19 +469,14 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 3.0667
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/[Group 0]-2025_06_7_19_08_43_2025_06_7_19_08_54-5 images.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/[Group 0]-2025_06_7_19_08_43_2025_06_7_19_08_54-5 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 2.4292
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/acs/[Group 0]-2025_06_12_07_32_17_2025_06_12_07_32_30-4 images.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/acs/[Group 0]-2025_06_12_07_32_17_2025_06_12_07_32_30-4 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 3.8755
-        },
-		{
             thumbnail: async () => (await import('../assets/screenshots/acs/[Group 0]-2025_06_15_16_41_02_2025_06_15_16_42_02-20 images.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/acs/[Group 0]-2025_06_15_16_41_02_2025_06_15_16_42_02-20 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 3.4928
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/acs/[Group 0]-2025_06_7_19_08_43_2025_06_7_19_08_54-5 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/acs/[Group 0]-2025_06_7_19_08_43_2025_06_7_19_08_54-5 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 2.4292
         },
 		{
             thumbnail: async () => (await import('../assets/screenshots/acs/[Group 0]-2025_06_7_19_23_36_2025_06_7_19_24_14-15 images.jpg?enhanced&w=540;360&format=webp')).default,
@@ -488,6 +488,16 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
 		{
             thumbnail: async () => (await import('../assets/screenshots/genshin/20250331173924.png?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/genshin/20250331173924.png?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/20250402194916.png?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/20250402194916.png?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/20250404201855.png?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/20250404201855.png?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -516,6 +526,11 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/20250412205940.png?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/20250412205940.png?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
             thumbnail: async () => (await import('../assets/screenshots/genshin/20250412204538.png?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/genshin/20250412204538.png?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
@@ -526,18 +541,13 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/20250412205940.png?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/20250412205940.png?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/genshin/20250508175631.png?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/20250508175631.png?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/20250404201855.png?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/20250404201855.png?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/20250402194916.png?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/20250402194916.png?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/genshin/20250629120455.png?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/20250629120455.png?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -548,11 +558,6 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
 		{
             thumbnail: async () => (await import('../assets/screenshots/genshin/20250621091022.png?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/genshin/20250621091022.png?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/20250629120455.png?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/20250629120455.png?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -576,8 +581,8 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/20250508175631.png?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/20250508175631.png?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/genshin/20250727133118.png?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/20250727133118.png?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -586,23 +591,8 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 4.8915
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/20250727133118.png?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/20250727133118.png?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
             thumbnail: async () => (await import('../assets/screenshots/genshin/20250727133751.png?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/genshin/20250727133751.png?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/20250801174806.png?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/20250801174806.png?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/20250801204731.png?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/20250801204731.png?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -621,18 +611,13 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/20250803101547.png?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/20250803101547.png?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
             thumbnail: async () => (await import('../assets/screenshots/genshin/20250727133942.png?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/genshin/20250727133942.png?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/20250808165700.png?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/20250808165700.png?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/genshin/20250803101547.png?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/20250803101547.png?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -641,13 +626,33 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/20250809145644.png?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/20250809145644.png?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/genshin/20250808165700.png?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/20250808165700.png?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/20250809071957.png?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/20250809071957.png?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/20250801174806.png?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/20250801174806.png?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
             thumbnail: async () => (await import('../assets/screenshots/genshin/20250809151735.png?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/genshin/20250809151735.png?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/20250809145644.png?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/20250809145644.png?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/20250801204731.png?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/20250801204731.png?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -661,18 +666,13 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/Genshin Impact 4_12_2025 11_51_15 AM.png?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/Genshin Impact 4_12_2025 11_51_15 AM.png?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
             thumbnail: async () => (await import('../assets/screenshots/genshin/Genshin Impact 6_19_2025 19_13_59.png?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/genshin/Genshin Impact 6_19_2025 19_13_59.png?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/Genshin Impact 6_19_2025 21_41_12.png?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/Genshin Impact 6_19_2025 21_41_12.png?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/genshin/Genshin Impact 4_12_2025 11_51_15 AM.png?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/Genshin Impact 4_12_2025 11_51_15 AM.png?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -681,8 +681,8 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/20250809071957.png?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/20250809071957.png?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/genshin/Genshin Impact 6_19_2025 21_41_12.png?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/Genshin Impact 6_19_2025 21_41_12.png?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -691,8 +691,13 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/Genshin Impact 8_1_2025 18_58_38.png?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/Genshin Impact 8_1_2025 18_58_38.png?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/genshin/Genshin Impact 6_25_2025 17_21_22.png?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/Genshin Impact 6_25_2025 17_21_22.png?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/Genshin Impact 8_1_2025 21_44_02.png?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/Genshin Impact 8_1_2025 21_44_02.png?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -706,33 +711,8 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/Genshin Impact 8_1_2025 21_44_02.png?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/Genshin Impact 8_1_2025 21_44_02.png?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/Genshin Impact 8_6_2025 13_29_57.png?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/Genshin Impact 8_6_2025 13_29_57.png?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/Genshin Impact 6_25_2025 17_21_22.png?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/Genshin Impact 6_25_2025 17_21_22.png?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/Genshin Impact 8_8_2025 12_21_23.png?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/Genshin Impact 8_8_2025 12_21_23.png?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/Genshin Impact 8_8_2025 14_10_04.png?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/Genshin Impact 8_8_2025 14_10_04.png?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/Genshin Impact 8_9_2025 17_18_21.png?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/Genshin Impact 8_9_2025 17_18_21.png?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/genshin/Genshin Impact 8_1_2025 18_58_38.png?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/Genshin Impact 8_1_2025 18_58_38.png?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -741,9 +721,34 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/Genshin Impact 8_8_2025 14_10_04.png?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/Genshin Impact 8_8_2025 14_10_04.png?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/Genshin Impact 8_6_2025 13_29_57.png?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/Genshin Impact 8_6_2025 13_29_57.png?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/Genshin Impact 8_9_2025 17_18_21.png?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/Genshin Impact 8_9_2025 17_18_21.png?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/Genshin Impact 8_8_2025 12_21_23.png?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/Genshin Impact 8_8_2025 12_21_23.png?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
             thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250620170047_20250620170146-13 images.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250620170047_20250620170146-13 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 3.0946
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250620181004_20250620181109-17 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250620181004_20250620181109-17 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 2.4169
         },
 		{
             thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250620171844_20250620172145-20 images.jpg?enhanced&w=540;360&format=webp')).default,
@@ -756,9 +761,9 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 2.0190
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250721155944_20250721155949-2 images.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250721155944_20250721155949-2 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 2.6205
+            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250721162702_20250721162730-6 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250721162702_20250721162730-6 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7175
         },
 		{
             thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250719200012_20250719200145-20 images.jpg?enhanced&w=540;360&format=webp')).default,
@@ -766,14 +771,14 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.6646
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250620181004_20250620181109-17 images.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250620181004_20250620181109-17 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 2.4169
+            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250721155944_20250721155949-2 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250721155944_20250721155949-2 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 2.6205
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250721162702_20250721162730-6 images.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250721162702_20250721162730-6 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7175
+            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250721161505_20250721161613-6 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250721161505_20250721161613-6 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 2.5137
         },
 		{
             thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250723154431_20250723154537-11 images.jpg?enhanced&w=540;360&format=webp')).default,
@@ -791,9 +796,9 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7777
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250801201858_20250801201955-11 images.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250801201858_20250801201955-11 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 2.0912
+            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250809151942_20250809152432-37 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250809151942_20250809152432-37 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 0.9798
         },
 		{
             thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250809151942_20250809152321-33 images.jpg?enhanced&w=920;540;360&format=webp')).default,
@@ -801,34 +806,14 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 4.3861
         },
 		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250801201858_20250801201955-11 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250801201858_20250801201955-11 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 2.0912
+        },
+		{
             thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250803101052_20250803101151-15 images.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250803101052_20250803101151-15 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 2.2006
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250721161505_20250721161613-6 images.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250721161505_20250721161613-6 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 2.5137
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250809151942_20250809152432-37 images.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/[Group 0]-20250809151942_20250809152432-37 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 0.9798
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 1]-20250620170927_20250620171001-8 images.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/[Group 1]-20250620170927_20250620171001-8 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 2.0567
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 1]-20250727130917_20250727130948-8 images2.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/[Group 1]-20250727130917_20250727130948-8 images2.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 2.7033
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 1]-20250802191355_20250802191439-10 images.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/[Group 1]-20250802191355_20250802191439-10 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7812
         },
 		{
             thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 1]-20250725051145_20250725051746-26 images.jpg?enhanced&w=540;360&format=webp')).default,
@@ -836,14 +821,39 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 3.0193
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 1]-20250809071849_20250809071935-11 images.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/[Group 1]-20250809071849_20250809071935-11 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 2.3758
+            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 1]-20250620170927_20250620171001-8 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/[Group 1]-20250620170927_20250620171001-8 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 2.0567
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 1]-20250802191355_20250802191439-10 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/[Group 1]-20250802191355_20250802191439-10 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7812
         },
 		{
             thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 1]-20250621091201_20250621091347-15 images.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/genshin/[Group 1]-20250621091201_20250621091347-15 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.0000
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 1]-20250727130917_20250727130948-8 images2.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/[Group 1]-20250727130917_20250727130948-8 images2.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 2.7033
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 1]-20250809071849_20250809071935-11 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/[Group 1]-20250809071849_20250809071935-11 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 2.3758
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 2]-20250620194440_20250620194618-25 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/[Group 2]-20250620194440_20250620194618-25 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 2.2462
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 2]-20250808192641_20250808192732-11 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/[Group 2]-20250808192641_20250808192732-11 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7970
         },
 		{
             thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 2]-20250620172753_20250620172834-11 images.jpg?enhanced&w=540;360&format=webp')).default,
@@ -861,24 +871,14 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7229
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 2]-20250620194440_20250620194618-25 images.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/[Group 2]-20250620194440_20250620194618-25 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 2.2462
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 2]-20250808192641_20250808192732-11 images.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/[Group 2]-20250808192641_20250808192732-11 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7970
-        },
-		{
             thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 4]-20250620173912_20250620173953-12 images2.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/genshin/[Group 4]-20250620173912_20250620173953-12 images2.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.9447
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/enka2.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/enka2.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.0582
+            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 3]-20250809070657_20250809070721-6 images.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/[Group 3]-20250809070657_20250809070721-6 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.0095
         },
 		{
             thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 5]-20250620174840_20250620174958-22 images.jpg?enhanced&w=540;360&format=webp')).default,
@@ -886,9 +886,9 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.9695
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/genshin/[Group 3]-20250809070657_20250809070721-6 images.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/genshin/[Group 3]-20250809070657_20250809070721-6 images.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.0095
+            thumbnail: async () => (await import('../assets/screenshots/genshin/enka2.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/genshin/enka2.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.0582
         }
     ],
 	hfw: [
@@ -898,18 +898,18 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_1.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_1.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
             thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_10.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/hfw/2420110_10.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_101.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_101.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_1.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_1.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_100.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_100.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -923,23 +923,13 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_101.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_101.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
             thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_11.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/hfw/2420110_11.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_12.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_12.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_100.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_100.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_14.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_14.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -948,13 +938,18 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_16.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_16.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_12.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_12.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_18.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_18.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_14.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_14.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_16.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_16.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -963,13 +958,18 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_19.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_19.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_15.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_15.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_15.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_15.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_18.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_18.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_2.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_2.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -983,13 +983,13 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_23.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_23.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_19.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_19.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_25.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_25.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_23.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_23.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -998,8 +998,18 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_25.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_25.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
             thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_26.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/hfw/2420110_26.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_3.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_3.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -1008,13 +1018,8 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_2.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_2.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_3.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_3.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_30.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_30.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -1028,23 +1033,23 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_34.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_34.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
             thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_35.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/hfw/2420110_35.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_37.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_37.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_36.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_36.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_30.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_30.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_34.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_34.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_37.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_37.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -1058,8 +1063,8 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_36.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_36.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_4.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_4.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -1073,13 +1078,18 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_46.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_46.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_42.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_42.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_4.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_4.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_47.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_47.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_46.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_46.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -1093,23 +1103,8 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_42.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_42.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_5.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_5.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
             thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_50.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/hfw/2420110_50.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_47.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_47.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -1118,8 +1113,23 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_5.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_5.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
             thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_52.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/hfw/2420110_52.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_53.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_53.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_55.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_55.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -1133,8 +1143,8 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_53.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_53.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_57.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_57.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -1143,8 +1153,8 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_6.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_6.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_61.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_61.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -1153,23 +1163,13 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_55.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_55.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_57.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_57.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_6.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_6.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
             thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_63.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/hfw/2420110_63.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_61.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_61.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -1193,8 +1193,18 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_66.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_66.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
             thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_69.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/hfw/2420110_69.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_71.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_71.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -1208,16 +1218,6 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_71.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_71.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_66.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_66.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
             thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_72.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/hfw/2420110_72.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
@@ -1228,8 +1228,8 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_74.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_74.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_76.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_76.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -1238,13 +1238,8 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_76.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_76.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_77.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_77.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_74.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_74.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -1253,13 +1248,18 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_8.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_8.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_77.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_77.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
             thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_79.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/hfw/2420110_79.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_8.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_8.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -1288,6 +1288,11 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_87.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_87.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
             thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_85.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/hfw/2420110_85.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
@@ -1295,11 +1300,6 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
 		{
             thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_88.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/hfw/2420110_88.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_87.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_87.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -1323,18 +1323,23 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
             aspectRatio: 1.7778
         },
 		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_92.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_92.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
             thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_94.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/hfw/2420110_94.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_92.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_92.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
             thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_95.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/hfw/2420110_95.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
+            aspectRatio: 1.7778
+        },
+		{
+            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_96.jpg?enhanced&w=540;360&format=webp')).default,
+            full: async () => (await import('../assets/screenshots/hfw/2420110_96.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
@@ -1345,11 +1350,6 @@ export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> =
 		{
             thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_98.jpg?enhanced&w=540;360&format=webp')).default,
             full: async () => (await import('../assets/screenshots/hfw/2420110_98.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
-            aspectRatio: 1.7778
-        },
-		{
-            thumbnail: async () => (await import('../assets/screenshots/hfw/2420110_96.jpg?enhanced&w=540;360&format=webp')).default,
-            full: async () => (await import('../assets/screenshots/hfw/2420110_96.jpg?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: 1.7778
         },
 		{
