@@ -49,12 +49,14 @@ jobs:
           outputDir: 'data/'
       - name: Write Output
         run: |
+          pnpm update enka-network-api
           pnpm format:data
           pnpm run prefetch
           pnpm run aggregate
 
           git config --global user.email "no-reply@github.com"
           git config --global user.name "GitHub Actions"
+          git add pnpm-lock.yaml
           git add data/genshin_raw.ts
           git add src/assets/games/
           git add src/assets/profile_pictures/

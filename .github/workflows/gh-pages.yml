@@ -44,6 +44,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Build cache
+        run: pnpm screenshots
+
       - name: Build site
         run: pnpm run build
 
