@@ -40,6 +40,10 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+
+      - name: Update enka-network-api
+        run: pnpm update enka-network-api
+
       - name: Genshin Fetch
         id: genshin
         uses: quantum-pi/Action-GenshinAPI@v3.0.4
@@ -47,6 +51,7 @@ jobs:
           uuid: 605452914
           usage: 'QuantumPie.net Genshin profile display'
           outputDir: 'data/'
+
       - name: Write Output
         run: |
           pnpm update enka-network-api
