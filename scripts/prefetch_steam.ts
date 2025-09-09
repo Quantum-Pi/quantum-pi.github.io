@@ -1,6 +1,6 @@
 import { profile } from '../data/steam_raw';
 import { existsSync, writeFileSync } from 'fs';
-import { downloadImage, hash } from './lib';
+import { downloadImage, globalBrowser, hash } from './lib';
 import { Game, nonSteamGames } from '../data/non_steam';
 
 /**=====================*\
@@ -145,3 +145,8 @@ ${profilePicImports}
 `;
 
 writeFileSync('src/lib/cache.ts', cache);
+
+if (globalBrowser) {
+    await globalBrowser.close();
+	exit(0);
+}
