@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import sharp from 'sharp';
+import { exit } from 'process';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -15,12 +16,18 @@ const imageLib: Record<string, {
 }[]> = {};
 
 const getImageDimensions = async (filePath: string) => {
-    const metadata = await sharp(filePath).metadata();
-    return {
-        width: metadata.width!,
-        height: metadata.height!,
-        aspectRatio: metadata.width! / metadata.height!
-    };
+    try {
+        const metadata = await sharp(filePath, {limitInputPixels: false}).metadata();
+        return {
+            width: metadata.width!,
+            height: metadata.height!,
+            aspectRatio: metadata.width! / metadata.height!
+        };
+    } catch (e) {
+        console.error('Error processing file:', filePath);
+        console.error(e);
+        exit(1);    
+    }
 };
 
 await Promise.all(fs.readdirSync(BASE, {recursive: true}).map(async (file) => {

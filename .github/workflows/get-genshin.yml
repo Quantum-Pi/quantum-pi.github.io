@@ -40,6 +40,9 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+      
+      - name: Install chrome
+        run: npx puppeteer browsers install chrome
 
       - name: Update enka-network-api
         run: pnpm update enka-network-api

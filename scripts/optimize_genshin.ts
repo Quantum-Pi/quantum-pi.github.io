@@ -154,7 +154,13 @@ type GenshinArtifact = {
 	location?: string;
 };
 
-const mapArtifact = ({ mainStatKey, substats, setKey, slotKey, location }: Artifact[0]): GenshinArtifact => ({
+const mapArtifact = ({
+	mainStatKey,
+	substats,
+	setKey,
+	slotKey,
+	location
+}: Artifact[0]): GenshinArtifact => ({
 	mainStatKey,
 	substats: substats.sort(
 		(a, b) => (b.key.startsWith('crit') ? 1 : 0) - (a.key.startsWith('crit') ? 1 : 0)
@@ -289,13 +295,17 @@ const fullArtifacts: Record<string, GenshinArtifact[]> =
 			const isYellow = artifact.rarity === 5;
 			const isMax = artifact.level === 20;
 			return isYellow && isMax;
-		}).map(mapArtifact)
+		})
+		.map(mapArtifact)
 		.sort((a, b) => b.cv - a.cv)
-		.reduce((prev, current) => {
-			prev[current.setKey] ??= [];
-			prev[current.setKey].push(current);
-			return prev;
-		}, {} as Record<string, GenshinArtifact[]>) ?? {};
+		.reduce(
+			(prev, current) => {
+				prev[current.setKey] ??= [];
+				prev[current.setKey].push(current);
+				return prev;
+			},
+			{} as Record<string, GenshinArtifact[]>
+		) ?? {};
 
 const tsArtifacts = `
 /**

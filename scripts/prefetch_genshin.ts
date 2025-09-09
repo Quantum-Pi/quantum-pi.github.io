@@ -1,7 +1,7 @@
 import { genshinProfile } from '../data/genshin_raw';
 import good from '../data/good.json';
 import { existsSync, mkdirSync, writeFileSync } from 'fs';
-import { downloadImage, hash } from './lib';
+import { downloadImage, globalBrowser, hash } from './lib';
 import {
 	EnkaClient,
 	CharacterData,
@@ -10,6 +10,7 @@ import {
 	convertToGOODKey,
 	IArtifact
 } from 'enka-network-api';
+import { exit } from 'process';
 
 const enka = new EnkaClient({
 	userAgent: 'quantumpie.net Genshin icon caching',
@@ -75,11 +76,11 @@ if (genshinProfile.good.characters) {
 					}
 				})
 			].map(({ url, name }) => {
-				if (!url || url.length == 0) return null;
+				if (!url || url.length == 0) return Promise.resolve(null);
 				const link = url.replace('api.ambr.top', 'gi.yatta.moe');
 				// console.log(link);
 				const file = link.split('/').at(-1)?.replace(`_${c.key}`, '');
-				if (!file) return null;
+				if (!file) return Promise.resolve(null);
 				const path = `src/assets/genshin/characters/${c.key}/${file}`;
 				characterImgs.push({
 					character: c.key,
@@ -92,6 +93,7 @@ if (genshinProfile.good.characters) {
 					mkdirSync(path.split('/').slice(0, -1).join('/'), { recursive: true });
 					return downloadImage(link, path);
 				}
+				return Promise.resolve(null);
 			})
 		);
 		characterImgMap[c.key] = characterImgs;
@@ -175,11 +177,11 @@ if (genshinProfile.good.weapons) {
 				{ name: 'awakenIcon', url: weapon.awakenIcon.url },
 				{ name: 'splashImage', url: weapon.splashImage.url }
 			].map(({ url, name }) => {
-				if (!url || url.length == 0) return null;
+				if (!url || url.length == 0) return Promise.resolve(null);
 				const link = url.replace('api.ambr.top', 'gi.yatta.moe');
 				// console.log(link);
 				const file = link.split('/').at(-1)?.replace(`_${w.key}`, '');
-				if (!file) return null;
+				if (!file) return Promise.resolve(null);
 				const path = `src/assets/genshin/weapons/${w.key}/${file}`;
 				weaponImgs.push({
 					weapon: w.key,
@@ -192,6 +194,7 @@ if (genshinProfile.good.weapons) {
 					mkdirSync(path.split('/').slice(0, -1).join('/'), { recursive: true });
 					return downloadImage(link, path);
 				}
+				return Promise.resolve(null);
 			})
 		);
 		weaponImgMap[w.key] = weaponImgs;
@@ -269,12 +272,12 @@ if (genshinProfile.good.artifacts) {
 				{ name: 'sands', url: url.replace('$', '5') }
 			].map(({ url, name }) => {
 				// const link = url.split('_');
-				if (!url || url.length == 0) return null;
+				if (!url || url.length == 0) return Promise.resolve(null);
 				// link[link.length - 1] = '_$.png';
 				const link = url.replace('api.ambr.top', 'gi.yatta.moe');
 				// console.log(link);
 				const file = link.split('/').at(-1);
-				if (!file) return null;
+				if (!file) return Promise.resolve(null);
 				const path = `src/assets/genshin/artifacts/${a.setKey}/${file}`;
 				artifactImages.push({
 					artifact: a.setKey,
@@ -287,6 +290,7 @@ if (genshinProfile.good.artifacts) {
 					mkdirSync(path.split('/').slice(0, -1).join('/'), { recursive: true });
 					return downloadImage(link, path);
 				}
+				return Promise.resolve(null);
 			})
 		);
 		artifactImageMap[a.setKey] = artifactImages;
@@ -359,3 +363,8 @@ ${artifactImports}
 `;
 
 writeFileSync('src/lib/genshin_cache.ts', cache);
+
+if (globalBrowser) {
+    await globalBrowser.close();
+	exit(0);
+}
