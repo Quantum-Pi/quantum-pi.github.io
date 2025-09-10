@@ -10,35 +10,40 @@ const __dirname = path.dirname(__filename);
 const BASE = path.join(__dirname, '../src/assets/screenshots/');
 console.log('Screenshots directory:', BASE);
 
-const imageLib: Record<string, {
-    path: string;
-    aspectRatio: number;
-}[]> = {};
+const imageLib: Record<
+	string,
+	{
+		path: string;
+		aspectRatio: number;
+	}[]
+> = {};
 
 const getImageDimensions = async (filePath: string) => {
-    try {
-        const metadata = await sharp(filePath, {limitInputPixels: false}).metadata();
-        return {
-            width: metadata.width!,
-            height: metadata.height!,
-            aspectRatio: metadata.width! / metadata.height!
-        };
-    } catch (e) {
-        console.error('Error processing file:', filePath);
-        console.error(e);
-        exit(1);    
-    }
+	try {
+		const metadata = await sharp(filePath).metadata();
+		return {
+			width: metadata.width!,
+			height: metadata.height!,
+			aspectRatio: metadata.width! / metadata.height!
+		};
+	} catch (e) {
+		console.error('Error processing file:', filePath);
+		console.error(e);
+		exit(1);
+	}
 };
 
-await Promise.all(fs.readdirSync(BASE, {recursive: true}).map(async (file) => {
-    if (path.extname(file)) {
-        const game = path.basename(path.dirname(file));
-        const { aspectRatio } = await getImageDimensions(path.join(BASE, file));
-        imageLib[game] ??= [];
-        imageLib[game].push({ path: `../assets/screenshots/${file}`, aspectRatio });
-    }
-    return;
-}));
+await Promise.all(
+	fs.readdirSync(BASE, { recursive: true }).map(async (file) => {
+		if (path.extname(file)) {
+			const game = path.basename(path.dirname(file));
+			const { aspectRatio } = await getImageDimensions(path.join(BASE, file));
+			imageLib[game] ??= [];
+			imageLib[game].push({ path: `../assets/screenshots/${file}`, aspectRatio });
+		}
+		return;
+	})
+);
 
 console.log('Image library:', imageLib);
 
@@ -54,17 +59,26 @@ type Screenshot = {
     full: ScreenshotGetter;
     aspectRatio: number;
 };
-export type ScreenshotImageDictKey = ${Object.keys(imageLib).map((game) => `'${game}'`).join(' | ')};
-export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> = {${
-    Object.entries(imageLib).map(([game, images]) => {
-        return `\n\t${game}: [
-${images.map((image) => `\t\t{
+export type ScreenshotImageDictKey = ${Object.keys(imageLib)
+	.map((game) => `'${game}'`)
+	.join(' | ')};
+export const screenshotImageDict: Record<ScreenshotImageDictKey, Screenshot[]> = {${Object.entries(
+	imageLib
+)
+	.map(([game, images]) => {
+		return `\n\t${game}: [
+${images
+	.map(
+		(image) => `\t\t{
             thumbnail: async () => (await import('${image.path}?enhanced&w=${image.aspectRatio > 4 ? '920;' : ''}540;360&format=webp')).default,
             full: async () => (await import('${image.path}?enhanced&w=3840;2560;1920&format=jpg')).default,
             aspectRatio: ${image.aspectRatio.toFixed(4)}
-        }`).join(',\n')}
-    ]`
-    }).join(',')}
+        }`
+	)
+	.join(',\n')}
+    ]`;
+	})
+	.join(',')}
 } as const;`;
 
 fs.writeFileSync('src/lib/screenshot_agg.ts', ts);
