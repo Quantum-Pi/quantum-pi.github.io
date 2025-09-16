@@ -5,6 +5,7 @@
 	type Props = {
 		image: Promise<Picture>;
 		imageFull?: Promise<Picture>;
+		aspectRatio?: number;
 		ariaLabel: string;
 		skeletonDimension?: string;
 		thumbnailClass?: string;
@@ -12,7 +13,7 @@
 		previewSizes?: string;
 	};
 
-	let { image, imageFull, ariaLabel, thumbnailClass, thumbnailSizes, skeletonDimension, previewSizes = "(min-width:2160px) 2160px, (min-width:1440px) 1440px, (min-width:1080px) 1080px" }: Props = $props();
+	let { image, imageFull, ariaLabel, aspectRatio, thumbnailClass, thumbnailSizes, skeletonDimension, previewSizes = "(min-width:2160px) 2160px, (min-width:1440px) 1440px, (min-width:1080px) 1080px" }: Props = $props();
 </script>
 
 {#snippet preview()}
@@ -27,6 +28,7 @@
 <SkeletonImage 
 	preview={preview}
 	src={image}
+	aspectRatio={aspectRatio}
 	sizes={thumbnailSizes}
 	skeletonDimension={skeletonDimension}
 	class={thumbnailClass}

@@ -27,6 +27,7 @@
 					<SkeletonPreviewImage
 						image={image.thumbnail()}
 						imageFull={image.full()}
+						aspectRatio={image.aspectRatio}
 						ariaLabel={`${key} ${image}`}
 						thumbnailSizes={`(min-width:1440px) ${image.aspectRatio > 4 ? '920px' : '540px'}, (min-width:1080px) ${image.aspectRatio > 4 ? '540px' : '360px'}`}
 						thumbnailClass="w-full h-full rounded-md"
