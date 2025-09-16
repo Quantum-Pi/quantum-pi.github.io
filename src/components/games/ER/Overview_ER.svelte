@@ -8,13 +8,13 @@
 		<enhanced:img
 			src={BGDesktop}
 			sizes="(min-width:2700px) 3840px, (min-width:2100px) 2560px, (min-width:768px) 1800px"
-			alt="Background image"
+			alt="Background"
 			class="hidden md:block"
 		/>
 		<enhanced:img
 			src={BGMobile}
 			sizes="(min-width:1440px) 1600px, (min-width:1080px) 1280px, (min-width:750px) 640px"
-			alt="Background image"
+			alt="Background"
 			class="md:hidden"
 		/>
 	</div>

@@ -13,14 +13,14 @@
 		<enhanced:img
 			src={HeroDesktop}
 			sizes="(min-width:3000px) 3000px, (min-width:2560px) 2000px, (min-width:1920px) 1600px, (min-width:1080px) 1280px"
-			alt="Background image"
+			alt="Background"
 			class="text-gray-200 hidden md:block"
 			fetchpriority="high"
 		/>
 		<enhanced:img
 			src={HeroMobile}
 			sizes="(min-width:1440px) 1600px, (min-width:1080px) 1280px, (min-width:750px) 640px"
-			alt="Background image"
+			alt="Background"
 			class="text-gray-200 md:hidden"
 			fetchpriority="high"
 		/>
@@ -36,12 +36,3 @@
 		<div class="ml-2 text-6xl text-white">{profile.username}</div>
 	</div>
 </div>
-
-<style>
-	.background img {
-		position: relative;
-		object-fit: cover;
-		width: 100vw;
-		height: 102vh;
-	}
-</style>

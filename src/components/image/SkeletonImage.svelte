@@ -2,6 +2,7 @@
 	import type { Picture } from 'vite-imagetools';
 	import { globalState } from '../../state/state.svelte';
 	import type { Snippet } from 'svelte';
+	import { breakpoint } from '$lib/stores/breakpoint';
 
 	type Props = {
 		src: Promise<Picture>;
@@ -23,10 +24,13 @@
 		// const gapRatio = 0.0678; // gap/column ratio you measured
 		return (span + gap * gapRatio) * (16 / 9);
 	};
-	const getColSpan = (w: number, h: number): { colSpan: number; rowSpan: number; ratio: number } => {
+
+	const getColSpan = (w: number, h: number, currentBreakpoint: string): { colSpan: number; rowSpan: number; ratio: number } => {
 		const ratio = w / h;
 		const spanRatio = ((ratio / (16 / 9)));
-		const span = (((spanRatio - 1.0) / 0.25) + 1).toFixed(0)
+		const span = (((spanRatio - 1.0) / 0.25) + 1).toFixed(0);
+		const maxCols = currentBreakpoint === 'xl' ? 4 : currentBreakpoint === 'md' ? 3 : 2;
+		// console.log(this);
 		/**
 		 * 4 images, 3 gaps between them
 		 * 4-column span aspect ratio = (4 × column_width + 3 × gap) / column_height
@@ -38,21 +42,24 @@
 		 * (4 + 3 × 0.0678) × 16/9 = 4.2034 × 1.778 = 7.474
 		*/
 		if (ratio > 4) {
+			const colSpan = Math.min(maxCols, 4);
 			return {
-				colSpan: 4,
+				colSpan,
 				rowSpan: 1,
-				ratio: getRatio(4)
+				ratio: getRatio(colSpan)
 			}
 		}
 		if (ratio > 1.78) {
+			const colSpan = Math.min(maxCols, 2);
 			return {
-				colSpan: 2,
+				colSpan,
 				rowSpan: 1,
-				ratio: getRatio(2)
+				ratio: getRatio(colSpan)
 			}
 		} else if (Math.abs(1.0 - ratio) < 0.065) {
+			const colSpan = Math.min(maxCols, 2);
 			return {
-				colSpan: 2,
+				colSpan,
 				rowSpan: 2,
 				ratio: 1.69
 			}
@@ -86,7 +93,7 @@
     {@debug image, src}
     {/if}
 	{#if preview}
-		{@const { colSpan, rowSpan, ratio } = getColSpan(image.img.w, image.img.h)}
+		{@const { colSpan, rowSpan, ratio } = getColSpan(image.img.w, image.img.h, $breakpoint)}
 		<button onclick={() => (globalState.imagePreview = preview)} aria-label={ariaLabel} style={`grid-column: span ${colSpan}; grid-row: span ${rowSpan}; aspect-ratio: ${ratio}`}>
 			<enhanced:img src={image} aria-labelledby={ariaLabel} {sizes} {alt} class={`${className} object-cover`} />
 		</button>

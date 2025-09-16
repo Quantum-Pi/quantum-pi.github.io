@@ -17,7 +17,7 @@
     <enhanced:img
         src={image}
         sizes="(min-width:1440px) 1600px, (min-width:1080px) 1280px, (min-width:750px) 640px"
-        alt="Background image"
+        alt="Full resolution preview"
         class="w-auto max-h-[95vh]"
     />
 {/snippet}
@@ -27,7 +27,7 @@
         src={image}
         aria-labelledby={ariaLabel}
         sizes={sizes ?? "(min-width:1440px) 1600px, (min-width:1080px) 1280px, (min-width:750px) 640px"}
-        alt="Background image"
+        alt="Clickable preview"
         class={preivewClass}
     />
 </button>

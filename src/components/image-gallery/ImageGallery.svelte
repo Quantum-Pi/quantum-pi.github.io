@@ -8,8 +8,8 @@
 		hfw: 'Horizon Zero Dawn'
 	};
 	const keyToCols: Record<ScreenshotImageDictKey, { gallery: string; container: string }> = {
-		acs: { gallery: 'grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4', container: '' },
-		genshin: { gallery: 'grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4', container: '' },
+		acs: { gallery: 'grid-cols-2 md:grid-cols-3 xl:grid-cols-4', container: '' },
+		genshin: { gallery: 'grid-cols-2 md:grid-cols-3 xl:grid-cols-4', container: '' },
 		hfw: {
 			gallery: 'grid-cols-3 md:grid-cols-4 lg:grid-cols-6 2xl:grid-cols-8',
 			container: 'col-span-1 lg:col-span-2'

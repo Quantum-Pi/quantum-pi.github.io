@@ -13,12 +13,12 @@
 		>
 			<enhanced:img
 				src={TrialAchievements}
-				alt="Background image"
+				alt="ESO Trial Achievements"
 				class="w-[340px] sm:w-[400px] md:w-[550px]"
 			/>
 			<enhanced:img
 				src={DungeonAchievements}
-				alt="Background image"
+				alt="ESO Dungeon Achievements"
 				class="w-[360px] md:w-[400px]"
 			/>
 			<div class="md:col-span-2">
