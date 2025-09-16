@@ -1,0 +1,1 @@
+const e={sources:{webp:""+new URL("../assets/pano-globe-inn-compress.Cop98B4n.webp",import.meta.url).href+" 540w, "+new URL("../assets/pano-globe-inn-compress.C8P9De5W.webp",import.meta.url).href+" 360w"},img:{src:""+new URL("../assets/pano-globe-inn-compress.Cop98B4n.webp",import.meta.url).href,w:540,h:534}};export{e as default};

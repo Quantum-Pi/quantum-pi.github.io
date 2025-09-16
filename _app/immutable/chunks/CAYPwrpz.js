@@ -1,0 +1,1 @@
+const e={sources:{webp:""+new URL("../assets/UI_EquipIcon_Bow_Umpakati_Awaken.Dc2Y_A9z.webp",import.meta.url).href+" 128w, "+new URL("../assets/UI_EquipIcon_Bow_Umpakati_Awaken.BAHCJUoU.webp",import.meta.url).href+" 256w"},img:{src:""+new URL("../assets/UI_EquipIcon_Bow_Umpakati_Awaken.BAHCJUoU.webp",import.meta.url).href,w:256,h:256}};export{e as default};

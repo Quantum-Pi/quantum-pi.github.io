@@ -1,0 +1,1 @@
+const e={sources:{webp:""+new URL("../assets/pano-globe-shrine-compress.wRn95fqy.webp",import.meta.url).href+" 540w, "+new URL("../assets/pano-globe-shrine-compress.bSmNrb2w.webp",import.meta.url).href+" 360w"},img:{src:""+new URL("../assets/pano-globe-shrine-compress.wRn95fqy.webp",import.meta.url).href,w:540,h:540}};export{e as default};

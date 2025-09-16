@@ -1,0 +1,1 @@
+const o={sources:{webp:""+new URL("../assets/UI_EquipIcon_Bow_Qoyllorsnova.CVxBo7YZ.webp",import.meta.url).href+" 128w, "+new URL("../assets/UI_EquipIcon_Bow_Qoyllorsnova.CbETSimp.webp",import.meta.url).href+" 256w"},img:{src:""+new URL("../assets/UI_EquipIcon_Bow_Qoyllorsnova.CbETSimp.webp",import.meta.url).href,w:256,h:256}};export{o as default};

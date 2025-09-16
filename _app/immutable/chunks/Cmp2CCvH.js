@@ -1,0 +1,1 @@
+const e={sources:{webp:""+new URL("../assets/pano-globe-tea-compress.BwSI0KNS.webp",import.meta.url).href+" 540w, "+new URL("../assets/pano-globe-tea-compress.BSfJwqll.webp",import.meta.url).href+" 360w"},img:{src:""+new URL("../assets/pano-globe-tea-compress.BwSI0KNS.webp",import.meta.url).href,w:540,h:541}};export{e as default};

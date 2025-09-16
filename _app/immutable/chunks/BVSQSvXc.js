@@ -1,0 +1,1 @@
+const e={sources:{webp:""+new URL("../assets/pano-globe-dragons-compress.DV8E4JxE.webp",import.meta.url).href+" 540w, "+new URL("../assets/pano-globe-dragons-compress.C3qf34fw.webp",import.meta.url).href+" 360w"},img:{src:""+new URL("../assets/pano-globe-dragons-compress.DV8E4JxE.webp",import.meta.url).href,w:540,h:544}};export{e as default};
