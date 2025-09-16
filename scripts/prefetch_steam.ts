@@ -2,6 +2,7 @@ import { profile } from '../data/steam_raw';
 import { existsSync, writeFileSync } from 'fs';
 import { downloadImage, globalBrowser, hash } from './lib';
 import { Game, nonSteamGames } from '../data/non_steam';
+import { exit } from 'process';
 
 /**=====================*\
 |     Game Resources     |
@@ -10,7 +11,7 @@ import { Game, nonSteamGames } from '../data/non_steam';
 const heroImgs: { appId: number | string; path: string; hash: string }[] = [];
 const iconImgs: { appId: number | string; path: string; hash: string }[] = [];
 
-let games: Game[] = [...profile.games, ...nonSteamGames]
+let games: Game[] = [...profile.games, ...nonSteamGames];
 
 const gamePromises = await Promise.all(
 	games.map((game) => {
@@ -84,7 +85,7 @@ const heroImports = `${heroImgs
 	.join('\n')}
 
 const gameHeroDict: Record<string, Picture> = {
-${heroImgs.map((game) => typeof(game.appId) === "number" ? `\t[${game.appId}]: ${game.hash}` : `\t"${game.appId}": ${game.hash}`).join(',\n')}
+${heroImgs.map((game) => (typeof game.appId === 'number' ? `\t[${game.appId}]: ${game.hash}` : `\t"${game.appId}": ${game.hash}`)).join(',\n')}
 };
 
 const getGameHero = (appId: number | string) => {
@@ -103,7 +104,7 @@ const iconImports = `${iconImgs
 	.join('\n')}
 
 const gameIconDict: Record<string, Picture> = {
-${iconImgs.map((game) => typeof(game.appId) === "number" ? `\t[${game.appId}]: ${game.hash}` : `\t"${game.appId}": ${game.hash}`).join(',\n')}
+${iconImgs.map((game) => (typeof game.appId === 'number' ? `\t[${game.appId}]: ${game.hash}` : `\t"${game.appId}": ${game.hash}`)).join(',\n')}
 };
 
 const getGameIcon = (appId: number | string, icon_url: string | undefined) => {
@@ -147,6 +148,6 @@ ${profilePicImports}
 writeFileSync('src/lib/cache.ts', cache);
 
 if (globalBrowser) {
-    await globalBrowser.close();
+	await globalBrowser.close();
 	exit(0);
 }
