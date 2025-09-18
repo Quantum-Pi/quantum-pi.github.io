@@ -1,1 +1,0 @@
-const e={sources:{webp:""+new URL("../assets/UI_EquipIcon_Claymore_Mitsurugi_Awaken.kXDAUmzT.webp",import.meta.url).href+" 128w, "+new URL("../assets/UI_EquipIcon_Claymore_Mitsurugi_Awaken.DwC-4lLc.webp",import.meta.url).href+" 256w"},img:{src:""+new URL("../assets/UI_EquipIcon_Claymore_Mitsurugi_Awaken.DwC-4lLc.webp",import.meta.url).href,w:256,h:256}};export{e as default};

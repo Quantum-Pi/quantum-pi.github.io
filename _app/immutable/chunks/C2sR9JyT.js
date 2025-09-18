@@ -1,0 +1,1 @@
+const e={sources:{webp:""+new URL("../assets/UI_Gacha_EquipIcon_Pole_Everfrost.CNw1m0qn.webp",import.meta.url).href+" 256w, "+new URL("../assets/UI_Gacha_EquipIcon_Pole_Everfrost.BmQ1ny3t.webp",import.meta.url).href+" 512w"},img:{src:""+new URL("../assets/UI_Gacha_EquipIcon_Pole_Everfrost.BmQ1ny3t.webp",import.meta.url).href,w:512,h:1024}};export{e as default};

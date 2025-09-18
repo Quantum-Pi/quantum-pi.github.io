@@ -1,0 +1,1 @@
+const a={sources:{webp:""+new URL("../assets/UI_Gacha_EquipIcon_Bow_Arjuna.BMacnn-p.webp",import.meta.url).href+" 256w, "+new URL("../assets/UI_Gacha_EquipIcon_Bow_Arjuna.BaN8lRIU.webp",import.meta.url).href+" 512w"},img:{src:""+new URL("../assets/UI_Gacha_EquipIcon_Bow_Arjuna.BaN8lRIU.webp",import.meta.url).href,w:512,h:1024}};export{a as default};

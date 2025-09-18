@@ -1,0 +1,1 @@
+const s={sources:{webp:""+new URL("../assets/UI_Gacha_EquipIcon_Sword_Fossil.jf3JStEF.webp",import.meta.url).href+" 256w, "+new URL("../assets/UI_Gacha_EquipIcon_Sword_Fossil.BYBCd4J6.webp",import.meta.url).href+" 512w"},img:{src:""+new URL("../assets/UI_Gacha_EquipIcon_Sword_Fossil.BYBCd4J6.webp",import.meta.url).href,w:512,h:1024}};export{s as default};

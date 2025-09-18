@@ -1,0 +1,1 @@
+const a={sources:{webp:""+new URL("../assets/UI_Gacha_EquipIcon_Bow_Umpakati.D1A_plUp.webp",import.meta.url).href+" 256w, "+new URL("../assets/UI_Gacha_EquipIcon_Bow_Umpakati.Dw60jbS_.webp",import.meta.url).href+" 512w"},img:{src:""+new URL("../assets/UI_Gacha_EquipIcon_Bow_Umpakati.Dw60jbS_.webp",import.meta.url).href,w:512,h:1024}};export{a as default};

@@ -1,1 +1,0 @@
-const a={sources:{webp:""+new URL("../assets/UI_Gacha_EquipIcon_Sword_Sashimi.BSlmBlCb.webp",import.meta.url).href+" 256w, "+new URL("../assets/UI_Gacha_EquipIcon_Sword_Sashimi.CfB1mtNr.webp",import.meta.url).href+" 512w"},img:{src:""+new URL("../assets/UI_Gacha_EquipIcon_Sword_Sashimi.CfB1mtNr.webp",import.meta.url).href,w:512,h:1024}};export{a as default};
