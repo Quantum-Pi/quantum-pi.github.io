@@ -51,17 +51,25 @@ jobs:
         run: |
           echo "${{ steps.steam.outputs.json }}" > data/steam_raw.ts
           pnpm format:data
+          
+          git config --global user.email "no-reply@github.com"
+          git config --global user.name "GitHub Actions"
+          git add data/steam_raw.ts
+          git commit -m "Update steam profile info"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git push
+      - name: Aggregate Output
+        run: |
           pnpm run prefetch
           pnpm run aggregate
 
           git config --global user.email "no-reply@github.com"
           git config --global user.name "GitHub Actions"
-          git add data/steam_raw.ts
           git add src/lib/steam_agg.ts
           git add src/lib/cache.ts
           git add src/assets/games/
           git add src/assets/profile_pictures/
-          git commit -m "Update profile info"
+          git commit -m "Aggregate steam profile info"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git push
 
