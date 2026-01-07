@@ -2,7 +2,7 @@ name: Fetch Genshin Profile
 
 on:
   schedule:
-    - cron: '59 23 * * 1'
+    - cron: "59 23 * * 1"
   workflow_dispatch:
 
 jobs:
@@ -40,7 +40,7 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
-      
+
       - name: Install chrome
         run: npx puppeteer browsers install chrome
 
@@ -49,11 +49,11 @@ jobs:
 
       - name: Genshin Fetch
         id: genshin
-        uses: quantum-pi/Action-GenshinAPI@v3.0.4
+        uses: quantum-pi/Action-GenshinAPI@v3.0.6
         with:
           uuid: 605452914
-          usage: 'QuantumPie.net Genshin profile display'
-          outputDir: 'data/'
+          usage: "QuantumPie.net Genshin profile display"
+          outputDir: "data/"
 
       - name: Write Output
         run: |
