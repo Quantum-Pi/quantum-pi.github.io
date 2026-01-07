@@ -57,7 +57,6 @@ jobs:
 
       - name: Write Output
         run: |
-          pnpm update enka-network-api
           pnpm format:data
           pnpm run prefetch
           pnpm run aggregate
