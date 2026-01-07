@@ -50,6 +50,8 @@ async function downloadImage(url: string, path: string) {
         
         writeFileSync(path, buffer);
         console.log(`Successfully downloaded: ${url} -> ${path} (${buffer.length} bytes)`);
+    } catch (error) {
+        console.error(`Failed to download image from ${url}:`, error);
     } finally {
         await page.close();
     }
