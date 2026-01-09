@@ -8,20 +8,20 @@
 	const pfp = getProfilePicture(profile.avatar);
 </script>
 
-<div>
-	<div class="background">
+<div class="relative  overflow-hidden">
+	<div class="background ">
 		<enhanced:img
 			src={HeroDesktop}
 			sizes="(min-width:3000px) 3000px, (min-width:2560px) 2000px, (min-width:1920px) 1600px, (min-width:1080px) 1280px"
 			alt="Background"
-			class="text-gray-200 hidden md:block"
+			class="text-gray-200 hidden md:block object-cover h-screen "
 			fetchpriority="high"
 		/>
 		<enhanced:img
 			src={HeroMobile}
 			sizes="(min-width:1440px) 1600px, (min-width:1080px) 1280px, (min-width:750px) 640px"
 			alt="Background"
-			class="text-gray-200 md:hidden"
+			class="text-gray-200 md:hidden h-screen "
 			fetchpriority="high"
 		/>
 	</div>

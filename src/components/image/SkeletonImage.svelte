@@ -95,10 +95,10 @@
 	{#if preview}
 		{@const { colSpan, rowSpan, ratio } = getColSpan(image.img.w / image.img.h, $breakpoint)}
 		<button onclick={() => (globalState.imagePreview = preview)} aria-label={ariaLabel} style={`grid-column: span ${colSpan}; grid-row: span ${rowSpan}; aspect-ratio: ${ratio}`}>
-			<enhanced:img src={image} aria-labelledby={ariaLabel} {sizes} {alt} class={`${className} object-cover`} />
+			<enhanced:img src={image} aria-labelledby={ariaLabel} {sizes} {alt} class={`${className} object-cover`} loading="lazy" decoding="async" />
 		</button>
 	{:else}
-   		<enhanced:img src={image} aria-labelledby={ariaLabel} {sizes} {alt} class={className} />
+   		<enhanced:img src={image} aria-labelledby={ariaLabel} {sizes} {alt} class={className} loading="lazy" decoding="async" />
 	{/if}
 {/await}
 

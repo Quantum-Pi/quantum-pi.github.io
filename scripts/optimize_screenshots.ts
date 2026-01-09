@@ -71,7 +71,7 @@ ${images
 	.map(
 		(image) => `\t\t{
             thumbnail: async () => (await import('${image.path}?enhanced&w=${image.aspectRatio > 4 ? '920;' : ''}540;360&format=webp')).default,
-            full: async () => (await import('${image.path}?enhanced&w=3840;2560;1920&format=jpg')).default,
+            full: async () => (await import('${image.path}?enhanced&w=3840;2560;1920;1280&format=jpg')).default,
             aspectRatio: ${image.aspectRatio.toFixed(4)}
         }`
 	)

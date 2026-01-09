@@ -35,6 +35,8 @@
 				src={resources.icon}
 				sizes="(min-width: 256px) 256px"
 				alt={`con 0 icon`}
+				loading="lazy"
+				decoding="async"
 			/>
 			<div
 				class="cv flex justify-center items-center text-white rounded-tl-xs absolute bottom-0 right-0 text-xs"
@@ -50,6 +52,8 @@
 						src={resources.characterIcon}
 						sizes="(min-width: 256px) 256px"
 						alt={`con 0 icon`}
+						loading="lazy"
+						decoding="async"
 					/>
 				</div>
 			{/if}

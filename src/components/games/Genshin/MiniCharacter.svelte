@@ -43,6 +43,7 @@
 				sizes="(min-width: 256px) 256px"
 				alt={`con 0 icon`}
 				loading="lazy"
+				decoding="async"
 			/>
 			<div
 				class={`${character.constellation == 6 ? 'text-amber-300' : 'text-white'} constellation flex justify-center items-center rounded-tl-xs absolute bottom-0 right-0 text-xs`}

@@ -104,6 +104,8 @@
 					src={elementBGs[character.element ?? 'Hydro']}
 					sizes="(min-width: 1280px) 1280px"
 					alt={`Elemental background`}
+					loading="lazy"
+					decoding="async"
 				/>
 			</div>
 		</div>

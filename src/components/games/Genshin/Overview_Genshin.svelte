@@ -3,7 +3,7 @@
 	import BGMobile from '../../../assets/bg-eso-mobile.png?enhanced&w=1600;1280;640&blur=1.25&effort=max&fit=cover&format=webp';
 
 	import characters, { artifacts, weapons } from '$lib/genshin_agg';
-	import CharacterCard from './CharacterCard/CharacterCard.svelte';
+	import LazyCharacterCard from './CharacterCard/LazyCharacterCard.svelte';
 	import MiniCharacter from './MiniCharacter.svelte';
 	import type { GenshinCharacter, GenshinWeapon } from '$lib/genshin_agg';
 	import MiniWeapon from './MiniWeapon.svelte';
@@ -100,7 +100,7 @@
 	<div class="character-grid w-[90%] sm:w-[95%] h-full grid gap-y-8 grid-cols-1">
 		{#each characters as c}
 			{#if c.key === 'Yelan' || c.key === 'Arlecchino' || c.key === 'Xiao' || c.key === 'Furina'}
-				<CharacterCard character={c} />
+				<LazyCharacterCard character={c} />
 			{/if}
 		{/each}
 	</div>

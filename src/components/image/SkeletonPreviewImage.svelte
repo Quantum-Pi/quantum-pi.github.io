@@ -13,7 +13,7 @@
 		previewSizes?: string;
 	};
 
-	let { image, imageFull, ariaLabel, aspectRatio, thumbnailClass, thumbnailSizes, skeletonDimension, previewSizes = "(min-width:2160px) 2160px, (min-width:1440px) 1440px, (min-width:1080px) 1080px" }: Props = $props();
+	let { image, imageFull, ariaLabel, aspectRatio, thumbnailClass, thumbnailSizes, skeletonDimension, previewSizes = "(min-width:2560px) 2560px, (min-width:1920px) 1920px, (min-width:1280px) 1280px, 1080px" }: Props = $props();
 </script>
 
 {#snippet preview()}

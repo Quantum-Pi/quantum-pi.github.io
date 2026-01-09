@@ -30,6 +30,7 @@
 				sizes="(min-width: 256px) 256px"
 				alt={`con 0 icon`}
 				loading="lazy"
+				decoding="async"
 			/>
 			{#if resources.characterIcon}
 				<div
@@ -41,6 +42,7 @@
 						sizes="(min-width: 256px) 256px"
 						alt={`con 0 icon`}
 						loading="lazy"
+						decoding="async"
 					/>
 				</div>
 			{/if}
