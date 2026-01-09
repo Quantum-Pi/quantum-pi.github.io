@@ -130,8 +130,9 @@ type GenshinWeapon = {
 };
 
 const weapons: GenshinWeapon[] =
-	good.weapons?.map((weapon) => {
+	good.weapons?.flatMap((weapon) => {
 		const weaponData = genshinProfile.weapons[weapon.key];
+		if (!weaponData) return [];
 		return {
 			key: weapon.key,
 			level: weapon.level,

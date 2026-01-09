@@ -176,24 +176,30 @@ if (genshinProfile.good.weapons) {
 				{ name: 'baseIocn', url: weapon.icon.url },
 				{ name: 'awakenIcon', url: weapon.awakenIcon.url },
 				{ name: 'splashImage', url: weapon.splashImage.url }
-			].map(({ url, name }) => {
+			].map(async ({ url, name }) => {
 				if (!url || url.length == 0) return Promise.resolve(null);
 				const link = url.replace('api.ambr.top', 'gi.yatta.moe');
 				// console.log(link);
 				const file = link.split('/').at(-1)?.replace(`_${w.key}`, '');
 				if (!file) return Promise.resolve(null);
 				const path = `src/assets/genshin/weapons/${w.key}/${file}`;
-				weaponImgs.push({
+
+				const weaponImg = {
 					weapon: w.key,
 					file: `${w.key}/${file.replace('.png', '')}`,
 					path,
 					name,
 					hash: hash()
-				});
+				}
 				if (!existsSync(path)) {
 					mkdirSync(path.split('/').slice(0, -1).join('/'), { recursive: true });
-					return downloadImage(link, path);
+					const result = await downloadImage(link, path);
+					if (result) {
+						weaponImgs.push(weaponImg);
+					}
+					return result;
 				}
+				weaponImgs.push(weaponImg);
 				return Promise.resolve(null);
 			})
 		);
