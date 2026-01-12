@@ -55,9 +55,14 @@
 >
 	<header>
 		{#if isEnhancedImage(bannerImg)}
-			<enhanced:img src={bannerImg} fetchpriority="high" alt={`${game.name} header image`} />
+			<enhanced:img
+				src={bannerImg}
+				fetchpriority="high"
+				loading="eager"
+				alt={`${game.name} header image`}
+			/>
 		{:else}
-			<img src={bannerImg} alt={`${game.name} header image`} />
+			<img src={bannerImg} fetchpriority="high" loading="eager" alt={`${game.name} header image`} />
 		{/if}
 	</header>
 	<div class="p-4 space-y-4 h-full flex flex-col justify-between">
@@ -106,9 +111,21 @@
 	<footer class="flex items-center space-x-4 p-2">
 		<div class="game-icon">
 			{#if isEnhancedImage(iconImg)}
-				<enhanced:img src={iconImg} alt={`${game.name} icon`} class="w-[32px]" />
+				<enhanced:img
+					src={iconImg}
+					alt={`${game.name} icon`}
+					class="w-[32px]"
+					fetchpriority="high"
+					loading="eager"
+				/>
 			{:else}
-				<img src={iconImg} alt={`${game.name} icon`} class="w-[32px]" />
+				<img
+					src={iconImg}
+					alt={`${game.name} icon`}
+					class="w-[32px]"
+					fetchpriority="high"
+					loading="eager"
+				/>
 			{/if}
 		</div>
 		{#if game.last_played}

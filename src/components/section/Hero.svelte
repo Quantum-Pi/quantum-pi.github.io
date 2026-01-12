@@ -8,30 +8,44 @@
 	const pfp = getProfilePicture(profile.avatar);
 </script>
 
-<div class="relative  overflow-hidden">
-	<div class="background ">
+<div class="relative overflow-hidden">
+	<div class="background">
 		<enhanced:img
 			src={HeroDesktop}
 			sizes="(min-width:3000px) 3000px, (min-width:2560px) 2000px, (min-width:1920px) 1600px, (min-width:1080px) 1280px"
 			alt="Background"
-			class="text-gray-200 hidden md:block object-cover h-screen "
+			class="text-gray-200 hidden md:block object-cover h-screen"
 			fetchpriority="high"
+			loading="eager"
 		/>
 		<enhanced:img
 			src={HeroMobile}
 			sizes="(min-width:1440px) 1600px, (min-width:1080px) 1280px, (min-width:750px) 640px"
 			alt="Background"
-			class="text-gray-200 md:hidden h-screen "
+			class="text-gray-200 md:hidden h-screen"
 			fetchpriority="high"
+			loading="eager"
 		/>
 	</div>
 	<div
 		class="absolute top-0 left-0 w-full h-screen flex justify-center items-center flex-col sm:flex-row"
 	>
 		{#if isEnhancedImage(pfp)}
-			<enhanced:img src={pfp} alt="pfp" class="rounded-full w-[184px] border-black border-4" />
+			<enhanced:img
+				src={pfp}
+				alt="pfp"
+				class="rounded-full w-[184px] border-black border-4"
+				fetchpriority="high"
+				loading="eager"
+			/>
 		{:else}
-			<img src={pfp} alt="pfp" class="rounded-full w-[184px] border-black border-4" />
+			<img
+				src={pfp}
+				alt="pfp"
+				class="rounded-full w-[184px] border-black border-4"
+				fetchpriority="high"
+				loading="eager"
+			/>
 		{/if}
 		<div class="ml-2 text-6xl text-white">{profile.username}</div>
 	</div>
