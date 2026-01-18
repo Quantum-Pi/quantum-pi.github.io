@@ -1,0 +1,1 @@
+const o={sources:{webp:""+new URL("../assets/UI_Gacha_EquipIcon_Pole_Proto.BRRS82uk.webp",import.meta.url).href+" 256w, "+new URL("../assets/UI_Gacha_EquipIcon_Pole_Proto.B-t9DUio.webp",import.meta.url).href+" 512w"},img:{src:""+new URL("../assets/UI_Gacha_EquipIcon_Pole_Proto.B-t9DUio.webp",import.meta.url).href,w:512,h:1024}};export{o as default};
